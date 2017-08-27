@@ -46,6 +46,10 @@
     <Tooltip>Counters: 1.25× vs Chariots, 1.5× vs Cavalry, 1.75× vs Camels, 2.0× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Pike</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>0</metal>
+    <wood>5</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Speed>12</Speed>

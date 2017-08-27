@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_hoplite">
+  <Armour>
+    <Crush op="add">1</Crush>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush op="mul">1.15</Crush>
+      <Hack op="mul">1.15</Hack>
+      <Pierce op="mul">1.15</Pierce>
+    </Melee>
+  </Attack>
   <Cost>
     <BuildTime op="mul">0.8</BuildTime>
     <Resources>
-      <food op="add">-15</food>
-      <metal op="add">15</metal>
+      <metal op="add">20</metal>
     </Resources>
   </Cost>
   <Identity>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal op="add">2</metal>
+    <xp op="add">20</xp>
+  </Loot>
   <ResourceGatherer>
     <Rates>
       <food.grain disable=""/>

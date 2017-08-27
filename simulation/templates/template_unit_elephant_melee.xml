@@ -38,10 +38,9 @@
 Penalties: 0.25× vs Structures.</Tooltip>
   </Identity>
   <Loot>
-    <food>30</food>
     <metal>20</metal>
     <stone>0</stone>
     <wood>10</wood>
-    <xp>600</xp>
+    <xp op="add">300</xp>
   </Loot>
 </Entity>

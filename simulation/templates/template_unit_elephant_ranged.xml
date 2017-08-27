@@ -18,11 +18,4 @@
     <GenericName>Ranged War Elephant</GenericName>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>500</xp>
-    <food>30</food>
-    <wood>10</wood>
-    <stone>0</stone>
-    <metal>10</metal>
-  </Loot>
 </Entity>

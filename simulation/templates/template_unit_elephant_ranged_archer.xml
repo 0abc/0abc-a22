@@ -43,4 +43,9 @@ Counters: 1.5× vs Camels.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>10</metal>
+    <wood>10</wood>
+    <xp op="add">200</xp>
+  </Loot>
 </Entity>

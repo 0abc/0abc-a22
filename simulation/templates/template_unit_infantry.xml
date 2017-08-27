@@ -29,9 +29,10 @@
       structures/{civ}_barracks
       structures/{civ}_temple
       other/wallset_palisade
-      structures/{civ}_wallset_stone
       structures/{civ}_outpost
+      structures/{civ}_wallset_town
       structures/{civ}_sentry_tower
+      structures/{civ}_wallset_city
       structures/{civ}_defense_tower
       structures/{civ}_fortress
       structures/{civ}_wonder
@@ -57,11 +58,11 @@
     <VisibleClasses datatype="tokens">Citizen Infantry Soldier Worker</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>100</xp>
     <food>5</food>
-    <wood>5</wood>
-    <stone>0</stone>
     <metal>0</metal>
+    <stone>0</stone>
+    <wood>0</wood>
+    <xp>100</xp>
   </Loot>
   <Promotion>
     <RequiredXp>100</RequiredXp>

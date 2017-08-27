@@ -38,6 +38,10 @@
 Penalties: 0.25× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Sling</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>1</metal>
+    <wood>4</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Speed>20</Speed>

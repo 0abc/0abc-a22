@@ -28,7 +28,7 @@
     <metal>10</metal>
     <stone>0</stone>
     <wood>0</wood>
-    <xp>30</xp>
+    <xp>15</xp>
   </Loot>
   <Promotion>
     <RequiredXp>75</RequiredXp>

@@ -40,6 +40,10 @@
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>1</metal>
+    <wood>4</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Range>1500.0</Range>

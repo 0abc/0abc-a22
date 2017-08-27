@@ -5,11 +5,11 @@
      (to be overridden by child templates). -->
 <Entity>
   <Identity>
-    <Icon>structures/wall.png</Icon>
     <Classes datatype="tokens">StoneWall</Classes>
     <GenericName>City Wall</GenericName>
-    <Tooltip>Wall off your town for a stout defense.</Tooltip>
+    <Icon>structures/wall.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Wall off your town for a stout defense.</Tooltip>
   </Identity>
   <WallSet>
     <MaxTowerOverlap>0.85</MaxTowerOverlap>

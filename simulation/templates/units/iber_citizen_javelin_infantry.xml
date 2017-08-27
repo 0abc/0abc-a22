@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_javelin">
   <Builder>
     <Entities datatype="tokens">
+      -structures/{civ}_wallset_town
       structures/iber_monument
     </Entities>
   </Builder>

@@ -17,9 +17,6 @@
       formations/skirmish
     </Formations>
   </Identity>
-  <Loot>
-    <wood>5</wood>
-  </Loot>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

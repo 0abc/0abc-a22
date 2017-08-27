@@ -34,6 +34,10 @@
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Lance</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>4</metal>
+    <wood>1</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Range>600.0</Range>

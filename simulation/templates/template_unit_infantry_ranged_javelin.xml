@@ -33,6 +33,10 @@
     <Tooltip>Counters: 1.25× vs all Archers.</Tooltip>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>0</metal>
+    <wood>5</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Speed>22</Speed>

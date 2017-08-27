@@ -38,8 +38,8 @@
     <VisibleClasses datatype="tokens">Mace</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>5</metal>
-    <wood>0</wood>
+    <metal>2</metal>
+    <wood>3</wood>
   </Loot>
   <UnitMotion>
     <Run>

@@ -34,8 +34,8 @@
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>5</metal>
-    <wood>0</wood>
+    <metal>3</metal>
+    <wood>2</wood>
   </Loot>
   <UnitMotion>
     <Run>

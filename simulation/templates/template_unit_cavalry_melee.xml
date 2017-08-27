@@ -24,9 +24,6 @@
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
   </Attack>
-  <Loot>
-    <metal>5</metal>
-  </Loot>
   <Identity>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <GenericName>Melee Cavalry</GenericName>

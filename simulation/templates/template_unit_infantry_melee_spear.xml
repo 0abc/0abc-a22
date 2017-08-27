@@ -31,6 +31,10 @@
     <Tooltip>Counters: 1.25× vs Skirmishers (cavalry and infantry javelinists).</Tooltip>
     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>1</metal>
+    <wood>4</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Speed>15</Speed>

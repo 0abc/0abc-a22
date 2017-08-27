@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/rome/champion_sword_infantry_2">
+  <Identity>
+    <Rank>3</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/rome/champion_sword_infantry_4</Entity>
+  </Promotion>
+</Entity>

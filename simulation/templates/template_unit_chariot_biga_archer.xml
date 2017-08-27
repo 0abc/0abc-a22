@@ -36,4 +36,8 @@ Counters: 1.5× vs Infantry Macemen.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>3</metal>
+    <wood>7</wood>
+  </Loot>
 </Entity>

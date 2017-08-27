@@ -43,6 +43,10 @@
 0.5× vs Elephants, Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Crossbow</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>3</metal>
+    <wood>2</wood>
+  </Loot>
   <Sound>
     <SoundGroups>
       <attack_impact>attack/impact/arrow_metal.xml</attack_impact>

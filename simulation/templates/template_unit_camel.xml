@@ -38,11 +38,11 @@
     <VisibleClasses datatype="tokens">Camel Citizen Soldier</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>140</xp>
-    <food>10</food>
-    <metal>0</metal>
+    <food>9</food>
+    <metal>1</metal>
     <stone>0</stone>
-    <wood>5</wood>
+    <wood>4</wood>
+    <xp>140</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

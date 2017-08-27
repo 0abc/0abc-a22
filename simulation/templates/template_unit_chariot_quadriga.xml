@@ -33,9 +33,9 @@
   </Identity>
   <Loot>
     <food>30</food>
-    <metal>5</metal>
+    <metal>0</metal>
     <stone>0</stone>
-    <wood>10</wood>
+    <wood>0</wood>
     <xp>450</xp>
   </Loot>
   <Position>

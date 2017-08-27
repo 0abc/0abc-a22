@@ -36,4 +36,8 @@ Counters: 1.5× vs Infantry Swordsmen.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>2</metal>
+    <wood>8</wood>
+  </Loot>
 </Entity>

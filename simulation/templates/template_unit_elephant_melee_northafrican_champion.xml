@@ -37,6 +37,9 @@
     <wood op="add">5</wood>
     <xp op="add">150</xp>
   </Loot>
+  <Promotion>
+    <RequiredXp op="mul">2.0</RequiredXp>
+  </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>

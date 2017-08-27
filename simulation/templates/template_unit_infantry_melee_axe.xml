@@ -36,10 +36,14 @@
     <Tooltip>Counters: 1.5× vs Siege weapons, 2.0× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Axe</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>2</metal>
+    <wood>3</wood>
+  </Loot>
   <UnitMotion>
     <Run>
-      <Speed>15</Speed>
+      <Speed>16</Speed>
     </Run>
-    <WalkSpeed>11</WalkSpeed>
+    <WalkSpeed>12</WalkSpeed>
   </UnitMotion>
 </Entity>

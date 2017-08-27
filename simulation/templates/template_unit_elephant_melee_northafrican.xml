@@ -20,6 +20,7 @@
   </Identity>
   <Loot>
     <metal op="add">-5</metal>
+    <wood op="add">-2</wood>
     <xp op="add">-75</xp>
   </Loot>
 </Entity>

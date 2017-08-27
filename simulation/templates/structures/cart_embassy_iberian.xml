@@ -20,7 +20,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/mercenary_balearic_slinger
-      units/mercenary_iberian_infantry
+      units/mercenary_iberian_skirmisher
       units/mercenary_iberian_cavalry
     </Entities>
   </ProductionQueue>

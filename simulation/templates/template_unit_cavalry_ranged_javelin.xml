@@ -35,6 +35,10 @@
     <GenericName>Cavalry Skirmisher</GenericName>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>1</metal>
+    <wood>4</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Range>1200.0</Range>

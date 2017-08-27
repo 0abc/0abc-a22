@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wallset_town">
+  <Identity>
+    <Civ>rome</Civ>
+    <SpecificName>Murus Latericius</SpecificName>
+    <Tooltip>A wooden and turf palisade buildable in enemy and neutral territories.</Tooltip>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/rome_town_wall_tower</Tower>
+      <Gate>structures/rome_town_wall_gate</Gate>
+      <WallLong>structures/rome_town_wall_long</WallLong>
+      <WallMedium>structures/rome_town_wall_medium</WallMedium>
+      <WallShort>structures/rome_town_wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

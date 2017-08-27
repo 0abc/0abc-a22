@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit_citizen_sling_infantry">
+  <Identity>
+    <Rank>1</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/brit/citizen_sling_infantry_2</Entity>
+  </Promotion>
+</Entity>

@@ -12,6 +12,6 @@
     <Entity>units/mercenaries/greek_hoplite_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/spartans/infantry_spearman_a.xml</Actor>
+    <Actor>units/athenians/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

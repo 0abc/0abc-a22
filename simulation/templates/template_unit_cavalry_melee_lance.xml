@@ -34,6 +34,10 @@
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>3</metal>
+    <wood>2</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Range>700.0</Range>

@@ -33,6 +33,10 @@
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>2</metal>
+    <wood>3</wood>
+  </Loot>
   <UnitMotion>
     <Run>
       <Range>800.0</Range>

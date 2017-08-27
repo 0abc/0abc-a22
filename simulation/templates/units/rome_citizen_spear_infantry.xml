@@ -9,9 +9,8 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      structures/rome_temple_vesta
       structures/rome_army_camp
-      structures/rome_wallset_siege
+      structures/rome_temple_vesta
     </Entities>
   </Builder>
   <Cost>
@@ -30,8 +29,8 @@
     <Icon>units/rome_infantry_swordsman.png</Icon>
   </Identity>
   <Loot>
-    <metal>5</metal>
-    <wood>0</wood>
+    <metal>2</metal>
+    <wood>3</wood>
   </Loot>
   <Promotion>
     <Entity>units/rome/citizen_spear_infantry_1</Entity>

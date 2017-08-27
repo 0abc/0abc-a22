@@ -38,6 +38,10 @@
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal>1</metal>
+    <wood>4</wood>
+  </Loot>
   <Sound>
     <SoundGroups>
       <attack_impact>attack/impact/arrow_metal.xml</attack_impact>

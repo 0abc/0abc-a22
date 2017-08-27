@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/iber/citizen_javelin_infantry_3">
+  <Identity>
+    <Rank>4</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/iber/citizen_javelin_infantry_4</Entity>
+  </Promotion>
+</Entity>

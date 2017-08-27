@@ -41,6 +41,13 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Elephant Citizen Soldier</VisibleClasses>
   </Identity>
+  <Loot>
+    <food>30</food>
+    <metal>0</metal>
+    <stone>0</stone>
+    <wood>0</wood>
+    <xp>300</xp>
+  </Loot>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>

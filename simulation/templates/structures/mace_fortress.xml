@@ -14,7 +14,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_pike_infantry
+      units/{civ}_champion_spear_infantry
       units/{civ}_champion_lance_cavalry
       -units/{civ}_mechanical_siege_ballista_packed
       -units/{civ}_mechanical_siege_scorpio_packed

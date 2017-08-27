@@ -11,14 +11,14 @@
   </Builder>
   <Identity>
     <Civ>ptol</Civ>
-    <SelectionGroupName>units/ptol_infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/ptol_citizen_sling_infantry</SelectionGroupName>
     <GenericName>Judean Slinger</GenericName>
     <SpecificName>Hebraikós Sphendonḗtēs</SpecificName>
     <Icon>units/athen_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/ptol_infantry_slinger_a</Entity>
+    <Entity>units/ptol/citizen_sling_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/macedonians/infantry_slinger_b.xml</Actor>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/mercenaries/italic_spear_cavalry_4">
-  <Identity>
-    <Rank>5</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/mercenaries/italic_spear_cavalry_6</Entity>
-  </Promotion>
-</Entity>

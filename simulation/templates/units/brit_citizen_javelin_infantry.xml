@@ -5,18 +5,17 @@
       structures/brit_crannog
       structures/brit_kennel
       structures/brit_rotarymill
-      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Identity>
     <Civ>brit</Civ>
-    <SelectionGroupName>units/brit_infantry_javelinist_b</SelectionGroupName>
-    <SpecificName>Baguada</SpecificName>
     <Icon>units/celt_infantry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/brit_citizen_javelin_infantry</SelectionGroupName>
+    <SpecificName>Baguada</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/brit_infantry_javelinist_a</Entity>
+    <Entity>units/brit/citizen_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/celts/infantry_javelinist_b.xml</Actor>

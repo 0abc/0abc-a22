@@ -2,11 +2,15 @@
 <Entity parent="template_unit_infantry_melee_pike_champion">
   <Identity>
     <Civ>spart</Civ>
-    <Lang>greek</Lang>
     <GenericName>Spartan Pikeman</GenericName>
-    <SpecificName>Phalangites Spartiatis</SpecificName>
     <Icon>units/spart_champion_infantry_pike.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/spart_champion_pike_infantry</SelectionGroupName>
+    <SpecificName>Phalangites Spartiatis</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/spart/champion_pike_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/spartans/champion_pikeman.xml</Actor>
   </VisualActor>

@@ -19,6 +19,9 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
+  <Promotion>
+    <Entity>units/mercenaries/thorakites_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/macedonians/thorakites.xml</Actor>
   </VisualActor>

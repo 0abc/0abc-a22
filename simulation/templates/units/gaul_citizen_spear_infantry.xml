@@ -8,12 +8,12 @@
   </Builder>
   <Identity>
     <Civ>gaul</Civ>
-    <SelectionGroupName>units/gaul_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/gaul_citizen_spear_infantry</SelectionGroupName>
     <SpecificName>Gaeroa</SpecificName>
     <Icon>units/celt_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/gaul_infantry_spearman_a</Entity>
+    <Entity>units/gaul/citizen_spear_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/celts/infantry_spearman_b.xml</Actor>

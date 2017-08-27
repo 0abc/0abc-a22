@@ -2,24 +2,22 @@
 <Entity parent="template_unit_infantry_melee_hoplite">
   <Builder>
     <Entities datatype="tokens">
-      -other/wallset_palisade
+      structures/rome_temple_vesta
       structures/rome_army_camp
       structures/rome_wallset_siege
-      structures/rome_temple_vesta
-      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Identity>
     <Civ>rome</Civ>
-    <Lang>latin</Lang>
-    <SelectionGroupName>units/rome_infantry_hoplite_b</SelectionGroupName>
     <GenericName>Veteran Spearman</GenericName>
-    <SpecificName>Triarius</SpecificName>
     <Icon>units/rome_infantry_spearman.png</Icon>
+    <Lang>latin</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/rome_citizen_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Triarius</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/rome_infantry_hoplite_a</Entity>
+    <Entity>units/rome/citizen_hoplite_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/romans/infantry_spearman_b.xml</Actor>

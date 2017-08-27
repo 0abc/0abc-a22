@@ -11,14 +11,13 @@
   </Builder>
   <Identity>
     <Civ>ptol</Civ>
-    <SelectionGroupName>units/ptol_infantry_spearman_b</SelectionGroupName>
     <GenericName>Mercenary Thureos Spearman</GenericName>
-    <SpecificName>Thureophóros Misthophóros</SpecificName>
     <Icon>units/ptol_infantry_spearman_2.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/ptol_mercenary_spear_infantry</SelectionGroupName>
+    <SpecificName>Thureophóros Misthophóros</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/ptol_infantry_spearman_a</Entity>
+    <Entity>units/ptol/mercenary_spear_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/ptolemies/infantry_spearman_2_b.xml</Actor>

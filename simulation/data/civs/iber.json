@@ -92,19 +92,19 @@
 			"Template": "structures/iber_civil_centre"
 		},
 		{
-			"Template": "units/iber_support_female_citizen",
+			"Template": "units/iber_support_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/iber_infantry_swordsman_b",
+			"Template": "units/iber_citizen_sword_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/iber_infantry_javelinist_b",
+			"Template": "units/iber_citizen_sword_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/iber_cavalry_javelinist_b",
+			"Template": "units/iber_citizen_javelin_cavalry",
 			"Count": 1
 		}
 	],

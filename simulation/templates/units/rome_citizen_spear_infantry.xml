@@ -9,11 +9,9 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      -other/wallset_palisade
+      structures/rome_temple_vesta
       structures/rome_army_camp
       structures/rome_wallset_siege
-      structures/rome_temple_vesta
-      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Cost>
@@ -25,7 +23,7 @@
   <Identity>
     <Civ>rome</Civ>
     <Lang>latin</Lang>
-    <SelectionGroupName>units/rome_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/rome_citizen_spear_infantry</SelectionGroupName>
     <GenericName>Young Swordsman</GenericName>
     <SpecificName>Hastatus</SpecificName>
     <VisibleClasses datatype="tokens">Sword -Spear</VisibleClasses>
@@ -36,7 +34,7 @@
     <wood>0</wood>
   </Loot>
   <Promotion>
-    <Entity>units/rome_infantry_spearman_a</Entity>
+    <Entity>units/rome/citizen_spear_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/romans/infantry_swordsman_b.xml</Actor>

@@ -3,10 +3,13 @@
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Warrior</GenericName>
+    <SelectionGroupName>units/maur_champion_mace_infantry</SelectionGroupName>
     <SpecificName>Yōddha</SpecificName>
-    <SelectionGroupName>units/maur_champion_infantry</SelectionGroupName>
     <Icon>units/maur_champion_maceman.png</Icon>
   </Identity>
+  <Promotion>
+    <Entity>units/maur/champion_mace_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/mauryans/champion_maceman.xml</Actor>
   </VisualActor>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_sling">
-  <Attack>
-    <Ranged>
-      <MaxRange>48</MaxRange>
-    </Ranged>
-  </Attack>
+<Entity parent="template_unit_infantry_ranged_stone">
   <Builder>
     <Entities datatype="tokens">
       structures/brit_crannog
@@ -13,21 +8,15 @@
       structures/{civ}_wonder
     </Entities>
   </Builder>
-  <Cost>
-    <Resources>
-      <metal op="add">-10</metal>
-      <wood op="add">10</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>brit</Civ>
-    <SelectionGroupName>units/brit_infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/brit_citizen_sling_infantry</SelectionGroupName>
     <GenericName>Celtic Slinger</GenericName>
     <SpecificName>Iaosae</SpecificName>
     <Icon>units/celt_infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/brit_infantry_slinger_a</Entity>
+    <Entity>units/brit/citizen_sling_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/celts/infantry_slinger_b.xml</Actor>

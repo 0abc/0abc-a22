@@ -13,7 +13,7 @@
         </Elephantry>
       </Bonuses>
       <ElevationBonus>5</ElevationBonus>
-      <MaxRange>75</MaxRange>
+      <MaxRange>67</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>8</Pierce>
       <ProjectileSpeed>75.0</ProjectileSpeed>
@@ -23,7 +23,6 @@
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <MaxArrowCount>6</MaxArrowCount>
     <GarrisonArrowClasses>Archer</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>

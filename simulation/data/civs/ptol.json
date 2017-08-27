@@ -121,19 +121,19 @@
 			"Template": "structures/ptol_civil_centre"
 		},
 		{
-			"Template": "units/ptol_support_female_citizen",
+			"Template": "units/ptol_support_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/ptol_infantry_pikeman_b",
+			"Template": "units/ptol_citizen_pike_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/ptol_infantry_slinger_b",
+			"Template": "units/ptol_citizen_sling_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/ptol_camel_archer_b",
+			"Template": "units/ptol_citizen_archer_camel",
 			"Count": 1
 		}
 	],

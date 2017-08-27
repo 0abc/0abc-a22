@@ -2,25 +2,23 @@
 <Entity parent="template_unit_infantry_melee_sword">
   <Builder>
     <Entities datatype="tokens">
-      -other/wallset_palisade
+      structures/rome_temple_vesta
       structures/rome_army_camp
       structures/rome_wallset_siege
-      structures/rome_temple_vesta
-      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Identity>
     <Civ>rome</Civ>
     <Lang>latin</Lang>
-    <SelectionGroupName>units/rome_infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/rome_citizen_sword_infantry</SelectionGroupName>
     <GenericName>Experienced Swordsman</GenericName>
     <SpecificName>Princeps</SpecificName>
     <Icon>units/rome_infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/rome_infantry_swordsman_a</Entity>
+    <Entity>units/rome/citizen_sword_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/romans/infantry_swordsman_b.xml</Actor>
+    <Actor>units/romans/infantry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

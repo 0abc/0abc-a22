@@ -4,9 +4,12 @@
     <Civ>gaul</Civ>
     <GenericName>Heavy Swordsman</GenericName>
     <SpecificName>Solduros</SpecificName>
-    <SelectionGroupName>units/gaul_champion_infantry</SelectionGroupName>
+    <SelectionGroupName>units/gaul_champion_sword_infantry</SelectionGroupName>
     <Icon>units/celt_champion_infantry_gaul.png</Icon>
   </Identity>
+  <Promotion>
+    <Entity>units/gaul/champion_sword_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/celts/champion_unit_1.xml</Actor>
   </VisualActor>

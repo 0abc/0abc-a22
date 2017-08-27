@@ -6,19 +6,18 @@
       structures/pers_apadana
       structures/pers_ishtar_gate
       structures/pers_hall
-      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>units/pers_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Anatolian Auxiliary</GenericName>
-    <SpecificName>Spardiya Takabara</SpecificName>
     <Icon>units/pers_infantry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/pers_citizen_javelin_infantry</SelectionGroupName>
+    <SpecificName>Spardiya Takabara</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/pers_infantry_javelinist_a</Entity>
+    <Entity>units/pers/citizen_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/persians/infantry_javelinist_b.xml</Actor>

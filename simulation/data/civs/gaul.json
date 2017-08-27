@@ -94,19 +94,19 @@
 			"Template": "structures/gaul_civil_centre"
 		},
 		{
-			"Template": "units/gaul_support_female_citizen",
+			"Template": "units/gaul_support_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/gaul_infantry_spearman_b",
+			"Template": "units/gaul_citizen_spear_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/gaul_infantry_javelinist_b",
+			"Template": "units/gaul_citizen_javelin_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/gaul_cavalry_javelinist_b",
+			"Template": "units/gaul_citizen_javelin_cavalry",
 			"Count": 1
 		}
 	],

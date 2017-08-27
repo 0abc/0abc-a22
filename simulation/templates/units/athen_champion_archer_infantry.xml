@@ -2,11 +2,15 @@
 <Entity parent="template_unit_infantry_ranged_archer_champion">
   <Identity>
     <Civ>athen</Civ>
-    <Lang>greek</Lang>
     <GenericName>Scythian Archer</GenericName>
-    <SpecificName>Toxótēs Skythikós</SpecificName>
     <Icon>units/athen_champion_ranged.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/athen_champion_archer_infantry</SelectionGroupName>
+    <SpecificName>Toxótēs Skythikós</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/athen/champion_archer_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/athenians/champion_unit_ranged.xml</Actor>
   </VisualActor>

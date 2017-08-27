@@ -2,11 +2,15 @@
 <Entity parent="template_unit_infantry_melee_spear_champion">
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Persian Immortal</GenericName>
-    <SpecificName>Anusiya</SpecificName>
     <Classes datatype="tokens">Immortal</Classes>
+    <GenericName>Persian Immortal</GenericName>
     <Icon>units/pers_champion_infantry.png</Icon>
+    <SelectionGroupName>units/pers_champion_spear_infantry</SelectionGroupName>
+    <SpecificName>Anusiya</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/pers/champion_spear_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/persians/champion_unit_1.xml</Actor>
   </VisualActor>

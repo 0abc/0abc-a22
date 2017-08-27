@@ -3,10 +3,14 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Cardaces Skirmisher</GenericName>
-    <SpecificName>Peltastes Kardakes</SpecificName>
     <Icon>units/pers_kardakes_skirmisher.png</Icon>
+    <SelectionGroupName>units/pers_champion_javelin_infantry</SelectionGroupName>
+    <SpecificName>Peltastes Kardakes</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
+  <Promotion>
+    <Entity>units/pers/champion_javelin_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/persians/kardakes_skirmisher.xml</Actor>
   </VisualActor>

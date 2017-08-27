@@ -14,7 +14,7 @@
     </Distance>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>2000</CapturePoints>
+    <CapturePoints op="add">-1000</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime op="mul">0.5</BuildTime>
@@ -34,22 +34,23 @@
     <Max>15</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max op="add">-1000</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Military Colony</GenericName>
-    <SpecificName>Klēroukhía</SpecificName>
     <Classes datatype="tokens">Colony</Classes>
+    <GenericName>Military Colony</GenericName>
     <Icon>structures/military_settlement.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Klēroukhía</SpecificName>
+    <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Loot>
-    <food>100</food>
-    <metal>100</metal>
-    <stone>100</stone>
-    <wood>100</wood>
-    <xp>200</xp>
+    <food op="mul">0.5</food>
+    <metal op="mul">0.5</metal>
+    <stone op="mul">0.5</stone>
+    <wood op="mul">0.5</wood>
+    <xp op="mul">0.5</xp>
   </Loot>
   <Obstruction>
     <Static width="23.0" depth="23.0"/>

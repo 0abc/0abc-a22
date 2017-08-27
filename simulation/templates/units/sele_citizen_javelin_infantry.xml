@@ -10,15 +10,15 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
-    <Lang>greek</Lang>
-    <SelectionGroupName>units/sele_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Arab Javelineer</GenericName>
-    <SpecificName>Pezakontistès Aravikós</SpecificName>
     <Icon>units/pers_infantry_javelinist.png</Icon>
+    <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/sele_citizen_javelin_infantry</SelectionGroupName>
+    <SpecificName>Pezakontistès Aravikós</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/sele_infantry_javelinist_a</Entity>
+    <Entity>units/sele/citizen_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/persians/infantry_javelinist_b.xml</Actor>

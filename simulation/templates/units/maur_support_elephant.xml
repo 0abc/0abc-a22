@@ -21,7 +21,7 @@
     <Height>6.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>5</Max>
+    <Max>3</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">FemaleCitizen</List>

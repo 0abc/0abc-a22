@@ -9,14 +9,14 @@
   </Builder>
   <Identity>
     <Civ>maur</Civ>
-    <SelectionGroupName>units/maur_infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/maur_citizen_sword_infantry</SelectionGroupName>
     <GenericName>Indian Swordsman</GenericName>
     <SpecificName>Khadagdhari</SpecificName>
     <Icon>units/maur_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/maur_infantry_swordsman_a</Entity>
+    <Entity>units/maur/citizen_sword_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/mauryans/infantry_swordsman_b.xml</Actor>

@@ -4,9 +4,12 @@
     <Civ>brit</Civ>
     <GenericName>Brythonic Longswordsman</GenericName>
     <SpecificName>Delamokludda</SpecificName>
-    <SelectionGroupName>units/brit_champion_infantry</SelectionGroupName>
+    <SelectionGroupName>units/brit_champion_sword_infantry</SelectionGroupName>
     <Icon>units/celt_champion_infantry_brit.png</Icon>
   </Identity>
+  <Promotion>
+    <Entity>units/brit/champion_sword_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/celts/champion_unit_3.xml</Actor>
   </VisualActor>

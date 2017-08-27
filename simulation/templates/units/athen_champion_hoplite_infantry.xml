@@ -2,11 +2,15 @@
 <Entity parent="template_unit_infantry_melee_hoplite_champion">
   <Identity>
     <Civ>athen</Civ>
-    <Lang>greek</Lang>
     <GenericName>City Guard</GenericName>
-    <SpecificName>Epílektos</SpecificName>
     <Icon>units/athen_champion_infantry.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/athen_champion_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Epílektos</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/athen/champion_hoplite_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/athenians/champion_unit_spear.xml</Actor>
   </VisualActor>

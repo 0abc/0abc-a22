@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>sele</Civ>
-    <Tooltip>This is the Seleucid expansion building, similar to Civic Centers for other factions. It is weaker and carries a smaller territory influence, but is cheaper and built faster. Train settler-soldiers of various nationalities.</Tooltip>
+    <Tooltip>This is the Seleucid expansion building, similar to Civic Centres for other factions. It is weaker and carries a smaller territory influence, but is cheaper and built faster. Train settler-soldiers of various nationalities.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="29.0"/>
@@ -15,7 +15,7 @@
     <Entities datatype="tokens">
       units/{civ}_mercenary_sword_infantry
       units/{civ}_mercenary_archer_infantry
-      units/{civ}_mercenary_spear_cavalry
+      units/{civ}_mercenary_lance_cavalry
     </Entities>
   </ProductionQueue>
   <VisualActor>

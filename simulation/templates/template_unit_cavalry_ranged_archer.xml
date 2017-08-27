@@ -17,11 +17,11 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
-      <MaxRange>72</MaxRange>
+      <MaxRange>65</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>7</Pierce>
       <PrepareTime>500</PrepareTime>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <ProjectileSpeed>75</ProjectileSpeed>
       <Spread>3.0</Spread>
     </Ranged>
   </Attack>

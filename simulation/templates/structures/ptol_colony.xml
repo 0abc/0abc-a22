@@ -8,7 +8,7 @@
     <Civ>ptol</Civ>
     <GenericName>Military Colony</GenericName>
     <SpecificName>Klēroukhia</SpecificName>
-    <Tooltip>This is the Ptolemaic expansion building, similar to Civic Centers for other factions. It is weaker and carries a smaller territory influence, but is cheaper and built faster. Train settler-soldiers of various nationalities.</Tooltip>
+    <Tooltip>This is the Ptolemaic expansion building, similar to Civic Centres for other factions. It is weaker and carries a smaller territory influence, but is cheaper and built faster. Train settler-soldiers of various nationalities.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="36.0" depth="36.0"/>

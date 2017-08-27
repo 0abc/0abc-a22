@@ -13,7 +13,7 @@
           <Multiplier>1.5</Multiplier>
         </Infantry>
       </Bonuses>
-      <MaxRange>72</MaxRange>
+      <MaxRange>64</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>8</Pierce>
       <PrepareTime>500</PrepareTime>

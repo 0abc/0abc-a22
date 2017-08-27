@@ -11,13 +11,13 @@
   <Identity>
     <Civ>mace</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/mace_infantry_pikeman_b</SelectionGroupName>
+    <SelectionGroupName>units/mace_citizen_pike_infantry</SelectionGroupName>
     <GenericName>Foot Companion</GenericName>
     <SpecificName>Pezétairos</SpecificName>
     <Icon>units/mace_infantry_pikeman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/mace_infantry_pikeman_a</Entity>
+    <Entity>units/mace/citizen_pike_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/macedonians/infantry_spearman_b.xml</Actor>

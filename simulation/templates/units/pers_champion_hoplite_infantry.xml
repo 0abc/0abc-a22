@@ -3,10 +3,14 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Cardaces Hoplite</GenericName>
-    <SpecificName>Hoplites Kardakes</SpecificName>
     <Icon>units/pers_kardakes.png</Icon>
+    <SelectionGroupName>units/pers_champion_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Hoplites Kardakes</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
+  <Promotion>
+    <Entity>units/pers/champion_hoplite_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/persians/kardakes_hoplite.xml</Actor>
   </VisualActor>

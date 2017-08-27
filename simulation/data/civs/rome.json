@@ -96,19 +96,19 @@
 			"Template": "structures/rome_civil_centre"
 		},
 		{
-			"Template": "units/rome_support_female_citizen",
+			"Template": "units/rome_support_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/rome_infantry_spearman_b",
+			"Template": "units/rome_citizen_spear_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/rome_infantry_javelinist_b",
+			"Template": "units/rome_citizen_javelin_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/rome_cavalry_spearman_b",
+			"Template": "units/rome_citizen_spear_cavalry",
 			"Count": 1
 		}
 	],

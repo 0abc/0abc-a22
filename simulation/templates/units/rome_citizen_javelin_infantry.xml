@@ -2,23 +2,21 @@
 <Entity parent="template_unit_infantry_ranged_javelin">
   <Builder>
     <Entities datatype="tokens">
-      -other/wallset_palisade
+      structures/rome_temple_vesta
       structures/rome_army_camp
       structures/rome_wallset_siege
-      structures/rome_temple_vesta
-      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Identity>
     <Civ>rome</Civ>
-    <Lang>latin</Lang>
-    <SelectionGroupName>units/rome_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Roman Skirmisher</GenericName>
-    <SpecificName>Veles</SpecificName>
     <Icon>units/rome_infantry_javelinist.png</Icon>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_citizen_javelin_infantry</SelectionGroupName>
+    <SpecificName>Veles</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/rome_infantry_javelinist_a</Entity>
+    <Entity>units/rome/citizen_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/romans/infantry_javelinist_b.xml</Actor>

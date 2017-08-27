@@ -2,11 +2,15 @@
 <Entity parent="template_unit_infantry_melee_hoplite_champion">
   <Identity>
     <Civ>spart</Civ>
-    <Lang>greek</Lang>
     <GenericName>Spartan Hoplite</GenericName>
-    <SpecificName>Spartiátēs</SpecificName>
     <Icon>units/spart_champion_infantry_spear.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/spart_champion_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Spartiátēs</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/spart/champion_hoplite_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/spartans/champion_infantry.xml</Actor>
   </VisualActor>

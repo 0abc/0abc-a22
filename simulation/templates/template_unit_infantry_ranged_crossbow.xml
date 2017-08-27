@@ -8,18 +8,22 @@
   <Attack>
     <Ranged>
       <Bonuses>
+        <Archer>
+          <Classes>Archer</Classes>
+          <Multiplier>1.25</Multiplier>
+        </Archer>
         <Building>
           <Classes>Structure</Classes>
           <Multiplier>0.5</Multiplier>
         </Building>
-        <Infantry>
-          <Classes>Ranged Infantry</Classes>
-          <Multiplier>1.25</Multiplier>
-        </Infantry>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
       </Bonuses>
-      <Crush>4</Crush>
+      <Crush>1</Crush>
       <MaxRange>48</MaxRange>
-      <Pierce>4</Pierce>
+      <Pierce>5</Pierce>
       <PrepareTime>800</PrepareTime>
       <ProjectileSpeed>75.0</ProjectileSpeed>
     </Ranged>
@@ -35,8 +39,8 @@
   </Health>
   <Identity>
     <GenericName>Crossbowman</GenericName>
-    <Tooltip>Counters: 1.25× vs Ranged Infantry.
-0.5× vs Structures.</Tooltip>
+    <Tooltip>Counters: 1.25× vs Archers.
+0.5× vs Elephants, Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Crossbow</VisibleClasses>
   </Identity>
   <Sound>

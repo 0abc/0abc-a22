@@ -9,13 +9,13 @@
   </Builder>
   <Identity>
     <Civ>maur</Civ>
-    <SelectionGroupName>units/maur_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/maur_citizen_spear_infantry</SelectionGroupName>
     <GenericName>Bamboo Spearman</GenericName>
     <SpecificName>Kauntika</SpecificName>
     <Icon>units/maur_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/maur_infantry_spearman_a</Entity>
+    <Entity>units/maur/citizen_spear_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/mauryans/infantry_spearman_b.xml</Actor>

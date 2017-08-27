@@ -7,12 +7,12 @@
   </Builder>
   <Identity>
     <Civ>iber</Civ>
-    <SelectionGroupName>units/iber_infantry_javelinist_b</SelectionGroupName>
-    <SpecificName>Lusitano Ezpatari</SpecificName>
     <Icon>units/iber_infantry_javelinist.png</Icon>
+    <SelectionGroupName>units/iber_citizen_javelin_infantry</SelectionGroupName>
+    <SpecificName>Lusitano Ezpatari</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/iber_infantry_javelinist_a</Entity>
+    <Entity>units/iber/citizen_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/iberians/infantry_javelinist_b.xml</Actor>

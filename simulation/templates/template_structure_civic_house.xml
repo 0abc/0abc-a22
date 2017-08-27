@@ -31,11 +31,11 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>House</GenericName>
-    <Tooltip>Increase the population limit.</Tooltip>
     <Classes datatype="tokens">-ConquestCritical</Classes>
-    <VisibleClasses datatype="tokens">Village House</VisibleClasses>
+    <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
+    <Tooltip>Increase the population limit.</Tooltip>
+    <VisibleClasses datatype="tokens">Village House</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
@@ -43,7 +43,7 @@
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_female_citizen_house
+      units/{civ}_support_female_house
     </Entities>
     <Technologies datatype="tokens">
       health_females_01

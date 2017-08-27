@@ -10,15 +10,15 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
-    <Lang>greek</Lang>
-    <SelectionGroupName>units/sele_infantry_swordsman_merc_b</SelectionGroupName>
     <GenericName>Thracian Mercenary Swordsman</GenericName>
-    <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
+    <Lang>greek</Lang>
     <Icon>units/sele_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/sele_mercenary_sword_infantry</SelectionGroupName>
+    <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/sele_infantry_swordsman_merc_a</Entity>
+    <Entity>units/sele/mercenary_sword_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/seleucids/infantry_swordsman_b.xml</Actor>

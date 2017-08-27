@@ -17,16 +17,18 @@
           <Multiplier>0.25</Multiplier>
         </Building>
       </Bonuses>
-      <Crush>6</Crush>
+      <Crush>1</Crush>
+      <Hack>0</Hack>
       <MaxRange>72</MaxRange>
+      <Pierce>4</Pierce>
       <PrepareTime>500</PrepareTime>
-      <ProjectileSpeed>62.5</ProjectileSpeed>
+      <ProjectileSpeed>80</ProjectileSpeed>
     </Ranged>
   </Attack>
   <Cost>
     <Resources>
-      <metal>15</metal>
-      <wood>35</wood>
+      <metal>20</metal>
+      <wood>30</wood>
     </Resources>
   </Cost>
   <Health>

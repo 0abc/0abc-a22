@@ -3,9 +3,13 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>Sacred Band Infantry</GenericName>
-    <SpecificName>Sacred Band of Ba'al</SpecificName>
     <Icon>units/cart_champion_infantry.png</Icon>
+    <SelectionGroupName>units/cart_champion_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Sacred Band of Ba'al</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/cart/champion_hoplite_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/carthaginians/champion_spearman.xml</Actor>
   </VisualActor>

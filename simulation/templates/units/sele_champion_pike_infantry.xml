@@ -4,10 +4,14 @@
     <Civ>sele</Civ>
     <Lang>greek</Lang>
     <GenericName>Silver Shield Pikeman</GenericName>
+    <SelectionGroupName>units/sele_champion_pike_infantry</SelectionGroupName>
     <SpecificName>Phalangitès Argyraspis</SpecificName>
     <Icon>units/sele_champion_infantry_pikeman.png</Icon>
     <RequiredTechnology>successors/unlock_traditional_army</RequiredTechnology>
   </Identity>
+  <Promotion>
+    <Entity>units/sele/champion_pike_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/seleucids/champion_infantry_pikeman.xml</Actor>
   </VisualActor>

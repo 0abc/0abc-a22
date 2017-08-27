@@ -2,12 +2,16 @@
 <Entity parent="template_unit_infantry_melee_sword_champion">
   <Identity>
     <Civ>athen</Civ>
-    <Lang>greek</Lang>
     <GenericName>Athenian Marine</GenericName>
-    <SpecificName>Epibátēs Athēnaîos</SpecificName>
     <Icon>units/athen_champion_marine.png</Icon>
+    <Lang>greek</Lang>
     <RequiredTechnology>hellenes/special_iphicratean_reforms</RequiredTechnology>
+    <SelectionGroupName>units/athen_champion_sword_infantry</SelectionGroupName>
+    <SpecificName>Epibátēs Athēnaîos</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/athen/champion_sword_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/athenians/champion_unit_marine.xml</Actor>
   </VisualActor>

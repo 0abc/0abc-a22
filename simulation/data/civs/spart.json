@@ -112,19 +112,19 @@
 			"Template": "structures/spart_civil_centre"
 		},
 		{
-			"Template": "units/spart_support_female_citizen",
+			"Template": "units/spart_support_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/spart_infantry_spearman_b",
+			"Template": "units/spart_citizen_hoplite_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/spart_infantry_javelinist_b",
+			"Template": "units/spart_citizen_javelin_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/spart_cavalry_javelinist_b",
+			"Template": "units/spart_citizen_javelin_cavalry",
 			"Count": 1
 		}
 	],

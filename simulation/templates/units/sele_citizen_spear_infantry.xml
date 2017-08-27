@@ -11,13 +11,13 @@
   <Identity>
     <Civ>sele</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/sele_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/sele_citizen_spear_infantry</SelectionGroupName>
     <GenericName>Militia Thureos Spearman</GenericName>
     <SpecificName>Thureophóros Politès</SpecificName>
     <Icon>units/sele_infantry_spearman_2.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/sele_infantry_spearman_a</Entity>
+    <Entity>units/sele/citizen_spear_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/seleucids/thureophoros_b.xml</Actor>

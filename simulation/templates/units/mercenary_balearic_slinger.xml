@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_sling_mercenary">
   <Identity>
-    <Civ>cart</Civ>
-    <SelectionGroupName>units/cart_infantry_slinger_iber_b</SelectionGroupName>
+    <Civ>gaia</Civ>
+    <SelectionGroupName>units/mercenary_balearic_slinger</SelectionGroupName>
     <GenericName>Balearic Slinger</GenericName>
     <SpecificName>Qallāʿ Ibušimi</SpecificName>
     <Classes datatype="tokens">Iberian</Classes>
     <Icon>units/cart_infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/cart_infantry_slinger_iber_a</Entity>
+    <Entity>units/mercenaries/balearic_slinger_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/carthaginians/infantry_slinger_b.xml</Actor>

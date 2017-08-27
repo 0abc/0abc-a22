@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_stone">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/pers_stables
+      structures/pers_apadana
+      structures/pers_ishtar_gate
+      structures/pers_hall
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>pers</Civ>
+    <SelectionGroupName>units/pers_citizen_sling_infantry</SelectionGroupName>
+    <GenericName>Armenian Slinger</GenericName>
+    <Icon>units/iber_infantry_slinger.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/pers/citizen_sling_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/iberians/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

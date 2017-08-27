@@ -4,8 +4,11 @@
     <Civ>iber</Civ>
     <SpecificName>Leial Ezpatari</SpecificName>
     <Icon>units/iber_champion_infantry.png</Icon>
-    <SelectionGroupName>units/iber_champion_infantry</SelectionGroupName>
+    <SelectionGroupName>units/iber_champion_sword_infantry</SelectionGroupName>
   </Identity>
+  <Promotion>
+    <Entity>units/iber/champion_sword_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/iberians/champion_unit_1.xml</Actor>
   </VisualActor>

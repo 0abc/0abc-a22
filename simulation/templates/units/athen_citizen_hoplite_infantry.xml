@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_hoplite">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/athen_gymnasion      
+      structures/athen_prytaneion
+      structures/athen_stoa
+      structures/athen_theatre
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Athenian Hoplite</GenericName>
+    <Icon>units/athen_infantry_spearman.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/athen_citizen_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Hoplítēs Athēnaîos</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/athen/citizen_hoplite_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

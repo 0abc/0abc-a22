@@ -23,6 +23,10 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_citizen_archer_camel
+      units/{civ}_mercenary_spear_infantry
+      units/{civ}_mercenary_sword_infantry
+      units/{civ}_mercenary_javelin_infantry
+      units/{civ}_mercenary_archer_infantry
     </Entities>
   </ProductionQueue>
   <VisualActor>

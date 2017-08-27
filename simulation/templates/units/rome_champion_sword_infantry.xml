@@ -2,12 +2,15 @@
 <Entity parent="template_unit_infantry_melee_sword_champion">
   <Identity>
     <Civ>rome</Civ>
-    <Lang>latin</Lang>
     <GenericName>Italic Heavy Infantry</GenericName>
-    <SpecificName>Extraordinarius</SpecificName>
-    <SelectionGroupName>units/rome_champion_infantry</SelectionGroupName>
     <Icon>units/rome_champion_infantry.png</Icon>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_champion_sword_infantry</SelectionGroupName>
+    <SpecificName>Extraordinarius</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/rome/champion_sword_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/romans/champion_unit_1.xml</Actor>
   </VisualActor>

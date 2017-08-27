@@ -11,14 +11,13 @@
   </Builder>
   <Identity>
     <Civ>ptol</Civ>
-    <SelectionGroupName>units/ptol_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Mercenary Thureos Skirmisher</GenericName>
-    <SpecificName>Thureophóros Akrobolistḗs</SpecificName>
     <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/ptol_mercenary_javelin_infantry</SelectionGroupName>
+    <SpecificName>Thureophóros Akrobolistḗs</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/ptol_infantry_javelinist_a</Entity>
+    <Entity>units/ptol/mercenary_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/ptolemies/infantry_javelinist_b.xml</Actor>

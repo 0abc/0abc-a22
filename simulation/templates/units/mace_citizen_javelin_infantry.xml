@@ -11,13 +11,13 @@
   <Identity>
     <Civ>mace</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/mace_infantry_javelinist_b</SelectionGroupName>
+    <SelectionGroupName>units/mace_citizen_javelin_infantry</SelectionGroupName>
     <GenericName>Agrianian Peltast</GenericName>
     <SpecificName>Peltastḗs Agrías</SpecificName>
     <Icon>units/mace_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/mace_infantry_javelinist_a</Entity>
+    <Entity>units/mace/citizen_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/macedonians/infantry_javelinist_b.xml</Actor>

@@ -121,19 +121,19 @@
 			"Template": "structures/mace_civil_centre"
 		},
 		{
-			"Template": "units/mace_support_female_citizen",
+			"Template": "units/mace_support_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/mace_infantry_pikeman_b",
+			"Template": "units/mace_citizen_pike_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/mace_infantry_javelinist_b",
+			"Template": "units/mace_citizen_javelin_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/mace_cavalry_spearman_b",
+			"Template": "units/mace_citizen_lance_cavalry",
 			"Count": 1
 		}
 	],

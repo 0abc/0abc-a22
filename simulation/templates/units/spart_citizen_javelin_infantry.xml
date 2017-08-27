@@ -8,14 +8,14 @@
   </Builder>
   <Identity>
     <Civ>spart</Civ>
-    <Lang>greek</Lang>
-    <SelectionGroupName>units/spart_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Helot Skirmisher</GenericName>
-    <SpecificName>Akontistḗs Heílōs</SpecificName>
     <Icon>units/spart_infantry_javelinist.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/spart_citizen_javelin_infantry</SelectionGroupName>
+    <SpecificName>Akontistḗs Heílōs</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/spart_infantry_javelinist_a</Entity>
+    <Entity>units/spart/citizen_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/spartans/infantry_javelinist_b.xml</Actor>

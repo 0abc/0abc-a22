@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "fist_spear.png",
 	"researchTime": 60,
-	"supersedes": "drill_infantry_2",
+	"supersedes": "drill_infantry_02",
 	"tooltip": "New infantry starts at rank 3/12: additional -10% resource gather rate, +5% health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
 	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
 	"affects": ["Infantry 2"],

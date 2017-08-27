@@ -11,13 +11,13 @@
   <Identity>
     <Civ>sele</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/sele_infantry_pikeman_b</SelectionGroupName>
+    <SelectionGroupName>units/sele_citizen_pike_infantry</SelectionGroupName>
     <GenericName>Bronze Shield Pikeman</GenericName>
     <SpecificName>Chalkaspides</SpecificName>
     <Icon>units/sele_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/sele_infantry_pikeman_a</Entity>
+    <Entity>units/sele/citizen_pike_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/seleucids/infantry_spearman_b.xml</Actor>

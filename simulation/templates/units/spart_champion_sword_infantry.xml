@@ -5,27 +5,18 @@
       structures/spart_syssiton
     </Entities>
   </Builder>
-  <Cost>
-    <Resources>
-      <food op="add">-10.0</food>
-      <metal op="add">+20.0</metal>
-    </Resources>
-    <BuildTime op="add">+5</BuildTime>
-  </Cost>
   <Identity>
     <Civ>spart</Civ>
-    <Lang>greek</Lang>
     <GenericName>Skiritai Commando</GenericName>
-    <SpecificName>Ékdromos Skirítēs</SpecificName>
-    <Rank>Elite</Rank>
     <Icon>units/spart_champion_infantry_sword.png</Icon>
+    <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/athen_citizen_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Ékdromos Skirítēs</SpecificName>
   </Identity>
-  <Loot>
-    <food op="mul">2.0</food>
-    <metal op="mul">2.0</metal>
-  </Loot>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/spart/citizen_sword_infantry_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/spartans/champion_infantry_sword.xml</Actor>
   </VisualActor>

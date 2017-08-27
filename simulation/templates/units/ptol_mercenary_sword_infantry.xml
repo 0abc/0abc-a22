@@ -11,15 +11,15 @@
   </Builder>
   <Identity>
     <Civ>ptol</Civ>
-    <SelectionGroupName>units/ptol_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Gallic Mercenary Swordsman</GenericName>
-    <SpecificName>Gallikós Mistophorós</SpecificName>
     <Classes datatype="tokens">Celt</Classes>
+    <GenericName>Gallic Mercenary Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/ptol_mercenary_sword_infantry</SelectionGroupName>
+    <SpecificName>Gallikós Mistophorós</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/ptol_infantry_swordsman_a</Entity>
+    <Entity>units/ptol/mercenary_sword_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/ptolemies/infantry_swordsman_b.xml</Actor>

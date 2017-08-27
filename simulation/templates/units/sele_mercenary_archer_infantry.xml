@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer_mercenary">
+<Entity parent="units/mercenary_syrian_archer">
   <Builder>
     <Entities datatype="tokens">
       structures/{civ}_colony
@@ -10,17 +10,5 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
-    <Lang>greek</Lang>
-    <SelectionGroupName>units/sele_infantry_archer_merc_b</SelectionGroupName>
-    <GenericName>Syrian Archer</GenericName>
-    <SpecificName>Toxótēs Syrías</SpecificName>
-    <Icon>units/hele_infantry_archer.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Promotion>
-    <Entity>units/sele_infantry_archer_merc_a</Entity>
-  </Promotion>
-  <VisualActor>
-    <Actor>units/seleucids/infantry_archer_b.xml</Actor>
-  </VisualActor>
 </Entity>

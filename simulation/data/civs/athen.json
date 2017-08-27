@@ -116,19 +116,19 @@
 			"Template": "structures/athen_civil_centre"
 		},
 		{
-			"Template": "units/athen_support_female_citizen",
+			"Template": "units/athen_support_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/athen_infantry_spearman_b",
+			"Template": "units/athen_citizen_hoplite_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/athen_infantry_slinger_b",
+			"Template": "units/athen_citizen_sling_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/athen_cavalry_javelinist_b",
+			"Template": "units/athen_citizen_javelin_cavalry",
 			"Count": 1
 		}
 	],

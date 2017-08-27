@@ -9,6 +9,9 @@
     <Icon>units/sele_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
+  <Promotion>
+    <Entity>units/mercenaries/black_cloak_1</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/hellenes/thracian_blackcloak.xml</Actor>
   </VisualActor>

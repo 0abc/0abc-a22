@@ -102,19 +102,19 @@
 			"Template": "structures/maur_civil_centre"
 		},
 		{
-			"Template": "units/maur_support_female_citizen",
+			"Template": "units/maur_support_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/maur_infantry_spearman_b",
+			"Template": "units/maur_citizen_spear_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/maur_infantry_archer_b",
+			"Template": "units/maur_citizen_archer_infantry",
 			"Count": 2
 		},
 		{
-			"Template": "units/maur_cavalry_javelinist_b",
+			"Template": "units/maur_citizen_javelin_cavalry",
 			"Count": 1
 		},
 		{

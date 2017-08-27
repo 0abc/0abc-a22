@@ -8,12 +8,12 @@
   </Builder>
   <Identity>
     <Civ>gaul</Civ>
-    <SelectionGroupName>units/gaul_infantry_javelinist_b</SelectionGroupName>
-    <SpecificName>Baguada</SpecificName>
     <Icon>units/celt_infantry_javelinist.png</Icon>
+    <SelectionGroupName>units/gaul_citizen_javelin_infantry</SelectionGroupName>
+    <SpecificName>Baguada</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/gaul_infantry_javelinist_a</Entity>
+    <Entity>units/gaul/citizen_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/celts/infantry_javelinist_b.xml</Actor>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Armour>
+    <Crush>9</Crush>
+    <Hack>7</Hack>
+    <Pierce>8</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Ranged>
+          <Classes>Ranged</Classes>
+          <Multiplier>1.25</Multiplier>
+        </Ranged>
+      </Bonuses>
+      <Hack>2</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>5</Pierce>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>30</metal>
+      <wood>20</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <GenericName>Hoplite</GenericName>
+    <Tooltip>Counters: 1.25× vs all Ranged units.</Tooltip>
+    <VisibleClasses datatype="tokens">Spear</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal>5</metal>
+    <wood>0</wood>
+  </Loot>
+  <UnitMotion>
+    <Run>
+      <Speed>12</Speed>
+    </Run>
+    <WalkSpeed>8</WalkSpeed>
+  </UnitMotion>
+</Entity>

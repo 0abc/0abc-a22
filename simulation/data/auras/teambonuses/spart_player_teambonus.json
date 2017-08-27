@@ -1,0 +1,10 @@
+{
+  "type": "global",
+  "affects": ["Infantry Hoplite"],
+  "affectedPlayers": ["ExclusiveMutualAlly"],
+  "modifications": [
+    { "value": "Cost/BuildTime", "multiply": 0.8 }
+  ],
+  "auraName": "Peloponnesian League",
+  "auraDescription": "Ally's infantry hoplites have -20% training time."
+}

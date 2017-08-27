@@ -1,0 +1,14 @@
+{
+  "genericName": "Celtic Spearmen",
+  "autoResearch": true,
+  "description": "The Gauls were warlike peoples and often migrated looking for new lands to conquer. Their spearmen were versatile and could act both as skirmishers and as heavy infantry. Their invasions of Greece and Asia led to the introduction of thureos-shield spearmen in the Greek world.",
+  "requirements": {"civ": "gaul"},
+  "icon": "fist_spear.png",
+  "tooltip": "Infantry Spearmen +10% melee attack damage.",
+  "modifications": [
+    {"value": "Attack/Melee/Crush", "multiply": 1.1},
+    {"value": "Attack/Melee/Hack", "multiply": 1.1},
+    {"value": "Attack/Melee/Pierce", "multiply": 1.1}
+  ],
+  "affects": ["Infantry Spear"]
+}

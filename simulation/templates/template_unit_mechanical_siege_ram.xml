@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege">
+  <Armour>
+    <Crush>4</Crush>
+    <Hack>2</Hack>
+    <Pierce>40</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Gates>
+          <Classes>Gates</Classes>
+          <Multiplier>2.0</Multiplier>
+        </Gates>
+        <Structures>
+          <Classes>Structure</Classes>
+          <Multiplier>2.0</Multiplier>
+        </Structures>
+      </Bonuses>
+      <Crush>80</Crush>
+      <Hack>0</Hack>
+      <MaxRange>8</MaxRange>
+      <Pierce>0</Pierce>
+      <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
+      <PrepareTime>750</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Capturable disable=""/>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Population>4</Population>
+    <Resources>
+      <wood>400</wood>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>400</Max>
+  </Health>
+  <Identity>
+    <GenericName>Battering Ram</GenericName>
+    <Tooltip>Counters: 4.0× vs Gates, 2.0× vs other Structures.</Tooltip>
+    <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>300</xp>
+    <food>0</food>
+    <wood>40</wood>
+    <stone>0</stone>
+    <metal>20</metal>
+  </Loot>
+  <StatusBars>
+    <BarWidth>4.0</BarWidth>
+    <BarHeight>0.5</BarHeight>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>8</WalkSpeed>
+    <Run>
+      <Speed>4</Speed>
+    </Run>
+  </UnitMotion>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+</Entity>

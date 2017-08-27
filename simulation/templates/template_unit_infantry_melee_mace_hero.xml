@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_mace">
+  <Armour>
+    <Crush op="add">5</Crush>
+    <Hack op="add">5</Hack>
+    <Pierce op="add">5</Pierce>
+  </Armour>
+  <Attack>
+    <Capture>
+      <Value op="mul">5.0</Value>
+    </Capture>
+    <Melee>
+      <Crush op="mul">5.0</Crush>
+      <Hack op="mul">5.0</Hack>
+      <Pierce op="mul">5.0</Pierce>
+    </Melee>
+  </Attack>
+  <Auras datatype="tokens">
+    units/heroes/hero_garrison
+  </Auras>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime op="mul">5.0</BuildTime>
+    <Resources>
+      <food op="mul">5.0</food>
+      <metal op="mul">5.0</metal>
+      <stone op="mul">5.0</stone>
+      <wood op="mul">5.0</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max op="mul">10.0</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">-CitizenSoldier</Classes>
+    <GenericName>Hero Infantry Maceman</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Hero -Citizen</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food op="mul">5.0</food>
+    <metal op="mul">5.0</metal>
+    <stone op="mul">5.0</stone>
+    <wood op="mul">5.0</wood>
+    <xp op="mul">5.0</xp>
+  </Loot>
+  <Minimap>
+    <Type>Hero</Type>
+  </Minimap>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>star/256x256.png</MainTexture>
+        <MainTextureMask>star/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <TrainingRestrictions>
+    <Category>Hero</Category>
+  </TrainingRestrictions>
+</Entity>

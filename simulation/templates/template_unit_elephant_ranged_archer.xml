@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_ranged">
+  <Attack>
+    <Ranged>
+      <Bonuses>
+        <Camelry>
+          <Classes>Camel</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Camelry>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <ElevationBonus>5</ElevationBonus>
+      <MaxRange>75</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>8</Pierce>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>500</PrepareTime>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>6</MaxArrowCount>
+    <GarrisonArrowClasses>Archer</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <BuildTime op="mul">1.2</BuildTime>
+    <Resources>
+      <metal>100</metal>
+      <stone>0</stone>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>450</Max>
+  </Health>
+  <Identity>
+    <GenericName>Elephant Archer</GenericName>
+    <Tooltip>Garrison units for transport, and archers to increase firepower.
+Counters: 1.5× vs Camels.
+Penalties: 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+  </Identity>
+</Entity>

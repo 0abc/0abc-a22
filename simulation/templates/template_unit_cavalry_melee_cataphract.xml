@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  <Armour>
+    <Crush>7</Crush>
+    <Hack>7</Hack>
+    <Pierce>7</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Skirmisher>
+          <Classes>Infantry Javelin</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Skirmisher>
+      </Bonuses>
+      <Crush>4</Crush>
+      <Pierce>8</Pierce>
+      <PreferredClasses datatype="tokens">Skirmisher</PreferredClasses>
+      <PrepareTime>800</PrepareTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>40</metal>
+      <wood>10</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>180</Max>
+  </Health>
+  <Identity>
+    <GenericName>Cavalry Lancer</GenericName>
+    <Tooltip>Counters: 1.5× vs Infantry Skirmishers.
+Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Lance</VisibleClasses>
+  </Identity>
+  <UnitMotion>
+    <Run>
+      <Range>600.0</Range>
+      <RangeMin>12.0</RangeMin>
+      <Speed>36.0</Speed>
+    </Run>
+    <WalkSpeed>18.0</WalkSpeed>
+  </UnitMotion>
+</Entity>

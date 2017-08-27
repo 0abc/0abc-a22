@@ -1,0 +1,14 @@
+{
+  "genericName": "Macedonian Cavalry",
+  "autoResearch": true,
+  "description": "The Macedonians were the first to deploy cavalry as shock troops, directly charging at the enemy, giving them a far greater impact.",
+  "requirements": {"civ": "mace"},
+  "icon": "fist_spear.png",
+  "tooltip": "Cavalry Lancers +10% melee attack damage.",
+  "modifications": [
+    {"value": "Attack/Melee/Crush", "multiply": 1.1},
+    {"value": "Attack/Melee/Hack", "multiply": 1.1},
+    {"value": "Attack/Melee/Pierce", "multiply": 1.1}
+  ],
+  "affects": ["Cavalry Lance"]
+}

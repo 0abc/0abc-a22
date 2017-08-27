@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_hoplite_champion">
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Cardaces Hoplite</GenericName>
+    <SpecificName>Hoplites Kardakes</SpecificName>
+    <Icon>units/pers_kardakes.png</Icon>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/kardakes_hoplite.xml</Actor>
+  </VisualActor>
+</Entity>

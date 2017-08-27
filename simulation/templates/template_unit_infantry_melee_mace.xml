@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Armour>
+    <Crush>8</Crush>
+    <Hack>4</Hack>
+    <Pierce>6</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Building>
+          <Classes>Structure</Classes>
+          <Multiplier>0.25</Multiplier>
+        </Building>
+        <Cavalry>
+          <Classes>Cataphract</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Cavalry>
+      </Bonuses>
+      <Crush>6</Crush>
+      <MaxRange>2</MaxRange>
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>20</metal>
+      <wood>30</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>95</Max>
+  </Health>
+  <Identity>
+    <GenericName>Maceman</GenericName>
+    <Tooltip>Counters: 1.5× vs Cavalry Cataphracts.
+0.25× vs Structures.</Tooltip>
+    <VisibleClasses datatype="tokens">Mace</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal>5</metal>
+    <wood>0</wood>
+  </Loot>
+  <UnitMotion>
+    <Run>
+      <Speed>15</Speed>
+    </Run>
+    <WalkSpeed>9</WalkSpeed>
+  </UnitMotion>
+</Entity>

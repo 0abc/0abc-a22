@@ -1,0 +1,10 @@
+{
+  "type": "global",
+  "affects": ["Infantry Pike"],
+  "affectedPlayers": ["ExclusiveMutualAlly"],
+  "modifications": [
+    { "value": "Cost/BuildTime", "multiply": 0.8 }
+  ],
+  "auraName": "Macedonians",
+  "auraDescription": "Ally's infantry pikemen have -20% training time."
+}

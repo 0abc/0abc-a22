@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_axe">
+  <Armour>
+    <Crush op="add">3</Crush>
+    <Hack op="add">3</Hack>
+    <Pierce op="add">3</Pierce>
+  </Armour>
+  <Attack>
+    <Capture>
+      <Value op="mul">2.0</Value>
+    </Capture>
+    <Melee>
+      <Crush op="mul">2.0</Crush>
+      <Hack op="mul">2.0</Hack>
+      <Pierce op="mul">2.0</Pierce>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime op="mul">2.5</BuildTime>
+    <Resources>
+      <metal op="add">100</metal>
+      <wood op="add">50</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max op="mul">1.5</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">-CitizenSoldier</Classes>
+    <GenericName>Champion Infantry Axeman</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Champion -Citizen</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal op="add">10</metal>
+    <wood op="add">5</wood>
+    <xp op="add">150</xp>
+  </Loot>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+</Entity>

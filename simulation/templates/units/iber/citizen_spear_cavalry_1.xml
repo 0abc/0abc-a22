@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/iber_citizen_spear_cavalry">
+  <Identity>
+    <Rank>1</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/iber/citizen_spear_cavalry_2</Entity>
+  </Promotion>
+</Entity>

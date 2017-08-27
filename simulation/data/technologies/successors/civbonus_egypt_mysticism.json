@@ -1,0 +1,16 @@
+{
+  "genericName": "Egyptian Mysticism",
+  "autoResearch": true,
+  "description": "Egypt was known for its mysticism and extremely old religious traditions. Many of the new cults in the Hellenized world incorporated Egyptian elements.",
+  "requirements": {"civ": "ptol" },
+  "icon": "cauldron.png",
+  "tooltip": "Temple technologies cost -40% resources and time.",
+  "modifications": [
+    { "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.6 },
+    { "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.6 },
+    { "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.6 },
+    { "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.6 },
+    { "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.6 }
+  ],
+  "affects": ["Temple"]
+}

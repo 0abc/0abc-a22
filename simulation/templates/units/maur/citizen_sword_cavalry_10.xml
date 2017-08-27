@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/maur/citizen_sword_cavalry_9">
+  <Identity>
+    <Rank>10</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/maur/citizen_sword_cavalry_11</Entity>
+  </Promotion>
+</Entity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sele/champion_war_elephant_8">
+  <Identity>
+    <Rank>9</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/sele/champion_war_elephant_10</Entity>
+  </Promotion>
+</Entity>

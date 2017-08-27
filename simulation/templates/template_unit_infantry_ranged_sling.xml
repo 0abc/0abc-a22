@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Armour>
+    <Crush>3</Crush>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Bonuses>
+        <Archer>
+          <Classes>Infantry Archer</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Archer>
+        <Building>
+          <Classes>Structure</Classes>
+          <Multiplier>0.25</Multiplier>
+        </Building>
+      </Bonuses>
+      <Crush>6</Crush>
+      <MaxRange>72</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <ProjectileSpeed>62.5</ProjectileSpeed>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>15</metal>
+      <wood>35</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>55</Max>
+  </Health>
+  <Identity>
+    <GenericName>Slinger</GenericName>
+    <Tooltip>Counters: 1.5× vs Infantry Archers.
+Penalties: 0.25× vs Structures.</Tooltip>
+    <VisibleClasses datatype="tokens">Sling</VisibleClasses>
+  </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed>20</Speed>
+    </Run>
+    <WalkSpeed>12</WalkSpeed>
+  </UnitMotion>
+</Entity>

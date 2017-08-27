@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_melee_northafrican_champion">
+  <Identity>
+    <Civ>cart</Civ>
+    <GenericName>North African War Elephant</GenericName>
+    <SpecificName>Pil Malḥamit</SpecificName>
+    <Icon>units/cart_champion_cavalry.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/cart/champion_war_elephant_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/carthaginians/champion_unit_2.xml</Actor>
+  </VisualActor>
+</Entity>

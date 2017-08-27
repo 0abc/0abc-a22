@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>5</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>2.0</Multiplier>
+        </Elephantry>
+        <Siege>
+          <Classes>Siege</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Siege>
+      </Bonuses>
+      <Hack>6</Hack>
+      <MaxRange>2</MaxRange>
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>15</metal>
+      <wood>35</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>85</Max>
+  </Health>
+  <Identity>
+    <GenericName>Axeman</GenericName>
+    <Tooltip>Counters: 1.5× vs Siege weapons, 2.0× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Axe</VisibleClasses>
+  </Identity>
+  <UnitMotion>
+    <Run>
+      <Speed>15</Speed>
+    </Run>
+    <WalkSpeed>11</WalkSpeed>
+  </UnitMotion>
+</Entity>

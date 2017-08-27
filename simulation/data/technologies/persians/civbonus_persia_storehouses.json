@@ -1,0 +1,13 @@
+{
+  "genericName": "Royal Storehouses",
+  "autoResearch": true,
+  "description": "The Persians constructed royal roads and large storehouses to make it easier to collect tribute from various parts of their vast empire.",
+  "requirements": {"civ": "pers" },
+  "icon": "metal_pot.png",
+  "tooltip": "Storehouses have +100% health.",
+  "modifications": [
+    { "value": "Health/Max", "multiply": 2.0 },
+    { "value": "TerritoryInfluence/Radius", "multiply": 2.0 }
+  ],
+  "affects": ["Storehouse"]
+}

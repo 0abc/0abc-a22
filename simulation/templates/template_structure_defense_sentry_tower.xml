@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_defense_tower">
+  <Armour>
+    <Crush>2</Crush>
+    <Hack>15</Hack>
+    <Pierce>25</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <Pierce>10</Pierce>
+      <MaxRange>70</MaxRange>
+      <MinRange>10</MinRange>
+      <ElevationBonus>9</ElevationBonus>
+    </Ranged>
+  </Attack>
+  <Capturable>
+    <CapturePoints>750</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>80</BuildTime>
+    <Resources>
+      <wood>100</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="9.5" depth="8.5"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>3</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <SpecificName>Sentry Tower</SpecificName>
+    <GenericName>Sentry Tower</GenericName>
+    <Icon>structures/sentry_tower.png</Icon>
+    <VisibleClasses datatype="tokens">Town -City SentryTower -DefenseTower</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <stone>0</stone>
+    <wood>10</wood>
+    <xp>100</xp>
+  </Loot>
+  <Obstruction>
+    <Static width="9.0" depth="7.5"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -attack_tower_crenellations
+      -attack_tower_defense
+      -attack_tower_murderholes
+    </Technologies>
+  </ProductionQueue>
+  <StatusBars>
+    <HeightOffset>18.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Radius op="mul">0.5</Radius>
+  </TerritoryInfluence>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/{civ}_defense_tower</Entity>
+      <Tooltip>Reinforce with stone and upgrade to a defense tower.</Tooltip>
+      <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <stone>100</stone>
+        <wood>50</wood>
+      </Cost>
+      <Time>100</Time>
+    </Tower>
+  </Upgrade>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>props/special/palisade_rocks_fort.xml</Actor>
+  </VisualActor>
+</Entity>

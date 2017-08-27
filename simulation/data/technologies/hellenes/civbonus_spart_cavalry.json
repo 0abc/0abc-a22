@@ -1,0 +1,17 @@
+{
+  "genericName": "Spartan Horsemanship",
+  "autoResearch": true,
+  "description": "Spartans were not known for their horsemanship. Fighting on foot was considered more prestigious. Usually poorly equipped serfs rode the horses.",
+  "requirements": {"civ": "spart"},
+  "icon": "fist_spear.png",
+  "tooltip": "Cavalry -10% attack damage.",
+  "modifications": [
+    {"value": "Attack/Melee/Crush",   "multiply": 0.9, "affects": "Melee"  },
+    {"value": "Attack/Melee/Hack",    "multiply": 0.9, "affects": "Melee"  },
+    {"value": "Attack/Melee/Pierce",  "multiply": 0.9, "affects": "Melee"  },
+    {"value": "Attack/Ranged/Crush",  "multiply": 0.9, "affects": "Ranged" },
+    {"value": "Attack/Ranged/Hack",   "multiply": 0.9, "affects": "Ranged" },
+    {"value": "Attack/Ranged/Pierce", "multiply": 0.9, "affects": "Ranged" }
+  ],
+  "affects": ["Cavalry"]
+}

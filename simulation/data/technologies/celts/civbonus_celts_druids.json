@@ -1,0 +1,15 @@
+{
+  "genericName": "Druidism",
+  "autoResearch": true,
+  "description": "Celtic druids were not only very influential, but also sacrosanct and greatly feared; they often stayed on the battlefield during the actual fighting. It was believed killing a druid would bring eternal misfortune on you and your descendants, for all generations to come.",
+  "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
+  "icon": "cauldron.png",
+  "tooltip": "Healers have 20% more walk speed and +4 hack, pierce, and crush armour levels.",
+  "modifications": [
+    {"value": "Armour/Crush", "add": 4},
+    {"value": "Armour/Hack", "add": 4},
+    {"value": "Armour/Pierce", "add": 4},    
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.2}
+  ],
+  "affects": ["Healer"]
+}

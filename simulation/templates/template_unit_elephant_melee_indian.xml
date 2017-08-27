@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_melee">
+  <Attack>
+    <Melee>
+      <Crush op="mul">1.0</Crush>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime op="mul">1.2</BuildTime>
+  </Cost>
+  <Health>
+    <Max op="mul">1.0</Max>
+  </Health>
+  <Identity>
+    <GenericName>Indian War Elephant</GenericName>
+  </Identity>
+</Entity>

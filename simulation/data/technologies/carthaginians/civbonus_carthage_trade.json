@@ -1,0 +1,12 @@
+{
+  "genericName": "Punic Traders",
+  "autoResearch": true,
+  "description": "The Phoenicians were known both inside and outside the Mediterranean as skilled traders.",
+  "requirements": {"civ": "cart"},
+  "icon": "metal_pot.png",
+  "tooltip": "Traders +5% gain.",
+  "modifications": [
+    {"value": "Trader/GainMultiplier", "multiply": 1.05}
+  ],
+  "affects": ["Trader"]
+}

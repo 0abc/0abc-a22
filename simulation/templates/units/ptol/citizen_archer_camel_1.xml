@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/ptol_citizen_archer_camel">
+  <Identity>
+    <Rank>1</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/ptol/citizen_archer_camel_2</Entity>
+  </Promotion>
+</Entity>

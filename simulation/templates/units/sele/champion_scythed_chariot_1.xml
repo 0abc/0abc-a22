@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sele_champion_scythed_chariot">
+  <Identity>
+    <Rank>1</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/sele/champion_scythed_chariot_2</Entity>
+  </Promotion>
+</Entity>

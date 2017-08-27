@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack>
+    <Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+      <Value>2</Value>
+    </Capture>
+    <Slaughter>
+      <Crush>0</Crush>
+      <MaxRange>4</MaxRange>
+      <Hack>100</Hack>
+      <Pierce>0</Pierce>
+    </Slaughter>
+  </Attack>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Population>2</Population>
+    <Resources>
+      <food>90</food>
+      <metal>10</metal>
+      <stone>0</stone>
+      <wood>40</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="4" depth="6"/>
+    <Height>7.5</Height>
+  </Footprint>
+  <Identity>
+    <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
+    <Formations datatype="tokens">
+      formations/wedge
+    </Formations>
+    <GenericName>Camel Soldier</GenericName>
+    <Rank>0</Rank>
+    <VisibleClasses datatype="tokens">Camel Citizen Soldier</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>140</xp>
+    <food>10</food>
+    <metal>0</metal>
+    <stone>0</stone>
+    <wood>5</wood>
+  </Loot>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Promotion>
+    <RequiredXp>125</RequiredXp>
+  </Promotion>
+  <ResourceGatherer>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Capacities>
+      <food>30</food>
+    </Capacities>
+    <Rates>
+      <food.meat>1.8</food.meat>
+    </Rates>
+    <MaxDistance>2.0</MaxDistance>
+  </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/128x128.png</MainTexture>
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/death/death_camel.xml</death>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_walk>actor/fauna/movement/camel.xml</order_walk>
+      <run>actor/mounted/movement/walk.xml</run>
+      <select>actor/fauna/animal/camel.xml</select>
+      <trained>interface/alarm/alarm_create_cav.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>6.5</HeightOffset>
+  </StatusBars>
+  <Vision>
+    <Range>95</Range>
+  </Vision>
+</Entity>

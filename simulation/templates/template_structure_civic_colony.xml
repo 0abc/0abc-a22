@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <BuildingAI>
+    <DefaultArrowCount op="add">-1</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>16</MaxArrowCount>
+  </BuildingAI>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Category>Colony</Category>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MinDistance>120</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>2000</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">0.5</BuildTime>
+    <PopulationBonus>15</PopulationBonus>
+    <Resources>
+      <food op="mul">0.5</food>
+      <wood op="mul">0.5</wood>
+      <stone op="mul">0.5</stone>
+      <metal op="mul">0.5</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="25.0" depth="25.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>15</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Military Colony</GenericName>
+    <SpecificName>Klēroukhía</SpecificName>
+    <Classes datatype="tokens">Colony</Classes>
+    <Icon>structures/military_settlement.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <food>100</food>
+    <metal>100</metal>
+    <stone>100</stone>
+    <wood>100</wood>
+    <xp>200</xp>
+  </Loot>
+  <Obstruction>
+    <Static width="23.0" depth="23.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -phase_town
+      -phase_city
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay>
+    <DecayRate>1</DecayRate>
+  </TerritoryDecay>
+  <TerritoryInfluence>
+    <Radius op="mul">0.5</Radius>
+  </TerritoryInfluence>
+</Entity>

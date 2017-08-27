@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  <Armour>
+    <Crush>7</Crush>
+    <Hack>3</Hack>
+    <Pierce>3</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Siege>
+          <Classes>Siege</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Siege>
+        <Slinger>
+          <Classes>Slinger</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Slinger>
+      </Bonuses>
+      <Hack>8</Hack>
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+      <PrepareTime>400</PrepareTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>25</metal>
+      <wood>25</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <GenericName>Cavalry Swordsman</GenericName>
+    <Tooltip>Counters: 1.5× vs Siege weapons, Slingers.
+Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Sword</VisibleClasses>
+  </Identity>
+  <UnitMotion>
+    <Run>
+      <Range>900.0</Range>
+      <RangeMin>8.0</RangeMin>
+      <Speed>36.0</Speed>
+    </Run>
+    <WalkSpeed>22.0</WalkSpeed>
+  </UnitMotion>
+</Entity>

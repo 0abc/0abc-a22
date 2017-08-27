@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_melee_northafrican_champion">
+  <Identity>
+    <Civ>ptol</Civ>
+    <GenericName>Towered War Elephant</GenericName>
+    <SpecificName>Polémou Eléphantos</SpecificName>
+    <Icon>units/ptol_champion_elephant.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/ptol/champion_war_elephant_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/ptolemies/champion_elephant.xml</Actor>
+  </VisualActor>
+</Entity>

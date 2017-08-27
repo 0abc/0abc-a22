@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>1</Hack>
+    <Pierce>3</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Bonuses>
+        <Building>
+          <Classes>Structure</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Building>
+        <Infantry>
+          <Classes>Ranged Infantry</Classes>
+          <Multiplier>1.25</Multiplier>
+        </Infantry>
+      </Bonuses>
+      <Crush>4</Crush>
+      <MaxRange>48</MaxRange>
+      <Pierce>4</Pierce>
+      <PrepareTime>800</PrepareTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>25</metal>
+      <wood>25</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>45</Max>
+  </Health>
+  <Identity>
+    <GenericName>Crossbowman</GenericName>
+    <Tooltip>Counters: 1.25× vs Ranged Infantry.
+0.5× vs Structures.</Tooltip>
+    <VisibleClasses datatype="tokens">Crossbow</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_impact>attack/impact/arrow_metal.xml</attack_impact>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <Run>
+      <Speed>16</Speed>
+    </Run>
+    <WalkSpeed>8</WalkSpeed>
+  </UnitMotion>
+</Entity>

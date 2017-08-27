@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>maur</Civ>
+    <SpecificName>Durg</SpecificName>
+    <Tooltip>Train heroes and champion units.</Tooltip>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_mace_infantry
+      units/{civ}_champion_sword_infantry
+      units/{civ}_champion_archer_chariot
+      units/{civ}_hero_chanakya
+      units/{civ}_hero_maurya
+      units/{civ}_hero_ashoka
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/mauryans/fortress.xml</Actor>
+  </VisualActor>
+</Entity>

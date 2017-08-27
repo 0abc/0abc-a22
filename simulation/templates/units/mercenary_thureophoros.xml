@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelin_champion">
+  <Identity>
+    <Civ>gaia</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Heavy Skirmisher</GenericName>
+    <SpecificName>Thyreophóros</SpecificName>
+    <Icon>units/mace_thureophoros.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/thureophoros.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <AlertRaiser>
+    <MaximumLevel>2</MaximumLevel>
+    <Range>150</Range>
+  </AlertRaiser>
+  <Armour>
+    <Hack op="add">5</Hack>
+    <Pierce op="add">5</Pierce>
+    <Foundation>
+      <Crush>3</Crush>
+      <Hack>5</Hack>
+      <Pierce>15</Pierce>
+    </Foundation>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <Pierce>9</Pierce>
+      <MaxRange>72</MaxRange>
+      <MinRange>0</MinRange>
+      <ElevationBonus>4</ElevationBonus>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>1.5</Spread>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>2</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Category>CivilCentre</Category>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MinDistance>200</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>3000</CapturePoints>
+    <RegenRate>5.0</RegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>600</BuildTime>
+    <PopulationBonus>25</PopulationBonus>
+    <Resources>
+      <food>500</food>
+      <metal>500</metal>
+      <stone>500</stone>
+      <wood>500</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="32.0" depth="32.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>25</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Civic Centre</GenericName>
+    <Tooltip>Build to acquire large tracts of territory. Train citizens.</Tooltip>
+    <Classes datatype="tokens">Defensive CivCentre</Classes>
+    <VisibleClasses datatype="tokens">CivilCentre Bribable</VisibleClasses>
+    <Icon>structures/civic_centre.png</Icon>
+  </Identity>
+  <Loot>
+    <food>200</food>
+    <metal>200</metal>
+    <stone>200</stone>
+    <wood>200</wood>
+    <xp>400</xp>
+  </Loot>
+  <Obstruction>
+    <Static width="30.0" depth="30.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_support_female_citizen
+    </Entities>
+    <Technologies datatype="tokens">
+      phase_town
+      phase_city
+      unlock_spies
+      spy_counter
+    </Technologies>
+  </ProductionQueue>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_civ_center.xml</select>
+      <constructed>interface/complete/building/complete_civ_center.xml</constructed>
+      <attack>attack/weapon/arrowfly.xml</attack>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <alert0>interface/alarm/alarm_alert_0.xml</alert0>
+      <alert1>interface/alarm/alarm_alert_1.xml</alert1>
+      <alert2>interface/alarm/alarm_alert_2.xml</alert2>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>150</Radius>
+    <Weight>10000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisionSharing>
+    <Bribable>true</Bribable>
+  </VisionSharing>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

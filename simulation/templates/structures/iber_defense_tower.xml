@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_defense_tower">
+  <Attack>
+    <Ranged>
+      <MinRange>12</MinRange>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount op="add">1</DefaultArrowCount>
+  </BuildingAI>
+  <Capturable>
+    <CapturePoints op="add">500</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <PopulationBonus>5</PopulationBonus>
+    <Resources>
+      <stone op="add">100</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="8.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max op="add">3</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="add">1000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>iber</Civ>
+    <SpecificName>Dorre</SpecificName>
+  </Identity>
+  <Loot>
+    <stone op="add">10</stone>
+    <xp op="add">25</xp>
+  </Loot>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>17.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Radius>40</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/iberians/scout_tower.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

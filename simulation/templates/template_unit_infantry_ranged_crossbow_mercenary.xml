@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_crossbow">
+  <Cost>
+    <BuildTime op="mul">0.8</BuildTime>
+    <Resources>
+      <food op="add">-15</food>
+      <metal op="add">15</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <ResourceGatherer>
+    <Rates>
+      <food.grain disable=""/>
+      <stone.rock disable=""/>
+      <metal.ore disable=""/>
+    </Rates>
+  </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+</Entity>

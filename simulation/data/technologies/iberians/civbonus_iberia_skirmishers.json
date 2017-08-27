@@ -1,0 +1,14 @@
+{
+  "genericName": "Iberian Guerilla",
+  "autoResearch": true,
+  "description": "The warlike peoples living on the Iberian peninsula were fiercely independent, especially those in the mountaneous interior. They excelled at skirmishing and guerilla tactics. It took the Romans many centuries to subject the Cantabrii and Vascones (Basques) in the North, and afterwards more legions were required to keep this relatively small area under control than all other parts of the Iberian peninsula combined.",
+  "requirements": {"civ": "gaul"},
+  "icon": "fist_spear.png",
+  "tooltip": "Infantry Javelinists +10% ranged attack damage.",
+  "modifications": [
+    {"value": "Attack/Ranged/Crush", "multiply": 1.1},
+    {"value": "Attack/Ranged/Hack", "multiply": 1.1},
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.1}
+  ],
+  "affects": ["Infantry Javelin"]
+}

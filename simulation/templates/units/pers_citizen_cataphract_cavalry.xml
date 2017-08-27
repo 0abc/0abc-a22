@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_cataphract">
+  <Identity>
+    <Civ>pers</Civ>
+    <SelectionGroupName>units/pers_cavalry_spearman_b</SelectionGroupName>
+    <GenericName>Cappadocian Cavalry</GenericName>
+    <SpecificName>Katpaduka Asabara</SpecificName>
+    <Icon>units/pers_cavalry_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/pers/citizen_cataphract_cavalry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/cavalry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

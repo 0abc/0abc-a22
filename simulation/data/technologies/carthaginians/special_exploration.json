@@ -1,0 +1,12 @@
+{
+  "genericName": "Exploration",
+  "autoResearch": true,
+  "description": "Nobody knew better than the Carthaginians where in the ancient world they were going and going to go; their merchant traders had missions to everywhere.",
+  "requirements": {"civ": "cart"},
+  "icon": "armor_ship_gold.png",
+  "tooltip": "Carthaginians were explorers. All Ships +25% vision range.",
+  "modifications": [
+    {"value": "Vision/Range", "multiply": 1.25}
+  ],
+  "affects": ["Ship"]
+}

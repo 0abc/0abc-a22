@@ -1,0 +1,15 @@
+{
+	"genericName": "Close Combat Cavalry Training",
+	"description": "Training increases melee attack.",
+	"cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "spear_cavalry.png",
+	"researchTime": 40,
+	"tooltip": "+15% melee cavalry attack.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.2},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.2},
+		{"value": "Attack/Melee/Crush", "multiply": 1.2}],
+	"affects": ["Cavalry Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

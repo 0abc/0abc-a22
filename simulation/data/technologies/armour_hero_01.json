@@ -1,0 +1,24 @@
+{
+	"genericName": "Iron Hero Armour",
+	"specificName": {
+		"mace": "Sidḗrea Panoplía",
+		"spart": "Sidḗrea Panoplía",
+		"athen": "Sidḗrea Panoplía",
+		"ptol": "Sidḗrea Panoplía",
+		"sele": "Sidḗrea Panoplía",
+		"rome": "Lorica Ferrea"
+	},
+	"description": "Body armour fashioned completely of iron, the hardest workable metal known to the ancients.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "armor_cuirass_empire.png",
+	"researchTime": 60,
+	"tooltip": "All Heroes +3 Crush, Hack, and Pierce Armour levels.",
+	"modifications": [
+	{"value": "Armour/Crush", "add": 3.0},
+	{"value": "Armour/Hack", "add": 3.0},
+	{"value": "Armour/Pierce", "add": 3.0}],
+	"affects": ["Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_camel">
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Cavalry>
+          <Classes>Cavalry</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Cavalry>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>6</MaxRange>
+      <Pierce>0</Pierce>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Identity>
+    <GenericName>Melee Camel</GenericName>
+    <Tooltip>Counters: 1.5× vs Cavalry.
+Penalties: 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/sword.xml</attack>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <Run>
+      <Range>1400</Range>
+      <RangeMin>7</RangeMin>
+      <Speed>42</Speed>
+    </Run>
+    <WalkSpeed>28</WalkSpeed>
+  </UnitMotion>
+</Entity>

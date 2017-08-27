@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant">
+  <Armour>
+    <Crush>10</Crush>
+    <Hack>4</Hack>
+    <Pierce>7</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <Pierce>0</Pierce>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>3.0</Spread>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <GenericName>Ranged War Elephant</GenericName>
+    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>500</xp>
+    <food>30</food>
+    <wood>10</wood>
+    <stone>0</stone>
+    <metal>10</metal>
+  </Loot>
+</Entity>

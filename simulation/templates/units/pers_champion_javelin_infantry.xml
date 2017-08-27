@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelin_champion">
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Cardaces Skirmisher</GenericName>
+    <SpecificName>Peltastes Kardakes</SpecificName>
+    <Icon>units/pers_kardakes_skirmisher.png</Icon>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/kardakes_skirmisher.xml</Actor>
+  </VisualActor>
+</Entity>

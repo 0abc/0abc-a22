@@ -1,0 +1,12 @@
+{
+  "genericName": "Egyptian Medicine",
+  "autoResearch": true,
+  "description": "Egypt was the land of medicine; people often travelled large distances to be healed specifically by an Egyptian priest.",
+  "requirements": {"civ": "ptol"},
+  "icon": "healing_range.png",
+  "tooltip": "Healers have +6 healing range.",
+  "modifications": [
+    {"value": "Heal/Range", "add": 6}
+  ],
+  "affects": ["Healer"]
+}

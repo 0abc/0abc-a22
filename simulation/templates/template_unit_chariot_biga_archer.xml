@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_chariot_biga">
+  <Armour>
+    <Crush>9</Crush>
+    <Hack>5</Hack>
+    <Pierce>3</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Bonuses>
+        <Infantry>
+          <Classes>Infantry Mace</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Infantry>
+      </Bonuses>
+      <MaxRange>72</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>8</Pierce>
+      <PrepareTime>500</PrepareTime>
+      <ProjectileSpeed>75</ProjectileSpeed>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>25</metal>
+      <wood>75</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <GenericName>Champion Chariot Archer</GenericName>
+    <Tooltip>Causes trample damage.
+Counters: 1.5× vs Infantry Macemen.
+Penalties: 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+  </Identity>
+</Entity>

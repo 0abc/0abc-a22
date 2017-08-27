@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <BuildRestrictions>
+    <Category>Market</Category>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>150</BuildTime>
+    <Resources>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="33.0" depth="29.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Market</GenericName>
+    <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
+    <Classes datatype="tokens">BarterMarket -ConquestCritical</Classes>
+    <VisibleClasses datatype="tokens">Town Market Bribable</VisibleClasses>
+    <Icon>structures/market.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <food>15</food>
+    <wood>15</wood>
+    <stone>15</stone>
+    <metal>15</metal>
+  </Loot>
+  <Market>
+    <TradeType>land</TradeType>
+    <InternationalBonus>0.2</InternationalBonus>
+  </Market>
+  <Obstruction>
+    <Static width="30.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      unlock_shared_los
+      unlock_shared_dropsites
+      trade_convoy_speed
+      trade_convoy_armour
+      trade_gain_01
+      trade_gain_02
+      trade_commercial_treaty
+    </Technologies>
+    <Entities datatype="tokens">
+      units/{civ}_support_trader
+    </Entities>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_market.xml</select>
+      <constructed>interface/complete/building/complete_market.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>40</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+  <VisionSharing>
+    <Bribable>true</Bribable>
+  </VisionSharing>
+</Entity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spear">
+  <Attack>
+    <Melee>
+      <Hack>5</Hack>
+      <MaxRange>2</MaxRange>
+      <Pierce>2</Pierce>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+      structures/rome_temple_vesta
+      structures/{civ}_wonder
+    </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <metal>20</metal>
+      <wood>30</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>rome</Civ>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Young Swordsman</GenericName>
+    <SpecificName>Hastatus</SpecificName>
+    <VisibleClasses datatype="tokens">Sword -Spear</VisibleClasses>
+    <Icon>units/rome_infantry_swordsman.png</Icon>
+  </Identity>
+  <Loot>
+    <metal>5</metal>
+    <wood>0</wood>
+  </Loot>
+  <Promotion>
+    <Entity>units/rome_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/romans/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

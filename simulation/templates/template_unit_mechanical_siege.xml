@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical">
+  <Identity>
+    <VisibleClasses datatype="tokens">Siege</VisibleClasses>
+    <GenericName>Siege</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Position>
+    <Anchor>pitch-roll</Anchor>
+  </Position>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/siege/ram_attack.xml</attack>
+      <order_attack>attack/siege/ram_attack.xml</order_attack>
+      <order_walk>attack/siege/ram_move.xml</order_walk>
+      <trained>attack/siege/ram_move.xml</trained>
+      <select>attack/siege/siege_select.xml</select>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <CanGuard>false</CanGuard>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+  </UnitMotion>
+</Entity>

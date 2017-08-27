@@ -1,0 +1,13 @@
+{
+  "genericName": "Hellenic Architecture",
+  "autoResearch": true,
+  "description": "The Greeks used stone construction from early Mycenaean times.",
+  "requirements": {"any": [{"civ": "athen"},{"civ": "mace"},{"civ": "spart"}]},
+  "icon": "ionic_column.png",
+  "tooltip": "Civic structures have 20% more health and capture points.",
+  "modifications": [
+    {"value": "Health/Max", "multiply": 1.2},
+    {"value": "Capturable/CapturePoints", "multiply": 1.2}
+  ],
+  "affects": ["Civic"]
+}

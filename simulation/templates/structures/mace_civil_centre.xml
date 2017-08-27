@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_hele_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>mace</Civ>
+    <SpecificName>Agorá</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_citizen_pike_infantry
+      units/{civ}_citizen_javelin_infantry
+      units/{civ}_hero_philip
+      units/{civ}_hero_alexander
+      units/{civ}_hero_demetrius
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/macedonians/civic_centre.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack>
+    <Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+      <Value>2</Value>
+    </Capture>
+    <Slaughter>
+      <Crush>0</Crush>
+      <Hack>100</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>0</Pierce>
+    </Slaughter>
+  </Attack>
+  <Identity>
+    <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
+    <Formations datatype="tokens">
+      formations/wedge
+    </Formations>
+    <GenericName>Chariot Unit</GenericName>
+    <Rank>0</Rank>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Chariot Citizen Soldier</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Promotion>
+    <RequiredXp>180</RequiredXp>
+  </Promotion>
+  <ResourceGatherer>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Capacities>
+      <food>50</food>
+    </Capacities>
+    <MaxDistance>5.0</MaxDistance>
+    <Rates>
+      <food.meat>3.6</food.meat>
+    </Rates>
+  </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/arrowfly.xml</attack>
+      <death>actor/fauna/death/death_horse.xml</death>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <run>actor/mounted/movement/walk.xml</run>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <trained>interface/alarm/alarm_create_cav.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Vision>
+    <Range>85</Range>
+  </Vision>
+</Entity>

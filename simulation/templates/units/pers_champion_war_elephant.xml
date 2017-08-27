@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_melee_indian_champion">
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Indian War Elephant</GenericName>
+    <SpecificName>Hinduya Pila</SpecificName>
+    <Icon>units/pers_war_elephant.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/pers/champion_war_elephant_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/war_elephant.xml</Actor>
+  </VisualActor>
+</Entity>

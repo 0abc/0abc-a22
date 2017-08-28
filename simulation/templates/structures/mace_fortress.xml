@@ -28,7 +28,7 @@
       -siege_attack      
       -siege_cost_metal
       -siege_cost_wood
-      successors/upgrade_mace_silvershields
+      special/silvershields
     </Technologies>
   </ProductionQueue>
   <VisualActor>

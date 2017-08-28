@@ -42,8 +42,8 @@
       units/{civ}_hero_iphicrates
     </Entities>
     <Technologies datatype="tokens">
-      hellenes/special_long_walls
-      hellenes/special_iphicratean_reforms
+      special/long_walls
+      special/iphicratean_reforms
     </Technologies>
   </ProductionQueue>
   <Sound>

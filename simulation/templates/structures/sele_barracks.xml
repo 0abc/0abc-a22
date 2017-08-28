@@ -26,7 +26,7 @@
       units/{civ}_mercenary_archer_cavalry
     </Entities>
     <Technologies datatype="tokens">
-      successors/special_archery_tradition
+      special/archery_tradition
     </Technologies>
   </ProductionQueue>
   <VisualActor>

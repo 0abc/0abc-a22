@@ -40,7 +40,7 @@
     <CapturePoints>500</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>40</BuildTime>
+    <BuildTime>50</BuildTime>
     <Resources>
       <wood>75</wood>
       <stone>0</stone>
@@ -79,8 +79,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      vision_outpost
-      decay_outpost
+      outpost_decay
+      tower_vision
     </Technologies>
   </ProductionQueue>
   <Sound>

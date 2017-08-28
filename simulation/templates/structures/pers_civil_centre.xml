@@ -14,7 +14,7 @@
       units/{civ}_citizen_archer_infantry
     </Entities>
     <Technologies datatype="tokens">
-      persians/persian_architecture
+      special/architecture
     </Technologies>
   </ProductionQueue>
   <VisualActor>

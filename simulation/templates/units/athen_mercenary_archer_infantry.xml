@@ -4,13 +4,12 @@
     <Entities datatype="tokens">
       structures/athen_gymnasion      
       structures/athen_prytaneion
-      structures/athen_stoa
       structures/athen_theatre
     </Entities>
   </Builder>
   <Identity>
     <Civ>athen</Civ>
-    <RequiredTechnology>hellenes/special_iphicratean_reforms</RequiredTechnology>
+    <RequiredTechnology>special/iphicratean_reforms</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_archer_b.xml</Actor>

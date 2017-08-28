@@ -2,11 +2,12 @@
 <Entity parent="template_unit_cavalry_melee_cataphract_champion">
   <Identity>
     <Civ>sele</Civ>
-    <Lang>greek</Lang>
     <GenericName>Seleucid Cataphract</GenericName>
-    <SpecificName>Seleukidón Kataphraktos</SpecificName>
     <Icon>units/sele_champion_cataphract.png</Icon>
-    <RequiredTechnology>successors/unlock_reform_army</RequiredTechnology>
+    <Lang>greek</Lang>
+    <RequiredTechnology>special/unlock_reform_army</RequiredTechnology>
+    <SelectionGroupName>units/sele_champion_cataphract_cavalry</SelectionGroupName>
+    <SpecificName>Seleukidón Kataphraktos</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/sele/champion_cataphract_cavalry_1</Entity>

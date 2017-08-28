@@ -44,7 +44,7 @@
       units/{civ}_hero_agis
     </Entities>
     <Technologies datatype="tokens">
-      hellenes/spartans_agoge
+      special/agoge
     </Technologies>
   </ProductionQueue>
   <Sound>

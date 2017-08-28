@@ -3,9 +3,8 @@
   <Builder>
     <Entities datatype="tokens">
       structures/mace_siege_workshop
-      structures/mace_stoa
-      structures/mace_theatre
       structures/mace_library
+      structures/mace_theatre
     </Entities>
   </Builder>
   <Identity>

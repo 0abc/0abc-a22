@@ -9,8 +9,8 @@
     <GenericName>Scythed Chariot</GenericName>
     <Icon>units/sele_champion_chariot.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>successors/unlock_traditional_army</RequiredTechnology>
-    <SelectionGroupName>units/sele_champion_chariot</SelectionGroupName>
+    <RequiredTechnology>special/unlock_traditional_army</RequiredTechnology>
+    <SelectionGroupName>units/sele_champion_scythed_chariot</SelectionGroupName>
     <SpecificName>Drepanèphoros</SpecificName>
   </Identity>
   <Promotion>

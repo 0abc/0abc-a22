@@ -1,20 +1,20 @@
 {
-	"genericName": "City Phase",
-	"specificName": {
-		"mace": "Megalópolis",
-		"spart": "Megalópolis"
-	},
-	"description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
-	"cost": { "food": 0, "wood": 0, "stone": 750, "metal": 750 },
-	"requirements": { "entity": { "class": "Town", "number": 3 } },
-	"requirementsTooltip": "Requires 3 new Town Phase structures (except Walls and Civic Centres).",
-	"supersedes": "phase_town",
-	"icon": "city_phase.png",
-	"researchTime": 90,
-	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centres increased by another +40%. All structures +9 garrisoned regeneration rate.",
-	"modifications": [
-		{ "value": "TerritoryInfluence/Radius", "multiply": 1.40, "affects": "CivCentre" },
-		{ "value": "Capturable/GarrisonRegenRate", "add": 9.0, "affects": "Structure" }
-	],
-	"soundComplete": "interface/alarm/alarm_phase.xml"
+  "genericName": "City Phase",
+  "specificName": {
+    "mace": "Megalópolis",
+    "spart": "Megalópolis"
+  },
+  "description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
+  "cost": { "food": 0, "wood": 0, "stone": 750, "metal": 750 },
+  "requirements": { "entity": { "class": "Town", "number": 3 } },
+  "requirementsTooltip": "Requires 3 new Town Phase structures (except Walls and Civic Centres).",
+  "supersedes": "phase_town",
+  "icon": "city_phase.png",
+  "researchTime": 90,
+  "tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centres increased by another +40%. All structures +8 garrisoned regeneration rate.",
+  "modifications": [
+    { "value": "TerritoryInfluence/Radius", "multiply": 1.40, "affects": "CivCentre" },
+    { "value": "Capturable/GarrisonRegenRate", "add": 8.0, "affects": "Structure" }
+  ],
+  "soundComplete": "interface/alarm/alarm_phase.xml"
 }

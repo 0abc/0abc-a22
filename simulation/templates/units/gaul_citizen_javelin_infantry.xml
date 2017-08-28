@@ -3,8 +3,8 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_wallset_town
-      structures/gaul_tavern
       structures/gaul_rotarymill
+      structures/gaul_stoa
     </Entities>
   </Builder>
   <Identity>

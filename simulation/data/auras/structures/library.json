@@ -1,11 +1,11 @@
 {
-	"type": "global",
-	"affects": ["Structure"],
-	"modifications": [
-		{ "value": "Cost/BuildTime", "multiply": 0.9 },
-		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
-	],
-	"auraDescription": "Reduce the construction time of structures and the research time of technologies by 10% per library owned.",
-	"auraName": "Power of Knowledge",
-	"stackable": true
+  "type": "global",
+  "affects": ["Structure"],
+  "modifications": [
+    { "value": "Cost/BuildTime", "multiply": 0.9 },
+    { "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
+  ],
+  "auraDescription": "Reduce the construction time of structures and the research time of technologies by 10% per library owned.",
+  "auraName": "Power of Knowledge",
+  "stackable": true
 }

@@ -5,7 +5,7 @@
     <GenericName>Athenian Marine</GenericName>
     <Icon>units/athen_champion_marine.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>hellenes/special_iphicratean_reforms</RequiredTechnology>
+    <RequiredTechnology>special/iphicratean_reforms</RequiredTechnology>
     <SelectionGroupName>units/athen_champion_sword_infantry</SelectionGroupName>
     <SpecificName>Epibátēs Athēnaîos</SpecificName>
   </Identity>

@@ -34,10 +34,10 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      gather_wicker_baskets
-      gather_farming_plows
-      gather_farming_training
-      gather_farming_fertilizer
+      gather_forage
+      gather_farm_01
+      gather_farm_02
+      gather_farm_03
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

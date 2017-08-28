@@ -1,0 +1,13 @@
+{
+  "genericName": "Royal Granaries",
+  "autoResearch": true,
+  "description": "Egypt had many large granaries to make it easier to collect and store grain from all nomes.",
+  "requirements": {"civ": "ptol" },
+  "icon": "metal_pot.png",
+  "tooltip": "Farmsteads have +50% health.",
+  "modifications": [
+    { "value": "Health/Max", "multiply": 1.5 },
+    { "value": "TerritoryInfluence/Radius", "multiply": 1.5 }
+  ],
+  "affects": ["Farmstead"]
+}

@@ -9,6 +9,9 @@
     <PopulationBonus>5</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
+      <food>50</food>
+      <metal>0</metal>
+      <stone>0</stone>
       <wood>200</wood>
     </Resources>
   </Cost>
@@ -49,8 +52,8 @@
       units/{civ}_ship_trireme
     </Entities>
     <Technologies datatype="tokens">
-      gather_capacity_fishing
-      gather_fishing_net
+      gather_fish_net
+      gather_fish_capacity
       armour_ship_01
       armour_ship_02
       armour_ship_03

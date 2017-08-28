@@ -19,7 +19,7 @@
     <CapturePoints>750</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>80</BuildTime>
+    <BuildTime>100</BuildTime>
     <Resources>
       <wood>100</wood>
       <stone>0</stone>
@@ -52,16 +52,18 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -attack_tower_crenellations
-      -attack_tower_defense
-      -attack_tower_murderholes
+      -tower_crenellations
+      -tower_defense
+      -tower_murderholes
     </Technologies>
   </ProductionQueue>
   <StatusBars>
     <HeightOffset>18.0</HeightOffset>
   </StatusBars>
   <TerritoryInfluence>
-    <Radius op="mul">0.5</Radius>
+    <Root>false</Root>
+    <Radius>20</Radius>
+    <Weight>20000</Weight>
   </TerritoryInfluence>
   <Upgrade>
     <Tower>

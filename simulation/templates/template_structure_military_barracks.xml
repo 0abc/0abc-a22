@@ -6,10 +6,10 @@
   <Cost>
     <BuildTime>200</BuildTime>
     <Resources>
-      <food>0</food>
-      <metal>100</metal>
-      <stone>0</stone>
-      <wood>300</wood>
+      <food>100</food>
+      <metal>0</metal>
+      <stone>100</stone>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -38,8 +38,8 @@
   <Loot>
     <food>10</food>
     <metal>0</metal>
-    <stone>0</stone>
-    <wood>30</wood>
+    <stone>10</stone>
+    <wood>20</wood>
   </Loot>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>

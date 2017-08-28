@@ -21,9 +21,9 @@
       units/{civ}_champion_war_elephant
     </Entities>
     <Technologies datatype="tokens">
-      successors/pair_unlock_champions
-      successors/special_war_horses
-      successors/special_parade_of_daphne
+      special/pair_unlock_champions
+      special/nisean_horses
+      special/parade_of_daphne
     </Technologies>
   </ProductionQueue>
   <VisualActor>

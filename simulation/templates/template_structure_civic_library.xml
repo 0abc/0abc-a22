@@ -6,10 +6,27 @@
   <BuildRestrictions>
     <Category>Library</Category>
   </BuildRestrictions>
+  <Cost>
+    <BuildTime>500</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>250</wood>
+      <stone>250</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
   <Footprint>
     <Square width="29.0" depth="34.0"/>
     <Height>9.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>25</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
@@ -20,9 +37,11 @@
     <Icon>structures/library_scroll.png</Icon>
   </Identity>
   <Loot>
-    <wood>0</wood>
-    <stone>50</stone>
-    <metal>50</metal>
+    <food>25</food>
+    <metal>25</metal>
+    <stone>25</stone>
+    <wood>25</wood>
+    <xp>125</xp>
   </Loot>
   <Obstruction>
     <Static width="25.0" depth="30.0"/>
@@ -30,7 +49,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      successors/special_hellenistic_metropolis
+      special/hellenistic_metropolis
     </Technologies>
   </ProductionQueue>
   <Sound>
@@ -41,8 +60,13 @@
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
+    <Root>false</Root>
     <Radius>50</Radius>
+    <Weight>50000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
   <VisualActor>
     <Actor>structures/macedonians/library.xml</Actor>
     <FoundationActor>structures/fndn_4x6.xml</FoundationActor>

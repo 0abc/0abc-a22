@@ -16,7 +16,7 @@
       units/{civ}_hero_maharbal
     </Entities>
     <Technologies datatype="tokens">
-      carthaginians/special_colonisation
+      special/colonization
     </Technologies>
   </ProductionQueue>
   <VisualActor>

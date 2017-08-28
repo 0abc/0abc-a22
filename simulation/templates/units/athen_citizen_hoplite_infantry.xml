@@ -4,7 +4,6 @@
     <Entities datatype="tokens">
       structures/athen_gymnasion      
       structures/athen_prytaneion
-      structures/athen_stoa
       structures/athen_theatre
     </Entities>
   </Builder>

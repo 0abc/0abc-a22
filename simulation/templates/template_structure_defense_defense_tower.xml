@@ -73,7 +73,7 @@
     <metal>0</metal>
     <stone>10</stone>
     <wood>10</wood>
-    <xp>125</xp>
+    <xp>150</xp>
   </Loot>
   <Obstruction>
     <Static width="7.0" depth="7.0"/>
@@ -81,12 +81,12 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      attack_tower_crenellations
-      attack_tower_defense
-      attack_tower_murderholes
-      attack_tower_range
-      attack_tower_watch
-      vision_outpost
+      tower_crenellations
+      tower_defense
+      tower_murderholes
+      tower_range
+      tower_vision
+      tower_watch
     </Technologies>
   </ProductionQueue>
   <Sound>
@@ -104,7 +104,7 @@
   </StatusBars>
   <TerritoryInfluence>
     <Root>false</Root>
-    <Radius>32</Radius>
+    <Radius>30</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
   <Vision>

@@ -4,7 +4,6 @@
     <Entities datatype="tokens">
       structures/{civ}_colony
       structures/{civ}_library
-      structures/{civ}_stoa
       structures/{civ}_theatre
     </Entities>
   </Builder>

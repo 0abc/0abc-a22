@@ -50,7 +50,7 @@
     <metal op="mul">0.5</metal>
     <stone op="mul">0.5</stone>
     <wood op="mul">0.5</wood>
-    <xp op="mul">0.5</xp>
+    <xp>200</xp>
   </Loot>
   <Obstruction>
     <Static width="23.0" depth="23.0"/>

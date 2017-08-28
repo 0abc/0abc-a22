@@ -1,13 +1,15 @@
 {
-	"genericName": "Basic Cavalry Training",
-	"description": "Give a basic training to all new cavalry soldiers.",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
-	"requirements": {"tech": "phase_village"},
-	"requirementsTooltip": "Unlocked in Village Phase.",
-	"icon": "nisean_war_horses.png",
-	"researchTime": 30,
-	"tooltip": "New cavalry starts at rank 1/12: additional -10% resource gather rate, +5% health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
-	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
-	"affects": ["Cavalry 0"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "genericName": "Basic Cavalry Training",
+  "description": "Give a basic training to all new cavalry soldiers.",
+  "cost": {"food": 300, "wood": 0, "stone": 0, "metal": 200},
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "icon": "nisean_war_horses.png",
+  "researchTime": 30,
+  "tooltip": "New cavalry starts at rank 1/12: additional -10% resource gather rate, +5% health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
+  "modifications": [
+    {"value": "Promotion/RequiredXp", "replace": 0}
+  ],
+  "affects": ["Cavalry 0"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

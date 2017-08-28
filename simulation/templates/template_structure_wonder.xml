@@ -18,7 +18,7 @@
     <Category>Wonder</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>2000</CapturePoints>
+    <CapturePoints>2500</CapturePoints>
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
@@ -35,7 +35,7 @@
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>30</Max>
+    <Max>50</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry</List>
@@ -54,11 +54,11 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>300</xp>
-    <food>300</food>
-    <wood>300</wood>
-    <stone>300</stone>
-    <metal>300</metal>
+    <food>100</food>
+    <metal>100</metal>
+    <stone>100</stone>
+    <wood>100</wood>
+    <xp>250</xp>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
@@ -98,7 +98,7 @@
     <Weight>65535</Weight>
   </TerritoryInfluence>
   <Vision>
-    <Range>72</Range>
+    <Range>100</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

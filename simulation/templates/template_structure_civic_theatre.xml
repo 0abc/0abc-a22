@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
   <Auras datatype="tokens">
-    structures/theatron
+    structures/theatre
   </Auras>
   <BuildRestrictions>
-    <Category>Theater</Category>
+    <Category>Theatre</Category>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>2500</CapturePoints>
+    <RegenRate>5.0</RegenRate>
+  </Capturable>
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
-      <wood>0</wood>
-      <stone>500</stone>
+      <food>500</food>
       <metal>500</metal>
+      <stone>500</stone>
+      <wood>500</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
     <Circle radius="24.0"/>
     <Height>10.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>50</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>5000</Max>
   </Health>
   <Identity>
     <GenericName>Theatre</GenericName>
@@ -28,9 +41,11 @@
     <Icon>structures/theatron.png</Icon>
   </Identity>
   <Loot>
-    <wood>0</wood>
-    <stone>50</stone>
+    <food>50</food>
     <metal>50</metal>
+    <stone>50</stone>
+    <wood>50</wood>
+    <xp>250</xp>
   </Loot>
   <Obstruction>
     <Static width="46.0" depth="46.0"/>
@@ -44,8 +59,13 @@
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
+    <Root>false</Root>
     <Radius>100</Radius>
+    <Weight>50000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
   <VisionSharing>
     <Bribable>true</Bribable>
   </VisionSharing>

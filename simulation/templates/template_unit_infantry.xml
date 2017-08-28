@@ -27,10 +27,10 @@
       structures/{civ}_market
       structures/{civ}_blacksmith
       structures/{civ}_barracks
+      structures/{civ}_stoa
       structures/{civ}_temple
       other/wallset_palisade
       structures/{civ}_outpost
-      structures/{civ}_wallset_town
       structures/{civ}_sentry_tower
       structures/{civ}_wallset_city
       structures/{civ}_defense_tower

@@ -2,10 +2,10 @@
 <Entity parent="template_unit_infantry_ranged_sling">
   <Builder>
     <Entities datatype="tokens">
+      -other/wallset_palisade
       structures/ptol_colony
       structures/ptol_library
       structures/ptol_lighthouse
-      structures/ptol_stoa
       structures/ptol_theatre
     </Entities>
   </Builder>

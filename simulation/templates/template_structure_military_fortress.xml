@@ -75,7 +75,7 @@
     <metal>10</metal>
     <stone>80</stone>
     <wood>40</wood>
-    <xp>300</xp>
+    <xp>450</xp>
   </Loot>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>

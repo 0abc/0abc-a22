@@ -46,6 +46,7 @@
   <Loot>
     <stone>12</stone>
     <wood>4</wood>
+    <xp>400</xp>
   </Loot>
   <Upgrade>
     <Gate>

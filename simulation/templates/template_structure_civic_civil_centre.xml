@@ -78,11 +78,11 @@
     <Icon>structures/civic_centre.png</Icon>
   </Identity>
   <Loot>
-    <food>200</food>
-    <metal>200</metal>
-    <stone>200</stone>
-    <wood>200</wood>
-    <xp>400</xp>
+    <food>50</food>
+    <metal>50</metal>
+    <stone>50</stone>
+    <wood>50</wood>
+    <xp>300</xp>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>

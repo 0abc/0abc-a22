@@ -2,7 +2,6 @@
 <Entity parent="template_unit_infantry_ranged_javelin">
   <Builder>
     <Entities datatype="tokens">
-      structures/spart_stoa
       structures/spart_syssiton
     </Entities>
   </Builder>

@@ -44,9 +44,9 @@
       -drill_infantry_02
       -drill_infantry_03
       -training_conscription
-      persians/training_levy_cavalry
-      persians/training_conscription_cavalry
-      successors/special_war_horses
+      special/training_levy_cavalry
+      special/training_conscription_cavalry
+      special/nisean_horses
     </Technologies>
   </ProductionQueue>
   <Sound>

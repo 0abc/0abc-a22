@@ -40,6 +40,7 @@
   <Loot>
     <stone>30</stone>
     <wood>10</wood>
+    <xp>125</xp>
   </Loot>
   <Obstruction>
     <Static width="17.5" depth="30.0"/>

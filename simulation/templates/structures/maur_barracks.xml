@@ -17,7 +17,7 @@
       units/{civ}_champion_sword_infantry_barracks
     </Entities>
     <Technologies datatype="tokens">
-      mauryans/special_archery_tradition
+      special/archery_tradition
       unlock_champion_units
     </Technologies>
   </ProductionQueue>

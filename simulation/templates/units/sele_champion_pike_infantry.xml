@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_pike_champion">
   <Identity>
     <Civ>sele</Civ>
-    <Lang>greek</Lang>
     <GenericName>Silver Shield Pikeman</GenericName>
+    <Icon>units/sele_champion_infantry_pikeman.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>special/unlock_traditional_army</RequiredTechnology>
     <SelectionGroupName>units/sele_champion_pike_infantry</SelectionGroupName>
     <SpecificName>Phalangitès Argyraspis</SpecificName>
-    <Icon>units/sele_champion_infantry_pikeman.png</Icon>
-    <RequiredTechnology>successors/unlock_traditional_army</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/sele/champion_pike_infantry_1</Entity>

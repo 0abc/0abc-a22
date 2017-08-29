@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>5</Pierce>
-    <Crush>2</Crush>
+    <Crush>3</Crush>
+    <Hack>3</Hack>
+    <Pierce>6</Pierce>
   </Armour>
+  <Attack disable=""/>
   <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>1</Population>
     <Resources>
-      <wood>0</wood>
-      <metal>100</metal>
+      <food>30</food>
+      <metal>90</metal>
+      <stone>0</stone>
+      <wood>180</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -21,7 +26,7 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>400</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
@@ -32,9 +37,11 @@
     <VisibleClasses datatype="tokens">Trader Bribable</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>25</xp>
-    <wood>15</wood>
-    <metal>0</metal>
+    <food>3</food>
+    <metal>9</metal>
+    <stone>0</stone>
+    <wood>18</wood>
+    <xp>30</xp>
   </Loot>
   <ResourceGatherer>
     <MaxDistance>12.0</MaxDistance>
@@ -60,10 +67,13 @@
   </UnitAI>
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>
+    <Run>
+      <Speed>15</Speed>
+    </Run>
     <WalkSpeed>12</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>50</Range>
+    <Range>60</Range>
   </Vision>
   <VisionSharing>
     <Bribable>true</Bribable>

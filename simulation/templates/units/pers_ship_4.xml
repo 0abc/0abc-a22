@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_trireme">
+<Entity parent="template_unit_mechanical_ship_quadrireme">
   <Footprint>
     <Square width="9.0" depth="42.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Phoenician Trireme</GenericName>
-    <SpecificName>Vazarka Hamaraniyanava</SpecificName>
+    <GenericName>Phoenician Equine Transport Bireme</GenericName>
     <Icon>units/pers_ship_trireme.png</Icon>
+    <RequiredTechnology>special/equine_transports</RequiredTechnology>
+    <SpecificName>Vazarka Hamaraniyanava</SpecificName>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/pers_citizen_sword_cavalry_trireme
-      units/pers_citizen_javelin_cavalry_trireme
+      units/pers_citizen_sword_cavalry
+      units/pers_citizen_javelin_cavalry
     </Entities>
     <TechCostMultiplier>
       <food>1.0</food>

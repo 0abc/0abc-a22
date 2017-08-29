@@ -3,7 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_stoa
-      -structures/{civ}_wallset_town
       structures/maur_elephant_stables
       structures/maur_pillar_ashoka
     </Entities>

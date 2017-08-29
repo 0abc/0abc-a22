@@ -3,7 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_stoa
-      -structures/{civ}_wallset_town
       structures/iber_monument
     </Entities>
   </Builder>

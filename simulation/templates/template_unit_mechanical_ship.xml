@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>10</Pierce>
-    <Crush>5</Crush>
-  </Armour>
-  <Cost>
-    <Population>1</Population>
-    <BuildTime>20</BuildTime>
-    <Resources>
-      <food>0</food>
-      <wood>50</wood>
-      <stone>0</stone>
-      <metal>0</metal>
-    </Resources>
-  </Cost>
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>60</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>25.0</Pierce>
+      <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <ProjectileSpeed>60</ProjectileSpeed>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
   <Decay>
     <SinkingAnim>true</SinkingAnim>
     <DelayTime>0.0</DelayTime>
@@ -26,7 +25,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>200</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
     <GenericName>Ship</GenericName>
@@ -66,6 +65,10 @@
   </Sound>
   <UnitMotion>
     <PassabilityClass>ship</PassabilityClass>
+    <Run>
+      <Speed>20</Speed>
+    </Run>
+    <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>90</Range>

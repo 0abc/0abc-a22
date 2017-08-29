@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship">
+  <Armour>
+    <Crush>6</Crush>
+    <Hack>6</Hack>
+    <Pierce>12</Pierce>
+  </Armour>
+  <BuildingAI>
+    <DefaultArrowCount>4</DefaultArrowCount>
+    <MaxArrowCount>16</MaxArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Population>4</Population>
+    <Resources>
+      <food>400</food>
+      <metal>200</metal>
+      <stone>0</stone>
+      <wood>400</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="10.0" depth="40.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>40</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>10</LoadingRange>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Medium Warship</GenericName>
+    <SpecificName>Tetrḗrēs</SpecificName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>40</food>
+    <metal>20</metal>
+    <stone>0</stone>
+    <wood>40</wood>
+    <xp>500</xp>
+  </Loot>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/arrowfly.xml</attack>
+      <attack_impact>attack/impact/arrow_metal.xml</attack_impact>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.5</BarHeight>
+    <HeightOffset>6.0</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>14</WalkSpeed>
+  </UnitMotion>
+</Entity>

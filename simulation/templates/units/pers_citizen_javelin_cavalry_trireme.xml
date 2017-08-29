@@ -5,11 +5,11 @@
   </Cost>
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>units/pers_cavalry_javelinist_b</SelectionGroupName>
     <GenericName>Median Light Cavalry</GenericName>
-    <SpecificName>Mada Asabara</SpecificName>
-    <RequiredTechnology>persians/special_equine_transports</RequiredTechnology>
     <Icon>units/pers_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>special/equine_transports</RequiredTechnology>
+    <SelectionGroupName>units/pers_cavalry_javelinist_b</SelectionGroupName>
+    <SpecificName>Mada Asabara</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/pers/citizen_javelin_cavalry_1</Entity>

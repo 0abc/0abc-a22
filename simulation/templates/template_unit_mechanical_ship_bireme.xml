@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
-  <Attack>
-    <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>35.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>45.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Spread>2.0</Spread>
-      <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
-    </Ranged>
-  </Attack>
+  <Armour>
+    <Crush>6</Crush>
+    <Hack>6</Hack>
+    <Pierce>12</Pierce>
+  </Armour>
   <BuildingAI>
     <DefaultArrowCount>2</DefaultArrowCount>
-    <MaxArrowCount>10</MaxArrowCount>
+    <MaxArrowCount>8</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>2</Population>
     <BuildTime>20</BuildTime>
+    <Population>2</Population>
     <Resources>
-      <wood>125</wood>
-      <metal>50</metal>
+      <food>200</food>
+      <metal>100</metal>
+      <stone>0</stone>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -42,18 +35,21 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>800</Max>
+    <Max>1000</Max>
   </Health>
   <Identity>
-    <GenericName>Light Warship</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+    <GenericName>Medium Warship</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Diḗrēs</SpecificName>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
   </Identity>
   <Loot>
-    <xp>75</xp>
-    <wood>25</wood>
-    <metal>15</metal>
+    <food>20</food>
+    <metal>10</metal>
+    <stone>0</stone>
+    <wood>20</wood>
+    <xp>250</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -68,9 +64,6 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>14</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
+    <WalkSpeed>16</WalkSpeed>
   </UnitMotion>
 </Entity>

@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>5</Pierce>
     <Crush>2</Crush>
+    <Hack>2</Hack>
+    <Pierce>4</Pierce>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>10.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <Crush>0</Crush>
+      <Hack>10</Hack>
+      <MaxRange>5</MaxRange>
+      <Pierce>0</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">!SeaCreature</RestrictedClasses>
     </Melee>
+    <Ranged disable=""/>
   </Attack>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <food>10</food>
+      <metal>0</metal>
+      <stone>0</stone>
+      <wood>40</wood>
+    </Resources>
+  </Cost>
   <Footprint>
     <Square width="4.0" depth="10.0"/>
     <Height>6.0</Height>
@@ -29,6 +40,9 @@
     <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
+  <Health>
+    <Max>150</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">FishingBoat -ConquestCritical</Classes>
     <Formations disable=""/>
@@ -36,9 +50,11 @@
     <Tooltip>Fish the waters for Food. Garrison a support or infantry unit inside to boost fishing rate.</Tooltip>
   </Identity>
   <Loot>
-    <xp>1</xp>
-    <wood>10</wood>
+    <food>1</food>
     <metal>0</metal>
+    <stone>0</stone>
+    <wood>4</wood>
+    <xp>5</xp>
   </Loot>
   <ResourceGatherer>
     <MaxDistance>6.0</MaxDistance>
@@ -61,9 +77,12 @@
   </UnitAI>
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>
+    <Run>
+      <Speed>12</Speed>
+    </Run>
     <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>24</Range>
+    <Range>60</Range>
   </Vision>
 </Entity>

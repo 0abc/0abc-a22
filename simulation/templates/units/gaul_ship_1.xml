@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_transport">
+  <Footprint>
+    <Square width="12.0" depth="36.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>gaul</Civ>
+    <SpecificName>Venetic Ponti</SpecificName>
+    <Tooltip>Transport many soldiers across the sea.</Tooltip>
+    <Icon>units/celt_ship_trireme.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/celts/warship.xml</Actor>
+  </VisualActor>
+</Entity>

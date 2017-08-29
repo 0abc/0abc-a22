@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_transport">
+  <Footprint>
+    <Square width="17.0" depth="45.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maur</Civ>
+    <SpecificName>Yudhpot</SpecificName>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+    <Icon>units/maur_ship_trireme.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mauryans/trireme.xml</Actor>
+  </VisualActor>
+</Entity>

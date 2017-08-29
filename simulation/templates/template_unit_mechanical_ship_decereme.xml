@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship">
+  <Armour>
+    <Crush>8</Crush>
+    <Hack>8</Hack>
+    <Pierce>16</Pierce>
+  </Armour>
+  <BuildingAI>
+    <DefaultArrowCount>10</DefaultArrowCount>
+    <MaxArrowCount>40</MaxArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Population>10</Population>
+    <Resources>
+      <food>1000</food>
+      <metal>500</metal>
+      <stone>0</stone>
+      <wood>1000</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="12.0" depth="48.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>100</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>10</LoadingRange>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>5000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Juggernaut Warship</GenericName>
+    <SpecificName>Dekḗrēs</SpecificName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>100</food>
+    <metal>50</metal>
+    <stone>0</stone>
+    <wood>100</wood>
+    <xp>1250</xp>
+  </Loot>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/siege/ballist_attack.xml</attack>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.5</BarHeight>
+    <HeightOffset>6.0</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>8</WalkSpeed>
+  </UnitMotion>
+</Entity>

@@ -48,8 +48,11 @@
     <Entities datatype="tokens">
       units/{civ}_ship_fishing
       units/{civ}_ship_merchant
-      units/{civ}_ship_bireme
-      units/{civ}_ship_trireme
+      units/{civ}_ship_1
+      units/{civ}_ship_2
+      units/{civ}_ship_3
+      units/{civ}_ship_4
+      units/{civ}_ship_5
     </Entities>
     <Technologies datatype="tokens">
       gather_fish_net

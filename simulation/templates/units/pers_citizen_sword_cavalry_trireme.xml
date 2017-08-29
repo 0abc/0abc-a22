@@ -5,11 +5,11 @@
   </Cost>
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>units/pers_cavalry_swordsman_b</SelectionGroupName>
     <GenericName>Hyrcanian Cavalry</GenericName>
-    <SpecificName>Varkaniya Asabara</SpecificName>
     <Icon>units/pers_cavalry_swordsman.png</Icon>
-    <RequiredTechnology>persians/special_equine_transports</RequiredTechnology>
+    <RequiredTechnology>special/equine_transports</RequiredTechnology>
+    <SelectionGroupName>units/pers_cavalry_swordsman_b</SelectionGroupName>
+    <SpecificName>Varkaniya Asabara</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/pers/citizen_sword_cavalry_1</Entity>

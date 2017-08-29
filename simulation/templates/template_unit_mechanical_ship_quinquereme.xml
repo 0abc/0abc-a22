@@ -1,40 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
-  <Attack>
-    <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>10.0</Pierce>
-      <Crush>100.0</Crush>
-      <MaxRange>72.0</MaxRange>
-      <MinRange>10.0</MinRange>
-      <ProjectileSpeed>37.5</ProjectileSpeed>
-      <PrepareTime>2000</PrepareTime>
-      <RepeatTime>5000</RepeatTime>
-      <Spread>4.0</Spread>
-      <Splash>
-        <Shape>Circular</Shape>
-        <Range>10</Range>
-        <FriendlyFire>false</FriendlyFire>
-        <Hack>0.0</Hack>
-        <Pierce>15.0</Pierce>
-        <Crush>35.0</Crush>
-      </Splash>
-      <PreferredClasses datatype="tokens">Ship Structure</PreferredClasses>
-    </Ranged>
-  </Attack>
+  <Armour>
+    <Crush>7</Crush>
+    <Hack>7</Hack>
+    <Pierce>14</Pierce>
+  </Armour>
   <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
-    <MaxArrowCount>10</MaxArrowCount>
+    <DefaultArrowCount>5</DefaultArrowCount>
+    <MaxArrowCount>20</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Catapult</GarrisonArrowClasses>
+    <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
+    <BuildTime>50</BuildTime>
     <Population>5</Population>
-    <BuildTime>30</BuildTime>
     <Resources>
-      <wood>350</wood>
-      <metal>200</metal>
-      <stone>350</stone>
+      <food>500</food>
+      <metal>250</metal>
+      <stone>0</stone>
+      <wood>500</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -51,18 +35,21 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>2500</Max>
   </Health>
   <Identity>
     <GenericName>Heavy Warship</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Pentḗrēs</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
-    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>150</xp>
-    <wood>40</wood>
-    <metal>30</metal>
+    <food>50</food>
+    <metal>25</metal>
+    <stone>0</stone>
+    <wood>50</wood>
+    <xp>625</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -76,12 +63,6 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
-    <Run>
-      <Speed>20</Speed>
-    </Run>
+    <WalkSpeed>13</WalkSpeed>
   </UnitMotion>
-  <Vision>
-    <Range>110</Range>
-  </Vision>
 </Entity>

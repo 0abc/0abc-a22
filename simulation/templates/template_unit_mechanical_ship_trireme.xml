@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
-  <Attack>
-    <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>35.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>55.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Spread>2.0</Spread>
-      <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
-    </Ranged>
-  </Attack>
+  <Armour>
+    <Crush>6</Crush>
+    <Hack>6</Hack>
+    <Pierce>12</Pierce>
+  </Armour>
   <BuildingAI>
     <DefaultArrowCount>3</DefaultArrowCount>
-    <MaxArrowCount>13</MaxArrowCount>
+    <MaxArrowCount>12</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
+    <BuildTime>30</BuildTime>
     <Population>3</Population>
-    <BuildTime>25</BuildTime>
     <Resources>
-      <wood>150</wood>
+      <food>300</food>
       <metal>150</metal>
+      <stone>0</stone>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -42,18 +35,21 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>1400</Max>
+    <Max>1500</Max>
   </Health>
   <Identity>
     <GenericName>Medium Warship</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Triḗrēs</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <food>30</food>
+    <metal>15</metal>
+    <stone>0</stone>
     <wood>30</wood>
-    <metal>20</metal>
+    <xp>375</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -68,9 +64,6 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-    </Run>
+    <WalkSpeed>15</WalkSpeed>
   </UnitMotion>
 </Entity>

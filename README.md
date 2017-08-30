@@ -39,6 +39,8 @@
 * Phase advances no longer increase citizen soldier health nor metal gather rate
 * A third level of infantry and cavalry armoury researches is available; 
   blacksmith can be constructed in village phase
+* Walls, storehouses, markets, fields, farmsteads, and corrals can be constructed in neutral territory (new),
+  as can civic centres, colonies, crannogs, docks, naval shipyards, and outposts (unchanged)
 * Bribable (espionage: reveal their vision range for 10 seconds) are:
   * all ships and traders
   * heroes

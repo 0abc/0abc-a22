@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_unireme">
+<Entity parent="template_unit_mechanical_ship_transportmedium">
   <Identity>
     <Civ>maur</Civ>
     <Icon>units/maur_ship_bireme.png</Icon>

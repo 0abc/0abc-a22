@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_archer">
+  <Attack>
+    <Ranged>
+      <Pierce op="mul">0.9</Pierce>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal op="add">-25</metal>
+      <wood op="add">-25</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>North African Elephant Archer</GenericName>
+  </Identity>
+  <Loot>
+    <metal op="add">-2</metal>
+    <wood op="add">-2</wood>
+    <xp op="add">-50</xp>
+  </Loot>
+</Entity>

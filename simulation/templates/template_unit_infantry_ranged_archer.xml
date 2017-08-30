@@ -33,6 +33,7 @@
     <Max>50</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">CompositeBow</Classes>
     <GenericName>Archer</GenericName>
     <Tooltip>Counters: 1.5× vs Cavalry Archers.
 Penalties: 0.5× vs Elephants.</Tooltip>

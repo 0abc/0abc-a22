@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_biga_javelin">
+<Entity parent="template_unit_chariot_biga_archer">
   <Armour>
     <Crush op="add">5</Crush>
     <Hack op="add">5</Hack>
@@ -33,7 +33,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Hero Javelinist Chariot</GenericName>
+    <GenericName>Hero Three-man Chariot</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Hero -Citizen</VisibleClasses>
   </Identity>

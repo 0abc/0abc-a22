@@ -33,7 +33,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Hero Scythed Quadriga Chariot</GenericName>
+    <GenericName>Hero Scythed Chariot</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Hero -Citizen</VisibleClasses>
   </Identity>

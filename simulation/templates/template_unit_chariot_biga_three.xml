@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_quadriga">
+<Entity parent="template_unit_chariot_biga">
   <Armour>
     <Crush>9</Crush>
-    <Hack>6</Hack>
+    <Hack>5</Hack>
     <Pierce>3</Pierce>
   </Armour>
   <Attack>
     <Ranged>
       <MaxRange>64</MaxRange>
       <MinRange>0</MinRange>
-      <Pierce>9</Pierce>
+      <Pierce>12</Pierce>
       <PrepareTime>500</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
     </Ranged>
   </Attack>
   <Cost>
     <Resources>
+      <food op="add">50</food>
       <metal>50</metal>
       <wood>100</wood>
     </Resources>
   </Cost>
   <Health>
-    <Max>280</Max>
+    <Max>240</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CompositeBow</Classes>
-    <GenericName>Citizen Scythed Chariot</GenericName>
+    <GenericName>Citizen Three-man Chariot</GenericName>
     <Tooltip>Causes trample damage.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>
+    <food op="add">5</food>
     <metal>5</metal>
     <wood>10</wood>
-    <xp op="add">150</xp>
+    <xp op="add">200</xp>
   </Loot>
+  <Promotion>
+    <RequiredXp>220</RequiredXp>
+  </Promotion>
 </Entity>

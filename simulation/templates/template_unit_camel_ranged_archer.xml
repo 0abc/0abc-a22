@@ -18,6 +18,7 @@
     <Max>110</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">CompositeBow</Classes>
     <GenericName>Camel Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>

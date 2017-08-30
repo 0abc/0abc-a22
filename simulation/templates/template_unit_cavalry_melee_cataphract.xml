@@ -9,7 +9,7 @@
     <Melee>
       <Bonuses>
         <Skirmisher>
-          <Classes>Infantry Javelin</Classes>
+          <Classes>Cavalry Archer</Classes>
           <Multiplier>1.5</Multiplier>
         </Skirmisher>
       </Bonuses>
@@ -30,7 +30,7 @@
   </Health>
   <Identity>
     <GenericName>Cavalry Lancer</GenericName>
-    <Tooltip>Counters: 1.5× vs Infantry Skirmishers.
+    <Tooltip>Counters: 1.5× vs Cavalry Archers.
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Lance</VisibleClasses>
   </Identity>

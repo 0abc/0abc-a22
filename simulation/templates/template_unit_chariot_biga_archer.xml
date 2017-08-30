@@ -7,12 +7,6 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Bonuses>
-        <Infantry>
-          <Classes>Infantry Mace</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Infantry>
-      </Bonuses>
       <MaxRange>64</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>8</Pierce>
@@ -30,14 +24,15 @@
     <Max>200</Max>
   </Health>
   <Identity>
-    <GenericName>Champion Chariot Archer</GenericName>
+    <Classes datatype="tokens">CompositeBow</Classes>
+    <GenericName>Citizen Archer Chariot</GenericName>
     <Tooltip>Causes trample damage.
-Counters: 1.5× vs Infantry Macemen.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>
     <metal>3</metal>
     <wood>7</wood>
+    <xp op="add">100</xp>
   </Loot>
 </Entity>

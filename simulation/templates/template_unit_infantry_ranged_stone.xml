@@ -33,6 +33,7 @@
     <Max>55</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">SlingStone</Classes>
     <GenericName>Stone Slinger</GenericName>
     <Tooltip>Counters: 1.5× vs Infantry Archers.
 Penalties: 0.25× vs Structures.</Tooltip>

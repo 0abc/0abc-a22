@@ -7,12 +7,6 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Bonuses>
-        <Infantry>
-          <Classes>Infantry Sword</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Infantry>
-      </Bonuses>
       <MaxRange>32</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>16</Pierce>
@@ -30,14 +24,14 @@
     <Max>214</Max>
   </Health>
   <Identity>
-    <GenericName>Champion Chariot Skirmisher</GenericName>
+    <GenericName>Citizen Javelinist Chariot</GenericName>
     <Tooltip>Causes trample damage.
-Counters: 1.5× vs Infantry Swordsmen.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
   </Identity>
   <Loot>
     <metal>2</metal>
     <wood>8</wood>
+    <xp op="add">100</xp>
   </Loot>
 </Entity>

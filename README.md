@@ -17,7 +17,7 @@
 * Dozens of hours of work, hundreds of new files, thousands of tweaks and minor changes, most of which will probably go unnoticed
 * All soldiers cost at least some metal to encourage feminization
 * All soldiers have their attack rate normalized to 1 second
-* All soldiers (citizen, mercenary, and champion) can advance in rank; 
+* All soldiers (citizen, mercenary, and champion) can advance in rank: 
   * instead of basic/advanced/elite, units start at rank 0 and can promote a dozen times, up to rank 12; 
   * each rank grants +5% health, attack damage, and capture strength
 * Camelry, chariotry, and elephantry are now distinct classes, separate from cavalry; as a consequence, they no longer benefit from cavalry technologies
@@ -49,26 +49,26 @@
 
 ### Population size
 * 0: war dogs, fire ships
-* 1: infantry, support units, fishing boats, merchant ships, small galleys
-* 2: cavalry, camels, siege ballistae, transport ships, biremes
-* 3: worker elephants, siege onagers, triremes
+* 1: infantry, support units, fishing boats, merchant ships, small transport ships, medium transport ships, small galleys
+* 2: cavalry, camels, siege ballistae, large transport ships, biremes
+* 3: worker elephants, siege onagers, huge transport ships, triremes
 * 4: bigae (two-horsed chariots), siege rams, quadriremes
-* 5: (three-man chariots), quinqueremes
+* 5: three-man chariots, quinqueremes
 * 6: quadrigae (four-horsed chariots), war elephants, siege towers, sexiremes
 * 7: septiremes
 * 8: octoremes
 * 9: noviremes
-* 10: deceremes (juggernaut)
+* 10: deceremes
 
 ### Bonus attacks (counters and penalties)
-* Crossbow infantry: 1.25× vs Ranged Infantry, 0.5× vs Structures
 * Archer infantry: 1.5× vs Archer Cavalry, 0.5× vs Elephantry
 * Sling infantry: 1.5× vs Archer Infantry, 0.25× vs Structures
 * Javelin infantry: 1.25× vs Archer units
 * Throwing axe infantry: 1.5× vs Spear Infantry
 * Pike infantry: 1.25× vs Chariotry, 1.5× vs Cavalry, 1.75× vs Camelry, 2.0× vs Elephantry
-* Axe infantry: 1.5× vs Siege weapons, 2.0× vs Elephantry
+* Halberd infantry: 2.0× vs Cavalry
 * Spear infantry: 1.25× vs Javelin units
+* Axe infantry: 1.5× vs Siege weapons, 2.0× vs Elephantry
 * Mace infantry: 1.5× vs Cataphract Cavalry, 0.25× vs Structures
 * Sword infantry: --
 * Hoplite infantry: --
@@ -80,11 +80,12 @@
 * Axe cavalry: 2.0× vs Siege weapons, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Sword cavalry: 1.5× vs Siege weapons, Slingers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Spear cavalry: 1.5× vs Ranged Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Lance cavalry: 1.5× vs Javelin units, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Cataphract cavalry: 1.5× vs Javelin Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Javelin biga chariots: 1.5× vs Sword Infantry, 0.5× vs Elephantry
-* Archer biga chariots: 1.5× vs Mace Infantry, 0.5× vs Elephantry
-* Scythed quadriga chariots: 1.5× vs Axe Infantry, 0.5× vs Elephantry
+* Lance cavalry: 1.5× vs Javelin Cavalry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cataphract cavalry: 1.5× vs Archer Cavalry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Archer biga chariots: 0.5× vs Elephantry
+* Javelin biga chariots: 0.5× vs Elephantry
+* Three-man biga chariots: 0.5× vs Elephantry
+* Scythed quadriga chariots: 0.5× vs Elephantry
 * Archer war elephants: 1.5× vs Camelry, 0.5× vs Elephantry
 * Melee war elephants: 0.25× vs Structures
 * Siege ballista: 1.5× vs Elephantry

@@ -29,7 +29,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>95</Max>
+    <Max>90</Max>
   </Health>
   <Identity>
     <GenericName>Maceman</GenericName>
@@ -45,6 +45,6 @@
     <Run>
       <Speed>15</Speed>
     </Run>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>11</WalkSpeed>
   </UnitMotion>
 </Entity>

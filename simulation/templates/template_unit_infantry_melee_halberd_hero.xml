@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_biga_javelin">
+<Entity parent="template_unit_infantry_melee_halberd">
   <Armour>
     <Crush op="add">5</Crush>
     <Hack op="add">5</Hack>
@@ -9,11 +9,11 @@
     <Capture>
       <Value op="mul">5.0</Value>
     </Capture>
-    <Ranged>
+    <Melee>
       <Crush op="mul">5.0</Crush>
       <Hack op="mul">5.0</Hack>
       <Pierce op="mul">5.0</Pierce>
-    </Ranged>
+    </Melee>
   </Attack>
   <Auras datatype="tokens">
     units/heroes/hero_garrison
@@ -33,7 +33,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Hero Javelinist Chariot</GenericName>
+    <GenericName>Hero Infantry Halberdier</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Hero -Citizen</VisibleClasses>
   </Identity>

@@ -32,14 +32,14 @@
       formations/skirmish
     </Formations>
     <GenericName>Biga Chariot</GenericName>
-    <VisibleClasses datatype="tokens">Champion Ranged</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>
     <metal>0</metal>
     <stone>0</stone>
     <wood>0</wood>
-    <xp>300</xp>
+    <xp>200</xp>
   </Loot>
   <Promotion>
     <RequiredXp>200</RequiredXp>

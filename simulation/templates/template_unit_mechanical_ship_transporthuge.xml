@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush>4</Crush>
-    <Hack>4</Hack>
-    <Pierce>8</Pierce>
+    <Crush>7</Crush>
+    <Hack>7</Hack>
+    <Pierce>14</Pierce>
   </Armour>
   <BuildingAI>
     <DefaultArrowCount>2</DefaultArrowCount>
-    <MaxArrowCount>14</MaxArrowCount>
+    <MaxArrowCount>26</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <BuildTime>25</BuildTime>
-    <Population>2</Population>
+    <BuildTime>30</BuildTime>
+    <Population>3</Population>
     <Resources>
       <food>50</food>
       <metal>50</metal>
@@ -26,7 +26,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>40</Max>
+    <Max>80</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
@@ -35,10 +35,10 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>1800</Max>
+    <Max>3600</Max>
   </Health>
   <Identity>
-    <GenericName>Transport Warship</GenericName>
+    <GenericName>Huge Transport Warship</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
@@ -47,8 +47,8 @@
     <food>5</food>
     <metal>5</metal>
     <stone>0</stone>
-    <wood>40</wood>
-    <xp>250</xp>
+    <wood>80</wood>
+    <xp>450</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>

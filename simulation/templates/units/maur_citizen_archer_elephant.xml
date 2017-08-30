@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_ranged_archer">
+<Entity parent="template_unit_elephant_archer_indian">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Elephant Archer</GenericName>
+    <Classes datatype="tokens">Longbow</Classes>
     <Icon>units/maur_cavalry_archer.png</Icon>
     <SelectionGroupName>units/maur_citizen_archer_elephant</SelectionGroupName>
     <SpecificName>Vachii Gaja</SpecificName>

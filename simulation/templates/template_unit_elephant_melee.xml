@@ -30,7 +30,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>500</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <GenericName>War Elephant</GenericName>

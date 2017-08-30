@@ -6,15 +6,11 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime op="mul">1.0</BuildTime>
     <Resources>
       <metal op="add">-50</metal>
       <wood op="add">-25</wood>
     </Resources>
   </Cost>
-  <Health>
-    <Max op="mul">0.8</Max>
-  </Health>
   <Identity>
     <GenericName>North African War Elephant</GenericName>
   </Identity>

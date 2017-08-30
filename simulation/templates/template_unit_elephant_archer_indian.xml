@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_archer">
+  <Health>
+    <Max op="mul">1.25</Max>
+  </Health>
+  <Identity>
+    <GenericName>Indian Elephant Archer</GenericName>
+  </Identity>
+</Entity>

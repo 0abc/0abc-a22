@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_halberd">
+  <Armour>
+    <Crush op="add">1</Crush>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Crush op="mul">1.15</Crush>
+      <Hack op="mul">1.15</Hack>
+      <Pierce op="mul">1.15</Pierce>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}_blacksmith
+      -structures/{civ}_corral
+      -structures/{civ}_dock
+      -structures/{civ}_farmstead
+      -structures/{civ}_field
+      -structures/{civ}_house
+      -structures/{civ}_market
+      -structures/{civ}_stoa
+      -structures/{civ}_storehouse
+      -structures/{civ}_temple
+      -structures/{civ}_wonder
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime op="mul">0.8</BuildTime>
+    <Resources>
+      <metal op="add">20</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Mercenary Infantry Halberdier</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal op="add">2</metal>
+    <xp op="add">20</xp>
+  </Loot>
+  <ResourceGatherer>
+    <Rates>
+      <food.grain disable=""/>
+      <stone.rock disable=""/>
+      <metal.ore disable=""/>
+    </Rates>
+  </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+</Entity>

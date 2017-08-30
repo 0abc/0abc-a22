@@ -35,6 +35,7 @@
     <Max>120</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">CompositeBow</Classes>
     <GenericName>Cavalry Archer</GenericName>
     <Tooltip>Counters: 1.5× vs Cavalry Swordsmen.
 Penalties: 0.5× vs Elephants.</Tooltip>

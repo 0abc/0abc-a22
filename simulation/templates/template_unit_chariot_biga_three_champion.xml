@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_ranged_archer">
+<Entity parent="template_unit_chariot_biga_three">
   <Armour>
     <Crush op="add">3</Crush>
     <Hack op="add">3</Hack>
@@ -28,7 +28,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Champion Elephant Archer</GenericName>
+    <GenericName>Champion Three-man Chariot</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Champion -Citizen</VisibleClasses>
   </Identity>

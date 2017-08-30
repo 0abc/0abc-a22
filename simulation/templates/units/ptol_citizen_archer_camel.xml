@@ -5,7 +5,7 @@
     <GenericName>Nabatean Camel Archer</GenericName>
     <Icon>units/ptol_cavalry_archer.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <SelectionGroupName>units/ptol_camel_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/ptol_citizen_archer_camel</SelectionGroupName>
     <SpecificName>Mutsābiq Gamal Nabatu</SpecificName>
   </Identity>
   <Promotion>

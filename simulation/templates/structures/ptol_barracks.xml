@@ -15,7 +15,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <SpecificName>ḥwt-n-mš'</SpecificName>
-    <Tooltip>Train Egyptian and Middle-Eastern citizen-soldiers. Research training improvements.</Tooltip>
+    <Tooltip>Train Egyptian and Near-Eastern citizen-soldiers and mercenaries. Research training improvements.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
@@ -27,6 +27,7 @@
       units/{civ}_mercenary_sword_infantry
       units/{civ}_mercenary_javelin_infantry
       units/{civ}_mercenary_archer_infantry
+      units/{civ}_champion_javelin_infantry
     </Entities>
   </ProductionQueue>
   <VisualActor>

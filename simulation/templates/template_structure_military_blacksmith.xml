@@ -35,8 +35,11 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Loot>
-    <metal>20</metal>
-    <wood>40</wood>
+    <food>0</food>
+    <wood>20</wood>
+    <stone>0</stone>
+    <metal>10</metal>
+    <xp>100</xp>
   </Loot>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>

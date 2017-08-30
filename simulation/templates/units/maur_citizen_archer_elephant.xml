@@ -2,10 +2,10 @@
 <Entity parent="template_unit_elephant_ranged_archer">
   <Identity>
     <Civ>maur</Civ>
-    <SelectionGroupName>units/maur_elephant_archer_b</SelectionGroupName>
     <GenericName>Elephant Archer</GenericName>
-    <SpecificName>Vachii Gaja</SpecificName>
     <Icon>units/maur_cavalry_archer.png</Icon>
+    <SelectionGroupName>units/maur_citizen_archer_elephant</SelectionGroupName>
+    <SpecificName>Vachii Gaja</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/maur/citizen_archer_elephant_1</Entity>

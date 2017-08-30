@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_ranged_javelin">
   <Identity>
     <Civ>maur</Civ>
-    <SelectionGroupName>units/maur_cavalry_javelinist_b</SelectionGroupName>
     <GenericName>Indian Light Cavalry</GenericName>
-    <SpecificName>Ashwarohi</SpecificName>
     <Icon>units/maur_cavalry_javelinist.png</Icon>
+    <SelectionGroupName>units/maur_citizen_javelin_cavalry</SelectionGroupName>
+    <SpecificName>Ashwarohi</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/maur/citizen_javelin_cavalry_1</Entity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spear_mercenary">
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Thracian Black Cloak</GenericName>
+    <Icon>units/sele_infantry_swordsman.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/athen_mercenary_spear_infantry</SelectionGroupName>
+    <SpecificName>Rhomphaiaphoros</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/athen/mercenary_spear_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/hellenes/thracian_blackcloak.xml</Actor>
+  </VisualActor>
+</Entity>

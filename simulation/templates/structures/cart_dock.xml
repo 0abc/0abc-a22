@@ -26,6 +26,7 @@
       -units/{civ}_ship_3
       -units/{civ}_ship_4
       -units/{civ}_ship_5
+      units/cart_mercenary_sling_infantry
     </Entities>
     <Technologies datatype="tokens">
       -training_naval_architects

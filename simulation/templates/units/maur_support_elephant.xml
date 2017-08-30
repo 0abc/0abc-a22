@@ -33,12 +33,12 @@
   </Health>
   <Identity>
     <Civ>maur</Civ>
-    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
-    <GenericName>Worker Elephant</GenericName>
-    <SpecificName>Karmākara Gaja</SpecificName>
-    <Icon>units/maur_support_elephant.png</Icon>
-    <Tooltip>Mobile dropsite. Can also assist in constructing buildings. Females can garrison on it for shelter.</Tooltip>
     <Formations disable=""/>
+    <GenericName>Worker Elephant</GenericName>
+    <Icon>units/maur_support_elephant.png</Icon>
+    <SpecificName>Karmākara Gaja</SpecificName>
+    <Tooltip>Mobile dropsite. Can also assist in constructing buildings. Females can garrison on it for shelter.</Tooltip>
+    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
   <Loot>
     <food>30</food>

@@ -22,12 +22,12 @@
   </Cost>
   <Identity>
     <Civ>rome</Civ>
+    <Icon>units/rome_infantry_swordsman.png</Icon>
+    <GenericName>Young Swordsman</GenericName>
     <Lang>latin</Lang>
     <SelectionGroupName>units/rome_citizen_spear_infantry</SelectionGroupName>
-    <GenericName>Young Swordsman</GenericName>
     <SpecificName>Hastatus</SpecificName>
     <VisibleClasses datatype="tokens">Sword -Spear</VisibleClasses>
-    <Icon>units/rome_infantry_swordsman.png</Icon>
   </Identity>
   <Loot>
     <metal>2</metal>

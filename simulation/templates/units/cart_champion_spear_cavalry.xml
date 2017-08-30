@@ -3,8 +3,9 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>Sacred Band Cavalry</GenericName>
-    <SpecificName>Sacred Band of Astarte</SpecificName>
     <Icon>units/cart_sacred_band_cavalry.png</Icon>
+    <SelectionGroupName>units/cart_champion_spear_cavalry</SelectionGroupName>
+    <SpecificName>Sacred Band of Astarte</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/cart/champion_spear_cavalry_1</Entity>

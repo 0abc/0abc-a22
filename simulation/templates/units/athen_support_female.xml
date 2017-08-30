@@ -2,10 +2,10 @@
 <Entity parent="template_unit_support_female">
   <Identity>
     <Civ>athen</Civ>
-    <SpecificName>Gýnē Athēnaía</SpecificName>
     <GenericName>Athenian Woman</GenericName>
     <Icon>units/hele_support_female_citizen.png</Icon>
     <SelectionGroupName>units/athen_support_female_citizen</SelectionGroupName>
+    <SpecificName>Gýnē Athēnaía</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/female_citizen.xml</Actor>

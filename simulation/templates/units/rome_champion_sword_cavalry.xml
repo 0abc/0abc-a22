@@ -2,11 +2,11 @@
 <Entity parent="template_unit_cavalry_melee_sword_champion">
   <Identity>
     <Civ>rome</Civ>
-    <Lang>latin</Lang>
-    <SpecificName>Eques Consularis</SpecificName>
     <GenericName>Consular Bodyguard</GenericName>
     <Icon>units/rome_champion_cavalry.png</Icon>
-    <SelectionGroupName>units/rome_champion_cavalry</SelectionGroupName>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_champion_sword_cavalry</SelectionGroupName>
+    <SpecificName>Eques Consularis</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/rome/champion_sword_cavalry_1</Entity>

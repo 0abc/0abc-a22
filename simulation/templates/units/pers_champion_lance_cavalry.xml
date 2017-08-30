@@ -2,9 +2,10 @@
 <Entity parent="template_unit_cavalry_melee_lance_champion">
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Bactrian Heavy Lancer</GenericName>
-    <SpecificName>Bakhtrish Asabara</SpecificName>
     <Icon>units/pers_champion_cavalry.png</Icon>
+    <GenericName>Bactrian Heavy Lancer</GenericName>
+    <SelectionGroupName>units/pers_champion_lance_cavalry</SelectionGroupName>
+    <SpecificName>Bakhtrish Asabara</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/pers/champion_lance_cavalry_1</Entity>

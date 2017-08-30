@@ -3,8 +3,8 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Cypriot Galley</GenericName>
-    <SpecificName>Hamaraniyanava</SpecificName>
     <Icon>units/hele_ship_bireme.png</Icon>
+    <SpecificName>Hamaraniyanava</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/athenians/pentekonter.xml</Actor>

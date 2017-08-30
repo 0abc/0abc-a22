@@ -7,16 +7,16 @@
   </Builder>
   <Identity>
     <Civ>gaul</Civ>
-    <SelectionGroupName>units/gaul_citizen_sling_infantry</SelectionGroupName>
     <GenericName>Celtic Slinger</GenericName>
-    <SpecificName>Iaosae</SpecificName>
     <Icon>units/celt_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/gaul_citizen_sling_infantry</SelectionGroupName>
+    <SpecificName>Iaosae</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/gaul/citizen_sling_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/celts/infantry_slinger_b.xml</Actor>
+    <Actor>units/celts/infantry_slinger_e.xml</Actor>
   </VisualActor>
 </Entity>

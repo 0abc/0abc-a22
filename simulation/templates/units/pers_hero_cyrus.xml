@@ -5,9 +5,9 @@
   </Auras>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Cyrus II The Great</GenericName>
-    <SpecificName>Kurush II</SpecificName>
+    <GenericName>Cyrus II the Great</GenericName>
     <Icon>units/pers_hero_cyrus.png</Icon>
+    <SpecificName>Kuruš</SpecificName>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>

@@ -8,9 +8,9 @@
   </Builder>
   <Identity>
     <Civ>iber</Civ>
+    <Icon>units/iber_infantry_swordsman.png</Icon>
     <SelectionGroupName>units/iber_citizen_sword_infantry</SelectionGroupName>
     <SpecificName>Ezpatari</SpecificName>
-    <Icon>units/iber_infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/iber/citizen_sword_infantry_1</Entity>

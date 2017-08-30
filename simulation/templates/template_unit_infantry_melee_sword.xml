@@ -7,12 +7,6 @@
   </Armour>
   <Attack>
     <Melee>
-      <Bonuses>
-        <Pike>
-          <Classes>Pike</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Pike>
-      </Bonuses>
       <Hack>5</Hack>
       <MaxRange>2</MaxRange>
       <Pierce>2</Pierce>
@@ -30,7 +24,6 @@
   </Health>
   <Identity>
     <GenericName>Swordsman</GenericName>
-    <Tooltip>Counters: 1.5× vs Infantry Pikemen.</Tooltip>
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
   </Identity>
   <Loot>

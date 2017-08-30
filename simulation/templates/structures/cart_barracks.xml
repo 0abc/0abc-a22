@@ -15,6 +15,7 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
+    <GenericName>African Barracks</GenericName>
     <SpecificName>Maḥanēt</SpecificName>
     <Tooltip>Train North African citizen-soldiers. Research improvements for North African units.</Tooltip>
   </Identity>

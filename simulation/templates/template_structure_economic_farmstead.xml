@@ -28,6 +28,13 @@
     <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
     <Icon>structures/farmstead.png</Icon>
   </Identity>
+  <Loot>
+    <food>0</food>
+    <wood>10</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+    <xp>45</xp>
+  </Loot>
   <Obstruction>
     <Static width="12.0" depth="12.0"/>
   </Obstruction>

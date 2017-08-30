@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/mercenary_syrian_archer">
+<Entity parent="template_unit_infantry_ranged_archer_mercenary">
   <Builder>
     <Entities datatype="tokens">
       structures/{civ}_colony
-      structures/{civ}_library
-      structures/{civ}_theatre
     </Entities>
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <GenericName>Syrian Archer</GenericName>
+    <Icon>units/hele_infantry_archer.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/sele_mercenary_archer_infantry</SelectionGroupName>
+    <SpecificName>Toxótēs Syrías</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/sele/mercenary_archer_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/infantry_archer_e.xml</Actor>
+  </VisualActor>
 </Entity>

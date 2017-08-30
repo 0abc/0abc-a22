@@ -2,11 +2,11 @@
 <Entity parent="template_unit_cavalry_melee_lance">
   <Identity>
     <Civ>mace</Civ>
-    <Lang>greek</Lang>
-    <SelectionGroupName>units/mace_cavalry_spearman_b</SelectionGroupName>
     <GenericName>Thessalian Lancer</GenericName>
-    <SpecificName>Xystophóros Thessalikós</SpecificName>
     <Icon>units/mace_cavalry_spearman.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/mace_citizen_lance_cavalry</SelectionGroupName>
+    <SpecificName>Xystophóros Thessalikós</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/mace/citizen_lance_cavalry_1</Entity>

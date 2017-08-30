@@ -3,8 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       structures/{civ}_colony
-      structures/{civ}_library
-      structures/{civ}_theatre
     </Entities>
   </Builder>
   <Identity>

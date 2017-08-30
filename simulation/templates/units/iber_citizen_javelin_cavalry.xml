@@ -2,9 +2,9 @@
 <Entity parent="template_unit_cavalry_ranged_javelin">
   <Identity>
     <Civ>iber</Civ>
-    <SelectionGroupName>units/iber_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Kantabriako Zaldun</SpecificName>
     <Icon>units/iber_cavalry_javelinist.png</Icon>
+    <SelectionGroupName>units/iber_citizen_javelin_cavalry</SelectionGroupName>
+    <SpecificName>Kantabriako Zaldun</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/iber/citizen_javelin_cavalry_1</Entity>

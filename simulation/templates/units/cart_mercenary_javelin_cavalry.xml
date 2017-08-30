@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelin_mercenary">
+  <Identity>
+    <Civ>cart</Civ>
+    <Classes datatype="tokens">Greek</Classes>
+    <SelectionGroupName>units/cart_mercenary_javelin_cavalry</SelectionGroupName>
+    <GenericName>Tarantine Mercenary Cavalry</GenericName>
+    <SpecificName>Hippeús Tarantînos</SpecificName>
+    <Icon>units/mace_cavalry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/cart/mercenary_javelin_cavalry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_javelinist_e.xml</Actor>
+  </VisualActor>
+</Entity>

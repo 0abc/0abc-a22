@@ -11,10 +11,10 @@
   </Builder>
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>units/pers_citizen_spear_infantry</SelectionGroupName>
     <GenericName>Shield Bearer</GenericName>
-    <SpecificName>Sparabara</SpecificName>
     <Icon>units/pers_infantry_spearman.png</Icon>
+    <SelectionGroupName>units/pers_citizen_spear_infantry</SelectionGroupName>
+    <SpecificName>Sparabara</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/pers/citizen_spear_infantry_1</Entity>

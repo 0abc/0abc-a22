@@ -2,11 +2,10 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>units/pers_support_healer</SelectionGroupName>
     <GenericName>Median Magus</GenericName>
-    <SpecificName>Maguš Mada</SpecificName>
     <Icon>units/pers_support_healer.png</Icon>
-    <Rank>Basic</Rank>
+    <SelectionGroupName>units/pers_support_healer</SelectionGroupName>
+    <SpecificName>Maguš Mada</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/pers/support_healer_1</Entity>

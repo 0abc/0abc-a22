@@ -6,7 +6,6 @@
     <Icon>units/pers_kardakes_skirmisher.png</Icon>
     <SelectionGroupName>units/pers_champion_javelin_infantry</SelectionGroupName>
     <SpecificName>Peltastes Kardakes</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>units/pers/champion_javelin_infantry_1</Entity>

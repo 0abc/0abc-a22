@@ -2,10 +2,9 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>gaul</Civ>
+    <Icon>units/celt_support_healer.png</Icon>
     <SelectionGroupName>units/gaul_support_healer</SelectionGroupName>
     <SpecificName>Druides</SpecificName>
-    <Icon>units/celt_support_healer.png</Icon>
-    <Rank>Basic</Rank>
   </Identity>
   <Promotion>
     <Entity>units/gaul/support_healer_1</Entity>

@@ -2,9 +2,9 @@
 <Entity parent="template_unit_cavalry_ranged_javelin_champion">
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Leial Zalduneria</SpecificName>
     <Icon>units/iber_champion_cavalry.png</Icon>
-    <SelectionGroupName>units/iber_champion_cavalry</SelectionGroupName>
+    <SelectionGroupName>units/iber_champion_javelin_cavalry</SelectionGroupName>
+    <SpecificName>Leial Zalduneria</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/iber/champion_javelin_cavalry_1</Entity>

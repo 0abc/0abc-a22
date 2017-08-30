@@ -11,15 +11,15 @@
   </Builder>
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>units/pers_citizen_sling_infantry</SelectionGroupName>
     <GenericName>Armenian Slinger</GenericName>
     <Icon>units/iber_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/pers_citizen_sling_infantry</SelectionGroupName>
   </Identity>
   <Promotion>
     <Entity>units/pers/citizen_sling_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/infantry_slinger_b.xml</Actor>
+    <Actor>units/macedonians/infantry_slinger_a.xml</Actor>
   </VisualActor>
 </Entity>

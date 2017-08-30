@@ -17,8 +17,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_mercenary_archer_infantry
-      units/{civ}_champion_sword_infantry
+      units/athen_champion_sword_infantry
     </Entities>
   </ProductionQueue>
   <VisualActor>

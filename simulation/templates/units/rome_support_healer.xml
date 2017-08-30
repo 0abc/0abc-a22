@@ -2,12 +2,11 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>rome</Civ>
+    <GenericName>State Priest</GenericName>
+    <Icon>units/rome_support_healer.png</Icon>
     <Lang>latin</Lang>
     <SelectionGroupName>units/rome_support_healer</SelectionGroupName>
-    <GenericName>State Priest</GenericName>
     <SpecificName>Pontifex Minor</SpecificName>
-    <Icon>units/rome_support_healer.png</Icon>
-    <Rank>Basic</Rank>
   </Identity>
   <Promotion>
     <Entity>units/rome/support_healer_1</Entity>

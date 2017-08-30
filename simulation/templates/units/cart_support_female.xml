@@ -2,10 +2,10 @@
 <Entity parent="template_unit_support_female">
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Aštāh</SpecificName>
     <GenericName>Carthaginian Woman</GenericName>
     <Icon>units/cart_support_female_citizen.png</Icon>
     <SelectionGroupName>units/cart_support_female_citizen</SelectionGroupName>
+    <SpecificName>Aštāh</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/female_citizen.xml</Actor>

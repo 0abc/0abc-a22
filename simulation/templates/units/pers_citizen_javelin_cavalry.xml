@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_ranged_javelin">
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>units/pers_cavalry_javelinist_b</SelectionGroupName>
-    <GenericName>Median Light Cavalry</GenericName>
-    <SpecificName>Mada Asabara</SpecificName>
     <Icon>units/pers_cavalry_javelinist.png</Icon>
+    <GenericName>Median Light Cavalry</GenericName>
+    <SelectionGroupName>units/pers_citizen_javelin_cavalry</SelectionGroupName>
+    <SpecificName>Mada Asabara</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/pers/citizen_javelin_cavalry_1</Entity>

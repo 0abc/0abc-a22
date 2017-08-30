@@ -4,9 +4,10 @@
     <Civ>maur</Civ>
     <Gender>female</Gender>
     <GenericName>Maiden Guard</GenericName>
+    <Icon>units/maur_champion_maiden.png</Icon>
+    <RequiredTechnology>pop_wonder</RequiredTechnology>
     <SpecificName>Visha Kanya</SpecificName>
     <SelectionGroupName>units/maur_champion_sword_infantry</SelectionGroupName>
-    <Icon>units/maur_champion_maiden.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/maur/champion_sword_infantry_1</Entity>

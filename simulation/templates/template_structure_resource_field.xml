@@ -30,8 +30,11 @@
     <Icon>structures/field.png</Icon>
   </Identity>
   <Loot>
-    <food>50</food>
-    <wood>0</wood>
+    <food>0</food>
+    <wood>10</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+    <xp>15</xp>
   </Loot>
   <Minimap>
     <Color r="119" g="82" b="46"/>

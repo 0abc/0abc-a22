@@ -2,11 +2,11 @@
 <Entity parent="template_unit_support_female">
   <Identity>
     <Civ>rome</Civ>
-    <Lang>latin</Lang>
-    <SpecificName>Romana</SpecificName>
     <GenericName>Roman Woman</GenericName>
     <Icon>units/rome_support_female_citizen.png</Icon>
+    <Lang>latin</Lang>
     <SelectionGroupName>units/rome_support_female_citizen</SelectionGroupName>
+    <SpecificName>Romana</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/romans/female_citizen.xml</Actor>

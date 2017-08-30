@@ -2,15 +2,17 @@
 <Entity parent="template_unit_mechanical_ship_trireme">
   <Identity>
     <Civ>athen</Civ>
-    <SpecificName>Triḗrēs Athēnaía</SpecificName>
-    <GenericName>Athenian Trireme</GenericName>
     <Icon>units/hele_ship_trireme.png</Icon>
+    <GenericName>Athenian Trireme</GenericName>
+    <SpecificName>Triḗrēs Athēnaía</SpecificName>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/athen_mercenary_archer_infantry
       units/athen_champion_sword_infantry
+      units/athen_mercenary_javelin_infantry
+      units/athen_mercenary_archer_infantry
+      units/athen_mercenary_sling_infantry
     </Entities>
     <TechCostMultiplier>
       <food>1.0</food>

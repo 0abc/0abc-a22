@@ -5,6 +5,7 @@
     <Gender>female</Gender>
     <GenericName>Maiden Guard Archer</GenericName>
     <Icon>units/maur_champion_maiden_archer.png</Icon>
+    <RequiredTechnology>pop_wonder</RequiredTechnology>
     <SelectionGroupName>units/maur_champion_archer_infantry</SelectionGroupName>
     <SpecificName>Visha Kanya</SpecificName>
   </Identity>

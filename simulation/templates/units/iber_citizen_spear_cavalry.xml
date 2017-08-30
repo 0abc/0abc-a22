@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_melee_spear">
   <Identity>
     <Civ>iber</Civ>
-    <SelectionGroupName>units/iber_cavalry_spearman_b</SelectionGroupName>
-    <SpecificName>Lantzari</SpecificName>
     <Icon>units/iber_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/iber_citizen_spear_cavalry</SelectionGroupName>
+    <SpecificName>Lantzari</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/iber/citizen_spear_cavalry_1</Entity>

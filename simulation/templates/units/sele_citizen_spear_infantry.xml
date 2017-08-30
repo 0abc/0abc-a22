@@ -9,11 +9,11 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <GenericName>Militia Thureos Spearman</GenericName>
+    <Icon>units/sele_infantry_spearman_2.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/sele_citizen_spear_infantry</SelectionGroupName>
-    <GenericName>Militia Thureos Spearman</GenericName>
     <SpecificName>Thureophóros Politès</SpecificName>
-    <Icon>units/sele_infantry_spearman_2.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sele/citizen_spear_infantry_1</Entity>

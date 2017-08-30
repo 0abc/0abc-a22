@@ -3,9 +3,9 @@
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Warrior</GenericName>
+    <Icon>units/maur_champion_maceman.png</Icon>
     <SelectionGroupName>units/maur_champion_mace_infantry</SelectionGroupName>
     <SpecificName>Yōddha</SpecificName>
-    <Icon>units/maur_champion_maceman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/maur/champion_mace_infantry_1</Entity>

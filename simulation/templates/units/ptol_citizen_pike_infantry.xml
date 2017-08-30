@@ -11,10 +11,10 @@
   </Builder>
   <Identity>
     <Civ>ptol</Civ>
-    <SelectionGroupName>units/ptol_citizen_pike_infantry</SelectionGroupName>
     <GenericName>Egyptian Pikeman</GenericName>
-    <SpecificName>Phalaggomákhimos</SpecificName>
     <Icon>units/ptol_infantry_spearman.png</Icon>
+    <SelectionGroupName>units/ptol_citizen_pike_infantry</SelectionGroupName>
+    <SpecificName>Phalaggomákhimos</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/ptol/citizen_pike_infantry_1</Entity>

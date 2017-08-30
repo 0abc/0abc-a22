@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/mercenary_cretan_archer">
+<Entity parent="template_unit_infantry_ranged_archer_mercenary">
   <Builder>
     <Entities datatype="tokens">
       -other/wallset_palisade
       structures/ptol_colony
-      structures/ptol_library
-      structures/ptol_lighthouse
-      structures/ptol_theatre
     </Entities>
   </Builder>
   <Identity>
     <Civ>ptol</Civ>
+    <GenericName>Cretan Mercenary Archer</GenericName>
+    <Icon>units/hele_infantry_archer.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/ptol_mercenary_archer_infantry</SelectionGroupName>
+    <SpecificName>Toxótēs Krētikós</SpecificName>
   </Identity>
+  <Promotion>
+    <Entity>units/ptol/mercenary_archer_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_archer_e.xml</Actor>
+  </VisualActor>
 </Entity>

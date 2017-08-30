@@ -2,11 +2,11 @@
 <Entity parent="template_unit_cavalry_melee_spear">
   <Identity>
     <Civ>rome</Civ>
-    <Lang>latin</Lang>
-    <SelectionGroupName>units/rome_cavalry_spearman_b</SelectionGroupName>
     <GenericName>Roman Cavalry</GenericName>
-    <SpecificName>Eques Romanus</SpecificName>
     <Icon>units/rome_cavalry_spearman.png</Icon>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_citizen_spear_cavalry</SelectionGroupName>
+    <SpecificName>Eques Romanus</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/rome/citizen_spear_cavalry_1</Entity>

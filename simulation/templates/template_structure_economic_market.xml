@@ -27,10 +27,11 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
-    <food>15</food>
-    <wood>15</wood>
-    <stone>15</stone>
-    <metal>15</metal>
+    <food>0</food>
+    <wood>30</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+    <xp>75</xp>
   </Loot>
   <Market>
     <TradeType>land</TradeType>

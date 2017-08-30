@@ -3,8 +3,9 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>North African War Elephant</GenericName>
-    <SpecificName>Pil Malḥamit</SpecificName>
     <Icon>units/cart_champion_cavalry.png</Icon>
+    <SelectionGroupName>units/cart_champion_war_elephant</SelectionGroupName>
+    <SpecificName>Pil Malḥamit</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/cart/champion_war_elephant_1</Entity>

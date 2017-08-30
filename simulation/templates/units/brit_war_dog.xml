@@ -2,9 +2,9 @@
 <Entity parent="template_unit_dog">
   <Identity>
     <Civ>brit</Civ>
+    <Icon>units/celt_war_dog.png</Icon>
     <SelectionGroupName>units/brit_war_dog_b</SelectionGroupName>
     <SpecificName>Coun</SpecificName>
-    <Icon>units/celt_war_dog.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/brit/war_dog_1</Entity>

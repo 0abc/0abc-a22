@@ -37,6 +37,13 @@
     <Tooltip>Increase the population limit.</Tooltip>
     <VisibleClasses datatype="tokens">Village House</VisibleClasses>
   </Identity>
+  <Loot>
+    <food>0</food>
+    <wood>8</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+    <xp>40</xp>
+  </Loot>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>

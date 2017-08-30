@@ -7,9 +7,9 @@
   </Builder>
   <Identity>
     <Civ>gaul</Civ>
+    <Icon>units/celt_infantry_spearman.png</Icon>
     <SelectionGroupName>units/gaul_citizen_spear_infantry</SelectionGroupName>
     <SpecificName>Gaeroa</SpecificName>
-    <Icon>units/celt_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gaul/citizen_spear_infantry_1</Entity>

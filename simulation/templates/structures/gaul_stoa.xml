@@ -37,7 +37,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_champion_axe_infantry
+      units/{civ}_champion_spear_infantry
     </Entities>
     <Technologies datatype="tokens">
       -upgrade_rank_advanced_mercenary

@@ -3,8 +3,10 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Bactrian Heavy Cavalry Archer</GenericName>
-    <SpecificName>Bakhtrish Asabara</SpecificName>
     <Icon>units/pers_champion_cavalry.png</Icon>
+    <RequiredTechnology>pop_wonder</RequiredTechnology>
+    <SelectionGroupName>units/pers_champion_archer_cavalry</SelectionGroupName>
+    <SpecificName>Bakhtrish Asabara</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/pers/champion_archer_cavalry_1</Entity>

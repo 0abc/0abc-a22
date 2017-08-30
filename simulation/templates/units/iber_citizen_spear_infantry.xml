@@ -8,10 +8,10 @@
   </Builder>
   <Identity>
     <Civ>iber</Civ>
-    <SelectionGroupName>units/iber_citizen_spear_infantry_1</SelectionGroupName>
-    <SpecificName>Ezkutari</SpecificName>
     <Icon>units/iber_infantry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/iber_citizen_spear_infantry</SelectionGroupName>
+    <SpecificName>Ezkutari</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/iber/citizen_spear_infantry_1</Entity>

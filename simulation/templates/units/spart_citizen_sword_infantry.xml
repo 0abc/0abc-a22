@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_sword">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/spart_syssiton
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>Skiritai Commando</GenericName>
+    <Icon>units/spart_champion_infantry_sword.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/athen_citizen_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Ékdromos Skirítēs</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/spart/citizen_sword_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/spartans/champion_infantry_sword.xml</Actor>
+  </VisualActor>
+</Entity>

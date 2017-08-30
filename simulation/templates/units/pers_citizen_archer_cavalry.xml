@@ -5,7 +5,7 @@
     <GenericName>Dahae Cavalry Archer</GenericName>
     <Icon>units/sele_cavalry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <SelectionGroupName>units/pers_cavalry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/pers_citizen_archer_cavalry</SelectionGroupName>
     <SpecificName>Dasa Asabara</SpecificName>
   </Identity>
   <Promotion>

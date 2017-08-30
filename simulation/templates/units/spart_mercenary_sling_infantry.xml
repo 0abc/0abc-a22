@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_sling_mercenary">
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>Rhodian Slinger</GenericName>
+    <Icon>units/hele_infantry_slinger.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/spart_mercenary_sling_infantry</SelectionGroupName>
+    <SpecificName>Sphendonḗtēs Rhódios</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/spart/mercenary_sling_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_slinger_e.xml</Actor>
+  </VisualActor>
+</Entity>

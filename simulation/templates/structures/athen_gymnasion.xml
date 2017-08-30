@@ -38,8 +38,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
+      units/{civ}_mercenary_spear_infantry
       units/{civ}_champion_hoplite_infantry
-      units/{civ}_champion_archer_infantry
     </Entities>
   </ProductionQueue>
   <Sound>

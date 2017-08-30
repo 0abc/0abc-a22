@@ -9,7 +9,7 @@
     <GenericName>War Chariot</GenericName>
     <Icon>units/maur_champion_chariot.png</Icon>
     <SpecificName>Rath</SpecificName>
-    <SelectionGroupName>units/maur_champion_chariot</SelectionGroupName>
+    <SelectionGroupName>units/maur_champion_archer_chariot</SelectionGroupName>
   </Identity>
   <Promotion>
     <Entity>units/maur/champion_archer_chariot_1</Entity>

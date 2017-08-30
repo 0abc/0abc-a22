@@ -3,11 +3,12 @@
   <Identity>
     <Civ>pers</Civ>
     <SpecificName>Didā</SpecificName>
-    <Tooltip>Train Champion Cavalry and Construct Siege Rams.</Tooltip>
+    <Tooltip>Train champion cavalry and construct siege rams.</Tooltip>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_lance_cavalry
+      units/{civ}_champion_archer_cavalry
     </Entities>
   </ProductionQueue>
   <VisualActor>

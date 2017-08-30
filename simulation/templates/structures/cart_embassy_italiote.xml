@@ -3,9 +3,10 @@
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>0</wood>
-      <stone>0</stone>
+      <food>0</food>
       <metal>200</metal>
+      <stone>0</stone>
+      <wood>0</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -17,19 +18,24 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
+    <Icon>structures/italian_embassy.png</Icon>
     <SpecificName>Italic Embassy</SpecificName>
     <Tooltip>Hire Italic mercenaries. Research improvements for these mercenaries.</Tooltip>
-    <Icon>structures/italian_embassy.png</Icon>
   </Identity>
+  <Loot>
+    <food>0</food>
+    <metal>20</metal>
+    <stone>0</stone>
+    <wood>0</wood>
+    <xp>75</xp>
+  </Loot>
   <Obstruction>
     <Static width="11.0" depth="14.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mercenary_greek_hoplite
-      units/mercenary_italic_swordsman
-      units/mercenary_italic_cavalry
-      units/mercenary_tarentine_cavalry
+      units/{civ}_mercenary_sword_infantry
+      units/{civ}_mercenary_spear_cavalry
     </Entities>
   </ProductionQueue>
   <VisualActor>

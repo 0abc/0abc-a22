@@ -9,11 +9,11 @@
   </Builder>
   <Identity>
     <Civ>mace</Civ>
+    <GenericName>Agrianian Peltast</GenericName>
+    <Icon>units/mace_infantry_javelinist.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/mace_citizen_javelin_infantry</SelectionGroupName>
-    <GenericName>Agrianian Peltast</GenericName>
     <SpecificName>Peltastḗs Agrías</SpecificName>
-    <Icon>units/mace_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mace/citizen_javelin_infantry_1</Entity>

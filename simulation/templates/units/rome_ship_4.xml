@@ -2,9 +2,9 @@
 <Entity parent="template_unit_mechanical_ship_quinquereme">
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Quinqueremis Romana</SpecificName>
     <GenericName>Roman Quinquereme</GenericName>
     <Icon>units/rome_ship_quinquereme.png</Icon>
+    <SpecificName>Quinqueremis Romana</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/romans/quinquereme.xml</Actor>

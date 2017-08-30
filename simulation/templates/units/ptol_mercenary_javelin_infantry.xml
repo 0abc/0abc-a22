@@ -4,9 +4,6 @@
     <Entities datatype="tokens">
       -other/wallset_palisade
       structures/ptol_colony
-      structures/ptol_library
-      structures/ptol_lighthouse
-      structures/ptol_theatre
     </Entities>
   </Builder>
   <Identity>
@@ -20,6 +17,6 @@
     <Entity>units/ptol/mercenary_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_javelinist_b.xml</Actor>
+    <Actor>units/ptolemies/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

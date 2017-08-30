@@ -6,9 +6,9 @@
   </Footprint>
   <Identity>
     <Civ>brit</Civ>
+    <Icon>units/celt_ship_trireme.png</Icon>
     <SpecificName>Venetic Ponti</SpecificName>
     <Tooltip>Transport many soldiers across the sea.</Tooltip>
-    <Icon>units/celt_ship_trireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/celts/warship.xml</Actor>

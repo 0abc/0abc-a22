@@ -8,7 +8,7 @@
     <Civ>brit</Civ>
     <GenericName>Celtic Chariot</GenericName>
     <Icon>units/celt_champion_cavalry_brit.png</Icon>
-    <SelectionGroupName>units/brit_champion_chariot</SelectionGroupName>
+    <SelectionGroupName>units/brit_champion_javelin_chariot</SelectionGroupName>
     <SpecificName>Carbanto</SpecificName>
   </Identity>
   <Promotion>

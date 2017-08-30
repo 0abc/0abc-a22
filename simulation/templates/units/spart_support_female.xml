@@ -16,11 +16,11 @@
   </Health>
   <Identity>
     <Civ>spart</Civ>
-    <Lang>greek</Lang>
     <GenericName>Spartan Woman</GenericName>
-    <SpecificName>Spartiâtis</SpecificName>
     <Icon>units/spart_support_female_citizen.png</Icon>
+    <Lang>greek</Lang>
     <SelectionGroupName>units/spart_support_female_citizen</SelectionGroupName>
+    <SpecificName>Spartiâtis</SpecificName>
   </Identity>
   <UnitAI>
     <CanPatrol>true</CanPatrol>

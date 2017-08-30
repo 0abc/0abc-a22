@@ -2,8 +2,8 @@
 <Entity parent="template_unit_mechanical_ship_unireme">
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Yudhpot</SpecificName>
     <Icon>units/maur_ship_bireme.png</Icon>
+    <SpecificName>Yudhpot</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/mauryans/bireme.xml</Actor>

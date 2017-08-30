@@ -5,6 +5,7 @@
     <GenericName>Spartan Pikeman</GenericName>
     <Icon>units/spart_champion_infantry_pike.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>pop_wonder</RequiredTechnology>
     <SelectionGroupName>units/spart_champion_pike_infantry</SelectionGroupName>
     <SpecificName>Phalangites Spartiatis</SpecificName>
   </Identity>

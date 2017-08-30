@@ -2,11 +2,11 @@
 <Entity parent="template_unit_cavalry_melee_lance_champion">
   <Identity>
     <Civ>mace</Civ>
-    <Lang>greek</Lang>
     <GenericName>Companion Cavalry</GenericName>
-    <SpecificName>Hetaîros</SpecificName>
     <Icon>units/hele_champion_cavalry_mace.png</Icon>
-    <SelectionGroupName>units/mace_champion_cavalry</SelectionGroupName>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/mace_champion_lance_cavalry</SelectionGroupName>
+    <SpecificName>Hetaîros</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/mace/champion_lance_cavalry_1</Entity>

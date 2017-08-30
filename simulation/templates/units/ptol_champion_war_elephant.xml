@@ -3,8 +3,9 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Towered War Elephant</GenericName>
-    <SpecificName>Polémou Eléphantos</SpecificName>
     <Icon>units/ptol_champion_elephant.png</Icon>
+    <SelectionGroupName>units/ptol_champion_war_elephant</SelectionGroupName>
+    <SpecificName>Polémou Eléphantos</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/ptol/champion_war_elephant_1</Entity>

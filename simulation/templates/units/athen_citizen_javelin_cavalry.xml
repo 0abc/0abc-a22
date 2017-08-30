@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_ranged_javelin">
   <Identity>
     <Civ>athen</Civ>
+    <Icon>units/hele_cavalry_javelinist.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen_cavalry_javelinist_b</SelectionGroupName>
     <SpecificName>Pródromos</SpecificName>
-    <Icon>units/hele_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/athen/citizen_javelin_cavalry_1</Entity>

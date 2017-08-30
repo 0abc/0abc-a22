@@ -28,8 +28,11 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
+    <food>0</food>
+    <metal>0</metal>
     <stone>10</stone>
     <wood>10</wood>
+    <xp>100</xp>
   </Loot>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>

@@ -8,15 +8,15 @@
   </Builder>
   <Identity>
     <Civ>iber</Civ>
-    <SelectionGroupName>units/iber_citizen_sling_infantry</SelectionGroupName>
-    <SpecificName>Habailari</SpecificName>
     <Icon>units/iber_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/iber_citizen_sling_infantry</SelectionGroupName>
+    <SpecificName>Habailari</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/iber/citizen_sling_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/infantry_slinger_b.xml</Actor>
+    <Actor>units/iberians/infantry_slinger_a.xml</Actor>
   </VisualActor>
 </Entity>

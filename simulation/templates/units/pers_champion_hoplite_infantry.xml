@@ -6,7 +6,6 @@
     <Icon>units/pers_kardakes.png</Icon>
     <SelectionGroupName>units/pers_champion_hoplite_infantry</SelectionGroupName>
     <SpecificName>Hoplites Kardakes</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>units/pers/champion_hoplite_infantry_1</Entity>

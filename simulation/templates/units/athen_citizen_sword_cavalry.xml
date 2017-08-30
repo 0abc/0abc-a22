@@ -2,12 +2,12 @@
 <Entity parent="template_unit_cavalry_melee_sword">
   <Identity>
     <Civ>athen</Civ>
-    <Lang>greek</Lang>
-    <SelectionGroupName>units/athen_cavalry_swordsman_b</SelectionGroupName>
     <GenericName>Greek Cavalry</GenericName>
-    <SpecificName>Hippeús</SpecificName>
     <Icon>units/hele_cavalry_swordsman.png</Icon>
+    <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/athen_cavalry_swordsman_b</SelectionGroupName>
+    <SpecificName>Hippeús</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/athen/citizen_sword_cavalry_1</Entity>

@@ -2,11 +2,11 @@
 <Entity parent="template_unit_cavalry_melee_cataphract">
   <Identity>
     <Civ>pers</Civ>
-    <SelectionGroupName>units/pers_cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/pers_citizen_cataphract_cavalry</SelectionGroupName>
     <GenericName>Cappadocian Cavalry</GenericName>
-    <SpecificName>Katpaduka Asabara</SpecificName>
     <Icon>units/pers_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Katpaduka Asabara</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/pers/citizen_cataphract_cavalry_1</Entity>

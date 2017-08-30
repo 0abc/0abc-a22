@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_ranged_javelin">
   <Identity>
     <Civ>cart</Civ>
-    <SelectionGroupName>units/cart_cavalry_javelinist_b</SelectionGroupName>
     <GenericName>Numidian Cavalry</GenericName>
-    <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
     <Icon>units/cart_cavalry_javelinist.png</Icon>
+    <SelectionGroupName>units/cart_citizen_javelin_cavalry</SelectionGroupName>
+    <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/cart/citizen_javelin_cavalry_1</Entity>

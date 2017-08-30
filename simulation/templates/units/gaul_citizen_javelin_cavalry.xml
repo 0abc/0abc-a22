@@ -2,9 +2,9 @@
 <Entity parent="template_unit_cavalry_ranged_javelin">
   <Identity>
     <Civ>gaul</Civ>
-    <SelectionGroupName>units/gaul_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Gaisaredos</SpecificName>
     <Icon>units/celt_cavalry_javelinist.png</Icon>
+    <SelectionGroupName>units/gaul_citizen_javelin_cavalry</SelectionGroupName>
+    <SpecificName>Gaisaredos</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/gaul/citizen_javelin_cavalry_1</Entity>

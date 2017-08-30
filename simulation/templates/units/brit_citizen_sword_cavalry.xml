@@ -2,11 +2,11 @@
 <Entity parent="template_unit_cavalry_melee_sword">
   <Identity>
     <Civ>brit</Civ>
-    <SelectionGroupName>units/brit_cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Epos</SpecificName>
     <GenericName>Celtic Cavalry</GenericName>
     <Icon>units/celt_cavalry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/brit_cavalry_swordsman_b</SelectionGroupName>
+    <SpecificName>Epos</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/brit/citizen_sword_cavalry_1</Entity>

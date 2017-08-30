@@ -10,10 +10,10 @@
   </Builder>
   <Identity>
     <Civ>brit</Civ>
-    <SelectionGroupName>units/brit_citizen_spear_infantry</SelectionGroupName>
-    <SpecificName>Gaeroa</SpecificName>
     <GenericName>Celtic Spearman</GenericName>
     <Icon>units/celt_infantry_spearman.png</Icon>
+    <SelectionGroupName>units/brit_citizen_spear_infantry</SelectionGroupName>
+    <SpecificName>Gaeroa</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/brit/citizen_spear_infantry_1</Entity>

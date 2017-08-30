@@ -3,7 +3,10 @@
 
 ## Instructions
 * Download the zip or `git clone` this repository (`https://github.com/0abc/mounted.git`).
-* Place it in your `/0ad/mods/` folder (e.g. on Fedora it is `/.local/share/0ad/mods/`)
+* Place it in your `/0ad/mods/` folder:
+  * GNU/Linux (e.g. Fedora) typically: `~/.local/share/0ad/mods/`
+  * Macintosh/Apple OS X typically: `~/Library/Application\Support/0ad/mods/`
+  * Microsoft Windows typically: `~\Documents\My Games\0ad\mods\`
 * Launch 0 A.D., click “Tools & Options” and “Mod Selection”
 * Select `0abc`, click “Enable” and “Save Configuration”
 * Add, remove, or move up or down any other mods, click “Save Configuration” and “Start Mods”
@@ -11,33 +14,35 @@
 * For more detailed information, please have a look at **0abc-readme.pdf**
 
 ## Brief overview
-* Hundreds of files, containing thousands of tweaks and minor changes, most of which will probably go unnoticed
+* Dozens of hours of work, hundreds of new files, thousands of tweaks and minor changes, most of which will probably go unnoticed
 * All soldiers cost at least some metal to encourage feminization
 * All soldiers have their attack rate normalized to 1 second
 * All soldiers (citizen, mercenary, and champion) can advance in rank; 
-  instead of basic/advanced/elite, units start at rank 0 and can promote a dozen times, up to rank 12; 
-  each rank grants +5% health, attack damage, and capture strength
+  * instead of basic/advanced/elite, units start at rank 0 and can promote a dozen times, up to rank 12; 
+  * each rank grants +5% health, attack damage, and capture strength
 * Camelry, chariotry, and elephantry are now distinct classes, separate from cavalry; as a consequence, they no longer benefit from cavalry technologies
 * Cavalry, camels, and worker elephants can no longer be trained at the civic centre or crannog
 * Loot is standardized to 10% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
-  experience is standardized to be equal to:
-  100% of total costs (soldiers)
-  50% of total costs (siege weapons, war ships)
-  10% of total costs (fishing boats, merchant ships, support units)
-  10% of maximum health (civic centres, fortresses, towers, walls) 
-  5% of maximum health (other structures)
+  * experience is standardized to be equal to:
+  * 100% of total costs (soldiers)
+  * 50% of total costs (siege weapons, war ships)
+  * 10% of total costs (fishing boats, merchant ships, support units)
+  * 10% of maximum health (civic centres, fortresses, towers, walls) 
+  * 5% of maximum health (other structures)
 * Economic buildings and walls can be constructed in neutral territory
 * All walls and towers are stronger and more expensive; 
-  palisade and outpost are available in village phase, 
-  outposts can be upgraded individually to sentry towers in town phase,
-  siege wall and sentry tower are available in town phase,
-  sentry towers can be upgraded individually to defense towers in city phase,
-  stone wall and defense tower are available in city phase; 
+  * palisade and outpost are available in village phase, 
+   * outposts can be upgraded individually to sentry towers in town phase,
+  * siege wall and sentry tower are available in town phase,
+   * sentry towers can be upgraded individually to defense towers in city phase,
+  * stone wall and defense tower are available in city phase; 
 * Phase advances no longer increase citizen soldier health nor metal gather rate
 * A third level of infantry and cavalry armoury researches is available; 
   blacksmith can be constructed in village phase
-* All ships, traders, and most major buildings can be bribed (espionage: reveal their vision range for 10 seconds): 
-  civic centres, colonies, crannogs, docks, embassies, halls, libraries, markets, naval shipyards, palaces, temples, theatres, and wonders
+* Bribable (espionage: reveal their vision range for 10 seconds) are:
+  * all ships and traders
+  * heroes
+  * civic centres, colonies, crannogs, docks, embassies, halls, libraries, markets, naval shipyards, palaces, temples, theatres, and wonders
 * Trade gain now depends on x+x^1.5 (instead of x^2), with x the distance between markets
 
 ### Population size
@@ -63,8 +68,8 @@
 * Axe infantry: 1.5× vs Siege weapons, 2.0× vs Elephantry
 * Spear infantry: 1.25× vs Javelin units
 * Mace infantry: 1.5× vs Cataphract Cavalry, 0.25× vs Structures
-* Sword infantry: 1.5× vs Pike Infantry
-* Hoplite infantry: 1.25× vs Ranged units 
+* Sword infantry: --
+* Hoplite infantry: --
 * War dogs: 0.75× vs Camelry, Cavalry, Chariotry, 0.5× vs Elephantry
 * Archer camel: 1.5× vs Support units, 0.5× vs Elephantry
 * Spear camel: 1.5× vs Cavalry, 0.5× vs Elephantry

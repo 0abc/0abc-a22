@@ -2,11 +2,10 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>maur</Civ>
-    <SelectionGroupName>units/maur_support_healer</SelectionGroupName>
     <GenericName>Brahmin Priest</GenericName>
-    <SpecificName>Brāhmaṇa Pujari</SpecificName>
     <Icon>units/maur_support_healer.png</Icon>
-    <Rank>Basic</Rank>
+    <SelectionGroupName>units/maur_support_healer</SelectionGroupName>
+    <SpecificName>Brāhmaṇa Pujari</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/maur/support_healer_1</Entity>

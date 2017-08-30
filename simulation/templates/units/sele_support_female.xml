@@ -2,11 +2,11 @@
 <Entity parent="template_unit_support_female">
   <Identity>
     <Civ>sele</Civ>
-    <Lang>greek</Lang>
-    <SpecificName>Syrías Gýnē</SpecificName>
     <GenericName>Syrian Woman</GenericName>
     <Icon>units/sele_support_female.png</Icon>
+    <Lang>greek</Lang>
     <SelectionGroupName>units/sele_support_female_citizen</SelectionGroupName>
+    <SpecificName>Syrías Gýnē</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/female_citizen.xml</Actor>

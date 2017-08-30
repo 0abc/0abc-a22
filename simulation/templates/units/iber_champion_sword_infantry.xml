@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee_sword_champion">
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Leial Ezpatari</SpecificName>
     <Icon>units/iber_champion_infantry.png</Icon>
     <SelectionGroupName>units/iber_champion_sword_infantry</SelectionGroupName>
+    <SpecificName>Leial Ezpatari</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/iber/champion_sword_infantry_1</Entity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_axe">
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Hyrcanian Cavalry</GenericName>
+    <Icon>units/pers_cavalry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/pers_citizen_axe_cavalry</SelectionGroupName>
+    <SpecificName>Varkaniya Asabara</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/pers/citizen_axe_cavalry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/cavalry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

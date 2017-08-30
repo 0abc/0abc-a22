@@ -7,8 +7,8 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Phoenician Bireme</GenericName>
-    <SpecificName>Hamaraniyanava</SpecificName>
     <Icon>units/pers_ship_bireme.png</Icon>
+    <SpecificName>Hamaraniyanava</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/bireme.xml</Actor>

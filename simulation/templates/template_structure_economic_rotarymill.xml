@@ -18,6 +18,10 @@
     <Height>6.0</Height>
   </Footprint>
   <GarrisonHolder disable=""/>
+  <Health>
+    <Max>1800</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical DropsiteFood</Classes>
     <GenericName>Rotary Mill</GenericName>
@@ -30,6 +34,7 @@
     <metal>0</metal>
     <stone>10</stone>
     <wood>20</wood>
+    <xp>90</xp>
   </Loot>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>

@@ -8,7 +8,7 @@
     <Civ>pers</Civ>
     <GenericName>Babylonian Scythed Chariot</GenericName>
     <Icon>units/pers_cavalry_archer.png</Icon>
-    <SelectionGroupName>units/pers_champion_chariot</SelectionGroupName>
+    <SelectionGroupName>units/pers_champion_scythed_chariot</SelectionGroupName>
     <SpecificName>Babiruviya Ratha</SpecificName>
   </Identity>
   <Promotion>

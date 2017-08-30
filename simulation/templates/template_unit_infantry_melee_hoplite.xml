@@ -7,12 +7,6 @@
   </Armour>
   <Attack>
     <Melee>
-      <Bonuses>
-        <Ranged>
-          <Classes>Ranged</Classes>
-          <Multiplier>1.25</Multiplier>
-        </Ranged>
-      </Bonuses>
       <Hack>2</Hack>
       <MaxRange>4</MaxRange>
       <Pierce>5</Pierce>
@@ -29,7 +23,6 @@
   </Health>
   <Identity>
     <GenericName>Hoplite</GenericName>
-    <Tooltip>Counters: 1.25× vs all Ranged units.</Tooltip>
     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
   </Identity>
   <Loot>

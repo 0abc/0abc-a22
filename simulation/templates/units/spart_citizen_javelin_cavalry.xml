@@ -2,11 +2,11 @@
 <Entity parent="template_unit_cavalry_ranged_javelin">
   <Identity>
     <Civ>spart</Civ>
-    <Lang>greek</Lang>
-    <SelectionGroupName>units/spart_cavalry_javelinist_b</SelectionGroupName>
     <GenericName>Perioikoi Cavalryman</GenericName>
-    <SpecificName>Pródromos Perioïkós</SpecificName>
     <Icon>units/spart_cavalry_javelinist.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/spart_citizen_javelin_cavalry</SelectionGroupName>
+    <SpecificName>Pródromos Perioïkós</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/spart/citizen_javelin_cavalry_1</Entity>

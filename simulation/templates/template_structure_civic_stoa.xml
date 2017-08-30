@@ -8,9 +8,9 @@
     <BuildTime>150</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>0</wood>
-      <stone>100</stone>
-      <metal>150</metal>
+      <wood>50</wood>
+      <stone>150</stone>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -39,8 +39,11 @@
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Loot>
-    <stone>10</stone>
-    <metal>15</metal>
+    <food>0</food>
+    <metal>5</metal>
+    <stone>15</stone>
+    <wood>5</wood>
+    <xp>125</xp>
   </Loot>
   <Obstruction>
     <Static width="28.0" depth="20.0"/>

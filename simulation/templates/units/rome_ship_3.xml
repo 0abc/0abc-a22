@@ -5,9 +5,9 @@
   </Footprint>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Triremis Romana</SpecificName>
     <GenericName>Roman Trireme</GenericName>
     <Icon>units/rome_ship_trireme.png</Icon>
+    <SpecificName>Triremis Romana</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/romans/trireme.xml</Actor>

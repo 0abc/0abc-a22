@@ -22,7 +22,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_sword_infantry
+      units/{civ}_mercenary_javelin_infantry
+      units/{civ}_champion_javelin_infantry
+      units/{civ}_champion_pike_infantry
     </Entities>
   </ProductionQueue>
   <VisualActor>

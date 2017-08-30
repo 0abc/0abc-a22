@@ -11,8 +11,8 @@
   </Builder>
   <Identity>
     <Civ>pers</Civ>
-    <Icon>units/pers_infantry_archer.png</Icon>
     <GenericName>Sogdian Archer</GenericName>
+    <Icon>units/pers_infantry_archer.png</Icon>
     <SelectionGroupName>units/pers_citizen_archer_infantry</SelectionGroupName>
     <SpecificName>Sugda Vaçabara</SpecificName>
   </Identity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_sword_champion">
+  <Identity>
+    <Civ>mace</Civ>
+    <GenericName>Armoured Swordsman</GenericName>
+    <Icon>units/mace_thorakites.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>pop_wonder</RequiredTechnology>
+    <SelectionGroupName>units/mace_champion_sword_infantry</SelectionGroupName>
+    <SpecificName>Thōrakitēs</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/mace/champion_sword_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/thorakites.xml</Actor>
+  </VisualActor>
+</Entity>

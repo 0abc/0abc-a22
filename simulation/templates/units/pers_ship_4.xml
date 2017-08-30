@@ -14,8 +14,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/pers_citizen_sword_cavalry
       units/pers_citizen_javelin_cavalry
+      units/pers_citizen_axe_cavalry
     </Entities>
     <TechCostMultiplier>
       <food>1.0</food>

@@ -32,6 +32,7 @@
     <Max>150</Max>
   </Health>
   <Identity>
+    <Classes datatype="tokens">CavalrySword</Classes>
     <GenericName>Cavalry Swordsman</GenericName>
     <Tooltip>Counters: 1.5× vs Siege weapons, Slingers.
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>

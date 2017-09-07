@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Armour>
-    <Crush>8</Crush>
+    <Crush>6</Crush>
     <Hack>6</Hack>
-    <Pierce>7</Pierce>
+    <Pierce>6</Pierce>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>4</Hack>
-      <MaxRange>2</MaxRange>
-      <Pierce>4</Pierce>
+      <Hack>6</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>2</Pierce>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
   </Attack>
@@ -23,7 +23,7 @@
     <Max>95</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">ShortSword</Classes>
+    <Classes datatype="tokens">Longsword</Classes>
     <GenericName>Swordsman</GenericName>
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
   </Identity>

@@ -17,7 +17,7 @@
           <Multiplier>1.5</Multiplier>
         </Cavalry>
       </Bonuses>
-      <Crush>6</Crush>
+      <Crush>8</Crush>
       <MaxRange>2</MaxRange>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>

@@ -5,7 +5,7 @@
   "supersedes": "armour_infantry_02",
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "icon": "armor_plates_gold.png",
+  "icon": "armor_scale.png",
   "researchTime": 60,
   "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels.",
   "modifications": [

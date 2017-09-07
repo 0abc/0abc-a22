@@ -12,7 +12,7 @@
 	"supersedes": "attack_infantry_ranged_02",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "armor_plates_ranged.png",
+	"icon": "arrow_accuracy.png",
 	"researchTime": 60,
 	"tooltip": "+15% ranged infantry attack.",
 	"modifications": [{"value": "Attack/Ranged/Hack", "multiply": 1.15},

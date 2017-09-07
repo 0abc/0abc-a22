@@ -6,7 +6,7 @@
     <SelectionGroupName>units/cart_mercenary_javelin_cavalry</SelectionGroupName>
     <GenericName>Tarantine Mercenary Cavalry</GenericName>
     <SpecificName>Hippeús Tarantînos</SpecificName>
-    <Icon>units/mace_cavalry_javelinist.png</Icon>
+    <Icon>units/tarentine_cavalry_e.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/cart/mercenary_javelin_cavalry_1</Entity>

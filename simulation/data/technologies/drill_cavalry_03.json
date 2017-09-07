@@ -4,7 +4,7 @@
   "cost": {"food": 900, "wood": 0, "stone": 0, "metal": 600},
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "icon": "nisean_war_horses.png",
+  "icon": "horseshoe_silver.png",
   "researchTime": 60,
   "supersedes": "drill_cavalry_02",
   "tooltip": "New cavalry starts at rank 3/12: additional -10% resource gather rate, +5% health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",

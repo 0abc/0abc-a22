@@ -4,7 +4,7 @@
   "cost": {"food": 1200, "wood": 0, "stone": 0, "metal": 800},
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked at Wonder.",
-  "icon": "nisean_war_horses.png",
+  "icon": "horseshoe_gold.png",
   "researchTime": 75,
   "supersedes": "drill_cavalry_03",
   "tooltip": "New Cavalry starts at rank 4/12: additional -10% resource gather rate, +5% health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",

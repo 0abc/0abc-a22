@@ -76,7 +76,4 @@
       <Speed>12.0</Speed>
     </Run>
   </UnitMotion>
-  <Vision>
-    <Range>100</Range>
-  </Vision>
 </Entity>

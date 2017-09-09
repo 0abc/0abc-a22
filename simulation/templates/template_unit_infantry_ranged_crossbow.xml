@@ -22,7 +22,7 @@
         </Elephantry>
       </Bonuses>
       <Crush>1</Crush>
-      <MaxRange>48</MaxRange>
+      <MaxRange op="mul">4</MaxRange>
       <Pierce>5</Pierce>
       <PrepareTime>800</PrepareTime>
       <ProjectileSpeed>75.0</ProjectileSpeed>

@@ -14,12 +14,12 @@
         </Archer>
         <Building>
           <Classes>Structure</Classes>
-          <Multiplier>0.25</Multiplier>
+          <Multiplier>0.125</Multiplier>
         </Building>
       </Bonuses>
       <Crush>1</Crush>
       <Hack>0</Hack>
-      <MaxRange>72</MaxRange>
+      <MaxRange op="mul">6</MaxRange>
       <Pierce>4</Pierce>
       <PrepareTime>500</PrepareTime>
       <ProjectileSpeed>80</ProjectileSpeed>
@@ -38,7 +38,7 @@
     <Classes datatype="tokens">LeadBullet</Classes>
     <GenericName>Slinger</GenericName>
     <Tooltip>Counters: 1.5× vs Infantry Archers.
-Penalties: 0.25× vs Structures.</Tooltip>
+Penalties: 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Sling</VisibleClasses>
   </Identity>
   <Loot>

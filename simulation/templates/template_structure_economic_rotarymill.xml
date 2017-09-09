@@ -3,6 +3,12 @@
   <Auras datatype="tokens">
     structures/rotary_mill
   </Auras>
+  <BuildRestrictions>
+    <Distance>
+      <FromClass>Economic</FromClass>
+      <MinDistance>20</MinDistance>
+    </Distance>
+  </BuildRestrictions>
   <Cost>
     <BuildTime>100</BuildTime>
     <PopulationBonus>2</PopulationBonus>
@@ -28,6 +34,7 @@
     <Icon>structures/rotarymill.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Melonas</SpecificName>
+    <VisibleClasses datatype="tokens">Economic City</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

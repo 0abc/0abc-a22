@@ -69,6 +69,6 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>40</Range>
+    <Range op="mul">0.5</Range>
   </Vision>
 </Entity>

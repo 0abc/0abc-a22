@@ -13,7 +13,7 @@
           <Multiplier>1.5</Multiplier>
         </Siege>
         <Slinger>
-          <Classes>Slinger</Classes>
+          <Classes>Sling</Classes>
           <Multiplier>1.5</Multiplier>
         </Slinger>
       </Bonuses>

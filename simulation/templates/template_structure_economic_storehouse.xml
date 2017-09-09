@@ -2,6 +2,10 @@
 <Entity parent="template_structure_economic">
   <BuildRestrictions>
     <Category>Storehouse</Category>
+    <Distance>
+      <FromClass>Economic</FromClass>
+      <MinDistance>20</MinDistance>
+    </Distance>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
@@ -22,11 +26,11 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Storehouse</GenericName>
-    <Tooltip>Dropsite for wood, stone, and metal resources. Research gathering improvements for these resources.</Tooltip>
     <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone -ConquestCritical</Classes>
-    <VisibleClasses datatype="tokens">Village Storehouse</VisibleClasses>
+    <GenericName>Storehouse</GenericName>
     <Icon>structures/storehouse.png</Icon>
+    <Tooltip>Dropsite for wood, stone, and metal resources. Research gathering improvements for these resources.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Storehouse</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

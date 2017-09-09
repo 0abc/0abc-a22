@@ -85,6 +85,6 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <Vision>
-    <Range>95</Range>
+    <Range>85</Range>
   </Vision>
 </Entity>

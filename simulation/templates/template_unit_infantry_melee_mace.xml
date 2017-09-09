@@ -10,7 +10,7 @@
       <Bonuses>
         <Building>
           <Classes>Structure</Classes>
-          <Multiplier>0.25</Multiplier>
+          <Multiplier>0.125</Multiplier>
         </Building>
         <Cavalry>
           <Classes>Cataphract</Classes>
@@ -18,7 +18,6 @@
         </Cavalry>
       </Bonuses>
       <Crush>8</Crush>
-      <MaxRange>2</MaxRange>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
   </Attack>
@@ -34,7 +33,7 @@
   <Identity>
     <GenericName>Maceman</GenericName>
     <Tooltip>Counters: 1.5× vs Cavalry Cataphracts.
-0.25× vs Structures.</Tooltip>
+Penalties: 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Mace</VisibleClasses>
   </Identity>
   <Loot>

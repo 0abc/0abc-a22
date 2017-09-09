@@ -25,9 +25,9 @@
   </Health>
   <Identity>
     <GenericName>Field</GenericName>
-    <VisibleClasses datatype="tokens">Field</VisibleClasses>
-    <Tooltip>Harvest vegetables for food. Max gatherers: 5.</Tooltip>
     <Icon>structures/field.png</Icon>
+    <Tooltip>Harvest vegetables for food. Max gatherers: 5.</Tooltip>
+    <VisibleClasses datatype="tokens">Field</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

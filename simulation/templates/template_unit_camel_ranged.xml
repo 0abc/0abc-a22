@@ -14,6 +14,8 @@
       </Bonuses>
       <Crush>0</Crush>
       <Hack>0</Hack>
+      <MaxRange>12</MaxRange>
+      <MinRange>0</MinRange>
       <Pierce>0</Pierce>
       <RepeatTime>1000</RepeatTime>
       <Spread>3.0</Spread>

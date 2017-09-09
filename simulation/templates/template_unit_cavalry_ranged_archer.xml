@@ -17,8 +17,7 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
-      <MaxRange>65</MaxRange>
-      <MinRange>0</MinRange>
+      <MaxRange op="mul">5.5</MaxRange>
       <Pierce>7</Pierce>
       <PrepareTime>500</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>

@@ -10,13 +10,13 @@
       <Bonuses>
         <Buildings>
           <Classes>Structure</Classes>
-          <Multiplier>0.25</Multiplier>
+          <Multiplier>0.125</Multiplier>
         </Buildings>
       </Bonuses>
       <Crush>30</Crush>
       <Hack>0</Hack>
       <Pierce>0</Pierce>
-      <MaxRange>8.0</MaxRange>
+      <MaxRange>6</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
@@ -35,7 +35,7 @@
   <Identity>
     <GenericName>War Elephant</GenericName>
     <Tooltip>Garrison units for transport.
-Penalties: 0.25× vs Structures.</Tooltip>
+Penalties: 0.125× vs Structures.</Tooltip>
   </Identity>
   <Loot>
     <metal>20</metal>

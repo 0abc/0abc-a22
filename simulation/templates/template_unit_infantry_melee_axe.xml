@@ -18,7 +18,6 @@
         </Siege>
       </Bonuses>
       <Hack>6</Hack>
-      <MaxRange>2</MaxRange>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
   </Attack>

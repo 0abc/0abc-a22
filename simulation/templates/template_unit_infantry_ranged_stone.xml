@@ -14,11 +14,11 @@
         </Archer>
         <Building>
           <Classes>Structure</Classes>
-          <Multiplier>0.25</Multiplier>
+          <Multiplier>0.125</Multiplier>
         </Building>
       </Bonuses>
       <Crush>6</Crush>
-      <MaxRange>48</MaxRange>
+      <MaxRange op="mul">4</MaxRange>
       <PrepareTime>750</PrepareTime>
       <ProjectileSpeed>60</ProjectileSpeed>
     </Ranged>
@@ -36,7 +36,7 @@
     <Classes datatype="tokens">SlingStone</Classes>
     <GenericName>Stone Slinger</GenericName>
     <Tooltip>Counters: 1.5× vs Infantry Archers.
-Penalties: 0.25× vs Structures.</Tooltip>
+Penalties: 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Sling</VisibleClasses>
   </Identity>
   <Loot>

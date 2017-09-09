@@ -14,7 +14,7 @@
       </Bonuses>
       <Crush>0</Crush>
       <Hack>0</Hack>
-      <MaxRange>6</MaxRange>
+      <MaxRange>5</MaxRange>
       <Pierce>0</Pierce>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>

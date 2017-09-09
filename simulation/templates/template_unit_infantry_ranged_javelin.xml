@@ -13,7 +13,7 @@
           <Multiplier>1.25</Multiplier>
         </Archer>
       </Bonuses>
-      <MaxRange>24</MaxRange>
+      <MaxRange op="mul">2</MaxRange>
       <Pierce>10</Pierce>
       <ProjectileSpeed>62.5</ProjectileSpeed>
       <PrepareTime>750</PrepareTime>

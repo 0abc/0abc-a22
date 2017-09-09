@@ -8,7 +8,7 @@
   <Attack>
     <Melee>
       <Hack>6</Hack>
-      <MaxRange>4</MaxRange>
+      <MaxRange op="mul">1.5</MaxRange>
       <Pierce>2</Pierce>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>

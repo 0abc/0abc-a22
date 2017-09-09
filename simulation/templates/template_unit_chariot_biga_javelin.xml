@@ -7,8 +7,7 @@
   </Armour>
   <Attack>
     <Ranged>
-      <MaxRange>32</MaxRange>
-      <MinRange>0</MinRange>
+      <MaxRange op="mul">2.5</MaxRange>
       <Pierce>16</Pierce>
       <PrepareTime>750</PrepareTime>
       <ProjectileSpeed>62.5</ProjectileSpeed>

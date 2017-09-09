@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource">
   <BuildRestrictions>
+    <Distance>
+      <FromClass>Economic</FromClass>
+      <MinDistance>20</MinDistance>
+    </Distance>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Cost>
@@ -19,9 +23,9 @@
   </Health>
   <Identity>
     <GenericName>Corral</GenericName>
-    <Tooltip>Raise herd animals for food. Task domestic animals here to gain a trickle of food or other bonus (Not yet implemented).</Tooltip>
-    <VisibleClasses datatype="tokens">Village Corral</VisibleClasses>
     <Icon>structures/corral.png</Icon>
+    <Tooltip>Raise herd animals for food. Task domestic animals here to gain a trickle of food or other bonus (Not yet implemented).</Tooltip>
+    <VisibleClasses datatype="tokens">Economic Village Corral</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

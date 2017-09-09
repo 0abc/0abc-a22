@@ -2,6 +2,10 @@
 <Entity parent="template_structure_economic">
   <BuildRestrictions>
     <Category>Farmstead</Category>
+    <Distance>
+      <FromClass>Economic</FromClass>
+      <MinDistance>10</MinDistance>
+    </Distance>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
@@ -22,11 +26,11 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Farmstead</GenericName>
-    <Tooltip>Dropsite for the food resource. Research food gathering improvements.</Tooltip>
     <Classes datatype="tokens">-ConquestCritical DropsiteFood</Classes>
-    <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
+    <GenericName>Farmstead</GenericName>
     <Icon>structures/farmstead.png</Icon>
+    <Tooltip>Dropsite for the food resource. Research food gathering improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

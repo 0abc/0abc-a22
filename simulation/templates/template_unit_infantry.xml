@@ -54,7 +54,7 @@
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
     <GenericName>Infantry</GenericName>
-    <Rank>Basic</Rank>
+    <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Citizen Infantry Soldier Worker</VisibleClasses>
   </Identity>
   <Loot>
@@ -112,6 +112,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>80</Range>
+    <Range>75</Range>
   </Vision>
 </Entity>

@@ -33,7 +33,7 @@
       </Bonuses>
       <Crush>0</Crush>
       <Hack>4</Hack>
-      <MaxRange>4</MaxRange>
+      <MaxRange>3</MaxRange>
       <Pierce>4</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>

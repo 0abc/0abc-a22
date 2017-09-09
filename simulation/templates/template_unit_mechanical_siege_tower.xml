@@ -89,7 +89,4 @@ Counters: 2.0× vs Fortresses, Towers.</Tooltip>
       <Speed>9.0</Speed>
     </Run>
   </UnitMotion>
-  <Vision>
-    <Range>100</Range>
-  </Vision>
 </Entity>

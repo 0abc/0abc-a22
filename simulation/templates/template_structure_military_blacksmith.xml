@@ -2,6 +2,10 @@
 <Entity parent="template_structure_military">
   <BuildRestrictions>
     <Category>Barracks</Category>
+    <Distance>
+      <FromClass>Economic</FromClass>
+      <MinDistance>20</MinDistance>
+    </Distance>
   </BuildRestrictions>
   <Cost>
     <BuildTime>150</BuildTime>
@@ -27,12 +31,12 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Blacksmith</GenericName>
-    <Tooltip>Research weapons and armour improvements.</Tooltip>
     <Classes datatype="tokens">-ConquestCritical</Classes>
-    <VisibleClasses datatype="tokens">Village Blacksmith</VisibleClasses>
+    <GenericName>Blacksmith</GenericName>
     <Icon>structures/blacksmith.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Research weapons and armour improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Economic Village Blacksmith</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

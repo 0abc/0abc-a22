@@ -4,6 +4,7 @@
     <Melee>
       <Crush>0</Crush>
       <Hack>0</Hack>
+      <MaxRange>2</MaxRange>
       <Pierce>0</Pierce>
       <PrepareTime>500</PrepareTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>

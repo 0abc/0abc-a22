@@ -14,7 +14,7 @@
         </Sword>
       </Bonuses>
       <Hack>9</Hack>
-      <MaxRange>18</MaxRange>
+      <MaxRange op="mul">1.5</MaxRange>
       <PrepareTime>900</PrepareTime>
       <ProjectileSpeed>50</ProjectileSpeed>
     </Ranged>

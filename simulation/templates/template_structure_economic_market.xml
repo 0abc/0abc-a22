@@ -2,6 +2,10 @@
 <Entity parent="template_structure_economic">
   <BuildRestrictions>
     <Category>Market</Category>
+    <Distance>
+      <FromClass>Economic</FromClass>
+      <MinDistance>20</MinDistance>
+    </Distance>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Cost>
@@ -19,12 +23,12 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Market</GenericName>
-    <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
     <Classes datatype="tokens">BarterMarket -ConquestCritical</Classes>
-    <VisibleClasses datatype="tokens">Town Market Bribable</VisibleClasses>
+    <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Town Market Bribable</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

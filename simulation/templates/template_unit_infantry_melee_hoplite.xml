@@ -8,7 +8,7 @@
   <Attack>
     <Melee>
       <Hack>2</Hack>
-      <MaxRange>4</MaxRange>
+      <MaxRange op="mul">2</MaxRange>
       <Pierce>5</Pierce>
     </Melee>
   </Attack>

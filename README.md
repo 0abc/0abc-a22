@@ -142,3 +142,7 @@
 * Roman allies: infantry swordsmen −20% training time
 * Seleucid allies: civic centres −20% construction time
 * Spartan allies: infantry hoplites −20% training time
+
+
+
+For more detailed information, please have a look at **0abc-readme.pdf**

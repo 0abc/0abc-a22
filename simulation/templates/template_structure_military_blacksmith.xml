@@ -3,8 +3,8 @@
   <BuildRestrictions>
     <Category>Barracks</Category>
     <Distance>
-      <FromClass>Economic</FromClass>
-      <MinDistance>20</MinDistance>
+      <FromClass>Military</FromClass>
+      <MinDistance>30</MinDistance>
     </Distance>
   </BuildRestrictions>
   <Cost>
@@ -36,7 +36,7 @@
     <Icon>structures/blacksmith.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Research weapons and armour improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Economic Village Blacksmith</VisibleClasses>
+    <VisibleClasses datatype="tokens">Village Blacksmith</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

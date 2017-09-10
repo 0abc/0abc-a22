@@ -500,13 +500,13 @@ function updateSelectionDetails()
 function getRankIconSprite(entState)
 {
 	if (entState.identity.rank == "Basic")
-		return "stretched:session/icons/rank4.png";
+		return "stretched:session/icons/rankb.png";
 
 	if (entState.identity.rank == "Advanced")
-		return "stretched:session/icons/rank8.png";
+		return "stretched:session/icons/ranka.png";
 
 	if (entState.identity.rank == "Elite")
-		return "stretched:session/icons/rank12.png";
+		return "stretched:session/icons/ranke.png";
 
 	if (entState.identity.rank == "0")
 		return "stretched:session/icons/rank0.png";

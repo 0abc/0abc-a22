@@ -35,13 +35,13 @@
   </Health>
   <Identity>
     <Civ>brit</Civ>
-    <GenericName>Special Building</GenericName>
-    <SpecificName>Kennel</SpecificName>
     <Classes datatype="tokens">Kennel</Classes>
-    <VisibleClasses datatype="tokens">-City Village</VisibleClasses>
-    <Tooltip>Train Celtic war dogs.</Tooltip>
+    <GenericName>Special Building</GenericName>
     <Icon>structures/kennel.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
+    <SpecificName>Kennel</SpecificName>
+    <Tooltip>Train Celtic war dogs.</Tooltip>
+    <VisibleClasses datatype="tokens">-City Village</VisibleClasses>
   </Identity>
   <Loot>
     <food>5</food>

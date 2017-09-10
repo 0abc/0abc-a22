@@ -93,6 +93,14 @@
 * Siege ram: 4.0× vs Gates, 2.0× vs other Structures
 * Siege tower: 2.0× vs Fortresses, Towers
 
+### Structure distances
+* 20 m from economic buildings: corrals, docks, farmsteads, fields, markets, storehouses
+* 30 m from military buildings: barracks, blacksmiths, cavalry stables, elephant stables, embassies
+* 60 m from towers: outpost, sentry tower, defence tower
+* 80 m from fortresses: fortresses
+* 120 m from civic centres: military colonies
+* 200 m from civic centres: civic centres, crannogs
+
 ### Global auras
 * Wonders each grant +10.0 maximum population limit, plus +10% each with “glorious expansion” researched
 * Theatres each grant +20% territory influence; 

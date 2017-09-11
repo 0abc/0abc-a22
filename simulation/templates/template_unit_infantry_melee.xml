@@ -6,17 +6,17 @@
       <Hack>0</Hack>
       <MaxRange>2</MaxRange>
       <Pierce>0</Pierce>
-      <PrepareTime>500</PrepareTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
     </Melee>
   </Attack>
   <Identity>
-    <GenericName>Melee Infantry</GenericName>
-    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <Formations datatype="tokens">
       formations/phalanx
       formations/testudo
     </Formations>
+    <GenericName>Melee Infantry</GenericName>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
   </Identity>
 </Entity>

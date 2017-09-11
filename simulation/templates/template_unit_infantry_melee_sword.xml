@@ -19,7 +19,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>95</Max>
+    <Max op="mul">1.9</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">ShortSword</Classes>

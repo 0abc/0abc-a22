@@ -28,6 +28,9 @@
     <Square width="4" depth="6"/>
     <Height>7.5</Height>
   </Footprint>
+  <Health>
+    <Max>90</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
     <Formations datatype="tokens">

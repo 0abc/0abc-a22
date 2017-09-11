@@ -35,7 +35,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>45</Max>
+    <Max op="mul">1.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Crossbow</Classes>

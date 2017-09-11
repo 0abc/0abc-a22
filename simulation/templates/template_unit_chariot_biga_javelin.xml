@@ -20,7 +20,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>214</Max>
+    <Max op="mul">1.07</Max>
   </Health>
   <Identity>
     <GenericName>Citizen Javelinist Chariot</GenericName>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush>8</Crush>
-    <Hack>8</Hack>
-    <Pierce>16</Pierce>
+    <Crush>7</Crush>
+    <Hack>7</Hack>
+    <Pierce>14</Pierce>
   </Armour>
   <BuildingAI>
-    <DefaultArrowCount>10</DefaultArrowCount>
-    <MaxArrowCount>40</MaxArrowCount>
+    <DefaultArrowCount>6</DefaultArrowCount>
+    <MaxArrowCount>24</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <BuildTime>100</BuildTime>
-    <Population>10</Population>
+    <BuildTime>60</BuildTime>
+    <Population>6</Population>
     <Resources>
-      <food>1000</food>
-      <metal>500</metal>
+      <food>600</food>
+      <metal>300</metal>
       <stone>0</stone>
-      <wood>1000</wood>
+      <wood>600</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -26,7 +26,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>100</Max>
+    <Max>60</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
@@ -35,21 +35,21 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>5000</Max>
+    <Max>3000</Max>
   </Health>
   <Identity>
-    <GenericName>Juggernaut Warship</GenericName>
-    <SpecificName>Dekḗrēs</SpecificName>
+    <GenericName>Sexireme</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Hexḗrēs</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food>100</food>
-    <metal>50</metal>
+    <food>60</food>
+    <metal>30</metal>
     <stone>0</stone>
-    <wood>100</wood>
-    <xp>1250</xp>
+    <wood>60</wood>
+    <xp>750</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -63,6 +63,6 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
+    <WalkSpeed>12</WalkSpeed>
   </UnitMotion>
 </Entity>

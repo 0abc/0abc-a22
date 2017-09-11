@@ -19,7 +19,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>100</Max>
+    <Max op="mul">2.0</Max>
   </Health>
   <Identity>
     <GenericName>Hoplite</GenericName>

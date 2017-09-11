@@ -38,7 +38,7 @@
     <Max>500</Max>
   </Health>
   <Identity>
-    <GenericName>Light Warship</GenericName>
+    <GenericName>Unireme</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Pentēkóntoros</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>

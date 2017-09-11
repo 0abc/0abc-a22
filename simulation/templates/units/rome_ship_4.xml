@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_quinquereme">
+<Entity parent="template_unit_mechanical_ship_galley_5">
   <Identity>
     <Civ>rome</Civ>
-    <GenericName>Roman Quinquereme</GenericName>
     <Icon>units/rome_ship_quinquereme.png</Icon>
     <SpecificName>Quinqueremis Romana</SpecificName>
   </Identity>

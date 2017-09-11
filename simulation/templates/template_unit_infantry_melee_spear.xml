@@ -24,7 +24,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>90</Max>
+    <Max op="mul">1.8</Max>
   </Health>
   <Identity>
     <GenericName>Spearman</GenericName>

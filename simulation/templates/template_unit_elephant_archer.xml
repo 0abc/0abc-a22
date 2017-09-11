@@ -43,7 +43,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>360</Max>
+    <Max op="mul">1.2</Max>
   </Health>
   <Identity>
     <GenericName>War Elephant Archer</GenericName>

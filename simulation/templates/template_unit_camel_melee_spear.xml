@@ -11,7 +11,7 @@
     </Melee>
   </Attack>
   <Health>
-    <Max>145</Max>
+    <Max op="mul">1.6</Max>
   </Health>
   <Identity>
     <GenericName>Camel Spearman</GenericName>

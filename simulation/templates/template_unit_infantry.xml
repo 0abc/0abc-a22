@@ -51,6 +51,9 @@
     <Circle radius="1.5"/>
     <Height>2.5</Height>
   </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
     <GenericName>Infantry</GenericName>

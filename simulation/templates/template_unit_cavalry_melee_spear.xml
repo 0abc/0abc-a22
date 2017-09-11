@@ -25,7 +25,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>160</Max>
+    <Max op="mul">1.6</Max>
   </Health>
   <Identity>
     <GenericName>Cavalry Spearman</GenericName>

@@ -30,7 +30,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>55</Max>
+    <Max op="mul">1.1</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">SlingStone</Classes>

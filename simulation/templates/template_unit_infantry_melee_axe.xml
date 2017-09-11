@@ -28,7 +28,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>85</Max>
+    <Max op="mul">1.7</Max>
   </Health>
   <Identity>
     <GenericName>Axeman</GenericName>

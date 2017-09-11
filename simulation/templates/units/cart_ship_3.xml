@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_quadrireme">
+<Entity parent="template_unit_mechanical_ship_galley_4">
   <Identity>
     <Civ>cart</Civ>
-    <GenericName>Quadrireme</GenericName>
     <Icon>units/cart_ship_trireme.png</Icon>
     <SpecificName>Arba-Mašōt</SpecificName>
   </Identity>

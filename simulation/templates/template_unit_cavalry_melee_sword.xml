@@ -29,7 +29,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>150</Max>
+    <Max op="mul">1.5</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CavalrySword</Classes>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_trireme">
+<Entity parent="template_unit_mechanical_ship_galley_3">
   <Identity>
     <Civ>cart</Civ>
-    <GenericName>Trireme</GenericName>
     <Icon>units/cart_ship_bireme.png</Icon>
     <SpecificName>Tlat-Mašōt</SpecificName>
   </Identity>

@@ -8,6 +8,7 @@
       <MinRange>0</MinRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>750</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <Spread>3.0</Spread>
     </Ranged>

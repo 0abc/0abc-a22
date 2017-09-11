@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush>7</Crush>
-    <Hack>7</Hack>
-    <Pierce>14</Pierce>
+    <Crush>6</Crush>
+    <Hack>6</Hack>
+    <Pierce>12</Pierce>
   </Armour>
   <BuildingAI>
-    <DefaultArrowCount>6</DefaultArrowCount>
-    <MaxArrowCount>24</MaxArrowCount>
+    <DefaultArrowCount>4</DefaultArrowCount>
+    <MaxArrowCount>16</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <BuildTime>60</BuildTime>
-    <Population>6</Population>
+    <BuildTime>40</BuildTime>
+    <Population>4</Population>
     <Resources>
-      <food>600</food>
-      <metal>300</metal>
+      <food>400</food>
+      <metal>200</metal>
       <stone>0</stone>
-      <wood>600</wood>
+      <wood>400</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="12.0" depth="48.0"/>
+    <Square width="10.0" depth="40.0"/>
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>60</Max>
+    <Max>40</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
@@ -35,26 +35,27 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>3000</Max>
+    <Max>2000</Max>
   </Health>
   <Identity>
-    <GenericName>Heavy Warship</GenericName>
+    <GenericName>Quadrireme</GenericName>
+    <SpecificName>Tetrḗrēs</SpecificName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SpecificName>Hexḗrēs</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food>60</food>
-    <metal>30</metal>
+    <food>40</food>
+    <metal>20</metal>
     <stone>0</stone>
-    <wood>60</wood>
-    <xp>750</xp>
+    <wood>40</wood>
+    <xp>500</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
     <SoundGroups>
-      <attack>attack/siege/ballist_attack.xml</attack>
+      <attack>attack/weapon/arrowfly.xml</attack>
+      <attack_impact>attack/impact/arrow_metal.xml</attack_impact>
     </SoundGroups>
   </Sound>
   <StatusBars>
@@ -63,6 +64,6 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>12</WalkSpeed>
+    <WalkSpeed>14</WalkSpeed>
   </UnitMotion>
 </Entity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush>8</Crush>
-    <Hack>8</Hack>
-    <Pierce>16</Pierce>
+    <Crush>7</Crush>
+    <Hack>7</Hack>
+    <Pierce>14</Pierce>
   </Armour>
   <BuildingAI>
-    <DefaultArrowCount>9</DefaultArrowCount>
-    <MaxArrowCount>36</MaxArrowCount>
+    <DefaultArrowCount>7</DefaultArrowCount>
+    <MaxArrowCount>28</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <BuildTime>90</BuildTime>
-    <Population>90</Population>
+    <BuildTime>70</BuildTime>
+    <Population>7</Population>
     <Resources>
-      <food>900</food>
-      <metal>450</metal>
+      <food>700</food>
+      <metal>350</metal>
       <stone>0</stone>
-      <wood>900</wood>
+      <wood>700</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -26,7 +26,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>90</Max>
+    <Max>70</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
@@ -35,21 +35,21 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>4500</Max>
+    <Max>3500</Max>
   </Health>
   <Identity>
-    <GenericName>Juggernaut Warship</GenericName>
+    <GenericName>Septireme</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SpecificName>Ennḗrēs</SpecificName>
+    <SpecificName>Heptḗrēs</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food>90</food>
-    <metal>45</metal>
+    <food>70</food>
+    <metal>35</metal>
     <stone>0</stone>
-    <wood>90</wood>
-    <xp>1125</xp>
+    <wood>70</wood>
+    <xp>875</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -63,6 +63,6 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>11</WalkSpeed>
   </UnitMotion>
 </Entity>

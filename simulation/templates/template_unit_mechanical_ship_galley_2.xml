@@ -6,50 +6,50 @@
     <Pierce>12</Pierce>
   </Armour>
   <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
-    <MaxArrowCount>12</MaxArrowCount>
+    <DefaultArrowCount>2</DefaultArrowCount>
+    <MaxArrowCount>8</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <BuildTime>30</BuildTime>
-    <Population>3</Population>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>
     <Resources>
-      <food>300</food>
-      <metal>150</metal>
+      <food>200</food>
+      <metal>100</metal>
       <stone>0</stone>
-      <wood>300</wood>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="10.0" depth="40.0"/>
-    <Height>8.0</Height>
+    <Square width="8.0" depth="33.0"/>
+    <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>30</Max>
+    <Max>20</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
+    <List datatype="tokens">Support Infantry Cavalry Dog</List>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>1500</Max>
+    <Max>1000</Max>
   </Health>
   <Identity>
-    <GenericName>Medium Warship</GenericName>
+    <GenericName>Bireme</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <SpecificName>Triḗrēs</SpecificName>
-    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <SpecificName>Diḗrēs</SpecificName>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
   </Identity>
   <Loot>
-    <food>30</food>
-    <metal>15</metal>
+    <food>20</food>
+    <metal>10</metal>
     <stone>0</stone>
-    <wood>30</wood>
-    <xp>375</xp>
+    <wood>20</wood>
+    <xp>250</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -64,6 +64,6 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>15</WalkSpeed>
+    <WalkSpeed>16</WalkSpeed>
   </UnitMotion>
 </Entity>

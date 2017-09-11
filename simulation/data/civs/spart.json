@@ -160,11 +160,9 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/structures/default_house_10" : "structures/{civ}_house",
-		"skirmish/structures/default_wall_tower": "",
-		"skirmish/structures/default_wall_gate": "",
-		"skirmish/structures/default_wall_short": "",
-		"skirmish/structures/default_wall_medium": "",
-		"skirmish/structures/default_wall_long": ""
+		"skirmish/units/default_cavalry": "units/spart_citizen_javelin_cavalry",
+		"skirmish/units/default_infantry_melee_b": "units/spart_citizen_hoplite_infantry",
+		"skirmish/units/default_infantry_ranged_b": "units/spart_citizen_javelin_infantry"
 	},
 	"SelectableInGameSetup": true
 }

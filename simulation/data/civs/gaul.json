@@ -138,7 +138,10 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/{civ}_house"
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_cavalry": "units/gaul_citizen_javelin_cavalry",
+		"skirmish/units/default_infantry_melee_b": "units/gaul_citizen_spear_infantry",
+		"skirmish/units/default_infantry_ranged_b": "units/gaul_citizen_javelin_infantry"
 	},
 	"SelectableInGameSetup": true
 }

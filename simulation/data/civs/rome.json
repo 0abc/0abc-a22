@@ -145,9 +145,10 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry" : "units/rome_cavalry_spearman_b",
-		"skirmish/units/default_infantry_melee_b": "units/rome_infantry_swordsman_b",
-		"skirmish/structures/default_house_10" : "structures/{civ}_house"
+		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/units/default_cavalry": "units/rome_citizen_spear_cavalry",
+		"skirmish/units/default_infantry_melee_b": "units/rome_citizen_spear_infantry",
+		"skirmish/units/default_infantry_ranged_b": "units/rome_citizen_javelin_infantry"
 	},
 	"SelectableInGameSetup": true
 }

@@ -143,9 +143,11 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/brit_infantry_slinger_b",
-		"skirmish/units/special_starting_unit": "units/brit_war_dog_b",
-		"skirmish/structures/default_house_5": "structures/{civ}_house"
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_cavalry": "units/brit_citizen_javelin_cavalry",
+		"skirmish/units/default_infantry_melee_b": "units/brit_citizen_spear_infantry",
+		"skirmish/units/default_infantry_ranged_b": "units/brit_citizen_sling_infantry",
+		"skirmish/units/special_starting_unit": "units/brit_war_dog"
 	},
 	"SelectableInGameSetup": true
 }

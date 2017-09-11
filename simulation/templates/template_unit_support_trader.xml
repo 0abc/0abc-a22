@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
   <Cost>
-    <BuildTime>15</BuildTime>
+    <BuildTime op="mul">2.0</BuildTime>
     <Resources>
-      <food>100</food>
-      <metal>50</metal>
-      <stone>0</stone>
-      <wood>50</wood>
+      <food op="add">50</food>
+      <metal op="add">50</metal>
+      <wood op="add">50</wood>
     </Resources>
   </Cost>
   <Health>
-    <Max>100</Max>
+    <Max op="mul">2.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
@@ -20,11 +19,10 @@
     <Formations disable=""/>
   </Identity>
   <Loot>
-    <food>5</food>
-    <metal>5</metal>
-    <stone>5</stone>
-    <wood>5</wood>
-    <xp>20</xp>
+    <metal op="add">5</metal>
+    <stone op="add">5</stone>
+    <wood op="add">5</wood>
+    <xp op="add">15</xp>
   </Loot>
   <Sound>
     <SoundGroups>
@@ -54,7 +52,7 @@
     <CanPatrol>false</CanPatrol>
   </UnitAI>
   <Vision>
-    <Range>60</Range>
+    <Range op="mul">1.2</Range>
   </Vision>
   <VisionSharing>
     <Bribable>true</Bribable>

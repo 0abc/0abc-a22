@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_barge">
+  <Armour>
+    <Crush op="add">4</Crush>
+    <Hack op="add">4</Hack>
+    <Pierce op="add">8</Pierce>
+  </Armour>
+  <BuildingAI>
+    <MaxArrowCount op="add">24</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime op="add">20</BuildTime>
+    <Population op="add">2</Population>
+    <Resources>
+      <wood op="add">750</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max op="mul">8.0</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">7.2</Max>
+  </Health>
+  <Identity>
+    <GenericName>Huge War Barge</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <wood op="add">75</wood>
+    <xp op="add">375</xp>
+  </Loot>
+</Entity>

@@ -2,9 +2,7 @@
 <Entity parent="template_unit_support">
   <Cost>
     <Resources>
-      <food>50</food>
-      <metal>100</metal>
-      <wood>0</wood>
+      <metal op="add">100</metal>
     </Resources>
   </Cost>
   <Heal>
@@ -15,7 +13,7 @@
     <HealableClasses datatype="tokens">Human</HealableClasses>
   </Heal>
   <Health>
-    <Max>75</Max>
+    <Max op="mul">1.5</Max>
   </Health>
   <Identity>
     <GenericName>Healer</GenericName>
@@ -24,11 +22,8 @@
     <VisibleClasses datatype="tokens">Healer</VisibleClasses>
   </Identity>
   <Loot>
-    <food>5</food>
-    <metal>10</metal>
-    <stone>0</stone>
-    <wood>0</wood>
-    <xp>15</xp>
+    <metal op="add">10</metal>
+    <xp op="add">10</xp>
   </Loot>
   <Promotion>
     <RequiredXp>75</RequiredXp>
@@ -57,6 +52,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>60</Range>
+    <Range op="mul">1.2</Range>
   </Vision>
 </Entity>

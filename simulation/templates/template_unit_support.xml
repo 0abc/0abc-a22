@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
   <Armour>
+    <Crush>1</Crush>
     <Hack>1</Hack>
     <Pierce>1</Pierce>
-    <Crush>1</Crush>
   </Armour>
   <Cost>
     <BuildTime>8</BuildTime>
+    <Resources>
+      <food>50</food>
+      <metal>0</metal>
+      <stone>0</stone>
+      <wood>0</wood>
+    </Resources>
   </Cost>
+  <Health>
+    <Max>50</Max>
+  </Health>
   <Identity>
     <GenericName>Support</GenericName>
     <Classes datatype="tokens">Human Organic</Classes>
     <VisibleClasses datatype="tokens">Support</VisibleClasses>
   </Identity>
+  <Loot>
+    <food>5</food>
+    <metal>0</metal>
+    <stone>0</stone>
+    <wood>0</wood>
+    <xp>5</xp>
+  </Loot>
   <Minimap>
     <Type>support</Type>
   </Minimap>
@@ -32,4 +48,7 @@
     </Run>
     <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
 </Entity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Crush>3</Crush>
-    <Hack>1</Hack>
-    <Pierce>30</Pierce>
+    <Crush op="add">2</Crush>
+    <Hack op="add">0</Hack>
+    <Pierce op="add">20</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -34,17 +34,15 @@
     </Ranged>
   </Attack>
   <Capturable>
-    <CapturePoints>300</CapturePoints>
-    <GarrisonRegenRate>10</GarrisonRegenRate>
-    <RegenRate>20</RegenRate>
+    <CapturePoints op="mul">3.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>30</BuildTime>
-    <Population>3</Population>
+    <BuildTime op="mul">3.0</BuildTime>
+    <Population op="mul">3.0</Population>
     <Resources>
-      <metal>150</metal>
-      <stone>150</stone>
-      <wood>300</wood>
+      <metal op="add">50</metal>
+      <stone op="add">150</stone>
+      <wood op="add">200</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -52,7 +50,7 @@
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>300</Max>
+    <Max op="mul">3.0</Max>
   </Health>
   <Identity>
     <GenericName>Siege Catapult</GenericName>
@@ -60,11 +58,10 @@
     <VisibleClasses datatype="tokens">Catapult Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>300</xp>
-    <food>0</food>
-    <wood>30</wood>
-    <stone>15</stone>
-    <metal>15</metal>
+    <metal op="add">5</metal>
+    <stone op="add">15</stone>
+    <wood op="add">20</wood>
+    <xp op="add">200</xp>
   </Loot>
   <Sound>
     <SoundGroups>

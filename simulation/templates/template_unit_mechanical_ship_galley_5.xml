@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship">
+<Entity parent="template_unit_mechanical_ship_galley">
   <Armour>
-    <Crush>7</Crush>
-    <Hack>7</Hack>
-    <Pierce>14</Pierce>
+    <Crush op="add">2</Crush>
+    <Hack op="add">2</Hack>
+    <Pierce op="add">4</Pierce>
   </Armour>
   <BuildingAI>
-    <DefaultArrowCount>5</DefaultArrowCount>
-    <MaxArrowCount>20</MaxArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
+    <DefaultArrowCount op="mul">5.0</DefaultArrowCount>
+    <MaxArrowCount op="mul">5.0</MaxArrowCount>
   </BuildingAI>
   <Cost>
-    <BuildTime>50</BuildTime>
-    <Population>5</Population>
+    <BuildTime op="mul">5.0</BuildTime>
+    <Population op="mul">5.0</Population>
     <Resources>
-      <food>500</food>
-      <metal>250</metal>
-      <stone>0</stone>
-      <wood>500</wood>
+      <food op="mul">5.0</food>
+      <metal op="mul">5.0</metal>
+      <wood op="mul">5.0</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -26,43 +23,23 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>50</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>10</LoadingRange>
-    <Pickup>true</Pickup>
+    <Max op="mul">5.0</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2500</Max>
+    <Max op="mul">5.0</Max>
   </Health>
   <Identity>
     <GenericName>Quinquereme</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Pentḗrēs</SpecificName>
-    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
-    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food>50</food>
-    <metal>25</metal>
-    <stone>0</stone>
-    <wood>50</wood>
-    <xp>625</xp>
+    <food op="mul">5.0</food>
+    <metal op="mul">5.0</metal>
+    <wood op="mul">5.0</wood>
+    <xp op="mul">5.0</xp>
   </Loot>
-  <ResourceGatherer disable=""/>
-  <Sound>
-    <SoundGroups>
-      <attack>attack/siege/ballist_attack.xml</attack>
-    </SoundGroups>
-  </Sound>
-  <StatusBars>
-    <BarWidth>6.0</BarWidth>
-    <BarHeight>0.5</BarHeight>
-    <HeightOffset>6.0</HeightOffset>
-  </StatusBars>
   <UnitMotion>
-    <WalkSpeed>13</WalkSpeed>
+    <WalkSpeed op="add">-5</WalkSpeed>
   </UnitMotion>
 </Entity>

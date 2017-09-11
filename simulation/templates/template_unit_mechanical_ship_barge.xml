@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush>7</Crush>
-    <Hack>7</Hack>
-    <Pierce>14</Pierce>
+    <Crush op="add">2</Crush>
+    <Hack op="add">2</Hack>
+    <Pierce op="add">4</Pierce>
   </Armour>
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>60</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>25.0</Pierce>
+      <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <ProjectileSpeed>60</ProjectileSpeed>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
   <BuildingAI>
     <DefaultArrowCount>2</DefaultArrowCount>
-    <MaxArrowCount>26</MaxArrowCount>
+    <MaxArrowCount>2</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <BuildTime>30</BuildTime>
-    <Population>3</Population>
     <Resources>
-      <food>50</food>
-      <metal>50</metal>
-      <stone>0</stone>
-      <wood>400</wood>
+      <food op="add">50</food>
+      <metal op="add">50</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -26,7 +36,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>80</Max>
+    <Max>10</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
@@ -35,20 +45,17 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>3600</Max>
+    <Max op="mul">0.9</Max>
   </Health>
   <Identity>
-    <GenericName>Huge Transport Warship</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <GenericName>War Barge</GenericName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food>5</food>
-    <metal>5</metal>
-    <stone>0</stone>
-    <wood>80</wood>
-    <xp>450</xp>
+    <food op="add">5</food>
+    <metal op="add">5</metal>
+    <xp op="add">50</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -64,8 +71,8 @@
   </StatusBars>
   <UnitMotion>
     <Run>
-      <Speed>18</Speed>
+      <Speed op="mul">0.9</Speed>
     </Run>
-    <WalkSpeed>14</WalkSpeed>
+    <WalkSpeed op="add">4</WalkSpeed>
   </UnitMotion>
 </Entity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Crush>2</Crush>
-    <Hack>1</Hack>
-    <Pierce>20</Pierce>
+    <Crush op="add">1</Crush>
+    <Hack op="add">0</Hack>
+    <Pierce op="add">10</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -34,16 +34,14 @@
     </Ranged>
   </Attack>
   <Capturable>
-    <CapturePoints>200</CapturePoints>
-    <GarrisonRegenRate>10</GarrisonRegenRate>
-    <RegenRate>20</RegenRate>
+    <CapturePoints op="mul">2.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>20</BuildTime>
-    <Population>2</Population>
+    <BuildTime op="mul">2.0</BuildTime>
+    <Population op="mul">2.0</Population>
     <Resources>
-      <metal>200</metal>
-      <wood>200</wood>
+      <metal op="add">100</metal>
+      <wood op="add">100</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -51,7 +49,7 @@
     <Height>2.0</Height>
   </Footprint>
   <Health>
-    <Max>200</Max>
+    <Max op="mul">2.0</Max>
   </Health>
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
@@ -59,11 +57,9 @@
     <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>200</xp>
-    <food>0</food>
-    <wood>20</wood>
-    <stone>0</stone>
-    <metal>20</metal>
+    <metal op="add">10</metal>
+    <wood op="add">10</wood>
+    <xp op="add">100</xp>
   </Loot>
   <Sound>
     <SoundGroups>

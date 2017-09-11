@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_galley">
+  <BuildingAI>
+    <MaxArrowCount op="add">-1</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <Resources>
+      <food op="mul">0.6</food>
+      <metal op="mul">0.6</metal>
+      <wood op="mul">0.6</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="8.0" depth="33.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max op="mul">0.6</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">0.6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Small Warship</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Triakóntoros</SpecificName>
+  </Identity>
+  <Loot>
+    <food op="mul">0.6</food>
+    <metal op="mul">0.6</metal>
+    <wood op="mul">0.6</wood>
+    <xp op="mul">0.6</xp>
+  </Loot>
+</Entity>

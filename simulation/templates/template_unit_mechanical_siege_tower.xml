@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Crush>6</Crush>
-    <Hack>3</Hack>
-    <Pierce>60</Pierce>
+    <Crush op="add">5</Crush>
+    <Hack op="add">2</Hack>
+    <Pierce op="add">50</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -37,17 +37,15 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Capturable>
-    <CapturePoints>600</CapturePoints>
-    <GarrisonRegenRate>10</GarrisonRegenRate>
-    <RegenRate>10</RegenRate>
+    <CapturePoints op="mul">6.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>60</BuildTime>
-    <Population>6</Population>
+    <BuildTime op="mul">6.0</BuildTime>
+    <Population op="mul">6.0</Population>
     <Resources>
-      <metal>300</metal>
-      <stone>100</stone>
-      <wood>600</wood>
+      <metal op="add">200</metal>
+      <stone op="add">100</stone>
+      <wood op="add">500</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -63,7 +61,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>600</Max>
+    <Max op="mul">6.0</Max>
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
@@ -72,11 +70,10 @@ Counters: 2.0× vs Fortresses, Towers.</Tooltip>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>500</xp>
-    <food>0</food>
-    <wood>60</wood>
-    <stone>10</stone>
-    <metal>30</metal>
+    <metal op="add">20</metal>
+    <stone op="add">10</stone>
+    <wood op="add">50</wood>
+    <xp op="add">400</xp>
   </Loot>
   <StatusBars>
     <BarWidth>4.0</BarWidth>

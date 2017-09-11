@@ -35,13 +35,8 @@
       structures/{civ}_wonder
     </Entities>
   </Builder>
-  <Cost>
-    <Resources>
-      <food>50</food>
-    </Resources>
-  </Cost>
   <Health>
-    <Max>25</Max>
+    <Max op="mul">0.5</Max>
   </Health>
   <Identity>
     <GenericName>Female Citizen</GenericName>
@@ -50,13 +45,6 @@
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
     <Formations disable=""/>
   </Identity>
-  <Loot>
-    <food>5</food>
-    <metal>0</metal>
-    <stone>0</stone>
-    <wood>0</wood>
-    <xp>5</xp>
-  </Loot>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
@@ -96,7 +84,4 @@
     <AlertReactiveLevel>1</AlertReactiveLevel>
     <CanPatrol>false</CanPatrol>
   </UnitAI>
-  <Vision>
-    <Range>50</Range>
-  </Vision>
 </Entity>

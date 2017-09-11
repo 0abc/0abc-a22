@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Crush>4</Crush>
-    <Hack>2</Hack>
-    <Pierce>40</Pierce>
+    <Crush op="add">3</Crush>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">30</Pierce>
   </Armour>
   <Attack>
     <Melee>
@@ -28,11 +28,11 @@
   </Attack>
   <Capturable disable=""/>
   <Cost>
-    <BuildTime>40</BuildTime>
-    <Population>4</Population>
+    <BuildTime op="mul">4.0</BuildTime>
+    <Population op="mul">4.0</Population>
     <Resources>
-      <wood>400</wood>
-      <metal>200</metal>
+      <metal op="add">100</metal>
+      <wood op="add">300</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -44,7 +44,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>400</Max>
+    <Max op="mul">4.0</Max>
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>
@@ -52,11 +52,9 @@
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>300</xp>
-    <food>0</food>
-    <wood>40</wood>
-    <stone>0</stone>
-    <metal>20</metal>
+    <metal op="add">10</metal>
+    <wood op="add">30</wood>
+    <xp op="add">200</xp>
   </Loot>
   <StatusBars>
     <BarWidth>4.0</BarWidth>

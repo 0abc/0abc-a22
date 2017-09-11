@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_skiff">
+<Entity parent="template_unit_mechanical_ship_galley_half">
   <Identity>
     <Civ>rome</Civ>
     <Icon>units/hele_ship_bireme.png</Icon>

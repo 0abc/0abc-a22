@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush>5</Crush>
-    <Hack>5</Hack>
-    <Pierce>10</Pierce>
+    <Crush op="add">4</Crush>
+    <Hack op="add">4</Hack>
+    <Pierce op="add">8</Pierce>
   </Armour>
   <Attack>
     <Melee>
@@ -14,16 +14,12 @@
       <PrepareTime>50</PrepareTime>
       <RepeatTime>100</RepeatTime>
     </Melee>
-    <Ranged disable=""/>
   </Attack>
   <Cost>
-    <BuildTime>15</BuildTime>
+    <BuildTime op="add">5</BuildTime>
     <Population>0</Population>
     <Resources>
-      <food>0</food>
-      <metal>0</metal>
-      <stone>0</stone>
-      <wood>150</wood>
+      <wood op="add">100</wood>
     </Resources>
   </Cost>
   <DeathDamage>
@@ -39,7 +35,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>450</Max>
+    <Max op="mul">0.9</Max>
     <RegenRate>-6</RegenRate>
     <DamageVariants>
       <lightdamage>0.85</lightdamage>
@@ -64,9 +60,9 @@
   </StatusBars>
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>
-    <WalkSpeed>20</WalkSpeed>
+    <WalkSpeed op="add">10</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>60</Range>
+    <Range op="mul">0.7</Range>
   </Vision>
 </Entity>

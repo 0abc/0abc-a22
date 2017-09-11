@@ -25,14 +25,11 @@
   </Builder>
   <Cost>
     <Resources>
-      <food>50</food>
-      <metal>50</metal>
-      <stone>0</stone>
-      <wood>0</wood>
+      <metal op="add">50</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>50</Max>
+    <Max op="mul">1.0</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Slave Worker</VisibleClasses>
@@ -41,11 +38,8 @@
     <Tooltip>Gatherer with a finite life span. Bonused at mining and lumbering.</Tooltip>
   </Identity>
   <Loot>
-    <food>5</food>
-    <metal>5</metal>
-    <stone>0</stone>
-    <wood>0</wood>
-    <xp>10</xp>
+    <metal op="add">5</metal>
+    <xp op="add">5</xp>
   </Loot>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
@@ -82,7 +76,4 @@
       <trained>actor/singlesteps/steps_gravel.xml</trained>
     </SoundGroups>
   </Sound>
-  <Vision>
-    <Range>50</Range>
-  </Vision>
 </Entity>

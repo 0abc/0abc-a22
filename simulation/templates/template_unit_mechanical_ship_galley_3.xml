@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship">
+<Entity parent="template_unit_mechanical_ship_galley">
   <Armour>
-    <Crush>6</Crush>
-    <Hack>6</Hack>
-    <Pierce>12</Pierce>
+    <Crush op="add">1</Crush>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">2</Pierce>
   </Armour>
   <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
-    <MaxArrowCount>12</MaxArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
+    <DefaultArrowCount op="mul">3.0</DefaultArrowCount>
+    <MaxArrowCount op="mul">3.0</MaxArrowCount>
   </BuildingAI>
   <Cost>
-    <BuildTime>30</BuildTime>
-    <Population>3</Population>
+    <BuildTime op="mul">3.0</BuildTime>
+    <Population op="mul">3.0</Population>
     <Resources>
-      <food>300</food>
-      <metal>150</metal>
-      <stone>0</stone>
-      <wood>300</wood>
+      <food op="mul">3.0</food>
+      <metal op="mul">3.0</metal>
+      <wood op="mul">3.0</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -26,44 +23,23 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>30</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>10</LoadingRange>
-    <Pickup>true</Pickup>
+    <Max op="mul">3.0</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1500</Max>
+    <Max op="mul">3.0</Max>
   </Health>
   <Identity>
     <GenericName>Trireme</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Triḗrēs</SpecificName>
-    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
-    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food>30</food>
-    <metal>15</metal>
-    <stone>0</stone>
-    <wood>30</wood>
-    <xp>375</xp>
+    <food op="mul">3.0</food>
+    <metal op="mul">3.0</metal>
+    <wood op="mul">3.0</wood>
+    <xp op="mul">3.0</xp>
   </Loot>
-  <ResourceGatherer disable=""/>
-  <Sound>
-    <SoundGroups>
-      <attack>attack/weapon/arrowfly.xml</attack>
-      <attack_impact>attack/impact/arrow_metal.xml</attack_impact>
-    </SoundGroups>
-  </Sound>
-  <StatusBars>
-    <BarWidth>6.0</BarWidth>
-    <BarHeight>0.5</BarHeight>
-    <HeightOffset>6.0</HeightOffset>
-  </StatusBars>
   <UnitMotion>
-    <WalkSpeed>15</WalkSpeed>
+    <WalkSpeed op="add">-3</WalkSpeed>
   </UnitMotion>
 </Entity>

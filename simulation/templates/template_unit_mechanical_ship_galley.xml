@@ -1,54 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush>4</Crush>
-    <Hack>4</Hack>
-    <Pierce>8</Pierce>
+    <Crush op="add">4</Crush>
+    <Hack op="add">4</Hack>
+    <Pierce op="add">8</Pierce>
   </Armour>
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>60</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>25.0</Pierce>
+      <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <ProjectileSpeed>60</ProjectileSpeed>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
   <BuildingAI>
-    <DefaultArrowCount>2</DefaultArrowCount>
-    <MaxArrowCount>5</MaxArrowCount>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <MaxArrowCount>4</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <BuildTime>15</BuildTime>
-    <Population>1</Population>
     <Resources>
-      <food>50</food>
-      <metal>50</metal>
-      <stone>0</stone>
-      <wood>100</wood>
+      <food op="add">100</food>
+      <metal op="add">50</metal>
+      <wood op="add">50</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="10.0" depth="40.0"/>
-    <Height>8.0</Height>
+    <Square width="8.0" depth="33.0"/>
+    <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
+    <List datatype="tokens">Support Infantry Cavalry Dog</List>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>450</Max>
+    <Max op="mul">1.0</Max>
   </Health>
   <Identity>
-    <GenericName>Small Transport Warship</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <GenericName>War Galley</GenericName>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food>5</food>
-    <metal>5</metal>
-    <stone>0</stone>
-    <wood>10</wood>
-    <xp>100</xp>
+    <food op="add">10</food>
+    <metal op="add">5</metal>
+    <wood op="add">5</wood>
+    <xp op="add">100</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -63,9 +72,6 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <Run>
-      <Speed>18</Speed>
-    </Run>
-    <WalkSpeed>14</WalkSpeed>
+    <WalkSpeed op="add">8</WalkSpeed>
   </UnitMotion>
 </Entity>

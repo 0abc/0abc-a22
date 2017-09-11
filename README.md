@@ -123,6 +123,7 @@
 * Macedonian cavalry lancers have +10% melee attack damage.
 * Macedonian pikemen have +1.0 walk speed.
 * Mauryans have +10% maximum population.
+* Mauryan healers cost −50% metal.
 * Mauryan stone walls have −20% health and building time.
 * Mauryan temples have −50% resource costs and construction time (former team bonus).
 * Persians have +10% maximum population.

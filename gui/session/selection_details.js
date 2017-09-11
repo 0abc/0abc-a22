@@ -500,52 +500,52 @@ function updateSelectionDetails()
 function getRankIconSprite(entState)
 {
 	if (entState.identity.rank == "Basic")
-		return "stretched:session/icons/rankb.png";
+		return "stretched:session/icons/rank_b.png";
 
 	if (entState.identity.rank == "Advanced")
-		return "stretched:session/icons/ranka.png";
+		return "stretched:session/icons/rank_a.png";
 
 	if (entState.identity.rank == "Elite")
-		return "stretched:session/icons/ranke.png";
+		return "stretched:session/icons/rank_e.png";
 
 	if (entState.identity.rank == "0")
-		return "stretched:session/icons/rank0.png";
+		return "stretched:session/icons/rank_0.png";
 
 	if (entState.identity.rank == "1")
-		return "stretched:session/icons/rank1.png";
+		return "stretched:session/icons/rank_1.png";
 
 	if (entState.identity.rank == "2")
-		return "stretched:session/icons/rank2.png";
+		return "stretched:session/icons/rank_2.png";
 
 	if (entState.identity.rank == "3")
-		return "stretched:session/icons/rank3.png";
+		return "stretched:session/icons/rank_3.png";
 
 	if (entState.identity.rank == "4")
-		return "stretched:session/icons/rank4.png";
+		return "stretched:session/icons/rank_4.png";
 
 	if (entState.identity.rank == "5")
-		return "stretched:session/icons/rank5.png";
+		return "stretched:session/icons/rank_5.png";
 
 	if (entState.identity.rank == "6")
-		return "stretched:session/icons/rank6.png";
+		return "stretched:session/icons/rank_6.png";
 
 	if (entState.identity.rank == "7")
-		return "stretched:session/icons/rank7.png";
+		return "stretched:session/icons/rank_7.png";
 
 	if (entState.identity.rank == "8")
-		return "stretched:session/icons/rank8.png";
+		return "stretched:session/icons/rank_8.png";
 
 	if (entState.identity.rank == "9")
-		return "stretched:session/icons/rank9.png";
+		return "stretched:session/icons/rank_9.png";
 
 	if (entState.identity.rank == "10")
-		return "stretched:session/icons/rank10.png";
+		return "stretched:session/icons/rank_10.png";
 
 	if (entState.identity.rank == "11")
-		return "stretched:session/icons/rank11.png";
+		return "stretched:session/icons/rank_11.png";
 
 	if (entState.identity.rank == "12")
-		return "stretched:session/icons/rank12.png";
+		return "stretched:session/icons/rank_12.png";
 
 	return "";
 }

@@ -53,7 +53,7 @@
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <Capacities>
-      <food>30</food>
+      <food>45</food>
     </Capacities>
     <Rates>
       <food.meat>1.8</food.meat>

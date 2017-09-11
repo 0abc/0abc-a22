@@ -30,7 +30,7 @@
     <Classes datatype="tokens">-CitizenSoldier</Classes>
     <GenericName>Champion Infantry Slinger</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Champion -Citizen</VisibleClasses>
+    <VisibleClasses datatype="tokens">Champion -Citizen -Worker</VisibleClasses>
   </Identity>
   <Loot>
     <metal op="add">10</metal>

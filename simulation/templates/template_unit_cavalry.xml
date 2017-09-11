@@ -50,7 +50,7 @@
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <Capacities>
-      <food>20</food>
+      <food>30</food>
     </Capacities>
     <MaxDistance>2.0</MaxDistance>
     <Rates>

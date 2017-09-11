@@ -1,0 +1,12 @@
+{
+  "genericName": "Priest Caste",
+  "autoResearch": true,
+  "description": "India had many priests and holy men.",
+  "requirements": {"civ": "maur" },
+  "icon": "asclepius_rod.png",
+  "tooltip": "Healers cost -50% metal.",
+  "modifications": [
+    { "value": "Cost/Resources/metal", "multiply": 0.5 }
+  ],
+  "affects": ["Healer"]
+}

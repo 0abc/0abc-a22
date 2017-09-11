@@ -68,8 +68,11 @@
     <RequiredXp>100</RequiredXp>
   </Promotion>
   <ResourceGatherer>
-    <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
+    <Capacities>
+      <food>15</food>
+    </Capacities>
+    <MaxDistance>2.0</MaxDistance>
     <Rates>
       <food.fruit>0.5</food.fruit>
       <food.grain>0.25</food.grain>

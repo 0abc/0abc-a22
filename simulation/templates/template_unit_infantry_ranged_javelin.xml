@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged">
   <Armour>
-    <Crush>4</Crush>
-    <Hack>2</Hack>
-    <Pierce>3</Pierce>
+    <Crush op="add">3</Crush>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">2</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -21,8 +21,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal>5</metal>
-      <wood>45</wood>
+      <metal op="add">5</metal>
+      <wood op="add">45</wood>
     </Resources>
   </Cost>
   <Health>
@@ -34,8 +34,9 @@
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>0</metal>
-    <wood>5</wood>
+    <metal op="add">0</metal>
+    <wood op="add">5</wood>
+    <xp op="add">50</xp>
   </Loot>
   <UnitMotion>
     <Run>

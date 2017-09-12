@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_camel_ranged">
-  <Armour>
-    <Crush>5</Crush>
-    <Hack>1</Hack>
-    <Pierce>1</Pierce>
-  </Armour>
   <Attack>
     <Ranged>
       <MaxRange op="mul">5.75</MaxRange>
@@ -13,6 +8,12 @@
       <PrepareTime>500</PrepareTime>
     </Ranged>
   </Attack>
+  <Cost>
+    <Resources>
+      <metal op="add">10</metal>
+      <wood op="add">40</wood>
+    </Resources>
+  </Cost>
   <Health>
     <Max op="mul">1.2</Max>
   </Health>
@@ -21,4 +22,9 @@
     <GenericName>Camel Archer</GenericName>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
+  <Loot>
+    <metal op="add">1</metal>
+    <wood op="add">4</wood>
+    <xp op="add">50</xp>
+  </Loot>
 </Entity>

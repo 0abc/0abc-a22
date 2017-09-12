@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee">
   <Armour>
-    <Crush>7</Crush>
-    <Hack>2</Hack>
-    <Pierce>2</Pierce>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
   </Armour>
   <Attack>
     <Melee>
@@ -21,8 +20,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal>15</metal>
-      <wood>35</wood>
+      <metal op="add">15</metal>
+      <wood op="add">35</wood>
     </Resources>
   </Cost>
   <Health>
@@ -35,8 +34,9 @@ Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Axe</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>2</metal>
-    <wood>3</wood>
+    <metal op="add">2</metal>
+    <wood op="add">3</wood>
+    <xp op="add">50</xp>
   </Loot>
   <UnitMotion>
     <Run>

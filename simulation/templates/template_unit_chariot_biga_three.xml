@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_chariot_biga">
-  <Armour>
-    <Crush>9</Crush>
-    <Hack>5</Hack>
-    <Pierce>3</Pierce>
-  </Armour>
   <Attack>
     <Ranged>
       <MaxRange op="mul">5.25</MaxRange>
@@ -16,8 +11,8 @@
   <Cost>
     <Resources>
       <food op="add">50</food>
-      <metal>50</metal>
-      <wood>100</wood>
+      <metal op="add">50</metal>
+      <wood op="add">100</wood>
     </Resources>
   </Cost>
   <Health>
@@ -32,8 +27,8 @@ Penalties: 0.5× vs Elephants.</Tooltip>
   </Identity>
   <Loot>
     <food op="add">5</food>
-    <metal>5</metal>
-    <wood>10</wood>
+    <metal op="add">5</metal>
+    <wood op="add">10</wood>
     <xp op="add">200</xp>
   </Loot>
   <Promotion>

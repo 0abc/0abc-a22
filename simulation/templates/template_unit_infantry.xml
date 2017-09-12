@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
+  <Armour>
+    <Crush>1</Crush>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+  </Armour>
   <Attack>
     <Capture>
-      <Value>2</Value>
       <MaxRange>4</MaxRange>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+      <Value>2</Value>
     </Capture>
     <Slaughter>
-      <Hack>50.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>4.0</MaxRange>
+      <Crush>0</Crush>
+      <Hack>50</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>0</Pierce>
     </Slaughter>
   </Attack>
   <Builder>
@@ -65,7 +70,7 @@
     <metal>0</metal>
     <stone>0</stone>
     <wood>0</wood>
-    <xp>100</xp>
+    <xp>50</xp>
   </Loot>
   <Promotion>
     <RequiredXp>100</RequiredXp>

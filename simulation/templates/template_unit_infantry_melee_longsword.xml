@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Armour>
-    <Crush>6</Crush>
-    <Hack>6</Hack>
-    <Pierce>6</Pierce>
+    <Crush op="add">5</Crush>
+    <Hack op="add">5</Hack>
+    <Pierce op="add">5</Pierce>
   </Armour>
   <Attack>
     <Melee>
@@ -15,8 +15,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal>25</metal>
-      <wood>25</wood>
+      <metal op="add">25</metal>
+      <wood op="add">25</wood>
     </Resources>
   </Cost>
   <Health>
@@ -28,8 +28,9 @@
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>3</metal>
-    <wood>2</wood>
+    <metal op="add">3</metal>
+    <wood op="add">2</wood>
+    <xp op="add">50</xp>
   </Loot>
   <UnitMotion>
     <Run>

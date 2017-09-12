@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+  </Armour>
   <Attack>
     <Capture>
       <MaxRange>4</MaxRange>
@@ -19,9 +24,9 @@
     <Population>2</Population>
     <Resources>
       <food>90</food>
-      <metal>10</metal>
+      <metal>0</metal>
       <stone>0</stone>
-      <wood>40</wood>
+      <wood>0</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -42,10 +47,10 @@
   </Identity>
   <Loot>
     <food>9</food>
-    <metal>1</metal>
+    <metal>0</metal>
     <stone>0</stone>
-    <wood>4</wood>
-    <xp>140</xp>
+    <wood>0</wood>
+    <xp>90</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

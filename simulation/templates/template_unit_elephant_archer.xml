@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_elephant">
   <Armour>
-    <Crush>10</Crush>
-    <Hack>4</Hack>
-    <Pierce>7</Pierce>
+    <Crush op="add">1</Crush>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -18,9 +18,8 @@
         </Elephantry>
       </Bonuses>
       <Crush>0</Crush>
-      <ElevationBonus>5</ElevationBonus>
       <Hack>0</Hack>
-      <MaxRange>67</MaxRange>
+      <MaxRange>72</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>8</Pierce>
       <ProjectileSpeed>75.0</ProjectileSpeed>
@@ -37,9 +36,8 @@
   <Cost>
     <BuildTime op="mul">1.2</BuildTime>
     <Resources>
-      <metal>100</metal>
-      <stone>0</stone>
-      <wood>100</wood>
+      <metal op="add">100</metal>
+      <wood op="add">100</wood>
     </Resources>
   </Cost>
   <Health>
@@ -53,9 +51,8 @@ Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>10</metal>
-    <stone>0</stone>
-    <wood>10</wood>
+    <metal op="add">10</metal>
+    <wood op="add">10</wood>
     <xp op="add">200</xp>
   </Loot>
 </Entity>

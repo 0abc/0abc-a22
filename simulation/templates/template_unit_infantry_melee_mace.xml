@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Armour>
-    <Crush>8</Crush>
-    <Hack>4</Hack>
-    <Pierce>6</Pierce>
+    <Crush op="add">7</Crush>
+    <Hack op="add">3</Hack>
+    <Pierce op="add">5</Pierce>
   </Armour>
   <Attack>
     <Melee>
@@ -23,8 +23,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal>20</metal>
-      <wood>30</wood>
+      <metal op="add">20</metal>
+      <wood op="add">30</wood>
     </Resources>
   </Cost>
   <Health>
@@ -37,8 +37,9 @@ Penalties: 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Mace</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>2</metal>
-    <wood>3</wood>
+    <metal op="add">2</metal>
+    <wood op="add">3</wood>
+    <xp op="add">50</xp>
   </Loot>
   <UnitMotion>
     <Run>

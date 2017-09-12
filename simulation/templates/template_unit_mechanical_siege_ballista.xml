@@ -2,7 +2,6 @@
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
     <Crush op="add">1</Crush>
-    <Hack op="add">0</Hack>
     <Pierce op="add">10</Pierce>
   </Armour>
   <Attack>

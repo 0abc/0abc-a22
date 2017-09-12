@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged">
   <Armour>
-    <Crush>2</Crush>
-    <Hack>2</Hack>
-    <Pierce>2</Pierce>
+    <Crush op="add">1</Crush>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -25,8 +25,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal>15</metal>
-      <wood>35</wood>
+      <metal op="add">15</metal>
+      <wood op="add">35</wood>
     </Resources>
   </Cost>
   <Health>
@@ -40,8 +40,9 @@ Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>1</metal>
-    <wood>4</wood>
+    <metal op="add">1</metal>
+    <wood op="add">4</wood>
+    <xp op="add">50</xp>
   </Loot>
   <Sound>
     <SoundGroups>

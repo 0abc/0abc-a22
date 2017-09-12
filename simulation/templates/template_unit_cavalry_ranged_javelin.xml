@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged">
   <Armour>
-    <Crush>7</Crush>
-    <Hack>1</Hack>
-    <Pierce>2</Pierce>
+    <Pierce op="add">1</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -22,8 +20,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal>10</metal>
-      <wood>40</wood>
+      <metal op="add">10</metal>
+      <wood op="add">40</wood>
     </Resources>
   </Cost>
   <Health>
@@ -35,8 +33,9 @@
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>1</metal>
-    <wood>4</wood>
+    <metal op="add">1</metal>
+    <wood op="add">4</wood>
+    <xp op="add">50</xp>
   </Loot>
   <UnitMotion>
     <Run>

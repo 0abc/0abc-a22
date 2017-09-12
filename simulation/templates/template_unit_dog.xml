@@ -7,10 +7,10 @@
   </Armour>
   <Attack>
     <Slaughter>
-      <Hack>100.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>4.0</MaxRange>
+      <Crush>0</Crush>
+      <Hack>100</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>0</Pierce>
     </Slaughter>
     <Melee>
       <Bonuses>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
+  <Armour>
+    <Crush>9</Crush>
+    <Hack>5</Hack>
+    <Pierce>3</Pierce>
+  </Armour>
   <Attack>
     <Capture>
       <MaxRange>4</MaxRange>

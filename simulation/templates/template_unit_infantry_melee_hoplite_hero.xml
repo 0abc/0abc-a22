@@ -35,7 +35,7 @@
     <Classes datatype="tokens">-CitizenSoldier</Classes>
     <GenericName>Hero Infantry Hoplite</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Hero -Citizen</VisibleClasses>
+    <VisibleClasses datatype="tokens">Hero -Citizen -Worker</VisibleClasses>
   </Identity>
   <Loot>
     <food op="mul">5.0</food>

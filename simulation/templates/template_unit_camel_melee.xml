@@ -31,12 +31,4 @@ Penalties: 0.5× vs Elephants.</Tooltip>
       <attack>attack/weapon/sword.xml</attack>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <Run>
-      <Range>1400</Range>
-      <RangeMin>7</RangeMin>
-      <Speed>42</Speed>
-    </Run>
-    <WalkSpeed>28</WalkSpeed>
-  </UnitMotion>
 </Entity>

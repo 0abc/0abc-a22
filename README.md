@@ -140,14 +140,14 @@
 
 ## Team bonuses
 * Athenian allies: warships construction time
-* Briton allies: +1.0 metal trickle rate
+* Briton allies: units cost -4% metal
 * Carthaginian allies: traders −20% training time and +5% walk speed
 * Gaulish allies: infantry spearmen −20% training time
 * Iberian allies: infantry javelinists −20% training time
-* Macedonian allies: infantry pikemen −20% training time
+* Macedonian allies: units cost -4% wood
 * Mauryan allies: healers −25% training time
 * Persian allies: land traders +10% gain
-* Ptolemaic allies: +1.0 food trickle rate
+* Ptolemaic allies: units cost -4% food
 * Roman allies: infantry swordsmen −20% training time
 * Seleucid allies: civic centres −20% construction time
 * Spartan allies: infantry hoplites −20% training time

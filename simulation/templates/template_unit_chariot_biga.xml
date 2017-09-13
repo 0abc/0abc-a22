@@ -52,6 +52,6 @@
       <RangeMin>20.0</RangeMin>
       <Speed>25.0</Speed>
     </Run>
-    <WalkSpeed>19.0</WalkSpeed>
+    <WalkSpeed>16.0</WalkSpeed>
   </UnitMotion>
 </Entity>

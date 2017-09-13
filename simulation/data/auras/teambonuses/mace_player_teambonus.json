@@ -1,10 +1,10 @@
 {
   "type": "global",
-  "affects": ["Infantry Pike"],
+  "affects": ["Unit"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.8 }
+    { "value": "Cost/wood", "multiply": 0.96 }
   ],
-  "auraName": "Macedonians",
-  "auraDescription": "Ally's infantry pikemen have -20% training time."
+  "auraName": "Macedonian timber",
+  "auraDescription": "All allies automatically gain a 4% discount on unit wood costs."
 }

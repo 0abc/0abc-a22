@@ -77,9 +77,6 @@
   </Promotion>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
-    <Capacities>
-      <food>15</food>
-    </Capacities>
     <MaxDistance>2.0</MaxDistance>
     <Rates>
       <food.fruit>0.5</food.fruit>

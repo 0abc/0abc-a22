@@ -61,4 +61,7 @@
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
   </UnitMotion>
+  <Vision>
+    <Range op="add">30</Range>
+  </Vision>
 </Entity>

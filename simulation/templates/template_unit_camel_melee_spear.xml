@@ -27,4 +27,12 @@
     <wood op="add">4</wood>
     <xp op="add">50</xp>
   </Loot>
+  <UnitMotion>
+    <Run>
+      <Range>1400</Range>
+      <RangeMin>7</RangeMin>
+      <Speed>35</Speed>
+    </Run>
+    <WalkSpeed>28</WalkSpeed>
+  </UnitMotion>
 </Entity>

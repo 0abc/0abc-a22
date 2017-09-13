@@ -75,4 +75,7 @@
     </Run>
     <WalkSpeed op="add">4</WalkSpeed>
   </UnitMotion>
+  <Vision>
+    <Range op="add">30</Range>
+  </Vision>
 </Entity>

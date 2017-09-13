@@ -1,13 +1,13 @@
 {
-  "genericName": "Cavalry Speed Training",
+  "genericName": "Horse Speed Training",
   "description": "Train your horses to move faster.",
   "cost": {"food": 600, "wood": 0, "stone": 0, "metal": 200},
-  "supersedes": "speed_cavalry_02",
+  "supersedes": "speed_horse_02",
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "horse_trainer.png",
   "researchTime": 60,
-  "tooltip": "+5% cavalry walk speed.",
+  "tooltip": "+5% cavalry and chariot walk speed.",
   "modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.05}],
   "affects": ["Cavalry"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"

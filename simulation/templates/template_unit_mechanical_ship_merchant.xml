@@ -69,9 +69,6 @@
     </Run>
     <WalkSpeed op="add">2</WalkSpeed>
   </UnitMotion>
-  <Vision>
-    <Range op="mul">0.7</Range>
-  </Vision>
   <VisionSharing>
     <Bribable>true</Bribable>
   </VisionSharing>

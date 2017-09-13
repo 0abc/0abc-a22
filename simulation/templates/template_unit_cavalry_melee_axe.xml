@@ -42,8 +42,8 @@ Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <Run>
       <Range>1000.0</Range>
       <RangeMin>7.0</RangeMin>
-      <Speed>34.0</Speed>
+      <Speed>30.0</Speed>
     </Run>
-    <WalkSpeed>23.0</WalkSpeed>
+    <WalkSpeed>20.0</WalkSpeed>
   </UnitMotion>
 </Entity>

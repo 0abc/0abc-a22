@@ -1,10 +1,10 @@
 {
   "type": "player",
-  "affects": ["Player"],
+  "affects": ["Unit"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "modifications": [
-    { "value": "ResourceTrickle/Rates/metal", "add": 1.0 }
+    { "value": "Cost/metal", "multiply": 0.96 }
   ],
   "auraName": "Tin Islands",
-  "auraDescription": "All allies automatically gain a slow trickle of metal income."
+  "auraDescription": "All allies automatically gain a 4% discount on unit metal costs."
 }

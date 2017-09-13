@@ -31,14 +31,6 @@
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
-  <UnitMotion>
-    <Run>
-      <Range>1300.0</Range>
-      <RangeMin>7.0</RangeMin>
-      <Speed>35</Speed>
-    </Run>
-    <WalkSpeed>27</WalkSpeed>
-  </UnitMotion>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

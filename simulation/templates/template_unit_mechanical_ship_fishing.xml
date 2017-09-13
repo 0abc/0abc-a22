@@ -74,7 +74,4 @@
       <Speed op="mul">0.6</Speed>
     </Run>
   </UnitMotion>
-  <Vision>
-    <Range op="mul">0.7</Range>
-  </Vision>
 </Entity>

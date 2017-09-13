@@ -34,7 +34,7 @@
     <Max>100</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
+    <Classes datatype="tokens">CitizenSoldier Human Organic Horse</Classes>
     <Formations datatype="tokens">
       formations/wedge
     </Formations>

@@ -41,8 +41,8 @@
     <Run>
       <Range>1200.0</Range>
       <RangeMin>6.0</RangeMin>
-      <Speed>32.0</Speed>
+      <Speed>30.0</Speed>
     </Run>
-    <WalkSpeed>24.0</WalkSpeed>
+    <WalkSpeed>21.0</WalkSpeed>
   </UnitMotion>
 </Entity>

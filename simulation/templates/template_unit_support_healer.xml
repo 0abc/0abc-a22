@@ -52,6 +52,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range op="mul">1.2</Range>
+    <Range op="add">10</Range>
   </Vision>
 </Entity>

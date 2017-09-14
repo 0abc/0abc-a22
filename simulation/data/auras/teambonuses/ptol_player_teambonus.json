@@ -3,7 +3,7 @@
   "affects": ["Unit"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "modifications": [
-    { "value": "Cost/food", "multiply": 0.96 }
+    { "value": "Cost/Resources/food", "multiply": 0.96 }
   ],
   "auraName": "Breadbasket of the Mediterranean",
   "auraDescription": "All allies automatically gain a 4% discount on unit food costs."

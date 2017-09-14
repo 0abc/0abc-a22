@@ -1,5 +1,5 @@
 {
-	"genericName": "Chamfron",
+	"genericName": "Advanced Chamfron",
 	"description": "Metal armour for cavalry.",
 	"cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 600},
 	"supersedes": "armour_cavalry_02",

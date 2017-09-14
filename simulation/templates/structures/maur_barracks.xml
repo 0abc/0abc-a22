@@ -16,7 +16,6 @@
       units/{civ}_champion_mace_infantry_barracks
       units/{civ}_champion_sword_infantry
       units/{civ}_champion_archer_infantry
-      units/{civ}_champion_archer_chariot_barracks
     </Entities>
     <Technologies datatype="tokens">
       special/archery_tradition

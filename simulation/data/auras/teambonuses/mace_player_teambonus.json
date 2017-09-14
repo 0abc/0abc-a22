@@ -3,7 +3,7 @@
   "affects": ["Unit"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "modifications": [
-    { "value": "Cost/wood", "multiply": 0.96 }
+    { "value": "Cost/Resources/wood", "multiply": 0.96 }
   ],
   "auraName": "Macedonian timber",
   "auraDescription": "All allies automatically gain a 4% discount on unit wood costs."

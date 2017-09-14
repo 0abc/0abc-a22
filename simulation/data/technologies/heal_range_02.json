@@ -6,7 +6,7 @@
     "athen": "Akadḗmeia"
   },
   "description": "Increases the healing range of all healers.",
-  "cost": {"food": 300, "wood": 0, "stone": 0, "metal": 150},
+  "cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
   "supersedes": "heal_range_01",
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",

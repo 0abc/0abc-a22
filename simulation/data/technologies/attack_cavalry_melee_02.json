@@ -1,5 +1,5 @@
 {
-	"genericName": "Close Combat Cavalry Training",
+	"genericName": "Improved Close Combat Cavalry Training",
 	"description": "Training increases melee attack.",
 	"description": "Replaces bronze weapons with iron.",
 	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 500},
@@ -9,9 +9,11 @@
 	"icon": "spear_cavalry.png",
 	"researchTime": 50,
 	"tooltip": "+15% melee cavalry attack.",
-	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15},
+	"modifications": [
+    {"value": "Attack/Melee/Hack", "multiply": 1.15},
 		{"value": "Attack/Melee/Pierce", "multiply": 1.15},
-		{"value": "Attack/Melee/Crush", "multiply": 1.15}],
+		{"value": "Attack/Melee/Crush", "multiply": 1.15}
+  ],
 	"affects": ["Cavalry Melee"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

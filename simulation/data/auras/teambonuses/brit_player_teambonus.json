@@ -3,7 +3,7 @@
   "affects": ["Unit"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "modifications": [
-    { "value": "Cost/metal", "multiply": 0.96 }
+    { "value": "Cost/Resources/metal", "multiply": 0.96 }
   ],
   "auraName": "Tin Islands",
   "auraDescription": "All allies automatically gain a 4% discount on unit metal costs."

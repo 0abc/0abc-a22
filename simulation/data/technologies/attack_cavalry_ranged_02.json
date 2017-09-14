@@ -1,5 +1,5 @@
 {
-	"genericName": "Ranged Combat Cavalry Training",
+	"genericName": "Improved Ranged Combat Cavalry Training",
 	"description": "Training increases ranged attack.",
 	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 500},
 	"supersedes": "attack_cavalry_ranged_01",
@@ -8,9 +8,11 @@
 	"icon": "horse_rider.png",
 	"researchTime": 50,
 	"tooltip": "+15% ranged cavalry attack.",
-	"modifications": [{"value": "Attack/Ranged/Hack", "multiply": 1.15},
+	"modifications": [
+    {"value": "Attack/Ranged/Hack", "multiply": 1.15},
 		{"value": "Attack/Ranged/Pierce", "multiply": 1.15},
-		{"value": "Attack/Ranged/Crush", "multiply": 1.15}],
+		{"value": "Attack/Ranged/Crush", "multiply": 1.15}
+  ],
 	"affects": ["Cavalry Ranged"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -1,5 +1,5 @@
 {
-	"genericName": "Chamfron",
+	"genericName": "Improved Chamfron",
 	"description": "Linen armour for cavalry.",
 	"cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 500},
 	"supersedes": "armour_cavalry_01",

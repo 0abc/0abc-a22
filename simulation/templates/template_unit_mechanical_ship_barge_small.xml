@@ -18,7 +18,7 @@
     <Max op="mul">1.0</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">0.9</Max>
+    <Max op="mul">1.0</Max>
   </Health>
   <Identity>
     <GenericName>Small War Barge</GenericName>

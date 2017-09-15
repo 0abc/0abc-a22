@@ -1,0 +1,12 @@
+{
+  "code": "stone",
+  "name": "Stone",
+  "description": "Gather from stone quarries, rocks, or ruins.",
+  "order": 4,
+  "subtypes": {
+    "rock": "Rock",
+    "ruins": "Ruins"
+  },
+  "truePrice": 100,
+  "aiAnalysisInfluenceGroup": "sparse"
+}

@@ -1,0 +1,12 @@
+{
+  "code": "wood",
+  "name": "Wood",
+  "description": "Gather lumber from trees, groves, or ruins.",
+  "order": 2,
+  "subtypes": {
+    "tree": "Tree",
+    "ruins": "Ruins"
+  },
+  "truePrice": 100,
+  "aiAnalysisInfluenceGroup": "abundant"
+}

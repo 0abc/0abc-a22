@@ -1,0 +1,11 @@
+{
+  "code": "metal",
+  "name": "Metal",
+  "description": "Gather from metal mines.",
+  "order": 3,
+  "subtypes": {
+    "ore": "Ore"
+  },
+  "truePrice": 100,
+  "aiAnalysisInfluenceGroup": "sparse"
+}

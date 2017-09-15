@@ -102,9 +102,9 @@
 * 200 m from civic centres: civic centres, crannogs
 
 ### Global auras
-* Wonders each grant +10.0 maximum population limit, plus +10% each with “glorious expansion” researched
+* Wonders each grant +40% territory influence (new) and +10.0 maximum population limit, plus +10% each with “glorious expansion” researched
 * Theatres each grant +20% territory influence; 
-* Libraries each grant -10% structure construction time and -10% technology research time
+* Libraries each grant -10% structure construction time and -20% technology research time
 
 ### Civilization bonuses
 * Celtic (Briton and Gaulish) healers have +20% walk speed and +4 hack, pierce, and crush armour levels.
@@ -127,6 +127,7 @@
 * Mauryan stone walls have −20% health and building time.
 * Mauryan temples have −50% resource costs and construction time (former team bonus).
 * Persians have +10% maximum population.
+* Persian structures have +20\% territory influence radius.
 * Persian storehouses have +100% health and territory influence radius.
 * Ptolemaic farmsteads have +50% health and territory influence radius.
 * Ptolemaic healers have +6 healing range.

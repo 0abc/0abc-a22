@@ -35,10 +35,10 @@
       structures/{civ}_stoa
       structures/{civ}_temple
       other/wallset_palisade
-      structures/{civ}_outpost
-      structures/{civ}_sentry_tower
+      structures/{civ}_tower_outpost
+      structures/{civ}_tower_sentry
       structures/{civ}_wallset_city
-      structures/{civ}_defense_tower
+      structures/{civ}_tower_stone
       structures/{civ}_fortress
       structures/{civ}_wonder
     </Entities>

@@ -4,20 +4,15 @@
     <Crush>1</Crush>
     <Hack>5</Hack>
     <Pierce>20</Pierce>
-    <Foundation>
-      <Crush>1</Crush>
-      <Hack>1</Hack>
-      <Pierce>5</Pierce>
-    </Foundation>
   </Armour>
   <Attack>
     <Ranged>
       <Crush>0</Crush>
       <Hack>0</Hack>
       <Pierce>10</Pierce>
-      <MaxRange>64</MaxRange>
+      <MaxRange>60</MaxRange>
       <MinRange>10</MinRange>
-      <ElevationBonus>6</ElevationBonus>
+      <ElevationBonus>12</ElevationBonus>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
@@ -26,7 +21,9 @@
     </Ranged>
   </Attack>
   <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <BuildRestrictions>
     <Category>Tower</Category>
@@ -34,7 +31,6 @@
       <FromClass>Tower</FromClass>
       <MinDistance>60</MinDistance>
     </Distance>
-    <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>500</CapturePoints>
@@ -42,51 +38,53 @@
   <Cost>
     <BuildTime>50</BuildTime>
     <Resources>
-      <wood>75</wood>
+      <food>0</food>
+      <metal>0</metal>
       <stone>0</stone>
+      <wood>0</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="9.0" depth="9.0"/>
-    <Height>15.0</Height>
-  </Footprint>
   <GarrisonHolder>
-    <Max>1</Max>
+    <BuffHeal>0</BuffHeal>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry</List>
-    <BuffHeal>0</BuffHeal>
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>750</Max>
+    <Max>500</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Outpost</GenericName>
-    <Tooltip>Build in neutral and own territories to scout areas of the map. Slowly converts to Gaia while in neutral territory.</Tooltip>
     <Classes datatype="tokens">Tower -ConquestCritical</Classes>
-    <VisibleClasses datatype="tokens">Village Outpost</VisibleClasses>
-    <Icon>structures/outpost.png</Icon>
+    <GenericName>Tower</GenericName>
+    <Icon>structures/defense_tower.png</Icon>
+    <Tooltip>Shoots arrows. Garrison to provide extra defence. Needs the murder holes tech to protect its foot.</Tooltip>
   </Identity>
   <Loot>
-    <wood>8</wood>
-    <xp>75</xp>
+    <food>0</food>
+    <metal>0</metal>
+    <stone>0</stone>
+    <wood>0</wood>
+    <xp>0</xp>
   </Loot>
-  <Obstruction>
-    <Static width="6.5" depth="6.5"/>
-  </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      outpost_decay
+      tower_armour
+      tower_crenellations
+      tower_decay
+      tower_murderholes
+      tower_range
       tower_vision
+      tower_watch
     </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_tower.xml</select>
       <constructed>interface/complete/building/complete_tower.xml</constructed>
+      <attack>attack/weapon/arrowfly.xml</attack>
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
@@ -95,26 +93,7 @@
     <BarHeight>0.6</BarHeight>
     <HeightOffset>18.0</HeightOffset>
   </StatusBars>
-  <TerritoryDecay>
-    <DecayRate>2</DecayRate>
-  </TerritoryDecay>
-  <Upgrade>
-    <Tower>
-      <Entity>structures/{civ}_sentry_tower</Entity>
-      <Tooltip>Reinforce with wood and upgrade to a sentry tower.</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
-      <Cost>
-        <food>50</food>
-        <wood>75</wood>
-      </Cost>
-      <Time>50</Time>
-    </Tower>
-  </Upgrade>
   <Vision>
     <Range>100</Range>
   </Vision>
-  <VisualActor>
-    <Actor>props/special/palisade_rocks_outpost.xml</Actor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
-  </VisualActor>
 </Entity>

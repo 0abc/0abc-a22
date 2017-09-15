@@ -10,6 +10,6 @@
   "modifications": [
     {"value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 1.4}
   ],
-  "affects": ["DefenseTower"],
+  "affects": ["Tower"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

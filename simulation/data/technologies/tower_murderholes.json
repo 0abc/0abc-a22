@@ -6,7 +6,7 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "murder_holes.png",
   "researchTime": 40,
-  "tooltip": "Removes defense tower minimum range.",
+  "tooltip": "Removes tower minimum attack range.",
   "modifications": [
     {"value": "Attack/Ranged/MinRange", "replace": 0}
   ],

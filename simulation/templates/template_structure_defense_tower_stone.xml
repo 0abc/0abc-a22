@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower">
+  <Armour>
+    <Crush op="add">2</Crush>
+    <Hack op="add">20</Hack>
+    <Pierce op="add">10</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <MaxRange op="add">16</MaxRange>
+    </Ranged>
+  </Attack>
+  <Capturable>
+    <CapturePoints op="mul">2.0</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">3.0</BuildTime>
+    <Resources>
+      <food op="add">50</food>
+      <stone op="add">100</stone>
+      <wood op="add">100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">2.0</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">GarrisonTower</Classes>
+    <GenericName>Defense Tower</GenericName>
+    <Icon>structures/defense_tower.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Shoots arrows. Garrison to provide extra defense. Needs the murder holes tech to protect its foot.</Tooltip>
+    <VisibleClasses datatype="tokens">City DefenseTower</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food op="add">5</food>
+    <stone op="add">10</stone>
+    <wood op="add">10</wood>
+    <xp op="add">150</xp>
+  </Loot>
+  <Obstruction>
+    <Static width="7.0" depth="7.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -tower_armour
+    </Technologies>
+  </ProductionQueue>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>30</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

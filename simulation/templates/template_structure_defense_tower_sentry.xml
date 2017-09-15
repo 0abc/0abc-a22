@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_defense_tower">
+<Entity parent="template_structure_defense_tower">
   <Armour>
-    <Crush>2</Crush>
-    <Hack>15</Hack>
-    <Pierce>25</Pierce>
+    <Crush op="add">1</Crush>
+    <Hack op="add">10</Hack>
+    <Pierce op="add">5</Pierce>
   </Armour>
   <Attack>
     <Ranged>
-      <Crush>0</Crush>
-      <Hack>0</Hack>
-      <Pierce>10</Pierce>
-      <MaxRange>70</MaxRange>
-      <MinRange>10</MinRange>
-      <ElevationBonus>9</ElevationBonus>
+      <ElevationBonus op="add">-3</ElevationBonus>
+      <MaxRange op="add">8</MaxRange>
     </Ranged>
   </Attack>
   <Capturable>
-    <CapturePoints>750</CapturePoints>
+    <CapturePoints op="mul">1.5</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>100</BuildTime>
+    <BuildTime op="mul">2.0</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <stone>0</stone>
+      <food op="add">50</food>
+      <wood op="add">100</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -33,33 +29,30 @@
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1000</Max>
+    <Max op="mul">2.0</Max>
   </Health>
   <Identity>
-    <SpecificName>Sentry Tower</SpecificName>
+    <Classes datatype="tokens">GarrisonTower</Classes>
     <GenericName>Sentry Tower</GenericName>
     <Icon>structures/sentry_tower.png</Icon>
-    <VisibleClasses datatype="tokens">Town -City SentryTower -DefenseTower</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Sentry Tower</SpecificName>
+    <VisibleClasses datatype="tokens">Town SentryTower</VisibleClasses>
   </Identity>
   <Loot>
-    <stone>0</stone>
-    <wood>10</wood>
-    <xp>100</xp>
+    <food op="add">5</food>
+    <wood op="add">10</wood>
+    <xp op="add">100</xp>
   </Loot>
   <Obstruction>
     <Static width="9.0" depth="7.5"/>
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -tower_crenellations
-      -tower_defense
-      -tower_murderholes
+      -tower_armour
+      -tower_decay
     </Technologies>
   </ProductionQueue>
-  <StatusBars>
-    <HeightOffset>18.0</HeightOffset>
-  </StatusBars>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>20</Radius>
@@ -67,8 +60,8 @@
   </TerritoryInfluence>
   <Upgrade>
     <Tower>
-      <Entity>structures/{civ}_defense_tower</Entity>
-      <Tooltip>Reinforce with stone and upgrade to a defense tower.</Tooltip>
+      <Entity>structures/{civ}_tower_stone</Entity>
+      <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
         <stone>100</stone>
@@ -77,9 +70,6 @@
       <Time>100</Time>
     </Tower>
   </Upgrade>
-  <Vision>
-    <Range>100</Range>
-  </Vision>
   <VisualActor>
     <Actor>props/special/palisade_rocks_fort.xml</Actor>
   </VisualActor>

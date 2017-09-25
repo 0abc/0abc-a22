@@ -76,6 +76,5 @@
   </Upgrade>
   <VisualActor>
     <Actor>props/special/palisade_rocks_outpost.xml</Actor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

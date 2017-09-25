@@ -1,9 +1,9 @@
 {
     "name": "0abc",
     "version": "0.0.22",
-    "label": "A modification of 0 A.D.",
+    "label": "0 A.D. is Actually Before Christ.",
     "url": "https://github.com/0abc/0abc-unified.git",
-    "description": "Changes many things, see 0abc-readme.pdf.",
-    "dependencies": ["0ad=0.0.22"],
+    "description": "A 0 A.D. modification, changes many things, see 0abc-readme.pdf.",
+    "dependencies": ["0ad>=0.0.21"],
     "type": "mod"
 }

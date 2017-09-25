@@ -59,7 +59,4 @@
     <Radius>30</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
-  <VisualActor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
-  </VisualActor>
 </Entity>

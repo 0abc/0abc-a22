@@ -17,6 +17,6 @@
     <Entity>units/cart/mercenary_javelin_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/infantry_javelinist_e.xml</Actor>
+    <Actor>units/iberians/infantry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>

@@ -17,7 +17,8 @@
           <Multiplier>1.5</Multiplier>
         </Siege>
       </Bonuses>
-      <Hack>6</Hack>
+      <Crush>1</Crush>
+      <Hack>5</Hack>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
   </Attack>

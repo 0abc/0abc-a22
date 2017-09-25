@@ -2,21 +2,21 @@
 <Entity parent="template_unit_infantry_melee_sword_mercenary">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart_embassy_italiote
+      structures/cart_embassy_celtic
     </Entities>
   </Builder>
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">Italian</Classes>
-    <GenericName>Samnite Mercenary Swordsman</GenericName>
-    <Icon>units/cart_infantry_swordsman_2.png</Icon>
-    <SelectionGroupName>units/cart_mercenary_sword_infantry</SelectionGroupName>
-    <SpecificName>Seḫīr Romaḥ</SpecificName>
+    <Classes datatype="tokens">Celt</Classes>
+    <GenericName>Gaulish Mercenary Swordsman</GenericName>
+    <Icon>units/cart_infantry_swordsman.png</Icon>
+    <SelectionGroupName>units/cart_mercenary_axe_infantry</SelectionGroupName>
+    <SpecificName>Seḫīr Ḥerev</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/cart/mercenary_sword_infantry_1</Entity>
+    <Entity>units/cart/mercenary_axe_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/carthaginians/infantry_swordsman_2_e.xml</Actor>
+    <Actor>units/carthaginians/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

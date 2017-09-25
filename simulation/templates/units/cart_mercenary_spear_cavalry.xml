@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">Italian</Classes>
-    <GenericName>Italic Mercenary Cavalry</GenericName>
+    <GenericName>Campanian Mercenary Cavalry</GenericName>
     <Icon>units/cart_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/cart_mercenary_spear_cavalry</SelectionGroupName>
     <SpecificName>Ḥayyāl Romaḥ Raḫūv</SpecificName>
@@ -12,6 +12,6 @@
     <Entity>units/cart/mercenary_spear_cavalry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/carthaginians/cavalry_spearman_e.xml</Actor>
+    <Actor>units/carthaginians/cavalry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

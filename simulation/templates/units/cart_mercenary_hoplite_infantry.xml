@@ -17,6 +17,6 @@
     <Entity>units/cart/mercenary_hoplite_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_spearman_e.xml</Actor>
+    <Actor>units/athenians/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

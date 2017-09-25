@@ -5,9 +5,9 @@
   </BuildingAI>
   <Cost>
     <Resources>
-      <food op="mul">0.6</food>
-      <metal op="mul">0.6</metal>
-      <wood op="mul">0.6</wood>
+      <food op="add">-40</food>
+      <metal op="add">-20</metal>
+      <wood op="add">-40</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -26,9 +26,9 @@
     <SpecificName>Triakóntoros</SpecificName>
   </Identity>
   <Loot>
-    <food op="mul">0.6</food>
-    <metal op="mul">0.6</metal>
-    <wood op="mul">0.6</wood>
-    <xp op="mul">0.6</xp>
+    <food op="add">-4</food>
+    <metal op="add">-2</metal>
+    <wood op="add">-4</wood>
+    <xp op="add">-50</xp>
   </Loot>
 </Entity>

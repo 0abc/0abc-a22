@@ -13,6 +13,6 @@
     <Entity>units/cart/mercenary_axe_cavalry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/carthaginians/cavalry_swordsman_e.xml</Actor>
+    <Actor>units/carthaginians/cavalry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

@@ -82,9 +82,9 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_citizen_javelin_infantry
-      units/{civ}_citizen_spear_infantry
+      units/{civ}_citizen_axe_infantry
       units/{civ}_citizen_sword_infantry
-      units/{civ}_citizen_hoplite_infantry
+      units/{civ}_citizen_spear_infantry
       units/{civ}_citizen_spear_cavalry
       units/{civ}_mechanical_siege_ballista_packed
       units/{civ}_mechanical_siege_scorpio_packed

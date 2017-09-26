@@ -16,7 +16,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_citizen_spear_infantry
+      units/{civ}_citizen_axe_infantry
       units/{civ}_citizen_javelin_infantry
       units/{civ}_hero_marcellus
       units/{civ}_hero_maximus

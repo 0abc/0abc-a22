@@ -8,10 +8,10 @@
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">Greek</Classes>
-    <SelectionGroupName>units/cart_mercenary_hoplite_infantry</SelectionGroupName>
     <GenericName>Greek Mercenary Hoplite</GenericName>
+    <Icon>units/samnite_spearman.png</Icon>
+    <SelectionGroupName>units/cart_mercenary_hoplite_infantry</SelectionGroupName>
     <SpecificName>Hoplítēs Hellenikós</SpecificName>
-    <Icon>units/spart_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/cart/mercenary_hoplite_infantry_1</Entity>

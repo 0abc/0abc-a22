@@ -4,9 +4,9 @@
   "description": "The Britons were warlike peoples, eager to start fights.",
   "requirements": {"civ": "brit"},
   "icon": "fist_spear.png",
-  "tooltip": "Infantry Swordsmen +1.0 movement walk speed.",
+  "tooltip": "Infantry Swordsmen +10% movement walk speed.",
   "modifications": [
-    {"value": "UnitMotion/WalkSpeed", "add": 1}
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
   ],
   "affects": ["Infantry Sword"]
 }

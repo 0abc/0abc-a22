@@ -17,6 +17,6 @@
     <Entity>units/spart/citizen_hoplite_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/spartans/infantry_spearman_b.xml</Actor>
+    <Actor>units/spartans/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

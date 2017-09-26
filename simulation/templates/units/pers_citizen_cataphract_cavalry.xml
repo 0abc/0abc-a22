@@ -12,6 +12,6 @@
     <Entity>units/pers/citizen_cataphract_cavalry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/cavalry_spearman_b.xml</Actor>
+    <Actor>units/persians/cavalry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

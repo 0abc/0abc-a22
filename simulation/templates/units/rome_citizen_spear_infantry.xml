@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spear">
-  <Attack>
-    <Melee>
-      <Hack>5</Hack>
-      <MaxRange>2</MaxRange>
-      <Pierce>2</Pierce>
-    </Melee>
-  </Attack>
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_stoa
@@ -16,27 +9,27 @@
   </Builder>
   <Cost>
     <Resources>
-      <metal>20</metal>
-      <wood>30</wood>
+      <metal op="add">20</metal>
+      <wood op="add">-20</wood>
     </Resources>
   </Cost>
   <Identity>
     <Civ>rome</Civ>
-    <Icon>units/rome_infantry_swordsman.png</Icon>
-    <GenericName>Young Swordsman</GenericName>
+    <GenericName>Veteran Spearman</GenericName>
+    <Icon>units/rome_infantry_spearman.png</Icon>
     <Lang>latin</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome_citizen_spear_infantry</SelectionGroupName>
-    <SpecificName>Hastatus</SpecificName>
-    <VisibleClasses datatype="tokens">Sword -Spear</VisibleClasses>
+    <SpecificName>Triarius</SpecificName>
   </Identity>
   <Loot>
-    <metal>2</metal>
-    <wood>3</wood>
+    <metal op="add">2</metal>
+    <wood op="add">-2</wood>
   </Loot>
   <Promotion>
     <Entity>units/rome/citizen_spear_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/romans/infantry_swordsman_b.xml</Actor>
+    <Actor>units/romans/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

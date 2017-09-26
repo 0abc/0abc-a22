@@ -12,6 +12,6 @@
     <Entity>units/sele/mercenary_archer_cavalry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/seleucids/cavalry_archer_e.xml</Actor>
+    <Actor>units/seleucids/cavalry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

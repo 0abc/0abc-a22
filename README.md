@@ -113,7 +113,7 @@
 * Greek (Athenians, Macedonians, Spartans) civic structures have +20% health and capture points.
 * Athenians have a 10% resource cost and time discount on Storehouse technologies.
 * Athenian warships have +10% walk speed.
-* Briton infantry swordsmen have +1.0 walk speed.
+* Briton infantry swordsmen have +10% walk speed.
 * Carthaginian docks markets have −50% resource costs and construction time; dock and market technologies have a 30% resource cost and time discount.
 * Carthaginian ships have +20% vision range.
 * Carthaginian stone walls have +25% health.
@@ -121,7 +121,7 @@
 * Gaulish infantry spearmen have +10% melee attack damage.
 * Iberian infantry javelinists have +10% ranged attack damage.
 * Macedonian cavalry lancers have +10% melee attack damage.
-* Macedonian pikemen have +1.0 walk speed.
+* Macedonian pikemen have +10% walk speed.
 * Mauryans have +10% maximum population.
 * Mauryan healers cost −50% metal.
 * Mauryan stone walls have −20% health and building time.
@@ -136,7 +136,7 @@
 * Roman infantry swordsmen have +10% melee attack damage.
 * Seleucid civic centres have −20% resource costs.
 * Spartans no longer have a −10% maximum population penalty.
-* Spartan hoplites have +1.0 walk speed.
+* Spartan hoplites have +10% walk speed.
 * Spartan cavalry have a −10% attack damage penalty.
 
 ## Team bonuses

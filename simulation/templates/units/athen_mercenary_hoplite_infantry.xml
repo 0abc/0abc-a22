@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_hoplite_mercenary">
+  <Identity>
+    <Civ>athen</Civ>
+    <Classes datatype="tokens">Greek</Classes>
+    <GenericName>Greek Mercenary Hoplite</GenericName>
+    <Icon>units/samnite_spearman.png</Icon>
+    <SelectionGroupName>units/athen_mercenary_hoplite_infantry</SelectionGroupName>
+    <SpecificName>Hoplítēs Hellenikós</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/athen/mercenary_hoplite_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/spartans/infantry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

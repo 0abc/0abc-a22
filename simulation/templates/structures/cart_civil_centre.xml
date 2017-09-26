@@ -9,7 +9,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_citizen_spear_infantry
+      units/{civ}_citizen_hoplite_infantry
       units/{civ}_citizen_archer_infantry
       units/{civ}_hero_hamilcar
       units/{civ}_hero_hannibal

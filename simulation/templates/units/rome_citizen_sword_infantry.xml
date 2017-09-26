@@ -19,6 +19,6 @@
     <Entity>units/rome/citizen_sword_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/romans/infantry_swordsman_a.xml</Actor>
+    <Actor>units/romans/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

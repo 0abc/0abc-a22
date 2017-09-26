@@ -26,16 +26,16 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      -units/{civ}_citizen_pike_infantry
-      -units/{civ}_citizen_spear_infantry
-      -units/{civ}_citizen_hoplite_infantry
+      -units/{civ}_citizen_mace_infantry
       -units/{civ}_citizen_axe_infantry
       -units/{civ}_citizen_sword_infantry
-      -units/{civ}_citizen_mace_infantry
+      -units/{civ}_citizen_spear_infantry
+      -units/{civ}_citizen_hoplite_infantry
+      -units/{civ}_citizen_pike_infantry
+      -units/{civ}_citizen_halberd_infantry
       -units/{civ}_citizen_throwingaxe_infantry
       -units/{civ}_citizen_javelin_infantry
       -units/{civ}_citizen_sling_infantry
-      -units/{civ}_citizen_crossbow_infantry
       -units/{civ}_citizen_archer_infantry
       units/{civ}_champion_scythed_chariot
     </Entities>

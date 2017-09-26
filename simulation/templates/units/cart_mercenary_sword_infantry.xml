@@ -10,11 +10,11 @@
     <Classes datatype="tokens">Celt</Classes>
     <GenericName>Gaulish Mercenary Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman.png</Icon>
-    <SelectionGroupName>units/cart_mercenary_axe_infantry</SelectionGroupName>
+    <SelectionGroupName>units/cart_mercenary_sword_infantry</SelectionGroupName>
     <SpecificName>Seḫīr Ḥerev</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/cart/mercenary_axe_infantry_1</Entity>
+    <Entity>units/cart/mercenary_sword_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/carthaginians/infantry_swordsman_e.xml</Actor>

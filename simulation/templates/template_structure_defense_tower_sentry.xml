@@ -18,7 +18,7 @@
     <BuildTime op="mul">2.0</BuildTime>
     <Resources>
       <food op="add">50</food>
-      <wood op="add">100</wood>
+      <stone op="add">50</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -41,8 +41,8 @@
   </Identity>
   <Loot>
     <food op="add">5</food>
-    <wood op="add">10</wood>
-    <xp op="add">100</xp>
+    <stone op="add">5</stone>
+    <xp op="add">50</xp>
   </Loot>
   <Obstruction>
     <Static width="9.0" depth="7.5"/>
@@ -64,8 +64,8 @@
       <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
-        <stone>100</stone>
-        <wood>50</wood>
+        <stone>75</stone>
+        <wood>75</wood>
       </Cost>
       <Time>100</Time>
     </Tower>

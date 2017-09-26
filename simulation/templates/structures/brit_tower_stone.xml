@@ -4,6 +4,9 @@
     <Circle radius="6.0"/>
     <Height>10.0</Height>
   </Footprint>
+  <Health>
+    <Max op="mul">1.25</Max>
+  </Health>
   <Identity>
     <Civ>brit</Civ>
     <SpecificName>Tyrau</SpecificName>

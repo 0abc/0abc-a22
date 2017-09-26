@@ -53,11 +53,11 @@
       units/{civ}_support_female_house
     </Entities>
     <Technologies datatype="tokens">
+      unlock_females_house
       health_females_01
       pop_house_01
       pop_house_02
       pop_house_03
-      unlock_females_house
     </Technologies>
   </ProductionQueue>
   <Sound>

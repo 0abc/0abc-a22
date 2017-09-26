@@ -24,7 +24,7 @@
   <Cost>
     <BuildTime op="mul">1.0</BuildTime>
     <Resources>
-      <wood op="add">75</wood>
+      <wood op="add">-25</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -45,8 +45,8 @@
     <VisibleClasses datatype="tokens">Village Outpost</VisibleClasses>
   </Identity>
   <Loot>
-    <wood op="add">8</wood>
-    <xp op="add">75</xp>
+    <wood op="add">-2</wood>
+    <xp op="add">-12</xp>
   </Loot>
   <Obstruction>
     <Static width="6.5" depth="6.5"/>
@@ -69,7 +69,8 @@
       <RequiredTechnology>phase_town</RequiredTechnology>
       <Cost>
         <food>50</food>
-        <wood>75</wood>
+        <stone>50</stone>
+        <wood>50</wood>
       </Cost>
       <Time>50</Time>
     </Tower>

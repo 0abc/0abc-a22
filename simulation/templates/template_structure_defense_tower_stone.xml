@@ -18,7 +18,7 @@
     <Resources>
       <food op="add">50</food>
       <stone op="add">100</stone>
-      <wood op="add">100</wood>
+      <wood op="add">50</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -43,8 +43,8 @@
   <Loot>
     <food op="add">5</food>
     <stone op="add">10</stone>
-    <wood op="add">10</wood>
-    <xp op="add">150</xp>
+    <wood op="add">5</wood>
+    <xp op="add">100</xp>
   </Loot>
   <Obstruction>
     <Static width="7.0" depth="7.0"/>

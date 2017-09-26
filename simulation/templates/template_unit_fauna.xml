@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Cost>
+    <Population>0</Population>
+  </Cost>
+  <Footprint replace="">
+    <Height>2.25</Height>
+    <Square width="1.75" depth="3.5"/>
+  </Footprint>
+  <Guard disable=""/>
+  <Identity>
+    <Classes datatype="tokens">Animal Organic -ConquestCritical</Classes>
+    <GenericName>Fauna</GenericName>
+    <Icon>gaia/fauna_generic.png</Icon>
+    <Formations disable=""/>
+  </Identity>
+  <Loot disable=""/>
+  <Minimap>
+    <Type>food</Type>
+    <Color r="227" g="130" b="141"/> <!--r="227" g="130" b="141"-->
+  </Minimap>
+  <ResourceGatherer disable=""/>
+  <UnitAI>
+    <AlertReactiveLevel>99</AlertReactiveLevel>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
+    <FeedTimeMax>60000</FeedTimeMax>
+    <FeedTimeMin>15000</FeedTimeMin>
+    <FleeDistance>24.0</FleeDistance>
+    <RoamDistance>8.0</RoamDistance>
+    <RoamTimeMax>8000</RoamTimeMax>
+    <RoamTimeMin>2000</RoamTimeMin>
+  </UnitAI>
+  <UnitMotion>
+    <Run>
+      <Speed>15</Speed>
+    </Run>
+    <WalkSpeed>6.5</WalkSpeed>
+  </UnitMotion>
+  <Visibility>
+    <RetainInFog>true</RetainInFog>
+  </Visibility>
+  <Vision>
+    <Range>0</Range>
+  </Vision>
+  <VisualActor>
+    <SilhouetteDisplay>false</SilhouetteDisplay>
+  </VisualActor>
+</Entity>

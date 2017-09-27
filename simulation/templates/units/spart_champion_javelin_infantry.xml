@@ -5,7 +5,6 @@
     <GenericName>Heavy Skirmisher</GenericName>
     <Icon>units/mace_thureophoros.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>pop_wonder</RequiredTechnology>
     <SelectionGroupName>units/spart_champion_javelin_infantry</SelectionGroupName>
     <SpecificName>Thyreophóros</SpecificName>
   </Identity>

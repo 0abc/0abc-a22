@@ -11,11 +11,11 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="8.0" depth="33.0"/>
     <Height>10.0</Height>
+    <Square width="8.0" depth="33.0"/>
   </Footprint>
   <GarrisonHolder>
-    <Max op="mul">0.6</Max>
+    <Max op="add">-4</Max>
   </GarrisonHolder>
   <Health>
     <Max op="mul">0.6</Max>

@@ -171,7 +171,7 @@
 	{
 		"skirmish/structures/default_house_10": "structures/{civ}_house",
 		"skirmish/units/default_cavalry": "units/cart_citizen_javelin_cavalry",
-		"skirmish/units/default_infantry_melee_b": "units/cart_citizen_spear_infantry",
+		"skirmish/units/default_infantry_melee_b": "units/cart_citizen_hoplite_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/cart_citizen_archer_infantry"
 	},
 	"SelectableInGameSetup": true

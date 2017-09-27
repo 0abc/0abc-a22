@@ -16,7 +16,7 @@
   <Identity>
     <Civ>rome</Civ>
     <GenericName>Young Swordsman</GenericName>
-    <Icon>units/iber_infantry_swordsman.png</Icon>
+    <Icon>units/rome_infantry_swordsman.png</Icon>
     <Lang>latin</Lang>
     <SelectionGroupName>units/rome_citizen_axe_infantry</SelectionGroupName>
     <SpecificName>Hastatus</SpecificName>

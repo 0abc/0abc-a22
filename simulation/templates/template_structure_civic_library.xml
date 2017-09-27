@@ -20,22 +20,23 @@
     <Height>9.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>25</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry</List>
     <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support Infantry Cavalry</List>
     <LoadingRange>2</LoadingRange>
+    <Max>25</Max>
   </GarrisonHolder>
   <Health>
     <Max>2500</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Library</GenericName>
     <Classes datatype="tokens">Civic -ConquestCritical Bribable</Classes>
-    <Tooltip>Research special technologies.</Tooltip>
+    <GenericName>Library</GenericName>
     <Icon>structures/library_scroll.png</Icon>
+    <SpecificName>Bibliothḗkē</SpecificName>
+    <Tooltip>Research special technologies.</Tooltip>
   </Identity>
   <Loot>
     <food>25</food>

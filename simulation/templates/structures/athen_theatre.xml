@@ -5,6 +5,5 @@
   </Identity>
   <VisualActor>
     <Actor>structures/athenians/theatron.xml</Actor>
-    <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
   </VisualActor>
 </Entity>

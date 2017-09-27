@@ -24,21 +24,21 @@
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>50</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry</List>
     <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support Infantry Cavalry</List>
     <LoadingRange>2</LoadingRange>
+    <Max>50</Max>
   </GarrisonHolder>
   <Health>
     <Max>5000</Max>
   </Health>
   <Identity>
-    <GenericName>Theatre</GenericName>
-    <SpecificName>Théātron</SpecificName>
     <Classes datatype="tokens">Civic Theatre -ConquestCritical Bribable</Classes>
+    <GenericName>Theatre</GenericName>
     <Icon>structures/theatron.png</Icon>
+    <SpecificName>Théātron</SpecificName>
   </Identity>
   <Loot>
     <food>50</food>
@@ -53,14 +53,14 @@
   <ProductionQueue disable=""/>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_greek_theater.xml</select>
       <constructed>interface/complete/building/complete_greek_theater.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_greek_theater.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
-    <Root>false</Root>
     <Radius>100</Radius>
+    <Root>false</Root>
     <Weight>50000</Weight>
   </TerritoryInfluence>
   <Vision>
@@ -69,4 +69,8 @@
   <VisionSharing>
     <Bribable>true</Bribable>
   </VisionSharing>
+  <VisualActor>
+    <Actor>structures/macedonians/theatron.xml</Actor>
+    <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
+  </VisualActor>
 </Entity>

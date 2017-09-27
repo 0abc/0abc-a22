@@ -4,8 +4,8 @@
     <Category>Stoa</Category>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>5</PopulationBonus>
     <BuildTime>150</BuildTime>
+    <PopulationBonus>5</PopulationBonus>
     <Resources>
       <food>0</food>
       <wood>50</wood>
@@ -18,12 +18,12 @@
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>10</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry</List>
     <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support Infantry Cavalry</List>
     <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>2500</Max>

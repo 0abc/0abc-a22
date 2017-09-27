@@ -4,7 +4,7 @@
     <Category>Farmstead</Category>
     <Distance>
       <FromClass>Economic</FromClass>
-      <MinDistance>10</MinDistance>
+      <MinDistance>20</MinDistance>
     </Distance>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
@@ -58,9 +58,9 @@
   </ResourceDropsite>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_farmstead.xml</select>
       <constructed>interface/complete/building/complete_farmstead.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_farmstead.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_economic">
   <Auras datatype="tokens">
     structures/rotary_mill
   </Auras>
   <BuildRestrictions>
+    <Category>RotaryMill</Category>
     <Distance>
       <FromClass>Economic</FromClass>
       <MinDistance>20</MinDistance>
     </Distance>
+    <Territory>own</Territory>
   </BuildRestrictions>
   <Cost>
     <BuildTime>100</BuildTime>
@@ -23,7 +25,6 @@
     <Circle radius="9.0"/>
     <Height>6.0</Height>
   </Footprint>
-  <GarrisonHolder disable=""/>
   <Health>
     <Max>1800</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
@@ -34,7 +35,7 @@
     <Icon>structures/rotarymill.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Melonas</SpecificName>
-    <VisibleClasses datatype="tokens">Economic City</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>
@@ -50,16 +51,18 @@
   <RallyPoint disable=""/>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_ffactri.xml</select>
       <constructed>interface/complete/building/complete_ffactri.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_ffactri.xml</select>
     </SoundGroups>
   </Sound>
   <StatusBars>
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <TerritoryInfluence>
+    <Root>false</Root>
     <Radius>32</Radius>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <VisualActor>
     <Actor>structures/celts/special.xml</Actor>

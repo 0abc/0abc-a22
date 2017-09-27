@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_military">
   <BuildRestrictions>
     <Category>Embassy</Category>
     <Distance>
@@ -19,6 +19,11 @@
     <Height>12.0</Height>
   </Footprint>
   <GarrisonHolder>
+    <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <LoadingRange>2</LoadingRange>
     <Max>6</Max>
   </GarrisonHolder>
   <Health>
@@ -27,9 +32,9 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
-    <VisibleClasses datatype="tokens">-City Town Embassy Bribable</VisibleClasses>
     <GenericName>Embassy</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Town Embassy Bribable</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>
@@ -49,13 +54,15 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_gymnasium.xml</select>
       <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_gymnasium.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
     <Radius>25</Radius>
+    <Root>false</Root>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <Vision>
     <Range>30</Range>

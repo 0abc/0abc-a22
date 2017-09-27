@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <Armour>
+    <Crush>5.0</Crush>
+    <Foundation>
+      <Crush>2.0</Crush>
+      <Hack>3.0</Hack>
+      <Pierce>8.0</Pierce>
+    </Foundation>
+    <Hack>10.0</Hack>
+    <Pierce>40.0</Pierce>
+  </Armour>
+  <BuildRestrictions>
+    <Category>Kennel</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <food>50</food>
+      <metal>50</metal>
+      <stone>50</stone>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square width="8.0" depth="7.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Dog</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>500</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Kennel</Classes>
+    <GenericName>Kennel</GenericName>
+    <Icon>structures/kennel.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SpecificName>Kennel</SpecificName>
+    <Tooltip>Train war dogs.</Tooltip>
+    <VisibleClasses datatype="tokens">Village</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>5</food>
+    <metal>5</metal>
+    <stone>5</stone>
+    <wood>5</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="7.5" depth="6.75"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_war_dog
+    </Entities>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_kennel.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_kennel.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Radius>20</Radius>
+    <Root>false</Root>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/britons/kennel.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

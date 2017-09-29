@@ -27,8 +27,8 @@
   * 100% of total costs (soldiers)
   * 50% of total costs (siege weapons, war ships)
   * 10% of total costs (fishing boats, merchant ships, support units)
-  * 10% of maximum health (civic centres, fortresses, towers, walls) 
-  * 5% of maximum health (other structures)
+  * 10% of maximum health (army camps, civic centres, fortresses, towers) 
+  * none (other structures)
 * Economic buildings and walls can be constructed in neutral territory
 * All walls and towers are stronger and more expensive; 
   * palisade and outpost are available in village phase, 
@@ -49,9 +49,9 @@
 
 ### Population size
 * 0: war dogs, fire ships
-* 1: infantry, support units, fishing boats, merchant ships, small transport ships, medium transport ships, small galleys
-* 2: cavalry, camels, siege ballistae, large transport ships, biremes
-* 3: worker elephants, siege onagers, huge transport ships, triremes
+* 1: infantry, support units, fishing boats, merchant ships, small and medium war barges, small galleys
+* 2: cavalry, camels, siege ballistae, large war barges, biremes
+* 3: worker elephants, siege onagers, huge war barges, triremes
 * 4: bigae (two-horsed chariots), siege rams, quadriremes
 * 5: three-man chariots, quinqueremes
 * 6: quadrigae (four-horsed chariots), war elephants, siege towers, sexiremes
@@ -96,24 +96,29 @@
 ### Structure distances
 * 20 m from economic buildings: corrals, docks, farmsteads, fields, markets, storehouses
 * 30 m from military buildings: barracks, blacksmiths, cavalry stables, elephant stables, embassies
+* 40 m from temples: temples
 * 60 m from towers: outpost, sentry tower, defence tower
-* 80 m from fortresses: fortresses
+* 80 m from fortresses: army camps, fortresses
 * 120 m from civic centres: military colonies
-* 200 m from civic centres: civic centres, crannogs
+* 160 m from civic centres: Briton, Gaulish, and Iberian civil centres, crannogs
+* 200 m from civic centres: civil centres
 
 ### Global auras
 * Wonders each grant +40% territory influence (new) and +10.0 maximum population limit, plus +10% each with “glorious expansion” researched
 * Theatres each grant +20% territory influence; 
-* Libraries each grant -10% structure construction time and -20% technology research time
+* Libraries each grant −10% structure construction time and −20% technology research time
 
 ### Civilization bonuses
+* Celtic (Briton and Gaulish) healers have +20% walk speed, +4 hack, pierce, and crush armour levels, and two more auras (“Curse” and “Motivation”), but also +100% training time, +50 metal and +5 wood costs, and +5 metal, +5 wood, and +10 experience loot.
 * Celtic (Briton and Gaulish) healers have +20% walk speed and +4 hack, pierce, and crush armour levels.
-* Celtic (Briton and Gaulish) structures have −20% health, capture points, and build time.
+* Celtic (Briton and Gaulish) civic, economic, military, and resource structures have −20% health, capture points, and build time.
+* Celtic (Briton and Gaulish) walls have −20% health, build time, and stone and wood costs.
 * Celts (Britons and Gauls) have a 20% resource cost and time discount on Armoury technologies.
 * Greek (Athenians, Macedonians, Spartans) civic structures have +20% health and capture points.
 * Athenians have a 10% resource cost and time discount on Storehouse technologies.
 * Athenian warships have +10% walk speed.
 * Briton infantry swordsmen have +10% walk speed.
+* Briton sentry towers cost no stone and have −25% construction time and −10% health.
 * Carthaginian docks markets have −50% resource costs and construction time; dock and market technologies have a 30% resource cost and time discount.
 * Carthaginian ships have +20% vision range.
 * Carthaginian stone walls have +25% health.
@@ -141,14 +146,14 @@
 
 ## Team bonuses
 * Athenian allies: warships construction time
-* Briton allies: units cost -4% metal
+* Briton allies: units cost −4% metal
 * Carthaginian allies: traders −20% training time and +5% walk speed
 * Gaulish allies: infantry spearmen −20% training time
 * Iberian allies: infantry javelinists −20% training time
-* Macedonian allies: units cost -4% wood
+* Macedonian allies: units cost −4% wood
 * Mauryan allies: healers −25% training time
 * Persian allies: land traders +10% gain
-* Ptolemaic allies: units cost -4% food
+* Ptolemaic allies: units cost −4% food
 * Roman allies: infantry swordsmen −20% training time
 * Seleucid allies: civic centres −20% construction time
 * Spartan allies: infantry hoplites −20% training time

@@ -36,7 +36,6 @@
   <Loot>
     <stone>9</stone>
     <wood>3</wood>
-    <xp>300</xp>
   </Loot>
   <VisualActor>
     <FoundationActor>structures/fndn_wall_medium.xml</FoundationActor>

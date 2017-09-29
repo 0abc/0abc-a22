@@ -1,11 +1,11 @@
 {
-  "type": "range",
-  "radius": 5,
-  "affects": ["Infantry"],
   "affectedPlayers": ["Enemy"],
+  "affects": ["Infantry"],
+  "auraDescription": "-10% health for enemy infantry.",
+  "auraName": "Fear",
   "modifications": [
     { "value": "Health/Max", "multiply": 0.9 }
   ],
-  "auraName": "Fear",
-  "auraDescription": "-10% health for enemy infantry."
+  "radius": 5,
+  "type": "range"
 }

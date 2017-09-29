@@ -3,7 +3,7 @@
   "autoResearch": true,
   "description": "The Celts were exceptionally skilled blacksmiths. They also invented the chain mail.",
   "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
-  "icon": "metalworker.png",
+  "icon": "forging.png",
   "tooltip": "Celtic Armoury technologies cost -20% resources and time.",
   "modifications": [
     { "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.8 },

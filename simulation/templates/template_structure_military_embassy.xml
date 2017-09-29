@@ -10,8 +10,10 @@
   <Cost>
     <PopulationBonus>0</PopulationBonus>
     <Resources>
-      <wood>100</wood>
-      <stone>100</stone>
+      <food>50</food>
+      <metal>50</metal>
+      <stone>50</stone>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -37,11 +39,10 @@
     <VisibleClasses datatype="tokens">Town Embassy Bribable</VisibleClasses>
   </Identity>
   <Loot>
-    <food>0</food>
-    <metal>0</metal>
-    <stone>10</stone>
-    <wood>10</wood>
-    <xp>100</xp>
+    <food>5</food>
+    <metal>5</metal>
+    <stone>5</stone>
+    <wood>5</wood>
   </Loot>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>

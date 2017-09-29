@@ -1,8 +1,8 @@
 {
-  "type": "range",
-  "radius": 5,
-  "affects": ["Cavalry"],
   "affectedPlayers": ["Enemy"],
+  "affects": ["Cavalry"],
+  "auraDescription": "-10% attack for enemy cavalry.",
+  "auraName": "Stench",
   "modifications": [
     {"value": "Attack/Capture/Value", "multiply": 0.9 },
     {"value": "Attack/Melee/Crush", "multiply": 0.9, "affects": "Melee"},
@@ -12,6 +12,6 @@
     {"value": "Attack/Ranged/Hack", "multiply": 0.9, "affects": "Ranged"},
     {"value": "Attack/Ranged/Pierce", "multiply": 0.9, "affects": "Ranged"}
   ],
-  "auraName": "Stench",
-  "auraDescription": "-10% attack for enemy cavalry."
+  "radius": 5,
+  "type": "range"
 }

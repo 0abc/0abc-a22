@@ -1,0 +1,15 @@
+{
+	"genericName": "Rubble walls",
+	"autoResearch": true,
+	"description": "Celtic walls were mostly made of rubble.",
+	"requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
+	"icon": "wall.png",
+	"tooltip": "Celtic walls, gates, and wall turrets have 20% less health, but are also 20% cheaper and faster to construct.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.8},
+    {"value": "Cost/Resources/stone", "multiply": 0.8},
+    {"value": "Cost/Resources/wood", "multiply": 0.8},
+		{"value": "Health/Max", "multiply": 0.8}
+	],
+	"affects": ["StoneWall"]
+}

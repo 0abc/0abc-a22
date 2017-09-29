@@ -1,0 +1,10 @@
+{
+  "affects": ["Infantry"],
+  "auraDescription": "Infantry +15% movement speed.",
+  "auraName": "Motivation",
+  "modifications": [
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.15}
+  ],
+  "radius": 20,
+  "type": "range"
+}

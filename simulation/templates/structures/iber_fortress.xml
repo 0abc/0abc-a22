@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_fortress">
   <Cost>
-    <PopulationBonus>15</PopulationBonus>
+    <PopulationBonus op="add">5</PopulationBonus>
     <BuildTime op="mul">1.5</BuildTime>
     <Resources>
-      <stone>1200</stone>
+      <stone op="add">400</stone>
     </Resources>
   </Cost>
   <Health>
-    <Max>6000</Max>
+    <Max op="add">1500</Max>
   </Health>
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Castro</SpecificName>
   </Identity>
+  <Loot>
+    <stone op="add">40</stone>
+    <xp op="add">150</xp>
+  </Loot>
   <Obstruction>
     <Static width="27.0" depth="27.0"/>
   </Obstruction>

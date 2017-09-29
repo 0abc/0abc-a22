@@ -25,15 +25,14 @@
     <Max op="mul">0.5</Max>
   </Health>
   <Identity>
-    <GenericName>Wall Turret</GenericName>
     <Classes datatype="tokens">SiegeWall</Classes>
+    <GenericName>Wall Turret</GenericName>
     <Icon>structures/siege_wall.png</Icon>
     <Tooltip>A wooden and turf turret, much stronger than wooden village palisade turrets, but not as durable as stone city wall turrets.</Tooltip>
   </Identity>
   <Loot>
     <stone>0</stone>
     <wood op="mul">2.0</wood>
-    <xp op="mul">0.5</xp>
   </Loot>
   <Obstruction>
     <Static width="7.0" depth="7.0"/>

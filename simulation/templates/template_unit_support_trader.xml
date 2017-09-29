@@ -19,8 +19,8 @@
     <Formations disable=""/>
   </Identity>
   <Loot>
+    <food op="add">5</food>
     <metal op="add">5</metal>
-    <stone op="add">5</stone>
     <wood op="add">5</wood>
     <xp op="add">15</xp>
   </Loot>

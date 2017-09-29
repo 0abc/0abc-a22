@@ -31,10 +31,9 @@
   </Identity>
   <Loot>
     <food>0</food>
-    <wood>10</wood>
-    <stone>0</stone>
     <metal>0</metal>
-    <xp>15</xp>
+    <stone>0</stone>
+    <wood>10</wood>
   </Loot>
   <Minimap>
     <Color r="119" g="82" b="46"/>
@@ -47,11 +46,11 @@
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
   <ResourceSupply>
-    <KillBeforeGather>false</KillBeforeGather>
     <Amount>Infinity</Amount>
-    <Type>food.grain</Type>
-    <MaxGatherers>5</MaxGatherers>
     <DiminishingReturns>0.90</DiminishingReturns>
+    <KillBeforeGather>false</KillBeforeGather>
+    <MaxGatherers>5</MaxGatherers>
+    <Type>food.grain</Type>
   </ResourceSupply>
   <Sound>
     <SoundGroups>

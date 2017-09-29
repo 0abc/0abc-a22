@@ -14,7 +14,6 @@
   <Loot>
     <stone>6</stone>
     <wood>2</wood>
-    <xp>200</xp>
   </Loot>
   <VisualActor>
     <FoundationActor>structures/fndn_wall_short.xml</FoundationActor>

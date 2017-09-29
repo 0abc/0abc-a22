@@ -1,0 +1,16 @@
+{
+  "affects": ["Soldier"],
+  "auraDescription": "+10% attack for your soldiers.",
+  "auraName": "Bless",
+  "modifications": [
+    {"value": "Attack/Capture/Value", "multiply": 1.1 },
+    {"value": "Attack/Melee/Crush", "multiply": 1.1, "affects": "Melee"},
+    {"value": "Attack/Melee/Hack", "multiply": 1.1, "affects": "Melee"},
+    {"value": "Attack/Melee/Pierce", "multiply": 1.1, "affects": "Melee"},
+    {"value": "Attack/Ranged/Crush", "multiply": 1.1, "affects": "Ranged"},
+    {"value": "Attack/Ranged/Hack", "multiply": 1.1, "affects": "Ranged"},
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.1, "affects": "Ranged"}
+  ],
+  "radius": 10,
+  "type": "range"
+}

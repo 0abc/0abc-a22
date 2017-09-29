@@ -45,18 +45,17 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>Naval Shipyard</GenericName>
-    <SpecificName>Cothon</SpecificName>
-    <VisibleClasses datatype="tokens">-City Shipyard Town</VisibleClasses>
-    <Tooltip>Construct and repair mighty warships.</Tooltip>
     <Icon>structures/uber_dock.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Cothon</SpecificName>
+    <Tooltip>Construct and repair mighty warships.</Tooltip>
+    <VisibleClasses datatype="tokens">-City Shipyard Town</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>
     <metal>20</metal>
     <stone>20</stone>
     <wood>40</wood>
-    <xp>250</xp>
   </Loot>
   <Obstruction>
     <Static width="42.0" depth="58.0"/>

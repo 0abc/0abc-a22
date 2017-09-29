@@ -1,10 +1,10 @@
 {
-  "type": "player",
   "affects": ["Player"],
+  "auraDescription": "Increase the population limit by 10 per wonder owned.",
+  "auraName": "Symbol of Greatness I",
   "modifications": [
     { "value": "Player/MaxPopulation", "add": 10 }
   ],
-  "auraName": "Symbol of Greatness",
-  "auraDescription": "Increase the population limit by 10 per wonder owned.",
-  "stackable": true
+  "stackable": true,
+  "type": "player"
 }

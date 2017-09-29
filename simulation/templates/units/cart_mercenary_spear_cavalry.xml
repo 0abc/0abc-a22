@@ -4,7 +4,7 @@
     <Civ>cart</Civ>
     <Classes datatype="tokens">Italian</Classes>
     <GenericName>Campanian Mercenary Cavalry</GenericName>
-    <Icon>units/cart_cavalry_spearman.png</Icon>
+    <Icon>units/cart_cavalry_spearman_2.png</Icon>
     <SelectionGroupName>units/cart_mercenary_spear_cavalry</SelectionGroupName>
     <SpecificName>Ḥayyāl Romaḥ Raḫūv</SpecificName>
   </Identity>

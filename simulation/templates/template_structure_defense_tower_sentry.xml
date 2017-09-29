@@ -42,7 +42,7 @@
   <Loot>
     <food op="add">5</food>
     <stone op="add">5</stone>
-    <xp op="add">50</xp>
+    <xp op="mul">2.0</xp>
   </Loot>
   <Obstruction>
     <Static width="9.0" depth="7.5"/>

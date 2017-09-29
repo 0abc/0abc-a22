@@ -39,7 +39,6 @@
     <wood>20</wood>
     <stone>0</stone>
     <metal>0</metal>
-    <xp>125</xp>
   </Loot>
   <Market>
     <TradeType>land naval</TradeType>

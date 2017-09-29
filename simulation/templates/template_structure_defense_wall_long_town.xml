@@ -52,7 +52,6 @@
   <Loot>
     <stone>0</stone>
     <wood op="mul">2.0</wood>
-    <xp op="mul">0.5</xp>
   </Loot>
   <Obstruction>
     <Static width="37.0" depth="5.0"/>

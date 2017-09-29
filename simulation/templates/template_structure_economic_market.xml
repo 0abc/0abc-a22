@@ -35,7 +35,6 @@
     <wood>30</wood>
     <stone>0</stone>
     <metal>0</metal>
-    <xp>75</xp>
   </Loot>
   <Market>
     <TradeType>land</TradeType>

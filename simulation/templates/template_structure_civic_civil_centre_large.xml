@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <BuildingAI>
+    <MaxArrowCount>14</MaxArrowCount>
+  </BuildingAI>
+  <BuildRestrictions>
+    <Category>CivilCentre</Category>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MinDistance>200</MinDistance>
+    </Distance>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints op="mul">1.2</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">1.25</BuildTime>
+    <PopulationBonus op="add">5</PopulationBonus>
+    <Resources>
+      <food op="mul">1.25</food>
+      <wood op="mul">1.25</wood>
+      <stone op="mul">1.25</stone>
+      <metal op="mul">1.25</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max op="add">5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">1.2</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Colony</Classes>
+  </Identity>
+  <Loot>
+    <food op="mul">1.25</food>
+    <metal op="mul">1.25</metal>
+    <stone op="mul">1.25</stone>
+    <wood op="mul">1.25</wood>
+    <xp op="add">50</xp>
+  </Loot>
+</Entity>

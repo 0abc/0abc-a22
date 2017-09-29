@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
   <BuildRestrictions>
-    <Territory>own ally neutral</Territory>
-    <PlacementType>shore</PlacementType>
     <Category>Lighthouse</Category>
+    <PlacementType>shore</PlacementType>
+    <Territory>own ally neutral</Territory>
   </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>200</wood>
+      <stone>200</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
   <Footprint replace="">
     <Circle radius="14.0"/>
     <Height>8.0</Height>
@@ -14,16 +23,16 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
-    <GenericName>Lighthouse</GenericName>
-    <SpecificName>Pháros</SpecificName>
     <Classes datatype="tokens">-ConquestCritical Lighthouse</Classes>
-    <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range: 180 meters.</Tooltip>
+    <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
+    <SpecificName>Pháros</SpecificName>
+    <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range: 180 meters.</Tooltip>
   </Identity>
   <Loot>
-    <wood>0</wood>
-    <stone>50</stone>
-    <metal>50</metal>
+    <metal>20</metal>
+    <stone>20</stone>
+    <wood>20</wood>
   </Loot>
   <Obstruction>
     <Static width="20.0" depth="25.0"/>
@@ -34,9 +43,9 @@
   <ProductionQueue disable=""/>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_temple.xml</select>
       <constructed>interface/complete/building/complete_temple.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_temple.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>

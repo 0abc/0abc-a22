@@ -6,11 +6,11 @@
     </Resources>
   </Cost>
   <Heal>
-    <Range>12</Range>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
     <HP>1</HP>
+    <Range>12</Range>
     <Rate>500</Rate>
     <UnhealableClasses datatype="tokens"/>
-    <HealableClasses datatype="tokens">Human</HealableClasses>
   </Heal>
   <Health>
     <Max op="mul">1.5</Max>

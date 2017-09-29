@@ -1,79 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_military">
   <Armour>
-    <Hack op="add">-5.0</Hack>
-    <Pierce op="add">-5.0</Pierce>
-    <Crush op="add">-1.0</Crush>
+    <Crush op="add">-1</Crush>
+    <Hack op="add">-5</Hack>
+    <Pierce op="add">-10</Pierce>
     <Foundation>
+      <Crush>1.0</Crush>
       <Hack>1.0</Hack>
       <Pierce>5.0</Pierce>
-      <Crush>1.0</Crush>
     </Foundation>
   </Armour>
   <Attack>
     <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>25.0</Pierce>
       <Crush>0.0</Crush>
+      <Hack>0.0</Hack>
       <MaxRange>50.0</MaxRange>
       <MinRange>0.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <Pierce>25.0</Pierce>
       <PrepareTime>1200</PrepareTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
       <RepeatTime>2000</RepeatTime>
       <Spread>1.5</Spread>
     </Ranged>
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
-    <MaxArrowCount>15</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>15</MaxArrowCount>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>neutral enemy</Territory>
     <Category>ArmyCamp</Category>
     <Distance>
-      <FromClass>ArmyCamp</FromClass>
+      <FromClass>GarrisonFortress</FromClass>
       <MinDistance>80</MinDistance>
     </Distance>
+    <Territory>neutral enemy</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>1500</CapturePoints>
-    <RegenRate>10.0</RegenRate>
+    <CapturePoints>1600</CapturePoints>
     <GarrisonRegenRate>3.0</GarrisonRegenRate>
+    <RegenRate>10.0</RegenRate>
   </Capturable>
   <Cost>
-    <PopulationBonus>5</PopulationBonus>
-    <BuildTime>250</BuildTime>
+    <BuildTime>240</BuildTime>
+    <PopulationBonus>8</PopulationBonus>
     <Resources>
-      <wood>500</wood>
+      <food>100</food>
+      <metal>100</metal>
       <stone>0</stone>
+      <wood>600</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="40.0" depth="40.0"/>
     <Height>12.0</Height>
+    <Square width="40.0" depth="40.0"/>
   </Footprint>
   <GarrisonHolder>
-    <Max>40</Max>
-    <List datatype="tokens">Support Infantry Cavalry Siege</List>
     <BuffHeal>1</BuffHeal>
+    <List datatype="tokens">Support Infantry Cavalry Siege</List>
     <LoadingRange>6</LoadingRange>
+    <Max>40</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2500</Max>
+    <Max>2400</Max>
     <SpawnEntityOnDeath>rubble/rubble_rome_sb</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>rome</Civ>
+    <Classes datatype="tokens">ArmyCamp GarrisonFortress</Classes>
     <GenericName>Entrenched Army Camp</GenericName>
-    <SpecificName>Castrum Vallum</SpecificName>
-    <Classes datatype="tokens">ArmyCamp</Classes>
     <Icon>structures/roman_camp.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Castrum Vallum</SpecificName>
     <Tooltip>Build in neutral or enemy territory. Construct siege weapons and train citizen-soldiers. Heal garrisoned units slowly.</Tooltip>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>100</xp>
-    <wood>100</wood>
+    <food>10</food>
+    <metal>10</metal>
+    <stone>0</stone>
+    <wood>60</wood>
+    <xp>250</xp>
   </Loot>
   <Obstruction>
     <Static width="36.0" depth="36.0"/>
@@ -96,9 +103,9 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_broch.xml</select>
       <constructed>interface/complete/building/complete_broch.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_broch.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryDecay>
@@ -106,7 +113,7 @@
   </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <Vision>
-    <Range>60</Range>
+    <Range>80</Range>
   </Vision>
   <VisualActor>
     <Actor>structures/romans/camp.xml</Actor>

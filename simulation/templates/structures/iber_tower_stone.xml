@@ -35,7 +35,7 @@
   </Identity>
   <Loot>
     <stone op="add">10</stone>
-    <xp op="add">25</xp>
+    <xp op="add">100</xp>
   </Loot>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>

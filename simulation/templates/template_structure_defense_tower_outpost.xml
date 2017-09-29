@@ -46,7 +46,7 @@
   </Identity>
   <Loot>
     <wood op="add">-2</wood>
-    <xp op="add">-12</xp>
+    <xp op="mul">1.5</xp>
   </Loot>
   <Obstruction>
     <Static width="6.5" depth="6.5"/>

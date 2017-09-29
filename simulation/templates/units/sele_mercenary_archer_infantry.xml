@@ -8,7 +8,7 @@
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Syrian Archer</GenericName>
-    <Icon>units/hele_infantry_archer.png</Icon>
+    <Icon>units/imp_merc_archer.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/sele_mercenary_archer_infantry</SelectionGroupName>
     <SpecificName>Toxótēs Syrías</SpecificName>

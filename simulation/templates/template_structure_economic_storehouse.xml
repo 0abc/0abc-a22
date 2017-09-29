@@ -34,10 +34,9 @@
   </Identity>
   <Loot>
     <food>0</food>
-    <wood>10</wood>
-    <stone>0</stone>
     <metal>0</metal>
-    <xp>38</xp>
+    <stone>0</stone>
+    <wood>10</wood>
   </Loot>
   <Obstruction>
     <Static width="13.0" depth="13.0"/>

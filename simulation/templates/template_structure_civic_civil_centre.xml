@@ -29,29 +29,30 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>2</DefaultArrowCount>
+    <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>12</MaxArrowCount>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
     <Category>CivilCentre</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
-      <MinDistance>200</MinDistance>
+      <MinDistance>160</MinDistance>
     </Distance>
+    <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>3000</CapturePoints>
+    <CapturePoints>2500</CapturePoints>
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime>600</BuildTime>
-    <PopulationBonus>25</PopulationBonus>
+    <BuildTime>480</BuildTime>
+    <PopulationBonus>20</PopulationBonus>
     <Resources>
-      <food>500</food>
-      <metal>500</metal>
-      <stone>500</stone>
-      <wood>500</wood>
+      <food>400</food>
+      <metal>400</metal>
+      <stone>400</stone>
+      <wood>400</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -59,7 +60,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>25</Max>
+    <Max>20</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry</List>
@@ -67,22 +68,22 @@
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>3000</Max>
+    <Max>2500</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Civic Centre</GenericName>
-    <Tooltip>Build to acquire large tracts of territory. Train citizens.</Tooltip>
     <Classes datatype="tokens">Defensive CivCentre</Classes>
-    <VisibleClasses datatype="tokens">CivilCentre Bribable</VisibleClasses>
+    <GenericName>Civic Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
+    <Tooltip>Build to acquire large tracts of territory. Train citizens.</Tooltip>
+    <VisibleClasses datatype="tokens">CivilCentre Bribable</VisibleClasses>
   </Identity>
   <Loot>
-    <food>50</food>
-    <metal>50</metal>
-    <stone>50</stone>
-    <wood>50</wood>
-    <xp>300</xp>
+    <food>40</food>
+    <metal>40</metal>
+    <stone>40</stone>
+    <wood>40</wood>
+    <xp>250</xp>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
@@ -95,6 +96,8 @@
     <Technologies datatype="tokens">
       phase_town
       phase_city
+      centre_watch_01
+      centre_watch_02
       unlock_spies
       spy_counter
     </Technologies>

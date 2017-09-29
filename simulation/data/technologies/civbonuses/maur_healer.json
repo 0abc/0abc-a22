@@ -6,7 +6,9 @@
   "icon": "asclepius_rod.png",
   "tooltip": "Healers cost -50% metal.",
   "modifications": [
-    { "value": "Cost/Resources/metal", "multiply": 0.5 }
+    { "value": "Cost/Resources/metal", "multiply": 0.5 },
+    { "value": "Loot/metal", "multiply": 0.5 },
+    { "value": "Loot/xp", "add": -5 }
   ],
   "affects": ["Healer"]
 }

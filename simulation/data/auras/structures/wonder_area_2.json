@@ -1,0 +1,11 @@
+{
+  "affects": ["Structure"],
+  "auraDescription": "Further increase territory influence by 20% per wonder owned (requires \"Glorious Expansion\" tech).",
+  "auraName": "Glorious Expansion II",
+  "modifications": [
+    { "value": "TerritoryInfluence/Radius", "multiply": 1.2 }
+  ],
+  "requiredTechnology": "pop_wonder",
+  "stackable": true,
+  "type": "global"
+}

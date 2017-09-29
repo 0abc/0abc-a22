@@ -26,7 +26,7 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2500</Max>
+    <Max>2000</Max>
   </Health>
   <Identity>
     <Civ>gaia</Civ>
@@ -43,7 +43,6 @@
     <metal>5</metal>
     <stone>15</stone>
     <wood>5</wood>
-    <xp>125</xp>
   </Loot>
   <Obstruction>
     <Static width="28.0" depth="20.0"/>

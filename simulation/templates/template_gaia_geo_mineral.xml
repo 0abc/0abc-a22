@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_geo">
+  <Identity>
+    <GenericName>Mineral</GenericName>
+    <Icon>gaia/geology_metal.png</Icon>
+    <SpecificName>Metal Mine</SpecificName>
+    <Tooltip>A mineral deposit, providing access to rare forms of precious Metal.</Tooltip>
+  </Identity>
+  <Minimap>
+    <Color r="227" g="159" b="12"/> <!--r="227" g="159" b="12"-->
+    <Type>metal</Type>
+  </Minimap>
+  <ResourceSupply>
+    <Amount>1000</Amount>
+    <DiminishingReturns>0.98</DiminishingReturns>
+    <KillBeforeGather>false</KillBeforeGather>
+    <MaxGatherers>12</MaxGatherers>
+    <Type>metal.ore</Type>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/resource/sel_metal.xml</select>
+    </SoundGroups>
+  </Sound>
+</Entity>

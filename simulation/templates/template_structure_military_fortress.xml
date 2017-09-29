@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
   <Armour>
+    <Crush op="add">3</Crush>
     <Hack op="add">5</Hack>
     <Pierce op="add">5</Pierce>
-    <Crush op="add">3</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Crush>0</Crush>
-      <Hack>0</Hack>
-      <Pierce>12</Pierce>
+      <ElevationBonus>8</ElevationBonus>
       <MaxRange>72</MaxRange>
       <MinRange>0</MinRange>
-      <ElevationBonus>8</ElevationBonus>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <Hack>0</Hack>
+      <Pierce>12</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>1200</PrepareTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
       <RepeatTime>2000</RepeatTime>
       <Spread>1.5</Spread>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
   <BuildingAI>
@@ -28,7 +28,7 @@
   <BuildRestrictions>
     <Category>Fortress</Category>
     <Distance>
-      <FromClass>Fortress</FromClass>
+      <FromClass>GarrisonFortress</FromClass>
       <MinDistance>80</MinDistance>
     </Distance>
   </BuildRestrictions>
@@ -51,7 +51,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>20</Max>
+    <Max>30</Max>
     <EjectHealth>0.075</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Siege</List>
@@ -63,12 +63,12 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Fortress</GenericName>
-    <Tooltip>Train heroes, champions, and siege weapons. Research siege weapon improvements.</Tooltip>
     <Classes datatype="tokens">Defensive Fortress GarrisonFortress</Classes>
-    <VisibleClasses datatype="tokens">City</VisibleClasses>
+    <GenericName>Fortress</GenericName>
     <Icon>structures/fortress.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Train heroes, champions, and siege weapons. Research siege weapon improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>
@@ -101,15 +101,15 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_fortress.xml</select>
-      <constructed>interface/complete/building/complete_fortress.xml</constructed>
       <attack>attack/weapon/arrowfly.xml</attack>
+      <constructed>interface/complete/building/complete_fortress.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_fortress.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
-    <Root>false</Root>
     <Radius>100</Radius>
+    <Root>false</Root>
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <Vision>

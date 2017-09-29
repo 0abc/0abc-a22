@@ -1,8 +1,8 @@
 {
-  "type": "range",
-  "radius": 10,
-  "affects": ["Soldier"],
   "affectedPlayers": ["Enemy"],
+  "affects": ["Soldier"],
+  "auraDescription": "-10% attack for enemy soldiers.",
+  "auraName": "Intimidation",
   "modifications": [
     {"value": "Attack/Capture/Value", "multiply": 0.9 },
     {"value": "Attack/Melee/Crush", "multiply": 0.9, "affects": "Melee"},
@@ -12,6 +12,6 @@
     {"value": "Attack/Ranged/Hack", "multiply": 0.9, "affects": "Ranged"},
     {"value": "Attack/Ranged/Pierce", "multiply": 0.9, "affects": "Ranged"}
   ],
-  "auraName": "Intimidation",
-  "auraDescription": "-10% attack for enemy soldiers."
+  "radius": 10,
+  "type": "range"
 }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_flora">
+  <Identity>
+    <Classes datatype="tokens">ForestPlant</Classes>
+    <GenericName>Tree</GenericName>
+    <Icon>gaia/flora_tree_generic.png</Icon>
+    <Tooltip>Chop down to accumulate Wood.</Tooltip>
+  </Identity>
+  <Minimap>
+    <Color r="69" g="107" b="68"/> <!--r="69" g="107" b="68"-->
+    <Type>wood</Type>
+  </Minimap>
+  <Obstruction>
+    <Static width="1.6" depth="1.6"/>
+  </Obstruction>
+  <ResourceSupply>
+    <Amount>200</Amount>
+    <DiminishingReturns>0.98</DiminishingReturns>
+    <KillBeforeGather>false</KillBeforeGather>
+    <MaxGatherers>10</MaxGatherers>
+    <Type>wood.tree</Type>
+  </ResourceSupply>
+  <Selectable>
+    <EditorOnly disable=""/>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/128x128.png</MainTexture>
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/resource/sel_tree.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.5</BarHeight>
+    <BarWidth>3.0</BarWidth>
+    <HeightOffset>10.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <SelectionShape>
+      <Footprint/>
+    </SelectionShape>
+  </VisualActor>
+</Entity>

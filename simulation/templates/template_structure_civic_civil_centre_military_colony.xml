@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <BuildingAI>
-    <DefaultArrowCount op="add">-1</DefaultArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <MaxArrowCount>16</MaxArrowCount>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
     <Category>Colony</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
       <MinDistance>120</MinDistance>
     </Distance>
+    <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints op="add">-1000</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime op="mul">0.5</BuildTime>
-    <PopulationBonus>15</PopulationBonus>
+    <PopulationBonus op="add">-5</PopulationBonus>
     <Resources>
       <food op="mul">0.5</food>
       <wood op="mul">0.5</wood>
@@ -31,10 +29,10 @@
     <Height>12.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>15</Max>
+    <Max op="add">-5</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="add">-1000</Max>
+    <Max op="mul">0.8</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -46,11 +44,11 @@
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Loot>
-    <food op="mul">0.5</food>
-    <metal op="mul">0.5</metal>
-    <stone op="mul">0.5</stone>
-    <wood op="mul">0.5</wood>
-    <xp>200</xp>
+    <food op="mul">0.75</food>
+    <metal op="mul">0.75</metal>
+    <stone op="mul">0.75</stone>
+    <wood op="mul">0.75</wood>
+    <xp op="add">-50</xp>
   </Loot>
   <Obstruction>
     <Static width="23.0" depth="23.0"/>
@@ -63,9 +61,9 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_gymnasium.xml</select>
       <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_gymnasium.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryDecay>

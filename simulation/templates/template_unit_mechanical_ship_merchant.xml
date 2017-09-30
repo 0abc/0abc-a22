@@ -58,9 +58,9 @@
     <GainMultiplier>0.75</GainMultiplier>
   </Trader>
   <UnitAI>
-    <DefaultStance>passive</DefaultStance>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>
+    <DefaultStance>passive</DefaultStance>
   </UnitAI>
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>

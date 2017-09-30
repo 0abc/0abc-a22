@@ -76,8 +76,6 @@ Counters: 2.0× vs Fortresses, Towers.</Tooltip>
     <xp op="add">400</xp>
   </Loot>
   <StatusBars>
-    <BarWidth>4.0</BarWidth>
-    <BarHeight>0.5</BarHeight>
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <UnitMotion>

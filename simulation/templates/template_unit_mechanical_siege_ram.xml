@@ -56,10 +56,6 @@
     <wood op="add">30</wood>
     <xp op="add">200</xp>
   </Loot>
-  <StatusBars>
-    <BarWidth>4.0</BarWidth>
-    <BarHeight>0.5</BarHeight>
-  </StatusBars>
   <UnitMotion>
     <WalkSpeed>8</WalkSpeed>
     <Run>

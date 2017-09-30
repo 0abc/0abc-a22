@@ -6,7 +6,7 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "icon": "helmet_corinthian_metal.png",
   "researchTime": 30,
-  "tooltip": "New infantry starts at rank 1/12: additional -10% resource gather rate, +5% health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
+  "tooltip": "New infantry starts at rank 1/12: additional -10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
   "modifications": [
     {"value": "Promotion/RequiredXp", "replace": 0}
   ],

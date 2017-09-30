@@ -56,7 +56,7 @@
     <Anchor>pitch</Anchor>
   </Position>
   <Promotion>
-    <RequiredXp>125</RequiredXp>
+    <RequiredXp>1</RequiredXp>
   </Promotion>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>

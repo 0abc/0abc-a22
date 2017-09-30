@@ -7,7 +7,7 @@
   "icon": "horseshoe_gold.png",
   "researchTime": 75,
   "supersedes": "drill_cavalry_03",
-  "tooltip": "New Cavalry starts at rank 4/12: additional -10% resource gather rate, +5% health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
+  "tooltip": "New Cavalry starts at rank 4/12: additional -10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
   "modifications": [
     {"value": "Promotion/RequiredXp", "replace": 0}
   ],

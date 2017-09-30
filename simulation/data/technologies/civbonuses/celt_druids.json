@@ -1,15 +1,14 @@
 {
-  "genericName": "Druidism",
+  "affects": ["Healer"],
   "autoResearch": true,
   "description": "Celtic druids were not only very influential, but also sacrosanct and greatly feared; they often stayed on the battlefield during the actual fighting. It was believed killing a druid would bring eternal misfortune on you and your descendants, for all generations to come.",
-  "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
+  "genericName": "Druidism",
   "icon": "cauldron.png",
-  "tooltip": "Healers have 20% more walk speed, +4 hack, pierce, and crush armour levels, but also +100% training time, and +50 metal and wood costs.",
   "modifications": [
     {"value": "Armour/Crush", "add": 4},
     {"value": "Armour/Hack", "add": 4},
     {"value": "Armour/Pierce", "add": 4},
-		{"value": "Cost/BuildTime", "multiply": 2.0},
+    {"value": "Cost/BuildTime", "multiply": 2.0},
     {"value": "Cost/Resources/metal", "add": 50},
     {"value": "Cost/Resources/wood", "add": 50},
     {"value": "Loot/metal", "add": 50},
@@ -17,5 +16,6 @@
     {"value": "Loot/xp", "add": 10},
     {"value": "UnitMotion/WalkSpeed", "multiply": 1.2}
   ],
-  "affects": ["Healer"]
+  "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
+  "tooltip": "Healers have 20% more walk speed, +4 hack, pierce, and crush armour levels, but also +100% training time, and +50 metal and wood costs."
 }

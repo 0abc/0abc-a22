@@ -1,10 +1,9 @@
 {
-  "genericName": "Phoenician Traders",
+  "affects": ["Market"],
   "autoResearch": true,
   "description": "The Phoenicians and Carthaginians were known inside and outside the Mediterranean as merchants and traders.",
-  "requirements": {"civ": "cart" },
+  "genericName": "Phoenician Traders",
   "icon": "metal_pot.png",
-  "tooltip": "Markets have -50% resource costs and construction time, market technologies cost -30% resources and time.",
   "modifications": [
     { "value": "Cost/BuildTime", "multiply": 0.5 },
     { "value": "Cost/Resources/food", "multiply": 0.5 },
@@ -12,10 +11,11 @@
     { "value": "Cost/Resources/stone", "multiply": 0.5 },
     { "value": "Cost/Resources/wood", "multiply": 0.5 },
     { "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.7 },
-    { "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.7 },
-    { "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.7 },
     { "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.7 },
-    { "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.7 }
+    { "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.7 },
+    { "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.7 },
+    { "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.7 }
   ],
-  "affects": ["Market"]
+  "requirements": {"civ": "cart" },
+  "tooltip": "Markets and docks have -50% resource costs and construction time, market and dock technologies cost -30% resources and time."
 }

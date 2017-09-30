@@ -1,12 +1,12 @@
 {
-  "genericName": "Spartan Army",
+  "affects": ["Infantry Hoplite"],
   "autoResearch": true,
   "description": "Sparta was deeply conservative and notoriously slow on deciding on matters of peace and war; but when war was declared, Sparta was able to quickly send around an army, thanks to its professional soldiers.",
-  "requirements": {"civ": "spart"},
+  "genericName": "Spartan Army",
   "icon": "fist_spear.png",
-  "tooltip": "Hoplites +10% movement walk speed.",
   "modifications": [
     {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
   ],
-  "affects": ["Infantry Hoplite"]
+  "requirements": {"civ": "spart"},
+  "tooltip": "Hoplites +10% movement walk speed."
 }

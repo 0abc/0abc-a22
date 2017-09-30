@@ -1,12 +1,12 @@
 {
-  "genericName": "Triarii",
+  "affects": ["Infantry Spear"],
   "autoResearch": true,
   "description": "The Triarii were the last line of defence of a Roman legion; experienced and heavily armoured, these units were much tougher to defeat than their non-Roman counterparts.",
-  "requirements": {"civ": "rome"},
+  "genericName": "Triarii",
   "icon": "fist_spear.png",
-  "tooltip": "Infantry Spearmen +15% health.",
   "modifications": [
     {"value": "Health/Max", "multiply": 1.15}
   ],
-  "affects": ["Infantry Spear"]
+  "requirements": {"civ": "rome"},
+  "tooltip": "Infantry Spearmen +15% health."
 }

@@ -1,12 +1,12 @@
 {
-  "genericName": "Macedonian Army Drills",
+  "affects": ["Infantry Pike"],
   "autoResearch": true,
   "description": "Macedonian soldiers served for months or even years and were subject to repeated drills and forced marches. The ability to move around armies quicker than opponents expected facilitated Alexander's conquests.",
-  "requirements": {"civ": "mace"},
+  "genericName": "Macedonian Army Drills",
   "icon": "fist_spear.png",
-  "tooltip": "Pikemen +10% movement walk speed.",
   "modifications": [
     {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
   ],
-  "affects": ["Infantry Pike"]
+  "requirements": {"civ": "mace"},
+  "tooltip": "Pikemen +10% movement walk speed.",
 }

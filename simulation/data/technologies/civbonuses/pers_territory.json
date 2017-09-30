@@ -1,12 +1,12 @@
 {
-  "genericName": "King of Kings",
+  "affects": ["Structure"],
   "autoResearch": true,
   "description": "The Persian King of Kings had enormous soft power and being associated with the Persian ruler carried great prestige amongst both Persians and non-Persians. The name, symbols, and titles of the Persian monarch exerted great influence everywhere.",
-  "requirements": {"civ": "pers"},
+  "genericName": "King of Kings",
   "icon": "population.png",
-  "tooltip": "Persian structures have +20% territory influence radius.",
   "modifications": [
     { "value": "TerritoryInfluence/Radius", "multiply": 1.2 }
   ],
-  "affects": ["Structure"]
+  "requirements": {"civ": "pers"},
+  "tooltip": "Persian structures have +20% territory influence radius."
 }

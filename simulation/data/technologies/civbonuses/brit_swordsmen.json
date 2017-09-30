@@ -1,12 +1,12 @@
 {
-  "genericName": "Briton Eagerness",
+  "affects": ["Infantry Sword"],
   "autoResearch": true,
   "description": "The Britons were warlike peoples, eager to start fights.",
-  "requirements": {"civ": "brit"},
+  "genericName": "Briton Eagerness",
   "icon": "fist_spear.png",
-  "tooltip": "Infantry Swordsmen +10% movement walk speed.",
   "modifications": [
     {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
   ],
-  "affects": ["Infantry Sword"]
+  "requirements": {"civ": "brit"},
+  "tooltip": "Infantry Swordsmen +10% movement walk speed."
 }

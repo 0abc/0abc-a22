@@ -1,15 +1,15 @@
 {
-  "genericName": "Syrian Tetrapolis",
+  "affects": ["CivilCentre"],
   "autoResearch": true,
   "description": "The Seleucid Empire was characterized by a high level of Hellinization: many new cities were founded, there was a constant influx of settlers, and millenia old cities often reshaped themselves into Greek style.",
-  "requirements": {"civ": "sele"},
+  "genericName": "Syrian Tetrapolis",
   "icon": "ionic_column.png",
-  "tooltip": "Civic Centres cost -20% resources.",
   "modifications": [
     { "value": "Cost/Resources/food", "multiply": 0.8 },
     { "value": "Cost/Resources/metal", "multiply": 0.8 },
     { "value": "Cost/Resources/stone", "multiply": 0.8 },
     { "value": "Cost/Resources/wood", "multiply": 0.8 }
   ],
-  "affects": ["CivilCentre"]
+  "requirements": {"civ": "sele"},
+  "tooltip": "Civic Centres cost -20% resources."
 }

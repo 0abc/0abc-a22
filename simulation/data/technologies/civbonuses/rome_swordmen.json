@@ -1,14 +1,14 @@
 {
-  "genericName": "Italic Swordsmen",
+  "affects": ["Infantry Sword"],
   "autoResearch": true,
   "description": "The Italic peoples gradually abandoned the spear in favour of the sword as their primary weapon. Rome was especially successful winning wars with their swordsmen.",
-  "requirements": {"civ": "rome"},
+  "genericName": "Italic Swordsmen",
   "icon": "fist_spear.png",
-  "tooltip": "Infantry Swordsmen +10% melee attack damage.",
   "modifications": [
     {"value": "Attack/Melee/Crush", "multiply": 1.1},
     {"value": "Attack/Melee/Hack", "multiply": 1.1},
     {"value": "Attack/Melee/Pierce", "multiply": 1.1}
   ],
-  "affects": ["Infantry Sword"]
+  "requirements": {"civ": "rome"},
+  "tooltip": "Infantry Swordsmen +10% melee attack damage."
 }

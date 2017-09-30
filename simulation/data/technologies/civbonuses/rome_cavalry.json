@@ -1,14 +1,14 @@
 {
-  "genericName": "Roman Mounted Swordsmen",
+  "affects": ["Cavalry Sword"],
   "autoResearch": true,
   "description": "Romans were not known for their horsemanship. Cavalry swordsmen often dismounted to fight on foot, limiting their impact.",
-  "requirements": {"civ": "rome"},
+  "genericName": "Roman Mounted Swordsmen",
   "icon": "fist_spear.png",
-  "tooltip": "Cavalry Swordsmen -10% melee attack damage.",
   "modifications": [
     {"value": "Attack/Melee/Crush", "multiply": 0.9},
     {"value": "Attack/Melee/Hack", "multiply": 0.9},
     {"value": "Attack/Melee/Pierce", "multiply": 0.9}
   ],
-  "affects": ["Cavalry Sword"]
+  "requirements": {"civ": "rome"},
+  "tooltip": "Cavalry Swordsmen -10% melee attack damage."
 }

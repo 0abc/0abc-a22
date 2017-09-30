@@ -6,7 +6,7 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "upgrade_elite.png",
   "researchTime": 40,
-  "supersedes": "centre_guard_01",
+  "supersedes": "centre_watch_01",
   "tooltip": "Post sentries to add one arrow to civil centres.",
   "modifications": [
     {"value": "BuildingAI/DefaultArrowCount", "add": 1.0}

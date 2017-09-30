@@ -1,12 +1,12 @@
 {
-  "genericName": "Athenian Navy",
+  "affects": ["Warship"],
   "autoResearch": true,
   "description": "The Athenian Navy was greatly feared. The greater skill of their rowers and more experienced sailors ensured superior and crucial speed.",
-  "requirements": {"civ": "athen"},
+  "genericName": "Athenian Navy",
   "icon": "armor_ship_gold.png",
-  "tooltip": "Warships +10% movement speed.",
   "modifications": [
     {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
   ],
-  "affects": ["Warship"]
+  "requirements": {"civ": "athen"},
+  "tooltip": "Warships +10% movement speed."
 }

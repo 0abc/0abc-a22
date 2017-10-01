@@ -7,8 +7,14 @@
   </Armour>
   <Attack>
     <Melee>
+      <Bonuses>
+        <Camelry>
+          <Classes>Camel</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Camelry>
+      </Bonuses>
       <Hack>2</Hack>
-      <MaxRange op="mul">2</MaxRange>
+      <MaxRange op="mul">2.0</MaxRange>
       <Pierce>5</Pierce>
     </Melee>
   </Attack>
@@ -24,6 +30,7 @@
   <Identity>
     <Classes datatype="tokens">Polearm</Classes>
     <GenericName>Hoplite</GenericName>
+    <Tooltip>Counters: 1.5× vs Camels.</Tooltip>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
   </Identity>
   <Loot>

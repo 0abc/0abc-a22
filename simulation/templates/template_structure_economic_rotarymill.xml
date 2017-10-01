@@ -25,6 +25,14 @@
     <Circle radius="9.0"/>
     <Height>6.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Worker</List>
+    <LoadingRange>1</LoadingRange>
+    <Max>5</Max>
+  </GarrisonHolder>
   <Health>
     <Max>1800</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>

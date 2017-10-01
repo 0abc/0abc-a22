@@ -62,16 +62,16 @@
 
 ### Bonus attacks (counters and penalties)
 * Archer infantry: 1.5× vs Archer Cavalry, 0.5× vs Elephantry
-* Sling infantry: 1.5× vs Archer Infantry, 0.25× vs Structures
+* Sling infantry: 1.5× vs Archer Infantry, 0.125× vs Structures
 * Javelin infantry: 1.25× vs Archer units
 * Throwing axe infantry: 1.5× vs Spear Infantry
 * Pike infantry: 1.25× vs Chariotry, 1.5× vs Cavalry, 1.75× vs Camelry, 2.0× vs Elephantry
-* Halberd infantry: 2.0× vs Cavalry
+* Hoplite infantry: 1.5× vs Camelry
 * Spear infantry: 1.25× vs Javelin units
+* Halberd infantry: 2.0× vs Cavalry
 * Axe infantry: 1.5× vs Siege weapons, 2.0× vs Elephantry
-* Mace infantry: 1.5× vs Cataphract Cavalry, 0.25× vs Structures
+* Mace infantry: 1.5× vs Cataphract Cavalry, 0.125× vs Structures
 * Sword infantry: --
-* Hoplite infantry: --
 * War dogs: 0.75× vs Camelry, Cavalry, Chariotry, 0.5× vs Elephantry
 * Archer camel: 1.5× vs Support units, 0.5× vs Elephantry
 * Spear camel: 1.5× vs Cavalry, 0.5× vs Elephantry
@@ -87,7 +87,7 @@
 * Three-man biga chariots: 0.5× vs Elephantry
 * Scythed quadriga chariots: 0.5× vs Elephantry
 * Archer war elephants: 1.5× vs Camelry, 0.5× vs Elephantry
-* Melee war elephants: 0.25× vs Structures
+* Melee war elephants: 0.125× vs Structures
 * Siege ballista: 1.5× vs Elephantry
 * Siege onager: 1.5× vs Ships
 * Siege ram: 4.0× vs Gates, 2.0× vs other Structures

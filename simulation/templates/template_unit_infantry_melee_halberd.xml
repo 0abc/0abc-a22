@@ -14,7 +14,7 @@
         </Cavalry>
       </Bonuses>
       <Hack>3</Hack>
-      <MaxRange op="mul">2</MaxRange>
+      <MaxRange op="mul">1.5</MaxRange>
       <Pierce>3</Pierce>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>

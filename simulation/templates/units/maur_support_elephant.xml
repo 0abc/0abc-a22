@@ -21,12 +21,12 @@
     <Height>6.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>3</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">FemaleCitizen</List>
     <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">FemaleCitizen</List>
     <LoadingRange>2</LoadingRange>
+    <Max>3</Max>
   </GarrisonHolder>
   <Health>
     <Max>300</Max>

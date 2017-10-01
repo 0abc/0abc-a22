@@ -25,7 +25,7 @@
           <Multiplier>2.0</Multiplier>
         </Elephantry>
       </Bonuses>
-      <MaxRange op="mul">4</MaxRange>
+      <MaxRange op="mul">3.0</MaxRange>
       <Pierce>5</Pierce>
     </Melee>
   </Attack>

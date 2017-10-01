@@ -13,7 +13,7 @@
           <Multiplier>1.25</Multiplier>
         </Javelin>
       </Bonuses>
-      <MaxRange op="mul">2</MaxRange>
+      <MaxRange op="mul">2.0</MaxRange>
       <Pierce>6</Pierce>
     </Melee>
   </Attack>

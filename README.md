@@ -65,13 +65,13 @@
 * Sling infantry: 1.5× vs Archer Infantry, 0.125× vs Structures
 * Javelin infantry: 1.25× vs Archer units
 * Throwing axe infantry: 1.5× vs Spear Infantry
-* Pike infantry: 1.25× vs Chariotry, 1.5× vs Cavalry, 1.75× vs Camelry, 2.0× vs Elephantry
-* Hoplite infantry: 1.5× vs Camelry
-* Spear infantry: 1.25× vs Javelin units
-* Halberd infantry: 2.0× vs Cavalry
 * Axe infantry: 1.5× vs Siege weapons, 2.0× vs Elephantry
 * Mace infantry: 1.5× vs Cataphract Cavalry, 0.125× vs Structures
 * Sword infantry: --
+* Halberd infantry: 2.0× vs Cavalry
+* Spear infantry: 1.25× vs Javelin units
+* Hoplite infantry: 1.5× vs Camelry
+* Pike infantry: 1.25× vs Chariotry, 1.5× vs Cavalry, 1.75× vs Camelry, 2.0× vs Elephantry
 * War dogs: 0.75× vs Camelry, Cavalry, Chariotry, 0.5× vs Elephantry
 * Archer camel: 1.5× vs Support units, 0.5× vs Elephantry
 * Spear camel: 1.5× vs Cavalry, 0.5× vs Elephantry

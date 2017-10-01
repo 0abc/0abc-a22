@@ -8,7 +8,7 @@
   <Builder>
     <Entities datatype="tokens">
       other/wallset_palisade
-      structures/{civ}_outpost
+      structures/{civ}_tower_outpost
     </Entities>
   </Builder>
   <Health>

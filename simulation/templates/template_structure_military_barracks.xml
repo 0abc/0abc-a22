@@ -51,8 +51,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_citizen_mace_infantry
       units/{civ}_citizen_axe_infantry
+      units/{civ}_citizen_mace_infantry
       units/{civ}_citizen_sword_infantry
       units/{civ}_citizen_halberd_infantry
       units/{civ}_citizen_spear_infantry

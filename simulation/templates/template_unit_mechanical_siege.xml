@@ -24,9 +24,9 @@
     <Max>100</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Siege</VisibleClasses>
     <GenericName>Siege</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Siege</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>
@@ -56,8 +56,8 @@
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <BarWidth>4.0</BarWidth>
     <BarHeight>0.5</BarHeight>
+    <BarWidth>4.0</BarWidth>
   </StatusBars>
   <UnitAI>
     <CanGuard>false</CanGuard>

@@ -30,7 +30,7 @@
     <Max>1</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry</List>
+    <List datatype="tokens">Healer Infantry Worker</List>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>

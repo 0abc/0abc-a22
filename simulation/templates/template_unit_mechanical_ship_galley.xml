@@ -23,7 +23,7 @@
     <DefaultArrowCount>1</DefaultArrowCount>
     <MaxArrowCount>4</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
     <Resources>
@@ -37,12 +37,12 @@
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>10</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Dog</List>
     <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Human Siege</List>
     <LoadingRange>10</LoadingRange>
+    <Max>10</Max>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>

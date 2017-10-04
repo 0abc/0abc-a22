@@ -10,6 +10,6 @@
   "modifications": [
     {"value": "BuildingAI/DefaultArrowCount", "add": 1.0}
   ],
-  "affects": ["GarrisonTower"],
+  "affects": ["CivilCentre"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

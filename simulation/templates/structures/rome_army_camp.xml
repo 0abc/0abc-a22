@@ -57,7 +57,7 @@
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>1</BuffHeal>
-    <List datatype="tokens">Support Infantry Cavalry Siege</List>
+    <List datatype="tokens">Human Siege</List>
     <LoadingRange>6</LoadingRange>
     <Max>40</Max>
   </GarrisonHolder>

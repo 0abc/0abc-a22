@@ -24,7 +24,7 @@
     <BuffHeal>1</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Support Infantry Cavalry</List>
+    <List datatype="tokens">Human</List>
     <LoadingRange>2</LoadingRange>
     <Max>6</Max>
   </GarrisonHolder>

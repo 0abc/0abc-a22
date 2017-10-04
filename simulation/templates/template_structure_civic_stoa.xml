@@ -5,23 +5,22 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>150</BuildTime>
-    <PopulationBonus>5</PopulationBonus>
     <Resources>
       <food>0</food>
+      <metal>0</metal>
+      <stone>200</stone>
       <wood>50</wood>
-      <stone>150</stone>
-      <metal>50</metal>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="29" depth="21.0"/>
     <Height>10.0</Height>
+    <Square width="29" depth="21.0"/>
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>1</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Support Infantry Cavalry</List>
+    <List datatype="tokens">Human</List>
     <LoadingRange>2</LoadingRange>
     <Max>10</Max>
   </GarrisonHolder>

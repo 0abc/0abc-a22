@@ -48,7 +48,7 @@
     <BuffHeal>0</BuffHeal>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry</List>
+    <List datatype="tokens">Healer Infantry Worker</List>
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>

@@ -12,7 +12,6 @@
   </BuildRestrictions>
   <Cost>
     <BuildTime>200</BuildTime>
-    <PopulationBonus>5</PopulationBonus>
     <Resources>
       <stone>300</stone>
       <wood>100</wood>
@@ -26,7 +25,7 @@
     <BuffHeal>3</BuffHeal>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry</List>
+    <List datatype="tokens">Human</List>
     <LoadingRange>2</LoadingRange>
     <Max>20</Max>
   </GarrisonHolder>

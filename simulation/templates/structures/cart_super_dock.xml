@@ -35,7 +35,7 @@
     <Max>25</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Ship</List>
+    <List datatype="tokens">Human Ship</List>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>

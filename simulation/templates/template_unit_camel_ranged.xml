@@ -17,9 +17,10 @@
       <MaxRange>12</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>0</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
       <Spread>3.0</Spread>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
   <Identity>

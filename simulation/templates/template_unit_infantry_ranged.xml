@@ -9,6 +9,7 @@
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>750</PrepareTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
       <Spread>3.0</Spread>
     </Ranged>

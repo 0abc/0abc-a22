@@ -4,7 +4,6 @@
     <Ranged>
       <MaxRange op="mul">5.75</MaxRange>
       <Pierce>6</Pierce>
-      <ProjectileSpeed>75</ProjectileSpeed>
       <PrepareTime>500</PrepareTime>
     </Ranged>
   </Attack>

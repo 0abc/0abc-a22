@@ -26,7 +26,9 @@
       <RepeatTime>3000</RepeatTime>
     </Melee>
   </Attack>
-  <Capturable disable=""/>
+  <Capturable>
+    <CapturePoints op="mul">4.0</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime op="mul">4.0</BuildTime>
     <Population op="mul">4.0</Population>
@@ -57,10 +59,10 @@
     <xp op="add">200</xp>
   </Loot>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
     <Run>
-      <Speed>4</Speed>
+      <Speed>10.0</Speed>
     </Run>
+    <WalkSpeed>8.0</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range op="add">-45</Range>

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_wall_short">
+<Entity parent="template_structure_defense_wall_tower">
   <Armour>
-    <Hack>15.0</Hack>
-    <Pierce>35.0</Pierce>
     <Crush>5.0</Crush>
     <Foundation>
+      <Crush>3.0</Crush>
       <Hack>4.0</Hack>
       <Pierce>7.0</Pierce>
-      <Crush>3.0</Crush>
     </Foundation>
+    <Hack>15.0</Hack>
+    <Pierce>35.0</Pierce>
   </Armour>
+  <BuildRestrictions>
+    <Territory>own neutral enemy</Territory>
+  </BuildRestrictions>
   <Cost>
     <BuildTime op="mul">0.5</BuildTime>
     <Resources>
@@ -18,31 +21,31 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="16.0" depth="8.0"/>
-    <Height>7.0</Height>
+    <Height>14.0</Height>
+    <Square width="10.0" depth="10.0"/>
   </Footprint>
   <Health>
     <Max op="mul">0.5</Max>
   </Health>
   <Identity>
-    <GenericName>Short Wall</GenericName>
+    <Civ>rome</Civ>
     <Classes datatype="tokens">SiegeWall</Classes>
+    <GenericName>Siege Wall Tower</GenericName>
     <Icon>structures/siege_wall.png</Icon>
-    <Tooltip>A wooden and turf palisade, much stronger than wooden village palisades, but not as durable as stone city walls.</Tooltip>
+    <SpecificName>Turris Circummunitionis</SpecificName>
   </Identity>
   <Loot>
     <stone>0</stone>
     <wood op="mul">2.0</wood>
   </Loot>
   <Obstruction>
-    <Static width="13.0" depth="5.0"/>
+    <Static width="7.0" depth="7.0"/>
   </Obstruction>
   <TerritoryInfluence disable=""/>
   <VisualActor>
-    <Actor>structures/romans/siege_wall_short.xml</Actor>
-    <FoundationActor>structures/fndn_1x1.xml</FoundationActor>
+    <Actor>structures/romans/siege_wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>12.0</Length>
+    <Length>6.0</Length>
   </WallPiece>
 </Entity>

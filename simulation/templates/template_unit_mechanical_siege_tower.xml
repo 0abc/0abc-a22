@@ -23,7 +23,7 @@
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
       <Pierce>10</Pierce>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">Human Tower</PreferredClasses>
       <PrepareTime>1200</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
       <RepeatTime>3000</RepeatTime>
@@ -79,9 +79,9 @@ Counters: 2.0× vs Fortresses, Towers.</Tooltip>
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>6.0</WalkSpeed>
     <Run>
-      <Speed>9.0</Speed>
+      <Speed>8.0</Speed>
     </Run>
+    <WalkSpeed>6.0</WalkSpeed>
   </UnitMotion>
 </Entity>

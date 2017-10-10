@@ -7,7 +7,7 @@
   <Identity>
     <Civ>spart</Civ>
     <SpecificName>Teíkhisma</SpecificName>
-    <Tooltip>Build siege engines. Garrison up to 20 soldiers inside for stout defense.</Tooltip>
+    <Tooltip>Build siege engines. Garrison soldiers inside for stout defense.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="26.0"/>

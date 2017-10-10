@@ -17,19 +17,11 @@
       <MaxRange>80</MaxRange>
       <MinRange>8</MinRange>
       <Pierce>120</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>3000</PrepareTime>
       <ProjectileSpeed>150</ProjectileSpeed>
       <RepeatTime>3000</RepeatTime>
       <Spread>2.0</Spread>
-      <Splash>
-        <FriendlyFire>false</FriendlyFire>
-        <Range>8</Range>
-        <Shape>Linear</Shape>
-        <Crush>0</Crush>
-        <Hack>0</Hack>
-        <Pierce>60</Pierce>
-      </Splash>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
   <Capturable>
@@ -66,9 +58,9 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
     <Run>
       <Speed>12.0</Speed>
     </Run>
+    <WalkSpeed>10.0</WalkSpeed>
   </UnitMotion>
 </Entity>

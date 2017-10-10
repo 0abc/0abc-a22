@@ -12,24 +12,24 @@
           <Multiplier>1.5</Multiplier>
         </Ships>
       </Bonuses>
-      <Crush>90</Crush>
+      <Crush>0</Crush>
       <Hack>0</Hack>
       <MaxRange>90</MaxRange>
       <MinRange>15</MinRange>
       <Pierce>0</Pierce>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
       <PrepareTime>4000</PrepareTime>
       <ProjectileSpeed>37.5</ProjectileSpeed>
       <RepeatTime>3000</RepeatTime>
       <Spread>4.0</Spread>
       <Splash>
-        <FriendlyFire>false</FriendlyFire>
-        <Range>10</Range>
-        <Shape>Circular</Shape>
-        <Crush>30.0</Crush>
+        <Crush>90.0</Crush>
+        <FriendlyFire>true</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
+        <Range>3.0</Range>
+        <Shape>Circular</Shape>
       </Splash>
-      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
     </Ranged>
   </Attack>
   <Capturable>
@@ -68,9 +68,9 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>7</WalkSpeed>
     <Run>
-      <Speed>10.0</Speed>
+      <Speed>11.0</Speed>
     </Run>
+    <WalkSpeed>9.0</WalkSpeed>
   </UnitMotion>
 </Entity>

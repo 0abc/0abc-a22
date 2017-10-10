@@ -1,11 +1,11 @@
 {
   "genericName": "Counterintelligence",
   "description": "Recruit a network of informants to watch over your people.",
-  "cost": { "food": 400, "wood": 0, "stone": 0, "metal": 400 },
+  "cost": { "food": 600, "wood": 0, "stone": 0, "metal": 600 },
   "supersedes": "unlock_spies",
   "requirements": { "tech": "phase_city" },
   "icon": "vial_poison.png",
-  "researchTime": 60,
+  "researchTime": 75,
   "tooltip": "Make your units 50% more expensive to bribe.",
   "modifications": [
     { "value": "Player/SpyCostMultiplier", "multiply": 1.5 }

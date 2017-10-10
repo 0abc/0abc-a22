@@ -75,6 +75,7 @@
 * War dogs: 0.75× vs Camelry, Cavalry, Chariotry, 0.5× vs Elephantry
 * Archer camel: 1.5× vs Support units, 0.5× vs Elephantry
 * Spear camel: 1.5× vs Cavalry, 0.5× vs Elephantry
+* Crossbow cavalry: 1.25× vs Cavalry, 0.5× vs Elephantry, 0.125× vs Structures
 * Archer cavalry: 1.5× vs Sword Cavalry, 0.5× vs Elephantry
 * Javelin cavalry: 1.5× vs Chariotry
 * Axe cavalry: 2.0× vs Siege weapons, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry

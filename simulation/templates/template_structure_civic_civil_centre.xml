@@ -69,6 +69,7 @@
   </GarrisonHolder>
   <Health>
     <Max>2500</Max>
+    <RegenRate>1.0</RegenRate>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

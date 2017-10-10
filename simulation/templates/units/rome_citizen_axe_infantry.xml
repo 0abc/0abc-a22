@@ -5,6 +5,7 @@
       -structures/{civ}_stoa
       structures/rome_army_camp
       structures/rome_temple_vesta
+      structures/rome_wallset_siege
     </Entities>
   </Builder>
   <Cost>

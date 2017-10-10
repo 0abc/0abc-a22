@@ -1,13 +1,17 @@
 {
-	"genericName": "The Loom",
+	"affects": ["FemaleCitizen"],
 	"description": "The loom allowed the creation of finer clothing for settlers. Women of the household were taught from a young age how to weave on the loom, and subsequently spent a large share of their lives working with it.",
 	"cost": {"food": 100, "wood": 100, "stone": 0, "metal": 0},
+	"genericName": "The Loom",
+	"icon": "loom.png",
+  "modifications": [
+    {"value": "Armour/Crush", "add": 1.0},
+    {"value": "Armour/Hack", "add": 1.0},
+    {"value": "Armour/Pierce", "add": 1.0}
+  ],
 	"requirements": {"tech": "phase_village"},
 	"requirementsTooltip": "Unlocked in Village Phase.",
-	"icon": "loom.png",
 	"researchTime": 30,
-	"tooltip": "Female Citizens +60% Health.",
-	"modifications": [{"value": "Health/Max", "multiply": 1.60}],
-	"affects": ["FemaleCitizen"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"tooltip": "Females +1 Crush, Hack, and Pierce Armour levels."
 }

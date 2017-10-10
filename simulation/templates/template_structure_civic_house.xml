@@ -8,15 +8,15 @@
     <GarrisonRegenRate>4.0</GarrisonRegenRate>
   </Capturable>
   <Cost>
-    <PopulationBonus>5</PopulationBonus>
     <BuildTime>30</BuildTime>
+    <PopulationBonus>5</PopulationBonus>
     <Resources>
       <wood>75</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="18.0" depth="18.0"/>
     <Height>5.0</Height>
+    <Square width="18.0" depth="18.0"/>
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
@@ -53,7 +53,7 @@
     </Entities>
     <Technologies datatype="tokens">
       unlock_females_house
-      health_females_01
+      armour_females
       pop_house_01
       pop_house_02
       pop_house_03
@@ -61,14 +61,14 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_house.xml</select>
       <constructed>interface/complete/building/complete_house.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_house.xml</select>
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <BarWidth>6.0</BarWidth>
     <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <TerritoryDecay>

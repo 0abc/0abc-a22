@@ -11,10 +11,10 @@
   "supersedes": "phase_village",
   "icon": "town_phase.png",
   "researchTime": 60,
-  "tooltip": "Advance to Town Phase, which unlocks more structures and units. Territory radius for Civic Centres increased by +40%. All structures +8 garrisoned regeneration rate.",
+  "tooltip": "Advance to Town Phase, which unlocks more structures and units. Territory radius for Civic Centres increased by +40%.",
   "modifications": [
-    { "value": "TerritoryInfluence/Radius", "multiply": 1.40, "affects": "CivCentre" },
-    { "value": "Capturable/GarrisonRegenRate", "add": 8.0, "affects": "Structure" }
+    { "value": "Health/RegenRate", "add": -0.5, "affects": "CivCentre" },
+    { "value": "TerritoryInfluence/Radius", "multiply": 1.40, "affects": "CivCentre" }
   ],
   "soundComplete": "interface/alarm/alarm_phase.xml"
 }

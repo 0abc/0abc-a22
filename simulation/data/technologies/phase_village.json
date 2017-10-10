@@ -1,5 +1,8 @@
 {
-  "genericName": "Village Phase",
   "autoResearch": true,
-  "icon": "village_phase.png"
+  "genericName": "Village Phase",
+  "icon": "village_phase.png",
+  "modifications": [
+    { "value": "Capturable/GarrisonRegenRate", "add": 15.0, "affects": "Structure" }
+  ]
 }

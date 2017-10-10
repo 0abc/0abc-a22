@@ -10,6 +10,9 @@
     <Height>1.5</Height>
     <Square width="1.4" depth="2.8"/>
   </Footprint>
+  <Health>
+    <Max>25</Max>
+  </Health>
   <Identity>
     <Civ>gaia</Civ>
     <GenericName>Ovis aries</GenericName>
@@ -31,9 +34,9 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed op="mul">0.5</WalkSpeed>
+    <WalkSpeed op="mul">0.6</WalkSpeed>
     <Run>
-      <Speed op="mul">0.5</Speed>
+      <Speed op="mul">0.6</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

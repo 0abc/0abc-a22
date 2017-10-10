@@ -7,10 +7,9 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_mace_infantry
+      units/{civ}_champion_archer_chariot
       units/{civ}_champion_sword_infantry
       units/{civ}_champion_archer_infantry
-      units/{civ}_champion_archer_chariot
       units/{civ}_hero_chanakya
       units/{civ}_hero_maurya
       units/{civ}_hero_ashoka

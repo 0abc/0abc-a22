@@ -7,6 +7,10 @@
   <Attack>
     <Ranged>
       <Bonuses>
+        <Building>
+          <Classes>Structure</Classes>
+          <Multiplier>0.125</Multiplier>
+        </Building>
         <Cavalry>
           <Classes>Cavalry</Classes>
           <Multiplier>1.25</Multiplier>
@@ -35,7 +39,7 @@
     <Classes datatype="tokens">Crossbow</Classes>
     <GenericName>Mounted Crossbowman</GenericName>
     <Tooltip>Counters: 1.25× vs Cavalry.
-Penalties: 0.5× vs Elephants.</Tooltip>
+Penalties: 0.5× vs Elephants, 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>

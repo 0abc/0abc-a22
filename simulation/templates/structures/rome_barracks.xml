@@ -22,12 +22,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_sword_infantry_barracks
-      units/{civ}_champion_sword_cavalry_barracks
+      units/{civ}_champion_sword_infantry
     </Entities>
-    <Technologies datatype="tokens">
-      unlock_champion_units
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/romans/barracks.xml</Actor>

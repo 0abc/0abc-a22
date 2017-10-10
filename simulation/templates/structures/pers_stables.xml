@@ -37,7 +37,8 @@
       -units/{civ}_citizen_javelin_infantry
       -units/{civ}_citizen_sling_infantry
       -units/{civ}_citizen_archer_infantry
-      units/{civ}_champion_scythed_chariot
+      units/{civ}_champion_lance_cavalry
+      units/{civ}_champion_archer_cavalry
     </Entities>
     <Technologies datatype="tokens">
       -drill_infantry_01

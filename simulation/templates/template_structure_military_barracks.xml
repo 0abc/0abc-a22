@@ -79,6 +79,7 @@
       drill_cavalry_03
       heal_barracks
       training_conscription
+      unlock_champion_units
     </Technologies>
   </ProductionQueue>
   <Sound>

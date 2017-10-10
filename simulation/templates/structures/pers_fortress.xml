@@ -7,8 +7,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_lance_cavalry
-      units/{civ}_champion_archer_cavalry
+      units/{civ}_champion_scythed_chariot
     </Entities>
   </ProductionQueue>
   <VisualActor>

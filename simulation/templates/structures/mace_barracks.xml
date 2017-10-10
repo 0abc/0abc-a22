@@ -27,12 +27,7 @@
       units/{civ}_mercenary_sling_infantry
       units/{civ}_mercenary_javelin_cavalry
       units/{civ}_champion_javelin_infantry
-      units/{civ}_champion_hoplite_infantry_barracks
-      units/{civ}_champion_lance_cavalry_barracks
     </Entities>
-    <Technologies datatype="tokens">
-      unlock_champion_units
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/macedonians/barracks.xml</Actor>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Health>
+    <Max>10</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Pavo cristatus</GenericName>
+    <Icon>gaia/fauna_peacock.png</Icon>
+    <SpecificName>Peacock</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Amount>30</Amount>
+    <MaxGatherers>1</MaxGatherers>
+    <Type>food.meat</Type>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/animal/peacock_call.xml</death>
+      <order_walk>actor/fauna/animal/peacock_call.xml</order_walk>
+      <select>actor/fauna/animal/peacock_call.xml</select>
+      <trained>actor/fauna/animal/peacock_call.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <FeedTimeMax>40000</FeedTimeMax>
+    <FeedTimeMin>10000</FeedTimeMin>
+    <FleeDistance>12.0</FleeDistance>
+    <NaturalBehaviour>domestic</NaturalBehaviour>
+    <RoamDistance>4.0</RoamDistance>
+    <RoamTimeMax>8000</RoamTimeMax>
+    <RoamTimeMin>2000</RoamTimeMin>
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.3</WalkSpeed>
+    <Run>
+      <Speed op="mul">0.3</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/peacock.xml</Actor>
+  </VisualActor>
+</Entity>

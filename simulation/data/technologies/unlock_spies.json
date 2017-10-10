@@ -1,8 +1,8 @@
 {
   "genericName": "Espionage",
   "description": "Merchants' first goal was trading, but they also gathered information about the countries they crossed.",
-  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 500 },
-  "requirements": { "tech": "phase_city" },
+  "cost": { "food": 400, "wood": 0, "stone": 0, "metal": 400 },
+  "requirements": { "tech": "phase_town" },
   "icon": "spy_trader.png",
   "researchTime": 75,
   "tooltip": "Allows bribing the units of other players in order to share their vision.",

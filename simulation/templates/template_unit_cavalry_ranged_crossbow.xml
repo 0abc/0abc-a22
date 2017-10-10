@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged">
+<Entity parent="template_unit_cavalry_ranged">
   <Armour>
-    <Crush op="add">1</Crush>
     <Hack op="add">1</Hack>
     <Pierce op="add">1</Pierce>
   </Armour>
@@ -9,49 +8,47 @@
     <Ranged>
       <Bonuses>
         <Cavalry>
-          <Classes>Cavalry Archer</Classes>
-          <Multiplier>1.5</Multiplier>
+          <Classes>Cavalry</Classes>
+          <Multiplier>1.25</Multiplier>
         </Cavalry>
         <Elephantry>
           <Classes>Elephant</Classes>
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
+      <Crush>2</Crush>
       <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>5</Pierce>
-      <PrepareTime>600</PrepareTime>
+      <Pierce>4</Pierce>
+      <PrepareTime>500</PrepareTime>
     </Ranged>
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">10</metal>
-      <wood op="add">40</wood>
+      <metal op="add">20</metal>
+      <wood op="add">30</wood>
     </Resources>
   </Cost>
   <Health>
-    <Max op="mul">1.0</Max>
+    <Max op="mul">1.1</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Longbow</Classes>
-    <GenericName>Archer</GenericName>
-    <Tooltip>Counters: 1.5× vs Cavalry Archers.
+    <Classes datatype="tokens">Crossbow</Classes>
+    <GenericName>Mounted Crossbowman</GenericName>
+    <Tooltip>Counters: 1.25× vs Cavalry.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">1</metal>
-    <wood op="add">4</wood>
+    <metal op="add">2</metal>
+    <wood op="add">3</wood>
     <xp op="add">50</xp>
   </Loot>
-  <Sound>
-    <SoundGroups>
-      <attack_impact>attack/impact/arrow_metal.xml</attack_impact>
-    </SoundGroups>
-  </Sound>
   <UnitMotion>
     <Run>
-      <Speed>18</Speed>
+      <Range>1500.0</Range>
+      <RangeMin>5.0</RangeMin>
+      <Speed>30.0</Speed>
     </Run>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed>16.0</WalkSpeed>
   </UnitMotion>
 </Entity>

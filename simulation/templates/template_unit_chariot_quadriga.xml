@@ -10,10 +10,11 @@
       </Bonuses>
       <Crush>0</Crush>
       <Hack>0</Hack>
-      <MaxRange>12</MaxRange>
-      <MinRange>0</MinRange>
+      <MaxRange>12.0</MaxRange>
+      <MinRange>0.0</MinRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
       <Spread>1.0</Spread>
     </Ranged>

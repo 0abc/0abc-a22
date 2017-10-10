@@ -16,9 +16,6 @@
     <Entities datatype="tokens">
       units/{civ}_champion_war_elephant
     </Entities>
-    <Technologies datatype="tokens">
-      siege_bolt_accuracy
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <FoundationActor>structures/carthaginians/fndn_fortress.xml</FoundationActor>

@@ -12,11 +12,6 @@
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      siege_bolt_accuracy
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/athenians/fortress.xml</Actor>
   </VisualActor>

@@ -59,7 +59,7 @@
     <LoadingRange>6</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>4500</Max>
+    <Max>6000</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -75,7 +75,7 @@
     <metal>10</metal>
     <stone>80</stone>
     <wood>40</wood>
-    <xp>450</xp>
+    <xp>600</xp>
   </Loot>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
@@ -97,6 +97,7 @@
       siege_attack      
       siege_cost_metal
       siege_cost_wood
+      siege_bolt_accuracy
     </Technologies>
   </ProductionQueue>
   <Sound>

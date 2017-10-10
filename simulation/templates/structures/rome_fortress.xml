@@ -9,9 +9,6 @@
       units/{civ}_champion_sword_infantry
       units/{civ}_champion_sword_cavalry
     </Entities>
-    <Technologies datatype="tokens">
-      siege_bolt_accuracy
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/romans/fortress.xml</Actor>

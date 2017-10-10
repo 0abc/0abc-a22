@@ -18,7 +18,7 @@
       </Bonuses>
       <Crush>1</Crush>
       <Hack>0</Hack>
-      <MaxRange op="mul">6</MaxRange>
+      <MaxRange op="mul">5.0</MaxRange>
       <Pierce>4</Pierce>
       <PrepareTime>500</PrepareTime>
       <ProjectileSpeed>80</ProjectileSpeed>

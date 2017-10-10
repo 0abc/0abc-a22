@@ -12,11 +12,9 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
       </Bonuses>
-      <MaxRange op="mul">5.5</MaxRange>
+      <MaxRange op="mul">4.0</MaxRange>
       <Pierce>7</Pierce>
       <PrepareTime>500</PrepareTime>
-      <ProjectileSpeed>75</ProjectileSpeed>
-      <Spread>3.0</Spread>
     </Ranged>
   </Attack>
   <Cost>

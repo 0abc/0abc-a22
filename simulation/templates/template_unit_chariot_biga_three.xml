@@ -2,10 +2,9 @@
 <Entity parent="template_unit_chariot_biga">
   <Attack>
     <Ranged>
-      <MaxRange op="mul">5.25</MaxRange>
+      <MaxRange op="mul">4.0</MaxRange>
       <Pierce>12</Pierce>
       <PrepareTime>500</PrepareTime>
-      <ProjectileSpeed>75</ProjectileSpeed>
     </Ranged>
   </Attack>
   <Cost>

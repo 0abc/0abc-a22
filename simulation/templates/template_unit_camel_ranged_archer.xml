@@ -2,7 +2,7 @@
 <Entity parent="template_unit_camel_ranged">
   <Attack>
     <Ranged>
-      <MaxRange op="mul">5.75</MaxRange>
+      <MaxRange op="mul">4.0</MaxRange>
       <Pierce>6</Pierce>
       <PrepareTime>500</PrepareTime>
     </Ranged>

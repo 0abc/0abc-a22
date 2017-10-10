@@ -25,10 +25,6 @@
       -units/{civ}_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      -siege_armour
-      -siege_attack      
-      -siege_cost_metal
-      -siege_cost_wood
       special/silvershields
     </Technologies>
   </ProductionQueue>

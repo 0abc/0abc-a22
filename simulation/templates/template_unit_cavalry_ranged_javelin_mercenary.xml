@@ -19,6 +19,7 @@
     </Resources>
   </Cost>
   <Identity>
+    <GenericName>Mercenary Cavalry Javelinist</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>

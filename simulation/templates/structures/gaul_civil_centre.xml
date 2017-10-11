@@ -15,6 +15,9 @@
     <Entities datatype="tokens">
       units/{civ}_citizen_spear_infantry
       units/{civ}_citizen_javelin_infantry
+      units/{civ}_hero_brennus
+      units/{civ}_hero_viridomarus
+      units/{civ}_hero_vercingetorix
     </Entities>
   </ProductionQueue>
   <VisualActor>

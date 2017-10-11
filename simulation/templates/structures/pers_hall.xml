@@ -6,10 +6,10 @@
   <Cost>
     <BuildTime>300</BuildTime>
     <Resources>
-      <food>0</food>
-      <wood>0</wood>
-      <stone>250</stone>
-      <metal>250</metal>
+      <food>150</food>
+      <metal>150</metal>
+      <stone>150</stone>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -26,14 +26,15 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Persian Hall</GenericName>
-    <SpecificName>Duvarthi Visadahyu</SpecificName>
     <Icon>structures/pers_hall.png</Icon>
-    <Tooltip>Train War Elephants and Kardakes mercenaries.</Tooltip>
+    <SpecificName>Duvarthi Visadahyu</SpecificName>
+    <Tooltip>Train War Elephants and Kardakes champions.</Tooltip>
   </Identity>
   <Loot>
-    <wood>0</wood>
-    <stone>50</stone>
-    <metal>50</metal>
+    <food>15</food>
+    <metal>15</metal>
+    <stone>15</stone>
+    <wood>15</wood>
   </Loot>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>

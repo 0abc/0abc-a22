@@ -11,6 +11,9 @@
     <Entities datatype="tokens">
       units/{civ}_citizen_sword_infantry
       units/{civ}_citizen_javelin_infantry
+      units/{civ}_hero_caros
+      units/{civ}_hero_indibil
+      units/{civ}_hero_viriato
     </Entities>
   </ProductionQueue>
   <VisualActor>

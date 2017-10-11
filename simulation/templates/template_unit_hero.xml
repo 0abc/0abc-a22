@@ -17,8 +17,8 @@
     units/heroes/hero_garrison
   </Auras>
   <Cost>
-    <Population>3</Population>
     <BuildTime>45</BuildTime>
+    <Population>3</Population>
     <Resources>
       <food>150</food>
       <metal>250</metal>
@@ -30,10 +30,9 @@
     <Max>800</Max>
   </Health>
   <Identity>
-    <GenericName>Hero</GenericName>
     <Classes datatype="tokens">Organic Human</Classes>
+    <GenericName>Hero</GenericName>
     <VisibleClasses datatype="tokens">Hero Soldier Bribable</VisibleClasses>
-    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <food>15</food>

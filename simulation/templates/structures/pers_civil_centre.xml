@@ -12,6 +12,9 @@
     <Entities datatype="tokens">
       units/{civ}_citizen_spear_infantry
       units/{civ}_citizen_archer_infantry
+      units/{civ}_hero_cyrus
+      units/{civ}_hero_darius
+      units/{civ}_hero_xerxes
     </Entities>
     <Technologies datatype="tokens">
       special/architecture

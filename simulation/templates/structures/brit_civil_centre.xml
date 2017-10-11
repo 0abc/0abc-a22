@@ -18,6 +18,9 @@
     <Entities datatype="tokens">
       units/{civ}_citizen_spear_infantry
       units/{civ}_citizen_sling_infantry
+      units/{civ}_hero_boudicca
+      units/{civ}_hero_caratacos
+      units/{civ}_hero_cunobelin
     </Entities>
   </ProductionQueue>
   <VisualActor>

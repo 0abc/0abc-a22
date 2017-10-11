@@ -7,9 +7,9 @@
     <BuildTime>200</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>0</wood>
+      <metal>100</metal>
       <stone>100</stone>
-      <metal>200</metal>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -22,35 +22,31 @@
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Council Chamber</GenericName>
-    <SpecificName>Prytaneîon</SpecificName>
-    <Tooltip>Train heroes. Research special technologies.</Tooltip>
     <Icon>structures/tholos.png</Icon>
+    <SpecificName>Prytaneîon</SpecificName>
+    <Tooltip>Research special technologies.</Tooltip>
   </Identity>
   <Loot>
-    <wood>0</wood>
-    <stone>25</stone>
-    <metal>50</metal>
+    <food>0</food>
+    <metal>10</metal>
+    <stone>10</stone>
+    <wood>10</wood>
   </Loot>
   <Obstruction>
     <Static width="24.0" depth="30.0"/>
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}_hero_themistocles
-      units/{civ}_hero_pericles
-      units/{civ}_hero_iphicrates
-    </Entities>
     <Technologies datatype="tokens">
-      special/long_walls
       special/iphicratean_reforms
+      special/long_walls
     </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_tholos.xml</select>
       <constructed>interface/complete/building/complete_tholos.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_tholos.xml</select>
     </SoundGroups>
   </Sound>
   <VisualActor>

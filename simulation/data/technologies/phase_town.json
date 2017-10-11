@@ -13,7 +13,8 @@
   "researchTime": 60,
   "tooltip": "Advance to Town Phase, which unlocks more structures and units. Territory radius for Civic Centres increased by +40%.",
   "modifications": [
-    { "value": "Health/RegenRate", "add": -0.5, "affects": "CivCentre" },
+    { "value": "Health/Max", "multiply": 1.6, "affects": "Hero" },
+    { "value": "Health/RegenRate", "add": -0.5, "affects": "Structure" },
     { "value": "TerritoryInfluence/Radius", "multiply": 1.40, "affects": "CivCentre" }
   ],
   "soundComplete": "interface/alarm/alarm_phase.xml"

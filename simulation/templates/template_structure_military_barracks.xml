@@ -34,10 +34,10 @@
   </Health>
   <Identity>
     <GenericName>Barracks</GenericName>
-    <Tooltip>Train citizen-soldiers. Research training improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Village Barracks</VisibleClasses>
     <Icon>structures/barracks.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Train citizen-soldiers. Research training improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Barracks</VisibleClasses>
   </Identity>
   <Loot>
     <food>10</food>
@@ -84,9 +84,9 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_barracks.xml</select>
       <constructed>interface/complete/building/complete_barracks.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_barracks.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>

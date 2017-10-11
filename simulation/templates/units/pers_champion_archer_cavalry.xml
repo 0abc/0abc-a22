@@ -4,7 +4,7 @@
     <Civ>pers</Civ>
     <GenericName>Bactrian Heavy Cavalry Archer</GenericName>
     <Icon>units/sele_cavalry_archer.png</Icon>
-    <RequiredTechnology>pop_wonder</RequiredTechnology>
+    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SelectionGroupName>units/pers_champion_archer_cavalry</SelectionGroupName>
     <SpecificName>Bakhtrish Asabara</SpecificName>
   </Identity>

@@ -18,6 +18,9 @@
     <Entities datatype="tokens">
       units/{civ}_citizen_spear_infantry
       units/{civ}_citizen_archer_infantry
+      units/{civ}_hero_chanakya
+      units/{civ}_hero_maurya
+      units/{civ}_hero_ashoka
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -4,6 +4,7 @@
     <Civ>pers</Civ>
     <Icon>units/pers_champion_cavalry.png</Icon>
     <GenericName>Bactrian Heavy Lancer</GenericName>
+    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SelectionGroupName>units/pers_champion_lance_cavalry</SelectionGroupName>
     <SpecificName>Bakhtrish Asabara</SpecificName>
   </Identity>

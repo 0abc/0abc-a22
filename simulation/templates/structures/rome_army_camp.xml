@@ -57,6 +57,8 @@
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>1</BuffHeal>
+    <EjectHealth>0.075</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Human Siege</List>
     <LoadingRange>6</LoadingRange>
     <Max>40</Max>

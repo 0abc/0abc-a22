@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/ptol_colony
+      structures/ptol_guardhouse
       structures/ptol_library
       structures/ptol_lighthouse
       structures/ptol_theatre

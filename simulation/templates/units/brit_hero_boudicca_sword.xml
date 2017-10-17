@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/brit_hero_boudicca
+  </Auras>
+  <Identity>
+    <Civ>brit</Civ>
+    <Gender>female</Gender>
+    <GenericName>Boudicca</GenericName>
+    <Icon>units/celt_hero_boudicca.png</Icon>
+    <SpecificName>Boadicea</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/boudicca.xml</Actor>
+  </VisualActor>
+</Entity>

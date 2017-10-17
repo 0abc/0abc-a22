@@ -7,7 +7,6 @@
   <Identity>
     <Civ>athen</Civ>
     <SpecificName>Epiteíkhisma</SpecificName>
-    <Tooltip>Build siege engines. Garrison soldiers inside for stout defense.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="26.0"/>

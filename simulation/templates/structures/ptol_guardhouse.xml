@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_royal_guardhouse">
+  <Identity>
+    <Civ>ptol</Civ>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_champion_pike_infantry
+      units/{civ}_champion_lance_cavalry
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>special/greek_stoa_great.xml</Actor>
+    <FoundationActor>structures/fndn_6x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

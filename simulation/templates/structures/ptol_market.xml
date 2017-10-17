@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Cost>
+    <BuildTime op="mul">1.5</BuildTime>
+    <Resources>
+      <food op="add">50</food>
+      <wood op="add">-200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="27" depth="27"/>
+  </Footprint>
+  <Identity>
+    <Civ>ptol</Civ>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SpecificName>ḥwt-n-ḫt.w-wḫa.w</SpecificName>
+  </Identity>
+  <Loot>
+    <food op="add">5</food>
+    <wood op="add">-10</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_citizen_archer_camel
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/ptolemies/market.xml</Actor>
+  </VisualActor>
+</Entity>

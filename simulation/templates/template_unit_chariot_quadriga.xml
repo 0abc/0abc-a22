@@ -14,6 +14,7 @@
       <MinRange>0.0</MinRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>500</PrepareTime>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
       <Spread>1.0</Spread>

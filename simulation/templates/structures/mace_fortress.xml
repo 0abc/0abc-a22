@@ -7,26 +7,10 @@
   <Identity>
     <Civ>mace</Civ>
     <SpecificName>Teíchisma</SpecificName>
-    <Tooltip>Train Champions and Heroes. Garrison soldiers inside for stout defense.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_hoplite_infantry
-      units/{civ}_champion_lance_cavalry
-      -units/{civ}_mechanical_siege_ballista_packed
-      -units/{civ}_mechanical_siege_scorpio_packed
-      -units/{civ}_mechanical_siege_oxybeles_packed
-      -units/{civ}_mechanical_siege_lithobolos_packed
-      -units/{civ}_mechanical_siege_ram
-      -units/{civ}_mechanical_siege_tower
-    </Entities>
-    <Technologies datatype="tokens">
-      special/silvershields
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/macedonians/fortress_up.xml</Actor>
   </VisualActor>

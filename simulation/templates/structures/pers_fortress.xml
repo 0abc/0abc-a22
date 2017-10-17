@@ -3,7 +3,6 @@
   <Identity>
     <Civ>pers</Civ>
     <SpecificName>Didā</SpecificName>
-    <Tooltip>Train champion cavalry and construct siege rams.</Tooltip>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">

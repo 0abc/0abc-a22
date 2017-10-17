@@ -20,12 +20,13 @@
       <Hack>0</Hack>
       <MaxRange>4</MaxRange>
       <Pierce>0</Pierce>
-      <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
     </Melee>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <GenericName>Melee Cavalry</GenericName>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
   </Identity>
 </Entity>

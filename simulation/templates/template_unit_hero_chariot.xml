@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero">
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <food>300</food>
+      <metal>300</metal>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1500</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Horse Mounted</Classes>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+      special/formations/wedge
+    </Formations>
+    <GenericName>Hero Chariot</GenericName>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/sword.xml</attack>
+      <death>actor/fauna/death/death_horse.xml</death>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <run>actor/mounted/movement/walk.xml</run>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <trained>interface/alarm/alarm_create_cav.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>6.5</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+    <Run>
+      <Speed op="mul">1.5</Speed>
+    </Run>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+  </UnitMotion>
+</Entity>

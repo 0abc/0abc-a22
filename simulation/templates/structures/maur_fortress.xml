@@ -3,13 +3,10 @@
   <Identity>
     <Civ>maur</Civ>
     <SpecificName>Durg</SpecificName>
-    <Tooltip>Train heroes and champion units.</Tooltip>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_archer_chariot
-      units/{civ}_champion_sword_infantry
-      units/{civ}_champion_archer_infantry
     </Entities>
   </ProductionQueue>
   <VisualActor>

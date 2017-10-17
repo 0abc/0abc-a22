@@ -19,7 +19,7 @@
       <MaxRange>6</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">Human Siege</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>

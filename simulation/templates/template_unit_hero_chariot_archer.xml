@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry">
+  <Attack>
+    <Ranged>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+      </Bonuses>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>64</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>32</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>500</PrepareTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>0.5</Spread>
+    </Ranged>
+  </Attack>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Square width="6.0" depth="12.0"/>
+  </Footprint>
+  <Identity>
+    <GenericName>Hero Chariot Archer</GenericName>
+    <Tooltip>Penalties: 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
+  </Identity>
+</Entity>

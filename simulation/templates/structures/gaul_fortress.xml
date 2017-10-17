@@ -6,14 +6,7 @@
   <Identity>
     <Civ>gaul</Civ>
     <SpecificName>Gallic Dun</SpecificName>
-    <Tooltip>Train Gallic heroes and champions. Construct siege rams.</Tooltip>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_sword_infantry
-      units/{civ}_champion_spear_cavalry
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/gauls/fortress_gallic.xml</Actor>
   </VisualActor>

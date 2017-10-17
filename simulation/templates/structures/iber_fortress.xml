@@ -7,12 +7,6 @@
   <Obstruction>
     <Static width="27.0" depth="27.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_sword_infantry
-      units/{civ}_champion_javelin_cavalry
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/iberians/fortress.xml</Actor>
   </VisualActor>

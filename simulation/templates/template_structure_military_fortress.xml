@@ -67,7 +67,7 @@
     <GenericName>Fortress</GenericName>
     <Icon>structures/fortress.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Train heroes, champions, and siege weapons. Research siege weapon improvements.</Tooltip>
+    <Tooltip>Build siege engines. Research siege weapon improvements. Garrison soldiers inside for stout defence.</Tooltip>
     <VisibleClasses datatype="tokens">City</VisibleClasses>
   </Identity>
   <Loot>
@@ -92,7 +92,6 @@
       units/{civ}_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      attack_soldiers_will
       siege_armour
       siege_attack      
       siege_cost_metal

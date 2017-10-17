@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="template_structure_military_barracks_infantry">
   <Cost>
     <Resources>
-      <wood>100</wood>
-      <stone>200</stone>
+      <wood op="add">-100</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -17,12 +16,14 @@
     <SpecificName>ḥwt-n-mš'</SpecificName>
     <Tooltip>Train Egyptian and Near-Eastern citizen-soldiers and mercenaries. Research training improvements.</Tooltip>
   </Identity>
+  <Loot>
+    <wood op="add">-10</wood>
+  </Loot>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_citizen_archer_camel
       units/{civ}_mercenary_spear_infantry
       units/{civ}_mercenary_sword_infantry
       units/{civ}_mercenary_javelin_infantry

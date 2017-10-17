@@ -16,8 +16,9 @@
       <Hack>0</Hack>
       <MaxRange>5</MaxRange>
       <Pierce>0</Pierce>
-      <RepeatTime>1000</RepeatTime>
+      <PrepareTime>750</PrepareTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RepeatTime>1000</RepeatTime>
     </Melee>
   </Attack>
   <Identity>

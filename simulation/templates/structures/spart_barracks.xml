@@ -24,8 +24,10 @@
     <Entities datatype="tokens">
       units/{civ}_mercenary_javelin_infantry
       units/{civ}_champion_javelin_infantry
-      units/{civ}_champion_pike_infantry
     </Entities>
+    <Technologies datatype="tokens">
+      special/unlock_thureophoros_champion
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/spartans/barracks.xml</Actor>

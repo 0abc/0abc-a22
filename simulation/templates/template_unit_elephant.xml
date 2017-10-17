@@ -45,7 +45,7 @@
     <Max>300</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
+    <Classes datatype="tokens">CitizenSoldier Human Organic Mounted</Classes>
     <GenericName>Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
     <Rank>0</Rank>

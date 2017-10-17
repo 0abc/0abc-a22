@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/mace_hero_craterus
+  </Auras>
+  <Identity>
+    <Civ>mace</Civ>
+    <GenericName>Crateros</GenericName>
+    <Icon>units/mace_hero_craterus.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Kraterós</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/craterus.xml</Actor>
+  </VisualActor>
+</Entity>

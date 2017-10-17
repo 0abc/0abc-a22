@@ -1,66 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
-  <BuildRestrictions>
-    <Distance>
-      <FromClass>Military</FromClass>
-      <MinDistance>30</MinDistance>
-    </Distance>
-  </BuildRestrictions>
-  <Cost>
-    <BuildTime>300</BuildTime>
-    <Resources>
-      <food>100</food>
-      <wood>100</wood>
-      <stone>100</stone>
-      <metal>100</metal>
-    </Resources>
-  </Cost>
-  <Footprint>
-    <Square width="29.0" depth="27.0"/>
-    <Height>8.0</Height>
-  </Footprint>
-  <GarrisonHolder>
-    <List datatype="tokens">Elephant</List>
-  </GarrisonHolder>
-  <Health>
-    <Max>3000</Max>
-  </Health>
+<Entity parent="template_structure_military_elephant_stables">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Elephant Stables</GenericName>
     <SpecificName>Vāraṇaśālā</SpecificName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
-    <Icon>structures/elephant_stables.png</Icon>
-    <Tooltip>Train elephant units.</Tooltip>
-    <VisibleClasses datatype="tokens">Military -City Village</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>10</food>
-    <wood>10</wood>
-    <stone>10</stone>
-    <metal>10</metal>
-  </Loot>
-  <Obstruction>
-    <Static width="30.0" depth="29.0"/>
-  </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}_support_elephant
-      units/{civ}_citizen_archer_elephant
-      units/{civ}_champion_war_elephant
-    </Entities>
-  </ProductionQueue>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_elephant_stables.xml</select>
-      <constructed>interface/complete/building/complete_elephant_stables.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-    </SoundGroups>
-  </Sound>
-  <TerritoryInfluence>
-    <Radius>38</Radius>
-  </TerritoryInfluence>
   <VisualActor>
     <Actor>structures/mauryans/stables.xml</Actor>
   </VisualActor>

@@ -37,7 +37,7 @@
     <Max>90</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
+    <Classes datatype="tokens">CitizenSoldier Human Organic Mounted</Classes>
     <Formations datatype="tokens">
       formations/wedge
     </Formations>

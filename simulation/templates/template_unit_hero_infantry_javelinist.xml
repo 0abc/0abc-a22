@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry">
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>30</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>40</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>500</PrepareTime>
+      <ProjectileSpeed>62.5</ProjectileSpeed>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>0.5</Spread>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+    </Formations>
+    <GenericName>Hero Infantry Skirmisher</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/arrowfly.xml</attack>
+    </SoundGroups>
+  </Sound>
+</Entity>

@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/gaul_rotarymill
+      structures/gaul_tavern
     </Entities>
   </Builder>
   <Identity>

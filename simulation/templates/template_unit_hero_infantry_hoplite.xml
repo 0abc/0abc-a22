@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry">
+  <Attack>
+    <Melee>
+      <Crush>0</Crush>
+      <Hack>8</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>20</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Classes datatype="tokens">Polearm</Classes>
+    <Formations datatype="tokens">
+      special/formations/phalanx
+      special/formations/testudo
+    </Formations>
+    <GenericName>Hero Infantry Hoplite</GenericName>
+    <VisibleClasses datatype="tokens">Melee Hoplite</VisibleClasses>
+  </Identity>
+</Entity>

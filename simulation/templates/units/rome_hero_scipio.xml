@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/rome_hero_scipio
+  </Auras>
+  <Identity>
+    <Civ>rome</Civ>
+    <Icon>units/rome_hero_scipio.png</Icon>
+    <Lang>latin</Lang>
+    <SpecificName>Scipio Africanus</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/romans/hero_scipio_horse.xml</Actor>
+  </VisualActor>
+</Entity>

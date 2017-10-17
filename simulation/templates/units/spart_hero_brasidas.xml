@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/spart_hero_brasidas
+  </Auras>
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>Brasidas</GenericName>
+    <Icon>units/spart_hero_brasidas.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Brasidas</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/brasidas.xml</Actor>
+  </VisualActor>
+</Entity>

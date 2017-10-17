@@ -1,0 +1,11 @@
+{
+  "genericName": "Unlock Thureophoros Champions",
+  "description": "The thureos shield was introduced into the Greek world around the time of the Celtic invasions of the Balkans and Anatolia, allowing stronger skirmishers.",
+  "cost": { "food": 400, "wood": 400, "stone": 0, "metal": 400 },
+  "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "athen"}, { "civ": "mace"}, { "civ": "spart"}] }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "helmet_corinthian_crest.png",
+  "researchTime": 90,
+  "tooltip": "Unlock the ability to train champion javelin infantry at the barracks.",
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

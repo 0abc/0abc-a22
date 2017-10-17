@@ -1,0 +1,9 @@
+{
+  "affects": ["Elephant"],
+  "auraDescription": "Elephants -25% training time.",
+  "auraName": "Elephant army",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.75}
+  ],
+  "type": "global"
+}

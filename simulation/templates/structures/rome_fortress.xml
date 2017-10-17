@@ -4,12 +4,6 @@
     <Civ>rome</Civ>
     <SpecificName>Castellum</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_sword_infantry
-      units/{civ}_champion_sword_cavalry
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/romans/fortress.xml</Actor>
   </VisualActor>

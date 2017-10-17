@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>CavalryStables</Category>
+    <Distance>
+      <FromClass>Military</FromClass>
+      <MinDistance>30</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>0</metal>
+      <stone>100</stone>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square width="22.0" depth="20.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Infantry Cavalry</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Cavalry Stables</GenericName>
+    <Icon>structures/pers_stable.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Train cavalry soldiers. Research training improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Village CavalryStables</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <metal>0</metal>
+    <stone>10</stone>
+    <wood>20</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="18.0" depth="16.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_citizen_archer_cavalry
+      units/{civ}_citizen_javelin_cavalry
+      units/{civ}_citizen_axe_cavalry
+      units/{civ}_citizen_sword_cavalry
+      units/{civ}_citizen_spear_cavalry
+      units/{civ}_citizen_lance_cavalry
+      units/{civ}_citizen_cataphract_cavalry
+    </Entities>
+    <Technologies datatype="tokens">
+      drill_cavalry_01
+      drill_cavalry_02
+      drill_cavalry_03
+      heal_barracks
+      training_conscription
+      unlock_champion_units
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_cavalry_stables.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_cavalry_stables.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>40</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

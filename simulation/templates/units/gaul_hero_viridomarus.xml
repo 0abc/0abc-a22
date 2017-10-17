@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/gaul_hero_viridomarus
+  </Auras>
+  <Identity>
+    <Civ>gaul</Civ>
+    <Icon>units/celt_hero_viridomarus.png</Icon>
+    <SpecificName>Britomartus</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/viridomarus.xml</Actor>
+  </VisualActor>
+</Entity>

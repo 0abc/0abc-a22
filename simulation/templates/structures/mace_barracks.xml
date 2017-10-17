@@ -28,6 +28,9 @@
       units/{civ}_mercenary_javelin_cavalry
       units/{civ}_champion_javelin_infantry
     </Entities>
+    <Technologies datatype="tokens">
+      special/unlock_thureophoros_champion
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/macedonians/barracks.xml</Actor>

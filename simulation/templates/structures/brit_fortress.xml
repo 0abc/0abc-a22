@@ -13,17 +13,10 @@
   <Identity>
     <Civ>brit</Civ>
     <SpecificName>Brythonic Broch</SpecificName>
-    <Tooltip>Train Brythonic heroes and champions. Construct siege rams.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="29.0" depth="29.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_sword_infantry
-      units/{civ}_champion_javelin_chariot
-    </Entities>
-  </ProductionQueue>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_broch.xml</constructed>

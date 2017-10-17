@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>Guardhouse</Category>
+    <Distance>
+      <FromClass>Military</FromClass>
+      <MinDistance>30</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>50</metal>
+      <stone>200</stone>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>10.0</Height>
+    <Square width="29" depth="21.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Human</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Royal Guard Barracks</GenericName>
+    <Icon>structures/italian_embassy.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Guardhouse</SpecificName>
+    <Tooltip>Recruit champion units.</Tooltip>
+    <VisibleClasses datatype="tokens">City Guardhouse</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <metal>5</metal>
+    <stone>20</stone>
+    <wood>5</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="28.0" depth="20.0"/>
+  </Obstruction>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>40</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+</Entity>

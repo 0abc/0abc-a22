@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/sele_hero_antiochus_righteous
+  </Auras>
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Antiochus IV "The Righteous"</GenericName>
+    <Icon>units/mace_hero_philip.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Antiokhos D' Epiphanes</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/hero_ptolemy_IV.xml</Actor>
+  </VisualActor>
+</Entity>

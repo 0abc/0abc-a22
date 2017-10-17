@@ -8,7 +8,7 @@
           <Multiplier>0.5</Multiplier>
         </Elephantry>
         <Support>
-          <Classes>Support</Classes>
+          <Classes>Trader</Classes>
           <Multiplier>1.5</Multiplier>
         </Support>
       </Bonuses>
@@ -17,6 +17,7 @@
       <MaxRange>17.0</MaxRange>
       <MinRange>0.0</MinRange>
       <Pierce>0</Pierce>
+      <PrepareTime>500</PrepareTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
@@ -28,7 +29,7 @@
       formations/skirmish
     </Formations>
     <GenericName>Ranged Camel</GenericName>
-    <Tooltip>Counters: 1.5× vs Support units (females, healers, slaves, traders).
+    <Tooltip>Counters: 1.5× vs Traders.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>

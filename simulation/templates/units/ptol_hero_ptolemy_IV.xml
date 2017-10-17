@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_elephant_melee">
+  <Auras datatype="tokens">
+    units/heroes/ptol_hero_ptolemy_IV
+  </Auras>
+  <Identity>
+    <Civ>ptol</Civ>
+    <Classes datatype="tokens">PtolemyIV</Classes>
+    <GenericName>Ptolemy IV "Father Loving"</GenericName>
+    <Icon>units/mace_hero_philip.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Ptolemaios D' Philopator</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/hero_ptolemy_I_mount.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -5,7 +5,6 @@
     <GenericName>Seleucid Cataphract</GenericName>
     <Icon>units/sele_champion_cataphract.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>special/unlock_reform_army</RequiredTechnology>
     <SelectionGroupName>units/sele_champion_cataphract_cavalry</SelectionGroupName>
     <SpecificName>Seleukidón Kataphraktos</SpecificName>
   </Identity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/cart_hero_hamilcar
+  </Auras>
+  <Identity>
+    <Civ>cart</Civ>
+    <GenericName>Hamilcar Barca</GenericName>
+    <Icon>units/cart_hero_hamilcar.png</Icon>
+    <SpecificName>Ḥimelqart Baraq</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/carthaginians/hero_hamilcar_horse.xml</Actor>
+  </VisualActor>
+</Entity>

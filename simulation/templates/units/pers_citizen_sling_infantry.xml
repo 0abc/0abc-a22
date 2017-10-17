@@ -2,7 +2,6 @@
 <Entity parent="template_unit_infantry_ranged_stone">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_stoa
       structures/pers_apadana
       structures/pers_hall
       structures/pers_ishtar_gate

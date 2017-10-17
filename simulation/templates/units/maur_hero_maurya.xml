@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_elephant_melee">
+  <Auras datatype="tokens">
+    units/heroes/maur_hero_maurya
+  </Auras>
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Chandragupta Maurya</GenericName>
     <Icon>units/maur_hero_chandragupta.png</Icon>
     <SpecificName>Chandragupta Maurya</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/maur_champion_archer_infantry
-      units/maur_champion_sword_infantry
-    </Entities>
-    <TechCostMultiplier>
-      <food>1.0</food>
-      <wood>1.0</wood>
-      <stone>1.0</stone>
-      <metal>1.0</metal>
-      <time>1.0</time>
-    </TechCostMultiplier>
-  </ProductionQueue>
   <VisualActor>
     <Actor>units/mauryans/elephant_hero.xml</Actor>
   </VisualActor>

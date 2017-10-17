@@ -4,7 +4,6 @@
     <Ranged>
       <MaxRange op="mul">4.0</MaxRange>
       <Pierce>12</Pierce>
-      <PrepareTime>500</PrepareTime>
     </Ranged>
   </Attack>
   <Cost>

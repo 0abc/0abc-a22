@@ -3,7 +3,6 @@
   "genericName": "Village Phase",
   "icon": "village_phase.png",
   "modifications": [
-    { "value": "Health/Max", "multiply": 0.5, "affects": "Hero" },
     { "value": "Health/RegenRate", "add": 1.0, "affects": "Structure" },
     { "value": "Capturable/GarrisonRegenRate", "add": 15.0, "affects": "Structure" }
   ]

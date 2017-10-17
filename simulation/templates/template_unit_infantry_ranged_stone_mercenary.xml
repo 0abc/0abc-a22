@@ -21,7 +21,6 @@
       -structures/{civ}_field
       -structures/{civ}_house
       -structures/{civ}_market
-      -structures/{civ}_stoa
       -structures/{civ}_storehouse
       -structures/{civ}_temple
       -structures/{civ}_wonder

@@ -2,7 +2,7 @@
   "genericName": "Expertise In War",
   "description": "Hire professional mercenaries to fight in your army.",
   "cost": { "food": 200, "wood": 0, "stone": 0, "metal": 300 },
-  "requirements": {"tech": "phase_town"},
+  "requirements": { "all": [{ "tech": "phase_town" }, { "any": [{ "civ": "athen"}, { "civ": "cart"}, { "civ": "mace"}, { "civ": "ptol" }, { "civ": "sele" }, { "civ": "spart" }] }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
   "icon": "coins.png",
   "researchTime": 40,

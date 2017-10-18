@@ -48,11 +48,11 @@
 * Trade gain now depends on x+x^1.5 (instead of x^2), with x the distance between markets
 
 ### Population size
-* 0: war dogs, fire ships
-* 1: infantry, support units, fishing boats, merchant ships, small and medium war barges, small galleys
-* 2: cavalry, camels, siege ballistae, large war barges, biremes
-* 3: worker elephants, siege onagers, huge war barges, triremes
-* 4: bigae (two-horsed chariots), siege rams, quadriremes
+* 0: heroes, war dogs, fire ships
+* 1: infantry, support units, scorpions, fishing boats, merchant ships, small and medium war barges, small galleys
+* 2: cavalry, camels, bolt shooters, large war barges, biremes
+* 3: worker elephants, stone throwers, huge war barges, triremes
+* 4: bigae (two-horsed chariots), battering rams, quadriremes
 * 5: three-man chariots, quinqueremes
 * 6: quadrigae (four-horsed chariots), war elephants, siege towers, sexiremes
 * 7: septiremes
@@ -105,8 +105,10 @@
 * 200 m from civic centres: civil centres
 
 ### Global auras
-* Wonders each grant +40% territory influence (new) and +10.0 maximum population limit, plus +10% each with “glorious expansion” researched
-* Theatres each grant +20% territory influence; 
+* Wonders each grant +10.0 maximum population limit
+  * with “glorious expansion” researched: +10% maximum population limit
+  * with “glorious expansion” researched: +20% territory influence radius
+* Theatres each grant +20% territory influence radius 
 * Libraries each grant −10% structure construction time and −20% technology research time
 
 ### Civilization bonuses

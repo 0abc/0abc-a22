@@ -14,8 +14,8 @@
       </Bonuses>
       <Crush>0</Crush>
       <Hack>0</Hack>
-      <MaxRange>80</MaxRange>
-      <MinRange>8</MinRange>
+      <MaxRange>90</MaxRange>
+      <MinRange>10</MinRange>
       <Pierce>120</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>3000</PrepareTime>
@@ -31,8 +31,10 @@
     <BuildTime op="mul">2.0</BuildTime>
     <Population op="mul">2.0</Population>
     <Resources>
-      <metal op="add">100</metal>
-      <wood op="add">100</wood>
+      <food>100</food>
+      <metal>200</metal>
+      <stone>0</stone>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -44,13 +46,16 @@
   </Health>
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
+    <SpecificName>Oxybelḗs</SpecificName>
     <Tooltip>Counters: 1.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">10</metal>
-    <wood op="add">10</wood>
-    <xp op="add">100</xp>
+    <food>10</food>
+    <metal>20</metal>
+    <stone>0</stone>
+    <wood>20</wood>
+    <xp>250</xp>
   </Loot>
   <Sound>
     <SoundGroups>
@@ -61,6 +66,6 @@
     <Run>
       <Speed>12.0</Speed>
     </Run>
-    <WalkSpeed>10.0</WalkSpeed>
+    <WalkSpeed>9.0</WalkSpeed>
   </UnitMotion>
 </Entity>

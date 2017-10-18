@@ -96,7 +96,7 @@
   <TerritoryInfluence>
     <Radius>100</Radius>
     <Root>true</Root>
-    <Weight>65535</Weight>
+    <Weight>60000</Weight>
   </TerritoryInfluence>
   <Vision>
     <Range>100</Range>

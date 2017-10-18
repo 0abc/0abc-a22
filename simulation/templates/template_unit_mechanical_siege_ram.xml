@@ -33,17 +33,19 @@
     <BuildTime op="mul">4.0</BuildTime>
     <Population op="mul">4.0</Population>
     <Resources>
-      <metal op="add">100</metal>
-      <wood op="add">300</wood>
+      <food>200</food>
+      <metal>200</metal>
+      <stone>0</stone>
+      <wood>400</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>10</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Infantry</List>
     <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Infantry</List>
     <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max op="mul">4.0</Max>
@@ -54,9 +56,11 @@
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">10</metal>
-    <wood op="add">30</wood>
-    <xp op="add">200</xp>
+    <food>20</food>
+    <metal>20</metal>
+    <stone>0</stone>
+    <wood>40</wood>
+    <xp>400</xp>
   </Loot>
   <UnitMotion>
     <Run>
@@ -64,7 +68,4 @@
     </Run>
     <WalkSpeed>8.0</WalkSpeed>
   </UnitMotion>
-  <Vision>
-    <Range op="add">-45</Range>
-  </Vision>
 </Entity>

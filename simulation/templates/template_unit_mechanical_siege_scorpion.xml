@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege">
+  <Attack>
+    <Ranged>
+      <Crush>0</Crush>
+      <Hack>0</Hack>
+      <MaxRange>90</MaxRange>
+      <MinRange>5</MinRange>
+      <Pierce>60</Pierce>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>3000</PrepareTime>
+      <ProjectileSpeed>150</ProjectileSpeed>
+      <RepeatTime>3000</RepeatTime>
+      <Spread>2.0</Spread>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime op="mul">1.0</BuildTime>
+    <Population op="mul">1.0</Population>
+    <Resources>
+      <food>50</food>
+      <metal>100</metal>
+      <stone>0</stone>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>3.0</Height>
+    <Square width="5.0" depth="5.0"/>
+  </Footprint>
+  <Identity>
+    <GenericName>Scorpion</GenericName>
+    <SpecificName>Scorpio</SpecificName>
+    <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>5</food>
+    <metal>10</metal>
+    <stone>0</stone>
+    <wood>10</wood>
+    <xp>125</xp>
+  </Loot>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/siege/ballist_attack.xml</attack>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <Run>
+      <Speed>12.0</Speed>
+    </Run>
+    <WalkSpeed>9.0</WalkSpeed>
+  </UnitMotion>
+</Entity>

@@ -1,10 +1,9 @@
 {
   "affects": ["Structure"],
-  "auraDescription": "Increase territory influence by 20% per wonder owned.",
+  "auraDescription": "Increase territory influence strength (weight).",
   "auraName": "Symbol of Greatness II",
   "modifications": [
-    { "value": "TerritoryInfluence/Radius", "multiply": 1.2 }
+    { "value": "TerritoryInfluence/Weight", "add": 5000 }
   ],
-  "stackable": true,
   "type": "global"
 }

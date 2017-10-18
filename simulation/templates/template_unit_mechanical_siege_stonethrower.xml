@@ -12,13 +12,13 @@
           <Multiplier>1.5</Multiplier>
         </Ships>
       </Bonuses>
-      <Crush>0</Crush>
+      <Crush>30</Crush>
       <Hack>0</Hack>
       <MaxRange>90</MaxRange>
       <MinRange>15</MinRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Structure</PreferredClasses>
-      <PrepareTime>4000</PrepareTime>
+      <PrepareTime>2000</PrepareTime>
       <ProjectileSpeed>37.5</ProjectileSpeed>
       <RepeatTime>3000</RepeatTime>
       <Spread>4.0</Spread>
@@ -39,9 +39,10 @@
     <BuildTime op="mul">3.0</BuildTime>
     <Population op="mul">3.0</Population>
     <Resources>
-      <metal op="add">50</metal>
-      <stone op="add">150</stone>
-      <wood op="add">200</wood>
+      <food>150</food>
+      <metal>150</metal>
+      <stone>150</stone>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -52,15 +53,17 @@
     <Max op="mul">3.0</Max>
   </Health>
   <Identity>
-    <GenericName>Siege Catapult</GenericName>
+    <GenericName>Stone Thrower</GenericName>
+    <SpecificName>Lithobólos</SpecificName>
     <Tooltip>Counters: 1.5× vs Ships.</Tooltip>
     <VisibleClasses datatype="tokens">Catapult Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">5</metal>
-    <stone op="add">15</stone>
-    <wood op="add">20</wood>
-    <xp op="add">200</xp>
+    <food>15</food>
+    <metal>15</metal>
+    <stone>15</stone>
+    <wood>30</wood>
+    <xp>375</xp>
   </Loot>
   <Sound>
     <SoundGroups>
@@ -69,7 +72,7 @@
   </Sound>
   <UnitMotion>
     <Run>
-      <Speed>11.0</Speed>
+      <Speed>12.0</Speed>
     </Run>
     <WalkSpeed>9.0</WalkSpeed>
   </UnitMotion>

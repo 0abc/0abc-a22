@@ -13,7 +13,7 @@
       <food>100</food>
       <metal>0</metal>
       <stone>100</stone>
-      <wood>200</wood>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -43,7 +43,7 @@
     <food>10</food>
     <metal>0</metal>
     <stone>10</stone>
-    <wood>20</wood>
+    <wood>30</wood>
   </Loot>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>

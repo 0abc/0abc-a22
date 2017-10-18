@@ -2,8 +2,8 @@
 <Entity parent="template_unit">
   <Decay>
     <DelayTime>0.0</DelayTime>
-    <SinkRate>0.0</SinkRate>
     <SinkAccel>2.0</SinkAccel>
+    <SinkRate>0.0</SinkRate>
   </Decay>
   <Health>
     <Unhealable>true</Unhealable>
@@ -16,6 +16,6 @@
     <RepairTimeRatio>4.0</RepairTimeRatio>
   </Repairable>
   <Vision>
-    <Range>60</Range>
+    <Range>50</Range>
   </Vision>
 </Entity>

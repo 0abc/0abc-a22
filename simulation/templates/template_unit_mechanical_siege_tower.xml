@@ -43,9 +43,10 @@
     <BuildTime op="mul">6.0</BuildTime>
     <Population op="mul">6.0</Population>
     <Resources>
-      <metal op="add">200</metal>
-      <stone op="add">100</stone>
-      <wood op="add">500</wood>
+      <food>300</food>
+      <metal>300</metal>
+      <stone>150</stone>
+      <wood>750</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -53,27 +54,29 @@
     <Height>20.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>20</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Infantry</List>
     <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Infantry</List>
     <LoadingRange>2</LoadingRange>
+    <Max>20</Max>
   </GarrisonHolder>
   <Health>
     <Max op="mul">6.0</Max>
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
+    <SpecificName>Helépolis</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.
 Counters: 2.0× vs Fortresses, Towers.</Tooltip>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">20</metal>
-    <stone op="add">10</stone>
-    <wood op="add">50</wood>
-    <xp op="add">400</xp>
+    <food>30</food>
+    <metal>30</metal>
+    <stone>15</stone>
+    <wood>75</wood>
+    <xp>750</xp>
   </Loot>
   <StatusBars>
     <HeightOffset>12.0</HeightOffset>
@@ -84,4 +87,7 @@ Counters: 2.0× vs Fortresses, Towers.</Tooltip>
     </Run>
     <WalkSpeed>6.0</WalkSpeed>
   </UnitMotion>
+  <Vision>
+    <Range op="add">50</Range>
+  </Vision>
 </Entity>

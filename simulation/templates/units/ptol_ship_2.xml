@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_galley_4">
+<Entity parent="template_unit_mechanical_ship_galley_04">
   <Identity>
     <Civ>ptol</Civ>
     <Icon>units/hele_ship_trireme.png</Icon>

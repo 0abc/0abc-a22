@@ -8,17 +8,11 @@
   <Capturable>
     <CapturePoints>100</CapturePoints>
     <GarrisonRegenRate>10</GarrisonRegenRate>
-    <RegenRate>20</RegenRate>
+    <RegenRate>10</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>10</BuildTime>
     <Population>1</Population>
-    <Resources>
-      <food>0</food>
-      <metal>100</metal>
-      <stone>0</stone>
-      <wood>100</wood>
-    </Resources>
   </Cost>
   <Health>
     <Max>100</Max>
@@ -28,13 +22,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Siege</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>0</food>
-    <metal>10</metal>
-    <stone>0</stone>
-    <wood>10</wood>
-    <xp>100</xp>
-  </Loot>
   <Position>
     <Anchor>pitch-roll</Anchor>
   </Position>
@@ -65,7 +52,4 @@
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
   </UnitMotion>
-  <Vision>
-    <Range op="add">30</Range>
-  </Vision>
 </Entity>

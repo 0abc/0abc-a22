@@ -1,0 +1,11 @@
+{
+  "affects": ["Ram"],
+  "auraName": "Garrisoned Ram",
+  "auraDescription": "Battering rams gain +0.2 walk and run speed per infantry unit garrisoned inside.",
+  "modifications": [
+    { "value": "UnitMotion/Run/Speed", "add": 0.2 },
+    { "value": "UnitMotion/WalkSpeed", "add": 0.2 }
+  ],
+  "stackable": true,
+  "type": "garrison"
+}

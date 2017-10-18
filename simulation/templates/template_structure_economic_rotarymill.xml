@@ -68,8 +68,8 @@
   </StatusBars>
   <TerritoryInfluence>
     <Root>false</Root>
-    <Radius>32</Radius>
-    <Weight>40000</Weight>
+    <Radius>30</Radius>
+    <Weight>30000</Weight>
   </TerritoryInfluence>
   <VisualActor>
     <Actor>structures/celts/special.xml</Actor>

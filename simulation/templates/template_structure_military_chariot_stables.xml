@@ -60,9 +60,9 @@
       units/{civ}_champion_scythed_chariot
     </Entities>
     <Technologies datatype="tokens">
-      drill_chariot_01
-      drill_chariot_02
-      drill_chariot_03
+      drill_chariotry_01
+      drill_chariotry_02
+      drill_chariotry_03
       heal_barracks
       training_conscription
       unlock_champion_units

@@ -120,7 +120,7 @@
 * Athenian warships have +10% walk speed.
 * Briton infantry swordsmen have +10% walk speed.
 * Briton sentry towers cost no stone and have −25% construction time and −10% health.
-* Carthaginian docks markets have −50% resource costs and construction time; dock and market technologies have a 30% resource cost and time discount.
+* Carthaginian docks markets have −50% resource costs and construction time; dock and market technologies have a 25% resource cost and time discount.
 * Carthaginian ships have +20% vision range.
 * Carthaginian stone walls have +25% health.
 * Carthaginian traders have +5% gain.
@@ -137,7 +137,8 @@
 * Persian storehouses have +100% health and territory influence radius.
 * Ptolemaic farmsteads have +50% health and territory influence radius.
 * Ptolemaic healers have +6 healing range.
-* Ptolemies have a 40% resource cost and time discount on Temple technologies.
+* Ptolemies have a 30% resource cost and time discount on Temple technologies.
+* Romans have a 15% resource cost and time discount on Barracks technologies.
 * Roman cavalry swordsmen have a −10% melee attack damage penalty.
 * Roman infantry swordsmen have +10% melee attack damage.
 * Seleucid civic centres have −20% resource costs.

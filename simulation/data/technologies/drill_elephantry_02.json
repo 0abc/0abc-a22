@@ -1,0 +1,16 @@
+{
+  "genericName": "Improved Elephantry Training",
+  "description": "Give an improved training to all new elephant soldiers.",
+  "cost": {"food": 800, "wood": 0, "stone": 0, "metal": 400},
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "drill_elephant_02.png",
+  "researchTime": 45,
+  "supersedes": "drill_elephantry_01",
+  "tooltip": "New war elephants start at rank 2/12: additional -10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
+  "modifications": [
+    {"value": "Promotion/RequiredXp", "replace": 0}
+  ],
+  "affects": ["Elephant 1"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

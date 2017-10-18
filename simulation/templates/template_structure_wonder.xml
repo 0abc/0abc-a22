@@ -68,8 +68,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      drill_infantry_04
-      drill_cavalry_04
+      attack_soldiers_will
       pop_wonder
     </Technologies>
   </ProductionQueue>

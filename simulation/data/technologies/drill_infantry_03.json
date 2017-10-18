@@ -4,7 +4,7 @@
   "cost": {"food": 600, "wood": 0, "stone": 0, "metal": 600},
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "icon": "helmet_corinthian_silver.png",
+  "icon": "drill_infantry_03.png",
   "researchTime": 60,
   "supersedes": "drill_infantry_02",
   "tooltip": "New infantry starts at rank 3/12: additional -10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",

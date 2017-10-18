@@ -2,7 +2,7 @@
   "cost": {"food": 1500, "wood": 1500, "stone": 1500, "metal": 1500},
   "description": "The will to fight is crucial to victory.",
   "genericName": "Will to fight",
-  "icon": "clenched_fist.png",
+  "icon": "coinage.png",
   "modifications": [
     {"value": "Attack/Capture/RepeatTime", "multiply": 0.8, "affects": "Unit"},
     {"value": "Attack/Melee/RepeatTime", "multiply": 0.8, "affects": "Melee"},

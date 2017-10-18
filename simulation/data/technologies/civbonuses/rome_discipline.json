@@ -1,0 +1,16 @@
+{
+  "affects": ["Barracks"],
+  "autoResearch": true,
+  "description": "The Roman legions were known for their discipline on the battlefield; Roman soldiers were relatively well trained.",
+  "genericName": "Roman Discipline",
+  "icon": "fist_spear.png",
+  "modifications": [
+    { "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.85 },
+    { "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.85 },
+    { "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.85 },
+    { "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.85 },
+    { "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.85 }
+  ],
+  "requirements": {"civ": "rome" },
+  "tooltip": "Barracks technologies cost -10% resources and time."
+}

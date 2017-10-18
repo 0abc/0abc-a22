@@ -1,0 +1,16 @@
+{
+  "genericName": "Advanced Chariotry Training",
+  "description": "Give an advanced training to all new chariot soldiers.",
+  "cost": {"food": 750, "wood": 0, "stone": 0, "metal": 450},
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "drill_chariot_03.png",
+  "researchTime": 60,
+  "supersedes": "drill_chariotry_02",
+  "tooltip": "New chariotry starts at rank 3/12: additional -10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
+  "modifications": [
+    {"value": "Promotion/RequiredXp", "replace": 0}
+  ],
+  "affects": ["Chariot 2"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

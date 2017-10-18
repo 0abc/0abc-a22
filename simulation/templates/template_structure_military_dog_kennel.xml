@@ -61,6 +61,11 @@
     <Entities datatype="tokens">
       units/{civ}_war_dog
     </Entities>
+    <Technologies datatype="tokens">
+      drill_dogs_01
+      drill_dogs_02
+      drill_dogs_03
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>
@@ -77,8 +82,4 @@
     <Root>false</Root>
     <Weight>30000</Weight>
   </TerritoryInfluence>
-  <VisualActor>
-    <Actor>structures/britons/kennel.xml</Actor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
-  </VisualActor>
 </Entity>

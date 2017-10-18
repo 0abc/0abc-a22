@@ -29,7 +29,7 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
+    <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <MaxArrowCount>12</MaxArrowCount>
   </BuildingAI>
@@ -98,8 +98,8 @@
       phase_city
       centre_watch_01
       centre_watch_02
+      centre_watch_03
       upgrade_rank_advanced_mercenary
-      attack_soldiers_will
       unlock_spies
       spy_counter
     </Technologies>

@@ -55,6 +55,11 @@
       units/{civ}_citizen_archer_elephant
       units/{civ}_champion_war_elephant
     </Entities>
+    <Technologies datatype="tokens">
+      drill_elephantry_01
+      drill_elephantry_02
+      drill_elephantry_03
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

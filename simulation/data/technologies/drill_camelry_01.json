@@ -1,0 +1,15 @@
+{
+  "genericName": "Basic Camelry Training",
+  "description": "Give a basic training to all new camel soldiers.",
+  "cost": {"food": 150, "wood": 0, "stone": 0, "metal": 100},
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "icon": "drill_camel_01.png",
+  "researchTime": 30,
+  "tooltip": "New camelry starts at rank 1/12: additional -10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread.",
+  "modifications": [
+    {"value": "Promotion/RequiredXp", "replace": 0}
+  ],
+  "affects": ["Camel 0"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

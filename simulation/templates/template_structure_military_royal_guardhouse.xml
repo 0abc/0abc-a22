@@ -33,10 +33,10 @@
   </Health>
   <Identity>
     <Civ>gaia</Civ>
-    <GenericName>Royal Guard Barracks</GenericName>
+    <GenericName>Guardhouse</GenericName>
     <Icon>structures/italian_embassy.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SpecificName>Guardhouse</SpecificName>
+    <SpecificName>Royal Guard Barracks</SpecificName>
     <Tooltip>Recruit champion units.</Tooltip>
     <VisibleClasses datatype="tokens">City Guardhouse</VisibleClasses>
   </Identity>

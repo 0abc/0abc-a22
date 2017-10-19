@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks_infantry">
+<Entity parent="template_structure_military_barracks">
   <Cost>
     <Resources>
       <wood op="add">-100</wood>
@@ -8,9 +8,6 @@
   <Footprint>
     <Square width="23" depth="23"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>ptol</Civ>
     <SpecificName>ḥwt-n-mš'</SpecificName>

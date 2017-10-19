@@ -49,7 +49,7 @@
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.75</BatchTimeModifier>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_citizen_archer_chariot
       units/{civ}_citizen_javelin_chariot
@@ -63,8 +63,8 @@
       drill_chariotry_01
       drill_chariotry_02
       drill_chariotry_03
-      heal_barracks
-      training_conscription
+      heal_chariot_stables
+      training_chariot_stables
       unlock_champion_units
     </Technologies>
   </ProductionQueue>

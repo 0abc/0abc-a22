@@ -78,10 +78,10 @@
 * Crossbow cavalry: 1.25× vs Cavalry, 0.5× vs Elephantry, 0.125× vs Structures
 * Archer cavalry: 1.5× vs Sword Cavalry, 0.5× vs Elephantry
 * Javelin cavalry: 1.5× vs Chariotry
-* Axe cavalry: 2.0× vs Siege weapons, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Sword cavalry: 1.5× vs Siege weapons, Slingers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Spear cavalry: 1.5× vs Ranged Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Lance cavalry: 1.5× vs Javelin Cavalry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Axe cavalry: 1.5× vs Siege weapons, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Sword cavalry: 1.5× vs Slinger Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Spear cavalry: 1.5× vs Archer Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Lance cavalry: 1.5× vs Javelin Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Cataphract cavalry: 1.5× vs Archer Cavalry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Archer biga chariots: 0.5× vs Elephantry
 * Javelin biga chariots: 0.5× vs Elephantry
@@ -89,14 +89,15 @@
 * Scythed quadriga chariots: 0.5× vs Elephantry
 * Archer war elephants: 1.5× vs Camelry, 0.5× vs Elephantry
 * Melee war elephants: 0.125× vs Structures
-* Siege ballista: 1.5× vs Elephantry
-* Siege onager: 1.5× vs Ships
-* Siege ram: 4.0× vs Gates, 2.0× vs other Structures
+* Scorpion: --
+* Bolt shooter: 1.5× vs Elephantry
+* Stone thrower: 1.5× vs Ships
+* Battering ram: 4.0× vs Gates, 2.0× vs other Structures
 * Siege tower: 2.0× vs Fortresses, Towers
 
 ### Structure distances
 * 20 m from economic buildings: corrals, docks, farmsteads, fields, markets, storehouses
-* 30 m from military buildings: barracks, blacksmiths, cavalry stables, elephant stables, embassies
+* 30 m from military buildings: barracks, blacksmiths, cavalry stables, elephant stables, embassies, halls
 * 40 m from temples: temples
 * 60 m from towers: outpost, sentry tower, defence tower
 * 80 m from fortresses: army camps, fortresses
@@ -143,7 +144,7 @@
 * Romans have a 15% resource cost and time discount on Barracks technologies.
 * Roman cavalry swordsmen have a −10% melee attack damage penalty.
 * Roman infantry swordsmen have +10% melee attack damage.
-* Seleucid civic centres have −20% resource costs.
+* Seleucid civic centres have −30% resource costs.
 * Spartans no longer have a −10% maximum population penalty.
 * Spartan hoplites have +10% walk speed.
 * Spartan cavalry have a −10% attack damage penalty.

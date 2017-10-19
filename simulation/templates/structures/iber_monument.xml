@@ -47,7 +47,12 @@
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
   </Obstruction>
-  <ProductionQueue disable=""/>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
+  </ProductionQueue>
   <RallyPoint disable=""/>
   <Sound>
     <SoundGroups>

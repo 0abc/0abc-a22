@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military">
-  <Cost>
-    <BuildTime>200</BuildTime>
-    <Resources>
-      <food>50</food>
-      <metal>100</metal>
-      <stone>50</stone>
-      <wood>100</wood>
-    </Resources>
-  </Cost>
+<Entity parent="template_structure_military_hall">
   <Footprint>
     <Square width="20.0" depth="30.0"/>
     <Height>8.0</Height>
@@ -17,7 +8,6 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -25,22 +15,12 @@
     <Classes datatype="tokens">Syssiton</Classes>
     <GenericName>Military Mess Hall</GenericName>
     <Icon>structures/syssition.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Syssítion</SpecificName>
-    <Tooltip>Train Spartiate champion hoplites.</Tooltip>
-    <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>5</food>
-    <metal>10</metal>
-    <stone>5</stone>
-    <wood>10</wood>
-  </Loot>
   <Obstruction>
     <Static width="16.0" depth="26.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_champion_hoplite_infantry
     </Entities>

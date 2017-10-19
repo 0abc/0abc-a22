@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
-  <Cost>
-    <BuildTime>200</BuildTime>
-    <Resources>
-      <wood>0</wood>
-      <stone>200</stone>
-      <metal>200</metal>
-    </Resources>
-  </Cost>
+<Entity parent="template_structure_military_hall">
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
-    <Height>8.0</Height>
+    <Height>10.0</Height>
+    <Square width="29" depth="21.0"/>
   </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
@@ -22,21 +14,13 @@
     <Civ>athen</Civ>
     <GenericName>Gymnasium</GenericName>
     <Icon>structures/gymnasion.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Gymnásion</SpecificName>
-    <Tooltip>Train champion units.</Tooltip>
-    <VisibleClasses datatype="tokens">-City Town</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>0</wood>
-    <stone>50</stone>
-    <metal>50</metal>
-  </Loot>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="28.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_mercenary_sword_infantry
       units/{civ}_champion_hoplite_infantry
@@ -44,13 +28,13 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_gymnasium.xml</select>
       <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_gymnasium.xml</select>
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/athenians/gymnasion.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+    <Actor>special/greek_stoa_great.xml</Actor>
+    <FoundationActor>structures/fndn_6x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

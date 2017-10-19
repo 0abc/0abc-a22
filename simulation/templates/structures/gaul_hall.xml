@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military">
+<Entity parent="template_structure_military_hall">
   <BuildRestrictions>
     <Category>Tavern</Category>
     <Distance>
@@ -39,7 +39,6 @@
     <Icon>structures/celtic_embassy.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Taberna</SpecificName>
-    <Tooltip>Recruit Naked Fanatics.</Tooltip>
     <VisibleClasses datatype="tokens">Town Tavern</VisibleClasses>
   </Identity>
   <Loot>
@@ -52,7 +51,6 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_champion_spear_infantry
     </Entities>

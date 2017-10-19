@@ -5,11 +5,11 @@
   "genericName": "Syrian Tetrapolis",
   "icon": "ionic_column.png",
   "modifications": [
-    { "value": "Cost/Resources/food", "multiply": 0.8 },
-    { "value": "Cost/Resources/metal", "multiply": 0.8 },
-    { "value": "Cost/Resources/stone", "multiply": 0.8 },
-    { "value": "Cost/Resources/wood", "multiply": 0.8 }
+    { "value": "Cost/Resources/food", "multiply": 0.7 },
+    { "value": "Cost/Resources/metal", "multiply": 0.7 },
+    { "value": "Cost/Resources/stone", "multiply": 0.7 },
+    { "value": "Cost/Resources/wood", "multiply": 0.7 }
   ],
   "requirements": {"civ": "sele"},
-  "tooltip": "Civic Centres cost -20% resources."
+  "tooltip": "Civic Centres cost -30% resources."
 }

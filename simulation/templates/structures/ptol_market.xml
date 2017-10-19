@@ -13,7 +13,6 @@
   </Footprint>
   <Identity>
     <Civ>ptol</Civ>
-    <RequiredTechnology>phase_village</RequiredTechnology>
     <SpecificName>ḥwt-n-ḫt.w-wḫa.w</SpecificName>
   </Identity>
   <Loot>
@@ -23,11 +22,6 @@
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_citizen_archer_camel
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/ptolemies/market.xml</Actor>
   </VisualActor>

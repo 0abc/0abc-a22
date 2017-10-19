@@ -19,8 +19,8 @@
   <Cost>
     <BuildTime op="mul">2.5</BuildTime>
     <Resources>
-      <metal op="add">100</metal>
-      <wood op="add">50</wood>
+      <metal op="add">200</metal>
+      <wood op="add">100</wood>
     </Resources>
   </Cost>
   <Health>
@@ -33,9 +33,9 @@
     <VisibleClasses datatype="tokens">Champion -Citizen</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">10</metal>
-    <wood op="add">5</wood>
-    <xp op="add">150</xp>
+    <metal op="add">20</metal>
+    <wood op="add">10</wood>
+    <xp op="add">300</xp>
   </Loot>
   <Promotion>
     <RequiredXp op="mul">2.0</RequiredXp>

@@ -1,64 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
-  <BuildRestrictions>
-    <Category>Hall</Category>
-  </BuildRestrictions>
-  <Cost>
-    <BuildTime>300</BuildTime>
-    <Resources>
-      <food>150</food>
-      <metal>150</metal>
-      <stone>150</stone>
-      <wood>150</wood>
-    </Resources>
-  </Cost>
+<Entity parent="template_structure_military_hall">
   <Footprint>
-    <Square width="25.0" depth="25.0"/>
     <Height>8.0</Height>
+    <Square width="25.0" depth="25.0"/>
   </Footprint>
-  <GarrisonHolder>
-    <Max>10</Max>
-  </GarrisonHolder>
-  <Health>
-    <Max>3000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Persian Hall</GenericName>
     <Icon>structures/pers_hall.png</Icon>
     <SpecificName>Duvarthi Visadahyu</SpecificName>
-    <Tooltip>Train War Elephants and Kardakes champions.</Tooltip>
   </Identity>
-  <Loot>
-    <food>15</food>
-    <metal>15</metal>
-    <stone>15</stone>
-    <wood>15</wood>
-  </Loot>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_champion_hoplite_infantry
       units/{civ}_champion_javelin_infantry
       units/{civ}_champion_war_elephant
     </Entities>
   </ProductionQueue>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_broch.xml</select>
-      <constructed>interface/complete/building/complete_broch.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-    </SoundGroups>
-  </Sound>
-  <TerritoryDecay disable=""/>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>38</Radius>
-  </TerritoryInfluence>
   <VisualActor>
     <Actor>structures/persians/hall.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

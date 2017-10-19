@@ -17,6 +17,11 @@
   <Obstruction>
     <Static width="29.0" depth="29.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
+  </ProductionQueue>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_broch.xml</constructed>

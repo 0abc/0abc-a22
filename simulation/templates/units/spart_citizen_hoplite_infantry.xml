@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_hoplite">
   <Builder>
     <Entities datatype="tokens">
-      structures/spart_syssiton
+      structures/spart_stables
     </Entities>
   </Builder>
   <Identity>

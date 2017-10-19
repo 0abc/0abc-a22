@@ -21,12 +21,12 @@
     <Square width="22.0" depth="20.0"/>
   </Footprint>
   <GarrisonHolder>
-    <Max>10</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Infantry Cavalry</List>
     <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Infantry Cavalry</List>
     <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
@@ -63,9 +63,9 @@
       drill_cavalry_01
       drill_cavalry_02
       drill_cavalry_03
-      heal_barracks
-      training_conscription
-      unlock_champion_units
+      heal_cavalry_stables
+      training_cavalry_stables
+      special/nisean_horses
     </Technologies>
   </ProductionQueue>
   <Sound>

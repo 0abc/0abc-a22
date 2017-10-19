@@ -5,7 +5,7 @@
     <GenericName>Italic Heavy Infantry</GenericName>
     <Icon>units/rome_champion_infantry.png</Icon>
     <Lang>latin</Lang>
-    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
+    <RequiredTechnology>special/unlock_champion_swordsmen</RequiredTechnology>
     <SelectionGroupName>units/rome_champion_sword_infantry</SelectionGroupName>
     <SpecificName>Extraordinarius</SpecificName>
   </Identity>

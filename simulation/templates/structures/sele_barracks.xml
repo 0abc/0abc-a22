@@ -10,9 +10,6 @@
     <Square width="25.0" depth="25.0"/>
     <Height>12.0</Height>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>sele</Civ>
     <SpecificName>Stratones</SpecificName>
@@ -22,13 +19,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mercenary_archer_cavalry
+      units/{civ}_mercenary_sword_infantry
       units/{civ}_mercenary_archer_infantry
       units/{civ}_champion_javelin_infantry
     </Entities>
-    <Technologies datatype="tokens">
-      special/archery_tradition
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/seleucids/barracks.xml</Actor>

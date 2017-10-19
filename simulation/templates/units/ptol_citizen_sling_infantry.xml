@@ -2,8 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_sling">
   <Builder>
     <Entities datatype="tokens">
-      structures/ptol_colony
-      structures/ptol_guardhouse
+      structures/ptol_stables
       structures/ptol_library
       structures/ptol_lighthouse
       structures/ptol_theatre

@@ -11,11 +11,6 @@
   <Obstruction>
     <Static width="26.0" depth="28.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_war_elephant
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <FoundationActor>structures/carthaginians/fndn_fortress.xml</FoundationActor>
     <Actor>structures/carthaginians/fortress.xml</Actor>

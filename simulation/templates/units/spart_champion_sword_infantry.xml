@@ -5,7 +5,7 @@
     <GenericName>Armoured Swordsman</GenericName>
     <Icon>units/mace_thorakites.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
+    <RequiredTechnology>special/unlock_champion_swordsmen</RequiredTechnology>
     <SelectionGroupName>units/spart_champion_sword_infantry</SelectionGroupName>
     <SpecificName>Thōrakitēs</SpecificName>
   </Identity>

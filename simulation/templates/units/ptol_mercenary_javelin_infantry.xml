@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_javelin_mercenary">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/ptol_colony
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Mercenary Thureos Skirmisher</GenericName>

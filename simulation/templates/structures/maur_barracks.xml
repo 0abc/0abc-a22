@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="template_structure_military_barracks_combined">
   <Footprint>
     <Square width="24.0" depth="26.0"/>
     <Height>5.0</Height>
@@ -15,9 +15,6 @@
     <Entities datatype="tokens">
       units/{civ}_champion_mace_infantry
     </Entities>
-    <Technologies datatype="tokens">
-      special/archery_tradition
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mauryans/barracks.xml</Actor>

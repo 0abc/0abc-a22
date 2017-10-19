@@ -7,16 +7,16 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">-50</metal>
-      <wood op="add">-25</wood>
+      <metal op="add">-20</metal>
+      <wood op="add">-10</wood>
     </Resources>
   </Cost>
   <Identity>
     <GenericName>North African War Elephant</GenericName>
   </Identity>
   <Loot>
-    <metal op="add">-5</metal>
-    <wood op="add">-2</wood>
-    <xp op="add">-75</xp>
+    <metal op="add">-2</metal>
+    <wood op="add">-1</wood>
+    <xp op="add">-30</xp>
   </Loot>
 </Entity>

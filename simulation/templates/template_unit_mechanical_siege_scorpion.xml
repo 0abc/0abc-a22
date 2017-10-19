@@ -29,6 +29,7 @@
     <Square width="5.0" depth="5.0"/>
   </Footprint>
   <Identity>
+    <Classes datatype="tokens">Scorpio</Classes>
     <GenericName>Scorpion</GenericName>
     <SpecificName>Scorpio</SpecificName>
     <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>

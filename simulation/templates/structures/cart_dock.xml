@@ -29,7 +29,7 @@
       units/cart_mercenary_sling_infantry
     </Entities>
     <Technologies datatype="tokens">
-      -training_naval_architects
+      -training_docks
     </Technologies>
   </ProductionQueue>
   <VisualActor>

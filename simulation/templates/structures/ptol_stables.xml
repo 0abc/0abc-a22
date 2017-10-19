@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_cavalry_stables">
+  <Identity>
+    <Civ>ptol</Civ>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_mercenary_javelin_cavalry
+      units/{civ}_mercenary_lance_cavalry
+      units/{civ}_citizen_archer_camel
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/persians/stables.xml</Actor>
+  </VisualActor>
+</Entity>

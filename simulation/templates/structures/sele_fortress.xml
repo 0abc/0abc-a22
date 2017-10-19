@@ -14,7 +14,6 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_scythed_chariot
-      units/{civ}_champion_war_elephant
     </Entities>
   </ProductionQueue>
   <VisualActor>

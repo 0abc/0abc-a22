@@ -7,7 +7,7 @@
     <Civ>ptol</Civ>
     <Classes datatype="tokens">PtolemyIV</Classes>
     <GenericName>Ptolemy IV "Father Loving"</GenericName>
-    <Icon>units/mace_hero_philip.png</Icon>
+    <Icon>units/hele_hero_alexander.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Ptolemaios D' Philopator</SpecificName>
   </Identity>

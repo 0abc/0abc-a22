@@ -9,7 +9,7 @@
       <Bonuses>
         <Siege>
           <Classes>Siege</Classes>
-          <Multiplier>2.0</Multiplier>
+          <Multiplier>1.5</Multiplier>
         </Siege>
       </Bonuses>
       <Crush>2</Crush>
@@ -29,7 +29,7 @@
   </Health>
   <Identity>
     <GenericName>Cavalry Axeman</GenericName>
-    <Tooltip>Counters: 2.0× vs Siege weapons.
+    <Tooltip>Counters: 1.5× vs Siege weapons.
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Axe</VisibleClasses>
   </Identity>

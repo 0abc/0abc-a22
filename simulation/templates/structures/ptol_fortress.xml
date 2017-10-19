@@ -11,11 +11,6 @@
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_war_elephant
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/ptolemies/fortress.xml</Actor>
   </VisualActor>

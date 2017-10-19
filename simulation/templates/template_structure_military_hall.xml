@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
   <BuildRestrictions>
-    <Category>Guardhouse</Category>
+    <Category>Hall</Category>
     <Distance>
       <FromClass>Military</FromClass>
       <MinDistance>30</MinDistance>
@@ -11,50 +11,58 @@
     <BuildTime>300</BuildTime>
     <Resources>
       <food>100</food>
-      <metal>50</metal>
-      <stone>200</stone>
-      <wood>50</wood>
+      <metal>100</metal>
+      <stone>300</stone>
+      <wood>100</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>10.0</Height>
-    <Square width="29" depth="21.0"/>
-  </Footprint>
   <GarrisonHolder>
     <BuffHeal>1</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Human</List>
     <LoadingRange>2</LoadingRange>
-    <Max>10</Max>
+    <Max>20</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2500</Max>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>gaia</Civ>
-    <GenericName>Guardhouse</GenericName>
+    <GenericName>Hall</GenericName>
     <Icon>structures/italian_embassy.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Royal Guard Barracks</SpecificName>
     <Tooltip>Recruit champion units.</Tooltip>
-    <VisibleClasses datatype="tokens">City Guardhouse</VisibleClasses>
+    <VisibleClasses datatype="tokens">City Hall</VisibleClasses>
   </Identity>
   <Loot>
     <food>10</food>
-    <metal>5</metal>
-    <stone>20</stone>
-    <wood>5</wood>
+    <metal>10</metal>
+    <stone>30</stone>
+    <wood>10</wood>
   </Loot>
-  <Obstruction>
-    <Static width="28.0" depth="20.0"/>
-  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
   <TerritoryInfluence>
     <Root>false</Root>
-    <Radius>40</Radius>
-    <Weight>40000</Weight>
+    <Radius>50</Radius>
+    <Weight>50000</Weight>
   </TerritoryInfluence>
   <Vision>
-    <Range>40</Range>
+    <Range>60</Range>
   </Vision>
 </Entity>

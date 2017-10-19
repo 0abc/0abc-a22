@@ -30,13 +30,13 @@
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Barracks</GenericName>
-    <Icon>structures/barracks.png</Icon>
+    <GenericName>Infantry Barracks</GenericName>
+    <Icon>structures/pers_barracks.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <Tooltip>Train citizen-soldiers. Research training improvements.</Tooltip>
+    <Tooltip>Train infantry soldiers. Research training improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Village Barracks</VisibleClasses>
   </Identity>
   <Loot>
@@ -62,24 +62,15 @@
       units/{civ}_citizen_javelin_infantry
       units/{civ}_citizen_sling_infantry
       units/{civ}_citizen_archer_infantry
-      units/{civ}_citizen_archer_cavalry
-      units/{civ}_citizen_javelin_cavalry
-      units/{civ}_citizen_axe_cavalry
-      units/{civ}_citizen_sword_cavalry
-      units/{civ}_citizen_spear_cavalry
-      units/{civ}_citizen_lance_cavalry
-      units/{civ}_citizen_cataphract_cavalry
     </Entities>
     <Technologies datatype="tokens">
       drill_infantry_01
       drill_infantry_02
       drill_infantry_03
-      drill_cavalry_01
-      drill_cavalry_02
-      drill_cavalry_03
       heal_barracks
-      training_conscription
-      unlock_champion_units
+      training_barracks
+      special/archery_tradition
+      special/unlock_champion_swordsmen
     </Technologies>
   </ProductionQueue>
   <Sound>

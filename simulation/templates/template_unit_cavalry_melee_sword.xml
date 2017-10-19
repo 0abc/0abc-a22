@@ -7,12 +7,8 @@
   <Attack>
     <Melee>
       <Bonuses>
-        <Siege>
-          <Classes>Siege</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Siege>
         <Slinger>
-          <Classes>Sling</Classes>
+          <Classes>Infantry Sling</Classes>
           <Multiplier>1.5</Multiplier>
         </Slinger>
       </Bonuses>
@@ -33,7 +29,7 @@
   <Identity>
     <Classes datatype="tokens">CavalrySword</Classes>
     <GenericName>Cavalry Swordsman</GenericName>
-    <Tooltip>Counters: 1.5× vs Siege weapons, Slingers.
+    <Tooltip>Counters: 1.5× vs Infantry Slingers.
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
   </Identity>

@@ -8,7 +8,7 @@
     <Melee>
       <Bonuses>
         <Skirmisher>
-          <Classes>Cavalry Javelin</Classes>
+          <Classes>Infantry Javelin</Classes>
           <Multiplier>1.5</Multiplier>
         </Skirmisher>
       </Bonuses>      
@@ -29,7 +29,7 @@
   </Health>
   <Identity>
     <GenericName>Cavalry Lancer</GenericName>
-    <Tooltip>Counters: 1.5× vs Cavalry Javelinists.
+    <Tooltip>Counters: 1.5× vs Infantry Javelinists.
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
   </Identity>

@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_royal_guardhouse">
+<Entity parent="template_structure_military_hall">
+  <Footprint>
+    <Height>15.0</Height>
+    <Square width="30.0" depth="30.0"/>
+  </Footprint>
   <Identity>
-    <Civ>sele</Civ>
+    <Civ>cart</Civ>
     <Icon>structures/tholos.png</Icon>
     <SpecificName>Sacred Band Barracks</SpecificName>
     <Tooltip>Train Sacred Band champions.</Tooltip>
   </Identity>
+  <Obstruction>
+    <Static width="28.0" depth="28.0"/>
+  </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_champion_hoplite_infantry
       units/{civ}_champion_spear_cavalry
+      units/{civ}_champion_war_elephant
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>special/greek_stoa_great.xml</Actor>
-    <FoundationActor>structures/fndn_6x4.xml</FoundationActor>
+    <Actor>structures/carthaginians/embassy.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

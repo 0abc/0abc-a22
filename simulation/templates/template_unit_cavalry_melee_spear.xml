@@ -8,7 +8,7 @@
     <Melee>
       <Bonuses>
         <Infantry>
-          <Classes>Infantry Ranged</Classes>
+          <Classes>Infantry Archer</Classes>
           <Multiplier>1.5</Multiplier>
         </Infantry>
       </Bonuses>
@@ -28,7 +28,7 @@
   </Health>
   <Identity>
     <GenericName>Cavalry Spearman</GenericName>
-    <Tooltip>Counters: 1.5× vs ranged Infantry.
+    <Tooltip>Counters: 1.5× vs Infantry Archers.
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
   </Identity>

@@ -2,8 +2,7 @@
 <Entity parent="template_unit_infantry_melee_pike">
   <Builder>
     <Entities datatype="tokens">
-      structures/sele_colony
-      structures/sele_guardhouse
+      structures/sele_stables
       structures/sele_library
       structures/sele_theatre
     </Entities>

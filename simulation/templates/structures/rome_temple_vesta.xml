@@ -23,6 +23,11 @@
   <Obstruction>
     <Static width="19.0" depth="19.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/romans/temple_vesta.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>

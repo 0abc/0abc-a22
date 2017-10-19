@@ -1,8 +1,8 @@
 {
   "genericName": "Naval Architects",
-  "description": "Significantly increase build speed of batches of ships at the Dock.",
+  "description": "Significantly increase build speed of batches of ships at the Docks.",
   "cost": { "food": 200, "wood": 200, "stone": 0, "metal": 0 },
-  "requirements": { "all": [{ "tech": "phase_city" }, { "notciv": "cart" }] },
+	"requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "calipers.png",
   "researchTime": 40,

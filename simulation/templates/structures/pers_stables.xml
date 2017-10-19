@@ -16,10 +16,6 @@
       units/{civ}_champion_archer_cavalry
     </Entities>
     <Technologies datatype="tokens">
-      -training_conscription
-      special/training_levy_cavalry
-      special/training_conscription_cavalry
-      special/nisean_horses
       special/unlock_bactrian_cavalry
     </Technologies>
   </ProductionQueue>

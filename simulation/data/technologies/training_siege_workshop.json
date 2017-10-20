@@ -6,7 +6,7 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "military_engineers.png",
   "researchTime": 40,
-  "tooltip": "Faster batch training speed for the Elephant Stables.",
+  "tooltip": "Faster batch training speed for the Siege Workshop.",
   "modifications": [
     { "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }
   ],

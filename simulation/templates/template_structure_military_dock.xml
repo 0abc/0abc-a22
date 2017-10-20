@@ -10,7 +10,6 @@
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>5</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
       <food>50</food>

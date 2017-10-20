@@ -3,6 +3,9 @@
   <BuildRestrictions>
     <Category>Apadana</Category>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>2000</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>300</BuildTime>
     <PopulationBonus>10</PopulationBonus>

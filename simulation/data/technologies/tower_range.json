@@ -5,11 +5,11 @@
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
   "icon": "arrow.png",
-  "researchTime": 40,
-  "tooltip": "Increases sentry and stone tower maximum range by 8 meters.",
+  "researchTime": 60,
+  "tooltip": "Increases tower and fortress maximum range by 8 meters.",
   "modifications": [
     { "value": "Attack/Ranged/MaxRange", "add": 8 }
   ],
-  "affects": ["GarrisonTower"],
+  "affects": ["Fortification"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

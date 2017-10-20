@@ -109,7 +109,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/pers_civil_centre"
+			"Template": "structures/pers_centre"
 		},
 		{
 			"Template": "units/pers_support_female",

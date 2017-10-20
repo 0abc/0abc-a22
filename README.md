@@ -97,19 +97,17 @@
 
 ### Structure distances
 * 20 m from economic buildings: corrals, docks, farmsteads, fields, markets, storehouses
-* 30 m from military buildings: barracks, blacksmiths, cavalry stables, elephant stables, embassies, halls
+* 30 m from military buildings: barracks, blacksmiths, camel stables, cavalry stables, chariot stables, elephant stables, embassies, military halls, siege workshops
 * 40 m from temples: temples
 * 60 m from towers: outpost, sentry tower, defence tower
 * 80 m from fortresses: army camps, fortresses
-* 120 m from civic centres: military colonies
-* 160 m from civic centres: Briton, Gaulish, and Iberian civil centres, crannogs
-* 200 m from civic centres: civil centres
+* 160 m from centres: centres, crannogs
 
 ### Global auras
 * Wonders each grant +10.0 maximum population limit
   * with “glorious expansion” researched: +10% maximum population limit
-  * with “glorious expansion” researched: +20% territory influence radius
-* Theatres each grant +20% territory influence radius 
+  * with “glorious expansion” researched: +10% territory influence radius
+* Theatres each grant +15% territory influence radius 
 * Libraries each grant −10% structure construction time and −20% technology research time
 
 ### Civilization bonuses
@@ -119,6 +117,7 @@
 * Celtic (Briton and Gaulish) walls have −20% health, build time, and stone and wood costs.
 * Celts (Britons and Gauls) have a 20% resource cost and time discount on Armoury technologies.
 * Greek (Athenians, Macedonians, Spartans) civic structures have +20% health and capture points.
+* Tribal (Briton, Gaulish, and Iberian centres have $-20\%$ resource cost, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius.
 * Athenians have a 10% resource cost and time discount on Storehouse technologies.
 * Athenian warships have +10% walk speed.
 * Briton infantry swordsmen have +10% walk speed.
@@ -136,9 +135,7 @@
 * Mauryan stone walls have −20% health and building time.
 * Mauryan temples have −50% resource costs and construction time (former team bonus).
 * Persians have +10% maximum population.
-* Persian structures have +20\% territory influence radius.
-* Persian storehouses have +100% health and territory influence radius.
-* Ptolemaic farmsteads have +50% health and territory influence radius.
+* Persian structures have +10\% territory influence radius.
 * Ptolemaic healers have +6 healing range.
 * Ptolemies have a 30% resource cost and time discount on Temple technologies.
 * Romans have a 15% resource cost and time discount on Barracks technologies.

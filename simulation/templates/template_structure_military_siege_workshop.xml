@@ -7,6 +7,9 @@
       <MinDistance>30</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>1000</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>250</BuildTime>
     <Resources>
@@ -60,7 +63,6 @@
       units/{civ}_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      heal_siege_workshop
       training_siege_workshop
       siege_armour
       siege_attack      

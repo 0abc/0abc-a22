@@ -93,7 +93,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/rome_civil_centre"
+			"Template": "structures/rome_centre"
 		},
 		{
 			"Template": "units/rome_support_female",

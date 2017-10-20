@@ -6,12 +6,13 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "statue_face_stone.png",
 	"researchTime": 60,
-	"tooltip": "Civic centres +50% health and capture points, one more default arrow.",
+	"tooltip": "Centres +50% capture points, health, and loot experience, and one more default arrow.",
 	"modifications": [
 		{"value": "BuildingAI/DefaultArrowCount", "add": 1.0},
 		{"value": "Capturable/CapturePoints", "multiply": 1.5},
-		{"value": "Health/Max", "multiply": 1.5}
+		{"value": "Health/Max", "multiply": 1.5},
+    {"value": "Loot/xp", "multiply": 1.5}
 	],
-	"affects": ["CivCentre"],
+	"affects": ["Centre"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

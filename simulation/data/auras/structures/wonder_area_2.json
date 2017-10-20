@@ -1,9 +1,9 @@
 {
   "affects": ["Structure"],
-  "auraDescription": "Further increase territory influence radius by 20% per wonder owned (requires \"Glorious Expansion\" tech).",
+  "auraDescription": "Further increase territory influence radius by 10% per wonder owned (requires \"Glorious Expansion\" tech).",
   "auraName": "Glorious Expansion II",
   "modifications": [
-    { "value": "TerritoryInfluence/Radius", "multiply": 1.2 }
+    { "value": "TerritoryInfluence/Radius", "multiply": 1.1 }
   ],
   "requiredTechnology": "pop_wonder",
   "stackable": true,

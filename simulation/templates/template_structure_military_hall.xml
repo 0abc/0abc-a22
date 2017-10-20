@@ -7,6 +7,9 @@
       <MinDistance>30</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>1500</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>300</BuildTime>
     <Resources>

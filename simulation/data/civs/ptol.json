@@ -118,7 +118,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/ptol_civil_centre"
+			"Template": "structures/ptol_centre"
 		},
 		{
 			"Template": "units/ptol_support_female",

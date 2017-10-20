@@ -38,7 +38,7 @@
     <Icon>structures/defense_tower.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Shoots arrows. Garrison to provide extra defense. Needs the murder holes tech to protect its foot.</Tooltip>
-    <VisibleClasses datatype="tokens">City DefenseTower</VisibleClasses>
+    <VisibleClasses datatype="tokens">DefenseTower</VisibleClasses>
   </Identity>
   <Loot>
     <food op="add">5</food>

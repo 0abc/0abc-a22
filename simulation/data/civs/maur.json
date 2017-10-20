@@ -99,7 +99,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/maur_civil_centre"
+			"Template": "structures/maur_centre"
 		},
 		{
 			"Template": "units/maur_support_female",

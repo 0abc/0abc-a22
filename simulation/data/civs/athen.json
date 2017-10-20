@@ -113,7 +113,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/athen_civil_centre"
+			"Template": "structures/athen_centre"
 		},
 		{
 			"Template": "units/athen_support_female",

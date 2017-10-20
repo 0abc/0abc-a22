@@ -109,7 +109,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/spart_civil_centre"
+			"Template": "structures/spart_centre"
 		},
 		{
 			"Template": "units/spart_support_female",

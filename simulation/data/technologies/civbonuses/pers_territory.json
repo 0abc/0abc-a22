@@ -5,8 +5,8 @@
   "genericName": "King of Kings",
   "icon": "population.png",
   "modifications": [
-    { "value": "TerritoryInfluence/Radius", "multiply": 1.2 }
+    { "value": "TerritoryInfluence/Radius", "multiply": 1.1 }
   ],
   "requirements": {"civ": "pers"},
-  "tooltip": "Persian structures have +20% territory influence radius."
+  "tooltip": "Persian structures have +10% territory influence radius."
 }

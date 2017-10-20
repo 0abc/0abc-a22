@@ -13,6 +13,9 @@
   <BuildRestrictions>
     <Category>Kennel</Category>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>250</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>50</BuildTime>
     <Resources>

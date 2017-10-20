@@ -1,7 +1,7 @@
 {
 	"genericName": "Advanced Chamfron",
 	"description": "Metal armour for cavalry.",
-	"cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 600},
+	"cost": {"food": 0, "wood": 1200, "stone": 0, "metal": 600},
 	"supersedes": "armour_cavalry_02",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",

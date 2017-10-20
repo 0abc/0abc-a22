@@ -8,7 +8,7 @@
 		"ptol": "Prometōpídion"
 	},
 	"description": "Leather armour for cavalry.",
-	"cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 400},
+	"cost": {"food": 0, "wood": 800, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_village"},
 	"requirementsTooltip": "Unlocked in Village Phase.",
 	"icon": "armor_plates_cavalry.png",

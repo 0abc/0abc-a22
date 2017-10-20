@@ -5,7 +5,7 @@
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "architecture.png",
-  "researchTime": 40,
+  "researchTime": 60,
   "tooltip": "Increases crush, hack, and pierce armour of the stone tower by 2 levels.",
   "modifications": [
     {"value": "Armour/Crush", "add": 2},

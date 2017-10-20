@@ -9,7 +9,7 @@
       <Crush>0</Crush>
       <ElevationBonus>8</ElevationBonus>
       <MaxRange>72</MaxRange>
-      <MinRange>0</MinRange>
+      <MinRange>8</MinRange>
       <Hack>0</Hack>
       <Pierce>12</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
@@ -67,7 +67,7 @@
     <Icon>structures/fortress.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Build siege engines. Research siege weapon improvements. Garrison soldiers inside for stout defence.</Tooltip>
-    <VisibleClasses datatype="tokens">City Fortress</VisibleClasses>
+    <VisibleClasses datatype="tokens">Fortress</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

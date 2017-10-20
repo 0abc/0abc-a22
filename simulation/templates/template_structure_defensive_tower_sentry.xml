@@ -37,7 +37,7 @@
     <Icon>structures/sentry_tower.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Sentry Tower</SpecificName>
-    <VisibleClasses datatype="tokens">Town SentryTower</VisibleClasses>
+    <VisibleClasses datatype="tokens">SentryTower</VisibleClasses>
   </Identity>
   <Loot>
     <food op="add">5</food>

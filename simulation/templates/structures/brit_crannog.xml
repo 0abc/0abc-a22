@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_civil_centre">
+<Entity parent="template_structure_centre">
   <BuildRestrictions>
     <Territory>own ally neutral</Territory>
     <PlacementType>shore</PlacementType>
@@ -9,13 +9,13 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <GenericName>Island Settlement</GenericName>
     <Civ>brit</Civ>
     <Classes datatype="tokens">Naval</Classes>
+    <GenericName>Island Settlement</GenericName>
     <Icon>structures/crannog.png</Icon>
-    <Tooltip>Increase population limit and defend waterways.</Tooltip>
-    <SpecificName>Crannóc</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Crannóc</SpecificName>
+    <Tooltip>Increase population limit and defend waterways.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="29.0" depth="29.0"/>

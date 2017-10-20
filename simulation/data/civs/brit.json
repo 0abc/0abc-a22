@@ -91,7 +91,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/brit_civil_centre"
+			"Template": "structures/brit_centre"
 		},
 		{
 			"Template": "units/brit_support_female",

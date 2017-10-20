@@ -117,7 +117,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/sele_civil_centre"
+			"Template": "structures/sele_centre"
 		},
 		{
 			"Template": "units/sele_support_female",

@@ -91,7 +91,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/gaul_civil_centre"
+			"Template": "structures/gaul_centre"
 		},
 		{
 			"Template": "units/gaul_support_female",

@@ -116,7 +116,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/cart_civil_centre"
+			"Template": "structures/cart_centre"
 		},
 		{
 			"Template": "units/cart_support_female",

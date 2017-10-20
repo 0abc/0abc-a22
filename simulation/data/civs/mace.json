@@ -118,7 +118,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/mace_civil_centre"
+			"Template": "structures/mace_centre"
 		},
 		{
 			"Template": "units/mace_support_female",

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object name="unitAlertPanel" style="TranslucentPanel" size="4 100%-50 100%-4 100%-4" type="text">
+  <object size="100%-128 2 100% 100%-2">
+    <repeat count="3">
+      <object name="unitAlertButton[n]" hidden="true" style="iconButton" type="button" size="0 0 42 42" tooltip_style="sessionToolTipBottomBold" z="100">
+        <object name="unitAlertIcon[n]" type="image" ghost="true" size="3 3 39 39"/>
+      </object>
+    </repeat>
+  </object>
+</object>

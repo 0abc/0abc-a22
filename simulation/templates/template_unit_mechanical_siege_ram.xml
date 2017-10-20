@@ -52,6 +52,7 @@
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Counters: 4.0× vs Gates, 2.0× vs other Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>

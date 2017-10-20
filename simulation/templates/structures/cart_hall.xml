@@ -17,7 +17,6 @@
     <Entities datatype="tokens">
       units/{civ}_champion_hoplite_infantry
       units/{civ}_champion_spear_cavalry
-      units/{civ}_champion_war_elephant
     </Entities>
   </ProductionQueue>
   <VisualActor>

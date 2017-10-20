@@ -2,8 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_sling">
   <Builder>
     <Entities datatype="tokens">
-      structures/athen_stables
-      structures/athen_prytaneion
+      structures/athen_cavalry_stables
       structures/athen_theatre
     </Entities>
   </Builder>

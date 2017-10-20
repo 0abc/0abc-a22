@@ -17,6 +17,7 @@
     </Entities>
     <Technologies datatype="tokens">
       special/colonization
+      special/long_walls
     </Technologies>
   </ProductionQueue>
   <VisualActor>

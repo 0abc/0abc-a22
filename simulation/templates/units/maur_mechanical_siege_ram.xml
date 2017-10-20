@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege_ram">
   <Footprint replace="">
-    <Square width="6.75" depth="10.0"/>
     <Height>3.0</Height>
+    <Square width="6.75" depth="10.0"/>
   </Footprint>
   <Identity>
     <Civ>maur</Civ>

@@ -10,8 +10,8 @@
   <Cost>
     <BuildTime>300</BuildTime>
     <Resources>
-      <food>100</food>
-      <wood>100</wood>
+      <food>150</food>
+      <wood>150</wood>
       <stone>100</stone>
       <metal>100</metal>
     </Resources>
@@ -35,13 +35,13 @@
   <Identity>
     <GenericName>Elephant Stables</GenericName>
     <Icon>structures/elephant_stables.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Train elephant units.</Tooltip>
-    <VisibleClasses datatype="tokens">Village ElephantStables</VisibleClasses>
+    <VisibleClasses datatype="tokens">City ElephantStables</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <wood>10</wood>
+    <food>15</food>
+    <wood>15</wood>
     <stone>10</stone>
     <metal>10</metal>
   </Loot>
@@ -52,8 +52,12 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_elephant
+      units/{civ}_citizen_war_elephant
       units/{civ}_citizen_archer_elephant
+      units/{civ}_mercenary_war_elephant
+      units/{civ}_mercenary_archer_elephant
       units/{civ}_champion_war_elephant
+      units/{civ}_champion_archer_elephant
     </Entities>
     <Technologies datatype="tokens">
       drill_elephantry_01

@@ -2,7 +2,9 @@
 <Entity parent="template_structure_military_elephant_stables">
   <Identity>
     <Civ>maur</Civ>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Vāraṇaśālā</SpecificName>
+    <VisibleClasses datatype="tokens">-City Town</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>structures/mauryans/stables.xml</Actor>

@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spear">
   <Builder>
     <Entities datatype="tokens">
+      structures/maur_cavalry_stables
       structures/maur_elephant_stables
       structures/maur_pillar_ashoka
     </Entities>

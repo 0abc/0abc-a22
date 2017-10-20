@@ -5,12 +5,12 @@
   "requirements": {"all": [{"tech": "phase_village"}, {"civ": "pers"}]},
   "icon": "stone_blocks.png",
   "researchTime": 60,
-  "tooltip": "All Persian structures +25% health and capture points, but also +20% build time.",
+  "tooltip": "Persian non-defensive structures (and excluding wonder) +25% health and capture points, but also +20% build time.",
   "modifications": [
     {"value": "Capturable/CapturePoints", "multiply": 1.25},
     {"value": "Cost/BuildTime", "multiply": 1.20},
     {"value": "Health/Max", "multiply": 1.25}
   ],
-  "affects": ["Civic", "Defensive", "Economic", "Military", "Resource", "Special"],
+  "affects": ["Civic", "Economic", "Military", "Resource", "Special"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

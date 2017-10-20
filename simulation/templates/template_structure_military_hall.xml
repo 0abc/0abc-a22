@@ -17,7 +17,7 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <BuffHeal>1</BuffHeal>
+    <BuffHeal>0</BuffHeal>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Human</List>
@@ -46,6 +46,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
+      heal_hall
+      training_hall
       attack_soldiers_will
     </Technologies>
   </ProductionQueue>

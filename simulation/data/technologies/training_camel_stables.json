@@ -1,0 +1,15 @@
+{
+  "genericName": "Mass Training",
+  "description": "Significantly increase training speed of soldiers at the camel stables by training them in large batches or battalions.",
+  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0 },
+	"requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "upgrade_elite.png",
+  "researchTime": 40,
+  "tooltip": "Faster batch training speed for the Camel Stables.",
+  "modifications": [
+    { "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }
+  ],
+  "affects": ["CamelStables"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

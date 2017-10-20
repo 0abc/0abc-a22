@@ -13,8 +13,10 @@
   <Cost>
     <BuildTime>200</BuildTime>
     <Resources>
+      <food>50</food>
+      <metal>0</metal>
       <stone>300</stone>
-      <wood>100</wood>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -41,8 +43,10 @@
     <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
   </Identity>
   <Loot>
+    <food>5</food>
+    <metal>0</metal>
     <stone>30</stone>
-    <wood>10</wood>
+    <wood>5</wood>
   </Loot>
   <Obstruction>
     <Static width="17.5" depth="30.0"/>

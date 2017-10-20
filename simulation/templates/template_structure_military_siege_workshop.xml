@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>SiegeWorkshop</Category>
+    <Distance>
+      <FromClass>Military</FromClass>
+      <MinDistance>30</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>250</BuildTime>
+    <Resources>
+      <food>50</food>
+      <metal>150</metal>
+      <stone>0</stone>
+      <wood>250</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>12.0</Height>
+    <Square width="22.0" depth="22.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Siege</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Siege Workshop</GenericName>
+    <Icon>structures/siege_workshop.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Build siege engines. Research siege technologies..</Tooltip>
+    <VisibleClasses datatype="tokens">Town SiegeWorkshop</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>5</food>
+    <metal>15</metal>
+    <stone>0</stone>
+    <wood>25</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="17.0" depth="17.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_mechanical_siege_scorpio_packed
+      units/{civ}_mechanical_siege_polybolos_packed
+      units/{civ}_mechanical_siege_oxybeles_packed
+      units/{civ}_mechanical_siege_lithobolos_packed
+      units/{civ}_mechanical_siege_ballista_packed
+      units/{civ}_mechanical_siege_ram
+      units/{civ}_mechanical_siege_tower
+    </Entities>
+    <Technologies datatype="tokens">
+      heal_siege_workshop
+      training_siege_workshop
+      siege_armour
+      siege_attack      
+      siege_cost_metal
+      siege_cost_wood
+      siege_bolt_accuracy
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_blacksmith.xml</select>
+      <constructed>interface/complete/building/complete_blacksmith.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>40</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

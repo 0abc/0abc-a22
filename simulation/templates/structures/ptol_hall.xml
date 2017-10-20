@@ -14,7 +14,6 @@
     <Entities datatype="tokens">
       units/{civ}_champion_pike_infantry
       units/{civ}_champion_lance_cavalry
-      units/{civ}_champion_war_elephant
     </Entities>
   </ProductionQueue>
   <VisualActor>

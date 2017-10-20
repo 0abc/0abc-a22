@@ -8,6 +8,11 @@
       </Splash>
     </Ranged>
   </Attack>
+  <Cost>
+    <Resources>
+      <stone op="add">50</stone>
+    </Resources>
+  </Cost>
   <Footprint replace="">
     <Square width="10.0" depth="10.0"/>
     <Height>5.0</Height>
@@ -17,6 +22,10 @@
     <Icon>units/rome_mechanical_siege_ballista_packed.png</Icon>
     <SpecificName>Ballista</SpecificName>
   </Identity>
+  <Loot>
+    <stone op="add">5</stone>
+    <xp op="add">25</xp>
+  </Loot>
   <Pack>
     <Entity>units/rome_mechanical_siege_ballista_unpacked</Entity>
     <State>packed</State>

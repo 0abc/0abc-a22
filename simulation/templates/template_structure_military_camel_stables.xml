@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>CamelStables</Category>
+    <Distance>
+      <FromClass>Military</FromClass>
+      <MinDistance>30</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>0</metal>
+      <stone>0</stone>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>12.0</Height>
+    <Square width="25.5" depth="25.5"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Camel</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Camel Stables</GenericName>
+    <Icon>structures/mercenary_camp.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Train camel soldiers. Research training improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Village CamelStables</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <metal>0</metal>
+    <stone>0</stone>
+    <wood>20</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="23.5" depth="23.5"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_citizen_spear_camel
+      units/{civ}_citizen_archer_camel
+      units/{civ}_mercenary_spear_camel
+      units/{civ}_mercenary_archer_camel
+    </Entities>
+    <Technologies datatype="tokens">
+      drill_camelry_01
+      drill_camelry_02
+      drill_camelry_03
+      heal_camel_stables
+      training_camel_stables
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_cavalry_stables.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_cavalry_stables.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>40</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

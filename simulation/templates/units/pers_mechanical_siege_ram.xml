@@ -5,9 +5,14 @@
       <Crush op="mul">1.2</Crush>
     </Melee>
   </Attack>
+  <Cost>
+    <Resources>
+      <wood op="add">100</wood>
+    </Resources>
+  </Cost>
   <Footprint replace="">
-    <Square width="7.0" depth="15.0"/>
     <Height>3.0</Height>
+    <Square width="7.0" depth="15.0"/>
   </Footprint>
   <GarrisonHolder>
     <Max op="add">2</Max>
@@ -15,9 +20,13 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Assyrian Siege Ram</GenericName>
-    <SpecificName>Athuriya Hamaranakuba</SpecificName>
     <Icon>units/pers_mechanical_siege_ram.png</Icon>
+    <SpecificName>Athuriya Hamaranakuba</SpecificName>
   </Identity>
+  <Loot>
+    <wood op="add">10</wood>
+    <xp op="add">50</xp>
+  </Loot>
   <VisualActor>
     <Actor>structures/persians/siege_ram.xml</Actor>
   </VisualActor>

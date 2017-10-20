@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_fortress">
+<Entity parent="template_structure_defensive_fortress">
   <Footprint>
     <Square width="26.0" depth="28.0"/>
     <Height>8.0</Height>

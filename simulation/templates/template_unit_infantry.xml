@@ -37,11 +37,12 @@
       structures/{civ}_temple
       structures/{civ}_barracks
       structures/{civ}_hall
-      structures/{civ}_fortress
+      structures/{civ}_siege_workshop
       other/wallset_palisade
       structures/{civ}_tower_outpost
       structures/{civ}_tower_sentry
       structures/{civ}_tower_stone
+      structures/{civ}_fortress
       structures/{civ}_wallset_city
       structures/{civ}_wonder
     </Entities>

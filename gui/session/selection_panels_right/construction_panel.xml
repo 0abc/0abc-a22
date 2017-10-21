@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="unitConstructionPanel" size="10 12 100% 100%">
+<object name="unitConstructionPanel" size="8 8 100% 100%">
   <object size="0 0 100% 100%">
-    <repeat count="40">
-      <object name="unitConstructionButton[n]" hidden="true" style="iconButton" type="button" size="0 0 42 42" tooltip_style="sessionToolTipBottom">
-        <object name="unitConstructionIcon[n]" type="image" ghost="true" size="3 3 39 39"/>
+    <repeat count="60">
+      <object name="unitConstructionButton[n]" hidden="true" style="iconButton" type="button" size="0 0 34 36" tooltip_style="sessionToolTipBottom">
+        <object name="unitConstructionIcon[n]" type="image" ghost="true" size="1 2 33 34"/>
       </object>
     </repeat>
   </object>

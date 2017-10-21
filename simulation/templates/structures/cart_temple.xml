@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Footprint>
-    <Square width="19.0" depth="32.0"/>
-    <Height>12.0</Height>
+    <Square width="24.0" depth="26.0"/>
+    <Height>8.0</Height>
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
     <SpecificName>Maqdaš</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="17.0" depth="30.0"/>
+    <Static width="22.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/carthaginians/temple_big.xml</Actor>
+    <Actor>structures/carthaginians/tophet.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

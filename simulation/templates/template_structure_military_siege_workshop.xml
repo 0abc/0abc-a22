@@ -68,7 +68,7 @@
       siege_attack      
       siege_cost_metal
       siege_cost_wood
-      siege_bolt_accuracy
+      special/siege_bolt_accuracy
     </Technologies>
   </ProductionQueue>
   <Sound>

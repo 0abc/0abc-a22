@@ -38,7 +38,6 @@ g_SelectionPanels.Alert = {
   {
     return 3;
   },
-  "conflictsWith": ["Barter"],
   "getItems": function(unitEntStates)
   {
     let ret = [];
@@ -96,10 +95,10 @@ g_SelectionPanels.Alert = {
 g_SelectionPanels.Barter = {
   "getMaxNumberOfItems": function()
   {
-    return 4;
+    return 5;
   },
-  "rowLength": 4,
-  "conflictsWith": ["Alert", "Formation", "Garrison"],
+  "rowLength": 5,
+  "conflictsWith": ["Formation"],
   "getItems": function(unitEntStates)
   {
     // If more than `rowLength` resources, don't display icons.
@@ -234,8 +233,9 @@ g_SelectionPanels.AllyCommand = {
 g_SelectionPanels.Construction = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 60 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function()
   {
     return getAllBuildableEntitiesFromSelection();
@@ -304,9 +304,9 @@ g_SelectionPanels.Construction = {
 g_SelectionPanels.Formation = {
   "getMaxNumberOfItems": function()
   {
-    return 16;
+    return 20;
   },
-  "rowLength": 4,
+  "rowLength": 5,
   "conflictsWith": ["Barter"],
   "getItems": function(unitEntStates)
   {
@@ -358,10 +358,9 @@ g_SelectionPanels.Formation = {
 g_SelectionPanels.Garrison = {
   "getMaxNumberOfItems": function()
   {
-    return 16;
+    return 20;
   },
   "rowLength": 4,
-  "conflictsWith": ["Barter"],
   "getItems": function(unitEntStates)
   {
     if (unitEntStates.every(state => !state.garrisonHolder))
@@ -427,8 +426,9 @@ g_SelectionPanels.Garrison = {
 g_SelectionPanels.Gate = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 60 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     let gates = [];
@@ -486,8 +486,9 @@ g_SelectionPanels.Gate = {
 g_SelectionPanels.Pack = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 60 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     let checks = {};
@@ -571,8 +572,9 @@ g_SelectionPanels.Pack = {
 g_SelectionPanels.Queue = {
   "getMaxNumberOfItems": function()
   {
-    return 16;
+    return 20;
   },
+  "rowLength": 10,
   /**
    * Returns a list of all items in the productionqueue of the selection
    * The first entry of every entity's production queue will come before
@@ -858,9 +860,9 @@ g_SelectionPanels.Research = {
 g_SelectionPanels.Selection = {
   "getMaxNumberOfItems": function()
   {
-    return 16;
+    return 20;
   },
-  "rowLength": 4,
+  "rowLength": 5,
   "getItems": function(unitEntStates)
   {
     if (unitEntStates.length < 2)
@@ -938,7 +940,7 @@ g_SelectionPanels.Selection = {
 g_SelectionPanels.Stance = {
   "getMaxNumberOfItems": function()
   {
-    return 5;
+    return 8;
   },
   "getItems": function(unitEntStates)
   {
@@ -969,8 +971,9 @@ g_SelectionPanels.Stance = {
 g_SelectionPanels.Training = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 60 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function()
   {
     return getAllTrainableEntitiesFromSelection();
@@ -1065,8 +1068,9 @@ g_SelectionPanels.Training = {
 g_SelectionPanels.Upgrade = {
   "getMaxNumberOfItems": function()
   {
-    return 40 - getNumberOfRightPanelButtons();
+    return 60 - getNumberOfRightPanelButtons();
   },
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     // Interface becomes complicated with multiple different units and this is meant per-entity, so prevent it if the selection has multiple different units.

@@ -81,7 +81,7 @@
 		{
 			"Name":"Syrian Tetrapolis",
 			"History":"The political core of the Seleucid Empire consisted of four 'sister' cities: Antioch (the capital), Seleucia Pieria, Apamea, and Laodicea.",
-			"Description":"Allied Civic Centers are 20% cheaper."
+			"Description":"Centres −20% construction time."
 		}
 	],
 	"Structures":
@@ -90,34 +90,25 @@
 			"Name":"Library",
 			"Class":"",
 			"Emblem":"",
-			"History":"Alexander the Great founded libraries all over his new empire. These became a center of learning for an entirely new synthesized culture: the Hellenistic culture.",
-			"Requirements":".",
-			"Phase":"City",
-			"Special":"Maximum of 1 built. All Special Technologies and some regular city-phase technologies are researched here. Building one reduces the cost of all other remaining technologies by 10%."
-		},
-		{
-			"Name":"Cavalry Stables",
-			"Class":"",
-			"Emblem":"",
-			"History":".",
+			"History":"Alexander the Great founded libraries all over his new empire. These became centres of learning for an entirely new synthesized culture: the Hellenistic culture.",
 			"Requirements":"",
-			"Phase":"Village",
-			"Special":"Trains all cavalry units except Citizen-Militia Cavalry."
+			"Phase":"City",
+			"Special":"Technologies −20% research times, structures −20% construction time. Build limit: 1."
 		},
 		{
-			"Name":"Military Colony",
+			"Name":"Theatre",
 			"Class":"",
 			"Emblem":"",
-			"History":"The Seleucid kings invited Greeks, Macedonians, Galatians (Gauls), Cretans, and Thracians alike to settle in within the vast territories of the empire. They settled in military colonies called cleruchies (klēroukhia). Under this arrangement, the settlers were given a plot of land, or a kleros, and in return were required to serve in the great king's army when called to duty. This created a upper-middle class of military settlers who owed their livelihoods and fortunes to the Syrian kings and helped grow the available manpower for the imperial Seleucid army. A side effect of this system was that it drained the Greek homeland of military-aged men, a contributing factor to Greece's eventual conquest by Rome.",
-			"Requirements":".",
-			"Phase":"Town",
-			"Special":"This is the Seleucid expansion building, similar to Civic Centers for other factions. It is weaker and carries a smaller territory influence, but is cheaper and built faster."
+			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 15%. Build limit: 1."
 		}
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/sele_centre"
+			"Template": "structures/sele/centre"
 		},
 		{
 			"Template": "units/sele_support_female",
@@ -186,7 +177,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/structures/default_house_10" : "structures/sele/house",
 		"skirmish/units/default_cavalry": "units/sele_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/sele_citizen_spear_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/sele_citizen_javelin_infantry"

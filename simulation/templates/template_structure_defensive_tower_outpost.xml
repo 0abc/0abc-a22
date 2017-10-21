@@ -64,7 +64,7 @@
   </TerritoryDecay>
   <Upgrade>
     <Tower>
-      <Entity>structures/{civ}_tower_sentry</Entity>
+      <Entity>structures/{civ}/tower_sentry</Entity>
       <Tooltip>Reinforce with wood and upgrade to a sentry tower.</Tooltip>
       <RequiredTechnology>phase_town</RequiredTechnology>
       <Cost>

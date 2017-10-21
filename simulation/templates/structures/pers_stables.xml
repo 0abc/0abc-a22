@@ -1,3 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/pers_cavalry_stables">
-</Entity>
+<Entity parent="structures/pers/cavalry_stables"/>

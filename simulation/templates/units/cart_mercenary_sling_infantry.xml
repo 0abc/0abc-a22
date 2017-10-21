@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_sling_mercenary">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart_super_dock
+      structures/cart/shipyard
     </Entities>
   </Builder>
   <Identity>

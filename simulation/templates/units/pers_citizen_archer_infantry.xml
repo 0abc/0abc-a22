@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
-      structures/pers_cavalry_stables
-      structures/pers_elephant_stables
-      structures/pers_palace
+      structures/pers/cavalry_stables
+      structures/pers/elephant_stables
+      structures/pers/palace
     </Entities>
   </Builder>
   <Identity>

@@ -71,9 +71,9 @@
 	"TeamBonuses":
 	[
 		{
-			"Name": "Druids",
-			"History": "The Druids of the Celts maintained an organized religion that advanced the technology of their people even during wartime.",
-			"Description": "-20% resources cost for allies healers."
+			"Name": "Tin Islands",
+			"History": "Historically the British isles were famous for their easily accessable tin veins. The Carthaginians and a few Greeks sailed once a year from the Mediterranean to acquire it.",
+			"Description": "Units −4% metal cost."
 		}
 	],
 	"Structures":
@@ -91,7 +91,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/brit_centre"
+			"Template": "structures/brit/centre"
 		},
 		{
 			"Template": "units/brit_support_female",
@@ -143,7 +143,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/structures/default_house_5": "structures/brit/house",
 		"skirmish/units/default_cavalry": "units/brit_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/brit_citizen_spear_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/brit_citizen_sling_infantry",

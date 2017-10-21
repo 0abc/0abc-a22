@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_javelin_mercenary">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart_embassy_iberian
+      structures/cart/embassy_iberian
     </Entities>
   </Builder>
   <Identity>

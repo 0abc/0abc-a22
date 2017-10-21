@@ -2,10 +2,10 @@
 <Entity parent="template_unit_infantry_ranged_stone">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_hall
-      structures/brit_crannog
-      structures/brit_kennel
-      structures/brit_rotarymill
+      -structures/{civ}/hall
+      structures/brit/crannog
+      structures/brit/kennel
+      structures/brit/rotarymill
     </Entities>
   </Builder>
   <Identity>

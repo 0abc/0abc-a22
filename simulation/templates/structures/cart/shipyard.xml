@@ -6,7 +6,7 @@
     <Pierce>40</Pierce>
   </Armour>
   <Auras datatype="tokens">
-    structures/cart_super_dock_repair
+    structures/shipyard
   </Auras>
   <BuildRestrictions>
     <Territory>own ally neutral</Territory>

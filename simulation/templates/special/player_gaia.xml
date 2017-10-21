@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Player>
+    <BarterMultiplier>
+      <Buy>
+        <food>1.0</food>
+        <metal>1.0</metal>
+        <stone>1.0</stone>
+        <wood>1.0</wood>
+      </Buy>
+      <Sell>
+        <food>1.0</food>
+        <metal>1.0</metal>
+        <stone>1.0</stone>
+        <wood>1.0</wood>
+      </Sell>
+    </BarterMultiplier>
+    <SharedDropsitesTech/>
+    <SharedLosTech/>
+    <SpyCostMultiplier>1.0</SpyCostMultiplier>
+  </Player>
+</Entity>

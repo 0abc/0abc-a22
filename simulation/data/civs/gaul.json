@@ -71,9 +71,9 @@
 	"TeamBonuses":
 	[
 		{
-			"Name": "Druidic Wisdom",
-			"History": "The Druids of the Gauls maintained an organized religion that advanced the technology of their people even during wartime.",
-			"Description": "-10% research time for technologies of allies."
+			"Name": "Celtic Mercenaries",
+			"History": "The Gauls frequently migrated and raided large parts of Europe. Their invasions of the Balkans and Asia introduced the thureos type shield into the Greek world.",
+			"Description": "Infantry spearmen −20% training time."
 		}
 	],
 	"Structures":
@@ -91,7 +91,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/gaul_centre"
+			"Template": "structures/gaul/centre"
 		},
 		{
 			"Template": "units/gaul_support_female",
@@ -138,7 +138,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/structures/default_house_5": "structures/gaul/house",
 		"skirmish/units/default_cavalry": "units/gaul_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/gaul_citizen_spear_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/gaul_citizen_javelin_infantry"

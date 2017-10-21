@@ -5,6 +5,6 @@
   "modifications": [
     { "value": "Cost/BuildTime", "multiply": 0.8 }
   ],
-  "auraName": "Celtic mercenaries",
+  "auraName": "Celtic Mercenaries",
   "auraDescription": "Ally's infantry spearmen have -20% training time."
 }

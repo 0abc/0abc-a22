@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spear">
   <Builder>
     <Entities datatype="tokens">
-      structures/gaul_rotarymill
+      structures/gaul/rotarymill
     </Entities>
   </Builder>
   <Identity>

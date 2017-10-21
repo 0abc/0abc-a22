@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>pers</Civ>
+    <SpecificName>Padgan</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/persians/barracks.xml</Actor>
+  </VisualActor>
+</Entity>

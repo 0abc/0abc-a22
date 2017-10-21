@@ -72,20 +72,11 @@
 		{
 			"Name": "Ashoka's Religious Support",
 			"History": "Ashoka the Great sent embassies West to spread knowledge of the Buddha.",
-			"Description": "Allied temples and temple technologies -50% cost and research time."
+			"Description": "Healers −25% training time."
 		}
 	],
 	"Structures":
 	[
-		{
-			"Name":"Elephant Stables",
-			"Class":"SB1",
-			"Emblem":"",
-			"History":".",
-			"Requirements":"Temple",
-			"Phase":"Town",
-			"Special":"Trains Elephant Archer and Worker Elephant at Town Phase, then adds the champion War Elephant at the City phase."
-		},
 		{
 			"Name":"Edict Pillar of Ashoka",
 			"Class":"SB2",
@@ -99,7 +90,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/maur_centre"
+			"Template": "structures/maur/centre"
 		},
 		{
 			"Template": "units/maur_support_female",
@@ -151,7 +142,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/structures/default_house_5": "structures/maur/house",
 		"skirmish/units/default_cavalry": "units/maur_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/maur_citizen_spear_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/maur_citizen_archer_infantry",

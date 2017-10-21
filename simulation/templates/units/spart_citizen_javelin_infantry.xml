@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_javelin">
   <Builder>
     <Entities datatype="tokens">
-      structures/spart_cavalry_stables
+      structures/spart/cavalry_stables
     </Entities>
   </Builder>
   <Identity>

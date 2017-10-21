@@ -1,0 +1,16 @@
+{
+  "affects": ["Soldier"],
+  "auraDescription": "+20% attack damage for soldiers.",
+  "auraName": "Religious Fervor",
+  "modifications": [
+    { "value": "Attack/Melee/Hack", "multiply": 1.20 },
+    { "value": "Attack/Melee/Pierce", "multiply": 1.20 },
+    { "value": "Attack/Melee/Crush", "multiply": 1.20 },
+    { "value": "Attack/Ranged/Hack", "multiply": 1.20 },
+    { "value": "Attack/Ranged/Pierce", "multiply": 1.20 },
+    { "value": "Attack/Ranged/Crush", "multiply": 1.20 }
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
+  "radius": 50,
+  "type": "range"
+}

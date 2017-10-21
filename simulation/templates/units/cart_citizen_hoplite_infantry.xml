@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_hoplite">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart_elephant_stables
-      structures/cart_super_dock
-      structures/cart_embassy_iberian
-      structures/cart_embassy_celtic
-      structures/cart_embassy_italiote
-      structures/cart_embassy_greek
+      structures/cart/elephant_stables
+      structures/cart/shipyard
+      structures/cart/embassy_iberian
+      structures/cart/embassy_celtic
+      structures/cart/embassy_italiote
+      structures/cart/embassy_greek
     </Entities>
   </Builder>
   <Identity>

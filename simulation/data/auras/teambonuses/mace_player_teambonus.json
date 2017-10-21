@@ -5,6 +5,6 @@
   "modifications": [
     { "value": "Cost/Resources/wood", "multiply": 0.96 }
   ],
-  "auraName": "Macedonian timber",
+  "auraName": "Macedonian Timber",
   "auraDescription": "All allies automatically gain a 4% discount on unit wood costs."
 }

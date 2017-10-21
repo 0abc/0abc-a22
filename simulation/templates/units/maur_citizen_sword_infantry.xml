@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee_sabre">
   <Builder>
     <Entities datatype="tokens">
-      structures/maur_cavalry_stables
-      structures/maur_elephant_stables
-      structures/maur_pillar_ashoka
+      structures/maur/cavalry_stables
+      structures/maur/elephant_stables
+      structures/maur/pillar
     </Entities>
   </Builder>
   <Identity>

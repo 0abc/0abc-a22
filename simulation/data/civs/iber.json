@@ -71,7 +71,7 @@
 		{
 			"Name": "Saripeko",
 			"History": "The Iberians were long known to provide mercenary soldiers to other nations to serve as auxiliaries to their armies in foreign wars. Carthage is the most well known example, and we have evidence of them serving in such a capacity in Aquitania.",
-			"Description": "Citizen-soldier infantry skirmishers and cavalry skirmishers -20% cost for allies."
+			"Description": "Infantry javelinists −20% training time."
 		}
 	],
 	"Structures":
@@ -89,7 +89,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/iber_centre"
+			"Template": "structures/iber/centre"
 		},
 		{
 			"Template": "units/iber_support_female",
@@ -134,7 +134,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/structures/default_house_5": "structures/iber/house",
 		"skirmish/units/default_cavalry": "units/iber_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/iber_citizen_sword_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/iber_citizen_javelin_infantry"

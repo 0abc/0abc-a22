@@ -77,43 +77,25 @@
 		{
 			"Name":"Delian League",
 			"History":"Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Athenians offered their entire navy.",
-			"Description":"Ships construct 25% faster."
+			"Description":"Warships −20% construction time."
 		}
 	],
 	"Structures":
 	[
 		{
-			"Name":"Theatron",
+			"Name":"Theatre",
 			"Class":"",
 			"Emblem":"",
 			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
 			"Requirements":"",
 			"Phase":"City",
-			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
-		},
-		{
-			"Name":"Gymnasion",
-			"Class":"",
-			"Emblem":"",
-			"History":"The Gymnasion was a vital place in Hellenic cities, where physical exercises were performed and social contacts established.",
-			"Requirements":"",
-			"Phase":"City",
-			"Special":"Train champion units and research technologies pertaining to champion units."
-		},
-		{
-			"Name":"Prytaneion",
-			"Class":"",
-			"Emblem":"",
-			"History":"The Prytaneion is the meeting place for the city elders to dine and to make swift decisions.",
-			"Requirements":"",
-			"Phase":"City",
-			"Special":"Train heroes and research technology pertaining to heroes."
+			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 15%. Build limit: 1."
 		}
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/athen_centre"
+			"Template": "structures/athen/centre"
 		},
 		{
 			"Template": "units/athen_support_female",
@@ -166,7 +148,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10": "structures/{civ}_house",
+		"skirmish/structures/default_house_10": "structures/athen/house",
 		"skirmish/units/default_cavalry": "units/athen_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/athen_citizen_hoplite_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/athen_citizen_sling_infantry"

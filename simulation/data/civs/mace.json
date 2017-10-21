@@ -80,45 +80,36 @@
 	"TeamBonuses":
 	[
 		{
-			"Name":"Standardized Currency",
-			"History":"The Macedonians and the Diadochi minted coins of very high quality. On their currency the Diadochi in particular frequently depicted themselves as the rightful successor to Alexander the Great, attempting to legitimize their rule.",
-			"Description":"+20% sell prices at market."
+			"Name":"Macedonian Timber",
+			"History":"Macedonia was the most important source of excellent timber in the Greek world, necessary for the construction of war ships, but also useful for producing pikes and siege weapons.",
+			"Description":"Units −4% wood cost."
 		}
 	],
 	"Structures":
 	[
 		{
-			"Name":"Theatron",
+			"Name":"Library",
+			"Class":"",
+			"Emblem":"",
+			"History":"Alexander the Great founded libraries all over his new empire. These became centres of learning for an entirely new synthesized culture: the Hellenistic culture.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Technologies −20% research times, structures −20% construction time. Build limit: 1."
+		},
+		{
+			"Name":"Theatre",
 			"Class":"",
 			"Emblem":"",
 			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
 			"Requirements":"",
 			"Phase":"City",
-			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%. Build limit: 1."
-		},
-		{
-			"Name":"Library",
-			"Class":"",
-			"Emblem":"",
-			"History":"Alexander the Great founded libraries all over his new empire. These became a center of learning for an entirely new synthesized culture: the Hellenistic culture.",
-			"Requirements":"",
-			"Phase":"City",
-			"Special":"All Special Technologies are researched here. Building one reduces the cost of all other remaining technologies by 10%. Build limit: 1."
-		},
-		{
-			"Name":"Siege Workshop",
-			"Class":"",
-			"Emblem":"",
-			"History":"The Macedonians were innovators in area of siegecraft.",
-			"Requirements":"",
-			"Phase":"City",
-			"Special":"Constructs and upgrades all Macedonian siege engines."
+			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 15%. Build limit: 1."
 		}
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/mace_centre"
+			"Template": "structures/mace/centre"
 		},
 		{
 			"Template": "units/mace_support_female",
@@ -170,7 +161,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10": "structures/{civ}_house",
+		"skirmish/structures/default_house_10": "structures/mace/house",
 		"skirmish/units/default_cavalry": "units/mace_citizen_lance_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/mace_citizen_pike_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/mace_citizen_javelin_infantry"

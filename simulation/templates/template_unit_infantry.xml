@@ -25,26 +25,26 @@
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
-      structures/{civ}_centre
-      structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
-      structures/{civ}_field
-      structures/{civ}_corral
-      structures/{civ}_dock
-      structures/{civ}_market
-      structures/{civ}_blacksmith
-      structures/{civ}_temple
-      structures/{civ}_wonder
+      structures/{civ}/centre
+      structures/{civ}/house
+      structures/{civ}/storehouse
+      structures/{civ}/farmstead
+      structures/{civ}/field
+      structures/{civ}/corral
+      structures/{civ}/dock
+      structures/{civ}/market
+      structures/{civ}/blacksmith
+      structures/{civ}/temple
+      structures/{civ}/wonder
       other/wallset_palisade
-      structures/{civ}_tower_outpost
-      structures/{civ}_tower_sentry
-      structures/{civ}_tower_stone
-      structures/{civ}_fortress
-      structures/{civ}_wallset_city
-      structures/{civ}_siege_workshop
-      structures/{civ}_hall
-      structures/{civ}_barracks
+      structures/{civ}/tower_outpost
+      structures/{civ}/tower_sentry
+      structures/{civ}/tower_stone
+      structures/{civ}/fortress
+      structures/{civ}/wallset_city
+      structures/{civ}/siege_workshop
+      structures/{civ}/hall
+      structures/{civ}/barracks
     </Entities>
   </Builder>
   <Cost>

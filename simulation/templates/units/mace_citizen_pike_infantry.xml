@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee_pike">
   <Builder>
     <Entities datatype="tokens">
-      structures/mace_cavalry_stables
-      structures/mace_library
-      structures/mace_theatre
+      structures/mace/cavalry_stables
+      structures/mace/library
+      structures/mace/theatre
     </Entities>
   </Builder>
   <Identity>

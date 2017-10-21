@@ -8,12 +8,9 @@
   <Builder>
     <Entities datatype="tokens">
       other/wallset_palisade
-      structures/{civ}_tower_outpost
+      structures/spart/tower_outpost
     </Entities>
   </Builder>
-  <Health>
-    <Max op="mul">1.4</Max>
-  </Health>
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Spartan Woman</GenericName>

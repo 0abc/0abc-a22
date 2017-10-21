@@ -71,37 +71,28 @@
 		{
 			"Name": "Trademasters",
 			"History": "The Phoenicians and Carthaginians were broadly known as the greatest trading civilization of the ancient and classical world.",
-			"Description": "10% bonus of trade profit for allies' international routes."
+			"Description": "Land traders −20% training time and +5% walk speed."
 		}
 	],
 	"Structures":
 	[
 		{
-			"Name":"Naval Shipyard",
+			"Name":"Gaulish Embassy",
 			"Class":"",
 			"Emblem":"",
-			"History":"The structure is based upon the center island of the inner harbour constructed to house the war fleet of the Carthaginian navy at Carthage.",
+			"History":"The Gauls supplied fierce warrior mercenaries for Carthaginian armies.",
 			"Requirements":".",
 			"Phase":"",
-			"Special":"Construct the powerful warships of the Carthaginian navy."
+			"Special":"Hire Gaulish mercenaries."
 		},
 		{
-			"Name":"Celtic Embassy",
+			"Name":"Greek Embassy",
 			"Class":"",
 			"Emblem":"",
-			"History":"The Celts supplied fierce warrior mercenaries for Carthaginian armies.",
+			"History":"The Greek were known as fierce mercenaries, loyal to their paymasters.",
 			"Requirements":".",
 			"Phase":"",
-			"Special":"Hire Celtic mercenaries."
-		},
-		{
-			"Name":"Italiote Embassy",
-			"Class":"",
-			"Emblem":"",
-			"History":"When Hannibal invaded Italy and defeated the Romans in a series of battles, many of the Italian peoples subject to Rome, including the Italian Greeks and powerful Samnites, revolted and joined the Carthaginian cause.",
-			"Requirements":".",
-			"Phase":"",
-			"Special":"Hire Italian mercenaries."
+			"Special":"Hire Greek mercenaries."
 		},
 		{
 			"Name":"Iberian Embassy",
@@ -111,12 +102,30 @@
 			"Requirements":".",
 			"Phase":"",
 			"Special":"Hire Iberian mercenaries."
+		},
+		{
+			"Name":"Italiote Embassy",
+			"Class":"",
+			"Emblem":"",
+			"History":"When Hannibal invaded Italy and defeated the Romans in a series of battles, many of the Italiote peoples subject to Rome, including the Campanians and Samnites, revolted and joined the Carthaginian cause.",
+			"Requirements":".",
+			"Phase":"",
+			"Special":"Hire Italiote mercenaries."
+		},
+		{
+			"Name":"Naval Shipyard",
+			"Class":"",
+			"Emblem":"",
+			"History":"The structure is based upon the center island of the inner harbour constructed to house the war fleet of the Carthaginian navy at Carthage.",
+			"Requirements":".",
+			"Phase":"",
+			"Special":"Construct the powerful warships of the Carthaginian navy."
 		}
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/cart_centre"
+			"Template": "structures/cart/centre"
 		},
 		{
 			"Template": "units/cart_support_female",
@@ -169,7 +178,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10": "structures/{civ}_house",
+		"skirmish/structures/default_house_10": "structures/cart/house",
 		"skirmish/units/default_cavalry": "units/cart_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/cart_citizen_hoplite_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/cart_citizen_archer_infantry"

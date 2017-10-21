@@ -82,20 +82,11 @@
 		{
 			"Name":"Peloponnesian League",
 			"History":"Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies.'",
-			"Description":"Increases the health for citizen-soldier infantry spearmen by 10% for allies of Spartan players."
+			"Description":"Infantry hoplites −20% training time."
 		}
 	],
 	"Structures":
 	[
-		{
-			"Name":"Theatron",
-			"Class":"",
-			"Emblem":"",
-			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
-			"Requirements":"",
-			"Phase":"City",
-			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
-		},
 		{
 			"Name":"Syssition",
 			"Class":"",
@@ -109,7 +100,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/spart_centre"
+			"Template": "structures/spart/centre"
 		},
 		{
 			"Template": "units/spart_support_female",
@@ -159,7 +150,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/structures/default_house_10" : "structures/spart/house",
 		"skirmish/units/default_cavalry": "units/spart_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/spart_citizen_hoplite_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/spart_citizen_javelin_infantry"

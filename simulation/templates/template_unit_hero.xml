@@ -14,7 +14,7 @@
     </Capture>
   </Attack>
   <Auras datatype="tokens">
-    units/heroes/hero_garrison
+    units/hero_garrison
   </Auras>
   <Cost>
     <Population>0</Population>

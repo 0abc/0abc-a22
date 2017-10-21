@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spear_mercenary">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart_embassy_italiote
+      structures/cart/embassy_italiote
     </Entities>
   </Builder>
   <Identity>

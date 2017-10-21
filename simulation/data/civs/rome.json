@@ -64,9 +64,9 @@
 	"TeamBonuses":
 	[
 		{
-			"Name": "Conscription",
+			"Name": "Roman Style Swordsmen",
 			"History": "Many Roman soldiers were conscripted into service. While volunteers were preferred, the Roman state did maintain an annual military draft. During an emergency the draft and the terms of service were enlarged. The importance of military service in Republican Rome was so great it was a prerequisite for a political career. Members of the Senate were called Conscript Fathers because of this, reflected in how the ordo equester was said to have been \"conscripted\" into the Senate.",
-			"Description": "-20% training time for allied infantry."
+			"Description": "Infantry swordsmen −20% training time."
 		}
 	],
 	"Structures":
@@ -93,7 +93,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/rome_centre"
+			"Template": "structures/rome/centre"
 		},
 		{
 			"Template": "units/rome_support_female",
@@ -145,7 +145,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/structures/default_house_10" : "structures/rome/house",
 		"skirmish/units/default_cavalry": "units/rome_citizen_spear_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/rome_citizen_axe_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/rome_citizen_javelin_infantry"

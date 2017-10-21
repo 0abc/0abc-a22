@@ -2,8 +2,8 @@
 <Entity parent="template_unit_support_female">
   <Builder>
     <Entities datatype="tokens">
-      structures/brit_rotarymill
-      structures/brit_crannog
+      structures/brit/crannog
+      structures/brit/rotarymill
     </Entities>
   </Builder>
   <Identity>

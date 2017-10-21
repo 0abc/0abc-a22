@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee_hoplite">
   <Builder>
     <Entities datatype="tokens">
-      structures/athen_cavalry_stables
-      structures/athen_theatre
+      structures/athen/cavalry_stables
+      structures/athen/theatre
     </Entities>
   </Builder>
   <Identity>

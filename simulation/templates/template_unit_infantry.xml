@@ -43,6 +43,7 @@
       structures/{civ}/tower_sentry
       structures/{civ}/tower_stone
       structures/{civ}/fortress
+      structures/{civ}/shipyard
       structures/{civ}/siege_workshop
       structures/{civ}/hall
       structures/{civ}/barracks

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>maur</Civ>
-    <SelectionGroupName>structures/maur_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/maur/wallset_stone</SelectionGroupName>
     <SpecificName>Shilabanda</SpecificName>
   </Identity>
   <Obstruction>

@@ -24,9 +24,6 @@
       <Spread>2.0</Spread>
     </Ranged>
   </Attack>
-  <Capturable>
-    <CapturePoints op="mul">2.0</CapturePoints>
-  </Capturable>
   <Cost>
     <BuildTime op="mul">2.0</BuildTime>
     <Population op="mul">2.0</Population>

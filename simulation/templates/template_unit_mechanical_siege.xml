@@ -5,11 +5,6 @@
     <Hack>1</Hack>
     <Pierce>10</Pierce>
   </Armour>
-  <Capturable>
-    <CapturePoints>100</CapturePoints>
-    <GarrisonRegenRate>10</GarrisonRegenRate>
-    <RegenRate>10</RegenRate>
-  </Capturable>
   <Cost>
     <BuildTime>10</BuildTime>
     <Population>1</Population>

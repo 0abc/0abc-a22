@@ -3,7 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/cart/elephant_stables
-      structures/cart/shipyard
+      structures/cart/harbour
       structures/cart/embassy_iberian
       structures/cart/embassy_celtic
       structures/cart/embassy_italiote

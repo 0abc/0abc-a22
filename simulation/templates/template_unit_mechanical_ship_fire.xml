@@ -62,4 +62,7 @@
     <PassabilityClass>ship-small</PassabilityClass>
     <WalkSpeed op="add">10</WalkSpeed>
   </UnitMotion>
+  <Vision>
+    <Range op="add">10</Range>
+  </Vision>
 </Entity>

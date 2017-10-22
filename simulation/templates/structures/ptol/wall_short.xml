@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>ptol</Civ>
-    <SelectionGroupName>structures/mace_wallset_stone</SelectionGroupName>
-    <SpecificName>h-n-njwt</SpecificName>
+    <SelectionGroupName>structures/ptol/wallset_stone</SelectionGroupName>
+    <SpecificName>Teîkhos</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="8.0"/>

@@ -19,7 +19,7 @@
   </GarrisonHolder>
   <Identity>
     <Civ>brit</Civ>
-    <SelectionGroupName>structures/brit_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/brit/wallset_stone</SelectionGroupName>
     <SpecificName>Gwarchglawdd</SpecificName>
   </Identity>
   <Obstruction>

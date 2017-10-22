@@ -50,7 +50,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical Fortification StoneWall Turret</Classes>
+    <Classes datatype="tokens">-ConquestCritical Fortification StoneWall WallTower</Classes>
     <GenericName>Wall Turret</GenericName>
     <Icon>structures/tower.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

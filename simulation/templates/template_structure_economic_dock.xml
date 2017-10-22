@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military">
+<Entity parent="template_structure_economic">
   <BuildRestrictions>
     <Category>Dock</Category>
     <Distance>
@@ -28,9 +28,9 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Naval NavalMarket</Classes>
-    <GenericName>Dock</GenericName>
+    <GenericName>Commercial Dock</GenericName>
     <Icon>structures/dock.png</Icon>
-    <Tooltip>Build upon a shoreline to construct naval vessels and to open sea trade. Research naval improvements.</Tooltip>
+    <Tooltip>Construct fishing boats to gather meat and merchant ships to trade with other docks.</Tooltip>
     <VisibleClasses datatype="tokens">Economic Village Market Dock Bribable</VisibleClasses>
   </Identity>
   <Loot>
@@ -54,11 +54,9 @@
     <Entities datatype="tokens">
       units/{civ}_ship_fishing
       units/{civ}_ship_merchant
-      units/{civ}_ship_1
-      units/{civ}_ship_2
-      units/{civ}_ship_3
-      units/{civ}_ship_4
-      units/{civ}_ship_5
+      units/{civ}_ship_skiff
+      units/{civ}_ship_barge
+      units/{civ}_ship_fire
     </Entities>
     <Technologies datatype="tokens">
       gather_fish_net

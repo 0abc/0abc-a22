@@ -32,9 +32,6 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Capturable>
-    <CapturePoints op="mul">3.0</CapturePoints>
-  </Capturable>
   <Cost>
     <BuildTime op="mul">3.0</BuildTime>
     <Population op="mul">3.0</Population>

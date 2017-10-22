@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>Shipyard</Category>
+    <Distance>
+      <FromClass>Military</FromClass>
+      <MinDistance>30</MinDistance>
+    </Distance>
+    <PlacementType>shore</PlacementType>
+    <Territory>own ally neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>50</food>
+      <metal>50</metal>
+      <stone>0</stone>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="26.0" depth="30.0"/>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+    <SpawnEntityOnDeath>rubble/rubble_hele_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Naval</Classes>
+    <GenericName>Shipyard</GenericName>
+    <Icon>structures/uber_dock.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Build upon a shoreline to construct wargalleys. Research naval improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">Town Shipyard</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>5</food>
+    <wood>20</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="22.0" depth="26.0"/>
+  </Obstruction>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_ship_galley_01
+      units/{civ}_ship_galley_02
+      units/{civ}_ship_galley_03
+      units/{civ}_ship_galley_04
+      units/{civ}_ship_galley_05
+      units/{civ}_ship_galley_06
+      units/{civ}_ship_galley_07
+      units/{civ}_ship_galley_08
+      units/{civ}_ship_galley_09
+      units/{civ}_ship_galley_10
+    </Entities>
+    <Technologies datatype="tokens">
+      armour_ship_01
+      armour_ship_02
+      armour_ship_03
+      training_docks
+    </Technologies>
+  </ProductionQueue>
+  <RallyPointRenderer>
+    <LinePassabilityClass>ship</LinePassabilityClass>
+  </RallyPointRenderer>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_dock.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_dock.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
+  </VisualActor>
+  <VisionSharing>
+    <Bribable>true</Bribable>
+  </VisionSharing>
+</Entity>

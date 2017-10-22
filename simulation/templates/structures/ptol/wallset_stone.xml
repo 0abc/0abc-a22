@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_wallset">
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>h-n-njwt</SpecificName>
+    <SpecificName>Teîkhos</SpecificName>
   </Identity>
   <WallSet>
     <Templates>

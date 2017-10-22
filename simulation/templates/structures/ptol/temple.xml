@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
+    <SpecificName>Naós</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="20" depth="21"/>

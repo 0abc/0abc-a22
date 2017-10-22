@@ -2,14 +2,14 @@
 <Entity parent="template_structure_centre">
   <Footprint>
     <Height>8.0</Height>
-    <Square width="42.0" depth="35"/>
+    <Square width="42.0" depth="32.0"/>
   </Footprint>
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>pr-'a</SpecificName>
+    <SpecificName>Agorā́</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="40.0" depth="37"/>
+    <Static width="40.0" depth="30.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">

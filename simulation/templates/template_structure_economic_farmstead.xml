@@ -18,8 +18,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="14.0" depth="14.0"/>
     <Height>8.0</Height>
+    <Square width="14.0" depth="14.0"/>
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
@@ -37,14 +37,14 @@
     <Classes datatype="tokens">-ConquestCritical DropsiteFood</Classes>
     <GenericName>Farmstead</GenericName>
     <Icon>structures/farmstead.png</Icon>
-    <Tooltip>Dropsite for the food resource. Research food gathering improvements.</Tooltip>
+    <Tooltip>Dropsite for food. Research food gathering improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>
-    <wood>10</wood>
-    <stone>0</stone>
     <metal>0</metal>
+    <stone>0</stone>
+    <wood>10</wood>
   </Loot>
   <Obstruction>
     <Static width="12.0" depth="12.0"/>

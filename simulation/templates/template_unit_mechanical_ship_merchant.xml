@@ -32,7 +32,7 @@
     <GenericName>Merchantman</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Trade between docks. Garrison a Trader aboard for additional profit (+20% for each garrisoned). Gather profitable aquatic treasures.</Tooltip>
-    <VisibleClasses datatype="tokens">Trader Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
   <Loot>
     <food op="add">3</food>
@@ -69,7 +69,7 @@
     </Run>
     <WalkSpeed op="add">2</WalkSpeed>
   </UnitMotion>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
+  <Vision>
+    <Range op="add">25</Range>
+  </Vision>
 </Entity>

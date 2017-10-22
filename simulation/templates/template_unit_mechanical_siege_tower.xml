@@ -8,14 +8,10 @@
   <Attack>
     <Ranged>
       <Bonuses>
-        <Towers>
-          <Classes>Tower</Classes>
+        <Fortifications>
+          <Classes>Fortification</Classes>
           <Multiplier>2.0</Multiplier>
-        </Towers>
-        <Fortresses>
-          <Classes>Fortress</Classes>
-          <Multiplier>2.0</Multiplier>
-        </Fortresses>
+        </Fortifications>
       </Bonuses>
       <Crush>10</Crush>
       <ElevationBonus>10</ElevationBonus>
@@ -36,9 +32,6 @@
     <MaxArrowCount>12</MaxArrowCount>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
-  <Capturable>
-    <CapturePoints op="mul">6.0</CapturePoints>
-  </Capturable>
   <Cost>
     <BuildTime op="mul">6.0</BuildTime>
     <Population op="mul">6.0</Population>
@@ -68,7 +61,7 @@
     <GenericName>Siege Tower</GenericName>
     <SpecificName>Helépolis</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.
-Counters: 2.0× vs Fortresses, Towers.</Tooltip>
+Counters: 2.0× vs Fortifications (fortresses, towers, wall turrets).</Tooltip>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
   </Identity>
   <Loot>

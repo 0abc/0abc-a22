@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}/hall
+      -structures/{civ}/shipyard
       structures/iber/monument
     </Entities>
   </Builder>

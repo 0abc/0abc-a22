@@ -26,9 +26,6 @@
       <RepeatTime>3000</RepeatTime>
     </Melee>
   </Attack>
-  <Capturable>
-    <CapturePoints op="mul">4.0</CapturePoints>
-  </Capturable>
   <Cost>
     <BuildTime op="mul">4.0</BuildTime>
     <Population op="mul">4.0</Population>

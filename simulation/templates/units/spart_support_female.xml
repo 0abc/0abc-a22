@@ -7,7 +7,7 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      other/wallset_palisade
+      structures/spart/wallset_palisade
       structures/spart/tower_outpost
     </Entities>
   </Builder>

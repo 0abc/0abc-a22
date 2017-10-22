@@ -36,12 +36,13 @@
       structures/{civ}/blacksmith
       structures/{civ}/temple
       structures/{civ}/wonder
-      other/wallset_palisade
+      structures/{civ}/wallset_palisade
+      structures/{civ}/wallset_turf
+      structures/{civ}/wallset_stone
       structures/{civ}/tower_outpost
       structures/{civ}/tower_sentry
       structures/{civ}/tower_stone
       structures/{civ}/fortress
-      structures/{civ}/wallset_city
       structures/{civ}/siege_workshop
       structures/{civ}/hall
       structures/{civ}/barracks

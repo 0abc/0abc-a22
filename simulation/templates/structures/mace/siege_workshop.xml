@@ -4,6 +4,11 @@
     <Civ>mace</Civ>
     <SpecificName>Synergeîon Poliorkētṓn</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_archer_infantry
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/hellenes/blacksmith.xml</Actor>
   </VisualActor>

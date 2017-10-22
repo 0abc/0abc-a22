@@ -1,51 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
-  <BuildRestrictions>
-    <Category>Apadana</Category>
-  </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>2000</CapturePoints>
-  </Capturable>
-  <Cost>
-    <BuildTime>300</BuildTime>
-    <PopulationBonus>10</PopulationBonus>
-    <Resources>
-      <food>300</food>
-      <metal>300</metal>
-      <stone>300</stone>
-      <wood>300</wood>
-    </Resources>
-  </Cost>
+<Entity parent="template_structure_palace">
   <Footprint>
-    <Square width="32.0" depth="32.0"/>
     <Height>8.0</Height>
+    <Square width="32.0" depth="32.0"/>
   </Footprint>
-  <GarrisonHolder>
-    <Max>10</Max>
-  </GarrisonHolder>
-  <Health>
-    <Max>4000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>pers</Civ>
-    <Classes datatype="tokens">Palace Apadana</Classes>
     <GenericName>Persian Palace</GenericName>
-    <Icon>structures/palace.png</Icon>
     <SpecificName>Apadana</SpecificName>
     <Tooltip>“Satrapy Tribute”: Gain a trickle of food, wood, stone, and metal resources. Train the “Immortals” champion guards.</Tooltip>
   </Identity>
-  <Loot>
-    <food>30</food>
-    <metal>30</metal>
-    <stone>30</stone>
-    <wood>30</wood>
-  </Loot>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_champion_spear_infantry
     </Entities>
@@ -53,19 +21,6 @@
       special/immortals
     </Technologies>
   </ProductionQueue>
-  <ResourceTrickle>
-    <Rates>
-      <food>1.0</food>
-      <wood>1.0</wood>
-      <stone>0.75</stone>
-      <metal>0.75</metal>
-    </Rates>
-    <Interval>1000</Interval>
-  </ResourceTrickle>
-  <TerritoryInfluence>
-    <Root>true</Root>
-    <Radius>48</Radius>
-  </TerritoryInfluence>
   <VisualActor>
     <Actor>structures/persians/apadana.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

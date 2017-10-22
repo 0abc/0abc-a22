@@ -3,7 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       structures/rome/temple_vesta
-      structures/rome/wallset_siege
     </Entities>
   </Builder>
   <Cost>

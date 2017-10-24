@@ -34,8 +34,10 @@
     <Classes datatype="tokens">Pillar</Classes>
     <GenericName>Edict Pillar of Ashoka</GenericName>
     <Icon>structures/ashoka_pillar.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Śāsana Stambha Aśokā</SpecificName>
     <Tooltip>The famous pillar of Ashoka. Increases the walk speed of traders. Buildings in the territory of the monument do not decay.</Tooltip>
+    <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Loot>
     <food>0</food>

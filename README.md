@@ -147,7 +147,7 @@ And it can currently be used for:
 * Celtic (Briton and Gaulish) walls have −20% health, build time, and stone and wood costs.
 * Celts (Britons and Gauls) have a 20% resource cost and time discount on Armoury technologies.
 * Greek (Athenians, Macedonians, Spartans) civic structures have +20% health and capture points.
-* Tribal (Briton, Gaulish, and Iberian centres have $-20\%$ resource cost, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius.
+* Tribal (Briton, Gaulish, and Iberian centres have −20\% resource cost, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius.
 * Athenians have a 10% resource cost and time discount on Storehouse technologies.
 * Athenian warships have +10% walk speed.
 * Briton infantry swordsmen have +10% walk speed.

@@ -194,7 +194,7 @@
     />
 
     <!-- background -->
-    <image texture="session/Alexander.png"
+    <image texture="session/panel_left.png"
       real_texture_placement="0 0 364 240"
       texture_size="0 0 100% 100%"
       size="4 4 100%-4 100%-4"
@@ -288,7 +288,7 @@
     />
 
     <!-- background -->
-    <image texture="session/Alexander.png"
+    <image texture="session/panel_right.png"
       real_texture_placement="0 0 364 240"
       texture_size="0 0 100% 100%"
       size="4 4 100%-4 100%-4"

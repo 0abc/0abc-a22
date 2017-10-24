@@ -31,7 +31,6 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
     <Tooltip>Increase the population limit.</Tooltip>

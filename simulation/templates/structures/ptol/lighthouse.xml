@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_civic">
   <BuildRestrictions>
     <Category>Lighthouse</Category>
     <PlacementType>shore</PlacementType>
@@ -23,11 +23,13 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
-    <Classes datatype="tokens">-ConquestCritical Lighthouse</Classes>
+    <Classes datatype="tokens">Bribable</Classes>
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Pháros</SpecificName>
     <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range: 180 meters.</Tooltip>
+    <VisibleClasses datatype="tokens">City Lighthouse</VisibleClasses>
   </Identity>
   <Loot>
     <metal>20</metal>
@@ -61,4 +63,7 @@
     <Actor>structures/ptolemies/lighthouse.xml</Actor>
     <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
   </VisualActor>
+  <VisionSharing>
+    <Bribable>true</Bribable>
+  </VisionSharing>
 </Entity>

@@ -17,7 +17,7 @@
     { "value": "Armour/Hack", "add": 3.0, "affects": "Hero" },
     { "value": "Armour/Pierce", "add": 3.0, "affects": "Hero" },
     { "value": "Health/RegenRate", "add": -0.5, "affects": "Structure" },
-    { "value": "TerritoryInfluence/Radius", "multiply": 1.30, "affects": "CivCentre" }
+    { "value": "TerritoryInfluence/Radius", "multiply": 1.30, "affects": "Centre" }
   ],
   "soundComplete": "interface/alarm/alarm_phase.xml"
 }

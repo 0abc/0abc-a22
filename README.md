@@ -69,6 +69,7 @@ Silver is the new resource number one; it can not be gathered directly, but can 
   * libraries grant 100 silver
   * lighthouses grant 60 silver
   * markets grant 30 silver
+  * monuments and pillars grant 20 silver
   * palaces grant 150 silver
   * temples grant 40 silver
   * wonders grant 400 silver

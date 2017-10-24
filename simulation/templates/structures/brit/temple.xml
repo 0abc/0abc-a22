@@ -12,7 +12,7 @@
     <Square width="24.5" depth="24.5"/>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>brit</Civ>

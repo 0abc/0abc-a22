@@ -5,7 +5,7 @@
     <Square width="12.5" depth="12.5"/>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>maur</Civ>

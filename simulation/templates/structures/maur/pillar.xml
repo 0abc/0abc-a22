@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_civic">
   <Auras datatype="tokens">
     structures/pillar
   </Auras>
@@ -15,9 +15,9 @@
     <BuildTime>80</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>0</wood>
-      <stone>100</stone>
       <metal>100</metal>
+      <stone>100</stone>
+      <wood>0</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -27,20 +27,22 @@
   <GarrisonHolder disable=""/>
   <Health>
     <Max>1000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>maur</Civ>
+    <Classes datatype="tokens">Pillar</Classes>
     <GenericName>Edict Pillar of Ashoka</GenericName>
-    <SpecificName>Śāsana Stambha Aśokā</SpecificName>
-    <Classes datatype="tokens">Pillar -ConquestCritical</Classes>
     <Icon>structures/ashoka_pillar.png</Icon>
+    <SpecificName>Śāsana Stambha Aśokā</SpecificName>
     <Tooltip>The famous pillar of Ashoka. Increases the walk speed of traders. Buildings in the territory of the monument do not decay.</Tooltip>
   </Identity>
   <Loot>
+    <food>0</food>
+    <metal>10</metal>
+    <silver>20</silver>
+    <stone>10</stone>
     <wood>0</wood>
-    <stone>25</stone>
-    <metal>25</metal>
   </Loot>
   <Obstruction>
     <Static width="4" depth="4"/>

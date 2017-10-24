@@ -36,6 +36,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Bribable</Classes>
     <GenericName>Temple</GenericName>
     <Icon>structures/temple.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
@@ -80,6 +81,9 @@
   <Vision>
     <Range>40</Range>
   </Vision>
+  <VisionSharing>
+    <Bribable>true</Bribable>
+  </VisionSharing>
   <VisualActor>
     <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
   </VisualActor>

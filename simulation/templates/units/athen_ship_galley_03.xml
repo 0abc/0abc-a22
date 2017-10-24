@@ -16,10 +16,11 @@
     </Entities>
     <TechCostMultiplier>
       <food>1.0</food>
-      <wood>1.0</wood>
-      <stone>1.0</stone>
       <metal>1.0</metal>
+      <silver>1.0</silver>
+      <stone>1.0</stone>
       <time>1.0</time>
+      <wood>1.0</wood>
     </TechCostMultiplier>
   </ProductionQueue>
   <VisualActor>

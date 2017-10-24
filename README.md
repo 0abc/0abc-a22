@@ -15,6 +15,7 @@
 
 ## Brief overview
 * Dozens of hours of work, hundreds of new files, thousands of tweaks and minor changes, most of which will probably go unnoticed
+* A new resource: silver (see below)
 * All soldiers cost at least some metal to encourage feminization
 * All soldiers have their attack rate normalized to 1 second
 * All soldiers (citizen, mercenary, and champion) can advance in rank: 
@@ -27,7 +28,7 @@
   * 100% of total costs (soldiers)
   * 50% of total costs (siege weapons, war ships)
   * 10% of total costs (fishing boats, merchant ships, support units)
-  * 10% of maximum health (army camps, civic centres, fortresses, towers) 
+  * 10% of maximum health (army camps, centres, fortresses, outposts, towers) 
   * none (other structures)
 * Economic buildings and walls can be constructed in neutral territory
 * All walls and towers are stronger and more expensive; 
@@ -46,6 +47,31 @@
   * heroes
   * civic centres, colonies, crannogs, docks, embassies, halls, libraries, markets, naval shipyards, palaces, temples, theatres, and wonders
 * Trade gain now depends on x+x^1.5 (instead of x^2), with x the distance between markets
+
+### Silver
+Silver is the new resource number one; it can not be gathered directly, but can be acquired by:
+* selling resources
+* traders (gain is currently any combination of silver and other resources)
+* catafalques, palaces, and wonders grant a 1 silver per second trickle
+* killing heroes:
+ * healer and infantry heroes grant 50 silver
+ * cavalry heroes grant 100 silver
+ * chariot heroes grant 150 silver
+ * elephant heroes grant 200 silver
+* killing promoted units (with x the rank (which can be 0 to 12)):
+ * healers and infantry grant 1x silver (champions 2x)
+ * camals and cavalry grant 2x silver (champions 4x)
+ * bigae (two-horsed chariots) grant 4x silver (champions 8x)
+ * quadrigae (four-horse chariots) grant 5x silver (champions 10x)
+ * elephants (two-horse chariots) grant 6x silver (champions 12x)
+* looting structures:
+ * centres grant 200 silver
+ * libraries grant 100 silver
+ * lighthouses grant 60 silver
+ * markets grant 30 silver
+ * palaces grant 150 silver
+ * temples grant 40 silver
+ * wonders grant 400 silver
 
 ### Population size
 * 0: heroes, war dogs, fire ships

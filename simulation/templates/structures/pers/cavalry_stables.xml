@@ -12,8 +12,8 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_lance_cavalry
       units/{civ}_champion_archer_cavalry
+      units/{civ}_champion_lance_cavalry
     </Entities>
     <Technologies datatype="tokens">
       special/unlock_bactrian_cavalry

@@ -15,7 +15,7 @@
   </BattleDetection>
   <EntityLimits>
     <Limits>
-      <CivilCentre>1</CivilCentre>
+      <Centre>1</Centre>
       <Council>1</Council>
       <DogKennel>5</DogKennel>
       <Embassy>2</Embassy>
@@ -35,7 +35,7 @@
     </Limits>
     <LimitChangers>
       <Hall>
-        <CivilCentre>1</CivilCentre>
+        <Centre>1</Centre>
       </Hall>
       <Pillar>
         <Ashoka>5</Ashoka>
@@ -45,9 +45,9 @@
       </WarDog>
     </LimitChangers>
     <LimitRemovers>
-      <CivilCentre>
+      <Centre>
         <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
-      </CivilCentre>
+      </Centre>
     </LimitRemovers>
   </EntityLimits>
   <Identity>

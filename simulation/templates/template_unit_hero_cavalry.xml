@@ -23,6 +23,13 @@
     <GenericName>Hero Cavalry</GenericName>
     <VisibleClasses datatype="tokens">Cavalry</VisibleClasses>
   </Identity>
+  <Loot>
+    <food>20</food>
+    <metal>20</metal>
+    <silver>100</silver>
+    <wood>20</wood>
+    <xp>600</xp>
+  </Loot>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>

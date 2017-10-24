@@ -31,6 +31,7 @@
   </Identity>
   <Loot>
     <metal>20</metal>
+    <silver>60</silver>
     <stone>20</stone>
     <wood>20</wood>
   </Loot>

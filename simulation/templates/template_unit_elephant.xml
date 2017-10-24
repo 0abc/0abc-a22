@@ -33,14 +33,6 @@
     <Circle radius="3.5"/>
     <Height>6.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>3</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Infantry</List>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>2</LoadingRange>
-  </GarrisonHolder>
   <Health>
     <Max>300</Max>
   </Health>

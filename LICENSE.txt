@@ -7,4 +7,4 @@ any part(s) of it (or everything) in any way you like.
 https://trac.wildfiregames.com/browser/ps/trunk/LICENSE.txt
 
 Visual actors, animation, and other art is designed by:
-  Alexandermb : gastraphetes
+  Alexandermb : Macedonian gastraphetes, Mauryan battering ram

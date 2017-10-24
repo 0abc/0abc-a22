@@ -5,11 +5,22 @@
   </GarrisonHolder>
   <Identity>
     <GenericName>Barracks</GenericName>
-    <Icon>structures/pers_barracks.png</Icon>
+    <Icon>structures/barracks.png</Icon>
     <Tooltip>Train infantry and cavalry soldiers. Research training improvements.</Tooltip>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
+      -units/{civ}_mercenary_axe_infantry
+      -units/{civ}_mercenary_mace_infantry
+      -units/{civ}_mercenary_sword_infantry
+      -units/{civ}_mercenary_halberd_infantry
+      -units/{civ}_mercenary_spear_infantry
+      -units/{civ}_mercenary_hoplite_infantry
+      -units/{civ}_mercenary_pike_infantry
+      -units/{civ}_mercenary_throwingaxe_infantry
+      -units/{civ}_mercenary_javelin_infantry
+      -units/{civ}_mercenary_archer_infantry
+      -units/{civ}_mercenary_sling_infantry
       units/{civ}_citizen_archer_cavalry
       units/{civ}_citizen_javelin_cavalry
       units/{civ}_citizen_axe_cavalry

@@ -41,6 +41,7 @@
   <Loot>
     <food>25</food>
     <metal>25</metal>
+    <silver>100</silver>
     <stone>25</stone>
     <wood>25</wood>
   </Loot>

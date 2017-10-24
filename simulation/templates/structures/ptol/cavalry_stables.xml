@@ -5,12 +5,6 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_mercenary_javelin_cavalry
-      units/{civ}_mercenary_lance_cavalry
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/persians/stables.xml</Actor>
   </VisualActor>

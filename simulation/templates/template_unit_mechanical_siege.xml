@@ -10,7 +10,7 @@
     <Population>1</Population>
   </Cost>
   <Health>
-    <Max>100</Max>
+    <Max>125</Max>
   </Health>
   <Identity>
     <GenericName>Siege</GenericName>

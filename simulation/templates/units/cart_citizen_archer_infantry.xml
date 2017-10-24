@@ -4,10 +4,6 @@
     <Entities datatype="tokens">
       structures/cart/elephant_stables
       structures/cart/harbour
-      structures/cart/embassy_iberian
-      structures/cart/embassy_celtic
-      structures/cart/embassy_italiote
-      structures/cart/embassy_greek
     </Entities>
   </Builder>
   <Identity>

@@ -1,14 +1,14 @@
 {
+  "aiAnalysisInfluenceGroup": "ignore",
   "code": "food",
-  "name": "Food",
   "description": "Gather from hunting animals, foraging berry bushes, fishing, or harvesting farm fields.",
-  "order": 1,
+  "name": "Food",
+  "order": 2,
   "subtypes": {
     "fish": "Fish",
     "fruit": "Fruit",
     "grain": "Grain",
     "meat": "Meat"
   },
-  "truePrice": 100,
-  "aiAnalysisInfluenceGroup": "ignore"
+  "truePrice": 100
 }

@@ -63,8 +63,19 @@
       units/{civ}_citizen_pike_infantry
       units/{civ}_citizen_throwingaxe_infantry
       units/{civ}_citizen_javelin_infantry
-      units/{civ}_citizen_sling_infantry
       units/{civ}_citizen_archer_infantry
+      units/{civ}_citizen_sling_infantry
+      units/{civ}_mercenary_axe_infantry
+      units/{civ}_mercenary_mace_infantry
+      units/{civ}_mercenary_sword_infantry
+      units/{civ}_mercenary_halberd_infantry
+      units/{civ}_mercenary_spear_infantry
+      units/{civ}_mercenary_hoplite_infantry
+      units/{civ}_mercenary_pike_infantry
+      units/{civ}_mercenary_throwingaxe_infantry
+      units/{civ}_mercenary_javelin_infantry
+      units/{civ}_mercenary_archer_infantry
+      units/{civ}_mercenary_sling_infantry
     </Entities>
     <Technologies datatype="tokens">
       drill_infantry_01

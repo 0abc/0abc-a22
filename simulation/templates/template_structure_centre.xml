@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure">
+<Entity parent="structure">
   <AlertRaiser>
     <MaximumLevel>2</MaximumLevel>
     <Range>150</Range>
@@ -72,7 +72,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Civic Centre</GenericName>
+    <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
     <Tooltip>Build to acquire large tracts of territory. Train citizens.</Tooltip>
     <VisibleClasses datatype="tokens">Centre Bribable</VisibleClasses>
@@ -80,6 +80,7 @@
   <Loot>
     <food>50</food>
     <metal>50</metal>
+    <silver>200</silver>
     <stone>50</stone>
     <wood>50</wood>
     <xp>300</xp>
@@ -88,7 +89,6 @@
     <Static width="30.0" depth="30.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_female
     </Entities>

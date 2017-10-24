@@ -51,10 +51,12 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_citizen_spear_camel
       units/{civ}_citizen_archer_camel
-      units/{civ}_mercenary_spear_camel
+      units/{civ}_citizen_spear_camel
       units/{civ}_mercenary_archer_camel
+      units/{civ}_mercenary_spear_camel
+      units/{civ}_champion_archer_camel
+      units/{civ}_champion_spear_camel
     </Entities>
     <Technologies datatype="tokens">
       drill_camelry_01

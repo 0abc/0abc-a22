@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/cart_siege_oxybeles_packed">
+  <Identity>
+    <Icon>units/cart_mechanical_siege_oxybeles.png</Icon>
+  </Identity>
+  <Pack>
+    <Entity>units/cart_siege_oxybeles_packed</Entity>
+    <State>unpacked</State>
+    <Time>9000</Time>
+  </Pack>
+  <UnitMotion>
+    <Run>
+      <Speed>0.001</Speed>
+    </Run>
+    <WalkSpeed>0.001</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range op="add">50</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/carthaginians/siege_spear.xml</Actor>
+  </VisualActor>
+</Entity>

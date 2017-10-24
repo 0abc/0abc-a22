@@ -19,9 +19,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mercenary_javelin_infantry
-      units/{civ}_mercenary_archer_infantry
-      units/{civ}_mercenary_sling_infantry
       units/{civ}_champion_javelin_infantry
     </Entities>
     <Technologies datatype="tokens">

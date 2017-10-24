@@ -1,12 +1,12 @@
 {
+  "aiAnalysisInfluenceGroup": "abundant",
   "code": "wood",
-  "name": "Wood",
   "description": "Gather lumber from trees, groves, or ruins.",
-  "order": 2,
+  "name": "Wood",
+  "order": 3,
   "subtypes": {
     "tree": "Tree",
     "ruins": "Ruins"
   },
-  "truePrice": 100,
-  "aiAnalysisInfluenceGroup": "abundant"
+  "truePrice": 100
 }

@@ -6,9 +6,9 @@
   "requirements": { "tech": "phase_city" },
   "icon": "vial_poison.png",
   "researchTime": 75,
-  "tooltip": "Make your units 50% more expensive to bribe.",
+  "tooltip": "Make your units twice as expensive to bribe.",
   "modifications": [
-    { "value": "Player/SpyCostMultiplier", "multiply": 1.5 }
+    { "value": "Player/SpyCostMultiplier", "multiply": 2.0 }
   ],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

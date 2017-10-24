@@ -37,6 +37,13 @@
     <Tooltip>Penalties: 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Elephant Melee</VisibleClasses>
   </Identity>
+  <Loot>
+    <food>40</food>
+    <metal>40</metal>
+    <silver>200</silver>
+    <wood>40</wood>
+    <xp>1200</xp>
+  </Loot>
   <Sound>
     <SoundGroups>
       <attack>actor/fauna/animal/elephant_attack.xml</attack>

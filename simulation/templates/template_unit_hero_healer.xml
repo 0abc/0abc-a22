@@ -22,4 +22,11 @@
   <Identity>
     <VisibleClasses datatype="tokens">-Soldier Healer Support</VisibleClasses>
   </Identity>
+  <Loot>
+    <food>10</food>
+    <metal>10</metal>
+    <silver>50</silver>
+    <wood>10</wood>
+    <xp>300</xp>
+  </Loot>
 </Entity>

@@ -5,7 +5,7 @@
     "spart": "Megalópolis"
   },
   "description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
-  "cost": { "food": 0, "wood": 0, "stone": 750, "metal": 750 },
+  "cost": { "food": 500, "wood": 500, "stone": 500, "metal": 500 },
   "requirements": { "entity": { "class": "Town", "number": 3 } },
   "requirementsTooltip": "Requires 3 new Town Phase structures (excluding civil centres and defensive structures).",
   "supersedes": "phase_town",

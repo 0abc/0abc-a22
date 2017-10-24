@@ -40,9 +40,10 @@
   </Identity>
   <Loot>
     <food>0</food>
-    <wood>30</wood>
-    <stone>0</stone>
     <metal>0</metal>
+    <silver>30</silver>
+    <stone>0</stone>
+    <wood>30</wood>
   </Loot>
   <Market>
     <TradeType>land</TradeType>
@@ -53,6 +54,9 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
+    <TechCostMultiplier>
+      <silver>1.0</silver>
+    </TechCostMultiplier>
     <Technologies datatype="tokens">
       unlock_shared_los
       unlock_shared_dropsites

@@ -2,7 +2,6 @@
 <Entity parent="template_unit_infantry_ranged_stone">
   <Builder>
     <Entities datatype="tokens">
-      structures/pers/cavalry_stables
       structures/pers/elephant_stables
       structures/pers/palace
     </Entities>

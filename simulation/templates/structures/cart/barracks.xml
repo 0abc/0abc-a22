@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks_combined">
+<Entity parent="template_structure_military_barracks">
   <Cost>
     <Resources>
       <wood>150</wood>
@@ -12,18 +12,11 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <GenericName>African Barracks</GenericName>
     <SpecificName>Maḥanēt</SpecificName>
-    <Tooltip>Train North African citizen-soldiers. Research improvements for North African units.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_mercenary_sling_infantry
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/carthaginians/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

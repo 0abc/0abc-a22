@@ -61,6 +61,13 @@
       units/{civ}_citizen_spear_cavalry
       units/{civ}_citizen_lance_cavalry
       units/{civ}_citizen_cataphract_cavalry
+      units/{civ}_mercenary_archer_cavalry
+      units/{civ}_mercenary_javelin_cavalry
+      units/{civ}_mercenary_axe_cavalry
+      units/{civ}_mercenary_sword_cavalry
+      units/{civ}_mercenary_spear_cavalry
+      units/{civ}_mercenary_lance_cavalry
+      units/{civ}_mercenary_cataphract_cavalry
     </Entities>
     <Technologies datatype="tokens">
       drill_cavalry_01

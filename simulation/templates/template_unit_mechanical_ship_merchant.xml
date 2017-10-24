@@ -45,6 +45,7 @@
     <Capacities>
       <food>75</food>
       <metal>50</metal>
+      <silver>150</silver>
       <stone>50</stone>
       <wood>75</wood>
     </Capacities>

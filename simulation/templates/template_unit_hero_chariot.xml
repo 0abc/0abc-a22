@@ -20,6 +20,13 @@
     <GenericName>Hero Chariot</GenericName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
   </Identity>
+  <Loot>
+    <food>30</food>
+    <metal>30</metal>
+    <silver>150</silver>
+    <wood>30</wood>
+    <xp>900</xp>
+  </Loot>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>

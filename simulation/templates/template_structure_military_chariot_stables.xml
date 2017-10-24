@@ -56,8 +56,10 @@
     <Entities datatype="tokens">
       units/{civ}_citizen_archer_chariot
       units/{civ}_citizen_javelin_chariot
+      units/{civ}_citizen_scythed_chariot
       units/{civ}_mercenary_archer_chariot
       units/{civ}_mercenary_javelin_chariot
+      units/{civ}_mercenary_scythed_chariot
       units/{civ}_champion_archer_chariot
       units/{civ}_champion_javelin_chariot
       units/{civ}_champion_scythed_chariot

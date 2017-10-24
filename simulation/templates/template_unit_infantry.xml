@@ -47,6 +47,7 @@
       structures/{civ}/siege_workshop
       structures/{civ}/hall
       structures/{civ}/barracks
+      structures/{civ}/cavalry_stables
     </Entities>
   </Builder>
   <Cost>
@@ -74,6 +75,7 @@
   <Loot>
     <food>5</food>
     <metal>0</metal>
+    <silver>0</silver>
     <stone>0</stone>
     <wood>0</wood>
     <xp>50</xp>

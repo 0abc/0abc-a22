@@ -3,12 +3,6 @@
   <Identity>
     <Civ>sele</Civ>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_mercenary_archer_cavalry
-      units/{civ}_mercenary_lance_cavalry
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/persians/stables.xml</Actor>
   </VisualActor>

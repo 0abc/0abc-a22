@@ -15,6 +15,13 @@
   <Health>
     <Max>500</Max>
   </Health>
+  <Loot>
+    <food>10</food>
+    <metal>10</metal>
+    <silver>50</silver>
+    <wood>10</wood>
+    <xp>300</xp>
+  </Loot>
   <Identity>
     <GenericName>Hero</GenericName>
     <VisibleClasses datatype="tokens">Infantry</VisibleClasses>

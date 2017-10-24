@@ -3,7 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       structures/ptol/camel_stables
-      structures/ptol/cavalry_stables
       structures/ptol/elephant_stables
       structures/ptol/library
       structures/ptol/lighthouse

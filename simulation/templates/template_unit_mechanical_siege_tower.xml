@@ -38,6 +38,7 @@
     <Resources>
       <food>300</food>
       <metal>300</metal>
+      <silver>0</silver>
       <stone>150</stone>
       <wood>750</wood>
     </Resources>
@@ -67,6 +68,7 @@ Counters: 2.0× vs Fortifications (fortresses, towers, wall turrets).</Tooltip>
   <Loot>
     <food>30</food>
     <metal>30</metal>
+    <silver>0</silver>
     <stone>15</stone>
     <wood>75</wood>
     <xp>750</xp>

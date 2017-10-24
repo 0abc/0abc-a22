@@ -68,6 +68,7 @@ Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
   <Loot>
     <food>8</food>
     <metal>0</metal>
+    <silver>0</silver>
     <stone>0</stone>
     <wood>0</wood>
     <xp>75</xp>

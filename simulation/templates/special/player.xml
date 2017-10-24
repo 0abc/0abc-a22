@@ -60,12 +60,14 @@
       <Buy>
         <food>1.0</food>
         <metal>1.0</metal>
+        <silver>1.0</silver>
         <stone>1.0</stone>
         <wood>1.0</wood>
       </Buy>
       <Sell>
         <food>1.0</food>
         <metal>1.0</metal>
+        <silver>1.0</silver>
         <stone>1.0</stone>
         <wood>1.0</wood>
       </Sell>
@@ -79,6 +81,7 @@
     <Rates>
       <food>0.0</food>
       <metal>0.0</metal>
+      <silver>0.0</silver>
       <stone>0.0</stone>
       <wood>0.0</wood>
     </Rates>

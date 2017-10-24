@@ -1,5 +1,5 @@
-# 0abc-unified
-0abc (a “0 A.D.” modification)
+# 0abc
+*0 A.D. is Actually Before Christ* (a modification of “0 A.D. Empires Ascendant”, version 0.0.22 “Alpha XXII: Venustas”)
 
 ## Instructions
 * Download the zip or `git clone` this repository (`https://github.com/0abc/mounted.git`).
@@ -14,7 +14,7 @@
 * For more detailed information, please have a look at **0abc-readme.pdf**
 
 ## Brief overview
-* Dozens of hours of work, hundreds of new files, thousands of tweaks and minor changes, most of which will probably go unnoticed
+* Dozens of hours of work, thousands of new files, numerous tweaks and minor changes, most of which will probably go unnoticed
 * A new resource: silver (see below)
 * All soldiers cost at least some metal to encourage feminization
 * All soldiers have their attack rate normalized to 1 second
@@ -54,24 +54,26 @@ Silver is the new resource number one; it can not be gathered directly, but can 
 * traders (gain is currently any combination of silver and other resources)
 * catafalques, palaces, and wonders grant a 1 silver per second trickle
 * killing heroes:
- * healer and infantry heroes grant 50 silver
- * cavalry heroes grant 100 silver
- * chariot heroes grant 150 silver
- * elephant heroes grant 200 silver
+  * healer and infantry heroes grant 50 silver
+  * cavalry heroes grant 100 silver
+  * chariot heroes grant 150 silver
+  * elephant heroes grant 200 silver
 * killing promoted units (with x the rank (which can be 0 to 12)):
- * healers and infantry grant 1x silver (champions 2x)
- * camals and cavalry grant 2x silver (champions 4x)
- * bigae (two-horsed chariots) grant 4x silver (champions 8x)
- * quadrigae (four-horse chariots) grant 5x silver (champions 10x)
- * elephants (two-horse chariots) grant 6x silver (champions 12x)
+  * healers and infantry grant 1x silver (champions 2x)
+  * camels and cavalry grant 2x silver (champions 4x)
+  * bigae (two-horsed chariots) grant 4x silver (champions 8x)
+  * quadrigae (four-horse chariots) grant 5x silver (champions 10x)
+  * elephants (two-horse chariots) grant 6x silver (champions 12x)
 * looting structures:
- * centres grant 200 silver
- * libraries grant 100 silver
- * lighthouses grant 60 silver
- * markets grant 30 silver
- * palaces grant 150 silver
- * temples grant 40 silver
- * wonders grant 400 silver
+  * centres grant 200 silver
+  * libraries grant 100 silver
+  * lighthouses grant 60 silver
+  * markets grant 30 silver
+  * palaces grant 150 silver
+  * temples grant 40 silver
+  * wonders grant 400 silver
+And it can currently be used for:
+  * espionage: bribing cost is changed to 250 silver (instead of 500 metal); 500 silver with counterespionage (instead of 750 metal)
 
 ### Population size
 * 0: heroes, war dogs, fire ships
@@ -155,7 +157,6 @@ Silver is the new resource number one; it can not be gathered directly, but can 
 * Gaulish infantry spearmen have +10% melee attack damage.
 * Iberian infantry javelinists have +10% ranged attack damage.
 * Macedonian cavalry lancers have +10% melee attack damage.
-* Macedonian pikemen have +10% walk speed.
 * Mauryans have +10% maximum population.
 * Mauryan healers cost −50% metal.
 * Mauryan stone walls have −20% health and building time.

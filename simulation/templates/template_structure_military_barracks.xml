@@ -83,6 +83,7 @@
       heal_barracks
       training_barracks
       special/archery_tradition
+      special/marching
       special/unlock_champion_swordsmen
     </Technologies>
   </ProductionQueue>

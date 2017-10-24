@@ -38,6 +38,7 @@
     <Resources>
       <food>150</food>
       <metal>150</metal>
+      <silver>0</silver>
       <stone>150</stone>
       <wood>300</wood>
     </Resources>
@@ -58,6 +59,7 @@
   <Loot>
     <food>15</food>
     <metal>15</metal>
+    <silver>0</silver>
     <stone>15</stone>
     <wood>30</wood>
     <xp>375</xp>

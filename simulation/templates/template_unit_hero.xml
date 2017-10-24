@@ -18,6 +18,10 @@
   </Auras>
   <Cost>
     <Population>0</Population>
+    <Resources>
+      <silver>0</silver>
+      <stone>0</stone>
+    </Resources>
   </Cost>
   <Identity>
     <Classes datatype="tokens">Organic Human</Classes>

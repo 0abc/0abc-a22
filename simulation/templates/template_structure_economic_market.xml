@@ -15,8 +15,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="33.0" depth="29.0"/>
     <Height>8.0</Height>
+    <Square width="33.0" depth="29.0"/>
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
@@ -34,7 +34,7 @@
     <Classes datatype="tokens">BarterMarket</Classes>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Town Market Bribable</VisibleClasses>
   </Identity>

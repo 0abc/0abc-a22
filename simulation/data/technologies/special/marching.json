@@ -1,0 +1,15 @@
+{
+	"genericName": "Forced Marching",
+	"description": "Unlike most other states, the Macedonians and Romans had standing armies, which could train in peacetime, especially at marching long distances. The subsequent Macedonian and Roman expansions were largely due to their ability to move around armies much faster than their opponents deemed possible, often arriving when their enemies were under-prepared.",
+	"cost": {"food": 500, "wood": 200, "stone": 0, "metal": 100},
+	"requirements": {"all": [{"tech": "phase_town"}, {"any": [{"civ": "mace"}, {"civ": "rome"}]}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "walk.png",
+	"researchTime": 60,
+	"tooltip": "Melee Infantry +10% walk speed.",
+  "modifications": [
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
+  ],
+	"affects": ["Infantry Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

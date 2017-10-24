@@ -30,6 +30,7 @@
     <Resources>
       <food>100</food>
       <metal>200</metal>
+      <silver>0</silver>
       <stone>0</stone>
       <wood>200</wood>
     </Resources>
@@ -50,6 +51,7 @@
   <Loot>
     <food>10</food>
     <metal>20</metal>
+    <silver>0</silver>
     <stone>0</stone>
     <wood>20</wood>
     <xp>250</xp>

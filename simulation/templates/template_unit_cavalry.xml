@@ -24,6 +24,10 @@
     <Population>2</Population>
     <Resources>
       <food>100</food>
+      <metal>0</metal>
+      <silver>0</silver>
+      <stone>0</stone>
+      <wood>0</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -45,6 +49,7 @@
   <Loot>
     <food>10</food>
     <metal>0</metal>
+    <silver>0</silver>
     <stone>0</stone>
     <wood>0</wood>
     <xp>100</xp>

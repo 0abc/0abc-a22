@@ -72,7 +72,9 @@ Silver is the new resource number one; it can not be gathered directly, but can 
   * palaces grant 150 silver
   * temples grant 40 silver
   * wonders grant 400 silver
+
 And it can currently be used for:
+  * buying other resources (barter, market)
   * espionage: bribing cost is changed to 250 silver (instead of 500 metal); 500 silver with counterespionage (instead of 750 metal)
 
 ### Population size

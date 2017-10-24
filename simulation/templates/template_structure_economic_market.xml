@@ -34,7 +34,7 @@
     <Classes datatype="tokens">BarterMarket</Classes>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Town Market Bribable</VisibleClasses>
   </Identity>

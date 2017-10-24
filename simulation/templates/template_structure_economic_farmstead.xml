@@ -34,7 +34,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical DropsiteFood</Classes>
+    <Classes datatype="tokens">DropsiteFood</Classes>
     <GenericName>Farmstead</GenericName>
     <Icon>structures/farmstead.png</Icon>
     <Tooltip>Dropsite for food. Research food gathering improvements.</Tooltip>
@@ -50,7 +50,6 @@
     <Static width="12.0" depth="12.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
       gather_forage
       gather_farm_01

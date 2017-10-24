@@ -49,7 +49,6 @@
     <Static width="23.5" depth="23.5"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_citizen_archer_camel
       units/{civ}_citizen_spear_camel

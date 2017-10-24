@@ -47,7 +47,6 @@
     <Floating>true</Floating>
   </Position>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_ship_galley_01
       units/{civ}_ship_galley_02

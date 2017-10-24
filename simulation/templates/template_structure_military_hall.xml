@@ -47,7 +47,6 @@
     <wood>10</wood>
   </Loot>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
       heal_hall
       training_hall

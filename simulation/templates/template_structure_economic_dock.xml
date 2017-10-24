@@ -27,7 +27,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Naval NavalMarket</Classes>
+    <Classes datatype="tokens">Naval NavalMarket ConquestCritical</Classes>
     <GenericName>Commercial Dock</GenericName>
     <Icon>structures/dock.png</Icon>
     <Tooltip>Construct fishing boats to gather meat and merchant ships to trade with other docks.</Tooltip>
@@ -50,7 +50,6 @@
     <Floating>true</Floating>
   </Position>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_ship_fishing
       units/{civ}_ship_merchant

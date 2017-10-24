@@ -52,7 +52,6 @@
     <Static width="17.0" depth="17.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_citizen_axe_infantry
       units/{civ}_citizen_mace_infantry

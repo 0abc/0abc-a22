@@ -31,7 +31,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">BarterMarket -ConquestCritical</Classes>
+    <Classes datatype="tokens">BarterMarket</Classes>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
@@ -53,10 +53,6 @@
     <Static width="30.0" depth="26.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <TechCostMultiplier>
-      <silver>1.0</silver>
-    </TechCostMultiplier>
     <Technologies datatype="tokens">
       unlock_shared_los
       unlock_shared_dropsites

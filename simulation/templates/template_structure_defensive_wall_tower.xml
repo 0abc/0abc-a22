@@ -65,7 +65,6 @@
     <ControlPersist/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
       walls_pair
     </Technologies>

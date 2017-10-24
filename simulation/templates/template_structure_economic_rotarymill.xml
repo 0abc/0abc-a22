@@ -38,7 +38,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical DropsiteFood</Classes>
+    <Classes datatype="tokens">DropsiteFood</Classes>
     <GenericName>Rotary Mill</GenericName>
     <Icon>structures/rotarymill.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

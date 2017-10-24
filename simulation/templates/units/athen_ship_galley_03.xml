@@ -7,7 +7,7 @@
     <SpecificName>Triḗrēs Athēnaía</SpecificName>
   </Identity>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/athen_champion_sword_infantry
       units/athen_mercenary_javelin_infantry

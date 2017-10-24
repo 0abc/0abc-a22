@@ -69,7 +69,6 @@
     <xp>50</xp>
   </Loot>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
       tower_armour
       tower_crenellations

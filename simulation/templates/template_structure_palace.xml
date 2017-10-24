@@ -45,7 +45,6 @@
     <wood>30</wood>
   </Loot>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
       attack_soldiers_will
     </Technologies>

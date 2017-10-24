@@ -52,7 +52,6 @@
     <Static width="18.0" depth="16.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_citizen_archer_cavalry
       units/{civ}_citizen_javelin_cavalry

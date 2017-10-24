@@ -53,7 +53,6 @@
     <Static width="17.5" depth="30.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_healer
     </Entities>

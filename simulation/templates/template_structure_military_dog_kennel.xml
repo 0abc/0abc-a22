@@ -60,7 +60,6 @@
     <Static width="7.5" depth="6.75"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_war_dog
     </Entities>

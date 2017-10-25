@@ -108,7 +108,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/sele/centre"
+			"Template": "structures/sele_civil_centre"
 		},
 		{
 			"Template": "units/sele_support_female",
@@ -177,7 +177,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10" : "structures/sele/house",
+		"skirmish/structures/default_house_10" : "structures/sele_house",
 		"skirmish/units/default_cavalry": "units/sele_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/sele_citizen_spear_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/sele_citizen_javelin_infantry"

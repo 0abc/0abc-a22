@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_hoplite">
   <Builder>
     <Entities datatype="tokens">
-      structures/athen/theatre
+      structures/athen_theatre
     </Entities>
   </Builder>
   <Identity>

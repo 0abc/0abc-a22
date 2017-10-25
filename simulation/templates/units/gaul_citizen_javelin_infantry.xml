@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_javelin">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}/cavalry_stables
-      -structures/{civ}/shipyard
-      structures/gaul/rotarymill
+      -structures/{civ}_cavalry_stables
+      -structures/{civ}_shipyard
+      structures/gaul_rotarymill
     </Entities>
   </Builder>
   <Identity>

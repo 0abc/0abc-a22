@@ -57,7 +57,7 @@
   </TerritoryInfluence>
   <Upgrade>
     <Tower>
-      <Entity>structures/{civ}/tower_stone</Entity>
+      <Entity>structures/{civ}_defense_tower</Entity>
       <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>

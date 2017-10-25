@@ -572,7 +572,7 @@ g_SelectionPanels.Pack = {
 g_SelectionPanels.Queue = {
   "getMaxNumberOfItems": function()
   {
-    return 20;
+    return 60;
   },
   "rowLength": 10,
   /**

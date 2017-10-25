@@ -125,7 +125,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/cart/centre"
+			"Template": "structures/cart_civil_centre"
 		},
 		{
 			"Template": "units/cart_support_female",
@@ -178,7 +178,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10": "structures/cart/house",
+		"skirmish/structures/default_house_10": "structures/cart_house",
 		"skirmish/units/default_cavalry": "units/cart_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/cart_citizen_hoplite_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/cart_citizen_archer_infantry"

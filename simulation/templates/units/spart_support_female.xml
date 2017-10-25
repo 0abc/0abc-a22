@@ -7,8 +7,8 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      structures/spart/wallset_palisade
-      structures/spart/tower_outpost
+      structures/spart_wallset_palisade
+      structures/spart_outpost
     </Entities>
   </Builder>
   <Identity>

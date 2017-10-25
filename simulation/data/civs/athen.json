@@ -95,7 +95,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/athen/centre"
+			"Template": "structures/athen_civil_centre"
 		},
 		{
 			"Template": "units/athen_support_female",
@@ -148,7 +148,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10": "structures/athen/house",
+		"skirmish/structures/default_house_10": "structures/athen_house",
 		"skirmish/units/default_cavalry": "units/athen_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/athen_citizen_hoplite_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/athen_citizen_sling_infantry"

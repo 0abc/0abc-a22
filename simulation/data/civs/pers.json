@@ -100,7 +100,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/pers/centre"
+			"Template": "structures/pers_civil_centre"
 		},
 		{
 			"Template": "units/pers_support_female",
@@ -149,7 +149,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10" : "structures/pers/house",
+		"skirmish/structures/default_house_10" : "structures/pers_house",
 		"skirmish/units/default_cavalry": "units/pers_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/pers_citizen_spear_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/pers_citizen_archer_infantry"

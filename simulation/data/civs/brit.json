@@ -91,7 +91,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/brit/centre"
+			"Template": "structures/brit_civil_centre"
 		},
 		{
 			"Template": "units/brit_support_female",
@@ -143,7 +143,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/brit/house",
+		"skirmish/structures/default_house_5": "structures/brit_house",
 		"skirmish/units/default_cavalry": "units/brit_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/brit_citizen_spear_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/brit_citizen_sling_infantry",

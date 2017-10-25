@@ -93,7 +93,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/rome/centre"
+			"Template": "structures/rome_civil_centre"
 		},
 		{
 			"Template": "units/rome_support_female",
@@ -145,7 +145,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10" : "structures/rome/house",
+		"skirmish/structures/default_house_10" : "structures/rome_house",
 		"skirmish/units/default_cavalry": "units/rome_citizen_spear_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/rome_citizen_axe_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/rome_citizen_javelin_infantry"

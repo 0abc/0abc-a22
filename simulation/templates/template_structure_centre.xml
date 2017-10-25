@@ -73,6 +73,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">CivCentre</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
     <Tooltip>Build to acquire large tracts of territory. Train citizens.</Tooltip>

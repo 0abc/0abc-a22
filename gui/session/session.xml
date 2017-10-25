@@ -89,7 +89,7 @@
   </object>
 
   <!-- Chat messages -->
-  <object name="chatPanel" size="0 130 100% 100%-240" type="image" ghost="true" z="0" absolute="true">
+  <object name="chatPanel" size="40 244 100% 100%-240" type="image" ghost="true" z="0" absolute="true">
     <object name="chatText" size="3 1 100%-1 100%-1" type="text" style="chatPanelOverlay" ghost="true"/>
   </object>
 

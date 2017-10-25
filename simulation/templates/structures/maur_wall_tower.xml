@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_wall_tower">
-  <Cost>
-    <Resources>
-      <stone>0</stone>
-      <wood op="mul">3.0</wood>
-    </Resources>
-  </Cost>
+<Entity parent="template_structure_defensive_wall_tower">
   <Footprint>
-    <Square width="12.5" depth="12.5"/>
     <Height>18.0</Height>
+    <Square width="12.5" depth="12.5"/>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
@@ -17,10 +11,6 @@
     <Civ>maur</Civ>
     <SpecificName>Puratta</SpecificName>
   </Identity>
-  <Loot>
-    <stone>0</stone>
-    <wood op="mul">3.0</wood>
-  </Loot>
   <Obstruction>
     <Static width="9.5" depth="9.5"/>
   </Obstruction>

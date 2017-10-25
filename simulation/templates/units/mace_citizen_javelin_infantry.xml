@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_ranged_javelin">
   <Builder>
     <Entities datatype="tokens">
-      structures/mace/library
-      structures/mace/theatre
+      structures/mace_library
+      structures/mace_theatre
     </Entities>
   </Builder>
   <Identity>

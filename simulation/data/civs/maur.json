@@ -90,7 +90,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/maur/centre"
+			"Template": "structures/maur_civil_centre"
 		},
 		{
 			"Template": "units/maur_support_female",
@@ -142,7 +142,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/maur/house",
+		"skirmish/structures/default_house_5": "structures/maur_house",
 		"skirmish/units/default_cavalry": "units/maur_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/maur_citizen_spear_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/maur_citizen_archer_infantry",

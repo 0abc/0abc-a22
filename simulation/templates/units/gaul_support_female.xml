@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_female">
   <Builder>
     <Entities datatype="tokens">
-      structures/gaul/rotarymill
+      structures/gaul_rotarymill
     </Entities>
   </Builder>
   <Identity>

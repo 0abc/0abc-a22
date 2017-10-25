@@ -89,7 +89,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/iber/centre"
+			"Template": "structures/iber_civil_centre"
 		},
 		{
 			"Template": "units/iber_support_female",
@@ -134,7 +134,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/iber/house",
+		"skirmish/structures/default_house_5": "structures/iber_house",
 		"skirmish/units/default_cavalry": "units/iber_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/iber_citizen_sword_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/iber_citizen_javelin_infantry"

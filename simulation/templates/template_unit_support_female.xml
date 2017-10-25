@@ -22,17 +22,17 @@
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
-      structures/{civ}/centre
-      structures/{civ}/house
-      structures/{civ}/storehouse
-      structures/{civ}/farmstead
-      structures/{civ}/field
-      structures/{civ}/corral
-      structures/{civ}/dock
-      structures/{civ}/market
-      structures/{civ}/blacksmith
-      structures/{civ}/temple
-      structures/{civ}/wonder
+      structures/{civ}_civil_centre
+      structures/{civ}_house
+      structures/{civ}_storehouse
+      structures/{civ}_farmstead
+      structures/{civ}_field
+      structures/{civ}_corral
+      structures/{civ}_dock
+      structures/{civ}_market
+      structures/{civ}_blacksmith
+      structures/{civ}_temple
+      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Health>

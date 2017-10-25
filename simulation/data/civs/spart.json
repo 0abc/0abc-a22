@@ -100,7 +100,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/spart/centre"
+			"Template": "structures/spart_civil_centre"
 		},
 		{
 			"Template": "units/spart_support_female",
@@ -150,7 +150,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10" : "structures/spart/house",
+		"skirmish/structures/default_house_10" : "structures/spart_house",
 		"skirmish/units/default_cavalry": "units/spart_citizen_javelin_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/spart_citizen_hoplite_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/spart_citizen_javelin_infantry"

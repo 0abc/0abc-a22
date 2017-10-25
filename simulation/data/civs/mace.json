@@ -109,7 +109,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/mace/centre"
+			"Template": "structures/mace_civil_centre"
 		},
 		{
 			"Template": "units/mace_support_female",
@@ -161,7 +161,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_10": "structures/mace/house",
+		"skirmish/structures/default_house_10": "structures/mace_house",
 		"skirmish/units/default_cavalry": "units/mace_citizen_lance_cavalry",
 		"skirmish/units/default_infantry_melee_b": "units/mace_citizen_pike_infantry",
 		"skirmish/units/default_infantry_ranged_b": "units/mace_citizen_javelin_infantry"

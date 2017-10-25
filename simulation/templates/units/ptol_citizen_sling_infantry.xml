@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_ranged_sling">
   <Builder>
     <Entities datatype="tokens">
-      structures/ptol/camel_stables
-      structures/ptol/elephant_stables
-      structures/ptol/library
-      structures/ptol/lighthouse
-      structures/ptol/theatre
+      structures/ptol_camel_stables
+      structures/ptol_elephant_stables
+      structures/ptol_library
+      structures/ptol_lighthouse
+      structures/ptol_theatre
     </Entities>
   </Builder>
   <Identity>

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
-  <BuildRestrictions>
-    <Category>CavalryStables</Category>
-    <Distance>
-      <FromClass>Military</FromClass>
-      <MinDistance>30</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Capturable>
-    <CapturePoints>1000</CapturePoints>
+    <CapturePoints op="mul">2.0</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>200</BuildTime>
@@ -32,7 +25,7 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max op="mul">2.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -44,7 +37,6 @@
   </Identity>
   <Loot>
     <food>10</food>
-    <metal>0</metal>
     <stone>10</stone>
     <wood>20</wood>
   </Loot>

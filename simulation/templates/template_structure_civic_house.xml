@@ -4,8 +4,7 @@
     <Category>House</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>300</CapturePoints>
-    <GarrisonRegenRate>4.0</GarrisonRegenRate>
+    <CapturePoints op="mul">0.3</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>30</BuildTime>
@@ -27,7 +26,7 @@
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
-    <Max>800</Max>
+    <Max op="mul">0.8</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>

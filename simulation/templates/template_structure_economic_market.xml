@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
-  <BuildRestrictions>
-    <Category>Market</Category>
-    <Distance>
-      <FromClass>Economic</FromClass>
-      <MinDistance>20</MinDistance>
-    </Distance>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
@@ -27,7 +19,7 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1500</Max>
+    <Max op="mul">1.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -39,10 +31,7 @@
     <VisibleClasses datatype="tokens">Town Market Bribable</VisibleClasses>
   </Identity>
   <Loot>
-    <food>0</food>
-    <metal>0</metal>
     <silver>30</silver>
-    <stone>0</stone>
     <wood>30</wood>
   </Loot>
   <Market>

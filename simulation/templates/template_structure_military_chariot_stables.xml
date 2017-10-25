@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
-  <BuildRestrictions>
-    <Category>ChariotStables</Category>
-    <Distance>
-      <FromClass>Military</FromClass>
-      <MinDistance>30</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Capturable>
-    <CapturePoints>1250</CapturePoints>
+    <CapturePoints op="mul">2.5</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>250</BuildTime>
@@ -32,7 +25,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>2500</Max>
+    <Max op="mul">2.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>

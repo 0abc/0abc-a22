@@ -22,9 +22,10 @@
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>
+    <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>1200</CapturePoints>
+    <CapturePoints op="mul">4.0</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>75</BuildTime>
@@ -46,7 +47,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>5000</Max>
+    <Max op="mul">5.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
   </Health>
   <Identity>

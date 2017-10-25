@@ -21,7 +21,7 @@
     <Category>Wonder</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>2500</CapturePoints>
+    <CapturePoints op="mul">5.0</CapturePoints>
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
@@ -46,7 +46,7 @@
     <Max>50</Max>
   </GarrisonHolder>
   <Health>
-    <Max>5000</Max>
+    <Max op="mul">5.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

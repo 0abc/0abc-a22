@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
-  <BuildRestrictions>
-    <Category>Farmstead</Category>
-    <Distance>
-      <FromClass>Economic</FromClass>
-      <MinDistance>20</MinDistance>
-    </Distance>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <Capturable>
-    <CapturePoints>300</CapturePoints>
+    <CapturePoints op="mul">0.6</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>45</BuildTime>
@@ -30,7 +22,7 @@
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
-    <Max>900</Max>
+    <Max op="mul">0.9</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -41,9 +33,6 @@
     <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
   </Identity>
   <Loot>
-    <food>0</food>
-    <metal>0</metal>
-    <stone>0</stone>
     <wood>10</wood>
   </Loot>
   <Obstruction>

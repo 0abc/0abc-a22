@@ -2,13 +2,9 @@
 <Entity parent="template_structure_military">
   <BuildRestrictions>
     <Category>Hall</Category>
-    <Distance>
-      <FromClass>Military</FromClass>
-      <MinDistance>30</MinDistance>
-    </Distance>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>1500</CapturePoints>
+    <CapturePoints op="mul">3.0</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>300</BuildTime>
@@ -28,7 +24,7 @@
     <Max>20</Max>
   </GarrisonHolder>
   <Health>
-    <Max>3000</Max>
+    <Max op="mul">3.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

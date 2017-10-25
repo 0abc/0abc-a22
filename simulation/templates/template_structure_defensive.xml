@@ -6,10 +6,7 @@
     <Pierce>30</Pierce>
   </Armour>
   <Identity>
-    <GenericName>Defensive Structure</GenericName>
     <Classes datatype="tokens">Defensive</Classes>
+    <GenericName>Defensive Structure</GenericName>
   </Identity>
-  <Loot>
-    <xp>100</xp>
-  </Loot>
 </Entity>

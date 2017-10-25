@@ -4,19 +4,12 @@
     structures/rotary_mill
   </Auras>
   <BuildRestrictions>
-    <Category>RotaryMill</Category>
-    <Distance>
-      <FromClass>Economic</FromClass>
-      <MinDistance>20</MinDistance>
-    </Distance>
     <Territory>own</Territory>
   </BuildRestrictions>
   <Cost>
     <BuildTime>100</BuildTime>
     <PopulationBonus>2</PopulationBonus>
     <Resources>
-      <food>0</food>
-      <metal>0</metal>
       <stone>100</stone>
       <wood>200</wood>
     </Resources>
@@ -34,7 +27,7 @@
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1800</Max>
+    <Max op="mul">1.8</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -46,8 +39,6 @@
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Loot>
-    <food>0</food>
-    <metal>0</metal>
     <stone>10</stone>
     <wood>20</wood>
   </Loot>

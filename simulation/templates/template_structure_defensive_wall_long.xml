@@ -36,7 +36,7 @@
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
-    <Max>4000</Max>
+    <Max op="mul">4.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>

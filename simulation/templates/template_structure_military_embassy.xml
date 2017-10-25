@@ -2,19 +2,12 @@
 <Entity parent="template_structure_military">
   <BuildRestrictions>
     <Category>Embassy</Category>
-    <Distance>
-      <FromClass>Military</FromClass>
-      <MinDistance>30</MinDistance>
-    </Distance>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints op="mul">1.5</CapturePoints>
+  </Capturable>
   <Cost>
-    <PopulationBonus>0</PopulationBonus>
-    <Resources>
-      <food>50</food>
-      <metal>50</metal>
-      <stone>50</stone>
-      <wood>50</wood>
-    </Resources>
+    <BuildTime>150</BuildTime>
   </Cost>
   <Footprint>
     <Square width="16.0" depth="16.0"/>
@@ -29,7 +22,7 @@
     <Max>6</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max op="mul">1.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -38,12 +31,6 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Town Embassy Bribable</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>5</food>
-    <metal>5</metal>
-    <stone>5</stone>
-    <wood>5</wood>
-  </Loot>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>

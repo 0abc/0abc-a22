@@ -4,7 +4,7 @@
     <Category>Palace</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>2000</CapturePoints>
+    <CapturePoints op="mul">4.0</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime>300</BuildTime>
@@ -25,7 +25,7 @@
     <Max>15</Max>
   </GarrisonHolder>
   <Health>
-    <Max>4000</Max>
+    <Max op="mul">4.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

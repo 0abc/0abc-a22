@@ -28,9 +28,6 @@
   <GarrisonHolder>
     <Max>3</Max>
   </GarrisonHolder>
-  <Health>
-    <Max op="mul">2.0</Max>
-  </Health>
   <Identity>
     <Classes datatype="tokens">GarrisonTower</Classes>
     <GenericName>Sentry Tower</GenericName>

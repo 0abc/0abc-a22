@@ -7,6 +7,11 @@
       <Crush>1</Crush>
     </Foundation>
   </Armour>
+  <Capturable>
+    <CapturePoints>500</CapturePoints>
+    <RegenRate>0.5</RegenRate>
+    <GarrisonRegenRate>20.0</GarrisonRegenRate>
+  </Capturable>
   <Cost>
     <Resources>
       <food>0</food>
@@ -16,6 +21,9 @@
       <wood>0</wood>
     </Resources>
   </Cost>
+  <Health>
+    <Max>1000</Max>
+  </Health>
   <Loot>
     <food>0</food>
     <metal>0</metal>

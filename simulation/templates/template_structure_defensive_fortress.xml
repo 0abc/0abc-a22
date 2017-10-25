@@ -32,7 +32,7 @@
     </Distance>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>4500</CapturePoints>
+    <CapturePoints op="mul">9.0</CapturePoints>
     <RegenRate>10.0</RegenRate>
   </Capturable>
   <Cost>
@@ -58,7 +58,7 @@
     <LoadingRange>6</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>6000</Max>
+    <Max op="mul">6.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

@@ -5,6 +5,13 @@
     <Hack>20</Hack>
     <Pierce>35</Pierce>
   </Armour>
+  <BuildRestrictions>
+    <Category>Military</Category>
+    <Distance>
+      <FromClass>Military</FromClass>
+      <MinDistance>30</MinDistance>
+    </Distance>
+  </BuildRestrictions>
   <Identity>
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>

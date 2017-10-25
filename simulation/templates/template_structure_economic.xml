@@ -5,6 +5,14 @@
     <Hack>5</Hack>
     <Pierce>20</Pierce>
   </Armour>
+  <BuildRestrictions>
+    <Category>Economic</Category>
+    <Distance>
+      <FromClass>Economic</FromClass>
+      <MinDistance>20</MinDistance>
+    </Distance>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Economic Structure</GenericName>

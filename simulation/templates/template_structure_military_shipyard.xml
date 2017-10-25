@@ -2,19 +2,17 @@
 <Entity parent="template_structure_military">
   <BuildRestrictions>
     <Category>Shipyard</Category>
-    <Distance>
-      <FromClass>Military</FromClass>
-      <MinDistance>30</MinDistance>
-    </Distance>
     <PlacementType>shore</PlacementType>
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints op="mul">2.5</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime>200</BuildTime>
     <Resources>
       <food>50</food>
       <metal>50</metal>
-      <stone>0</stone>
       <wood>200</wood>
     </Resources>
   </Cost>
@@ -23,7 +21,7 @@
     <Square width="26.0" depth="30.0"/>
   </Footprint>
   <Health>
-    <Max>2500</Max>
+    <Max op="mul">2.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_hele_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -37,7 +35,6 @@
   <Loot>
     <food>5</food>
     <wood>20</wood>
-    <stone>0</stone>
     <metal>5</metal>
   </Loot>
   <Obstruction>

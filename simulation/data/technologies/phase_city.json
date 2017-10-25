@@ -13,9 +13,9 @@
   "researchTime": 90,
   "tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centres increased by another +30%.",
   "modifications": [
-    { "value": "Armour/Crush", "add": 3.0, "affects": "Hero" },
-    { "value": "Armour/Hack", "add": 3.0, "affects": "Hero" },
-    { "value": "Armour/Pierce", "add": 3.0, "affects": "Hero" },
+    { "value": "Armour/Crush", "add": 1.0, "affects": "Hero" },
+    { "value": "Armour/Hack", "add": 1.0, "affects": "Hero" },
+    { "value": "Armour/Pierce", "add": 1.0, "affects": "Hero" },
     { "value": "Health/RegenRate", "add": -0.5, "affects": "Structure" },
     { "value": "TerritoryInfluence/Radius", "multiply": 1.30, "affects": "Centre" }
   ],

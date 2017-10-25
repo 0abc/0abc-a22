@@ -20,7 +20,7 @@
     <Height>2.0</Height>
   </Footprint>
   <Health>
-    <Max>300</Max>
+    <Max op="mul">0.3</Max>
     <SpawnEntityOnDeath>rubble/rubble_field</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -30,9 +30,6 @@
     <VisibleClasses datatype="tokens">Field</VisibleClasses>
   </Identity>
   <Loot>
-    <food>0</food>
-    <metal>0</metal>
-    <stone>0</stone>
     <wood>10</wood>
   </Loot>
   <Minimap>

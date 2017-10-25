@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
   <BuildRestrictions>
-    <Category>Dock</Category>
-    <Distance>
-      <FromClass>Economic</FromClass>
-      <MinDistance>20</MinDistance>
-    </Distance>
     <PlacementType>shore</PlacementType>
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
@@ -13,8 +8,6 @@
     <BuildTime>150</BuildTime>
     <Resources>
       <food>50</food>
-      <metal>0</metal>
-      <stone>0</stone>
       <wood>200</wood>
     </Resources>
   </Cost>
@@ -23,7 +16,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>2500</Max>
+    <Max op="mul">2.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -36,8 +29,6 @@
   <Loot>
     <food>5</food>
     <wood>20</wood>
-    <stone>0</stone>
-    <metal>0</metal>
   </Loot>
   <Market>
     <TradeType>land naval</TradeType>

@@ -5,13 +5,14 @@
     <Range>150</Range>
   </AlertRaiser>
   <Armour>
-    <Hack op="add">5</Hack>
-    <Pierce op="add">5</Pierce>
+    <Crush>3</Crush>
     <Foundation>
       <Crush>3</Crush>
       <Hack>5</Hack>
       <Pierce>15</Pierce>
     </Foundation>
+    <Hack>25</Hack>
+    <Pierce>35</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -42,7 +43,7 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>3000</CapturePoints>
+    <CapturePoints op="mul">6.0</CapturePoints>
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
@@ -68,7 +69,7 @@
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>3000</Max>
+    <Max op="mul">3.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

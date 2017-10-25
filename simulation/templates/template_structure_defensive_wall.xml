@@ -6,7 +6,7 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>1200</CapturePoints>
+    <CapturePoints op="mul">4.0</CapturePoints>
   </Capturable>
   <Footprint>
     <Square width="6.0" depth="6.0"/>

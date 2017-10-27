@@ -45,7 +45,10 @@
 * Bribable (espionage: reveal their vision range for 10 seconds) are:
   * all ships and traders
   * heroes
-  * centres, crannogs, docks, harbours, libraries, markets, palaces, temples, theatres, and wonders
+  * centres, crannogs, docks, embassies, harbours, libraries, markets, palaces, temples, theatres, and wonders
+* Conquest critical are:
+  * all units except fauna, fishing boats, healers, merchant ships, and traders
+  * all military structures, centres, crannogs, fortresses, palaces, and wonders
 * Trade gain now depends on x+x^1.5 (instead of x^2), with x the distance between markets
 
 ### Silver

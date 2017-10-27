@@ -20,7 +20,7 @@
     </Slaughter>
   </Attack>
   <Health>
-    <Max>200</Max>
+    <Max op="mul">2.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Human Organic Horse Mounted</Classes>
@@ -71,6 +71,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>80</Range>
+    <Range op="add">35</Range>
   </Vision>
 </Entity>

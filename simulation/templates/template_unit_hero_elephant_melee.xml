@@ -30,7 +30,7 @@
     <Height>9.0</Height>
   </Footprint>
   <Health>
-    <Max>2000</Max>
+    <Max op="mul">2.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Mounted</Classes>

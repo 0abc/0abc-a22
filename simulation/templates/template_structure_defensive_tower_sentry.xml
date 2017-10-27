@@ -15,15 +15,15 @@
     <CapturePoints op="mul">1.5</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime op="mul">2.0</BuildTime>
+    <BuildTime op="mul">1.0</BuildTime>
     <Resources>
       <food op="add">50</food>
       <stone op="add">50</stone>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="9.5" depth="8.5"/>
     <Height>9.0</Height>
+    <Square width="9.5" depth="8.5"/>
   </Footprint>
   <GarrisonHolder>
     <Max>3</Max>
@@ -58,13 +58,13 @@
   <Upgrade>
     <Tower>
       <Entity>structures/{civ}_defense_tower</Entity>
-      <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
-      <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
         <stone>75</stone>
         <wood>75</wood>
       </Cost>
+      <RequiredTechnology>phase_city</RequiredTechnology>
       <Time>100</Time>
+      <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
     </Tower>
   </Upgrade>
   <VisualActor>

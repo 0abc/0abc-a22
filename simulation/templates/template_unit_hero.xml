@@ -18,11 +18,10 @@
   </Auras>
   <Cost>
     <Population>0</Population>
-    <Resources>
-      <silver>0</silver>
-      <stone>0</stone>
-    </Resources>
   </Cost>
+  <Health>
+    <Max op="mul">10.0</Max>
+  </Health>
   <Identity>
     <Classes datatype="tokens">Organic Human</Classes>
     <GenericName>Hero</GenericName>
@@ -56,7 +55,7 @@
     <WalkSpeed>12</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>90</Range>
+    <Range op="add">40</Range>
   </Vision>
   <VisionSharing>
     <Bribable>true</Bribable>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structure">
+<Entity parent="template_structure">
   <AlertRaiser>
     <MaximumLevel>2</MaximumLevel>
     <Range>150</Range>
@@ -31,6 +31,7 @@
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <MaxArrowCount>12</MaxArrowCount>
   </BuildingAI>
@@ -47,7 +48,7 @@
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime>600</BuildTime>
+    <BuildTime op="mul">6.0</BuildTime>
     <PopulationBonus>25</PopulationBonus>
     <Resources>
       <food>500</food>

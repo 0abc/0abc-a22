@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structure">
+<Entity parent="template_structure">
   <Armour>
     <Crush>3</Crush>
     <Hack>20</Hack>
@@ -12,8 +12,19 @@
       <MinDistance>30</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <Cost>
+    <BuildTime op="mul">1.0</BuildTime>
+  </Cost>
   <Identity>
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>40</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
 </Entity>

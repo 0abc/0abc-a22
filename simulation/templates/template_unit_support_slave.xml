@@ -29,7 +29,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max op="mul">1.0</Max>
+    <Max op="mul">0.5</Max>
   </Health>
   <Identity>
     <GenericName>Slave</GenericName>

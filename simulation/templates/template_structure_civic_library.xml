@@ -7,7 +7,7 @@
     <Category>Library</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>500</BuildTime>
+    <BuildTime op="mul">5.0</BuildTime>
     <Resources>
       <food>250</food>
       <metal>250</metal>

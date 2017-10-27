@@ -19,14 +19,14 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Cost>
-    <BuildTime op="mul">1.0</BuildTime>
+    <BuildTime op="mul">0.5</BuildTime>
     <Resources>
       <wood op="add">-25</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="9.0" depth="9.0"/>
     <Height>15.0</Height>
+    <Square width="9.0" depth="9.0"/>
   </Footprint>
   <GarrisonHolder>
     <Max>1</Max>
@@ -62,14 +62,14 @@
   <Upgrade>
     <Tower>
       <Entity>structures/{civ}_sentry_tower</Entity>
-      <Tooltip>Reinforce with wood and upgrade to a sentry tower.</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
       <Cost>
         <food>50</food>
         <stone>50</stone>
         <wood>50</wood>
       </Cost>
+      <RequiredTechnology>phase_town</RequiredTechnology>
       <Time>50</Time>
+      <Tooltip>Reinforce with wood and upgrade to a sentry tower.</Tooltip>
     </Tower>
   </Upgrade>
   <VisualActor>

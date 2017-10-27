@@ -7,7 +7,7 @@
     <CapturePoints op="mul">0.3</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime op="mul">0.3</BuildTime>
     <PopulationBonus>5</PopulationBonus>
     <Resources>
       <wood>75</wood>
@@ -36,9 +36,6 @@
     <VisibleClasses datatype="tokens">Village House</VisibleClasses>
   </Identity>
   <Loot>
-    <food>0</food>
-    <metal>0</metal>
-    <stone>0</stone>
     <wood>8</wood>
   </Loot>
   <Obstruction>

@@ -7,11 +7,11 @@
     <CapturePoints op="mul">1.5</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime op="mul">1.5</BuildTime>
   </Cost>
   <Footprint>
-    <Square width="16.0" depth="16.0"/>
     <Height>12.0</Height>
+    <Square width="16.0" depth="16.0"/>
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>1</BuffHeal>
@@ -46,14 +46,6 @@
       <select>interface/select/building/sel_gymnasium.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Radius>25</Radius>
-    <Root>false</Root>
-    <Weight>40000</Weight>
-  </TerritoryInfluence>
-  <Vision>
-    <Range>30</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>

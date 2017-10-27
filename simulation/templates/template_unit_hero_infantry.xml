@@ -13,7 +13,7 @@
     <Height>2.5</Height>
   </Footprint>
   <Health>
-    <Max>500</Max>
+    <Max op="mul">0.5</Max>
   </Health>
   <Loot>
     <food>10</food>

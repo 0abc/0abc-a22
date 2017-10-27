@@ -9,7 +9,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>1500</Max>
+    <Max op="mul">1.5</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Horse Mounted</Classes>

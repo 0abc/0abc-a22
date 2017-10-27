@@ -4,7 +4,7 @@
     <CapturePoints op="mul">0.6</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>45</BuildTime>
+    <BuildTime op="mul">0.45</BuildTime>
     <Resources>
       <wood>100</wood>
     </Resources>
@@ -48,8 +48,8 @@
   </ProductionQueue>
   <RallyPoint disable=""/>
   <ResourceDropsite>
-    <Types>food</Types>
     <Sharable>true</Sharable>
+    <Types>food</Types>
   </ResourceDropsite>
   <Sound>
     <SoundGroups>
@@ -58,14 +58,6 @@
       <select>interface/select/building/sel_farmstead.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>20</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
-  <Vision>
-    <Range>20</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>

@@ -14,7 +14,7 @@
     <CapturePoints op="mul">2.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime op="mul">3.0</BuildTime>
+    <BuildTime op="mul">1.5</BuildTime>
     <Resources>
       <food op="add">50</food>
       <stone op="add">100</stone>
@@ -22,8 +22,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="10.0" depth="10.0"/>
     <Height>15.0</Height>
+    <Square width="10.0" depth="10.0"/>
   </Footprint>
   <GarrisonHolder>
     <Max>5</Max>

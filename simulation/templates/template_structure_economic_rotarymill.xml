@@ -7,7 +7,7 @@
     <Territory>own</Territory>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>100</BuildTime>
+    <BuildTime op="mul">1.2</BuildTime>
     <PopulationBonus>2</PopulationBonus>
     <Resources>
       <stone>100</stone>
@@ -58,10 +58,11 @@
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <TerritoryInfluence>
-    <Root>false</Root>
     <Radius>30</Radius>
-    <Weight>30000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
   <VisualActor>
     <Actor>structures/celts/special.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

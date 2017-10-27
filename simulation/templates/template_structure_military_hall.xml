@@ -7,7 +7,7 @@
     <CapturePoints op="mul">3.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>300</BuildTime>
+    <BuildTime op="mul">3.0</BuildTime>
     <Resources>
       <food>100</food>
       <metal>100</metal>
@@ -51,9 +51,9 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_broch.xml</select>
       <constructed>interface/complete/building/complete_broch.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_broch.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>

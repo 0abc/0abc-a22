@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall">
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime op="mul">0.3</BuildTime>
     <Resources>
       <stone>60</stone>
       <wood>20</wood>

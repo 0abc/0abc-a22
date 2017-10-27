@@ -4,7 +4,7 @@
     <CapturePoints op="mul">0.6</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>40</BuildTime>
+    <BuildTime op="mul">0.4</BuildTime>
     <Resources>
       <wood>100</wood>
     </Resources>
@@ -56,24 +56,16 @@
   </ProductionQueue>
   <RallyPoint disable=""/>
   <ResourceDropsite>
-    <Types>wood stone metal</Types>
     <Sharable>true</Sharable>
+    <Types>wood stone metal</Types>
   </ResourceDropsite>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_storehouse.xml</select>
       <constructed>interface/complete/building/complete_storehouse.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_storehouse.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>20</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
-  <Vision>
-    <Range>20</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>

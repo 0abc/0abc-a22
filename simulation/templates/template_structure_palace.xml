@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structure">
+<Entity parent="template_structure">
   <BuildRestrictions>
     <Category>Palace</Category>
   </BuildRestrictions>
@@ -7,7 +7,7 @@
     <CapturePoints op="mul">4.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>300</BuildTime>
+    <BuildTime op="mul">4.0</BuildTime>
     <PopulationBonus>10</PopulationBonus>
     <Resources>
       <food>300</food>
@@ -32,7 +32,7 @@
     <GenericName>Palace</GenericName>
     <Icon>structures/palace.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Gain a trickle of food, wood, stone, and metal resources. Train champion guards.</Tooltip>
+    <Tooltip>Gain a trickle of silver. Train champion guards.</Tooltip>
     <VisibleClasses datatype="tokens">City Palace Bribable</VisibleClasses>
   </Identity>
   <Loot>

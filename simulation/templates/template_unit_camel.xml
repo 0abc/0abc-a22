@@ -2,8 +2,6 @@
 <Entity parent="template_unit">
   <Armour>
     <Crush>5</Crush>
-    <Hack>1</Hack>
-    <Pierce>1</Pierce>
   </Armour>
   <Attack>
     <Capture>
@@ -24,10 +22,6 @@
     <Population>2</Population>
     <Resources>
       <food>90</food>
-      <metal>0</metal>
-      <silver>0</silver>
-      <stone>0</stone>
-      <wood>0</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -35,7 +29,7 @@
     <Height>7.5</Height>
   </Footprint>
   <Health>
-    <Max>90</Max>
+    <Max op="mul">0.9</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Human Organic Mounted</Classes>
@@ -48,10 +42,6 @@
   </Identity>
   <Loot>
     <food>9</food>
-    <metal>0</metal>
-    <silver>0</silver>
-    <stone>0</stone>
-    <wood>0</wood>
     <xp>90</xp>
   </Loot>
   <Position>
@@ -95,6 +85,6 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <Vision>
-    <Range>85</Range>
+    <Range op="add">35</Range>
   </Vision>
 </Entity>

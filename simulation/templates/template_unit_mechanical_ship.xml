@@ -9,10 +9,6 @@
     <BuildTime>10</BuildTime>
     <Population>1</Population>
     <Resources>
-      <food>0</food>
-      <metal>0</metal>
-      <silver>0</silver>
-      <stone>0</stone>
       <wood>50</wood>
     </Resources>
   </Cost>
@@ -34,10 +30,6 @@
     <VisibleClasses datatype="tokens">Ship Bribable</VisibleClasses>
   </Identity>
   <Loot>
-    <food>0</food>
-    <metal>0</metal>
-    <silver>0</silver>
-    <stone>0</stone>
     <wood>5</wood>
     <xp>25</xp>
   </Loot>
@@ -50,6 +42,7 @@
     <Capacities>
       <food>40</food>
       <metal>20</metal>
+      <silver>20</silver>
       <stone>20</stone>
       <wood>20</wood>
     </Capacities>
@@ -75,10 +68,6 @@
   </Sound>
   <UnitMotion>
     <PassabilityClass>ship</PassabilityClass>
-    <Run>
-      <Speed>20</Speed>
-    </Run>
-    <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <VisionSharing>
     <Bribable>true</Bribable>

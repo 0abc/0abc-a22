@@ -15,7 +15,4 @@
   <Repairable>
     <RepairTimeRatio>4.0</RepairTimeRatio>
   </Repairable>
-  <Vision>
-    <Range>50</Range>
-  </Vision>
 </Entity>

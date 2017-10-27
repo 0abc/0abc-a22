@@ -5,7 +5,7 @@
     <Territory>own ally neutral</Territory>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime op="mul">1.5</BuildTime>
     <Resources>
       <food>50</food>
       <wood>200</wood>
@@ -31,8 +31,8 @@
     <wood>20</wood>
   </Loot>
   <Market>
-    <TradeType>land naval</TradeType>
     <InternationalBonus>0.2</InternationalBonus>
+    <TradeType>land naval</TradeType>
   </Market>
   <Obstruction>
     <Static width="18.0" depth="18.0"/>
@@ -66,12 +66,13 @@
   </ResourceDropsite>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_dock.xml</select>
       <constructed>interface/complete/building/complete_dock.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_dock.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>50</Range>
   </Vision>

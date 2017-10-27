@@ -4,19 +4,19 @@
     structures/wall_garrisoned
   </Auras>
   <Cost>
-    <BuildTime>60</BuildTime>
+    <BuildTime op="mul">0.6</BuildTime>
     <Resources>
       <stone>120</stone>
       <wood>40</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>5</Max>
-    <List datatype="tokens">Ranged+Infantry</List>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Ranged+Infantry</List>
     <LoadingRange>2</LoadingRange>
+    <Max>5</Max>
     <VisibleGarrisonPoints>
       <Archer1>
         <X>0</X><Y>11.5</Y><Z>0</Z>
@@ -50,7 +50,6 @@
   <Upgrade>
     <Gate>
       <Entity>structures/{civ}_wall_gate</Entity>
-      <Tooltip>This will allow you to let units circulate through your fortifications.</Tooltip>
       <Cost>
         <food>0</food>
         <metal>40</metal>
@@ -58,6 +57,7 @@
         <wood>40</wood>
       </Cost>
       <Time>15</Time>
+      <Tooltip>This will allow you to let units circulate through your fortifications.</Tooltip>
     </Gate>
   </Upgrade>
   <VisualActor>

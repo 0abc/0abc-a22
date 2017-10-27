@@ -13,7 +13,7 @@
     <UnhealableClasses datatype="tokens"/>
   </Heal>
   <Health>
-    <Max op="mul">1.5</Max>
+    <Max op="mul">0.75</Max>
   </Health>
   <Identity>
     <GenericName>Healer</GenericName>

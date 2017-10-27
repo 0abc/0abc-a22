@@ -4,7 +4,7 @@
     <CapturePoints op="mul">2.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>250</BuildTime>
+    <BuildTime op="mul">2.5</BuildTime>
     <Resources>
       <food>50</food>
       <metal>150</metal>
@@ -68,14 +68,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>40</Radius>
-    <Weight>40000</Weight>
-  </TerritoryInfluence>
-  <Vision>
-    <Range>40</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>

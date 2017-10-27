@@ -13,7 +13,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Health>
-    <Max>1000</Max>
+    <Max op="mul">1.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Horse Mounted</Classes>

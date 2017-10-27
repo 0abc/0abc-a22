@@ -22,8 +22,8 @@
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
     <Category>Tower</Category>
@@ -33,7 +33,6 @@
     </Distance>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>50</BuildTime>
     <Resources>
       <wood>100</wood>
     </Resources>
@@ -49,7 +48,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Fortification Tower -ConquestCritical</Classes>
+    <Classes datatype="tokens">-ConquestCritical Fortification Tower</Classes>
     <GenericName>Tower</GenericName>
     <Icon>structures/defense_tower.png</Icon>
     <Tooltip>Shoots arrows. Garrison to provide extra defence. Needs the murder holes tech to protect its foot.</Tooltip>
@@ -71,15 +70,15 @@
   </ProductionQueue>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_tower.xml</select>
-      <constructed>interface/complete/building/complete_tower.xml</constructed>
       <attack>attack/weapon/arrowfly.xml</attack>
+      <constructed>interface/complete/building/complete_tower.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_tower.xml</select>
     </SoundGroups>
   </Sound>
   <StatusBars>
-    <BarWidth>6.0</BarWidth>
     <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
     <HeightOffset>18.0</HeightOffset>
   </StatusBars>
   <Vision>

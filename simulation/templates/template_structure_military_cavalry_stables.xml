@@ -4,7 +4,7 @@
     <CapturePoints op="mul">2.0</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>200</BuildTime>
+    <BuildTime op="mul">2.0</BuildTime>
     <Resources>
       <food>100</food>
       <metal>0</metal>
@@ -79,14 +79,6 @@
       <select>interface/select/building/sel_cavalry_stables.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>40</Radius>
-    <Weight>40000</Weight>
-  </TerritoryInfluence>
-  <Vision>
-    <Range>40</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>

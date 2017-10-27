@@ -45,9 +45,6 @@
     <Population>0</Population>
     <Resources>
       <food>75</food>
-      <metal>0</metal>
-      <stone>0</stone>
-      <wood>0</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -55,22 +52,18 @@
     <Height>3.0</Height>
   </Footprint>
   <Health>
-    <Max>75</Max>
+    <Max op="mul">0.75</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Organic Human</Classes>
-    <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
     <GenericName>War Dog</GenericName>
     <Rank>0</Rank>
     <Tooltip>Cannot attack ships, siege weapons, nor structures.
 Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
   </Identity>
   <Loot>
     <food>8</food>
-    <metal>0</metal>
-    <silver>0</silver>
-    <stone>0</stone>
-    <wood>0</wood>
     <xp>75</xp>
   </Loot>
   <Promotion>
@@ -87,16 +80,16 @@ Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
   </Selectable>
   <Sound>
     <SoundGroups>
-      <select>voice/global/civ_dog_bark.xml</select>
-      <order_walk>voice/global/civ_dog_move.xml</order_walk>
+      <attack>attack/weapon/sword.xml</attack>
+      <death>actor/fauna/death/death_animal_gen.xml</death>
       <order_attack>voice/global/civ_dog_move.xml</order_attack>
       <order_gather>voice/global/civ_dog_move.xml</order_gather>
       <order_repair>voice/global/civ_dog_move.xml</order_repair>
-      <walk>actor/mounted/movement/walk.xml</walk>
+      <order_walk>voice/global/civ_dog_move.xml</order_walk>
       <run>actor/mounted/movement/walk.xml</run>
-      <attack>attack/weapon/sword.xml</attack>
-      <death>actor/fauna/death/death_animal_gen.xml</death>
+      <select>voice/global/civ_dog_bark.xml</select>
       <trained>interface/complete/building/complete_kennel.xml</trained>
+      <walk>actor/mounted/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
   <StatusBars>
@@ -114,6 +107,6 @@ Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
     <WalkSpeed>15</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>60</Range>
+    <Range op="add">10</Range>
   </Vision>
 </Entity>

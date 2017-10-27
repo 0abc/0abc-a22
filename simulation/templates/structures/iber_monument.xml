@@ -64,7 +64,9 @@
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
+    <Radius>40</Radius>
     <Root>true</Root>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <Vision>
     <Range>60</Range>

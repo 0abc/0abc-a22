@@ -17,7 +17,7 @@
     <UnhealableClasses datatype="tokens"/>
   </Heal>
   <Health>
-    <Max>500</Max>
+    <Max op="mul">0.5</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">-Soldier Healer Support</VisibleClasses>

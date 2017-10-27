@@ -36,7 +36,7 @@
     </Entities>
   </Builder>
   <Health>
-    <Max op="mul">0.8</Max>
+    <Max op="mul">0.4</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">FemaleCitizen</Classes>

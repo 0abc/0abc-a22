@@ -8,14 +8,14 @@
     </Distance>
   </BuildRestrictions>
   <Armour>
-    <Crush>5.0</Crush>
+    <Crush>5</Crush>
     <Foundation>
-      <Crush>2.0</Crush>
-      <Hack>3.0</Hack>
-      <Pierce>8.0</Pierce>
+      <Crush>2</Crush>
+      <Hack>3</Hack>
+      <Pierce>8</Pierce>
     </Foundation>
-    <Hack>10.0</Hack>
-    <Pierce>40.0</Pierce>
+    <Hack>10</Hack>
+    <Pierce>40</Pierce>
   </Armour>
   <BuildRestrictions>
     <Category>DogKennel</Category>
@@ -24,7 +24,7 @@
     <CapturePoints op="mul">0.5</CapturePoints>
   </Capturable>
   <Cost>
-    <BuildTime>50</BuildTime>
+    <BuildTime op="mul">0.5</BuildTime>
     <Resources>
       <food>50</food>
       <wood>50</wood>
@@ -85,8 +85,9 @@
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <TerritoryInfluence>
-    <Radius>20</Radius>
-    <Root>false</Root>
-    <Weight>30000</Weight>
+    <Radius>10</Radius>
   </TerritoryInfluence>
+  <Vision>
+    <Range>10</Range>
+  </Vision>
 </Entity>

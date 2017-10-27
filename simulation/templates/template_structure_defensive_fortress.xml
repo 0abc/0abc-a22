@@ -21,6 +21,7 @@
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>3</DefaultArrowCount>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <MaxArrowCount>18</MaxArrowCount>
   </BuildingAI>
@@ -37,7 +38,7 @@
   </Capturable>
   <Cost>
     <PopulationBonus>10</PopulationBonus>
-    <BuildTime>450</BuildTime>
+    <BuildTime op="mul">4.5</BuildTime>
     <Resources>
       <food>200</food>
       <metal>100</metal>

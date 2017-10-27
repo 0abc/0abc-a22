@@ -35,12 +35,11 @@
     <Max op="mul">5.0</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Bribable</Classes>
     <GenericName>Theatre</GenericName>
     <Icon>structures/theatron.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Théātron</SpecificName>
-    <VisibleClasses datatype="tokens">City Theatre</VisibleClasses>
+    <VisibleClasses datatype="tokens">City Theatre Bribable</VisibleClasses>
   </Identity>
   <Loot>
     <food>50</food>

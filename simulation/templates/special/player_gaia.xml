@@ -5,12 +5,14 @@
       <Buy>
         <food>1.0</food>
         <metal>1.0</metal>
+        <silver>1.0</silver>
         <stone>1.0</stone>
         <wood>1.0</wood>
       </Buy>
       <Sell>
         <food>1.0</food>
         <metal>1.0</metal>
+        <silver>1.0</silver>
         <stone>1.0</stone>
         <wood>1.0</wood>
       </Sell>

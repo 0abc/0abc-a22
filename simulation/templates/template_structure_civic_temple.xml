@@ -36,12 +36,11 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Bribable</Classes>
     <GenericName>Temple</GenericName>
     <Icon>structures/temple.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train healers. Garrison units to heal them at a quick rate (3 HP per second). Research healing and religious improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town Temple Bribable</VisibleClasses>
   </Identity>
   <Loot>
     <food>5</food>

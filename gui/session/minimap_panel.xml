@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object
   name="minimapPanel"
-  size="0 32 212 244"
+  size="108 32 320 244"
   type="image"
   sprite="mapPanel"
 >

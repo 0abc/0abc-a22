@@ -32,13 +32,12 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Bribable</Classes>
     <GenericName>Library</GenericName>
     <Icon>structures/library_scroll.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Bibliothḗkē</SpecificName>
     <Tooltip>Research special technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">City Library</VisibleClasses>
+    <VisibleClasses datatype="tokens">City Library Bribable</VisibleClasses>
   </Identity>
   <Loot>
     <food>25</food>

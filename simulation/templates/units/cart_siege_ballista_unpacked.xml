@@ -18,6 +18,6 @@
     <Range op="add">50</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/carthaginians/siege_rock.xml</Actor>
+    <Actor>units/carthaginians/siege_rock_pivot.xml</Actor>
   </VisualActor>
 </Entity>

@@ -8,7 +8,7 @@
     <SpecificName>Kousít Misthophóros Toxótēs</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/mercenaries/mercenary_archer_infantry_1</Entity>
+    <Entity>units/cart/mercenary_archer_infantry_1</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/ptolemies/infantry_archer_b.xml</Actor>

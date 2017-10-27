@@ -29,13 +29,11 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>gaia</Civ>
-    <Classes datatype="tokens">Palace</Classes>
     <GenericName>Palace</GenericName>
     <Icon>structures/palace.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Gain a trickle of food, wood, stone, and metal resources. Train champion guards.</Tooltip>
-    <VisibleClasses datatype="tokens">City Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">City Palace Bribable</VisibleClasses>
   </Identity>
   <Loot>
     <food>30</food>

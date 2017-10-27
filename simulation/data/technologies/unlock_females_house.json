@@ -1,16 +1,16 @@
 {
-  "genericName": "Fertility Festival",
-  "specificName": {
-    "mace": "Thesmophória",
-    "spart": "Thesmophória",
-    "athen": "Thesmophória",
-    "rome": "Bona Dea"
-  },
-  "description": "A festival attended by women-only, to celebrate female fertility.",
   "cost": { "food": 250, "wood": 100, "stone": 0, "metal": 100 },
-  "requirements": { "tech": "phase_village" },
+  "description": "A festival attended by women-only, to celebrate female fertility.",
+  "genericName": "Fertility Festival",
   "icon": "wives_festival.png",
+  "requirements": { "tech": "phase_village" },
   "researchTime": 60,
-  "tooltip": "Unlock the ability to train women from houses.",
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Thesmophória",
+    "mace": "Thesmophória",
+    "rome": "Bona Dea",
+    "spart": "Thesmophória"
+  },
+  "tooltip": "Unlock the ability to train women from houses."
 }

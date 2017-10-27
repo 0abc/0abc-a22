@@ -45,7 +45,7 @@
 * Bribable (espionage: reveal their vision range for 10 seconds) are:
   * all ships and traders
   * heroes
-  * civic centres, colonies, crannogs, docks, embassies, halls, libraries, markets, naval shipyards, palaces, temples, theatres, and wonders
+  * centres, crannogs, docks, harbours, libraries, markets, palaces, temples, theatres, and wonders
 * Trade gain now depends on x+x^1.5 (instead of x^2), with x the distance between markets
 
 ### Silver
@@ -75,8 +75,13 @@ Silver is the new resource number one; it can not be gathered directly, but can 
   * wonders grant 400 silver
 
 And it can currently be used for:
-  * buying other resources (barter, market)
-  * espionage: bribing cost is changed to 250 silver (instead of 500 metal); 500 silver with counterespionage (instead of 750 metal)
+* buying other resources (barter, market)
+* a few miscellaneous technologies: 
+  * shared vision: 250 silver (instead of 100 food, 100 metal) 
+  * shared dropsites: 500 silver (instead of 200 food, 200 wood, 100 metal, 100 stone); also, three traders requirement is removed
+  * unlock spies: 1000 silver (instead of 500 food, 500 wood, 300 metal, 300 stone)
+  * counterespionage: 2000 silver (instead of 400 food, 400 metal)
+* espionage: bribing cost is changed to 250 silver (instead of 500 metal); 500 silver with counterespionage (instead of 750 metal)
 
 ### Population size
 * 0: heroes, war dogs, fire ships

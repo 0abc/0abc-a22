@@ -23,13 +23,13 @@
   * each rank grants +5% health, attack damage, and capture strength
 * Camelry, chariotry, and elephantry are now distinct classes, separate from cavalry; as a consequence, they no longer benefit from cavalry technologies
 * Cavalry, camels, and worker elephants can no longer be trained at the civic centre or crannog
-* Loot is standardized to 10% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
-  * experience is standardized to be equal to:
-  * 100% of total costs (soldiers)
-  * 50% of total costs (siege weapons, war ships)
-  * 10% of total costs (fishing boats, merchant ships, support units)
+* Loot resources are standardized to 10% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
+* Loot experience is standardized to be equal to:
+  * 100% of resource costs total (soldiers)
+  * 50% of resource costs total (siege weapons, war ships)
+  * 10% of resource costs total (fishing boats, merchant ships, support units)
   * 10% of maximum health (army camps, centres, fortresses, outposts, towers) 
-  * none (other structures)
+  * nothing (other structures)
 * Economic buildings and walls can be constructed in neutral territory
 * All walls and towers are stronger and more expensive; 
   * palisade and outpost are available in village phase, 
@@ -41,8 +41,8 @@
 * A third level of infantry and cavalry armoury researches is available; 
   blacksmith can be constructed in village phase
 * Walls, storehouses, markets, fields, farmsteads, and corrals can be constructed in neutral territory (new),
-  as can civic centres, colonies, crannogs, docks, naval shipyards, and outposts (unchanged)
-* Bribable (espionage: reveal their vision range for 10 seconds) are:
+  as can civic centres, colonies, crannogs, docks, harbours, shipyards, and outposts (unchanged)
+* Bribable (espionage: temporarily reveal their vision range) are:
   * all ships and traders
   * heroes
   * centres, crannogs, docks, embassies, harbours, libraries, markets, palaces, temples, theatres, and wonders
@@ -66,7 +66,7 @@ Silver is the new resource number one; it can not be gathered directly, but can 
   * camels and cavalry grant 2x silver (champions 4x)
   * bigae (two-horsed chariots) grant 4x silver (champions 8x)
   * quadrigae (four-horse chariots) grant 5x silver (champions 10x)
-  * elephants (two-horse chariots) grant 6x silver (champions 12x)
+  * war elephants grant 6x silver (champions 12x)
 * looting structures:
   * centres grant 200 silver
   * libraries grant 100 silver

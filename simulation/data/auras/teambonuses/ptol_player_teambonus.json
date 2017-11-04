@@ -1,10 +1,11 @@
 {
-  "type": "player",
   "affects": ["Unit"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
+  "auraDescription": "All allies automatically gain a 4% discount on unit food costs.",
+  "auraName": "Breadbasket of the Mediterranean",
   "modifications": [
     { "value": "Cost/Resources/food", "multiply": 0.96 }
   ],
-  "auraName": "Breadbasket of the Mediterranean",
-  "auraDescription": "All allies automatically gain a 4% discount on unit food costs."
+  "stackable": true,
+  "type": "player"
 }

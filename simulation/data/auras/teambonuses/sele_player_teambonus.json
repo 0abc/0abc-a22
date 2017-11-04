@@ -1,10 +1,11 @@
 {
-  "type": "global",
-  "affects": ["CivilCentre"],
+  "affects": ["Centre"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
-  "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.20 }
-  ],
+  "auraDescription": "Ally's centres have -20% construction time.",
   "auraName": "Syrian Tetrapolis",
-  "auraDescription": "Reduces the construction time for civil centers with 20% for allies of Seleucid players"
+  "modifications": [
+    { "value": "Cost/BuildTime", "multiply": 0.80 }
+  ],
+  "stackable": true,
+  "type": "global"
 }

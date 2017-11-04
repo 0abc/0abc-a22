@@ -1,10 +1,11 @@
 {
-  "type": "global",
   "affects": ["Infantry Spear"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
+  "auraDescription": "Ally's infantry spearmen have -20% training time.",
+  "auraName": "Celtic Mercenaries",
   "modifications": [
     { "value": "Cost/BuildTime", "multiply": 0.8 }
   ],
-  "auraName": "Celtic Mercenaries",
-  "auraDescription": "Ally's infantry spearmen have -20% training time."
+  "stackable": true,
+  "type": "global"
 }

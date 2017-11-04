@@ -1,10 +1,11 @@
 {
-  "type": "global",
   "affects": ["Infantry Sword"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
+  "auraDescription": "Ally's infantry swordsmen have -20% training time.",
+  "auraName": "Roman Style Swordsmen",
   "modifications": [
     { "value": "Cost/BuildTime", "multiply": 0.8 }
   ],
-  "auraName": "Roman Style Swordsmen",
-  "auraDescription": "Ally's infantry swordsmen have -20% training time."
+  "stackable": true,
+  "type": "global"
 }

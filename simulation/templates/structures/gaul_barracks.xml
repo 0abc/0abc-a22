@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks_combined">
+<Entity parent="template_structure_military_barracks">
   <Cost>
     <PopulationBonus>4</PopulationBonus>
   </Cost>
@@ -17,7 +17,6 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_sword_infantry
-      units/{civ}_champion_spear_cavalry
     </Entities>
   </ProductionQueue>
   <VisualActor>

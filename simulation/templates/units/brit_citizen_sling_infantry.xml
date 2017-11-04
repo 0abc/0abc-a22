@@ -2,7 +2,6 @@
 <Entity parent="template_unit_infantry_ranged_stone">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_cavalry_stables
       -structures/{civ}_hall
       -structures/{civ}_shipyard
       structures/brit_crannog

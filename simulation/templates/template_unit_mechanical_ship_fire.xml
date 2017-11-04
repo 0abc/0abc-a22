@@ -22,14 +22,6 @@
       <wood op="add">100</wood>
     </Resources>
   </Cost>
-  <DeathDamage>
-    <Shape>Circular</Shape>
-    <Range>30</Range>
-    <FriendlyFire>true</FriendlyFire>
-    <Hack>300.0</Hack>
-    <Pierce>300.0</Pierce>
-    <Crush>300.0</Crush>
-  </DeathDamage>
   <Footprint replace="">
     <Square width="8.0" depth="24.0"/>
     <Height>8.0</Height>

@@ -5,6 +5,7 @@
   "name": "Food",
   "order": 2,
   "subtypes": {
+    "cheese": "Cheese",
     "fish": "Fish",
     "fruit": "Fruit",
     "grain": "Grain",

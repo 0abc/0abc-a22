@@ -11,7 +11,6 @@
   <Identity>
     <Civ>ptol</Civ>
     <SpecificName>Stratones</SpecificName>
-    <Tooltip>Train Egyptian and Near-Eastern citizen-soldiers and mercenaries. Research training improvements.</Tooltip>
   </Identity>
   <Loot>
     <wood op="add">-10</wood>

@@ -4,7 +4,7 @@
     <Icon>units/hele_mechanical_siege_lithobolos.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/mace_siege_lithobolos_packed</Entity>
+    <Entity>units/ptol_siege_lithobolos_packed</Entity>
     <State>unpacked</State>
     <Time>12000</Time>
   </Pack>

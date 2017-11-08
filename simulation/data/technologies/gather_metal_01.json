@@ -1,0 +1,14 @@
+{
+  "genericName": "Wedge and Mallet",
+  "description": "Increases metal gathering rates.",
+  "cost": {"food": 125, "wood": 125, "stone": 0, "metal": 50},
+  "requirements": {"tech": "phase_village"},
+  "icon": "mining_metal.png",
+  "researchTime": 30,
+  "tooltip": "Equip your workers with helpful tools. +20% metal gathering rate.",
+  "modifications": [
+    {"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.20}
+  ],
+  "affects": ["Worker"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

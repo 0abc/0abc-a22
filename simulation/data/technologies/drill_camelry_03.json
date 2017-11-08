@@ -2,7 +2,7 @@
   "genericName": "Advanced Camelry Training",
   "description": "Give an advanced training to all new camel soldiers.",
   "cost": {"food": 450, "wood": 0, "stone": 0, "metal": 300},
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "ptol" }] }] },
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "drill_camel_03.png",
   "researchTime": 60,

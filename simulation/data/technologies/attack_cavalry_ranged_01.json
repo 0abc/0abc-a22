@@ -1,17 +1,17 @@
 {
-	"genericName": "Basic Ranged Combat Cavalry Training",
-	"description": "Training increases ranged attack.",
-	"cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
-	"requirements": {"tech": "phase_village"},
-	"requirementsTooltip": "Unlocked in Village Phase.",
-	"icon": "horse_rider.png",
-	"researchTime": 40,
-	"tooltip": "+15% ranged cavalry attack.",
-	"modifications": [
-    {"value": "Attack/Ranged/Hack", "multiply": 1.15},
-		{"value": "Attack/Ranged/Pierce", "multiply": 1.15},
-		{"value": "Attack/Ranged/Crush", "multiply": 1.15}
+  "genericName": "Basic Ranged Combat Cavalry Training",
+  "description": "Training increases ranged attack.",
+  "cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "icon": "horse_rider.png",
+  "researchTime": 40,
+  "tooltip": "+15% ranged cavalry attack.",
+  "modifications": [
+    {"value": "Attack/Ranged/Crush",  "multiply": 1.15},
+    {"value": "Attack/Ranged/Hack",   "multiply": 1.15},
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.15}
   ],
-	"affects": ["Cavalry Ranged"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "affects": ["Cavalry Ranged"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

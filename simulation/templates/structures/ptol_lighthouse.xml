@@ -1,68 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic">
-  <BuildRestrictions>
-    <Category>Lighthouse</Category>
-    <PlacementType>shore</PlacementType>
-    <Territory>own ally neutral</Territory>
-  </BuildRestrictions>
-  <Cost>
-    <BuildTime>200</BuildTime>
-    <Resources>
-      <food>0</food>
-      <metal>200</metal>
-      <stone>200</stone>
-      <wood>200</wood>
-    </Resources>
-  </Cost>
-  <Footprint replace="">
-    <Circle radius="14.0"/>
-    <Height>8.0</Height>
-  </Footprint>
-  <Health>
-    <Max>3000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
-  </Health>
+<Entity parent="template_structure_civic_lighthouse">
   <Identity>
     <Civ>ptol</Civ>
-    <Classes datatype="tokens">Bribable</Classes>
-    <GenericName>Lighthouse</GenericName>
-    <Icon>structures/lighthouse.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Pháros</SpecificName>
-    <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range: 180 meters.</Tooltip>
-    <VisibleClasses datatype="tokens">City Lighthouse</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>20</food>
-    <metal>20</metal>
-    <silver>60</silver>
-    <stone>20</stone>
-    <wood>20</wood>
-  </Loot>
-  <Obstruction>
-    <Static width="20.0" depth="25.0"/>
-  </Obstruction>
-  <Position>
-    <Floating>true</Floating>
-  </Position>
-  <ProductionQueue disable=""/>
-  <Sound>
-    <SoundGroups>
-      <constructed>interface/complete/building/complete_temple.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-      <select>interface/select/building/sel_temple.xml</select>
-    </SoundGroups>
-  </Sound>
-  <TerritoryDecay disable=""/>
-  <Vision>
-    <Range>180</Range>
-    <RevealShore>true</RevealShore>
-  </Vision>
   <VisualActor>
     <Actor>structures/ptolemies/lighthouse.xml</Actor>
     <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
   </VisualActor>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

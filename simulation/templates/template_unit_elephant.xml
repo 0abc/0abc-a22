@@ -20,7 +20,7 @@
     </Slaughter>
   </Attack>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>24</BuildTime>
     <Population>6</Population>
     <Resources>
       <food>300</food>
@@ -31,7 +31,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max op="mul">3.0</Max>
+    <Max op="mul">5.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Human Organic Mounted</Classes>

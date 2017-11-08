@@ -2,7 +2,7 @@
   "genericName": "Basic Chariotry Training",
   "description": "Give a basic training to all new chariot soldiers.",
   "cost": {"food": 250, "wood": 0, "stone": 0, "metal": 150},
-  "requirements": {"tech": "phase_village"},
+  "requirements": { "all": [{ "tech": "phase_village" }, { "any": [{ "civ": "brit"}, { "civ": "maur"}, { "civ": "pers"}, { "civ": "sele" }] }] },
   "requirementsTooltip": "Unlocked in Village Phase.",
   "icon": "drill_chariot_01.png",
   "researchTime": 30,

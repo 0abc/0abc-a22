@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_archer">
+  <Armour>
+    <Crush op="add">1</Crush>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Crush op="mul">1.15</Crush>
+      <Hack op="mul">1.15</Hack>
+      <Pierce op="mul">1.15</Pierce>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime op="mul">0.8</BuildTime>
+    <Resources>
+      <metal op="add">100</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Mercenary Elephant Archer</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">-Citizen Mercenary</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal op="add">10</metal>
+    <xp op="add">100</xp>
+  </Loot>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+</Entity>

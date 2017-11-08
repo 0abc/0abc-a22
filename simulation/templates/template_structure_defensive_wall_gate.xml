@@ -18,12 +18,12 @@
     <wood op="add">4</wood>
   </Loot>
   <Obstruction>
-    <Static disable=""/>
     <Obstructions>
       <Door width="20.0" depth="6.5" x="0" z="0"/>
       <Left width="5" depth="5" x="-10" z="0"/>
       <Right width="5" depth="5" x="10" z="0"/>
     </Obstructions>
+    <Static disable=""/>
   </Obstruction>
   <Sound>
     <SoundGroups>

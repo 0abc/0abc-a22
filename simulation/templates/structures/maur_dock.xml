@@ -11,6 +11,13 @@
   <Obstruction>
     <Static width="25.0" depth="20.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      armour_ship_01
+      armour_ship_02
+      armour_ship_03
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/mauryans/dock.xml</Actor>
   </VisualActor>

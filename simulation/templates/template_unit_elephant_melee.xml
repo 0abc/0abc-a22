@@ -24,21 +24,20 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">200</metal>
-      <wood op="add">100</wood>
+      <metal op="add">100</metal>
+      <wood op="add">50</wood>
     </Resources>
   </Cost>
   <Health>
-    <Max op="mul">1.4</Max>
+    <Max op="mul">1.0</Max>
   </Health>
   <Identity>
     <GenericName>War Elephant</GenericName>
-    <Tooltip>Garrison units for transport.
-Penalties: 0.125× vs Structures.</Tooltip>
+    <Tooltip>Penalties: 0.125× vs Structures.</Tooltip>
   </Identity>
   <Loot>
-    <metal op="add">20</metal>
-    <wood op="add">10</wood>
-    <xp op="add">300</xp>
+    <metal op="add">10</metal>
+    <wood op="add">5</wood>
+    <xp op="add">150</xp>
   </Loot>
 </Entity>

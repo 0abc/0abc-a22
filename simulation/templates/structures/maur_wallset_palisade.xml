@@ -10,11 +10,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Gate>other/palisades_rocks_gate</Gate>
-      <Tower>other/palisades_rocks_tower</Tower>
-      <WallLong>other/palisades_rocks_long</WallLong>
-      <WallMedium>other/palisades_rocks_medium</WallMedium>
-      <WallShort>other/palisades_rocks_short</WallShort>
+      <Gate>structures/palisades_rocks_gate</Gate>
+      <Tower>structures/palisades_rocks_tower</Tower>
+      <WallLong>structures/palisades_rocks_long</WallLong>
+      <WallMedium>structures/palisades_rocks_medium</WallMedium>
+      <WallShort>structures/palisades_rocks_short</WallShort>
     </Templates>
   </WallSet>
 </Entity>

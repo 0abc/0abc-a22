@@ -3,6 +3,9 @@
   <Footprint>
     <Square width="18.0" depth="16.5"/>
   </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>cart</Civ>
     <SpecificName>Rēfet</SpecificName>
@@ -12,5 +15,6 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/carthaginians/corral.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

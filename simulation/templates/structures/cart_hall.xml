@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <Icon>structures/tholos.png</Icon>
     <SpecificName>Sacred Band Barracks</SpecificName>
     <Tooltip>Train Sacred Band champions.</Tooltip>
   </Identity>

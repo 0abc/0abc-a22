@@ -3,9 +3,6 @@
   <Footprint>
     <Square width="12.0" depth="13.0"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Baserri</SpecificName>
@@ -15,6 +12,5 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/iberians/farmstead.xml</Actor>
-    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

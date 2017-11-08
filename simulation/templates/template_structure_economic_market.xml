@@ -45,11 +45,11 @@
     <Technologies datatype="tokens">
       unlock_shared_los
       unlock_shared_dropsites
-      trade_convoy_speed
-      trade_convoy_armour
+      trader_speed
+      trader_armour
       trade_gain_01
       trade_gain_02
-      trade_commercial_treaty
+      trade_international
     </Technologies>
     <Entities datatype="tokens">
       units/{civ}_support_trader

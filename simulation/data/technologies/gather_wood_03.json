@@ -1,0 +1,16 @@
+{
+  "genericName": "Sharp Axe Heads",
+  "description": "Increases wood gathering rates for trees.",
+  "cost": {"food": 500, "wood": 500, "stone": 0, "metal": 200},
+  "supersedes": "gather_wood_02",
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "wood_axe.png",
+  "researchTime": 60,
+  "tooltip": "Workers +30% lumbering rate for trees.",
+  "modifications": [
+    {"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.30}
+  ],
+  "affects": ["Worker"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

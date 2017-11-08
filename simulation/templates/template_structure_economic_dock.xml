@@ -51,10 +51,7 @@
     <Technologies datatype="tokens">
       gather_fish_net
       gather_fish_capacity
-      armour_ship_01
-      armour_ship_02
-      armour_ship_03
-      training_docks
+      special/training_docks
     </Technologies>
   </ProductionQueue>
   <RallyPointRenderer>

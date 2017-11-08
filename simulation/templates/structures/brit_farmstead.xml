@@ -6,9 +6,6 @@
   <Footprint>
     <Square width="12.0" depth="12.0"/>
   </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>brit</Civ>
     <SpecificName>Ffermdy</SpecificName>
@@ -18,6 +15,5 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/britons/farmstead.xml</Actor>
-    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

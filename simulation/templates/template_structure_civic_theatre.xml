@@ -7,16 +7,16 @@
     <Category>Theatre</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints op="mul">5.0</CapturePoints>
+    <CapturePoints op="mul">4.0</CapturePoints>
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime op="mul">5.0</BuildTime>
+    <BuildTime op="mul">4.0</BuildTime>
     <Resources>
-      <food>500</food>
-      <metal>500</metal>
-      <stone>500</stone>
-      <wood>500</wood>
+      <food>400</food>
+      <metal>400</metal>
+      <stone>800</stone>
+      <wood>400</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -29,23 +29,23 @@
     <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Human</List>
     <LoadingRange>2</LoadingRange>
-    <Max>50</Max>
+    <Max>40</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">5.0</Max>
+    <Max op="mul">4.0</Max>
   </Health>
   <Identity>
     <GenericName>Theatre</GenericName>
     <Icon>structures/theatron.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Théātron</SpecificName>
-    <VisibleClasses datatype="tokens">City Theatre Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">City Theatre</VisibleClasses>
   </Identity>
   <Loot>
-    <food>50</food>
-    <metal>50</metal>
-    <stone>50</stone>
-    <wood>50</wood>
+    <food>40</food>
+    <metal>40</metal>
+    <stone>80</stone>
+    <wood>40</wood>
   </Loot>
   <Obstruction>
     <Static width="46.0" depth="46.0"/>
@@ -66,11 +66,7 @@
   <Vision>
     <Range>100</Range>
   </Vision>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
   <VisualActor>
-    <Actor>structures/macedonians/theatron.xml</Actor>
     <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
   </VisualActor>
 </Entity>

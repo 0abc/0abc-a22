@@ -48,7 +48,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical Fortification Tower</Classes>
+    <Classes datatype="tokens">Fortification Tower</Classes>
     <GenericName>Tower</GenericName>
     <Icon>structures/defense_tower.png</Icon>
     <Tooltip>Shoots arrows. Garrison to provide extra defence. Needs the murder holes tech to protect its foot.</Tooltip>

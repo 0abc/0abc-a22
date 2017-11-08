@@ -9,7 +9,7 @@
     <BuildTime op="mul">1.0</BuildTime>
   </Cost>
   <Identity>
-    <Classes datatype="tokens">Defensive</Classes>
+    <Classes datatype="tokens">-ConquestCritical Defensive</Classes>
     <GenericName>Defensive Structure</GenericName>
   </Identity>
 </Entity>

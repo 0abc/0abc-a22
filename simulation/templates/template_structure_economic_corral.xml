@@ -23,7 +23,7 @@
   </GarrisonHolder>
   <Health>
     <Max op="mul">0.6</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_stone_2x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Corral</GenericName>

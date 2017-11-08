@@ -2,7 +2,7 @@
 *0 A.D. is Actually Before Christ* (a modification of “0 A.D. Empires Ascendant”, version 0.0.22 “Alpha XXII: Venustas”)
 
 ## Instructions
-* Download the zip or `git clone` this repository (`https://github.com/0abc/mounted.git`).
+* Download the zip or `git clone` this repository (`https://github.com/0abc/0abc-unified.git`).
 * Place it in your `/0ad/mods/` folder:
   * GNU/Linux (e.g. Fedora) typically: `~/.local/share/0ad/mods/`
   * Macintosh/Apple OS X typically: `~/Library/Application\Support/0ad/mods/`
@@ -45,7 +45,8 @@
 * Bribable (espionage: temporarily reveal their vision range) are:
   * all ships and traders
   * heroes
-  * centres, crannogs, docks, embassies, harbours, libraries, markets, palaces, temples, theatres, and wonders
+  * civic structures (blacksmiths, houses, libraries, lighthouses, temples, theatres)
+  * centres, crannogs, docks, embassies, harbours, markets, palaces, and wonders
 * Conquest critical are:
   * all units except fauna, fishing boats, healers, merchant ships, and traders
   * all military structures, centres, crannogs, fortresses, palaces, and wonders
@@ -175,6 +176,7 @@ And it can currently be used for:
 * Persians have +10% maximum population.
 * Persian structures have +10\% territory influence radius.
 * Ptolemaic healers have +6 healing range.
+* Ptolemaic barracks, blacksmiths, houses, and economic structures cost −100 wood but have +50% building time.
 * Ptolemies have a 30% resource cost and time discount on Temple technologies.
 * Romans have a 15% resource cost and time discount on Barracks technologies.
 * Roman cavalry swordsmen have a −10% melee attack damage penalty.

@@ -29,7 +29,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Cavalry Stables</GenericName>
+    <GenericName>Stables</GenericName>
     <Icon>structures/pers_stable.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Train cavalry soldiers. Research training improvements.</Tooltip>

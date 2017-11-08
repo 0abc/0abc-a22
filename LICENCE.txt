@@ -1,0 +1,19 @@
+  0abc is a modification of Wildfire Games' “0 A.D. Empires Ascendant”.
+This mod is hereby released completely free and open source; 
+feel free to copy, edit, modify, (re)distribute, or (re)use 
+any part(s) of it (or everything) in any way you like.
+
+  0 A.D.'s original license can be found at:
+https://trac.wildfiregames.com/browser/ps/trunk/LICENSE.txt
+
+  This mod also includes several new visual actors, created by:
+Alexandermb: 
+  Athenian/Macedonian/Seleucid lithobolos (packed and unpacked)
+  Athenian/Macedonian/Spartan oxybeles (packed and unpacked)
+  Carthaginian ballista (packed and unpacked)
+  Carthaginian oxybeles (packed and unpacked) 
+  Roman ballista (packed and unpacked)
+  Macedonian gastraphetes crossbowman
+  Mauryan battering ram
+  Ptolemian lithobolos (packed and unpacked)
+  Ptolemian polybolos (packed and unpacked)

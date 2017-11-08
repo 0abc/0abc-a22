@@ -6,8 +6,8 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "political_face.png",
 	"researchTime": 60,
-	"tooltip": "Centres, Temples, Houses, and other civic buildings -25% build time.",
-	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.75}],
-	"affects": ["Centre", "Civic"],
+	"tooltip": "Centres and docks -30% build time.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.7}],
+	"affects": ["Centre", "Dock"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

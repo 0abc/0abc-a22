@@ -1,6 +1,0 @@
-{
-	"genericName": "Traditional Army vs. Reform Army",
-	"top": "special/unlock_traditional_army",
-	"bottom": "special/unlock_reform_army",
-	"requirements": { "civ": "sele" }
-}

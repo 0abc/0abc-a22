@@ -5,7 +5,7 @@
     <GenericName>Romanized Heavy Swordsman</GenericName>
     <Icon>units/sele_champion_swordsman.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>special/unlock_reform_army</RequiredTechnology>
+    <RequiredTechnology>special/unlock_champion_swordsmen</RequiredTechnology>
     <SelectionGroupName>units/sele_champion_sword_infantry</SelectionGroupName>
     <SpecificName>Thorakitès Rhomaïkós</SpecificName>
   </Identity>

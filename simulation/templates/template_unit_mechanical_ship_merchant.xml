@@ -5,6 +5,9 @@
     <Hack op="add">2</Hack>
     <Pierce op="add">4</Pierce>
   </Armour>
+  <Auras datatype="tokens">
+    units/merchant_convoy
+  </Auras>
   <Cost>
     <BuildTime op="mul">2.0</BuildTime>
     <Population>1</Population>
@@ -27,7 +30,7 @@
     <Max op="mul">1.2</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <Classes datatype="tokens">-ConquestCritical NavalTrader</Classes>
     <Formations disable=""/>
     <GenericName>Merchantman</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>

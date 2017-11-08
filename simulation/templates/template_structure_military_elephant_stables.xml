@@ -47,12 +47,12 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_support_elephant
-      units/{civ}_citizen_war_elephant
       units/{civ}_citizen_archer_elephant
-      units/{civ}_mercenary_war_elephant
+      units/{civ}_citizen_war_elephant
       units/{civ}_mercenary_archer_elephant
-      units/{civ}_champion_war_elephant
+      units/{civ}_mercenary_war_elephant
       units/{civ}_champion_archer_elephant
+      units/{civ}_champion_war_elephant
     </Entities>
     <Technologies datatype="tokens">
       drill_elephantry_01

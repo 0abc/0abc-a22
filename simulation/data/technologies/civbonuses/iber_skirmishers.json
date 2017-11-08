@@ -9,6 +9,6 @@
     {"value": "Attack/Ranged/Hack", "multiply": 1.1},
     {"value": "Attack/Ranged/Pierce", "multiply": 1.1}
   ],
-  "requirements": {"civ": "gaul"},
+  "requirements": {"civ": "iber"},
   "tooltip": "Infantry Javelinists +10% ranged attack damage."
 }

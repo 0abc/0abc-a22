@@ -17,6 +17,13 @@
   <Obstruction>
     <Static width="10.0" depth="22.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      armour_ship_01
+      armour_ship_02
+      armour_ship_03
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/britons/dock.xml</Actor>
     <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>

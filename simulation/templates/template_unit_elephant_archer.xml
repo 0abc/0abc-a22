@@ -28,25 +28,18 @@
       <Spread>3.0</Spread>
     </Ranged>
   </Attack>
-  <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Archer</GarrisonArrowClasses>
-  </BuildingAI>
   <Cost>
-    <BuildTime op="mul">1.2</BuildTime>
     <Resources>
       <metal op="add">100</metal>
       <wood op="add">100</wood>
     </Resources>
   </Cost>
   <Health>
-    <Max op="mul">1.2</Max>
+    <Max op="mul">0.9</Max>
   </Health>
   <Identity>
     <GenericName>War Elephant Archer</GenericName>
-    <Tooltip>Garrison units for transport, and archers to increase firepower.
-Counters: 1.5× vs Camels.
+    <Tooltip>Counters: 1.5× vs Camels.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
   </Identity>

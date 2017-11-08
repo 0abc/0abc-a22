@@ -1,0 +1,12 @@
+{
+  "affects": ["NavalTrader"],
+  "auraDescription": "Merchant ships in a convoy have +1 crush, hack, and pierce armour.",
+  "auraName": "Convoy",
+  "modifications": [
+    {"value": "Armour/Crush",  "add": 1},
+    {"value": "Armour/Hack",   "add": 1},
+    {"value": "Armour/Pierce", "add": 1}
+  ],
+  "radius": 15,
+  "type": "range"
+}

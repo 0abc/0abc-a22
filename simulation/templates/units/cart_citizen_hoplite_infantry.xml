@@ -3,7 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/cart_elephant_stables
-      structures/cart_super_dock
+      structures/cart_harbour
     </Entities>
   </Builder>
   <Identity>

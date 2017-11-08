@@ -2,7 +2,7 @@
   "genericName": "Improved Chariotry Training",
   "description": "Give an improved training to all new chariot soldiers.",
   "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 300},
-  "requirements": {"tech": "phase_town"},
+  "requirements": { "all": [{ "tech": "phase_town" }, { "any": [{ "civ": "brit"}, { "civ": "maur"}, { "civ": "pers"}, { "civ": "sele" }] }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
   "icon": "drill_chariot_02.png",
   "researchTime": 45,

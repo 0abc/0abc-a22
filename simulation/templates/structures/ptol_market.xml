@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
-  <Cost>
-    <BuildTime op="mul">1.5</BuildTime>
-    <Resources>
-      <food op="add">50</food>
-      <wood op="add">-200</wood>
-    </Resources>
-  </Cost>
   <Footprint>
     <Height>8.0</Height>
     <Square width="27" depth="27"/>
@@ -15,10 +8,6 @@
     <Civ>ptol</Civ>
     <SpecificName>Empórion</SpecificName>
   </Identity>
-  <Loot>
-    <food op="add">5</food>
-    <wood op="add">-10</wood>
-  </Loot>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>

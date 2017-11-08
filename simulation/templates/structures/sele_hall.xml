@@ -18,7 +18,7 @@
       units/{civ}_champion_scythed_chariot
     </Entities>
     <Technologies datatype="tokens">
-      special/pair_unlock_champions
+      special/unlock_champion_swordsmen
       special/parade_of_daphne
     </Technologies>
   </ProductionQueue>

@@ -43,15 +43,15 @@
       gather_capacity_01
       gather_capacity_02
       gather_capacity_03
-      gather_lumber_01
-      gather_lumber_02
-      gather_lumber_03
-      gather_mine_01
-      gather_mine_02
-      gather_mine_03
-      gather_quarry_01
-      gather_quarry_02
-      gather_quarry_03
+      gather_wood_01
+      gather_wood_02
+      gather_wood_03
+      gather_metal_01
+      gather_metal_02
+      gather_metal_03
+      gather_stone_01
+      gather_stone_02
+      gather_stone_03
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

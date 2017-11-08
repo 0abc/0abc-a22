@@ -1,11 +1,11 @@
 {
   "genericName": "Ranged Infantry Irregulars",
   "specificName": {
-  "mace": "Átaktoi",
-  "spart": "Átaktoi",
-  "athen": "Átaktoi",
-  "sele": "Átaktoi",
-  "ptol": "Átaktoi"
+    "mace": "Átaktoi",
+    "spart": "Átaktoi",
+    "athen": "Átaktoi",
+    "sele": "Átaktoi",
+    "ptol": "Átaktoi"
   },
   "description": "Training increases damage of ranged infantry units.",
   "cost": {"food": 400, "wood": 400, "stone": 0, "metal": 400},
@@ -15,9 +15,10 @@
   "researchTime": 40,
   "tooltip": "+15% ranged infantry attack.",
   "modifications": [
-    {"value": "Attack/Ranged/Hack", "multiply": 1.15},
-    {"value": "Attack/Ranged/Pierce", "multiply": 1.15},
-    {"value": "Attack/Ranged/Crush", "multiply": 1.15}],
+    {"value": "Attack/Ranged/Crush",  "multiply": 1.15},
+    {"value": "Attack/Ranged/Hack",   "multiply": 1.15},
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.15}
+  ],
   "affects": ["Infantry Ranged"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

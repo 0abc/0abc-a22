@@ -4,10 +4,14 @@
   "genericName": "Will to fight",
   "icon": "coinage.png",
   "modifications": [
-    {"value": "Attack/Capture/RepeatTime", "multiply": 0.8, "affects": "Unit"},
-    {"value": "Attack/Melee/RepeatTime", "multiply": 0.8, "affects": "Melee"},
-    {"value": "Attack/Ranged/RepeatTime", "multiply": 0.8, "affects": "Ranged"},
-    {"value": "Attack/Ranged/RepeatTime", "multiply": 0.8, "affects": "Structure"}
+    {"value": "Attack/Capture/Value", "multiply": 1.15, "affects": "Unit"     },
+    {"value": "Attack/Melee/Crush",   "multiply": 1.15, "affects": "Melee"    },
+    {"value": "Attack/Melee/Hack",    "multiply": 1.15, "affects": "Melee"    },
+    {"value": "Attack/Melee/Pierce",  "multiply": 1.15, "affects": "Melee"    },
+    {"value": "Attack/Ranged/Crush",  "multiply": 1.15, "affects": "Ranged"   },
+    {"value": "Attack/Ranged/Hack",   "multiply": 1.15, "affects": "Ranged"   },
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.15, "affects": "Ranged"   },
+    {"value": "Attack/Ranged/Pierce", "multiply": 1.15, "affects": "Structure"}
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
@@ -15,10 +19,10 @@
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "specificName": {
     "athen": "Dýnamis",
-    "mace": "Dýnamis",
-    "ptol": "Dýnamis",
-    "sele": "Dýnamis",
+    "mace":  "Dýnamis",
+    "ptol":  "Dýnamis",
+    "sele":  "Dýnamis",
     "spart": "Dýnamis"
   },
-  "tooltip": "Inspire your troops with higher pay. Units and structures +25% attack speed."
+  "tooltip": "Inspire your troops with higher pay. Units and structures +15% attack strength."
 }

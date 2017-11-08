@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/maur/citizen_war_elephant_1">
+  <Identity>
+    <Rank>2</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/maur/citizen_war_elephant_3</Entity>
+  </Promotion>
+</Entity>

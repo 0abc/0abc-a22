@@ -2,7 +2,7 @@
   "genericName": "Advanced Chariotry Training",
   "description": "Give an advanced training to all new chariot soldiers.",
   "cost": {"food": 750, "wood": 0, "stone": 0, "metal": 450},
-  "requirements": {"tech": "phase_city"},
+  "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "brit"}, { "civ": "maur"}, { "civ": "pers"}, { "civ": "sele" }] }] },
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "drill_chariot_03.png",
   "researchTime": 60,

@@ -11,6 +11,9 @@
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Civic Structure</GenericName>
-    <VisibleClasses datatype="tokens">Civic</VisibleClasses>
+    <VisibleClasses datatype="tokens">Civic Bribable</VisibleClasses>
   </Identity>
+  <VisionSharing>
+    <Bribable>true</Bribable>
+  </VisionSharing>
 </Entity>

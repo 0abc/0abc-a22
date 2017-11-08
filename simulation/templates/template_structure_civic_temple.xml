@@ -40,7 +40,7 @@
     <Icon>structures/temple.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Train healers. Garrison units to heal them at a quick rate (3 HP per second). Research healing and religious improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Temple Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
   </Identity>
   <Loot>
     <food>5</food>
@@ -80,9 +80,6 @@
   <Vision>
     <Range>40</Range>
   </Vision>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
   <VisualActor>
     <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
   </VisualActor>

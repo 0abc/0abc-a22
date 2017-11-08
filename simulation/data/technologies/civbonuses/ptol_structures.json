@@ -1,0 +1,17 @@
+{
+  "affects": ["Barracks", "Blacksmith", "Economic", "House"],
+  "autoResearch": true,
+  "description": "Egyptian buildings were often made of sun-dried mud bricks.",
+  "genericName": "Mud bricks",
+  "icon": "wall.png",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 1.5},
+    {"value": "Cost/PopulationBonus", "multiply": 0.5, "affects": "House"},
+    {"value": "Cost/Resources/wood", "add": -50, "affects": "House"},
+    {"value": "Cost/Resources/wood", "add": -100},
+    {"value": "Loot/wood", "add": -5, "affects": "House"},
+    {"value": "Loot/wood", "add": -10}
+  ],
+  "requirements": {"civ": "ptol"},
+  "tooltip": "Ptolemaic barracks, blacksmiths, houses, and economic structures cost -100 wood but have +50% building time."
+}

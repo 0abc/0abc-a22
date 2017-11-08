@@ -37,7 +37,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Bibliothḗkē</SpecificName>
     <Tooltip>Research special technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">City Library Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">City Library</VisibleClasses>
   </Identity>
   <Loot>
     <food>25</food>
@@ -69,11 +69,4 @@
   <Vision>
     <Range>50</Range>
   </Vision>
-  <VisualActor>
-    <Actor>structures/macedonians/library.xml</Actor>
-    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
-  </VisualActor>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

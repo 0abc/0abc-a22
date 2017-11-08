@@ -1,5 +1,5 @@
-# 0abc
-*0 A.D. is Actually Before Christ* (a modification of “0 A.D. Empires Ascendant”, version 0.0.22 “Alpha XXII: Venustas”)
+# 0 A.D. is Actually Before Christ
+a modification of “0 A.D. Empires Ascendant”, version 0.0.22 “Alpha XXII: Venustas”
 
 ## Instructions
 * Download the zip or `git clone` this repository (`https://github.com/0abc/0abc-unified.git`).
@@ -32,11 +32,11 @@
   * nothing (other structures)
 * Economic buildings and walls can be constructed in neutral territory
 * All walls and towers are stronger and more expensive; 
-  * palisade and outpost are available in village phase, 
+  * palisades and outposts are available in village phase, 
    * outposts can be upgraded individually to sentry towers in town phase,
-  * siege wall and sentry tower are available in town phase,
+  * turf walls and sentry towers are available in town phase,
    * sentry towers can be upgraded individually to defense towers in city phase,
-  * stone wall and defense tower are available in city phase; 
+  * stone walls and stone towers are available in city phase; 
 * Phase advances no longer increase citizen soldier health nor metal gather rate
 * A third level of infantry and cavalry armoury researches is available; 
   blacksmith can be constructed in village phase

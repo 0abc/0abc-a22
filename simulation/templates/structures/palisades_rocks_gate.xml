@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_palisade">
   <Cost>
-    <BuildTime op="mul">0.20</BuildTime>
+    <BuildTime op="mul">2.0</BuildTime>
     <Resources>
-      <wood>50</wood>
+      <wood>40</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -13,7 +13,7 @@
     <PassRange>20</PassRange>
   </Gate>
   <Health>
-    <Max op="mul">0.6</Max>
+    <Max op="mul">0.8</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Gates</Classes>
@@ -23,7 +23,7 @@
     <Tooltip>Allow units access through a palisade. Can be locked to prevent access.</Tooltip>
   </Identity>
   <Loot>
-    <wood>5</wood>
+    <wood>4</wood>
   </Loot>
   <Obstruction>
     <Obstructions>

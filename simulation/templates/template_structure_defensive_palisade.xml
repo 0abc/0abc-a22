@@ -11,6 +11,9 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable disable=""/>
+  <Cost>
+    <BuildTime op="mul">0.1</BuildTime>
+  </Cost>
   <Footprint>
     <Height>9.0</Height>
     <Square width="3.0" depth="3.0"/>

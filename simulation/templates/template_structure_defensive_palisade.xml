@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive">
   <Armour>
-    <Hack>5.0</Hack>
-    <Pierce>25.0</Pierce>
-    <Crush>2.0</Crush>
+    <Crush>2</Crush>
+    <Hack>5</Hack>
+    <Pierce>25</Pierce>
   </Armour>
   <BuildRestrictions>
     <Category>Wall</Category>
     <PlacementType>land-shore</PlacementType>
-    <Territory>own neutral</Territory>
+    <Territory>own neutral enemy ally</Territory>
   </BuildRestrictions>
   <Capturable disable=""/>
   <Cost>
@@ -38,7 +38,7 @@
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
   <Repairable>
-    <RepairTimeRatio>4.5</RepairTimeRatio>
+    <RepairTimeRatio>5.0</RepairTimeRatio>
   </Repairable>
   <Sound>
     <SoundGroups>

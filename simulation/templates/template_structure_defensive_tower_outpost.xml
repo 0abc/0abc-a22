@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower">
-  <Armour>
-    <Foundation>
-      <Crush>1</Crush>
-      <Hack>1</Hack>
-      <Pierce>5</Pierce>
-    </Foundation>
-  </Armour>
   <Attack>
     <Ranged>
       <ElevationBonus op="add">-6</ElevationBonus>
@@ -24,10 +17,6 @@
       <wood op="add">-25</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>15.0</Height>
-    <Square width="9.0" depth="9.0"/>
-  </Footprint>
   <GarrisonHolder>
     <Max>1</Max>
   </GarrisonHolder>
@@ -45,15 +34,10 @@
     <wood op="add">-2</wood>
     <xp op="mul">1.5</xp>
   </Loot>
-  <Obstruction>
-    <Static width="6.5" depth="6.5"/>
-  </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -tower_armour
-      -tower_crenellations
-      -tower_range
-      -tower_watch
+      tower_decay
+      tower_vision
     </Technologies>
   </ProductionQueue>
   <TerritoryDecay>

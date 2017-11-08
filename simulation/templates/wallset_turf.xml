@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abstract entity to serve as a bare-minimum dummy constructable entity to initiate wall placement.
+     Defines the set of actual entities that are part of the same wall construction system 
+     (i.e., towers, gates, wall segments of various length, etc.) using the WallSet component 
+     (to be overridden by child templates). -->
+<Entity>
+  <Identity>
+    <Civ>gaia</Civ>
+    <Classes datatype="tokens">TurfWall</Classes>
+    <GenericName>Turf Wall</GenericName>
+    <Icon>structures/siege_wall.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Town Wall</SpecificName>
+    <Tooltip>A wooden and turf palisade buildable in enemy and neutral territories.</Tooltip>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>1.00</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <Templates>
+      <Gate>structures/rome_siege_wall_gate</Gate>
+      <Tower>structures/rome_siege_wall_turret</Tower>
+      <WallLong>structures/rome_siege_wall_long</WallLong>
+      <WallMedium>structures/rome_siege_wall_medium</WallMedium>
+      <WallShort>structures/rome_siege_wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

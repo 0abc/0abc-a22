@@ -22,7 +22,6 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Height>15.0</Height>
     <Square width="10.0" depth="10.0"/>
   </Footprint>
   <GarrisonHolder>
@@ -30,14 +29,12 @@
   </GarrisonHolder>
   <Health>
     <Max op="mul">1.5</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">GarrisonTower</Classes>
     <GenericName>Defense Tower</GenericName>
     <Icon>structures/defense_tower.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Shoots arrows. Garrison to provide extra defense. Needs the murder holes tech to protect its foot.</Tooltip>
     <VisibleClasses datatype="tokens">DefenseTower</VisibleClasses>
   </Identity>
   <Loot>
@@ -46,12 +43,14 @@
     <wood op="add">5</wood>
     <xp op="mul">3.0</xp>
   </Loot>
-  <Obstruction>
-    <Static width="7.0" depth="7.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -tower_decay
+      tower_armour
+      tower_crenellations
+      tower_murderholes
+      tower_range
+      tower_vision
+      tower_watch
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>

@@ -20,14 +20,6 @@
     <Circle radius="4.0"/>
     <Height>6.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">FemaleCitizen</List>
-    <LoadingRange>2</LoadingRange>
-    <Max>3</Max>
-  </GarrisonHolder>
   <Health>
     <Max>300</Max>
   </Health>
@@ -37,14 +29,11 @@
     <GenericName>Worker Elephant</GenericName>
     <Icon>units/maur_support_elephant.png</Icon>
     <SpecificName>Karmākara Gaja</SpecificName>
-    <Tooltip>Mobile dropsite. Can also assist in constructing buildings. Females can garrison on it for shelter.</Tooltip>
+    <Tooltip>Mobile dropsite. Can also assist in constructing buildings.</Tooltip>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
   <Loot>
     <food>30</food>
-    <metal>0</metal>
-    <stone>0</stone>
-    <wood>0</wood>
     <xp>75</xp>
   </Loot>
   <Position>
@@ -64,11 +53,11 @@
   </Selectable>
   <Sound>
     <SoundGroups>
-      <select>actor/fauna/animal/elephant_select.xml</select>
-      <order_walk>actor/fauna/animal/elephant_order.xml</order_walk>
-      <order_attack>actor/fauna/animal/elephant_attack.xml</order_attack>
       <attack>actor/fauna/animal/elephant_attack.xml</attack>
       <death>actor/fauna/animal/elephant_death.xml</death>
+      <order_attack>actor/fauna/animal/elephant_attack.xml</order_attack>
+      <order_walk>actor/fauna/animal/elephant_order.xml</order_walk>
+      <select>actor/fauna/animal/elephant_select.xml</select>
       <trained>actor/fauna/animal/elephant_trained.xml</trained>
     </SoundGroups>
   </Sound>

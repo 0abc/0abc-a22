@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_wallset">
+<Entity parent="wallset_stone">
   <Identity>
     <Civ>rome</Civ>
     <SpecificName>Moenia</SpecificName>
@@ -9,7 +9,7 @@
     <MinTowerOverlap>0.10</MinTowerOverlap>
     <Templates>
       <Gate>structures/rome_wall_gate</Gate>
-      <Tower>structures/rome_wall_tower</Tower>
+      <Tower>structures/rome_wall_turret</Tower>
       <WallLong>structures/rome_wall_long</WallLong>
       <WallMedium>structures/rome_wall_medium</WallMedium>
       <WallShort>structures/rome_wall_short</WallShort>

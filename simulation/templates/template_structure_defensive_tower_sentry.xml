@@ -23,7 +23,6 @@
   </Cost>
   <Footprint>
     <Height>9.0</Height>
-    <Square width="9.5" depth="8.5"/>
   </Footprint>
   <GarrisonHolder>
     <Max>3</Max>
@@ -41,13 +40,13 @@
     <stone op="add">5</stone>
     <xp op="mul">2.0</xp>
   </Loot>
-  <Obstruction>
-    <Static width="9.0" depth="7.5"/>
-  </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -tower_armour
-      -tower_decay
+      tower_crenellations
+      tower_murderholes
+      tower_range
+      tower_vision
+      tower_watch
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>
@@ -67,7 +66,4 @@
       <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
     </Tower>
   </Upgrade>
-  <VisualActor>
-    <Actor>props/special/palisade_rocks_fort.xml</Actor>
-  </VisualActor>
 </Entity>

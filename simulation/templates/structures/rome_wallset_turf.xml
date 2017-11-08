@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_wallset">
+<Entity parent="wallset_turf">
   <Identity>
     <Civ>rome</Civ>
-    <Classes datatype="tokens">-StoneWall TurfWall</Classes>
     <GenericName>Siege Wall</GenericName>
-    <Icon>structures/siege_wall.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Murus Latericius</SpecificName>
-    <Tooltip>A wooden and turf palisade buildable in enemy and neutral territories.</Tooltip>
   </Identity>
-  <WallSet>
-    <MaxTowerOverlap>1.00</MaxTowerOverlap>
-    <MinTowerOverlap>0.05</MinTowerOverlap>
-    <Templates>
-      <Gate>structures/rome_siege_wall_gate</Gate>
-      <Tower>structures/rome_siege_wall_tower</Tower>
-      <WallLong>structures/rome_siege_wall_long</WallLong>
-      <WallMedium>structures/rome_siege_wall_medium</WallMedium>
-      <WallShort>structures/rome_siege_wall_short</WallShort>
-    </Templates>
-  </WallSet>
 </Entity>

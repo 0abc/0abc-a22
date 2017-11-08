@@ -4,7 +4,7 @@
     structures/wall_garrisoned
   </Auras>
   <Cost>
-    <BuildTime op="mul">0.45</BuildTime>
+    <BuildTime op="mul">6.0</BuildTime>
     <Resources>
       <stone>90</stone>
       <wood>30</wood>
@@ -37,6 +37,7 @@
     <stone>9</stone>
     <wood>3</wood>
   </Loot>
+  <ProductionQueue disable=""/>
   <VisualActor>
     <FoundationActor>structures/fndn_wall_medium.xml</FoundationActor>
   </VisualActor>

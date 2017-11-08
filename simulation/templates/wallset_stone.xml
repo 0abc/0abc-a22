@@ -9,10 +9,17 @@
     <GenericName>City Wall</GenericName>
     <Icon>structures/wall.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Wall off your town for a stout defense.</Tooltip>
+    <Tooltip>Wall off your city.</Tooltip>
   </Identity>
   <WallSet>
     <MaxTowerOverlap>0.85</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
+    <Templates>
+      <Gate>structures/{civ}_wall_gate</Gate>
+      <Tower>structures/{civ}_wall_turret</Tower>
+      <WallLong>structures/{civ}_wall_long</WallLong>
+      <WallMedium>structures/{civ}_wall_medium</WallMedium>
+      <WallShort>structures/{civ}_wall_short</WallShort>
+    </Templates>
   </WallSet>
 </Entity>	

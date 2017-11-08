@@ -10,7 +10,7 @@
     <Square width="15" depth="3"/>
   </Footprint>
   <Health>
-    <Max op="mul">0.6</Max>
+    <Max op="mul">0.75</Max>
   </Health>
   <Loot>
     <wood>3</wood>
@@ -20,10 +20,10 @@
   </Obstruction>
   <Upgrade>
     <Gate>
-      <Entity>structures/palisades_rocks_gate</Entity>
       <Cost>
         <wood>20</wood>
       </Cost>
+      <Entity>structures/wall_gate_palisade</Entity>
       <Time>10</Time>
     </Gate>
   </Upgrade>

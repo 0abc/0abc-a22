@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
   <Armour>
-    <Crush>5.0</Crush>
-    <Foundation>
-      <Crush>3.0</Crush>
-      <Hack>4.0</Hack>
-      <Pierce>7.0</Pierce>
-    </Foundation>
-    <Hack>15.0</Hack>
-    <Pierce>35.0</Pierce>
+    <Crush op="add">-2</Crush>
+    <Hack op="add">-10</Hack>
+    <Pierce op="add">-5</Pierce>
   </Armour>
   <BuildRestrictions>
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints op="mul">0.5</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime op="mul">0.5</BuildTime>
     <Resources>
@@ -56,7 +54,6 @@
   <Obstruction>
     <Static width="25.0" depth="5.0"/>
   </Obstruction>
-  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/romans/siege_wall_medium.xml</Actor>
   </VisualActor>

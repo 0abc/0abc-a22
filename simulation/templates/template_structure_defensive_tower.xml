@@ -37,6 +37,10 @@
       <wood>100</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Height>15.0</Height>
+    <Square width="9.0" depth="9.0"/>
+  </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
     <EjectHealth>0.1</EjectHealth>
@@ -57,17 +61,9 @@
     <wood>10</wood>
     <xp>50</xp>
   </Loot>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      tower_armour
-      tower_crenellations
-      tower_decay
-      tower_murderholes
-      tower_range
-      tower_vision
-      tower_watch
-    </Technologies>
-  </ProductionQueue>
+  <Obstruction>
+    <Static width="7.0" depth="7.0"/>
+  </Obstruction>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

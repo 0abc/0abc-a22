@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
   <Armour>
-    <Crush>5.0</Crush>
-    <Foundation>
-      <Crush>3.0</Crush>
-      <Hack>4.0</Hack>
-      <Pierce>7.0</Pierce>
-    </Foundation>
-    <Hack>15.0</Hack>
-    <Pierce>35.0</Pierce>
+    <Crush op="add">-2</Crush>
+    <Hack op="add">-5</Hack>
+    <Pierce op="add">-5</Pierce>
   </Armour>
   <BuildRestrictions>
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints op="mul">0.5</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">0.5</BuildTime>
+    <Resources>
+      <stone>0</stone>
+      <wood op="mul">2.0</wood>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Square width="40.0" depth="8.0"/>
     <Height>7.0</Height>
+    <Square width="40.0" depth="8.0"/>
   </Footprint>
   <Health>
     <Max op="mul">0.5</Max>
@@ -33,12 +38,11 @@
   </Loot>
   <Obstruction>
     <Obstructions>
-      <Right width="13" depth="5" x="12" z="0"/>
-      <Left width="13" depth="5" x="-12" z="0"/>
       <Door width="11" depth="5" x="0" z="0"/>
+      <Left width="13" depth="5" x="-12" z="0"/>
+      <Right width="13" depth="5" x="12" z="0"/>
     </Obstructions>
   </Obstruction>
-  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/romans/siege_wall_gate.xml</Actor>
   </VisualActor>

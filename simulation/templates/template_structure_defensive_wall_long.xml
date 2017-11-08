@@ -4,10 +4,10 @@
     structures/wall_garrisoned
   </Auras>
   <Cost>
-    <BuildTime op="mul">0.6</BuildTime>
+    <BuildTime op="mul">9.0</BuildTime>
     <Resources>
-      <stone>120</stone>
-      <wood>40</wood>
+      <stone>135</stone>
+      <wood>45</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -36,7 +36,7 @@
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">4.0</Max>
+    <Max op="mul">4.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -44,19 +44,18 @@
     <Tooltip>Long wall segments can be converted to gates.</Tooltip>
   </Identity>
   <Loot>
-    <stone>12</stone>
-    <wood>4</wood>
+    <stone>14</stone>
+    <wood>5</wood>
   </Loot>
+  <ProductionQueue disable=""/>
   <Upgrade>
     <Gate>
-      <Entity>structures/{civ}_wall_gate</Entity>
       <Cost>
-        <food>0</food>
         <metal>40</metal>
-        <stone>0</stone>
         <wood>40</wood>
       </Cost>
-      <Time>15</Time>
+      <Entity>structures/{civ}_wall_gate</Entity>
+      <Time>30</Time>
       <Tooltip>This will allow you to let units circulate through your fortifications.</Tooltip>
     </Gate>
   </Upgrade>

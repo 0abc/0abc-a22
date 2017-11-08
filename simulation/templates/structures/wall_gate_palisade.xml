@@ -13,7 +13,7 @@
     <PassRange>20</PassRange>
   </Gate>
   <Health>
-    <Max op="mul">0.8</Max>
+    <Max op="mul">1.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Gates</Classes>

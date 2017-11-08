@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_palisade">
   <Cost>
-    <BuildTime op="mul">0.5</BuildTime>
+    <BuildTime op="mul">1.25</BuildTime>
     <Resources>
-      <wood>10</wood>
+      <wood>25</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="5.5" depth="3"/>
+    <Square width="5" depth="5"/>
   </Footprint>
   <Health>
-    <Max op="mul">0.2</Max>
+    <Max op="mul">0.625</Max>
   </Health>
+  <Identity>
+    <GenericName>Wooden Wall Turret</GenericName>
+    <SpecificName>Stockade</SpecificName>
+  </Identity>
   <Loot>
-    <wood>1</wood>
+    <wood>3</wood>
   </Loot>
   <Obstruction>
-    <Static width="4.5" depth="2.0"/>
+    <ControlPersist/>
+    <Static width="4.0" depth="4.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>props/special/palisade_rocks_short.xml</Actor>
+    <Actor>props/special/palisade_rocks_tower.xml</Actor>
     <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
   </VisualActor>
   <WallPiece>

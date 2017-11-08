@@ -8,6 +8,9 @@
   <Capturable>
     <CapturePoints op="mul">4.0</CapturePoints>
   </Capturable>
+  <Cost>
+    <BuildTime op="mul">0.1</BuildTime>
+  </Cost>
   <Footprint>
     <Height>8.0</Height>
     <Square width="6.0" depth="6.0"/>
@@ -19,16 +22,18 @@
     <Classes datatype="tokens">StoneWall</Classes>
     <GenericName>Stone Wall</GenericName>
     <Icon>structures/wall.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Wall off your town for a stout defence.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="6.0" depth="6.0"/>
   </Obstruction>
-  <ProductionQueue disable=""/>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      walls_pair
+    </Technologies>
+  </ProductionQueue>
   <RallyPoint disable=""/>
   <Repairable>
-    <RepairTimeRatio>4.5</RepairTimeRatio>
+    <RepairTimeRatio>5.0</RepairTimeRatio>
   </Repairable>
   <Sound>
     <SoundGroups>
@@ -40,11 +45,7 @@
   <TerritoryDecay>
     <DecayRate>5.0</DecayRate>
   </TerritoryDecay>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>20</Radius>
-    <Weight>60000</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>20</Range>
   </Vision>

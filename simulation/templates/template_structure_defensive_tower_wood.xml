@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower">
+  <Capturable>
+    <CapturePoints op="mul">1.25</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">1.25</BuildTime>
+    <Resources>
+      <food op="add">50</food>
+      <wood op="add">50</wood>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>4</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">1.25</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Palisade GarrisonTower</Classes>
+    <GenericName>Wooden Tower</GenericName>
+    <Icon>structures/palisade_fort.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SpecificName>Palisade Fort</SpecificName>
+    <VisibleClasses datatype="tokens">WoodenTower</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food op="add">5</food>
+    <wood op="add">5</wood>
+    <xp op="mul">2.5</xp>
+  </Loot>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      tower_range
+      tower_vision
+      tower_watch
+    </Technologies>
+  </ProductionQueue>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>10</Radius>
+    <Weight>10000</Weight>
+  </TerritoryInfluence>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/{civ}_sentry_tower</Entity>
+      <Cost>
+        <stone>50</stone>
+      </Cost>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Time>50</Time>
+      <Tooltip>Reinforce with stone and upgrade to a sentry tower.</Tooltip>
+    </Tower>
+  </Upgrade>
+  <VisualActor>
+    <Actor>props/special/palisade_rocks_fort.xml</Actor>
+  </VisualActor>
+</Entity>
+

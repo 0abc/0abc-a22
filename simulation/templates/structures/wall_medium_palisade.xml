@@ -10,7 +10,7 @@
     <Square width="11" depth="3"/>
   </Footprint>
   <Health>
-    <Max op="mul">0.4</Max>
+    <Max op="mul">0.5</Max>
   </Health>
   <Loot>
     <wood>2</wood>

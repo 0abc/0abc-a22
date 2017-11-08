@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_wall_tower">
+<Entity parent="template_structure_defensive_wall_turret">
   <Footprint replace="">
     <Height>15.0</Height>
     <Circle radius="6.2"/>

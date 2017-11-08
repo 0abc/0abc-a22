@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abstract entity to serve as a bare-minimum dummy constructable entity to initiate wall placement.
+     Defines the set of actual entities that are part of the same wall construction system 
+     (i.e., towers, gates, wall segments of various length, etc.) using the WallSet component 
+     (to be overridden by child templates). -->
+<Entity>
+  <Identity>
+    <Civ>gaia</Civ>
+    <Classes datatype="tokens">Palisade</Classes>
+    <GenericName>Wooden Wall</GenericName>
+    <Icon>structures/palisade_wall.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SpecificName>Palisade</SpecificName>
+    <Tooltip>Wall off your village.</Tooltip>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>0.85</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <Templates>
+      <Gate>structures/wall_gate_palisade</Gate>
+      <Tower>structures/wall_turret_palisade</Tower>
+      <WallLong>structures/wall_long_palisade</WallLong>
+      <WallMedium>structures/wall_medium_palisade</WallMedium>
+      <WallShort>structures/wall_short_palisade</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

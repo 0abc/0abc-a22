@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/mace/champion_spear_infantry_9">
+  <Identity>
+    <Rank>10</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/mace/champion_spear_infantry_11</Entity>
+  </Promotion>
+</Entity>

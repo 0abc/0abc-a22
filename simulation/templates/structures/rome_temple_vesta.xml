@@ -26,7 +26,7 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       attack_soldiers_will
-      special/sibylline
+      special/vision
     </Technologies>
   </ProductionQueue>
   <VisualActor>

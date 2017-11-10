@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sele/champion_lance_cavalry_11">
+  <Identity>
+    <Rank>12</Rank>
+  </Identity>
+  <Promotion disable=""/>
+</Entity>

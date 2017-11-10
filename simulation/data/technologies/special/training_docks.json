@@ -1,15 +1,15 @@
 {
-  "genericName": "Naval Architects",
-  "description": "Significantly increase build speed of batches of ships at the Docks.",
+  "affects": ["Dock"],
   "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0 },
-	"requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "brit"}, { "civ": "gaul"}, { "civ": "iber"}, { "civ": "maur" }] }] },
-  "requirementsTooltip": "Unlocked in City Phase.",
+  "description": "Significantly increase build speed of batches of ships at the Docks.",
+  "genericName": "Naval Architects",
   "icon": "calipers.png",
-  "researchTime": 40,
-  "tooltip": "Docks increased batch construction speed bonus.",
   "modifications": [
     { "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }
   ],
-  "affects": ["Dock"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "brit"}, { "civ": "gaul"}, { "civ": "iber"}, { "civ": "maur" }] }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Docks increased batch construction speed bonus."
 }

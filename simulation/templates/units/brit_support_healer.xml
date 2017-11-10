@@ -9,6 +9,7 @@
     <Icon>units/celt_support_healer.png</Icon>
     <SelectionGroupName>units/brit_support_healer</SelectionGroupName>
     <SpecificName>Druides</SpecificName>
+    <VisibleClasses datatype="tokens">Druid</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>units/brit/support_healer_1</Entity>

@@ -51,8 +51,20 @@
       units/{civ}_siege_ballista_packed
       units/{civ}_siege_ram
       units/{civ}_siege_tower
+      units/{civ}_citizen_archer_chariot
+      units/{civ}_citizen_javelin_chariot
+      units/{civ}_citizen_scythed_chariot
+      units/{civ}_mercenary_archer_chariot
+      units/{civ}_mercenary_javelin_chariot
+      units/{civ}_mercenary_scythed_chariot
+      units/{civ}_champion_archer_chariot
+      units/{civ}_champion_javelin_chariot
+      units/{civ}_champion_scythed_chariot
     </Entities>
     <Technologies datatype="tokens">
+      drill_chariotry_01
+      drill_chariotry_02
+      drill_chariotry_03
       training_siege_workshop
       siege_armour
       siege_attack      

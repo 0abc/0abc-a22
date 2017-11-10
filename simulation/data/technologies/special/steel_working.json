@@ -1,21 +1,21 @@
 {
-	"genericName": "Steel Working",
-	"specificName": {
-		"maur": "Wootz Steel",
-		"iber": "Toledo Steel"
-	},
-	"description": "Secret steel working techniques give sword blades distinctive and beautiful markings. Not only that, but the steel's hardness is unparalleled.",
-	"cost": { "food": 150, "wood": 300, "stone": 0, "metal": 300 },
-	"requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "iber" }, { "civ": "maur" }] }] },
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "metalworker.png",
-	"researchTime": 60,
-	"tooltip": "+20% melee attack for all sword units.",
-	"modifications": [
+  "affects": ["Sword"],
+  "cost": { "food": 150, "wood": 300, "stone": 0, "metal": 300 },
+  "description": "Secret steel working techniques give sword blades distinctive and beautiful markings. Not only that, but the steel's hardness is unparalleled.",
+  "genericName": "Steel Working",
+  "icon": "metalworker.png",
+  "modifications": [
     { "value": "Attack/Melee/Crush", "multiply": 1.2 },
     { "value": "Attack/Melee/Hack", "multiply": 1.2 },
     { "value": "Attack/Melee/Pierce", "multiply": 1.2 }
   ],
-	"affects": ["Sword"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "iber" }, { "civ": "maur" }] }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "iber": "Toledo Steel",
+    "maur": "Wootz Steel"
+  },
+  "tooltip": "+20% melee attack for all sword units."
 }

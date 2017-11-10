@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spear_champion">
-  <Armour>
-    <Crush op="add">-4</Crush>
-    <Hack op="add">-4</Hack>
-    <Pierce op="add">-4</Pierce>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Crush op="mul">1.2</Crush>
-      <Hack op="mul">1.2</Hack>
-      <Pierce op="mul">1.2</Pierce>
-    </Melee>
-  </Attack>
   <Identity>
     <Civ>gaul</Civ>
     <GenericName>Naked Fanatic</GenericName>
@@ -19,16 +7,11 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gaul_champion_spear_infantry</SelectionGroupName>
     <SpecificName>Gaesata</SpecificName>
+    <VisibleClasses datatype="tokens">Fanatic</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>units/gaul/champion_spear_infantry_1</Entity>
   </Promotion>
-  <UnitMotion>
-    <Run>
-      <Speed op="add">5</Speed>
-    </Run>
-    <WalkSpeed op="add">5</WalkSpeed>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/celts/fanatic.xml</Actor>
   </VisualActor>

@@ -4,6 +4,7 @@
     <Civ>cart</Civ>
     <GenericName>Sacred Band Cavalry</GenericName>
     <Icon>units/cart_sacred_band_cavalry.png</Icon>
+    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SelectionGroupName>units/cart_champion_spear_cavalry</SelectionGroupName>
     <SpecificName>Sacred Band of Astarte</SpecificName>
   </Identity>

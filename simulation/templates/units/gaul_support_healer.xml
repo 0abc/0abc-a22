@@ -4,14 +4,12 @@
     units/curse
     units/motivation
   </Auras>
-  <Cost>
-    <BuildTime op="mul">3.0</BuildTime>
-  </Cost>
   <Identity>
     <Civ>gaul</Civ>
     <Icon>units/celt_support_healer.png</Icon>
     <SelectionGroupName>units/gaul_support_healer</SelectionGroupName>
     <SpecificName>Druides</SpecificName>
+    <VisibleClasses datatype="tokens">Druid</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>units/gaul/support_healer_1</Entity>

@@ -3,7 +3,7 @@
   "description": "Reform army and introduce different, usually unavailable champion units.",
   "genericName": "Unlock Unavailable Champions",
   "icon": "helmet_corinthian_crest.png",
-	"requirements": {"all": [{"tech": "pop_wonder"}, {"any": [{"civ": "cart"}, {"civ": "mace"}, {"civ": "spart"}]}]},
+  "requirements": {"all": [{"tech": "pop_wonder"}, {"any": [{"civ": "cart"}, {"civ": "mace"}, {"civ": "spart"}]}]},
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",

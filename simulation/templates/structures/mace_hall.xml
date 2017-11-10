@@ -12,12 +12,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/{civ}_champion_spear_infantry
       units/{civ}_champion_hoplite_infantry
       units/{civ}_champion_lance_cavalry
     </Entities>
-    <Technologies datatype="tokens">
-      special/silvershields
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/athenians/gymnasion.xml</Actor>

@@ -122,7 +122,6 @@ And it can currently be used for:
 * Sword cavalry: 1.5× vs Slinger Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Spear cavalry: 1.5× vs Archer Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Lance cavalry: 1.5× vs Javelin Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Cataphract cavalry: 1.5× vs Archer Cavalry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Archer biga chariots: 0.5× vs Elephantry
 * Javelin biga chariots: 0.5× vs Elephantry
 * Three-man biga chariots: 0.5× vs Elephantry
@@ -132,7 +131,7 @@ And it can currently be used for:
 * Scorpion: --
 * Bolt shooter: 1.5× vs Elephantry
 * Stone thrower: 1.5× vs Ships
-* Battering ram: 4.0× vs Gates, 2.0× vs other Structures
+* Battering ram: 8.0× vs Gates, 4.0× vs other Structures
 * Siege tower: 2.0× vs Fortresses, Towers
 
 ### Structure distances
@@ -151,40 +150,63 @@ And it can currently be used for:
 * Libraries each grant −10% structure construction time and −20% technology research time
 
 ### Civilization bonuses
-* Celtic (Briton and Gaulish) healers have +20% walk speed, +4 hack, pierce, and crush armour levels, and two more auras (“Curse” and “Motivation”), but also +100% training time, +50 metal and +5 wood costs, and +5 metal, +5 wood, and +10 experience loot.
-* Celtic (Briton and Gaulish) healers have +20% walk speed and +4 hack, pierce, and crush armour levels.
-* Celtic (Briton and Gaulish) civic, economic, military, and resource structures have −20% health, capture points, and build time; economic structures grant +2 population bonus, military structures +4, temples +6.
-* Celtic (Briton and Gaulish) walls have −20% health, build time, and stone and wood costs.
-* Celts (Britons and Gauls) have a 20% resource cost and time discount on Armoury technologies.
-* Greek (Athenians, Macedonians, Spartans) civic structures have +20% health and capture points.
-* Tribal (Briton, Gaulish, and Iberian centres have −20\% resource cost, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius.
-* Athenians have a 10% resource cost and time discount on Storehouse technologies.
-* Athenian warships have +10% walk speed.
-* Briton infantry swordsmen have +10% walk speed.
-* Briton sentry towers cost no stone and have −25% construction time and −10% health.
-* Carthaginian docks markets have −50% resource costs and construction time; dock and market technologies have a 25% resource cost and time discount.
-* Carthaginian ships have +20% vision range.
-* Carthaginian stone walls have +25% health.
-* Carthaginian traders have +5% gain.
-* Gaulish infantry spearmen have +10% melee attack damage.
-* Iberian infantry javelinists have +10% ranged attack damage.
-* Macedonian cavalry lancers have +10% melee attack damage.
-* Mauryans have +10% maximum population.
-* Mauryan healers cost −50% metal.
-* Mauryan stone walls have −20% health and building time.
-* Mauryan temples have −50% resource costs and construction time (former team bonus).
-* Persians have +10% maximum population.
-* Persian structures have +10\% territory influence radius.
-* Ptolemaic healers have +6 healing range.
-* Ptolemaic barracks, blacksmiths, houses, and economic structures cost −100 wood but have +50% building time.
-* Ptolemies have a 30% resource cost and time discount on Temple technologies.
-* Romans have a 15% resource cost and time discount on Barracks technologies.
-* Roman cavalry swordsmen have a −10% melee attack damage penalty.
-* Roman infantry swordsmen have +10% melee attack damage.
-* Seleucid civic centres have −30% resource costs.
-* Spartans no longer have a −10% maximum population penalty.
-* Spartan hoplites have +10% walk speed.
-* Spartan cavalry have a −10% attack damage penalty.
+* Cataphracts have +3 armour levels, but also −10% walk speed and +50 metal cost.
+* Celtic (Briton and Gaulish):
+  * blacksmith technologies cost −20% resources and time;
+  * civic, economic, military, and resource structures have −20% health, capture points, and build time; 
+  * economic structures grant +2 population bonus, military structures +4, temples +6;
+  * walls have −20% health, build time, and stone and wood costs;
+  * druids (healers) have +20% walk speed, +4 crush, hack, and pierce armour levels, and two more auras (“Curse” and “Motivation”), but also cost +50 metal, +50 wood, and +100% training time;
+  * naked fanatics (champion spearmen) have +15% attack damage and +30% walk speed, but also −4 armour levels.
+* Greek (Athenians, Macedonians, Spartans):
+  * civic structures have +20% health and capture points.
+* North African (Carthaginian, Ptolemaic):
+  * war elephants have −20% metal and wood costs and −10% training time, but also −10% attack damage and −20% maximum health.
+* Tribal (Briton, Gaulish, and Iberian):
+  * centres have −20% resource cost, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius.
+
+* Athenians:
+  * blacksmith technologies cost −10% resources and time;
+  * warships have +10% walk speed.
+* Britons:
+  * infantry swordsmen have +10% walk speed.
+  * sentry towers cost no stone and have −25% construction time and −10% health.
+* Carthaginians:
+  * market technologies cost −25% resources and time;
+  * markets have −50% resource costs and construction time;
+  * ships have +20~m vision range;
+  * traders have +5% gain;
+  * city walls have +25% health and build time;
+* Gauls:
+  * infantry spearmen have +10% melee attack damage.
+* Iberians:
+  * infantry javelinists have +10% ranged attack damage.
+* Macedonians:
+  * cavalry lancers have +10% melee attack damage.
+* Mauryans:
+  * +10% maximum population;
+  * healers cost −50% metal;
+  * city walls have −20% health and building time;
+  * temples have −50% resource costs and construction time (former team bonus).
+* Persians:
+  * +10% maximum population;
+  * +10% territory influence radius;
+  * battering rams have +20% maximum health but also cost +100 wood.
+* Ptolemies:
+  * barracks, blacksmiths, houses, and economic structures cost −100 wood but have +50% building time;
+  * healers have +6 healing range;
+  * temple technologies cost −25% resources and time.
+* Romans:
+  * barracks technologies cost −25% resources and time;
+  * infantry spearmen have +15% maximum health;
+  * infantry swordsmen have +10% melee attack damage;
+  * stone throwers have +20% crush damage, but also cost +50.0 stone.
+* Seleucids:
+  * centres have −30% resource costs.
+* Spartans:
+  * no longer have a −10% maximum population penalty;
+  * melee and ranged cavalry have a −10% attack damage penalty;
+  * hoplites have +10% walk speed.
 
 ## Team bonuses
 * Athenian allies: warships construction time

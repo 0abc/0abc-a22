@@ -1,18 +1,18 @@
 {
-	"genericName": "Athenian Long Walls",
-	"description": "The Long Walls of Athens were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
-	"cost": {"food": 0, "wood": 0, "stone": 250, "metal": 250},
-	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "athen"}]},
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "crenelations.png",
-	"researchTime": 60,
-	"tooltip": "Stone walls have +20% health but also cost +20% more resources.",
-	"modifications": [
-    {"value": "Health/Max", "multiply": 1.2},
+  "affects": ["StoneWall"],
+  "cost": {"food": 0, "wood": 0, "stone": 250, "metal": 250},
+  "description": "The Long Walls of Athens were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
+  "genericName": "Athenian Long Walls",
+  "icon": "crenelations.png",
+  "researchTime": 60,
+  "modifications": [
+    {"value": "Cost/Metal", "multiply": 1.2},
     {"value": "Cost/Wood", "multiply": 1.2},
     {"value": "Cost/Stone", "multiply": 1.2},
-    {"value": "Cost/Metal", "multiply": 1.2}
-	],
-	"affects": ["StoneWall"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+    {"value": "Health/Max", "multiply": 1.2}
+  ],
+  "requirements": {"all": [{"tech": "phase_city"}, {"civ": "athen"}]},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Stone walls have +20% health but also cost +20% more resources."
 }

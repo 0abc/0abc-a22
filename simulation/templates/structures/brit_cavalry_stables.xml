@@ -3,11 +3,6 @@
   <Identity>
     <Civ>brit</Civ>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_javelin_chariot
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/persians/stables.xml</Actor>
   </VisualActor>

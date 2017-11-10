@@ -1,0 +1,13 @@
+{
+  "affectedPlayers": ["Enemy"],
+  "affects": ["Infantry Melee"],
+  "auraDescription": "-2 armour levels for enemy melee infantry.",
+  "auraName": "Scythes",
+  "modifications": [
+    {"value": "Armour/Crush",  "add": -2},
+    {"value": "Armour/Hack",   "add": -2},
+    {"value": "Armour/Pierce", "add": -2}
+  ],
+  "radius": 10,
+  "type": "range"
+}

@@ -7,6 +7,7 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/sele_champion_war_elephant</SelectionGroupName>
     <SpecificName>Thorakisménos Eléphantos</SpecificName>
+    <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>units/sele/champion_war_elephant_1</Entity>

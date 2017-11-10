@@ -3,11 +3,6 @@
   <Identity>
     <Civ>rome</Civ>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_sword_cavalry
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/persians/stables.xml</Actor>
   </VisualActor>

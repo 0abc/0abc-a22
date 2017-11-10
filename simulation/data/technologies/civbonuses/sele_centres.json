@@ -11,5 +11,5 @@
     { "value": "Cost/Resources/wood", "multiply": 0.7 }
   ],
   "requirements": {"civ": "sele"},
-  "tooltip": "Civic Centres cost -30% resources."
+  "tooltip": "Centres cost -30% resources."
 }

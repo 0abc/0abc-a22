@@ -9,6 +9,9 @@
       <Pierce>9</Pierce>
     </Ranged>
   </Attack>
+  <Auras datatype="tokens">
+    units/scythed_chariot
+  </Auras>
   <Cost>
     <Resources>
       <metal op="add">75</metal>

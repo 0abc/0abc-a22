@@ -1,18 +1,22 @@
 {
-	"genericName": "Infantry Spear Fighting",
-	"specificName": {
-		"mace": "Doratismós",
-		"spart": "Doratismós",
-		"athen": "Doratismós"
-	},
-	"description": "Spear fighting training increases damage of infantry spear units.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 100},
-	"requirements": {"all": [{"tech": "phase_city"}, {"any": [{"civ": "athen"},{"civ": "mace"},{"civ": "spart"}]}]},
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "spear.png",
-	"researchTime": 40,
-	"tooltip": "Spearmen +2 hack attack.",
-	"modifications": [{"value": "Attack/Melee/Hack", "add": 2.0}],
-	"affects": ["Infantry Spear"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "affects": ["Infantry Spear"],
+  "cost": {"food": 300, "wood": 300, "stone": 0, "metal": 150},
+  "description": "Spear fighting training increases damage of infantry spear units.",
+  "genericName": "Infantry Spear Fighting",
+  "icon": "spear.png",
+  "modifications": [
+    { "value": "Attack/Melee/Crush", "multiply": 1.2 },
+    { "value": "Attack/Melee/Hack", "multiply": 1.2 },
+    { "value": "Attack/Melee/Pierce", "multiply": 1.2 }
+  ],
+  "requirements": {"all": [{"tech": "phase_city"}, {"any": [{"civ": "athen"},{"civ": "mace"},{"civ": "spart"}]}]},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Doratismós",
+    "mace": "Doratismós",
+    "spart": "Doratismós"
+  },
+  "tooltip": "+20% melee attack for all spear units."
 }

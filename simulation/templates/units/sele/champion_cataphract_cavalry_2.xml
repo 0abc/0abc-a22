@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/sele/champion_cataphract_cavalry_1">
-  <Identity>
-    <Rank>2</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/sele/champion_cataphract_cavalry_3</Entity>
-  </Promotion>
-</Entity>

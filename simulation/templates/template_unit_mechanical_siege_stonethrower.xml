@@ -54,7 +54,7 @@
     <GenericName>Stone Thrower</GenericName>
     <SpecificName>Lithobólos</SpecificName>
     <Tooltip>Counters: 1.5× vs Ships.</Tooltip>
-    <VisibleClasses datatype="tokens">Catapult Ranged</VisibleClasses>
+    <VisibleClasses datatype="tokens">StoneThrower Ranged</VisibleClasses>
   </Identity>
   <Loot>
     <food>15</food>

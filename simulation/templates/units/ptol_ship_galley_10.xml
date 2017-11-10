@@ -4,10 +4,8 @@
     <Civ>ptol</Civ>
     <Classes datatype="tokens">Juggernaut</Classes>
     <Icon>units/rome_ship_quinquereme.png</Icon>
+    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
   </Identity>
-  <TrainingRestrictions>
-    <Category>Juggernaut</Category>
-  </TrainingRestrictions>
   <VisualActor>
     <Actor>structures/romans/quinquereme.xml</Actor>
   </VisualActor>

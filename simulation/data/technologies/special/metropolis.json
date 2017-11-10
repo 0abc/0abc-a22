@@ -1,0 +1,18 @@
+{
+  "affects": ["Centre"],
+  "cost": {"food": 500, "wood": 500, "stone": 500, "metal": 500},
+  "description": "Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
+  "genericName": "Hellenistic Metropolis",
+  "icon": "statue_face_stone.png",
+  "modifications": [
+    {"value": "BuildingAI/DefaultArrowCount", "add": 1.0},
+    {"value": "Capturable/CapturePoints", "multiply": 1.5},
+    {"value": "Health/Max", "multiply": 1.5},
+    {"value": "Loot/xp", "multiply": 1.5}
+  ],
+  "requirements": {"all": [{"tech": "phase_city"}, {"any":[{"civ": "mace"}, {"civ": "ptol"}, {"civ": "sele"}]}]},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Centres +50% capture points, health, and loot experience, and one more default arrow."
+}

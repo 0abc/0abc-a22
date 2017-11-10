@@ -51,7 +51,7 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      special/hellenistic_metropolis
+      special/metropolis
     </Technologies>
   </ProductionQueue>
   <Sound>

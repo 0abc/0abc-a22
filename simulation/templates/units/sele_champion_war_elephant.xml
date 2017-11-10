@@ -5,7 +5,6 @@
     <GenericName>Armoured War Elephant</GenericName>
     <Icon>units/maur_champion_elephant.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>units/sele_champion_war_elephant</SelectionGroupName>
     <SpecificName>Thorakisménos Eléphantos</SpecificName>
   </Identity>

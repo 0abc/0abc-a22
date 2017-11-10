@@ -5,7 +5,7 @@
     <Gender>female</Gender>
     <GenericName>Maiden Guard</GenericName>
     <Icon>units/maur_champion_maiden.png</Icon>
-    <RequiredTechnology>special/unlock_maiden_guard</RequiredTechnology>
+    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SpecificName>Visha Kanya</SpecificName>
     <SelectionGroupName>units/maur_champion_sword_infantry</SelectionGroupName>
   </Identity>

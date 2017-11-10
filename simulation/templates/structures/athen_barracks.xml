@@ -16,9 +16,6 @@
       units/{civ}_champion_archer_infantry
       units/{civ}_champion_javelin_infantry
     </Entities>
-    <Technologies datatype="tokens">
-      special/unlock_thureophoros_champion
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/athenians/barracks.xml</Actor>

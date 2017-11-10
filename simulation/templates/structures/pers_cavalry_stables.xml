@@ -10,7 +10,7 @@
       units/{civ}_champion_lance_cavalry
     </Entities>
     <Technologies datatype="tokens">
-      special/unlock_bactrian_cavalry
+      unlock_champion_units
     </Technologies>
   </ProductionQueue>
   <VisualActor>

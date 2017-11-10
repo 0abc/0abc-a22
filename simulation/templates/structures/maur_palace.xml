@@ -17,7 +17,7 @@
       units/{civ}_champion_archer_infantry
     </Entities>
     <Technologies datatype="tokens">
-      special/unlock_maiden_guard
+      unlock_champion_units
     </Technologies>
   </ProductionQueue>
   <VisualActor>

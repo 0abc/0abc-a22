@@ -4,7 +4,7 @@
     <Civ>cart</Civ>
     <GenericName>Sacred Band Pikeman</GenericName>
     <Icon>units/cart_champion_infantry.png</Icon>
-    <RequiredTechnology>pop_wonder</RequiredTechnology>
+    <RequiredTechnology>special/unlock_unavailable</RequiredTechnology>
     <SelectionGroupName>units/cart_champion_pike_infantry</SelectionGroupName>
     <SpecificName>Mašal</SpecificName>
   </Identity>

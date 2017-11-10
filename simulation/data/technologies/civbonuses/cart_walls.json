@@ -1,0 +1,14 @@
+{
+  "affects": ["StoneWall"],
+  "autoResearch": true,
+  "description": "Tyre, Carthage, Lilybaeum, and Carthago Nova had notoriously strong city walls and were only taken via their harbours.",
+  "genericName": "Protective Walls",
+  "icon": "wall.png",
+  "modifications": [
+    {"value": "Capturable/CapturePoints", "multiply": 1.25},
+    {"value": "Cost/BuildTime", "multiply": 1.25},
+    {"value": "Health/Max", "multiply": 1.25}
+  ],
+  "requirements": {"civ": "cart"},
+  "tooltip": "Carthaginian city walls, gates, and wall turrets have +25% health, capture points, and build time."
+}

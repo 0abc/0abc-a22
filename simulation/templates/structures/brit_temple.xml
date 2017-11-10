@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
-  <Cost>
-    <PopulationBonus>5</PopulationBonus>
-    <Resources>
-      <stone>0</stone>
-      <wood>300</wood>
-    </Resources>
-  </Cost>
   <Footprint>
     <Height>8.0</Height>
     <Square width="24.5" depth="24.5"/>
@@ -18,10 +11,6 @@
     <Civ>brit</Civ>
     <SpecificName>Addoldy</SpecificName>
   </Identity>
-  <Loot>
-    <stone>0</stone>
-    <wood>30</wood>
-  </Loot>
   <Obstruction>
     <Static width="22.5" depth="22.5"/>
   </Obstruction>

@@ -153,7 +153,7 @@ And it can currently be used for:
 ### Civilization bonuses
 * Celtic (Briton and Gaulish) healers have +20% walk speed, +4 hack, pierce, and crush armour levels, and two more auras (“Curse” and “Motivation”), but also +100% training time, +50 metal and +5 wood costs, and +5 metal, +5 wood, and +10 experience loot.
 * Celtic (Briton and Gaulish) healers have +20% walk speed and +4 hack, pierce, and crush armour levels.
-* Celtic (Briton and Gaulish) civic, economic, military, and resource structures have −20% health, capture points, and build time.
+* Celtic (Briton and Gaulish) civic, economic, military, and resource structures have −20% health, capture points, and build time; economic structures grant +2 population bonus, military structures +4, temples +6.
 * Celtic (Briton and Gaulish) walls have −20% health, build time, and stone and wood costs.
 * Celts (Britons and Gauls) have a 20% resource cost and time discount on Armoury technologies.
 * Greek (Athenians, Macedonians, Spartans) civic structures have +20% health and capture points.

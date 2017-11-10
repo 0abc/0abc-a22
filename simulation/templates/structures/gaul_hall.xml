@@ -2,14 +2,9 @@
 <Entity parent="template_structure_military_hall">
   <BuildRestrictions>
     <Category>Tavern</Category>
-    <Distance>
-      <FromClass>Military</FromClass>
-      <MinDistance>30</MinDistance>
-    </Distance>
   </BuildRestrictions>
   <Cost>
     <BuildTime>200</BuildTime>
-    <PopulationBonus>5</PopulationBonus>
     <Resources>
       <food>100</food>
       <metal>0</metal>

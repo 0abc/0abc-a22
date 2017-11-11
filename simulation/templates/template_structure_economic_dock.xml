@@ -12,9 +12,13 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="18.0" depth="18.0"/>
     <Height>8.0</Height>
+    <Square width="18.0" depth="18.0"/>
   </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">LandTrader</List>
+    <Max>5</Max>
+  </GarrisonHolder>
   <Health>
     <Max op="mul">2.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
@@ -24,7 +28,7 @@
     <GenericName>Commercial Dock</GenericName>
     <Icon>structures/dock.png</Icon>
     <Tooltip>Construct fishing boats to gather meat and merchant ships to trade with other docks.</Tooltip>
-    <VisibleClasses datatype="tokens">Economic Village Market Dock Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Village Market Dock</VisibleClasses>
   </Identity>
   <Loot>
     <food>5</food>
@@ -76,7 +80,4 @@
   <VisualActor>
     <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
   </VisualActor>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

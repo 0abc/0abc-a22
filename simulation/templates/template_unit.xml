@@ -39,7 +39,7 @@
     <Unhealable>false</Unhealable>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Unit ConquestCritical</Classes>
+    <Classes datatype="tokens">Unit ConquestCritical Bribable</Classes>
     <Formations datatype="tokens">
       formations/null
       formations/box
@@ -138,7 +138,7 @@
     <Range>50</Range>
   </Vision>
   <VisionSharing>
-    <Bribable>false</Bribable>
+    <Bribable>true</Bribable>
   </VisionSharing>
   <VisualActor>
     <SilhouetteDisplay>true</SilhouetteDisplay>

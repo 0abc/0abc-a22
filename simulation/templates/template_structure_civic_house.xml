@@ -18,11 +18,6 @@
     <Square width="18.0" depth="18.0"/>
   </Footprint>
   <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Support+!Elephant</List>
-    <LoadingRange>1</LoadingRange>
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
@@ -48,6 +43,7 @@
     <Technologies datatype="tokens">
       unlock_females_house
       armour_females
+      heal_house
       pop_house_01
       pop_house_02
       pop_house_03

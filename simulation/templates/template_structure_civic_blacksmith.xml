@@ -19,11 +19,6 @@
     <Square width="22.0" depth="22.0"/>
   </Footprint>
   <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Worker Healer</List>
-    <LoadingRange>2</LoadingRange>
     <Max>10</Max>
   </GarrisonHolder>
   <Health>

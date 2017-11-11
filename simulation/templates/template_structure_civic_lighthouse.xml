@@ -21,12 +21,15 @@
     <Circle radius="14.0"/>
     <Height>8.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Human</List>
+    <Max>10</Max>
+  </GarrisonHolder>
   <Health>
     <Max op="mul">3.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Bribable</Classes>
     <GenericName>Lighthouse</GenericName>
     <Icon>structures/lighthouse.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>

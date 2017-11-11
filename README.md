@@ -151,7 +151,7 @@ And it can currently be used for:
 
 ### Civilization bonuses
 * Cataphracts have +3 armour levels, but also −10% walk speed and +50 metal cost.
-* Celtic (Briton and Gaulish):
+* Celtic (Britons, Gauls):
   * blacksmith technologies cost −20% resources and time;
   * civic, economic, military, and resource structures have −20% health, capture points, and build time; 
   * economic structures grant +2 population bonus, military structures +4, temples +6;
@@ -160,23 +160,23 @@ And it can currently be used for:
   * naked fanatics (champion spearmen) have +15% attack damage and +30% walk speed, but also −4 armour levels.
 * Greek (Athenians, Macedonians, Spartans):
   * civic structures have +20% health and capture points.
-* North African (Carthaginian, Ptolemaic):
+* North African (Carthaginians, Ptolemies):
   * war elephants have −20% metal and wood costs and −10% training time, but also −10% attack damage and −20% maximum health.
-* Tribal (Briton, Gaulish, and Iberian):
+* Tribal (Britons, Gauls, Iberians):
   * centres have −20% resource cost, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius.
 
 * Athenians:
-  * blacksmith technologies cost −10% resources and time;
+  * storehouse technologies cost −10% resources and time;
   * warships have +10% walk speed.
 * Britons:
-  * infantry swordsmen have +10% walk speed.
+  * infantry swordsmen have +10% walk speed;
   * sentry towers cost no stone and have −25% construction time and −10% health.
 * Carthaginians:
   * market technologies cost −25% resources and time;
   * markets have −50% resource costs and construction time;
   * ships have +20~m vision range;
   * traders have +5% gain;
-  * city walls have +25% health and build time;
+  * city walls have +25% health and build time.
 * Gauls:
   * infantry spearmen have +10% melee attack damage.
 * Iberians:
@@ -202,7 +202,7 @@ And it can currently be used for:
   * infantry swordsmen have +10% melee attack damage;
   * stone throwers have +20% crush damage, but also cost +50.0 stone.
 * Seleucids:
-  * centres have −30% resource costs.
+  * centres have −30% resource costs (former team bonus).
 * Spartans:
   * no longer have a −10% maximum population penalty;
   * melee and ranged cavalry have a −10% attack damage penalty;

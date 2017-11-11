@@ -49,7 +49,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Cothon</SpecificName>
     <Tooltip>Construct and repair wargalleys.</Tooltip>
-    <VisibleClasses datatype="tokens">City Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>
@@ -101,9 +101,6 @@
   <Vision>
     <Range>100</Range>
   </Vision>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
   <VisualActor>
     <Actor>structures/carthaginians/super_dock.xml</Actor>
     <FoundationActor>structures/fndn_dock_super.xml</FoundationActor>

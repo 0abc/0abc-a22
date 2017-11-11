@@ -1,18 +1,20 @@
 {
-	"genericName": "Divine Offerings",
-	"specificName": {
-		"mace": "Olympic Games",
-		"spart": "Olympic Games",
-		"athen": "Eleusian Mysteries"
-	},
-	"description": "Units garrisoned in a temple are healed faster.",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "bandage.png",
-	"researchTime": 40,
-	"tooltip": "Temples +50% garrisoned healing rate.",
-	"modifications": [{"value": "GarrisonHolder/BuffHeal", "multiply": 1.5}],
-	"affects": ["Temple"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "affects": ["Temple"],
+  "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
+  "description": "Units garrisoned in a temple are healed faster.",
+  "genericName": "Divine Offerings",
+  "icon": "bandage.png",
+  "modifications": [
+    {"value": "GarrisonHolder/BuffHeal", "multiply": 1.5}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Eleusian Mysteries",
+    "mace": "Olympic Games",
+    "spart": "Hyacinthus Festival"
+  },
+  "tooltip": "Temples +50% garrisoned healing rate."
 }

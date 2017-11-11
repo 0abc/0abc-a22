@@ -16,6 +16,6 @@
     <Entity>units/sele/champion_scythed_chariot_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/cavalry_archer_e.xml</Actor>
+    <Actor>units/seleucids/champion_chariot.xml</Actor>
   </VisualActor>
 </Entity>

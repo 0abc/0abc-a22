@@ -8,12 +8,17 @@
   <Cost>
     <BuildTime op="mul">1.0</BuildTime>
   </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Dog Female Healer Infantry Slave</List>
+    <LoadingRange>1</LoadingRange>
+    <Max>5</Max>
+  </GarrisonHolder>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Civic Structure</GenericName>
-    <VisibleClasses datatype="tokens">Civic Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Civic</VisibleClasses>
   </Identity>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

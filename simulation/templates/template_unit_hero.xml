@@ -25,7 +25,7 @@
   <Identity>
     <Classes datatype="tokens">Organic Human</Classes>
     <GenericName>Hero</GenericName>
-    <VisibleClasses datatype="tokens">Hero Soldier Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Hero Soldier</VisibleClasses>
   </Identity>
   <Minimap>
     <Type>hero</Type>
@@ -57,7 +57,4 @@
   <Vision>
     <Range op="add">40</Range>
   </Vision>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

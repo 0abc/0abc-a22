@@ -14,11 +14,7 @@
     <Square width="16.0" depth="16.0"/>
   </Footprint>
   <GarrisonHolder>
-    <BuffHeal>1</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Human</List>
-    <LoadingRange>2</LoadingRange>
+    <List datatype="tokens">Cavalry Infantry</List>
     <Max>6</Max>
   </GarrisonHolder>
   <Health>
@@ -29,7 +25,7 @@
     <Civ>cart</Civ>
     <GenericName>Embassy</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Town Embassy Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town Embassy</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
@@ -49,7 +45,4 @@
   <VisualActor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

@@ -25,10 +25,7 @@
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>3</BuffHeal>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Human</List>
-    <LoadingRange>2</LoadingRange>
     <Max>20</Max>
   </GarrisonHolder>
   <Health>

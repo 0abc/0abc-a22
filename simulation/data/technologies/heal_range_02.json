@@ -1,21 +1,21 @@
 {
-  "genericName": "Advanced Healing Range",
-  "specificName": {
-    "mace": "Akadḗmeia",
-    "spart": "Akadḗmeia",
-    "athen": "Akadḗmeia"
-  },
-  "description": "Increases the healing range of all healers.",
+  "affects": ["Healer"],
   "cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
-  "supersedes": "heal_range_01",
-  "requirements": {"tech": "phase_city"},
-  "requirementsTooltip": "Unlocked in City Phase.",
+  "description": "Increases the healing range of all healers.",
+  "genericName": "Advanced Healing Range",
   "icon": "healing_range.png",
-  "researchTime": 30,
-  "tooltip": "Healers +3 Healing Range.",
   "modifications": [
     {"value": "Heal/Range", "add": 3}
   ],
-  "affects": ["Healer"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 30,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Akadḗmeia",
+    "mace": "Akadḗmeia",
+    "spart": "Akadḗmeia"
+  },
+  "supersedes": "heal_range_01",
+  "tooltip": "Healers +3 Healing Range."
 }

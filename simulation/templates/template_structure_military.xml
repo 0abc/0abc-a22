@@ -15,6 +15,14 @@
   <Cost>
     <BuildTime op="mul">1.0</BuildTime>
   </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Female Healer Slave</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
+  </GarrisonHolder>
   <Identity>
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>

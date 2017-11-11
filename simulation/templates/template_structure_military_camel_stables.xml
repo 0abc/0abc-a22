@@ -15,12 +15,7 @@
     <Square width="25.5" depth="25.5"/>
   </Footprint>
   <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Camel</List>
-    <LoadingRange>2</LoadingRange>
-    <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max op="mul">2.0</Max>

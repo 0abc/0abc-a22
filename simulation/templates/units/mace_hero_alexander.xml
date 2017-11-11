@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_swordsman">
   <Auras datatype="tokens">
-    units/heroes/mace_hero_alexander_1
-    units/heroes/mace_hero_alexander_2
+    units/heroes/mace_hero_alexander
   </Auras>
   <Identity>
     <Civ>mace</Civ>
-    <GenericName>Alexander The Great</GenericName>
+    <GenericName>Alexander the Great</GenericName>
     <Icon>units/hele_hero_alexander.png</Icon>
     <Lang>greek</Lang>
     <SpecificName>Mégās Aléxandros</SpecificName>

@@ -1,15 +1,15 @@
 {
-  "genericName": "Battlefield Medicine",
-  "description": "Unlock health regeneration for your units.",
+  "affects": ["Unit Organic"],
   "cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 500},
-  "requirements": {"tech": "phase_city"},
-  "requirementsTooltip": "Unlocked in City Phase.",
+  "description": "Unlock health regeneration for your units.",
+  "genericName": "Battlefield Medicine",
   "icon": "asclepius_rod.png",
-  "researchTime": 60,
-  "tooltip": "Organic units will slowly regenerate health over time when idle.",
   "modifications": [
     {"value": "Health/IdleRegenRate", "add": 0.5}
   ],
-  "affects": ["Unit Organic"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Organic units will slowly regenerate health over time when idle."
 }

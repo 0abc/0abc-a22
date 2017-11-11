@@ -33,7 +33,7 @@
     <Icon>structures/palace.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Tooltip>Gain a trickle of silver. Train champion guards.</Tooltip>
-    <VisibleClasses datatype="tokens">City Palace Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">City Palace</VisibleClasses>
   </Identity>
   <Loot>
     <food>30</food>
@@ -48,10 +48,10 @@
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
+    <Interval>3000</Interval>
     <Rates>
       <silver>1.0</silver>
     </Rates>
-    <Interval>1000</Interval>
   </ResourceTrickle>
   <Sound>
     <SoundGroups>
@@ -65,11 +65,4 @@
     <Root>true</Root>
     <Weight>30000</Weight>
   </TerritoryInfluence>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
-  <VisualActor>
-    <Actor>structures/persians/apadana.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
-  </VisualActor>
 </Entity>

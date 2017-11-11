@@ -35,11 +35,7 @@
     <Square width="8.0" depth="7.0"/>
   </Footprint>
   <GarrisonHolder>
-    <BuffHeal>1</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Dog</List>
-    <LoadingRange>2</LoadingRange>
+    <List datatype="tokens">-Female -Healer -Slave Dog</List>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>

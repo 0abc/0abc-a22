@@ -1,13 +1,15 @@
 {
-	"genericName": "Living Conditions",
-	"description": "Units garrisoned in cavalry stables heal over time.",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "bandage.png",
-	"researchTime": 40,
-	"tooltip": "Units gain health over time while garrisoned in cavalry stables.",
-	"modifications": [{"value": "GarrisonHolder/BuffHeal", "add": 1}],
-	"affects": ["CavalryStables"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "affects": ["CavalryStables"],
+  "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
+  "description": "Units garrisoned in cavalry stables heal over time.",
+  "genericName": "Living Conditions",
+  "icon": "bandage.png",
+  "modifications": [
+    {"value": "GarrisonHolder/BuffHeal", "add": 1}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Units gain health over time while garrisoned in cavalry stables."
 }

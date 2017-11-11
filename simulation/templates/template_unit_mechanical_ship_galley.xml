@@ -38,7 +38,7 @@
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Dog Female Healer Infantry Slave</EjectClassesOnDestroy>
     <EjectHealth>0</EjectHealth>
     <List datatype="tokens">Human Siege</List>
     <LoadingRange>10</LoadingRange>

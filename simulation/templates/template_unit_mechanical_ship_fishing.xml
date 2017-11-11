@@ -27,12 +27,12 @@
     <Height>6.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>1</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry</EjectClassesOnDestroy>
-    <List datatype="tokens">Healer Infantry Worker</List>
     <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Dog Female Healer Infantry Slave</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Dog Female Healer Infantry Slave</List>
     <LoadingRange>10</LoadingRange>
+    <Max>1</Max>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>

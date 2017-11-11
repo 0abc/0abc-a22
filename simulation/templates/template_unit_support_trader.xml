@@ -19,7 +19,7 @@
     <Formations disable=""/>
     <GenericName>Trader</GenericName>
     <Tooltip>Trade resources between your own markets and those of your allies.</Tooltip>
-    <VisibleClasses datatype="tokens">Trader Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
   <Loot>
     <food op="add">5</food>
@@ -57,7 +57,4 @@
   <Vision>
     <Range op="add">10</Range>
   </Vision>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

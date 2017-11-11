@@ -1,18 +1,20 @@
 {
-	"genericName": "Improved Healing Rate",
-	"specificName": {
-		"mace": "Sphágia",
-		"spart": "Sphágia",
-		"athen": "Sphágia"
-	},
-	"description": "Increases the Healing Rate of all healers.",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "healing_rate.png",
-	"researchTime": 40,
-	"tooltip": "Healers -20% healing time.",
-	"modifications": [{"value": "Heal/Rate", "multiply": 0.8}],
-	"affects": ["Healer"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "affects": ["Healer"],
+  "cost": {"food": 300, "wood": 0, "stone": 0, "metal": 150},
+  "description": "Increases the Healing Rate of all healers.",
+  "genericName": "Improved Healing Rate",
+  "icon": "healing_rate.png",
+  "modifications": [
+    {"value": "Heal/Rate", "multiply": 0.8}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Sphágia",
+    "mace": "Sphágia",
+    "spart": "Sphágia"
+  },
+  "tooltip": "Healers -20% healing time."
 }

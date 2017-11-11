@@ -24,11 +24,7 @@
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <BuffHeal>1</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Human</List>
-    <LoadingRange>2</LoadingRange>
     <Max>40</Max>
   </GarrisonHolder>
   <Health>

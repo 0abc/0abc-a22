@@ -28,10 +28,10 @@
   </Minimap>
   <ResourceGatherer disable=""/>
   <ResourceTrickle>
+    <Interval>1000</Interval>
     <Rates>
       <silver>1.0</silver>
     </Rates>
-    <Interval>1000</Interval>
   </ResourceTrickle>
   <Sound>
     <SoundGroups>

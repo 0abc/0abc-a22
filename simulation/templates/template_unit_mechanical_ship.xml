@@ -27,7 +27,7 @@
   </Health>
   <Identity>
     <GenericName>Ship</GenericName>
-    <VisibleClasses datatype="tokens">Ship Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ship</VisibleClasses>
   </Identity>
   <Loot>
     <wood>5</wood>
@@ -69,7 +69,4 @@
   <UnitMotion>
     <PassabilityClass>ship</PassabilityClass>
   </UnitMotion>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

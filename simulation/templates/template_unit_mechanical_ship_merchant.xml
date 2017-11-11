@@ -18,12 +18,12 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>15</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Dog</EjectClassesOnDestroy>
-    <List datatype="tokens">Human</List>
     <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Dog Female Healer Infantry Slave</EjectClassesOnDestroy>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Human</List>
     <LoadingRange>10</LoadingRange>
+    <Max>15</Max>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>

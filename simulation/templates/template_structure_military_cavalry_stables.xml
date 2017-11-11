@@ -17,12 +17,7 @@
     <Square width="22.0" depth="20.0"/>
   </Footprint>
   <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Cavalry</List>
-    <LoadingRange>2</LoadingRange>
-    <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max op="mul">2.0</Max>

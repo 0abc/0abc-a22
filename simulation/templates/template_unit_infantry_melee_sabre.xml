@@ -13,8 +13,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">25</metal>
-      <wood op="add">25</wood>
+      <metal op="add">30</metal>
+      <wood op="add">20</wood>
     </Resources>
   </Cost>
   <Health>

@@ -1,20 +1,20 @@
 {
-  "genericName": "Improved Healing Range",
-  "specificName": {
-    "mace": "Olympic Pantheon",
-    "spart": "Olympic Pantheon",
-    "athen": "Olympic Pantheon"
-  },
-  "description": "Increases the healing range of all healers.",
+  "affects": ["Healer"],
   "cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
-  "requirements": {"tech": "phase_town"},
-  "requirementsTooltip": "Unlocked in Town Phase.",
+  "description": "Increases the healing range of all healers.",
+  "genericName": "Improved Healing Range",
   "icon": "healing_range.png",
-  "researchTime": 30,
-  "tooltip": "Healers +3 Healing Range.",
   "modifications": [
     {"value": "Heal/Range", "add": 3}
   ],
-  "affects": ["Healer"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 30,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Olympic Pantheon",
+    "mace": "Olympic Pantheon",
+    "spart": "Olympic Pantheon"
+  },
+  "tooltip": "Healers +3 Healing Range."
 }

@@ -20,6 +20,10 @@
     <Height>8.0</Height>
     <Square width="26.0" depth="30.0"/>
   </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Infantry</List>
+    <Max>5</Max>
+  </GarrisonHolder>
   <Health>
     <Max op="mul">2.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_hele_dock</SpawnEntityOnDeath>

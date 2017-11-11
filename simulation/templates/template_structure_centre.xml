@@ -5,7 +5,7 @@
     <Range>150</Range>
   </AlertRaiser>
   <Armour>
-    <Crush>3</Crush>
+    <Crush>5</Crush>
     <Foundation>
       <Crush>3</Crush>
       <Hack>5</Hack>
@@ -47,6 +47,9 @@
     <CapturePoints op="mul">6.0</CapturePoints>
     <RegenRate>5.0</RegenRate>
   </Capturable>
+  <Auras datatype="tokens">
+    structures/centre
+  </Auras>
   <Cost>
     <BuildTime op="mul">6.0</BuildTime>
     <PopulationBonus>25</PopulationBonus>
@@ -78,7 +81,7 @@
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
     <Tooltip>Build to acquire large tracts of territory. Train citizens.</Tooltip>
-    <VisibleClasses datatype="tokens">Centre Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Centre</VisibleClasses>
   </Identity>
   <Loot>
     <food>50</food>
@@ -129,9 +132,6 @@
   <Vision>
     <Range>100</Range>
   </Vision>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>

@@ -1,7 +1,7 @@
 {
-  "affects": ["ChariotStables"],
+  "affects": ["House"],
   "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-  "description": "Units garrisoned in chariot stables heal over time.",
+  "description": "Units garrisoned in houses heal over time.",
   "genericName": "Living Conditions",
   "icon": "bandage.png",
   "modifications": [
@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 40,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Units gain health over time while garrisoned in chariot stables."
+  "tooltip": "Units gain health over time while garrisoned in houses."
 }

@@ -15,6 +15,7 @@
     <Square width="8.0" depth="33.0"/>
   </Footprint>
   <GarrisonHolder>
+    <List datatype="tokens">-Human -Siege Dog Female Healer Infantry Slave</List>
     <Max op="add">-4</Max>
   </GarrisonHolder>
   <Health>

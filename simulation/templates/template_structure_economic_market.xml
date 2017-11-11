@@ -11,11 +11,7 @@
     <Square width="33.0" depth="29.0"/>
   </Footprint>
   <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <EjectHealth>0.1</EjectHealth>
-    <List datatype="tokens">Support+!Elephant</List>
-    <LoadingRange>1</LoadingRange>
+    <List datatype="tokens">LandTrader</List>
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
@@ -28,7 +24,7 @@
     <Icon>structures/market.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Market Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town Market</VisibleClasses>
   </Identity>
   <Loot>
     <silver>30</silver>
@@ -71,7 +67,4 @@
   <VisualActor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
-  <VisionSharing>
-    <Bribable>true</Bribable>
-  </VisionSharing>
 </Entity>

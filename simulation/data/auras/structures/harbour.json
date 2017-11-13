@@ -3,7 +3,7 @@
   "auraDescription": "Heals garrisoned ships at 10 HP per second.",
   "auraName": "Harbour Repairs",
   "modifications": [
-    { "value": "Health/RegenRate", "add": 10 }
+    {"value": "Health/RegenRate", "add": 10}
   ],
   "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
   "type": "garrisonedUnits"

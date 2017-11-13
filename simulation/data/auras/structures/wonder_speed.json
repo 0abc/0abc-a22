@@ -1,0 +1,12 @@
+{
+  "affects": ["Trader", "Worker"],
+  "auraDescription": "Workers and traders +5% movement speed.",
+  "auraName": "Monumental Symbol",
+  "modifications": [
+    {"value": "UnitMotion/Run/Speed", "multiply": 1.05},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.05}
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
+  "radius": 100,
+  "type": "range"
+}

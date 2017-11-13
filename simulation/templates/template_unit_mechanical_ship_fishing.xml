@@ -44,7 +44,7 @@
     <Formations disable=""/>
     <GenericName>Fishing Boat</GenericName>
     <Tooltip>Fish the waters for Food. Garrison a support or infantry unit inside to boost fishing rate.</Tooltip>
-    <VisibleClasses datatype="tokens">Worker FishingBoat</VisibleClasses>
+    <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
   </Identity>
   <Loot>
     <food>1</food>

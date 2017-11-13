@@ -1,6 +1,6 @@
 {
   "affects": ["Soldier"],
-  "auraDescription": "+20% attack damage for soldiers.",
+  "auraDescription": "Soldiers +20% attack damage.",
   "auraName": "Religious Fervor",
   "modifications": [
     { "value": "Attack/Melee/Hack", "multiply": 1.20 },

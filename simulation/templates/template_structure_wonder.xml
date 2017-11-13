@@ -12,8 +12,9 @@
   </Armour>
   <Auras datatype="tokens">
     structures/wonder_heal
-    structures/wonder_pop_1
-    structures/wonder_pop_2
+    structures/wonder_speed
+    structures/wonder_training
+    structures/wonder_population
     structures/wonder_territory
   </Auras>
   <BuildRestrictions>

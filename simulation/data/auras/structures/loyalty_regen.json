@@ -1,9 +1,9 @@
 {
   "affects": ["Structure"],
-  "auraDescription": "+50% garrisoned loyalty regeneration rate for structures.",
+  "auraDescription": "Structures +50% garrisoned loyalty regeneration rate.",
   "auraName": "Loyalty",
   "modifications": [
-    { "value": "Capturable/GarrisonRegenRate", "multiply": 1.5 }
+    {"value": "Capturable/GarrisonRegenRate", "multiply": 1.5 }
   ],
   "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
   "radius": 75,

@@ -145,7 +145,7 @@ And it can currently be used for:
 ### Global auras
 * Wonders each grant +10.0 maximum population limit
   * with “glorious expansion” researched: +10% maximum population limit
-  * with “glorious expansion” researched: +10% territory influence radius
+  * with “glorious expansion” researched: structures +10% territory influence radius
 * Theatres each grant +15% territory influence radius 
 * Libraries each grant −10% structure construction time and −20% technology research time
 

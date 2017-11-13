@@ -138,12 +138,13 @@ And it can currently be used for:
 * 20 m from economic buildings: corrals, docks, farmsteads, fields, markets, storehouses
 * 30 m from military buildings: barracks, blacksmiths, camel stables, cavalry stables, chariot stables, elephant stables, embassies, military halls, siege workshops
 * 40 m from temples: temples
+* 50 m from centres: farm fields
 * 60 m from towers: outpost, sentry tower, defence tower
 * 80 m from fortresses: army camps, fortresses
 * 160 m from centres: centres, crannogs
 
 ### Global auras
-* Wonders each grant +10.0 maximum population limit
+* Wonders each grant −10% unit training time
   * with “glorious expansion” researched: +10% maximum population limit
   * with “glorious expansion” researched: structures +10% territory influence radius
 * Theatres each grant +15% territory influence radius 
@@ -171,7 +172,6 @@ And it can currently be used for:
   * infantry swordsmen have +10% walk speed;
   * sentry towers cost no stone and have −25% construction time and −10% health.
 * Carthaginians:
-
   * market technologies cost −25% resources and time;
   * markets have −50% resource costs and construction time;
   * ships have +20~m vision range;

@@ -4,7 +4,7 @@
   "auraDescription": "All allies automatically gain a 4% discount on unit metal costs.",
   "auraName": "Tin Islands",
   "modifications": [
-    { "value": "Cost/Resources/metal", "multiply": 0.96 }
+    {"value": "Cost/Resources/metal", "multiply": 0.96}
   ],
   "stackable": true,
   "type": "player"

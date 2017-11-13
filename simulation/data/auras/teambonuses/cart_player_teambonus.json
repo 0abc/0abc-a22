@@ -4,8 +4,8 @@
   "auraDescription": "-20% training time and +5% walk speed bonus for ally's land traders.",
   "auraName": "Trademasters",
   "modifications": [
-    { "value": "Cost/BuildTime", "add": 0.8 },
-    { "value": "UnitMotion/WalkSpeed", "multiply": 1.05 }
+    {"value": "Cost/BuildTime", "add": 0.8},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.05}
   ],
   "stackable": true,
   "type": "global"

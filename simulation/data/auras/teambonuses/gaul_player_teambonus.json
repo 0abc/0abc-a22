@@ -4,7 +4,7 @@
   "auraDescription": "Ally's infantry spearmen have -20% training time.",
   "auraName": "Celtic Mercenaries",
   "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.8 }
+    {"value": "Cost/BuildTime", "multiply": 0.8}
   ],
   "stackable": true,
   "type": "global"

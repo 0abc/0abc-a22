@@ -4,7 +4,7 @@
   "auraDescription": "Higher income (+10%) from land trade routes for ally's traders.",
   "auraName": "Royal Road",
   "modifications": [
-    { "value": "Trader/GainMultiplier", "multiply": 1.1 }
+    {"value": "Trader/GainMultiplier", "multiply": 1.1}
   ],
   "stackable": true,
   "type": "global"

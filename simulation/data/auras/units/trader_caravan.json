@@ -1,6 +1,6 @@
 {
   "affects": ["LandTrader"],
-  "auraDescription": "Traders in a caravan have +1 crush, hack, and pierce armour.",
+  "auraDescription": "Traders in a caravan +1 crush, hack, and pierce armour.",
   "auraName": "Caravan",
   "modifications": [
     {"value": "Armour/Crush",  "add": 1},

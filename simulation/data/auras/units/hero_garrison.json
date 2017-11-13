@@ -3,7 +3,7 @@
   "auraDescription": "When garrisoned in a structure or a siege engine, the hero gives it a bonus of +2 capture points recovery rate.",
   "auraName": "Inspired Defence",
   "modifications": [
-    { "value": "Capturable/GarrisonRegenRate", "add": 2 }
+    {"value": "Capturable/GarrisonRegenRate", "add": 2.0}
   ],
   "type": "garrison"
 }

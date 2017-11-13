@@ -45,9 +45,9 @@
       units/{civ}_champion_spear_camel
     </Entities>
     <Technologies datatype="tokens">
-      drill_camelry_01
-      drill_camelry_02
-      drill_camelry_03
+      drill_camelry_1
+      drill_camelry_2
+      drill_camelry_3
       heal_camel_stables
       training_camel_stables
     </Technologies>

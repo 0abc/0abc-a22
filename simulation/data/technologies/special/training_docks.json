@@ -5,11 +5,11 @@
   "genericName": "Naval Architects",
   "icon": "calipers.png",
   "modifications": [
-    { "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }
+    {"value": "ProductionQueue/BatchTimeModifier", "add": -0.1}
   ],
   "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "brit"}, { "civ": "gaul"}, { "civ": "iber"}, { "civ": "maur" }] }] },
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 40,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Docks increased batch construction speed bonus."
 }

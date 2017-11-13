@@ -1,45 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_longsword">
-  <Armour>
-    <Crush op="add">3</Crush>
-    <Hack op="add">3</Hack>
-    <Pierce op="add">3</Pierce>
-  </Armour>
-  <Attack>
-    <Capture>
-      <Value op="mul">2.0</Value>
-    </Capture>
-    <Melee>
-      <Crush op="mul">2.0</Crush>
-      <Hack op="mul">2.0</Hack>
-      <Pierce op="mul">2.0</Pierce>
-    </Melee>
-  </Attack>
   <Builder disable=""/>
-  <Cost>
-    <BuildTime op="mul">2.5</BuildTime>
-    <Resources>
-      <metal op="add">70</metal>
-      <wood op="add">30</wood>
-    </Resources>
-  </Cost>
-  <Health>
-    <Max op="mul">1.5</Max>
-  </Health>
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
     <GenericName>Champion Infantry Swordsman</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Champion -Citizen -Worker</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">7</metal>
-    <wood op="add">3</wood>
-    <xp op="add">100</xp>
-  </Loot>
-  <Promotion>
-    <RequiredXp op="mul">2.0</RequiredXp>
-  </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>

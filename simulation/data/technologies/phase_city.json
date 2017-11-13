@@ -1,22 +1,16 @@
 {
-  "genericName": "City Phase",
-  "specificName": {
-    "mace": "Megalópolis",
-    "spart": "Megalópolis"
-  },
-  "description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
+  "affects": ["Centre"],
   "cost": { "food": 500, "wood": 500, "stone": 500, "metal": 500 },
+  "description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
+  "genericName": "City Phase",
+  "icon": "city_phase.png",
+  "modifications": [
+    {"value": "TerritoryInfluence/Radius", "multiply": 1.3}
+  ],
   "requirements": { "entity": { "class": "Town", "number": 3 } },
   "requirementsTooltip": "Requires 3 new Town Phase structures (excluding civil centres and defensive structures).",
-  "supersedes": "phase_town",
-  "icon": "city_phase.png",
   "researchTime": 90,
-  "tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centres increased by another +30%.",
-  "modifications": [
-    { "value": "Armour/Crush",              "add": 1.0,      "affects": "Hero"   },
-    { "value": "Armour/Hack",               "add": 1.0,      "affects": "Hero"   },
-    { "value": "Armour/Pierce",             "add": 1.0,      "affects": "Hero"   },
-    { "value": "TerritoryInfluence/Radius", "multiply": 1.3, "affects": "Centre" }
-  ],
-  "soundComplete": "interface/alarm/alarm_phase.xml"
+  "soundComplete": "interface/alarm/alarm_phase.xml",
+  "supersedes": "phase_town",
+  "tooltip": "Advance to City Phase, which unlocks more structures and units. Centres +30% territory influence radius."
 }

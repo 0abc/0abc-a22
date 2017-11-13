@@ -6,13 +6,15 @@
   "icon": "crenelations.png",
   "researchTime": 60,
   "modifications": [
-    {"value": "Cost/Metal", "multiply": 1.2},
-    {"value": "Cost/Wood", "multiply": 1.2},
-    {"value": "Cost/Stone", "multiply": 1.2},
-    {"value": "Health/Max", "multiply": 1.2}
+    {"value": "Capturable/CapturePoints", "multiply": 1.2},
+    {"value": "Cost/Resources/stone",     "multiply": 1.2},
+    {"value": "Cost/Resources/wood",      "multiply": 1.2},
+    {"value": "Health/Max",               "multiply": 1.2},
+    {"value": "Loot/stone",               "multiply": 1.2},
+    {"value": "Loot/wood",                "multiply": 1.2}
   ],
   "requirements": {"all": [{"tech": "phase_city"}, {"civ": "athen"}]},
   "requirementsTooltip": "Unlocked in City Phase.",
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Stone walls have +20% health but also cost +20% more resources."
+  "tooltip": "Stone walls have +20% health and capture points but also cost +20% more resources."
 }

@@ -5,6 +5,7 @@
     <GenericName>Roman Cavalry</GenericName>
     <Icon>units/rome_cavalry_spearman.png</Icon>
     <Lang>latin</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/rome_citizen_spear_cavalry</SelectionGroupName>
     <SpecificName>Eques Romanus</SpecificName>
   </Identity>

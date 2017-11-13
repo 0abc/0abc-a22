@@ -6,7 +6,7 @@
   "icon": "ionic_column.png",
   "modifications": [
     {"value": "Capturable/CapturePoints", "multiply": 1.2},
-    {"value": "Health/Max", "multiply": 1.2}
+    {"value": "Health/Max",               "multiply": 1.2}
   ],
   "requirements": {"any": [{"civ": "athen"},{"civ": "mace"},{"civ": "spart"}]},
   "tooltip": "Civic structures have 20% more health and capture points."

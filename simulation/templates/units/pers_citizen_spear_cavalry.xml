@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spear">
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Cappadocian Cavalry</GenericName>
+    <Icon>units/pers_cavalry_spearman.png</Icon>
+    <SelectionGroupName>units/pers_citizen_spear_cavalry</SelectionGroupName>
+    <SpecificName>Katpaduka Asabara</SpecificName>
+    <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>units/pers/citizen_spear_cavalry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/cavalry_spearman_e.xml</Actor>
+  </VisualActor>
+</Entity>

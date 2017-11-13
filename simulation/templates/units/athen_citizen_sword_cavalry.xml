@@ -5,8 +5,7 @@
     <GenericName>Greek Cavalry</GenericName>
     <Icon>units/hele_cavalry_swordsman.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <SelectionGroupName>units/athen_cavalry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/athen_citizen_sword_cavalry</SelectionGroupName>
     <SpecificName>Hippeús</SpecificName>
   </Identity>
   <Promotion>

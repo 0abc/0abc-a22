@@ -5,8 +5,8 @@
   "genericName": "Immortals",
   "icon": "fist_spear.png",
   "modifications": [
-    { "value": "Cost/BuildTime", "multiply": 0.6 },
-    { "value": "Health/Max", "multiply": 0.9 }
+    {"value": "Cost/BuildTime", "multiply": 0.6},
+    {"value": "Health/Max",     "multiply": 0.9}
   ],
   "requirements": { "all": [{ "tech": "phase_city" }, { "civ": "pers" }] },
   "requirementsTooltip": "Unlocked in City Phase.",

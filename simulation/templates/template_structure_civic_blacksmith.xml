@@ -41,24 +41,24 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      attack_infantry_melee_01
-      attack_infantry_melee_02
-      attack_infantry_melee_03
-      attack_infantry_ranged_01
-      attack_infantry_ranged_02
-      attack_infantry_ranged_03
-      armour_infantry_01
-      armour_infantry_02
-      armour_infantry_03
-      attack_cavalry_melee_01
-      attack_cavalry_melee_02
-      attack_cavalry_melee_03
-      attack_cavalry_ranged_01
-      attack_cavalry_ranged_02
-      attack_cavalry_ranged_03
-      armour_cavalry_01
-      armour_cavalry_02
-      armour_cavalry_03
+      attack_infantry_melee_1
+      attack_infantry_melee_2
+      attack_infantry_melee_3
+      attack_infantry_ranged_1
+      attack_infantry_ranged_2
+      attack_infantry_ranged_3
+      armour_infantry_1
+      armour_infantry_2
+      armour_infantry_3
+      attack_cavalry_melee_1
+      attack_cavalry_melee_2
+      attack_cavalry_melee_3
+      attack_cavalry_ranged_1
+      attack_cavalry_ranged_2
+      attack_cavalry_ranged_3
+      armour_cavalry_1
+      armour_cavalry_2
+      armour_cavalry_3
       special/steel_working
     </Technologies>
   </ProductionQueue>

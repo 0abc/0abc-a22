@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush op="add">1</Crush>
-    <Hack op="add">1</Hack>
-    <Pierce op="add">2</Pierce>
+    <Crush>2</Crush>
+    <Hack>2</Hack>
+    <Pierce>4</Pierce>
   </Armour>
   <Attack>
     <Melee>
       <Crush>0</Crush>
-      <Hack>10</Hack>
+      <Hack>0</Hack>
       <MaxRange>5</MaxRange>
-      <Pierce>0</Pierce>
+      <Pierce>10</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">!SeaCreature</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">!Animal</RestrictedClasses>
     </Melee>
   </Attack>
   <Cost>
+    <BuildTime>10</BuildTime>
     <Resources>
-      <food op="add">10</food>
-      <wood op="add">-10</wood>
+      <food>10</food>
+      <wood>40</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -39,34 +40,36 @@
     <Max op="mul">0.3</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">FishingBoat -ConquestCritical</Classes>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
     <Formations disable=""/>
     <GenericName>Fishing Boat</GenericName>
     <Tooltip>Fish the waters for Food. Garrison a support or infantry unit inside to boost fishing rate.</Tooltip>
+    <VisibleClasses datatype="tokens">Worker FishingBoat</VisibleClasses>
   </Identity>
   <Loot>
-    <food op="add">1</food>
-    <wood op="add">-1</wood>
-    <xp op="add">-20</xp>
+    <food>1</food>
+    <wood>4</wood>
+    <xp>5</xp>
   </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
-      <food.fish>1.8</food.fish>
+      <food.fish>1.5</food.fish>
+      <food.meat>2.0</food.meat>
       <treasure disable=""/>
     </Rates>
     <MaxDistance>6.0</MaxDistance>
   </ResourceGatherer>
   <Sound>
     <SoundGroups>
-      <order_walk>actor/ship/boat_move.xml</order_walk>
       <order_attack>actor/ship/boat_move.xml</order_attack>
+      <order_walk>actor/ship/boat_move.xml</order_walk>
     </SoundGroups>
   </Sound>
   <UnitAI>
-    <DefaultStance>passive</DefaultStance>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>
+    <DefaultStance>passive</DefaultStance>
   </UnitAI>
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>

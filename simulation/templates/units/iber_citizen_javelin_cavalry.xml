@@ -3,6 +3,7 @@
   <Identity>
     <Civ>iber</Civ>
     <Icon>units/iber_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/iber_citizen_javelin_cavalry</SelectionGroupName>
     <SpecificName>Kantabriako Zaldun</SpecificName>
   </Identity>

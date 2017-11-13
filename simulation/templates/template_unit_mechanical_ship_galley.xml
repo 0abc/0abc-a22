@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush op="add">4</Crush>
-    <Hack op="add">4</Hack>
-    <Pierce op="add">8</Pierce>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>10</Pierce>
   </Armour>
   <Attack>
     <Ranged>
@@ -26,15 +26,16 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
+    <BuildTime>10</BuildTime>
     <Resources>
-      <food op="add">100</food>
-      <metal op="add">50</metal>
-      <wood op="add">50</wood>
+      <food>100</food>
+      <metal>50</metal>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="8.0" depth="33.0"/>
     <Height>10.0</Height>
+    <Square width="8.0" depth="33.0"/>
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
@@ -54,10 +55,10 @@
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food op="add">10</food>
-    <metal op="add">5</metal>
-    <wood op="add">5</wood>
-    <xp op="add">100</xp>
+    <food>10</food>
+    <metal>5</metal>
+    <wood>10</wood>
+    <xp>125</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>

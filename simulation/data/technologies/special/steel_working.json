@@ -5,9 +5,9 @@
   "genericName": "Steel Working",
   "icon": "metalworker.png",
   "modifications": [
-    { "value": "Attack/Melee/Crush", "multiply": 1.2 },
-    { "value": "Attack/Melee/Hack", "multiply": 1.2 },
-    { "value": "Attack/Melee/Pierce", "multiply": 1.2 }
+    {"value": "Attack/Melee/Crush",  "multiply": 1.2},
+    {"value": "Attack/Melee/Hack",   "multiply": 1.2},
+    {"value": "Attack/Melee/Pierce", "multiply": 1.2}
   ],
   "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "iber" }, { "civ": "maur" }] }] },
   "requirementsTooltip": "Unlocked in City Phase.",

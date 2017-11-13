@@ -1,0 +1,24 @@
+{
+  "affects": ["Cavalry"],
+  "cost": {"food": 0, "wood": 800, "stone": 0, "metal": 400},
+  "description": "Leather armour for cavalry.",
+  "genericName": "Basic Chamfron",
+  "icon": "armor_plates_cavalry.png",
+  "modifications": [
+    {"value": "Armour/Crush",  "add": 1.0},
+    {"value": "Armour/Hack",   "add": 1.0},
+    {"value": "Armour/Pierce", "add": 1.0}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Prometōpídion",
+    "mace": "Prometōpídion",
+    "ptol": "Prometōpídion",
+    "sele": "Prometōpídion",
+    "spart": "Prometōpídion"
+  },
+  "tooltip": "All Cavalry +1 Crush, Hack, and Pierce Armour levels."
+}

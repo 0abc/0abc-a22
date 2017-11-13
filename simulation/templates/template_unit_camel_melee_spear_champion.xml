@@ -1,45 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_camel_melee_spear">
-  <Armour>
-    <Crush op="add">3</Crush>
-    <Hack op="add">3</Hack>
-    <Pierce op="add">3</Pierce>
-  </Armour>
-  <Attack>
-    <Capture>
-      <Value op="mul">2.0</Value>
-    </Capture>
-    <Melee>
-      <Crush op="mul">2.0</Crush>
-      <Hack op="mul">2.0</Hack>
-      <Pierce op="mul">2.0</Pierce>
-    </Melee>
-  </Attack>
-  <Builder disable=""/>
-  <Cost>
-    <BuildTime op="mul">2.5</BuildTime>
-    <Resources>
-      <metal op="add">90</metal>
-      <wood op="add">40</wood>
-    </Resources>
-  </Cost>
-  <Health>
-    <Max op="mul">1.5</Max>
-  </Health>
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
     <GenericName>Champion Camel Spearman</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Champion -Citizen</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">9</metal>
-    <wood op="add">4</wood>
-    <xp op="add">130</xp>
-  </Loot>
-  <Promotion>
-    <RequiredXp op="mul">2.0</RequiredXp>
-  </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>

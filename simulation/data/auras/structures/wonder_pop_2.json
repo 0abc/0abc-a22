@@ -5,7 +5,7 @@
   "modifications": [
     { "value": "Player/MaxPopulation", "multiply": 1.1 }
   ],
-  "requiredTechnology": "pop_wonder",
+  "requiredTechnology": "wonder",
   "stackable": true,
   "type": "player"
 }

@@ -5,8 +5,8 @@
   "genericName": "Iberian Guerilla",
   "icon": "fist_spear.png",
   "modifications": [
-    {"value": "Attack/Ranged/Crush", "multiply": 1.1},
-    {"value": "Attack/Ranged/Hack", "multiply": 1.1},
+    {"value": "Attack/Ranged/Crush",  "multiply": 1.1},
+    {"value": "Attack/Ranged/Hack",   "multiply": 1.1},
     {"value": "Attack/Ranged/Pierce", "multiply": 1.1}
   ],
   "requirements": {"civ": "iber"},

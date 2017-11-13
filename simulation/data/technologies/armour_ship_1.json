@@ -1,0 +1,17 @@
+{
+  "affects": ["Ship"],
+  "cost": {"food": 0, "wood": 400, "stone": 0, "metal": 0},
+  "description": "Wooden reinforcement beams for ship hulls.",
+  "genericName": "Reinforced hull",
+  "icon": "armor_ship_bronze.png",
+  "modifications": [
+    {"value": "Armour/Crush",  "add": 2.0},
+    {"value": "Armour/Hack",   "add": 2.0},
+    {"value": "Armour/Pierce", "add": 2.0}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Ships +2 crush, hack, and pierce armour levels."
+}

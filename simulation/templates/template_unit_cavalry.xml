@@ -38,7 +38,8 @@
     </Formations>
     <GenericName>Cavalry</GenericName>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Cavalry Citizen Soldier</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Soldier Citizen Cavalry</VisibleClasses>
   </Identity>
   <Loot>
     <food>10</food>

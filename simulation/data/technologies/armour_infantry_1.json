@@ -1,0 +1,32 @@
+{
+  "affects": ["Infantry"],
+  "cost": {"food": 0, "wood": 800, "stone": 0, "metal": 400},
+  "description": "Equip infantrymen with body armour made from quilted leather.",
+  "genericName": "Quilted Leather Body Armour",
+  "icon": "armor_leather.png",
+  "modifications": [
+    {"value": "Armour/Crush",  "add": 1.0},
+    {"value": "Armour/Hack",   "add": 1.0},
+    {"value": "Armour/Pierce", "add": 1.0}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Spolas",
+    "brit": "Spolas",
+    "cart": "Spolas",
+    "gaul": "Spolas",
+    "generic": "Spolas",
+    "iber": "Spolas",
+    "mace": "Spolas",
+    "maur": "Spolas",
+    "pers": "Spolas",
+    "ptol": "Spolas",
+    "rome": "Spolas",
+    "sele": "Spolas",
+    "spart": "Spolas"
+  },
+  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels."
+}

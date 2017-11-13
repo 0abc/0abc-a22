@@ -1,12 +1,13 @@
 {
+  "affects": ["Centre"],
   "autoResearch": true,
   "genericName": "Village Phase",
   "icon": "village_phase.png",
   "modifications": [
-    { "value": "Cost/BuildTime",       "multiply": 0.5, "affects": "Centre" },
-    { "value": "Cost/Resources/food",  "multiply": 0.5, "affects": "Centre" },
-    { "value": "Cost/Resources/metal", "multiply": 0.5, "affects": "Centre" },
-    { "value": "Cost/Resources/stone", "multiply": 0.5, "affects": "Centre" },
-    { "value": "Cost/Resources/wood",  "multiply": 0.5, "affects": "Centre" }
+    {"value": "Cost/BuildTime",       "multiply": 0.5},
+    {"value": "Cost/Resources/food",  "multiply": 0.5},
+    {"value": "Cost/Resources/metal", "multiply": 0.5},
+    {"value": "Cost/Resources/stone", "multiply": 0.5},
+    {"value": "Cost/Resources/wood",  "multiply": 0.5}
   ]
 }

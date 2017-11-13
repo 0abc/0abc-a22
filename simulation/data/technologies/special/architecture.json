@@ -5,13 +5,14 @@
   "genericName": "Persian Architecture",
   "icon": "stone_blocks.png",
   "modifications": [
-    {"value": "Capturable/CapturePoints", "multiply": 1.20},
-    {"value": "Cost/BuildTime", "multiply": 1.20},
-    {"value": "Health/Max", "multiply": 1.25}
+    {"value": "Capturable/CapturePoints", "multiply": 1.2                     },
+    {"value": "Cost/BuildTime",           "multiply": 1.2                     },
+    {"value": "Health/Max",               "multiply": 1.2                     },
+    {"value": "Loot/xp",                  "multiply": 1.2, "affects": "Centre"}
   ],
   "requirements": {"all": [{"tech": "phase_village"}, {"civ": "pers"}]},
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Persian non-defensive structures (and excluding wonder and fields) +25% health and +20% capture points, but also +20% build time."
+  "tooltip": "Persian centres, civic, economic, and military structures, and palaces +20% health and +20% capture points, but also +20% build time."
 }

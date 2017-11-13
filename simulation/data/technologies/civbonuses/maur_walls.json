@@ -5,8 +5,13 @@
   "genericName": "Wooden Walls",
   "icon": "wooden_walls.png",
   "modifications": [
-    {"value": "Health/Max",     "multiply": 0.75},
-    {"value": "Cost/BuildTime", "multiply": 0.75}
+    {"value": "Capturable/CapturePoints", "multiply": 0.75},
+    {"value": "Cost/BuildTime",           "multiply": 0.75},
+    {"value": "Cost/Resources/stone",     "replace":  0   },
+    {"value": "Cost/Resources/wood",      "multiply": 3.0 },
+    {"value": "Health/Max",               "multiply": 0.75},
+    {"value": "Loot/stone",               "replace":  0   },
+    {"value": "Loot/wood",                "multiply": 3.0 }
   ],
   "requirements": {"civ": "maur"},
   "tooltip": "Mauryan city walls require no stone and have -25% less health and build time, and +150% wood cost."

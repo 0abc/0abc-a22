@@ -63,9 +63,9 @@
       units/{civ}_war_dog
     </Entities>
     <Technologies datatype="tokens">
-      drill_dogs_01
-      drill_dogs_02
-      drill_dogs_03
+      drill_dogs_1
+      drill_dogs_2
+      drill_dogs_3
       heal_dog_kennels
       training_dog_kennels
     </Technologies>

@@ -5,6 +5,7 @@
     <GenericName>Militia Cavalry</GenericName>
     <Icon>units/sele_cavalry_javelinist.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/sele_citizen_javelin_cavalry</SelectionGroupName>
     <SpecificName>Hippakontistès Politès</SpecificName>
   </Identity>

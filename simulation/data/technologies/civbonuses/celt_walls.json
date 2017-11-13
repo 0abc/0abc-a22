@@ -5,11 +5,14 @@
   "genericName": "Rubble walls",
   "icon": "wall.png",
   "modifications": [
-    {"value": "Cost/BuildTime", "multiply": 0.8},
-    {"value": "Cost/Resources/stone", "multiply": 0.8},
-    {"value": "Cost/Resources/wood", "multiply": 0.8},
-    {"value": "Health/Max", "multiply": 0.8}
+    {"value": "Capturable/CapturePoints", "multiply": 0.8},
+    {"value": "Cost/BuildTime",           "multiply": 0.8},
+    {"value": "Cost/Resources/stone",     "multiply": 0.8},
+    {"value": "Cost/Resources/wood",      "multiply": 0.8},
+    {"value": "Health/Max",               "multiply": 0.8},
+    {"value": "Loot/stone",               "multiply": 0.8},
+    {"value": "Loot/wood",                "multiply": 0.8}
   ],
   "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
-  "tooltip": "Celtic walls, gates, and wall turrets have 20% less health, but are also 20% cheaper and faster to construct."
+  "tooltip": "Celtic walls, gates, and wall turrets are 20% cheaper and faster to construct, but also have -20% capture points and health."
 }

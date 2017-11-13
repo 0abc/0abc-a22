@@ -101,12 +101,11 @@
     <Technologies datatype="tokens">
       phase_town
       phase_city
+      centre_watch_1
+      centre_watch_2
+      centre_watch_3
       unlock_spies
       unlock_counterespionage
-      centre_watch_01
-      centre_watch_02
-      centre_watch_03
-      upgrade_rank_advanced_mercenary
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>
@@ -115,18 +114,18 @@
   </ResourceDropsite>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_civ_center.xml</select>
-      <constructed>interface/complete/building/complete_civ_center.xml</constructed>
-      <attack>attack/weapon/arrowfly.xml</attack>
-      <death>attack/destruction/building_collapse_large.xml</death>
       <alert0>interface/alarm/alarm_alert_0.xml</alert0>
       <alert1>interface/alarm/alarm_alert_1.xml</alert1>
       <alert2>interface/alarm/alarm_alert_2.xml</alert2>
+      <attack>attack/weapon/arrowfly.xml</attack>
+      <constructed>interface/complete/building/complete_civ_center.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_civ_center.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
-    <Root>true</Root>
     <Radius>150</Radius>
+    <Root>true</Root>
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <Vision>

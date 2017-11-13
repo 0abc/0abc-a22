@@ -1,23 +1,23 @@
 {
-  "genericName": "Sentries",
-  "specificName": {
-    "mace": "Nyktophýlakes",
-    "spart": "Nyktophýlakes",
-    "athen": "Nyktophýlakes",
-    "ptol": "Nyktophýlakes",
-    "sele": "Nyktophýlakes",
-    "rome": "Vigiles"
-  },
-  "description": "A night's watch increases vigilance.",
+  "affects": ["GarrisonTower"],
   "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-  "requirements": {"tech": "phase_village"},
-  "requirementsTooltip": "Unlocked in Village Phase.",
+  "description": "A night's watch increases vigilance.",
+  "genericName": "Sentries",
   "icon": "helmet_corinthian_metal.png",
-  "researchTime": 60,
-  "tooltip": "Post sentries to add one arrow to sentry and stone towers.",
   "modifications": [
     {"value": "BuildingAI/DefaultArrowCount", "add": 1.0}
   ],
-  "affects": ["GarrisonTower"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "specificName": {
+    "athen": "Nyktophýlakes",
+    "mace": "Nyktophýlakes",
+    "ptol": "Nyktophýlakes",
+    "rome": "Vigiles",
+    "sele": "Nyktophýlakes",
+    "spart": "Nyktophýlakes"
+  },
+  "tooltip": "Post sentries to add one arrow to sentry and stone towers."
 }

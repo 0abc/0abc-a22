@@ -52,12 +52,6 @@
       <select>interface/select/building/sel_broch.xml</select>
     </SoundGroups>
   </Sound>
-  <TerritoryDecay disable=""/>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>50</Radius>
-    <Weight>50000</Weight>
-  </TerritoryInfluence>
   <Vision>
     <Range>60</Range>
   </Vision>

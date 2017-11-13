@@ -35,15 +35,15 @@
     <GenericName>Slave</GenericName>
     <Icon>units/global_slave.png</Icon>
     <Tooltip>Gatherer with a finite life span. Bonused at mining and lumbering.</Tooltip>
-    <VisibleClasses datatype="tokens">Slave Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Worker Slave</VisibleClasses>
   </Identity>
   <Loot>
     <metal op="add">5</metal>
     <xp op="add">5</xp>
   </Loot>
   <ResourceGatherer>
-    <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
+    <MaxDistance>2.0</MaxDistance>
     <Rates>
       <food.fish>0.5</food.fish>
       <food.fruit>0.5</food.fruit>

@@ -1,15 +1,15 @@
 {
-  "genericName": "Arrow Shooters",
-  "description": "Arrow shooters increase the maximum range of the fire arrows.",
+  "affects": ["Fortification"],
   "cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250},
+  "description": "Arrow shooters increase the maximum range of the fire arrows.",
+  "genericName": "Arrow Shooters",
+  "icon": "arrow.png",
+  "modifications": [
+    {"value": "Attack/Ranged/MaxRange", "add": 8}
+  ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "arrow.png",
-  "researchTime": 60,
-  "tooltip": "Increases tower and fortress maximum range by 8 meters.",
-  "modifications": [
-    { "value": "Attack/Ranged/MaxRange", "add": 8 }
-  ],
-  "affects": ["Fortification"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "researchTime": 50,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Increases tower and fortress maximum range by 8 meters."
 }

@@ -77,9 +77,9 @@
       units/{civ}_ship_galley_10
     </Entities>
     <Technologies datatype="tokens">
-      armour_ship_01
-      armour_ship_02
-      armour_ship_03
+      armour_ship_1
+      armour_ship_2
+      armour_ship_3
       special/training_harbour
     </Technologies>
   </ProductionQueue>

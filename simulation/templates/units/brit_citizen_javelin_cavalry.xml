@@ -4,7 +4,8 @@
     <Civ>brit</Civ>
     <GenericName>Raiding Cavalry</GenericName>
     <Icon>units/celt_cavalry_javelinist.png</Icon>
-    <SelectionGroupName>units/brit_cavalry_javelinist_b</SelectionGroupName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/brit_citizen_javelin_cavalry</SelectionGroupName>
     <SpecificName>Gaisaredos</SpecificName>
   </Identity>
   <Promotion>

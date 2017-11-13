@@ -1,9 +1,0 @@
-{
-  "affects": ["Structure"],
-  "auraDescription": "Increase territory influence strength (weight).",
-  "auraName": "Symbol of Greatness II",
-  "modifications": [
-    { "value": "TerritoryInfluence/Weight", "add": 5000 }
-  ],
-  "type": "global"
-}

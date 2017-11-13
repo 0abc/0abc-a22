@@ -1,17 +1,17 @@
 {
-  "pair": "pair_walls_01",
-  "genericName": "Geometric Masonry",
-  "description": "Using geometric masonry increases the sturdiness of defensive walls.",
-  "cost": {"food": 0, "wood": 0, "stone": 250, "metal": 0},
-  "requirements": {"tech": "phase_town"},
-  "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "stone_blocks.png",
-  "researchTime": 45,
-  "tooltip": "City walls +2 crush armour levels, but +20% build time.",
-  "modifications": [
-    {"value": "Cost/BuildTime", "multiply": 1.2},
-    {"value": "Armour/Crush", "add": 2.0}
-  ],
   "affects": ["StoneWall"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "cost": {"food": 0, "wood": 0, "stone": 250, "metal": 0},
+  "description": "Using geometric masonry increases the sturdiness of defensive walls.",
+  "genericName": "Geometric Masonry",
+  "icon": "stone_blocks.png",
+  "modifications": [
+    {"value": "Armour/Crush",   "add":      2.0},
+    {"value": "Cost/BuildTime", "multiply": 1.2}
+  ],
+  "pair": "walls_pair",
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "City walls +2 crush armour levels, but +20% build time."
 }

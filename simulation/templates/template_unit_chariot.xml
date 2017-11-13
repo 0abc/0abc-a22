@@ -30,7 +30,7 @@
     <GenericName>Chariot Unit</GenericName>
     <Rank>0</Rank>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Chariot Citizen Soldier</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Citizen Chariot</VisibleClasses>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>

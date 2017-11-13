@@ -54,9 +54,9 @@
       units/{civ}_mercenary_lance_cavalry
     </Entities>
     <Technologies datatype="tokens">
-      drill_cavalry_01
-      drill_cavalry_02
-      drill_cavalry_03
+      drill_cavalry_1
+      drill_cavalry_2
+      drill_cavalry_3
       heal_cavalry_stables
       training_cavalry_stables
       special/nisean_horses

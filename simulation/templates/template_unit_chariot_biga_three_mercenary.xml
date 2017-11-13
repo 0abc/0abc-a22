@@ -1,32 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_chariot_biga_archer">
-  <Armour>
-    <Crush op="add">1</Crush>
-    <Hack op="add">1</Hack>
-    <Pierce op="add">1</Pierce>
-  </Armour>
-  <Attack>
-    <Ranged>
-      <Crush op="mul">1.15</Crush>
-      <Hack op="mul">1.15</Hack>
-      <Pierce op="mul">1.15</Pierce>
-    </Ranged>
-  </Attack>
-  <Cost>
-    <BuildTime op="mul">0.8</BuildTime>
-    <Resources>
-      <metal op="add">50</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <GenericName>Mercenary Three-man Chariot</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Citizen Mercenary</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">5</metal>
-    <xp op="add">50</xp>
-  </Loot>
   <Selectable>
     <Overlay>
       <Texture>

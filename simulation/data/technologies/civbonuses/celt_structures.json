@@ -1,17 +1,25 @@
 {
-  "affects": ["Civic", "Economic", "Military", "Resource"],
+  "affects": ["Civic", "Economic", "Military"],
   "autoResearch": true,
   "description": "Celtic structures were mostly made of wood with rubble foundations.",
   "genericName": "Wooden Construction",
   "icon": "wooden_buildings.png",
   "modifications": [
-    {"value": "Capturable/CapturePoints", "multiply": 0.8},
-    {"value": "Cost/BuildTime", "multiply": 0.8},
-    {"value": "Cost/PopulationBonus", "add": 2, "affects": "Economic"},
-    {"value": "Cost/PopulationBonus", "add": 4, "affects": "Military"},
-    {"value": "Cost/PopulationBonus", "add": 6, "affects": "Temple"},
-    {"value": "Health/Max", "multiply": 0.8}
+    {"value": "Capturable/CapturePoints", "multiply": 0.8                       },
+    {"value": "Cost/BuildTime",           "multiply": 0.8                       },
+    {"value": "Cost/PopulationBonus",     "add":        2, "affects": "Economic"},
+    {"value": "Cost/PopulationBonus",     "add":        4, "affects": "Military"},
+    {"value": "Cost/PopulationBonus",     "add":        6, "affects": "Temple"  },
+    {"value": "Cost/Resources/stone",     "replace":    0, "affects": "Economic"},
+    {"value": "Cost/Resources/stone",     "replace":    0, "affects": "Military"},
+    {"value": "Cost/Resources/stone",     "replace":    0, "affects": "Temple"  },
+    {"value": "Cost/Resources/wood",      "add":      250, "affects": "Temple"  },
+    {"value": "Health/Max",               "multiply": 0.8                       },
+    {"value": "Loot/stone",               "replace":    0, "affects": "Economic"},
+    {"value": "Loot/stone",               "replace":    0, "affects": "Military"},
+    {"value": "Loot/stone",               "replace":    0, "affects": "Temple"  },
+    {"value": "Loot/wood",                "add":       25, "affects": "Temple"  }
   ],
   "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
-  "tooltip": "Celtic buildings have 20% less health, but are also 20% cheaper and faster to construct. Economic structures grant +2 population bonus, military structures +4, temples +6."
+  "tooltip": "Celtic civic, economic, and military structures have 20% less health, but are also 20% faster to construct, and require no stone. Economic structures grant +2 population bonus, military structures +4, temples +6."
 }

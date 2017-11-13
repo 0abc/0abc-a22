@@ -1,9 +1,9 @@
 {
   "affects": ["Worker"],
-  "auraDescription" : "+25% gather rate for workers in the grainfields.",
+  "auraDescription": "+20% gather rate for workers in the grainfields.",
   "auraName": "Farming bonus",
   "modifications": [
-    { "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25 }
+    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.2}
   ],
   "overlayIcon": "art/textures/ui/session/auras/farming.png",
   "radius": 60,

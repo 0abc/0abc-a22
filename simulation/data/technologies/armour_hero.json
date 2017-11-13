@@ -5,8 +5,8 @@
   "genericName": "Iron Hero Armour",
   "icon": "armor_cuirass_empire.png",
   "modifications": [
-    {"value": "Armour/Crush", "add": 3.0},
-    {"value": "Armour/Hack", "add": 3.0},
+    {"value": "Armour/Crush",  "add": 3.0},
+    {"value": "Armour/Hack",   "add": 3.0},
     {"value": "Armour/Pierce", "add": 3.0}
   ],
   "requirements": {"tech": "phase_city"},

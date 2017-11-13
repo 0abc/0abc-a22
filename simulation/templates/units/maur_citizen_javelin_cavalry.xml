@@ -4,6 +4,7 @@
     <Civ>maur</Civ>
     <GenericName>Indian Light Cavalry</GenericName>
     <Icon>units/maur_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/maur_citizen_javelin_cavalry</SelectionGroupName>
     <SpecificName>Ashwarohi</SpecificName>
   </Identity>

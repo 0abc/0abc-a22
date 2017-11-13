@@ -53,8 +53,8 @@
       units/{civ}_ship_fire
     </Entities>
     <Technologies datatype="tokens">
-      gather_fish_net
-      gather_fish_capacity
+      gather_fish
+      gather_capacity_boat
       special/training_docks
     </Technologies>
   </ProductionQueue>

@@ -5,9 +5,9 @@
   "genericName": "Priest Caste",
   "icon": "asclepius_rod.png",
   "modifications": [
-    { "value": "Cost/Resources/metal", "multiply": 0.5 },
-    { "value": "Loot/metal", "multiply": 0.5 },
-    { "value": "Loot/xp", "add": -5 }
+    {"value": "Cost/Resources/metal", "multiply": 0.5},
+    {"value": "Loot/metal",           "multiply": 0.5},
+    {"value": "Loot/xp",              "add":      -5 }
   ],
   "requirements": {"civ": "maur" },
   "tooltip": "Healers cost -50% metal."

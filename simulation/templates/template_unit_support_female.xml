@@ -43,12 +43,13 @@
     <Formations disable=""/>
     <Gender>female</Gender>
     <GenericName>Female</GenericName>
-    <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Citizen Worker Female</VisibleClasses>
   </Identity>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <MaxDistance>2.0</MaxDistance>
     <Rates>
+      <food.fish>0.5</food.fish>
       <food.fruit>1</food.fruit>
       <food.grain>0.5</food.grain>
       <food.meat>1</food.meat>

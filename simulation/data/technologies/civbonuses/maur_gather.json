@@ -1,0 +1,12 @@
+{
+  "affects": ["Worker"],
+  "autoResearch": true,
+  "description": "Decreased stone gather rates for trees.",
+  "genericName": "Iron Axe Heads",
+  "icon": "mining_stone.png",
+  "modifications": [
+    {"value": "ResourceGatherer/Rates/stone.rock", "multiply": 0.9}
+  ],
+  "requirements": {"civ": "maur"},
+  "tooltip": "Mauryan workers -10% stone quarrying rate for rocks."
+}

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
+  <Capturable>
+    <CapturePoints op="mul">2.0</CapturePoints>
+  </Capturable>
   <Cost>
     <BuildTime op="mul">2.0</BuildTime>
     <PopulationBonus op="mul">2.0</PopulationBonus>

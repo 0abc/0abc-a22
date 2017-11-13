@@ -1,14 +1,15 @@
 {
-	"genericName": "Carrier Pigeons",
-	"description": "Outposts and towers gain longer vision for scouting.",
-	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0},
-	"requirements": {"tech": "phase_village"},
-	"icon": "pigeon.png",
-	"researchTime": 30,
-	"tooltip": "All towers +20% Vision Range.",
-	"modifications": [
+  "affects": ["Tower"],
+  "cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0},
+  "description": "Outposts and towers gain longer vision for scouting.",
+  "genericName": "Carrier Pigeons",
+  "icon": "pigeon.png",
+  "modifications": [
     {"value": "Vision/Range", "multiply": 1.2}
   ],
-	"affects": ["Tower"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 40,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "All towers +20% Vision Range."
 }

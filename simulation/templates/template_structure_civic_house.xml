@@ -4,7 +4,7 @@
     <Category>House</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints op="mul">0.3</CapturePoints>
+    <CapturePoints op="mul">0.4</CapturePoints>
   </Capturable>
   <Cost>
     <BuildTime op="mul">0.3</BuildTime>
@@ -21,7 +21,7 @@
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">0.8</Max>
+    <Max op="mul">0.75</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -41,12 +41,12 @@
       units/{civ}_support_female_house
     </Entities>
     <Technologies datatype="tokens">
-      unlock_females_house
-      armour_females
+      armour_female
       heal_house
-      pop_house_01
-      pop_house_02
-      pop_house_03
+      house_population_1
+      house_population_2
+      house_population_3
+      unlock_females_house
     </Technologies>
   </ProductionQueue>
   <Sound>

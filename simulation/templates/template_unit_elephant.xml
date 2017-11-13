@@ -38,8 +38,8 @@
     <GenericName>Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
     <Rank>0</Rank>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Elephant Citizen Soldier</VisibleClasses>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Soldier Citizen Elephant</VisibleClasses>
   </Identity>
   <Loot>
     <food>30</food>

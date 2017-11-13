@@ -38,7 +38,7 @@
     </Formations>
     <GenericName>Camel Soldier</GenericName>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Camel Citizen Soldier</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Citizen Camel</VisibleClasses>
   </Identity>
   <Loot>
     <food>9</food>

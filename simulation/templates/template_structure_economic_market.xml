@@ -39,13 +39,14 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
+      armour_trader
+      speed_trader
+      trade_gain_1
+      trade_gain_2
+      trade_gain_3
+      trade_international
       unlock_shared_los
       unlock_shared_dropsites
-      trader_speed
-      trader_armour
-      trade_gain_01
-      trade_gain_02
-      trade_international
     </Technologies>
     <Entities datatype="tokens">
       units/{civ}_support_trader

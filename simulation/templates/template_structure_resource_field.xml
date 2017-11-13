@@ -7,6 +7,10 @@
   </Armour>
   <BuildRestrictions>
     <Category>Field</Category>
+    <Distance>
+      <FromClass>Centre</FromClass>
+      <MinDistance>50</MinDistance>
+    </Distance>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Cost>

@@ -4,6 +4,7 @@
     <Civ>pers</Civ>
     <Icon>units/pers_cavalry_javelinist.png</Icon>
     <GenericName>Median Light Cavalry</GenericName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/pers_citizen_javelin_cavalry</SelectionGroupName>
     <SpecificName>Mada Asabara</SpecificName>
   </Identity>

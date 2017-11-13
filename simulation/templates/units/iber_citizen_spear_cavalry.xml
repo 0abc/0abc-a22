@@ -3,7 +3,6 @@
   <Identity>
     <Civ>iber</Civ>
     <Icon>units/iber_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/iber_citizen_spear_cavalry</SelectionGroupName>
     <SpecificName>Lantzari</SpecificName>
   </Identity>

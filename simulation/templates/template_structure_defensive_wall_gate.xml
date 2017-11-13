@@ -3,8 +3,8 @@
   <!-- We don't disable the Cost component, although gates cannot be built directly, as Cost/BuildTime is required to prevent instantaneous repair -->
   <Armour>
     <Crush op="add">-2</Crush>
-    <Hack op="add">-10</Hack>
-    <Pierce op="add">-10</Pierce>
+    <Hack op="add">-5</Hack>
+    <Pierce op="add">-5</Pierce>
   </Armour>
   <Cost>
     <BuildTime op="mul">10.0</BuildTime>

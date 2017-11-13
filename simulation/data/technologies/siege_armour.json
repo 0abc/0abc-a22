@@ -5,11 +5,11 @@
   "genericName": "Armour plating",
   "icon": "armor_plates_gold.png",
   "modifications": [
-    { "value": "Armour/Hack", "add": 2.0 }
+    {"value": "Armour/Hack", "add": 2.0}
   ],
   "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 40,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "All Siege weapons +2 Hack armour levels."
+  "tooltip": "All Siege weapons +2 hack armour levels."
 }

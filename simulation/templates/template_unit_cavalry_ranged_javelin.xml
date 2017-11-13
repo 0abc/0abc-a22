@@ -28,8 +28,8 @@
     <Max op="mul">1.3</Max>
   </Health>
   <Identity>
-    <Tooltip>Counters: 1.5× vs Chariots.</Tooltip>
     <GenericName>Cavalry Skirmisher</GenericName>
+    <Tooltip>Counters: 1.5× vs Chariots.</Tooltip>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
   </Identity>
   <Loot>

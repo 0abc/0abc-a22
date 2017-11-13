@@ -4,6 +4,7 @@
     <Civ>maur</Civ>
     <Classes datatype="tokens">Longbow</Classes>
     <Icon>units/maur_cavalry_archer.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur_citizen_archer_elephant</SelectionGroupName>
     <SpecificName>Vachii Gaja</SpecificName>
   </Identity>

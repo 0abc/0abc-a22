@@ -6,6 +6,6 @@
     { "value": "Capturable/CapturePoints", "multiply": 1.5 }
   ],
   "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
-  "radius": 50,
+  "radius": 75,
   "type": "range"
 }

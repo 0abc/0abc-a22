@@ -5,6 +5,7 @@
     <GenericName>Thessalian Lancer</GenericName>
     <Icon>units/mace_cavalry_spearman.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/mace_citizen_lance_cavalry</SelectionGroupName>
     <SpecificName>Xystophóros Thessalikós</SpecificName>
   </Identity>

@@ -13,9 +13,8 @@
   <Auras datatype="tokens">
     structures/wonder_heal
     structures/wonder_pop_1
-    structures/wonder_area_1
     structures/wonder_pop_2
-    structures/wonder_area_2
+    structures/wonder_territory
   </Auras>
   <BuildRestrictions>
     <Category>Wonder</Category>
@@ -28,14 +27,14 @@
     <BuildTime op="mul">10.0</BuildTime>
     <Resources>
       <food>1000</food>
-      <wood>1000</wood>
-      <stone>1000</stone>
       <metal>1000</metal>
+      <stone>1000</stone>
+      <wood>1000</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="34.0" depth="34.0"/>
     <Height>10.0</Height>
+    <Square width="34.0" depth="34.0"/>
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>5</BuffHeal>
@@ -68,7 +67,7 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      pop_wonder
+      wonder
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

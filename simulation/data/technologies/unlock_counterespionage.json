@@ -4,7 +4,7 @@
   "genericName": "Counterintelligence",
   "icon": "vial_poison.png",
   "modifications": [
-    { "value": "Player/SpyCostMultiplier", "multiply": 2.0 }
+    {"value": "Player/SpyCostMultiplier", "multiply": 2.0}
   ],
   "requirements": { "tech": "phase_city" },
   "researchTime": 75,

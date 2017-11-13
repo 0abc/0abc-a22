@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical">
-  <Armour>
-    <Crush>1</Crush>
-    <Hack>1</Hack>
-    <Pierce>2</Pierce>
-  </Armour>
-  <Cost>
-    <BuildTime>10</BuildTime>
-    <Population>1</Population>
-    <Resources>
-      <wood>50</wood>
-    </Resources>
-  </Cost>
   <Decay>
     <SinkingAnim>true</SinkingAnim>
     <DelayTime>0.0</DelayTime>
@@ -29,10 +17,6 @@
     <GenericName>Ship</GenericName>
     <VisibleClasses datatype="tokens">Ship</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>5</wood>
-    <xp>25</xp>
-  </Loot>
   <Position>
     <Floating>true</Floating>
     <TurnRate>3.0</TurnRate>
@@ -40,11 +24,11 @@
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <Capacities>
-      <food>40</food>
-      <metal>20</metal>
-      <silver>20</silver>
-      <stone>20</stone>
-      <wood>20</wood>
+      <food>50</food>
+      <metal>25</metal>
+      <silver>25</silver>
+      <stone>25</stone>
+      <wood>25</wood>
     </Capacities>
     <MaxDistance>4.0</MaxDistance>
   </ResourceGatherer>

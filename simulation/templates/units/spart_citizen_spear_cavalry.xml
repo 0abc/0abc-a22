@@ -5,7 +5,6 @@
     <Lang>greek</Lang>
     <GenericName>Greek Allied Cavalry</GenericName>
     <Icon>units/spart_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/spart_citizen_spear_cavalry</SelectionGroupName>
     <SpecificName>Hippeús Symmakhikós</SpecificName>
   </Identity>

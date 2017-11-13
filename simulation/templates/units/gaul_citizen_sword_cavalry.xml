@@ -3,7 +3,6 @@
   <Identity>
     <Civ>gaul</Civ>
     <Icon>units/celt_cavalry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/gaul_citizen_sword_cavalry</SelectionGroupName>
     <SpecificName>Epos</SpecificName>
   </Identity>

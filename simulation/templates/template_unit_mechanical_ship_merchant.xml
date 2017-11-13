@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush op="add">2</Crush>
-    <Hack op="add">2</Hack>
-    <Pierce op="add">4</Pierce>
+    <Crush>3</Crush>
+    <Hack>3</Hack>
+    <Pierce>6</Pierce>
   </Armour>
   <Auras datatype="tokens">
     units/merchant_convoy
   </Auras>
   <Cost>
-    <BuildTime op="mul">2.0</BuildTime>
-    <Population>1</Population>
+    <BuildTime>20</BuildTime>
     <Resources>
-      <food op="add">30</food>
-      <metal op="add">90</metal>
-      <wood op="add">130</wood>
+      <food>25</food>
+      <metal>75</metal>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -38,10 +37,10 @@
     <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
   <Loot>
-    <food op="add">3</food>
-    <metal op="add">9</metal>
-    <wood op="add">13</wood>
-    <xp op="add">25</xp>
+    <food>3</food>
+    <metal>7</metal>
+    <wood>15</wood>
+    <xp>25</xp>
   </Loot>
   <ResourceGatherer>
     <MaxDistance>12.0</MaxDistance>

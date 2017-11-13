@@ -1,13 +1,15 @@
 {
-	"genericName": "Commercial Treaty",
-	"description": "Improve the international trading profit.",
-	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 300 },
-	"requirements": { "tech": "phase_town" },
-	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "sibylline_books.png",
-	"researchTime": 40,
-	"tooltip": "Market +10% International Bonus.",
-	"modifications": [{ "value": "Market/InternationalBonus", "add": 0.10 }],
-	"affects": ["Market"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "affects": ["Market"],
+  "cost": { "food": 0, "wood": 0, "stone": 0, "metal": 300 },
+  "description": "Improve the international trading profit.",
+  "genericName": "Commercial Treaty",
+  "icon": "sibylline_books.png",
+  "modifications": [
+    {"value": "Market/InternationalBonus", "add": 0.10}
+  ],
+  "requirements": { "tech": "phase_city" },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Market +10% International Bonus."
 }

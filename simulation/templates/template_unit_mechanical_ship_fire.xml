@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Crush op="add">4</Crush>
-    <Hack op="add">4</Hack>
-    <Pierce op="add">8</Pierce>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>10</Pierce>
   </Armour>
   <Attack>
     <Melee>
@@ -16,10 +16,10 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime op="add">5</BuildTime>
+    <BuildTime>15</BuildTime>
     <Population>0</Population>
     <Resources>
-      <wood op="add">100</wood>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <Footprint replace="">

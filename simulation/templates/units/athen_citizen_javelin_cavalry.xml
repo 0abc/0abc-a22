@@ -4,7 +4,8 @@
     <Civ>athen</Civ>
     <Icon>units/hele_cavalry_javelinist.png</Icon>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/athen_cavalry_javelinist_b</SelectionGroupName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/athen_citizen_javelin_cavalry</SelectionGroupName>
     <SpecificName>Pródromos</SpecificName>
   </Identity>
   <Promotion>

@@ -5,6 +5,7 @@
     <GenericName>Perioikoi Cavalryman</GenericName>
     <Icon>units/spart_cavalry_javelinist.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/spart_citizen_javelin_cavalry</SelectionGroupName>
     <SpecificName>Pródromos Perioïkós</SpecificName>
   </Identity>

@@ -5,10 +5,10 @@
   "genericName": "Hellenistic Metropolis",
   "icon": "statue_face_stone.png",
   "modifications": [
-    {"value": "BuildingAI/DefaultArrowCount", "add": 1.0},
-    {"value": "Capturable/CapturePoints", "multiply": 1.5},
-    {"value": "Health/Max", "multiply": 1.5},
-    {"value": "Loot/xp", "multiply": 1.5}
+    {"value": "BuildingAI/DefaultArrowCount", "add":      1.0},
+    {"value": "Capturable/CapturePoints",     "multiply": 1.5},
+    {"value": "Health/Max",                   "multiply": 1.5},
+    {"value": "Loot/xp",                      "multiply": 1.5}
   ],
   "requirements": {"all": [{"tech": "phase_city"}, {"any":[{"civ": "mace"}, {"civ": "ptol"}, {"civ": "sele"}]}]},
   "requirementsTooltip": "Unlocked in City Phase.",

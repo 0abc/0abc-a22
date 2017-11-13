@@ -36,9 +36,9 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       gather_forage
-      gather_farm_01
-      gather_farm_02
-      gather_farm_03
+      gather_farm_1
+      gather_farm_2
+      gather_farm_3
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

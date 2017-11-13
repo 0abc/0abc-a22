@@ -1,15 +1,16 @@
 {
-  "genericName": "Conscription",
-  "description": "Significantly increase training speed of soldiers at the elephant stables by training them in large batches or battalions.",
+  "affects": ["SiegeWorkshop"],
   "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0 },
-	"requirements": {"tech": "phase_city"},
-  "requirementsTooltip": "Unlocked in City Phase.",
+  "description": "Significantly increase training speed of units at the siege workshop by training them in large batches.",
+  "genericName": "Mass Training",
   "icon": "military_engineers.png",
-  "researchTime": 40,
-  "tooltip": "Faster batch training speed for the Siege Workshop.",
   "modifications": [
-    { "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }
+    {"value": "ProductionQueue/BatchTimeModifier", "add": -0.1}
   ],
-  "affects": ["ElephantStables"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Faster batch training speed for the Siege Workshop."
 }
+

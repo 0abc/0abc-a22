@@ -40,9 +40,9 @@
     </Entities>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding
-      speed_horse_01
-      speed_horse_02
-      speed_horse_03
+      speed_horse_1
+      speed_horse_2
+      speed_horse_3
     </Technologies>
   </ProductionQueue>
   <Sound>

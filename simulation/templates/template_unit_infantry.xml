@@ -67,7 +67,7 @@
     <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
     <GenericName>Infantry</GenericName>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Citizen Infantry Soldier Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Citizen Worker Infantry</VisibleClasses>
   </Identity>
   <Loot>
     <food>5</food>
@@ -80,6 +80,7 @@
     <BaseSpeed>1.0</BaseSpeed>
     <MaxDistance>2.0</MaxDistance>
     <Rates>
+      <food.fish>0.75</food.fish>
       <food.fruit>0.5</food.fruit>
       <food.grain>0.25</food.grain>
       <food.meat>1</food.meat>

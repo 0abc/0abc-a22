@@ -4,6 +4,7 @@
     <Civ>cart</Civ>
     <GenericName>Numidian Cavalry</GenericName>
     <Icon>units/cart_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>units/cart_citizen_javelin_cavalry</SelectionGroupName>
     <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
   </Identity>

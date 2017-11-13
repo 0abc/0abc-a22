@@ -153,9 +153,9 @@ And it can currently be used for:
 * Cataphracts have +3 armour levels, but also −10% walk speed and +50 metal cost.
 * Celtic (Britons, Gauls):
   * blacksmith technologies cost −20% resources and time;
-  * civic, economic, military, and resource structures have −20% health, capture points, and build time; 
+  * civic, economic, military, and resource structures have −20% health, capture points, and build time; cost 0 stone; temples cost +250 wood;
   * economic structures grant +2 population bonus, military structures +4, temples +6;
-  * walls have −20% health, build time, and stone and wood costs;
+  * walls have −20% health, capture points, build time, and stone and wood costs;
   * druids (healers) have +20% walk speed, +4 crush, hack, and pierce armour levels, and two more auras (“Curse” and “Motivation”), but also cost +50 metal, +50 wood, and +100% training time;
   * naked fanatics (champion spearmen) have +15% attack damage and +30% walk speed, but also −4 armour levels.
 * Greek (Athenians, Macedonians, Spartans):
@@ -164,7 +164,6 @@ And it can currently be used for:
   * war elephants have −20% metal and wood costs and −10% training time, but also −10% attack damage and −20% maximum health.
 * Tribal (Britons, Gauls, Iberians):
   * centres have −20% resource cost, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius.
-
 * Athenians:
   * storehouse technologies cost −10% resources and time;
   * warships have +10% walk speed.
@@ -172,11 +171,12 @@ And it can currently be used for:
   * infantry swordsmen have +10% walk speed;
   * sentry towers cost no stone and have −25% construction time and −10% health.
 * Carthaginians:
+
   * market technologies cost −25% resources and time;
   * markets have −50% resource costs and construction time;
   * ships have +20~m vision range;
   * traders have +5% gain;
-  * city walls have +25% health and build time.
+  * city walls have +40% health, capture points, build time, and stone and wood costs.
 * Gauls:
   * infantry spearmen have +10% melee attack damage.
 * Iberians:
@@ -185,12 +185,14 @@ And it can currently be used for:
   * cavalry lancers have +10% melee attack damage.
 * Mauryans:
   * +10% maximum population;
+  * workers −10% stone gather rate;
   * healers cost −50% metal;
-  * city walls have −20% health and building time;
+  * city walls have −20% health, capture points, and build time, cost no stone, but +200% wood;
   * temples have −50% resource costs and construction time (former team bonus).
 * Persians:
   * +10% maximum population;
   * +10% territory influence radius;
+  * workers −5% wood gather rate;
   * battering rams have +20% maximum health but also cost +100 wood.
 * Ptolemies:
   * barracks, blacksmiths, houses, and economic structures cost −100 wood but have +50% building time;

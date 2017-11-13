@@ -32,7 +32,7 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      upgrade_rank_advanced_mercenary
+      special/mercenaries
     </Technologies>
   </ProductionQueue>
   <Sound>

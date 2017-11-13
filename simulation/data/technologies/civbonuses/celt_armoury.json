@@ -5,11 +5,11 @@
   "genericName": "Celtic Blacksmiths",
   "icon": "forging.png",
   "modifications": [
-    { "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.8 },
-    { "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.8 },
-    { "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.8 },
-    { "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.8 },
-    { "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.8 }
+    {"value": "ProductionQueue/TechCostMultiplier/food",  "multiply": 0.8},
+    {"value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.8},
+    {"value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.8},
+    {"value": "ProductionQueue/TechCostMultiplier/time",  "multiply": 0.8},
+    {"value": "ProductionQueue/TechCostMultiplier/wood",  "multiply": 0.8}
   ],
   "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
   "tooltip": "Celtic Armoury technologies cost -20% resources and time."

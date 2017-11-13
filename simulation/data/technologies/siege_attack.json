@@ -6,7 +6,7 @@
   "icon": "siege_ram.png",
   "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 40,
+  "researchTime": 60,
   "modifications": [
     {"value": "Attack/Melee/Crush",  "multiply": 1.25},
     {"value": "Attack/Ranged/Crush", "multiply": 1.25}

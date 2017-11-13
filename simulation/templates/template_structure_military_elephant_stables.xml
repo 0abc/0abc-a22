@@ -50,9 +50,9 @@
       units/{civ}_champion_war_elephant
     </Entities>
     <Technologies datatype="tokens">
-      drill_elephantry_01
-      drill_elephantry_02
-      drill_elephantry_03
+      drill_elephantry_1
+      drill_elephantry_2
+      drill_elephantry_3
       heal_elephant_stables
       training_elephant_stables
     </Technologies>

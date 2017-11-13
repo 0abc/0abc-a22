@@ -1,15 +1,15 @@
 {
-  "genericName": "Naval Architects",
-  "description": "Significantly increase build speed of batches of ships at the Shipyard.",
-  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0 },
-	"requirements": {"tech": "phase_city"},
-  "requirementsTooltip": "Unlocked in City Phase.",
-  "icon": "calipers.png",
-  "researchTime": 40,
-  "tooltip": "Shipyard increased batch construction speed bonus.",
-  "modifications": [
-    { "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }
-  ],
   "affects": ["Shipyard"],
-  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0 },
+  "description": "Significantly increase build speed of batches of ships at the military shipyard.",
+  "genericName": "Naval Architects",
+  "icon": "calipers.png",
+  "modifications": [
+    {"value": "ProductionQueue/BatchTimeModifier", "add": -0.1}
+  ],
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 60,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Faster batch training speed for the Shipyard."
 }

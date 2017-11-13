@@ -3,7 +3,7 @@
   <Armour>
     <Crush>5</Crush>
     <Hack>25</Hack>
-    <Pierce>35</Pierce>
+    <Pierce>40</Pierce>
   </Armour>
   <Cost>
     <BuildTime op="mul">1.0</BuildTime>

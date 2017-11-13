@@ -6,7 +6,7 @@
   "icon": "agoge.png",
   "modifications": [
     {"value": "Cost/BuildTime", "multiply": 1.2},
-    {"value": "Health/Max", "multiply": 1.2}
+    {"value": "Health/Max",     "multiply": 1.2}
   ],
   "requirements": {"all": [{"tech": "phase_town"}, {"civ": "spart"}]},
   "requirementsTooltip": "Unlocked in Town Phase.",

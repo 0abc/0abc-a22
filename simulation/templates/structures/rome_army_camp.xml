@@ -33,7 +33,7 @@
     <Category>ArmyCamp</Category>
     <Distance>
       <FromClass>GarrisonFortress</FromClass>
-      <MinDistance>80</MinDistance>
+      <MinDistance>75</MinDistance>
     </Distance>
     <Territory>neutral enemy</Territory>
   </BuildRestrictions>

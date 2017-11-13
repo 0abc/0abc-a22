@@ -13,6 +13,6 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "supersedes": "trader_speed",
+  "supersedes": "speed_trader",
   "tooltip": "Traders +2 Crush, Hack, and Pierce armour levels."
 }

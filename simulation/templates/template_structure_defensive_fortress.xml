@@ -25,7 +25,7 @@
     <Category>Fortress</Category>
     <Distance>
       <FromClass>GarrisonFortress</FromClass>
-      <MinDistance>80</MinDistance>
+      <MinDistance>75</MinDistance>
     </Distance>
   </BuildRestrictions>
   <Capturable>

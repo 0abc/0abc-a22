@@ -39,7 +39,7 @@
     <Category>Centre</Category>
     <Distance>
       <FromClass>Centre</FromClass>
-      <MinDistance>160</MinDistance>
+      <MinDistance>150</MinDistance>
     </Distance>
     <Territory>own neutral</Territory>
   </BuildRestrictions>

@@ -140,8 +140,8 @@ And it can currently be used for:
 * 40 m from temples: temples
 * 50 m from centres: farm fields
 * 60 m from towers: outpost, sentry tower, defence tower
-* 80 m from fortresses: army camps, fortresses
-* 160 m from centres: centres, crannogs
+* 75 m from fortresses: army camps, fortresses
+* 150 m from centres: centres, crannogs
 
 ### Global auras
 * Wonders each grant −10% unit training time

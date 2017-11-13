@@ -28,7 +28,7 @@
       <Palace>1</Palace>
       <Pillar>0</Pillar>
       <Theatre>1</Theatre>
-      <Tower>30</Tower>
+      <Tower>10</Tower>
       <UniqueBuilding>1</UniqueBuilding>
       <WarDog>0</WarDog>
       <Wonder>1</Wonder>
@@ -40,6 +40,9 @@
       <Pillar>
         <Ashoka>5</Ashoka>
       </Pillar>
+      <Tower>
+        <Centre>5</Centre>
+      </Tower>
       <WarDog>
         <DogKennel>10</DogKennel>
       </WarDog>

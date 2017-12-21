@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
+  <Armour>
+    <Crush>2</Crush>
+    <Hack>15</Hack>
+  </Armour>
   <Capturable>
     <CapturePoints op="mul">2.0</CapturePoints>
   </Capturable>

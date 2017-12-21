@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
+  <Auras datatype="tokens">
+    structures/farmstead
+  </Auras>
   <Capturable>
     <CapturePoints op="mul">0.6</CapturePoints>
   </Capturable>
@@ -14,7 +17,7 @@
     <Square width="14.0" depth="14.0"/>
   </Footprint>
   <GarrisonHolder>
-    <Max>3</Max>
+    <Max>5</Max>
   </GarrisonHolder>
   <Health>
     <Max op="mul">0.9</Max>

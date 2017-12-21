@@ -72,13 +72,9 @@
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
-    <Interval>2000</Interval>
+    <Interval>1000</Interval>
     <Rates>
-      <food>1.0</food>
-      <metal>1.0</metal>
-      <silver>1.0</silver>
-      <stone>1.0</stone>
-      <wood>1.0</wood>
+      <silver>2.0</silver>
     </Rates>
   </ResourceTrickle>
   <Sound>

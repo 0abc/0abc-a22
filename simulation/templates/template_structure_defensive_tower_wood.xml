@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower">
+  <Armour>
+    <Crush>2</Crush>
+    <Hack>15</Hack>
+    <Pierce>25</Pierce>
+  </Armour>
   <Capturable>
     <CapturePoints op="mul">1.25</CapturePoints>
   </Capturable>

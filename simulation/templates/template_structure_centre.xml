@@ -29,6 +29,12 @@
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
+  <Auras datatype="tokens">
+    structures/centre_1
+    structures/centre_2
+    structures/centre_3
+    structures/centre_4
+  </Auras>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
@@ -47,9 +53,6 @@
     <CapturePoints op="mul">6.0</CapturePoints>
     <RegenRate>5.0</RegenRate>
   </Capturable>
-  <Auras datatype="tokens">
-    structures/centre
-  </Auras>
   <Cost>
     <BuildTime op="mul">6.0</BuildTime>
     <PopulationBonus>25</PopulationBonus>

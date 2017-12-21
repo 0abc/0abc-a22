@@ -27,6 +27,12 @@
     <GenericName>Military Structure</GenericName>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
+  <ResourceTrickle>
+    <Interval>5000</Interval>
+    <Rates>
+      <food>-1.0</food>
+    </Rates>
+  </ResourceTrickle>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>40</Radius>

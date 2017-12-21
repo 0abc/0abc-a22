@@ -48,7 +48,7 @@
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
-    <Interval>3000</Interval>
+    <Interval>1000</Interval>
     <Rates>
       <silver>1.0</silver>
     </Rates>

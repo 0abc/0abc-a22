@@ -3,7 +3,7 @@
   <Armour>
     <Crush op="add">-2</Crush>
     <Hack op="add">-10</Hack>
-    <Pierce op="add">-5</Pierce>
+    <Pierce op="add">-10</Pierce>
   </Armour>
   <BuildRestrictions>
     <Territory>own neutral enemy</Territory>

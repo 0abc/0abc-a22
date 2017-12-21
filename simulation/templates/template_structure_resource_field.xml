@@ -5,6 +5,10 @@
     <Hack>15</Hack>
     <Pierce>40</Pierce>
   </Armour>
+  <BuildRestrictions>
+    <Category>Field</Category>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Cost>
     <BuildTime op="mul">0.5</BuildTime>
     <Resources>

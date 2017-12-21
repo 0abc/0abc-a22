@@ -4,6 +4,7 @@
     <GenericName>Mercenary Three-man Chariot</GenericName>
     <VisibleClasses datatype="tokens">-Citizen Mercenary</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

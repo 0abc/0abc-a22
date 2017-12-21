@@ -4,6 +4,7 @@
     <GenericName>Mercenary Cavalry Lancer</GenericName>
     <VisibleClasses datatype="tokens">-Citizen Mercenary</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

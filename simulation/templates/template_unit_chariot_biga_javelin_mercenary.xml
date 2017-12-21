@@ -4,6 +4,7 @@
     <GenericName>Mercenary Javelinist Chariot</GenericName>
     <VisibleClasses datatype="tokens">-Citizen Mercenary</VisibleClasses>
   </Identity>
+  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

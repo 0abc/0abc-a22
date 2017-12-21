@@ -28,7 +28,7 @@
   </Minimap>
   <ResourceGatherer disable=""/>
   <ResourceTrickle>
-    <Interval>1000</Interval>
+    <Interval>2000</Interval>
     <Rates>
       <silver>1.0</silver>
     </Rates>

@@ -15,6 +15,7 @@
 
 ## Brief overview
 * Dozens of hours of work, thousands of new files, numerous tweaks and minor changes, most of which will probably go unnoticed
+* To make the game slower paced and encourage keeping your units alive, all unit training time is increased by 100% and all technology research times are increased by 50%
 * A new resource: silver (see below)
 * All soldiers cost at least some metal to encourage feminization
 * All soldiers have their attack rate normalized to 1 second
@@ -40,6 +41,7 @@
 * Phase advances no longer increase citizen soldier health nor metal gather rate
 * A third level of infantry and cavalry armoury researches is available; 
   blacksmith can be constructed in village phase
+* Military buildings consume 1 food per five seconds (negative food trickle rate)
 * Walls, storehouses, markets, fields, farmsteads, and corrals can be constructed in neutral territory (new),
   as can civic centres, colonies, crannogs, docks, harbours, shipyards, and outposts (unchanged)
 * Bribable (espionage: temporarily reveal their vision range) are:
@@ -56,7 +58,10 @@
 Silver is the new resource number one; it can not be gathered directly, but can be acquired by:
 * selling resources
 * traders (gain is currently any combination of silver and other resources)
-* catafalques, palaces, and wonders grant a 1 silver per second trickle
+* resource trickle rates:
+  * catafalques: 1 silver per two seconds
+  * palaces: 1 silver per second
+  * wonders: 2 silver per second
 * killing heroes:
   * healer and infantry heroes grant 50 silver
   * cavalry heroes grant 100 silver
@@ -138,7 +143,6 @@ And it can currently be used for:
 * 20 m from economic buildings: corrals, docks, farmsteads, fields, markets, storehouses
 * 30 m from military buildings: barracks, blacksmiths, camel stables, cavalry stables, chariot stables, elephant stables, embassies, military halls, siege workshops
 * 40 m from temples: temples
-* 50 m from centres: farm fields
 * 60 m from towers: outpost, sentry tower, defence tower
 * 75 m from fortresses: army camps, fortresses
 * 150 m from centres: centres, crannogs

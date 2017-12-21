@@ -5,14 +5,6 @@
     <Hack>15</Hack>
     <Pierce>40</Pierce>
   </Armour>
-  <BuildRestrictions>
-    <Category>Field</Category>
-    <Distance>
-      <FromClass>Centre</FromClass>
-      <MinDistance>50</MinDistance>
-    </Distance>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <Cost>
     <BuildTime op="mul">0.5</BuildTime>
     <Resources>

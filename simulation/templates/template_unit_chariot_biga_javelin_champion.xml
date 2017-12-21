@@ -3,7 +3,7 @@
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
     <GenericName>Champion Javelinist Chariot</GenericName>
-    <VisibleClasses datatype="tokens">Champion -Citizen</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Citizen Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <Selectable>

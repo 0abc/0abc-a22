@@ -5,7 +5,7 @@
     <Classes datatype="tokens">-CitizenSoldier</Classes>
     <GenericName>Champion Infantry Hoplite</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Champion -Citizen -Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Builder -Worker -Citizen Champion</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>
   <Selectable>

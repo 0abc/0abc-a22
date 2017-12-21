@@ -35,7 +35,7 @@
     <GenericName>Slave</GenericName>
     <Icon>units/global_slave.png</Icon>
     <Tooltip>Gatherer with a finite life span. Bonused at mining and lumbering.</Tooltip>
-    <VisibleClasses datatype="tokens">Worker Slave</VisibleClasses>
+    <VisibleClasses datatype="tokens">Builder Worker Slave</VisibleClasses>
   </Identity>
   <Loot>
     <metal op="add">5</metal>

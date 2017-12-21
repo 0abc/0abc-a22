@@ -7,7 +7,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Classes datatype="tokens">Human Organic</Classes>
+    <Classes datatype="tokens">-ConquestCritical Human Organic</Classes>
     <GenericName>Support</GenericName>
     <VisibleClasses datatype="tokens">Support</VisibleClasses>
   </Identity>

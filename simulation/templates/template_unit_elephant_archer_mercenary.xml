@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_elephant_archer">
   <Identity>
+    <Classes datatype="tokens">-CitizenSoldier</Classes>
     <GenericName>Mercenary Elephant Archer</GenericName>
     <VisibleClasses datatype="tokens">-Citizen Mercenary</VisibleClasses>
   </Identity>

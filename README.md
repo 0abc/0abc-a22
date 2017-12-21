@@ -17,6 +17,10 @@
 * Dozens of hours of work, thousands of new files, numerous tweaks and minor changes, most of which will probably go unnoticed
 * To make the game slower paced and encourage keeping your units alive, all unit training time is increased by 100% and all technology research times are increased by 50%
 * A new resource: silver (see below)
+* Females can no longer build, but can gather resources
+  * citizen soldiers can both build and gather resources
+  * mercenary soldiers can build, but can no longer gather resources
+  * champion soldiers can neither build nor gather resources
 * All soldiers cost at least some metal to encourage feminization
 * All soldiers have their attack rate normalized to 1 second
 * All soldiers (citizen, mercenary, and champion) can advance in rank: 
@@ -50,7 +54,7 @@
   * civic structures (blacksmiths, houses, libraries, lighthouses, temples, theatres)
   * centres, crannogs, docks, embassies, harbours, markets, palaces, and wonders
 * Conquest critical are:
-  * all units except fauna, fishing boats, healers, merchant ships, and traders
+  * all units except fauna, females, fishing boats, healers, merchant ships, slaves, and traders
   * all military structures, centres, crannogs, fortresses, palaces, and wonders
 * Trade gain now depends on x+x^1.5 (instead of x^2), with x the distance between markets
 

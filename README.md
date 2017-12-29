@@ -27,7 +27,8 @@
   * instead of basic/advanced/elite, units start at rank 0 and can promote a dozen times, up to rank 12; 
   * each rank grants +5% health, attack damage, and capture strength
 * Camelry, chariotry, and elephantry are now distinct classes, separate from cavalry; as a consequence, they no longer benefit from cavalry technologies
-* Cavalry, camels, and worker elephants can no longer be trained at the civic centre or crannog
+* Females, cavalry, camels, and worker elephants can no longer be trained at the civic centre or crannog
+  * females can be trained at houses by default (no longer require a technology to be unlocked)
 * Loot resources are standardized to 10% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
 * Loot experience is standardized to be equal to:
   * 100% of resource costs total (soldiers)

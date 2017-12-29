@@ -35,12 +35,10 @@
     <Static width="8.0" depth="8.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>1.0</BatchTimeModifier>
     <Entities datatype="tokens">
-      -units/{civ}_support_female_house
+      -units/{civ}_support_female
     </Entities>
-    <Technologies datatype="tokens">
-    </Technologies>
+    <Technologies datatype="tokens"/>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

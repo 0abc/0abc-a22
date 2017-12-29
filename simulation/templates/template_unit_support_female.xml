@@ -19,6 +19,9 @@
   <Auras datatype="tokens">
     units/female_inspiration
   </Auras>
+  <Cost>
+    <BuildTime op="mul">3.0</BuildTime>
+  </Cost>
   <Health>
     <Max op="mul">0.4</Max>
   </Health>

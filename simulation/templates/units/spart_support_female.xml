@@ -5,12 +5,6 @@
        <Hack op="mul">1.5</Hack>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      structures/spart_wallset_palisade
-      structures/spart_outpost
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Spartan Woman</GenericName>

@@ -2,18 +2,18 @@
 <Entity parent="template_unit_support">
   <Attack>
     <Melee>
-      <Crush>1.0</Crush>
-      <Hack>1.0</Hack>
-      <MaxRange>4.0</MaxRange>
-      <Pierce>1.0</Pierce>
+      <Crush>1</Crush>
+      <Hack>1</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>1</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
     </Melee>
     <Slaughter>
-      <Crush>0.0</Crush>
-      <Hack>25.0</Hack>
-      <MaxRange>4.0</MaxRange>
-      <Pierce>0.0</Pierce>
+      <Crush>0</Crush>
+      <Hack>25</Hack>
+      <MaxRange>4</MaxRange>
+      <Pierce>0</Pierce>
     </Slaughter>
   </Attack>
   <Auras datatype="tokens">

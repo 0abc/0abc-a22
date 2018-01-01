@@ -61,9 +61,14 @@
       "Description": "Iberians start with a powerful prefabricated circuit of stone walls."
     },
     {
-      "Name": "Zaldi Saldoa",
-      "History": "Not unlike Numidia in North Africa, the Iberian Peninsula was known as 'horse country', capable of producing up to 100,000 new mounts each year.",
-      "Description": "The resource cost of training horse-mounted units (cavalry) is reduced by 5% per animal corralled."
+      "Name": "Iberian Guerilla",
+      "History": "The warlike peoples living on the Iberian peninsula were fiercely independent, especially those in the mountaneous interior. They excelled at skirmishing and guerilla tactics. It took the Romans many centuries to subject the Cantabrii and Vascones (Basques) in the North, and afterwards more legions were required to keep this relatively small area under control than all other parts of the Iberian peninsula combined.",
+      "Description": "Infantry Javelinists +10% attack damage."
+    },
+    {
+      "Name": "Tribal Centres",
+      "History": "Not all peoples lived in city-states. The Celts are a formidable example of a tribal confederacy. Their settlements are smaller but also cheaper and faster to construct, allowing them to migrate relatively quickly.",
+      "Description": "Centres −20% resource costs, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius."
     }
   ],
   "TeamBonuses":
@@ -82,8 +87,8 @@
       "Emblem": "",
       "History": "'Revered Monument' The Iberians were a religious people who built small monuments to their various gods. These monuments could also serve as family tombs.",
       "Requirements": "",
-      "Phase": "",
-      "Special": "Defensive Aura - Gives all Iberian units and buildings within vision range of the monument a 10-15% attack boost. Build Limit: Only 5 may be built per map."
+      "Phase": "Town",
+      "Special": "Nearby soldiers have a 20% attack boost. Build Limit: 5."
     }
   ],
   "StartEntities":
@@ -97,7 +102,7 @@
     },
     {
       "Template": "units/iber_citizen_sword_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/iber_citizen_javelin_infantry",

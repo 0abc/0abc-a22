@@ -5,8 +5,8 @@
   "genericName": "Egyptian Medicine",
   "icon": "healing_range.png",
   "modifications": [
-    {"value": "Heal/Range", "add": 6}
+    {"value": "Heal/Range", "add": 3}
   ],
   "requirements": {"civ": "ptol"},
-  "tooltip": "Healers have +6 healing range."
+  "tooltip": "Healers have +3 healing range."
 }

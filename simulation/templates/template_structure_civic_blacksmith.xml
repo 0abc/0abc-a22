@@ -62,6 +62,7 @@
       armour_cavalry_1
       armour_cavalry_2
       armour_cavalry_3
+      special/chainmail
       special/steel_working
     </Technologies>
   </ProductionQueue>

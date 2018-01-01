@@ -27,6 +27,7 @@
     <Classes datatype="tokens">DropsiteFood</Classes>
     <GenericName>Farmstead</GenericName>
     <Icon>structures/farmstead.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Dropsite for food. Research food gathering improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
   </Identity>
@@ -42,6 +43,7 @@
       gather_farm_1
       gather_farm_2
       gather_farm_3
+      gather_farm_4
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

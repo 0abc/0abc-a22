@@ -62,27 +62,17 @@
   "CivBonuses":
   [
     {
-      "Name":"Hellenic League",
-      "History":"After the unification of Greece, Philip II gathered all the city-states together to form the Hellenic League, with Macedon as the its leader. With this Pan-Hellenic federation he planned to launch an expedition to punish Persia for past wrongs. Although assassinated before he could carry out the invasion, his son Alexander the Great took up the mantle and completed his fathers plans.",
-      "Description":"Macedonian units have +10% attack bonus vs. Persian and Hellenic factions, but -5% attack debonus vs. Romans."
-    },
-    {
-      "Name":"Syntagma",
-      "History":"Based upon the Theban Oblique Order phalanx, the Syntagma was the formation that proved invincible against the armies of Hellas and the East.",
-      "Description":"Infantry pike units can use the slow and powerful Syntagma formation."
-    },
-    {
-      "Name":"Hellenization",
-      "History":"The Greeks were highly successful in Hellenizing various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
-      "Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
+      "Name": "Macedonian Cavalry",
+      "History": "The Macedonians were the first to deploy cavalry as shock troops, directly charging at the enemy, giving them a far greater impact.",
+      "Description": "Cavalry Lancers +10% attack damage."
     }
   ],
   "TeamBonuses":
   [
     {
-      "Name":"Macedonian Timber",
-      "History":"Macedonia was the most important source of excellent timber in the Greek world, necessary for the construction of war ships, but also useful for producing pikes and siege weapons.",
-      "Description":"Units −4% wood cost."
+      "Name": "Macedonian Timber",
+      "History": "Macedonia was the most important source of excellent timber in the Greek world, necessary for the construction of war ships, but also useful for producing pikes and siege weapons.",
+      "Description": "Units −4% wood cost."
     }
   ],
   "Structures":
@@ -100,10 +90,10 @@
       "Name":"Theatre",
       "Class":"",
       "Emblem":"",
-      "History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+      "History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles, Euripides, and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
       "Requirements":"",
       "Phase":"City",
-      "Special":"Each Theatre increases the territory effect of all buildings by 15%. Build limit: 1."
+      "Special":"Nearby centre +20% capture points and +50% territory influence weight; workers everywhere +5% work rate; required for Metropolis Phase. Build limit: 1."
     }
   ],
   "StartEntities":
@@ -117,7 +107,7 @@
     },
     {
       "Template": "units/mace_citizen_pike_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/mace_citizen_javelin_infantry",

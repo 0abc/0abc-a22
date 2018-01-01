@@ -2,7 +2,7 @@
   "affects": ["Barracks", "Blacksmith", "Economic", "House"],
   "autoResearch": true,
   "description": "Egyptian buildings were often made of sun-dried mud bricks.",
-  "genericName": "Mud bricks",
+  "genericName": "Mud Bricks",
   "icon": "wall.png",
   "modifications": [
     {"value": "Cost/BuildTime",       "multiply":  1.5                    },

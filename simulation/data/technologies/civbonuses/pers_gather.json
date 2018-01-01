@@ -2,7 +2,7 @@
   "affects": ["Worker"],
   "autoResearch": true,
   "description": "Decreased wood gather rates for trees.",
-  "genericName": "Iron Axe Heads",
+  "genericName": "Inferior Axe Heads",
   "icon": "wood_axe.png",
   "modifications": [
     {"value": "ResourceGatherer/Rates/wood.tree", "multiply": 0.95}

@@ -1,0 +1,9 @@
+{
+  "affects": ["Warship"],
+  "auraDescription": "The Athenian Navy was greatly feared. The greater skill of their rowers and more experienced sailors ensured superior and crucial speed. Warships +10% speed.",
+  "auraName": "Athenian Navy",
+  "modifications": [
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
+  ],
+  "type": "global"
+}

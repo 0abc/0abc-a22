@@ -44,6 +44,7 @@
   </Health>
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Oxybelḗs</SpecificName>
     <Tooltip>Counters: 1.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>

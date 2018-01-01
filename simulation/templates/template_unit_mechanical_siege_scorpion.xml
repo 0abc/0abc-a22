@@ -32,6 +32,7 @@
   <Identity>
     <Classes datatype="tokens">Scorpio</Classes>
     <GenericName>Scorpion</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Scorpio</SpecificName>
     <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
   </Identity>

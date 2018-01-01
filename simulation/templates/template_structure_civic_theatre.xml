@@ -2,16 +2,17 @@
 <Entity parent="template_structure_civic">
   <Auras datatype="tokens">
     structures/theatre
+    structures/theatre_centre
   </Auras>
   <BuildRestrictions>
     <Category>Theatre</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints op="mul">4.0</CapturePoints>
+    <CapturePoints op="mul">5.0</CapturePoints>
     <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime op="mul">4.0</BuildTime>
+    <BuildTime op="mul">5.0</BuildTime>
     <Resources>
       <food>400</food>
       <metal>400</metal>
@@ -28,7 +29,7 @@
     <Max>40</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">4.0</Max>
+    <Max op="mul">5.0</Max>
   </Health>
   <Identity>
     <GenericName>Theatre</GenericName>

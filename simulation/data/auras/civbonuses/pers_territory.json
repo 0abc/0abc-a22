@@ -1,0 +1,9 @@
+{
+  "affects": ["Structure"],
+  "auraDescription": "The Persian King of Kings had enormous soft power and being associated with the Persian ruler carried great prestige amongst both Persians and non-Persians. The name, symbols, and titles of the Persian monarch exerted great influence everywhere.",
+  "auraName": "King of Kings",
+  "modifications": [
+    {"value": "TerritoryInfluence/Radius", "multiply": 1.1}
+  ],
+  "type": "global"
+}

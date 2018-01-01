@@ -3,7 +3,7 @@
   "cost": { "food": 0, "wood": 0, "stone": 0, "metal": 300 },
   "description": "Improve the international trading profit.",
   "genericName": "Commercial Treaty",
-  "icon": "sibylline_books.png",
+  "icon": "friendship.png",
   "modifications": [
     {"value": "Market/InternationalBonus", "add": 0.10}
   ],

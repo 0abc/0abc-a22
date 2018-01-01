@@ -62,9 +62,24 @@
       "Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300)."
     },
     {
+      "Name": "Indian Religiousness.",
+      "History": "India was known for the religions which spread from there.",
+      "Description": "Temples −50% build time and resource costs."
+    },
+    {
       "Name": "Kṣhatriya Warrior Caste.",
       "History": "Kshatriya or Kashtriya, meaning warrior, is one of the four varnas (social orders) in Hinduism. Traditionally Kshatriya constitute the military and ruling elite of the Vedic-Hindu social system outlined by the Vedas and the Laws of Manu.",
-      "Description": "The Mauryans enjoy access to 4 champions."
+      "Description": "The Mauryans enjoy access to five champion types."
+    },
+    {
+      "Name": "Limited Stone Working.",
+      "History": "Stone was seldom used as a normal building material.",
+      "Description": "Workers −10% stone gather rates."
+    },
+    {
+      "Name": "Wooden Walls.",
+      "History": "he Mauryans built their city walls out of wood, an abundant natural resource in India.",
+      "Description": "Mauryan city walls require no stone and have −25% less health and build time, and +150% wood cost."
     }
   ],
   "TeamBonuses":
@@ -79,12 +94,21 @@
   [
     {
       "Name":"Edict Pillar of Ashoka",
-      "Class":"SB2",
+      "Class":"",
       "Emblem":"",
       "History":".",
-      "Requirements":"Built by the Ashoka hero unit.",
-      "Phase":"City",
-      "Special":"Contentment: +10% Health and +10% resource gathering rates for all citizens and allied citizens within its range. Can be built anywhere except in enemy territory. Max Built: 10."
+      "Requirements":"Ashoka hero unit.",
+      "Phase":"Town",
+      "Special":"Nearby traders +20% movement speed. Max Built: 5."
+    },
+    {
+      "Name": "Apadana",
+      "Class": "",
+      "Emblem": "",
+      "History": "",
+      "Requirements": "",
+      "Phase": "City",
+      "Special": "Trains Maiden Guard champions. Grants a steady silver trickle income."
     }
   ],
   "StartEntities":
@@ -98,7 +122,7 @@
     },
     {
       "Template": "units/maur_citizen_spear_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/maur_citizen_archer_infantry",

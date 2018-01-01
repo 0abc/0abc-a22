@@ -62,27 +62,27 @@
   "CivBonuses":
   [
     {
-      "Name":"Othismos",
-      "History":"The Spartans were undisputed masters of phalanx warfare. The Spartans were so feared for their discipline that the enemy army would sometimes break up and run away before a single shield clashed. 'Othismos' refers to the point in a phalanx battle where both sides try to shove each other out of formation, attempting to breaking up the enemy lines and routing them.",
-      "Description":"Spartans can use the powerful Phalanx formation."
+      "Name": "Spartan Army",
+      "History": "Sparta was deeply conservative and notoriously slow on deciding on matters of peace and war; but when war was declared, Sparta was able to quickly send around an army, thanks to its professional soldiers.",
+      "Description": "Hoplites +10% movement speed."
     },
     {
-      "Name":"Laws of Lycurgus",
-      "History":"Under the Constitution written by the mythical law-giver Lycurgus, the institution of The Agoge was established, where Spartans were trained from the age of 6 to be superior warriors in defense of the Spartan state.",
-      "Description":"The Spartan rank upgrades at the Barracks cost no resources, except time."
+      "Name": "Spartan Horsemanship",
+      "History": "Spartans were not known for their horsemanship. Fighting on foot was considered more prestigious. Usually poorly equipped serfs rode the horses.",
+      "Description": "Cavalry −10% attack damage."
     },
     {
-      "Name":"Hellenization",
-      "History":"The Greeks were highly successful in Hellenising various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
-      "Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
+      "Name": "Spartan Women",
+      "History":"Spartan girls regularly trained in athletics and the use of weapons, making them better capable of defending themselves.",
+      "Description": "Females +30% attack damage."
     }
   ],
   "TeamBonuses":
   [
     {
-      "Name":"Peloponnesian League",
-      "History":"Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies.'",
-      "Description":"Infantry hoplites −20% training time."
+      "Name": "Peloponnesian League",
+      "History": "Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies.'",
+      "Description": "Infantry hoplites −20% training time."
     }
   ],
   "Structures":
@@ -108,7 +108,7 @@
     },
     {
       "Template": "units/spart_citizen_hoplite_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/spart_citizen_javelin_infantry",

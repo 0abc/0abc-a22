@@ -1,0 +1,9 @@
+{
+  "affects": ["Trader"],
+  "auraDescription": "The Phoenicians were known both inside and outside the Mediterranean as skilled traders.",
+  "auraName": "Punic Traders",
+  "modifications": [
+    {"value": "Trader/GainMultiplier", "multiply": 1.05}
+  ],
+  "type": "global"
+}

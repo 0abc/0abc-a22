@@ -11,7 +11,6 @@
   </BuildingAI>
   <Cost>
     <BuildTime op="mul">10.0</BuildTime>
-    <Population op="mul">10.0</Population>
     <Resources>
       <food op="mul">10.0</food>
       <metal op="mul">10.0</metal>
@@ -30,8 +29,8 @@
   </Health>
   <Identity>
     <GenericName>Decereme</GenericName>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SpecificName>Dekḗrēs</SpecificName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <food op="mul">10.0</food>
@@ -39,6 +38,11 @@
     <wood op="mul">10.0</wood>
     <xp op="mul">10.0</xp>
   </Loot>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-60.0</silver>
+    </Rates>
+  </ResourceTrickle>
   <UnitMotion>
     <WalkSpeed op="add">-10</WalkSpeed>
   </UnitMotion>

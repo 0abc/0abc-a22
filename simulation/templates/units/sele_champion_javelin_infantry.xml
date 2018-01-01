@@ -5,6 +5,7 @@
     <GenericName>Heavy Skirmisher</GenericName>
     <Icon>units/mace_thureophoros.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SelectionGroupName>units/sele_champion_javelin_infantry</SelectionGroupName>
     <SpecificName>Thyreophóros</SpecificName>
   </Identity>

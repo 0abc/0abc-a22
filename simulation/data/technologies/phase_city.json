@@ -1,16 +1,23 @@
 {
   "affects": ["Centre"],
   "cost": { "food": 500, "wood": 500, "stone": 500, "metal": 500 },
-  "description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
+  "description": "Advances from a bustling town to a veritable city, full of the wonders of modern technology.",
   "genericName": "City Phase",
   "icon": "city_phase.png",
   "modifications": [
-    {"value": "TerritoryInfluence/Radius", "multiply": 1.3}
+    {"value": "Cost/BuildTime",               "multiply": 1.2},
+    {"value": "Health/Max",                   "multiply": 1.2},
+    {"value": "Cost/Resources/metal",         "add":      500},
+    {"value": "Loot/metal",                   "add":       50},
+    {"value": "Loot/silver",                  "add":       50},
+    {"value": "Loot/xp",                      "multiply": 1.2},
+    {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
+    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
   "requirements": { "entity": { "class": "Town", "number": 3 } },
-  "requirementsTooltip": "Requires 3 new Town Phase structures (excluding civil centres and defensive structures).",
+  "requirementsTooltip": "Requires 3 new Town Phase structures (excluding centres and defensive structures).",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_town",
-  "tooltip": "Advance to City Phase, which unlocks more structures and units. Centres +30% territory influence radius."
+  "tooltip": "Advance to City Phase, which unlocks more structures and units. Centres +20% territory influence radius, health, and build time. Also increase silver income."
 }

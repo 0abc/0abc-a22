@@ -60,6 +60,9 @@
   <Trader>
     <GainMultiplier>0.75</GainMultiplier>
   </Trader>
+  <TrainingRestrictions>
+    <Category>Trader</Category>
+  </TrainingRestrictions>
   <UnitAI>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>

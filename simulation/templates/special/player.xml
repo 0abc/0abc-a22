@@ -15,6 +15,7 @@
   </BattleDetection>
   <EntityLimits>
     <Limits>
+      <Boat>0</Boat>
       <Centre>1</Centre>
       <Council>1</Council>
       <DogKennel>5</DogKennel>
@@ -29,11 +30,15 @@
       <Pillar>0</Pillar>
       <Theatre>1</Theatre>
       <Tower>10</Tower>
+      <Trader>0</Trader>
       <UniqueBuilding>1</UniqueBuilding>
       <WarDog>0</WarDog>
       <Wonder>1</Wonder>
     </Limits>
     <LimitChangers>
+      <Boat>
+        <Dock>2</Dock>
+      </Boat>
       <Hall>
         <Centre>1</Centre>
       </Hall>
@@ -43,6 +48,9 @@
       <Tower>
         <Centre>5</Centre>
       </Tower>
+      <Trader>
+        <BarterMarket>5</BarterMarket>
+      </Trader>
       <WarDog>
         <DogKennel>10</DogKennel>
       </WarDog>

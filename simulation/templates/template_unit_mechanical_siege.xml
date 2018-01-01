@@ -14,7 +14,6 @@
   </Health>
   <Identity>
     <GenericName>Siege</GenericName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Siege</VisibleClasses>
   </Identity>
   <Position>

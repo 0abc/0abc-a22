@@ -3,16 +3,17 @@
   "cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200},
   "description": "Increases defensive capability of traders.",
   "genericName": "Trade Convoys",
-  "icon": "wheel.png",
+  "icon": "upgrade_elite.png",
   "modifications": [
-    {"value": "Armour/Crush",  "add": 2.0},
-    {"value": "Armour/Hack",   "add": 2.0},
-    {"value": "Armour/Pierce", "add": 2.0}
+    {"value": "Armour/Crush",         "add":      2.0 },
+    {"value": "Armour/Hack",          "add":      2.0 },
+    {"value": "Armour/Pierce",        "add":      2.0 },
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "speed_trader",
-  "tooltip": "Traders +2 Crush, Hack, and Pierce armour levels."
+  "tooltip": "Traders +2 Crush, Hack, and Pierce armour levels, but also -2% movement speed."
 }

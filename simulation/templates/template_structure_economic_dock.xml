@@ -27,6 +27,7 @@
     <Classes datatype="tokens">Naval NavalMarket ConquestCritical</Classes>
     <GenericName>Commercial Dock</GenericName>
     <Icon>structures/dock.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Construct fishing boats to gather meat and merchant ships to trade with other docks.</Tooltip>
     <VisibleClasses datatype="tokens">Village Market Dock</VisibleClasses>
   </Identity>

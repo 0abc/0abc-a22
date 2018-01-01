@@ -5,14 +5,15 @@
   "genericName": "Improved Chamfron",
   "icon": "armor_plates_cavalry.png",
   "modifications": [
-    {"value": "Armour/Crush",  "add": 1.0},
-    {"value": "Armour/Hack",   "add": 1.0},
-    {"value": "Armour/Pierce", "add": 1.0}
+    {"value": "Armour/Crush",         "add":      1.0 },
+    {"value": "Armour/Hack",          "add":      1.0 },
+    {"value": "Armour/Pierce",        "add":      1.0 },
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.99}
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 50,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_cavalry_1",
-  "tooltip": "All Cavalry +1 Crush, Hack, and Pierce Armour levels."
+  "tooltip": "All Cavalry +1 Crush, Hack, and Pierce Armour levels, but also -1% movement speed."
 }

@@ -11,7 +11,6 @@
   </BuildingAI>
   <Cost>
     <BuildTime op="mul">7.0</BuildTime>
-    <Population op="mul">7.0</Population>
     <Resources>
       <food op="mul">7.0</food>
       <metal op="mul">7.0</metal>
@@ -30,7 +29,7 @@
   </Health>
   <Identity>
     <GenericName>Septireme</GenericName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SpecificName>Heptḗrēs</SpecificName>
   </Identity>
   <Loot>
@@ -39,6 +38,11 @@
     <wood op="mul">7.0</wood>
     <xp op="mul">7.0</xp>
   </Loot>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-42.0</silver>
+    </Rates>
+  </ResourceTrickle>
   <UnitMotion>
     <WalkSpeed op="add">-7</WalkSpeed>
   </UnitMotion>

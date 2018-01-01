@@ -1,0 +1,10 @@
+{
+  "affects": ["Ship"],
+  "auraDescription": "Ships +5% movement speed.",
+  "auraName": "Port in Sight",
+  "modifications": [
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.05}
+  ],
+  "radius": 150,
+  "type": "range"
+}

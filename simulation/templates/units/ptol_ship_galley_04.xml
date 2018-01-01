@@ -3,7 +3,6 @@
   <Identity>
     <Civ>ptol</Civ>
     <Icon>units/hele_ship_trireme.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>structures/athenians/trireme.xml</Actor>

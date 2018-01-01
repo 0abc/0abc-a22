@@ -34,8 +34,8 @@
   <Identity>
     <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
-    <Tooltip>Increase the population limit.</Tooltip>
-    <VisibleClasses datatype="tokens">Village House</VisibleClasses>
+    <Tooltip>Increase the population limit and trains females.</Tooltip>
+    <VisibleClasses datatype="tokens">House</VisibleClasses>
   </Identity>
   <Loot>
     <wood>8</wood>
@@ -49,10 +49,12 @@
     </Entities>
     <Technologies datatype="tokens">
       armour_female
+      training_female
       heal_house
       house_population_1
       house_population_2
       house_population_3
+      house_population_4
     </Technologies>
   </ProductionQueue>
   <Sound>

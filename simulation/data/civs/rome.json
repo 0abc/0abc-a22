@@ -51,14 +51,14 @@
   "CivBonuses":
   [
     {
-      "Name": "Testudo Formation",
-      "History": "The Romans commonly used the Testudo or 'turtle' formation for defense: Legionaries were formed into hollow squares with twelve men on each side, standing so close together that their shields overlapped like fish scales.",
-      "Description": "Roman Legionaries can form a Testudo."
+      "Name": "Italic Swordsmen",
+      "History": "The Italic peoples gradually abandoned the spear in favour of the sword as their primary weapon. Rome was especially successful winning wars with their swordsmen.",
+      "Description": "Infantry Swordsmen +10% attack damage."
     },
     {
-      "Name": "Citizenship",
-      "History": "Roman Citizenship was highly prized in the ancient world. Basic rights and privileges were afforded Roman citizens that were denied other conquered peoples. It is said that harming a Roman citizen was akin to harming Rome herself, and would cause the entire might of Rome to fall upon the perpetrator.",
-      "Description": "Any Roman citizen-soldier fighting within Roman territory gains a non-permanent +10% bonus in armor."
+      "Name": "Roman Discipline",
+      "History": "The Roman legions were known for their discipline on the battlefield; Roman soldiers were relatively well trained.",
+      "Description": "Barracks technologies −15% research time and resource costs."
     }
   ],
   "TeamBonuses":
@@ -101,7 +101,7 @@
     },
     {
       "Template": "units/rome_citizen_axe_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/rome_citizen_javelin_infantry",

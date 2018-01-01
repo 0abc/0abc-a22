@@ -1,10 +1,14 @@
 {
-  "cost": { "food": 250, "wood": 100, "stone": 0, "metal": 100 },
+  "affects": ["Female"],
+  "cost": { "food": 300, "wood": 100, "stone": 0, "metal": 100 },
   "description": "A festival attended by women-only, to celebrate female fertility.",
   "genericName": "Fertility Festival",
   "icon": "wives_festival.png",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.75}
+  ],
   "requirements": { "tech": "phase_village" },
-  "researchTime": 60,
+  "researchTime": 40,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "specificName": {
     "athen": "Thesmophória",
@@ -12,5 +16,5 @@
     "rome": "Bona Dea",
     "spart": "Thesmophória"
   },
-  "tooltip": "Unlock the ability to train women from houses."
+  "tooltip": "Females -25% training time."
 }

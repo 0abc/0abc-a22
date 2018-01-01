@@ -62,27 +62,27 @@
   "CivBonuses":
   [
     {
-      "Name":"Mercenary Army",
-      "History":"The Greco-Macedonian Ptolemy Dynasty relied on large numbers of Greek and foreign mercenaries for the bulk of its military force, mainly because the loyalty of native Egyptian units was often suspect. Indeed, during one native uprising, Upper Egypt was lost to the Ptolemies for decades. Mercenaries were often battle-hardened and their loyalty could be bought, sometimes cheaply, sometimes not cheaply. This was of no matter, since Egypt under the Ptolemies was so prosperous as to be the richest of Alexander's successor states.",
-      "Description":"The Ptolemies receive the Mercenary Camp, a barracks that is constructed in neutral territory and trains mercenary soldiers."
+      "Name": "Egyptian Medicine",
+      "History": "Egypt was the land of medicine; people often travelled large distances to be healed specifically by an Egyptian priest.",
+      "Description": "Healers have +3 healing range."
     },
     {
-      "Name":"Nile Delta",
-      "History":"Unknown.",
-      "Description":"The Ptolemaic Egyptians receive 3 additional farming technologies."
+      "Name": "Egyptian Mysticism",
+      "History": "Egypt was known for its mysticism and extremely old religious traditions. Many of the new cults in the Hellenized world incorporated Egyptian elements.",
+      "Description": "Temple technologies −30% research time and resource costs."
     },
     {
-      "Name":"Roundup",
-      "History":"Unknown.",
-      "Description":"Can capture gaia elephants and camels to reduce their training cost."
+      "Name": "Mud Bricks",
+      "History": "Egyptian buildings were often made of sun-dried mud bricks.",
+      "Description": "Many structures have +50% building time, but cost no or significantly less wood."
     }
   ],
   "TeamBonuses":
   [
     {
-      "Name":"Breadbasket of the Mediterranean",
-      "History":"Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
-      "Description":"Units −4% food cost."
+      "Name": "Breadbasket of the Mediterranean",
+      "History": "Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
+      "Description": "Units −4% food cost."
     }
   ],
   "Structures":
@@ -109,10 +109,10 @@
       "Name":"Theatre",
       "Class":"",
       "Emblem":"",
-      "History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+      "History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles, Euripides, and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
       "Requirements":"",
       "Phase":"City",
-      "Special":"Each Theatre increases the territory effect of all buildings by 15%. Build limit: 1."
+      "Special":"Nearby centre +20% capture points and +50% territory influence weight; workers everywhere +5% work rate; required for Metropolis Phase. Build limit: 1."
     }
   ],
   "StartEntities":
@@ -126,7 +126,7 @@
     },
     {
       "Template": "units/ptol_citizen_pike_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/ptol_citizen_sling_infantry",

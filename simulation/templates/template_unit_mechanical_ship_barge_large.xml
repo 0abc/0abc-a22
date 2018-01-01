@@ -10,7 +10,6 @@
   </BuildingAI>
   <Cost>
     <BuildTime op="add">15</BuildTime>
-    <Population op="add">1</Population>
     <Resources>
       <wood op="add">350</wood>
     </Resources>
@@ -23,10 +22,15 @@
   </Health>
   <Identity>
     <GenericName>Large War Barge</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <wood op="add">35</wood>
     <xp op="add">175</xp>
   </Loot>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-8.0</silver>
+    </Rates>
+  </ResourceTrickle>
 </Entity>

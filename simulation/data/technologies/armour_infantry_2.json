@@ -5,9 +5,10 @@
   "genericName": "Laminated Linen Body Armour",
   "icon": "armor_pteruges.png",
   "modifications": [
-    {"value": "Armour/Crush", "add":  1.0},
-    {"value": "Armour/Hack", "add":   1.0},
-    {"value": "Armour/Pierce", "add": 1.0}
+    {"value": "Armour/Crush",         "add":      1.0 },
+    {"value": "Armour/Hack",          "add":      1.0 },
+    {"value": "Armour/Pierce",        "add":      1.0 },
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.99}
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
@@ -24,5 +25,5 @@
     "spart": "Linothorakes"
   },
   "supersedes": "armour_infantry_1",
-  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels."
+  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels, but also -1% movement speed."
 }

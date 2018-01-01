@@ -5,14 +5,15 @@
   "genericName": "Lead hull sheathing",
   "icon": "armor_ship_gold.png",
   "modifications": [
-    {"value": "Armour/Crush",  "add": 2.0},
-    {"value": "Armour/Hack",   "add": 2.0},
-    {"value": "Armour/Pierce", "add": 2.0}
+    {"value": "Armour/Crush",         "add":      2.0 },
+    {"value": "Armour/Hack",          "add":      2.0 },
+    {"value": "Armour/Pierce",        "add":      2.0 },
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_ship_2",
-  "tooltip": "Ships +2 crush, hack, and pierce armour levels."
+  "tooltip": "Ships +2 crush, hack, and pierce armour levels, but also -2% movement speed."
 }

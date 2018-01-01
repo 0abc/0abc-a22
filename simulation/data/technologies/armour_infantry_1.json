@@ -5,9 +5,10 @@
   "genericName": "Quilted Leather Body Armour",
   "icon": "armor_leather.png",
   "modifications": [
-    {"value": "Armour/Crush",  "add": 1.0},
-    {"value": "Armour/Hack",   "add": 1.0},
-    {"value": "Armour/Pierce", "add": 1.0}
+    {"value": "Armour/Crush",         "add":      1.0 },
+    {"value": "Armour/Hack",          "add":      1.0 },
+    {"value": "Armour/Pierce",        "add":      1.0 },
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.99}
   ],
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
@@ -28,5 +29,5 @@
     "sele": "Spolas",
     "spart": "Spolas"
   },
-  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels."
+  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels, but also -1% movement speed."
 }

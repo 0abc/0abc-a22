@@ -52,6 +52,7 @@
   </Health>
   <Identity>
     <GenericName>Stone Thrower</GenericName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Lithobólos</SpecificName>
     <Tooltip>Counters: 1.5× vs Ships.</Tooltip>
     <VisibleClasses datatype="tokens">StoneThrower Ranged</VisibleClasses>

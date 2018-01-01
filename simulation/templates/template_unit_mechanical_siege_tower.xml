@@ -60,6 +60,7 @@
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SpecificName>Helépolis</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.
 Counters: 2.0× vs Fortifications (fortresses, towers, wall turrets).</Tooltip>

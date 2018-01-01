@@ -11,11 +11,11 @@
       <Hack>0</Hack>
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
-      <Pierce>25.0</Pierce>
+      <Pierce>12.0</Pierce>
       <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
       <PrepareTime>1000</PrepareTime>
       <ProjectileSpeed>60</ProjectileSpeed>
-      <RepeatTime>2000</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
       <Spread>2.0</Spread>
     </Ranged>
   </Attack>

@@ -8,7 +8,7 @@
   <Attack>
     <Ranged>
       <ElevationBonus op="add">-3</ElevationBonus>
-      <MaxRange op="add">8</MaxRange>
+      <MaxRange op="mul">1.05</MaxRange>
     </Ranged>
   </Attack>
   <Capturable>

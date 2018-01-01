@@ -17,16 +17,16 @@
   <Attack>
     <Ranged>
       <Crush>0</Crush>
-      <Hack>0</Hack>
-      <Pierce>9</Pierce>
-      <MaxRange>72</MaxRange>
-      <MinRange>0</MinRange>
       <ElevationBonus>4</ElevationBonus>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Spread>1.5</Spread>
+      <Hack>0</Hack>
+      <MaxRange>40</MaxRange>
+      <MinRange>0</MinRange>
+      <Pierce>10</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>750</PrepareTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>1.5</Spread>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">
@@ -34,6 +34,8 @@
     structures/centre_2
     structures/centre_3
     structures/centre_4
+    structures/centre_5
+    structures/centre_6
   </Auras>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>
@@ -50,16 +52,13 @@
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints op="mul">6.0</CapturePoints>
-    <RegenRate>5.0</RegenRate>
+    <CapturePoints op="mul">5.0</CapturePoints>
+    <RegenRate>4.0</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime op="mul">6.0</BuildTime>
+    <BuildTime op="mul">5.0</BuildTime>
     <PopulationBonus>25</PopulationBonus>
     <Resources>
-      <food>500</food>
-      <metal>500</metal>
-      <stone>500</stone>
       <wood>500</wood>
     </Resources>
   </Cost>
@@ -76,7 +75,7 @@
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">3.0</Max>
+    <Max op="mul">2.5</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -101,9 +100,12 @@
     <Technologies datatype="tokens">
       phase_town
       phase_city
+      phase_metropolis
       centre_watch_1
       centre_watch_2
       centre_watch_3
+      centre_watch_4
+      tower_range
       unlock_spies
       unlock_counterespionage
     </Technologies>
@@ -112,6 +114,12 @@
     <Types>food wood stone metal</Types>
     <Sharable>true</Sharable>
   </ResourceDropsite>
+  <ResourceTrickle>
+    <Interval>7000</Interval>
+    <Rates>
+      <silver>0.0</silver>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <alert0>interface/alarm/alarm_alert_0.xml</alert0>
@@ -129,7 +137,7 @@
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <Vision>
-    <Range>100</Range>
+    <Range>90</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

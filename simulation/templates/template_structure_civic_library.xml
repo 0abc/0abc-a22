@@ -6,8 +6,11 @@
   <BuildRestrictions>
     <Category>Library</Category>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints op="mul">3.0</CapturePoints>
+  </Capturable>
   <Cost>
-    <BuildTime op="mul">5.0</BuildTime>
+    <BuildTime op="mul">3.0</BuildTime>
     <Resources>
       <food>250</food>
       <metal>250</metal>
@@ -24,15 +27,14 @@
     <Max>25</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">2.5</Max>
+    <Max op="mul">3.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Library</GenericName>
     <Icon>structures/library_scroll.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SpecificName>Bibliothḗkē</SpecificName>
-    <Tooltip>Research special technologies.</Tooltip>
     <VisibleClasses datatype="tokens">City Library</VisibleClasses>
   </Identity>
   <Loot>
@@ -45,11 +47,12 @@
   <Obstruction>
     <Static width="25.0" depth="30.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      special/metropolis
-    </Technologies>
-  </ProductionQueue>
+  <ResourceTrickle>
+    <Interval>7000</Interval>
+    <Rates>
+      <silver>-2.0</silver>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_temple.xml</constructed>

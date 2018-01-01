@@ -56,14 +56,19 @@
       "Description": "Ships +20 metres vision range."
     },
     {
-      "Name": "Triple Walls",
-      "History": "Carthaginians built triple city walls.",
-      "Description": "Carthaginian walls, gates, and towers have 3x health of a standard wall, but also 2x build time."
+      "Name": "Protective Walls",
+      "History": "Tyre, Carthage, Lilybaeum, and Carthago Nova had notoriously strong city walls and were only taken via their harbours.",
+      "Description": "Carthaginian city walls, gates, and wall turrets +40% health, capture points, build time, and resource costs."
     },
     {
-      "Name": "Roundup",
-      "History": "Not unlike the Iberian Peninsula, North Africa was known as horse country, capable of producing up to 100,000 new mounts each year. It was also the home of the North African Forest Elephant.",
-      "Description": "The resource cost of training elephant-mounted (war elephant) or horse-mounted units (cavalry) is reduced by 5% per animal corralled (as appropriate)."
+      "Name": "Mercenary Armies",
+      "History": "Thanks to its extensive trade network, Carthage was able to quickly recruit large numbers of mercenaries to serve in its armies.",
+      "Description": "Mercenaries −20% training time."
+    },
+    {
+      "Name": "Punic Traders",
+      "History": "The Phoenicians and Carthaginians were known inside and outside the Mediterranean as merchants and traders.",
+      "Description": "Markets −50% build time and resource cost; market technologies −25% research time and resource costs; traders +5% gain."
     }
   ],
   "TeamBonuses":
@@ -82,7 +87,7 @@
       "Emblem":"",
       "History":"The structure is based upon the center island of the inner harbour constructed to house the war fleet of the Carthaginian navy at Carthage.",
       "Requirements":".",
-      "Phase":"",
+      "Phase":"City",
       "Special":"Construct the powerful warships of the Carthaginian navy."
     }
   ],
@@ -97,7 +102,7 @@
     },
     {
       "Template": "units/cart_citizen_hoplite_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/cart_citizen_archer_infantry",

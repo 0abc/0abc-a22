@@ -1,10 +1,9 @@
 {
-  "affects": ["Centre"],
-  "auraDescription": "Centres +15% territory influence radius per theatre owned.",
-  "auraName": "Hellenization",
+  "affects": ["Worker"],
+  "auraDescription": "Workers +5% gather work rate.",
+  "auraName": "Happiness",
   "modifications": [
-    {"value": "TerritoryInfluence/Radius", "multiply": 1.15}
+    {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.05}
   ],
-  "stackable": true,
   "type": "global"
 }

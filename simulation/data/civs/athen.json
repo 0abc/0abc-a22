@@ -62,22 +62,22 @@
   "CivBonuses":
   [
     {
-      "Name":"Silver Owls",
-      "History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
-      "Description":"Metal mining gathering rates increased by +10% for each passing age."
+      "Name": "Athenian Navy",
+      "History": "The Athenian Navy was greatly feared. The greater skill of their rowers and more experienced sailors ensured superior and crucial speed.",
+      "Description": "Warships +10% movement speed."
     },
     {
-      "Name":"Hellenization",
-      "History":"The Greeks were highly successful in Hellenising various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
-      "Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
+      "Name": "Athenian Resources",
+      "History": "The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
+      "Description": "Storehouse technologies −10% research time and resource costs."
     }
   ],
   "TeamBonuses":
   [
     {
-      "Name":"Delian League",
-      "History":"Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Athenians offered their entire navy.",
-      "Description":"Warships −20% construction time."
+      "Name": "Delian League",
+      "History": "Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Athenians offered their entire navy.",
+      "Description": "Warships −20% construction time."
     }
   ],
   "Structures":
@@ -86,10 +86,10 @@
       "Name":"Theatre",
       "Class":"",
       "Emblem":"",
-      "History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+      "History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles, Euripides, and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
       "Requirements":"",
       "Phase":"City",
-      "Special":"Each Theatre increases the territory effect of all buildings by 15%. Build limit: 1."
+      "Special":"Nearby centre +20% capture points and +50% territory influence weight; workers everywhere +5% work rate; required for Metropolis Phase. Build limit: 1."
     }
   ],
   "StartEntities":
@@ -103,7 +103,7 @@
     },
     {
       "Template": "units/athen_citizen_hoplite_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/athen_citizen_sling_infantry",

@@ -8,7 +8,8 @@
     {"value": "BuildingAI/DefaultArrowCount", "add":      1.0},
     {"value": "Capturable/CapturePoints",     "multiply": 1.5},
     {"value": "Health/Max",                   "multiply": 1.5},
-    {"value": "Loot/xp",                      "multiply": 1.5}
+    {"value": "Loot/xp",                      "multiply": 1.5},
+    {"value": "ResourceTrickle/Rates/silver", "add":      1.0}
   ],
   "requirements": {"all": [{"tech": "phase_city"}, {"any":[{"civ": "mace"}, {"civ": "ptol"}, {"civ": "sele"}]}]},
   "requirementsTooltip": "Unlocked in City Phase.",

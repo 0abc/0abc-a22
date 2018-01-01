@@ -26,6 +26,7 @@
   <Identity>
     <GenericName>Corral</GenericName>
     <Icon>structures/corral.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Raise herd animals for food.</Tooltip>
     <VisibleClasses datatype="tokens">Village Corral</VisibleClasses>
   </Identity>

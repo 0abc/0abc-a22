@@ -66,22 +66,22 @@
   "CivBonuses":
   [
     {
-      "Name":"Cleruchy",
-      "History":".",
-      "Description":"This unlocks the Seleucid expansion building, the Klēroukhia or Military Colony, similar to Civic Centers for other factions. It is weaker and carries a smaller territory influence, but is cheaper and built faster."
+      "Name": "Cataphracts",
+      "History": "Cataphracts were completely covered in armour, both man and mount, making them nearly invulnerable to arrows and light attacks.",
+      "Description": "Cataphract Cavalry and War Elephants have +3 armour levels, but also −5% movement speed and increased resource costs."
     },
     {
-      "Name":"Military Reforms",
-      "History":"Seleucid and indeed Successor warfare evolved over the course of the 3rd and 2nd centuries. Contact with Eastern upstarts such as the Parthians and constant revolts of peripheral satrapies such as Bactria caused the Seleucids to reform their military and change their tactics, specifically in the cavalry arm. War with the Romans from the West and invasions from the Galatians also forced the Seleucids to reform their infantry regiments to be more flexible.",
-      "Description":"Choose between Traditional Army and Reform Army technologies that unlock different Champions."
+      "Name": "Syrian Tetrapolis",
+      "History": "The Seleucid Empire was characterized by a high level of Hellinization: many new cities were founded, there was a constant influx of settlers, and millenia old cities often reshaped themselves into Greek style.",
+      "Description": "Centres −30% resource costs and loot."
     }
   ],
   "TeamBonuses":
   [
     {
-      "Name":"Syrian Tetrapolis",
-      "History":"The political core of the Seleucid Empire consisted of four 'sister' cities: Antioch (the capital), Seleucia Pieria, Apamea, and Laodicea.",
-      "Description":"Centres −20% construction time."
+      "Name": "Syrian Tetrapolis",
+      "History": "The political core of the Seleucid Empire consisted of four 'sister' cities: Antioch (the capital), Seleucia Pieria, Apamea, and Laodicea.",
+      "Description": "Centres −20% construction time."
     }
   ],
   "Structures":
@@ -99,10 +99,10 @@
       "Name":"Theatre",
       "Class":"",
       "Emblem":"",
-      "History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+      "History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles, Euripides, and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
       "Requirements":"",
       "Phase":"City",
-      "Special":"Each Theatre increases the territory effect of all buildings by 15%. Build limit: 1."
+      "Special":"Nearby centre +20% capture points and +50% territory influence weight; workers everywhere +5% work rate; required for Metropolis Phase. Build limit: 1."
     }
   ],
   "StartEntities":
@@ -116,7 +116,7 @@
     },
     {
       "Template": "units/sele_citizen_spear_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/sele_citizen_javelin_infantry",

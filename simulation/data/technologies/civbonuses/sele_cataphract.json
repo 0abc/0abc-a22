@@ -1,0 +1,25 @@
+{
+  "affects": ["Cataphract"],
+  "autoResearch": true,
+  "description": "Cataphracts were completely covered in armour, both man and mount, making them nearly invulnerable to arrows and light attacks.",
+  "genericName": "Cataphracts",
+  "icon": "armor_plates_silver_cavalry.png",
+  "modifications": [
+    {"value": "Armour/Crush",         "add":         3                       },
+    {"value": "Armour/Hack",          "add":         3                       },
+    {"value": "Armour/Pierce",        "add":         3                       },
+    {"value": "Cost/Resources/metal", "add":        40, "affects": "Cavalry" },
+    {"value": "Cost/Resources/wood",  "add":        20, "affects": "Cavalry" },
+    {"value": "Loot/metal",           "add":         4, "affects": "Cavalry" },
+    {"value": "Loot/wood",            "add":         2, "affects": "Cavalry" },
+    {"value": "Loot/xp",              "add":        60, "affects": "Cavalry" },
+    {"value": "Cost/Resources/metal", "add":       100, "affects": "Elephant"},
+    {"value": "Cost/Resources/wood",  "add":        50, "affects": "Elephant"},
+    {"value": "Loot/metal",           "add":        10, "affects": "Elephant"},
+    {"value": "Loot/wood",            "add":         5, "affects": "Elephant"},
+    {"value": "Loot/xp",              "add":       150, "affects": "Elephant"},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.95                       }
+  ],
+  "requirements": {"civ": "sele"},
+  "tooltip": "Cataphracts have +3 armour levels, but also -5% movement speed and increased resource costs."
+}

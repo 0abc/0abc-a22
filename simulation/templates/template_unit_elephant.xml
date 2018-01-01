@@ -61,6 +61,11 @@
       <food.meat>3.0</food.meat>
     </Rates>
   </ResourceGatherer>
+  <ResourceTrickle>
+    <Rates>
+      <food>-5.0</food>
+    </Rates>
+  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Texture>

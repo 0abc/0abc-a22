@@ -11,7 +11,6 @@
   </BuildingAI>
   <Cost>
     <BuildTime op="mul">5.0</BuildTime>
-    <Population op="mul">5.0</Population>
     <Resources>
       <food op="mul">5.0</food>
       <metal op="mul">5.0</metal>
@@ -39,6 +38,11 @@
     <wood op="mul">5.0</wood>
     <xp op="mul">5.0</xp>
   </Loot>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-30.0</silver>
+    </Rates>
+  </ResourceTrickle>
   <UnitMotion>
     <WalkSpeed op="add">-5</WalkSpeed>
   </UnitMotion>

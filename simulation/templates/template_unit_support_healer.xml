@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support">
   <Cost>
     <Resources>
-      <metal op="add">100</metal>
+      <silver op="add">50</silver>
     </Resources>
   </Cost>
   <Heal>
@@ -22,11 +22,11 @@
     <VisibleClasses datatype="tokens">Healer</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">10</metal>
-    <xp op="add">10</xp>
+    <silver op="add">5</silver>
+    <xp op="add">5</xp>
   </Loot>
   <Promotion>
-    <RequiredXp>75</RequiredXp>
+    <RequiredXp>250</RequiredXp>
   </Promotion>
   <Selectable>
     <Overlay>

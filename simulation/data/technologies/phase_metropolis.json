@@ -1,0 +1,22 @@
+{
+  "affects": ["Centre"],
+  "cost": { "food": 500, "wood": 500, "stone": 0, "metal": 0, "silver": 1000 },
+  "description": "Advances from a veritable city to a true metropolis, larger and more influential than any other settlement.",
+  "genericName": "Metropolis Phase",
+  "icon": "imperial_phase.png",
+  "modifications": [
+    {"value": "Cost/BuildTime",               "multiply": 1.2},
+    {"value": "Health/Max",                   "multiply": 1.2},
+    {"value": "Cost/Resources/silver",        "add":      500},
+    {"value": "Loot/silver",                  "add":      100},
+    {"value": "Loot/xp",                      "multiply": 1.2},
+    {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
+    {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
+  ],
+  "requirements": {"all": [{"entity": { "class": "Theatre", "number": 1 }}, {"any":[{"civ": "mace"}, {"civ": "ptol"}, {"civ": "sele"}]}]},
+  "requirementsTooltip": "Requires one theatre structure.",
+  "researchTime": 90,
+  "soundComplete": "interface/alarm/alarm_phase.xml",
+  "supersedes": "phase_city",
+  "tooltip": "Advance to Metropolis Phase, which unlocks more structures and units. Centres +20% territory influence radius, health, and build time. Also increase silver income."
+}

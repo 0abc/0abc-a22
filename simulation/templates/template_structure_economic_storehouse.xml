@@ -27,6 +27,7 @@
     <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone</Classes>
     <GenericName>Storehouse</GenericName>
     <Icon>structures/storehouse.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Dropsite for wood, stone, and metal resources. Research gathering improvements for these resources.</Tooltip>
     <VisibleClasses datatype="tokens">Village Storehouse</VisibleClasses>
   </Identity>

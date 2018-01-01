@@ -5,16 +5,18 @@
   "genericName": "Phoenician Traders",
   "icon": "metal_pot.png",
   "modifications": [
-    {"value": "Cost/BuildTime",                           "multiply": 0.5 },
-    {"value": "Cost/Resources/food",                      "multiply": 0.5 },
-    {"value": "Cost/Resources/metal",                     "multiply": 0.5 },
-    {"value": "Cost/Resources/stone",                     "multiply": 0.5 },
-    {"value": "Cost/Resources/wood",                      "multiply": 0.5 },
-    {"value": "ProductionQueue/TechCostMultiplier/food",  "multiply": 0.75},
-    {"value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.75},
-    {"value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.75},
-    {"value": "ProductionQueue/TechCostMultiplier/time",  "multiply": 0.75},
-    {"value": "ProductionQueue/TechCostMultiplier/wood",  "multiply": 0.75}
+    {"value": "Cost/BuildTime",                            "multiply": 0.5 },
+    {"value": "Cost/Resources/food",                       "multiply": 0.5 },
+    {"value": "Cost/Resources/metal",                      "multiply": 0.5 },
+    {"value": "Cost/Resources/silver",                     "multiply": 0.5 },
+    {"value": "Cost/Resources/stone",                      "multiply": 0.5 },
+    {"value": "Cost/Resources/wood",                       "multiply": 0.5 },
+    {"value": "ProductionQueue/TechCostMultiplier/food",   "multiply": 0.75},
+    {"value": "ProductionQueue/TechCostMultiplier/metal",  "multiply": 0.75},
+    {"value": "ProductionQueue/TechCostMultiplier/silver", "multiply": 0.75},
+    {"value": "ProductionQueue/TechCostMultiplier/stone",  "multiply": 0.75},
+    {"value": "ProductionQueue/TechCostMultiplier/time",   "multiply": 0.75},
+    {"value": "ProductionQueue/TechCostMultiplier/wood",   "multiply": 0.75}
   ],
   "requirements": {"civ": "cart"},
   "tooltip": "Markets have -50% resource costs and construction time, market technologies cost -25% resources and time."

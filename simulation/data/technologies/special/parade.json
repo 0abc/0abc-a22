@@ -7,9 +7,9 @@
   "modifications": [
     {"value": "Cost/BuildTime", "multiply": 0.8}
   ],
-  "requirements": {"all": [{"tech": "phase_city"}, {"civ": "sele"}]},
-  "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "requirements": {"all": [{"tech": "phase_metropolis"}, {"civ": "sele"}]},
+  "requirementsTooltip": "Unlocked in Metropolis Phase.",
+  "researchTime": 70,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Champions -20% training time."
 }

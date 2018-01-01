@@ -32,4 +32,9 @@
     <wood op="add">-4</wood>
     <xp op="add">-50</xp>
   </Loot>
+  <ResourceTrickle>
+    <Rates>
+      <silver>-3.0</silver>
+    </Rates>
+  </ResourceTrickle>
 </Entity>

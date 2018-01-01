@@ -1,0 +1,12 @@
+{
+  "affects": ["Mercenary"],
+  "autoResearch": true,
+  "description": "Thanks to its extensive trade network, Carthage was able to quickly recruit large numbers of mercenaries to serve in its armies.",
+  "genericName": "Mercenary Armies",
+  "icon": "coins.png",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.8}
+  ],
+  "requirements": {"civ": "cart"},
+  "tooltip": "Mercenaries have -20% training time."
+}

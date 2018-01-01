@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical">
+  <Cost>
+    <Population>0</Population>
+  </Cost>
   <Decay>
     <SinkingAnim>true</SinkingAnim>
     <DelayTime>0.0</DelayTime>
@@ -32,6 +35,9 @@
     </Capacities>
     <MaxDistance>4.0</MaxDistance>
   </ResourceGatherer>
+  <ResourceTrickle>
+    <Interval>30000</Interval>
+  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Texture>

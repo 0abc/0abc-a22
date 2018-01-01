@@ -66,6 +66,9 @@
       <order_walk>actor/ship/boat_move.xml</order_walk>
     </SoundGroups>
   </Sound>
+  <TrainingRestrictions>
+    <Category>Boat</Category>
+  </TrainingRestrictions>
   <UnitAI>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>

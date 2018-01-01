@@ -1,0 +1,15 @@
+{
+  "affects": ["Fortress"],
+  "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
+  "description": "Units garrisoned in fortresses heal over time.",
+  "genericName": "Living Conditions",
+  "icon": "bandage.png",
+  "modifications": [
+    {"value": "GarrisonHolder/BuffHeal", "add": 1}
+  ],
+  "requirements": {"tech": "phase_town"},
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "researchTime": 50,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Units gain health over time while garrisoned in fortresses."
+}

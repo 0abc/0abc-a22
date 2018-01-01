@@ -1,0 +1,16 @@
+{
+  "affects": ["Centre"],
+  "cost": {"food": 200, "wood": 200, "stone": 0, "metal": 200},
+  "description": "Supply your centres with bows, quivers, and arrows, instead of stones and javelins.",
+  "genericName": "Bow and Arrow",
+  "icon": "arrow.png",
+  "modifications": [
+    {"value": "Attack/Ranged/MaxRange", "multiply": 2.0},
+    {"value": "Attack/Ranged/Pierce",   "multiply": 0.5}
+  ],
+  "requirements": {"tech": "phase_village"},
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "researchTime": 30,
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+  "tooltip": "Centres -50% attack damage but +100% maximum attack range."
+}

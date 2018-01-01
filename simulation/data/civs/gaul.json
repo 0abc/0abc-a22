@@ -58,14 +58,29 @@
   "CivBonuses":
   [
     {
-      "Name": "Ardiosmanae",
-      "History": "Represents Celtic farming methods. ",
-      "Description": "Enhanced food gained from ranching and farming. "
+      "Name": "Celtic Blacksmiths",
+      "History": "The Celts were exceptionally skilled blacksmiths. They also invented the chain mail.",
+      "Description": "Armoury technologies cost −20% resources and time."
     },
     {
-      "Name": "Deas Celtica",
-      "History": "Celtic religion and druidry inspired their warlike mindset. ",
-      "Description": "Druids increase attack rates of soldiers near them slightly."
+      "Name": "Druidism",
+      "History": "Celtic druids were not only very influential, but also sacrosanct and greatly feared; they often stayed on the battlefield during the actual fighting. It was believed killing a druid would bring eternal misfortune on you and your descendants, for all generations to come.",
+      "Description": "Healers have 20% more walk speed, +4 hack, pierce, and crush armour levels, but also +100% training time, and +50 metal and wood costs. They also have auras affecting nearby units."
+    },
+    {
+      "Name": "Gaulish Spearmen",
+      "History": "The Gauls were warlike peoples and often migrated looking for new lands to conquer. Their spearmen were versatile and could act both as skirmishers and as heavy infantry. Their invasions of Greece and Asia led to the introduction of thureos-shield spearmen in the Greek world.",
+      "Description": "Infantry Spearmen +10% attack damage."
+    },
+    {
+      "Name": "Tribal Centres",
+      "History": "Not all peoples lived in city-states. The Celts are a formidable example of a tribal confederacy. Their settlements are smaller but also cheaper and faster to construct, allowing them to migrate relatively quickly.",
+      "Description": "Centres −20% resource costs, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius."
+    },
+    {
+      "Name": "Wooden Construction",
+      "History": "Celtic structures were mostly made of wood with rubble foundations.",
+      "Description": "Most structures have −20% build time, capture points, and health, but cost less stone."
     }
   ],
   "TeamBonuses":
@@ -84,7 +99,7 @@
       "Emblem": "",
       "History": "The Celts developed the first rotary flour mill.",
       "Requirements": "",
-      "Phase": "",
+      "Phase": "Town",
       "Special": ""
     }
   ],
@@ -99,7 +114,7 @@
     },
     {
       "Template": "units/gaul_citizen_spear_infantry",
-      "Count": 2
+      "Count": 3
     },
     {
       "Template": "units/gaul_citizen_javelin_infantry",

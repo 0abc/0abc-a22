@@ -13,5 +13,5 @@
     {"value": "ProductionQueue/TechCostMultiplier/wood",   "multiply": 0.85}
   ],
   "requirements": {"civ": "rome" },
-  "tooltip": "Barracks technologies cost -15% resources and time."
+  "tooltip": "Barracks technologies cost −15% resources and time."
 }

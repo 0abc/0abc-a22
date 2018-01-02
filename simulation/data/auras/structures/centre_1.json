@@ -1,6 +1,6 @@
 {
   "affects": ["Civic", "Worker"],
-  "auraDescription": "Additional +10% civic structure capture points, +5% worker build time, -5% worker gather rate, and +1% citizen walk speed.",
+  "auraDescription": "Additional +10% civic structure capture points, +5% worker build time, −5% worker gather rate, and +1% citizen walk speed.",
   "auraName": "Centre I",
   "modifications": [
     {"value": "Capturable/CapturePoints",   "multiply": 1.10, "affects": "Civic" },

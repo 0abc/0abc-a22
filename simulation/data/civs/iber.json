@@ -68,7 +68,7 @@
     {
       "Name": "Tribal Centres",
       "History": "Not all peoples lived in city-states. The Celts are a formidable example of a tribal confederacy. Their settlements are smaller but also cheaper and faster to construct, allowing them to migrate relatively quickly.",
-      "Description": "Centres −20% resource costs, build time, population bonus, garrison capacity, capture points, health, loot, experience, and territory influence radius."
+      "Description": "Centres 20% cheaper, faster to build, and weaker."
     }
   ],
   "TeamBonuses":

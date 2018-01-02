@@ -1,6 +1,6 @@
 {
   "affects": ["Centre"],
-  "auraDescription": "Centres -20% resource costs and loot.",
+  "auraDescription": "Centres −20% resource costs and loot.",
   "auraName": "Tribal Settlements",
   "modifications": [
     {"value": "Cost/Resources/food",       "multiply": 0.8},

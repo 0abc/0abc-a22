@@ -19,5 +19,5 @@
     {"value": "ProductionQueue/TechCostMultiplier/wood",   "multiply": 0.75}
   ],
   "requirements": {"civ": "cart"},
-  "tooltip": "Markets have -50% resource costs and construction time, market technologies cost -25% resources and time."
+  "tooltip": "Markets have −50% resource costs and construction time, market technologies cost −25% resources and time."
 }

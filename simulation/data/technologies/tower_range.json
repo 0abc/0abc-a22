@@ -12,5 +12,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 40,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Structures -50% attack damage but +100% maximum attack range."
+  "tooltip": "Structures −50% attack damage but +100% maximum attack range."
 }

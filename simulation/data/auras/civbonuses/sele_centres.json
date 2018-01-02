@@ -1,6 +1,6 @@
 {
   "affects": ["Centre"],
-  "auraDescription": "The Seleucid Empire was characterized by a high level of Hellinization: many new cities were founded, there was a constant influx of settlers, and millenia old cities often reshaped themselves into Greek style. Centres -30% resource costs and loot.",
+  "auraDescription": "The Seleucid Empire was characterized by a high level of Hellinization: many new cities were founded, there was a constant influx of settlers, and millenia old cities often reshaped themselves into Greek style. Centres −30% resource costs and loot.",
   "auraName": "Syrian Tetrapolis",
   "modifications": [
     {"value": "Cost/Resources/food",       "multiply": 0.7},

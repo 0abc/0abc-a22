@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry"],
+  "affects": ["Infantry !Fanatic"],
   "cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 500},
   "description": "Equip infantrymen with body armour consisting of laminated linen.",
   "genericName": "Laminated Linen Body Armour",
@@ -25,5 +25,5 @@
     "spart": "Linothorakes"
   },
   "supersedes": "armour_infantry_1",
-  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels, but also -1% movement speed."
+  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."
 }

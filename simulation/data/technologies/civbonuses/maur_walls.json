@@ -14,5 +14,5 @@
     {"value": "Loot/wood",                "multiply": 3.0 }
   ],
   "requirements": {"civ": "maur"},
-  "tooltip": "Mauryan city walls require no stone and have -25% less health and build time, and +150% wood cost."
+  "tooltip": "Mauryan city walls require no stone, have −25% health and build time, and +150% wood cost."
 }

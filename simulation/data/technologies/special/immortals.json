@@ -12,5 +12,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Anusiya Champion Infantry -40% train time, but also -10% health."
+  "tooltip": "Anusiya Champion Infantry −40% train time, but also −10% health."
 }

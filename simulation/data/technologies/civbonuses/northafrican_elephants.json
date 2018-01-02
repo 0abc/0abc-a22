@@ -20,5 +20,5 @@
     {"value": "Loot/xp",              "multiply": 0.9}
   ],
   "requirements": {"any": [{"civ": "cart"},{"civ": "ptol"}]},
-  "tooltip": "Elephants -20% wood and metal costs, -10% build time, -20% health, and -10% attack damage."
+  "tooltip": "Elephants −20% wood and metal costs, −10% build time, −20% health, and −10% attack damage."
 }

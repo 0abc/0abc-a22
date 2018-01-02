@@ -1,7 +1,7 @@
 {
   "affectedPlayers": ["Enemy"],
   "affects": ["Infantry Melee"],
-  "auraDescription": "Enemy melee infantry -2 crush, hack, and pierce armour.",
+  "auraDescription": "Enemy melee infantry −2 crush, hack, and pierce armour.",
   "auraName": "Scythes",
   "modifications": [
     {"value": "Armour/Crush",  "add": -2},

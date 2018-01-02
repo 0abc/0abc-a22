@@ -15,5 +15,5 @@
   "researchTime": 50,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_ship_1",
-  "tooltip": "Ships +2 crush, hack, and pierce armour levels, but also -2% movement speed."
+  "tooltip": "Ships +2 crush, hack, and pierce armour levels, but also −2% movement speed."
 }

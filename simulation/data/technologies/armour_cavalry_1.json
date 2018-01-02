@@ -1,5 +1,5 @@
 {
-  "affects": ["Cavalry"],
+  "affects": ["Cavalry !Fanatic"],
   "cost": {"food": 0, "wood": 800, "stone": 0, "metal": 400},
   "description": "Leather armour for cavalry.",
   "genericName": "Basic Chamfron",
@@ -21,5 +21,5 @@
     "sele": "Prometōpídion",
     "spart": "Prometōpídion"
   },
-  "tooltip": "All Cavalry +1 Crush, Hack, and Pierce Armour levels, but also -1% movement speed."
+  "tooltip": "All Cavalry +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."
 }

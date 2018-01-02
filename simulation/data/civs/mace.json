@@ -62,6 +62,11 @@
   "CivBonuses":
   [
     {
+      "Name": "Hellenic Architecture Resources",
+      "History": "The Greeks used stone construction from early Mycenaean times.",
+      "Description": "Civic structures +20% health and capture points."
+    },
+    {
       "Name": "Macedonian Cavalry",
       "History": "The Macedonians were the first to deploy cavalry as shock troops, directly charging at the enemy, giving them a far greater impact.",
       "Description": "Cavalry Lancers +10% attack damage."

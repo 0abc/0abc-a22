@@ -1,7 +1,7 @@
 {
   "affectedPlayers": ["Enemy"],
   "affects": ["Cavalry"],
-  "auraDescription": "Enemy cavalry -10% attack damage and capture strength.",
+  "auraDescription": "Enemy cavalry −10% attack damage and capture strength.",
   "auraName": "Noise",
   "modifications": [
     {"value": "Attack/Capture/Value", "multiply": 0.9                     },

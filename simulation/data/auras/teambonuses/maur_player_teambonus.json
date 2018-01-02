@@ -1,7 +1,7 @@
 {
   "affects": ["Healer"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
-  "auraDescription": "Ally's healers have -25% training time.",
+  "auraDescription": "Ally's healers have −25% training time.",
   "auraName": "Ashoka's Religious Support",
   "modifications": [
     {"value": "Cost/BuildTime", "multiply": 0.75}

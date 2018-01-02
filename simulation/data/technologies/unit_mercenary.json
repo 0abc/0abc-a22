@@ -19,6 +19,7 @@
     {"value": "Cost/Resources/metal",         "add":      50,   "affects": "Biga"             },
     {"value": "Cost/Resources/metal",         "add":      75,   "affects": "Quadriga"         },
     {"value": "Cost/Resources/metal",         "add":      100,  "affects": "Elephant"         },
+    {"value": "Health/Max",                   "multiply": 1.1                                 },
     {"value": "Loot/metal",                   "add":      2,    "affects": "Infantry"         },
     {"value": "Loot/metal",                   "add":      3,    "affects": "Camel"            },
     {"value": "Loot/metal",                   "add":      3,    "affects": "Cavalry"          },
@@ -38,5 +39,5 @@
     {"value": "ResourceTrickle/Rates/silver", "add":      -6.0, "affects": "Quadriga"         },
     {"value": "ResourceTrickle/Rates/silver", "add":      -3.0, "affects": "Elephant"         }
   ],
-  "tooltip": "Mercenaries have +1 crush, hack, and pierce armour, +15% melee and ranged attack crush, hack, and pierce damage, -25% training time, but also increased metal costs."
+  "tooltip": "Mercenaries have +1 crush, hack, and pierce armour, +15% melee and ranged attack crush, hack, and pierce damage, −25% training time, +10% health, but also increased metal costs."
 }

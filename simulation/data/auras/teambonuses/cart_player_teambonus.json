@@ -1,7 +1,7 @@
 {
   "affects": ["Trader !Ship"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
-  "auraDescription": "-20% training time and +5% walk speed bonus for ally's land traders.",
+  "auraDescription": "−20% training time and +5% walk speed bonus for ally's land traders.",
   "auraName": "Trademasters",
   "modifications": [
     {"value": "Cost/BuildTime", "add": 0.8},

@@ -12,5 +12,5 @@
   "researchTime": 50,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "drill_cavalry_1",
-  "tooltip": "Cavalry starts at rank 2/12: additional -10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged -1% spread."
+  "tooltip": "Cavalry starts at rank 2/12: additional −10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged −1% spread."
 }

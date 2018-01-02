@@ -21,5 +21,5 @@
     {"value": "Loot/wood",                "add":       25, "affects": "Temple"  }
   ],
   "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
-  "tooltip": "Celtic civic, economic, and military structures have 20% less health, but are also 20% faster to construct, and require no stone. Economic structures grant +2 population bonus, military structures +4, temples +6."
+  "tooltip": "Celtic civic, economic, and military structures have −20% health, −20% build time, and require no stone. Economic structures grant +2 population bonus, military structures +4, temples +6."
 }

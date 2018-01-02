@@ -1,6 +1,6 @@
 {
   "affects": ["Temple"],
-  "auraDescription": "India was known for the religions which spread from there. Temples -50% build time and resource costs.",
+  "auraDescription": "India was known for the religions which spread from there. Temples −50% build time and resource costs.",
   "auraName": "Indian Religiousness",
   "modifications": [
     {"value": "Cost/BuildTime",        "multiply": 0.5},

@@ -1,7 +1,7 @@
 {
   "affectedPlayers": ["Enemy"],
   "affects": ["Infantry"],
-  "auraDescription": "Enemy infantry -10% health.",
+  "auraDescription": "Enemy infantry −10% health.",
   "auraName": "Fear",
   "modifications": [
     {"value": "Health/Max", "multiply": 0.9}

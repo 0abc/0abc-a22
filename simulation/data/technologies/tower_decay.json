@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 40,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Territory decay rate -50% for outposts."
+  "tooltip": "Outposts −50% territory decay rate."
 }

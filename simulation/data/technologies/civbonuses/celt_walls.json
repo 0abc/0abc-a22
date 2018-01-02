@@ -14,5 +14,5 @@
     {"value": "Loot/wood",                "multiply": 0.8}
   ],
   "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
-  "tooltip": "Celtic walls, gates, and wall turrets are 20% cheaper and faster to construct, but also have -20% capture points and health."
+  "tooltip": "Celtic walls, gates, and wall turrets −20% resource costs, build time, capture points, and health."
 }

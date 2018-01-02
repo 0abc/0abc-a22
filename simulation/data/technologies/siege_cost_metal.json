@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Siege weapons cost 20% less metal"
+  "tooltip": "Siege weapons cost −20% metal"
 }

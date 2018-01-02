@@ -1,5 +1,5 @@
 {
-  "affects": ["Champion"],
+  "affects": ["Champion !Fanatic"],
   "cost": {"food": 0, "wood": 750, "stone": 0, "metal": 750},
   "description": "Equip champions with chain mail body armour.",
   "genericName": "Chain Mail Body Armour",
@@ -15,5 +15,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_infantry_3",
-  "tooltip": "Champions +1 Crush, Hack, and Pierce Armour levels, but also -1% movement speed."
+  "tooltip": "Champions +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."
 }

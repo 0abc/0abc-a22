@@ -1,5 +1,5 @@
 {
-  "affects": ["Cavalry"],
+  "affects": ["Cavalry !Fanatic"],
   "cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 500},
   "description": "Linen armour for cavalry.",
   "genericName": "Improved Chamfron",
@@ -15,5 +15,5 @@
   "researchTime": 50,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_cavalry_1",
-  "tooltip": "All Cavalry +1 Crush, Hack, and Pierce Armour levels, but also -1% movement speed."
+  "tooltip": "All Cavalry +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."
 }

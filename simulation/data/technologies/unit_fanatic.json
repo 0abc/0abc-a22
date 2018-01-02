@@ -14,5 +14,5 @@
     {"value": "UnitMotion/Run/Speed", "multiply": 1.30},
     {"value": "UnitMotion/WalkSpeed", "multiply": 1.30}
   ],
-  "tooltip": "Naked Fanatics have -4 armour levels, +15% attack damage, and +30% movement speed compared to other champion spearmen."
+  "tooltip": "Naked Fanatics have −4 armour levels, +15% attack damage, and +30% movement speed compared to other champion spearmen."
 }

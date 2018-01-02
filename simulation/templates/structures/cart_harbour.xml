@@ -86,6 +86,13 @@
   <RallyPointRenderer>
     <LinePassabilityClass>ship</LinePassabilityClass>
   </RallyPointRenderer>
+  <ResourceTrickle>
+    <Interval>7000</Interval>
+    <Rates>
+      <food>-1.0</food>
+      <silver>-1.0</silver>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_dock.xml</constructed>

@@ -1,6 +1,6 @@
 {
   "affects": ["Structure"],
-  "auraDescription": "Structures -10% construction time and technologies -20% research time per library owned.",
+  "auraDescription": "Structures −10% construction time and technologies −20% research time per library owned.",
   "auraName": "Power of Knowledge",
   "modifications": [
     {"value": "Cost/BuildTime",                          "multiply": 0.9},

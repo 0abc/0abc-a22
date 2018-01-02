@@ -12,5 +12,5 @@
   "researchTime": 70,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "healer_rate_2",
-  "tooltip": "Healers -20% healing time."
+  "tooltip": "Healers −20% healing time."
 }

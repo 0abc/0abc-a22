@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Install crenellations and murder holes to have 40% more arrows fired per garrisoned soldier."
+  "tooltip": "Garrisoned soldiers fire +40% arrows."
 }

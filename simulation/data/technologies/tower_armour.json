@@ -13,5 +13,5 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Increases crush, hack, and pierce armour of the stone tower by 2 levels."
+  "tooltip": "Stone towers +2 crush, hack, and pierce armour levels."
 }

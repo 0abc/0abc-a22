@@ -8,5 +8,5 @@
     {"value": "ResourceGatherer/Rates/stone.rock", "multiply": 0.9}
   ],
   "requirements": {"civ": "maur"},
-  "tooltip": "Mauryan workers -10% stone quarrying rate for rocks."
+  "tooltip": "Mauryan workers −10% stone quarrying rate for rocks."
 }

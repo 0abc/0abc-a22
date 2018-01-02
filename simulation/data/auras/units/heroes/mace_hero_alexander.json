@@ -1,7 +1,7 @@
 {
   "affectedPlayers": ["Enemy"],
   "affects": ["Centre"],
-  "auraDescription": "Enemy centres -50% garrisoned regeneration rate.",
+  "auraDescription": "Enemy centres −50% garrisoned regeneration rate.",
   "auraName": "Conqueror",
   "modifications": [
     {"value": "Capturable/GarrisonRegenRate", "multiply": 0.5}

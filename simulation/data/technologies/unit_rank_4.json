@@ -32,5 +32,5 @@
     {"value": "ResourceGatherer/BaseSpeed", "multiply": 0.9                                 },
     {"value": "UnitMotion/WalkSpeed",       "multiply": 1.01, "affects": "Melee"            }
   ],
-  "tooltip": "Units promoted to the first rank gain +5% health, +5% attack damage, and +5% capture attack, but also +5% training time and -10% resource gather speed; melee units also have +1% movement walk speed and ranged units -1% spread. Healers have +1 m heal range and -5% rate."
+  "tooltip": "Units promoted to the first rank gain +5% health, +5% attack damage, and +5% capture attack, but also +5% training time and −10% resource gather speed; melee units also have +1% movement walk speed and ranged units −1% spread. Healers have +1 m heal range and −5% rate."
 }

@@ -1,6 +1,6 @@
 {
   "affects": ["Unit"],
-  "auraDescription": "Units -10% training time per wonder owned.",
+  "auraDescription": "Units −10% training time per wonder owned.",
   "auraName": "Symbol of Greatness",
   "modifications": [
     {"value": "Cost/BuildTime", "multiply": 0.9}

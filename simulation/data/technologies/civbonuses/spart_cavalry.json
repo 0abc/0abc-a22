@@ -13,5 +13,5 @@
     {"value": "Attack/Ranged/Pierce", "multiply": 0.9, "affects": "Ranged"}
   ],
   "requirements": {"civ": "spart"},
-  "tooltip": "Cavalry -10% attack damage."
+  "tooltip": "Cavalry −10% attack damage."
 }

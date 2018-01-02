@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry"],
+  "affects": ["Infantry !Fanatic"],
   "cost": {"food": 0, "wood": 1200, "stone": 0, "metal": 600},
   "description": "Equip infantrymen with body armour reinforced with metal scales.",
   "genericName": "Scaled Metal Body Armour",
@@ -15,5 +15,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_infantry_2",
-  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels, but also -1% movement speed."
+  "tooltip": "All Infantry +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."
 }

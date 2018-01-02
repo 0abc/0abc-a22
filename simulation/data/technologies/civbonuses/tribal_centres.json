@@ -14,5 +14,5 @@
     {"value": "TerritoryInfluence/Radius", "multiply": 0.8}
   ],
   "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"},{"civ": "iber"}]},
-  "tooltip": "Centres -20% build time, population bonus, garrison capacity, capture points, health, experience, and territory influence radius."
+  "tooltip": "Centres −20% build time, population bonus, garrison capacity, capture points, health, experience, and territory influence radius."
 }

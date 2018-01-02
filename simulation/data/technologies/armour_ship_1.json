@@ -14,5 +14,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 40,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Ships +2 crush, hack, and pierce armour levels, but also -2% movement speed."
+  "tooltip": "Ships +2 crush, hack, and pierce armour levels, but also −2% movement speed."
 }

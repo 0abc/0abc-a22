@@ -14,5 +14,5 @@
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Persian centres, civic, economic, and military structures, and palaces +20% health and +20% capture points, but also +20% build time."
+  "tooltip": "Persian centres, civic, economic, and military structures, and palaces +20% build time, capture points, and health."
 }

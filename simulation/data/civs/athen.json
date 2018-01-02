@@ -70,6 +70,11 @@
       "Name": "Athenian Resources",
       "History": "The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
       "Description": "Storehouse technologies −10% research time and resource costs."
+    },
+    {
+      "Name": "Hellenic Architecture Resources",
+      "History": "The Greeks used stone construction from early Mycenaean times.",
+      "Description": "Civic structures +20% health and capture points."
     }
   ],
   "TeamBonuses":

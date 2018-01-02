@@ -17,5 +17,5 @@
     {"value": "UnitMotion/WalkSpeed", "multiply": 1.2}
   ],
   "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
-  "tooltip": "Healers have 20% more walk speed, +4 hack, pierce, and crush armour levels, but also +100% training time, and +50 metal and wood costs."
+  "tooltip": "Healers have +20% walk speed, +4 hack, pierce, and crush armour levels, but also +100% training time, and +50 metal and wood costs."
 }

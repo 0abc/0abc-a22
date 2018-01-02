@@ -105,6 +105,7 @@ And it can currently be used for:
   * wonders: 2 silver per second
 * Structure upkeep:
   * fortresses −1.0 silver per 7 seconds
+  * harbours −1.0 food and −1.0 silver per 7 seconds
   * libraries −2.0 silver per 7 seconds
   * lighthouse −1.0 wood per 7 seconds
   * military structures −1.0 food per 7 seconds

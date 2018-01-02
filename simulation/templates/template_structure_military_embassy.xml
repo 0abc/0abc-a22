@@ -30,11 +30,6 @@
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      special/mercenaries
-    </Technologies>
-  </ProductionQueue>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_gymnasium.xml</constructed>

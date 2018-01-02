@@ -13,5 +13,5 @@
     {"value": "Loot/wood",            "add":        -5, "affects": "House"}
   ],
   "requirements": {"civ": "ptol"},
-  "tooltip": "Ptolemaic barracks, blacksmiths, houses, and economic structures cost -100 wood but have +50% building time."
+  "tooltip": "Ptolemaic barracks, blacksmiths, houses, and economic structures cost −100 wood but have +50% building time."
 }

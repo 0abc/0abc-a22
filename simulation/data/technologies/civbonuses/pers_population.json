@@ -7,5 +7,5 @@
     {"value": "Player/MaxPopulation", "multiply": 1.1}
   ],
   "requirements": {"civ": "pers"},
-  "tooltip": "Persians have a 10% higher maximum population limit."
+  "tooltip": "Persians have +10% maximum population limit."
 }

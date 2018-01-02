@@ -15,5 +15,5 @@
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "speed_trader",
-  "tooltip": "Traders +2 Crush, Hack, and Pierce armour levels, but also -2% movement speed."
+  "tooltip": "Traders +2 Crush, Hack, and Pierce armour levels, but also −2% movement speed."
 }

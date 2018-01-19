@@ -14,8 +14,8 @@
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
-  "requirements": { "entity": { "class": "Village", "number": 5 } },
-  "requirementsTooltip": "Requires 5 Village Phase structures (excluding houses, farm fields, and defensive structures).",
+  "requirements": { "entity": { "class": "Village", "number": 3 } },
+  "requirementsTooltip": "Requires 3 Village Phase structures (excluding houses, farm fields, and defensive structures).",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_village",

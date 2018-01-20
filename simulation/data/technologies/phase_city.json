@@ -14,7 +14,7 @@
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
-  "requirements": { "entity": { "class": "Temple", "number": 3 } },
+  "requirements": { "entity": { "class": "Temple", "number": 1 } },
   "requirementsTooltip": "Requires a Temple.",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_phase.xml",

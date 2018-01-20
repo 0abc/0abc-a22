@@ -22,9 +22,9 @@
     <Classes datatype="tokens">BarterMarket</Classes>
     <GenericName>Market</GenericName>
     <Icon>structures/market.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Market</VisibleClasses>
+    <VisibleClasses datatype="tokens">Village Market</VisibleClasses>
   </Identity>
   <Loot>
     <silver>30</silver>

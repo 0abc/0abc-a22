@@ -14,8 +14,8 @@
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
-  "requirements": { "entity": { "class": "Town", "number": 3 } },
-  "requirementsTooltip": "Requires 3 new Town Phase structures (excluding centres and defensive structures).",
+  "requirements": { "entity": { "class": "Temple", "number": 3 } },
+  "requirementsTooltip": "Requires a Temple.",
   "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_town",

@@ -15,7 +15,7 @@
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
   "requirements": { "entity": { "class": "Economic", "number": 4 } },
-  "requirementsTooltip": "Requires 4 economic structures.",
+  "requirementsTooltip": "Requires four economic structures.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_village",

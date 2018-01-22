@@ -35,7 +35,7 @@
     <GenericName>House</GenericName>
     <Icon>structures/house.png</Icon>
     <Tooltip>Increase the population limit and trains females.</Tooltip>
-    <VisibleClasses datatype="tokens">Village House</VisibleClasses>
+    <VisibleClasses datatype="tokens">House</VisibleClasses>
   </Identity>
   <Loot>
     <wood>8</wood>

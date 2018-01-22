@@ -21,6 +21,21 @@
     <GenericName>Ranged</GenericName>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
+  <ResourceGatherer>
+    <BaseSpeed>1.0</BaseSpeed>
+    <MaxDistance>2.0</MaxDistance>
+    <Rates>
+      <food.fish>0.75</food.fish>
+      <food.fruit>0.5</food.fruit>
+      <food.grain>0.25</food.grain>
+      <food.meat>1</food.meat>
+      <metal.ore>0.5</metal.ore>
+      <stone.rock>0.5</stone.rock>
+      <stone.ruins>2</stone.ruins>
+      <wood.tree>0.75</wood.tree>
+      <wood.ruins>5</wood.ruins>
+    </Rates>
+  </ResourceGatherer>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

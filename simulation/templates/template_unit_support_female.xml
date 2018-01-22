@@ -20,7 +20,7 @@
     units/female_inspiration
   </Auras>
   <Cost>
-    <BuildTime op="mul">3.0</BuildTime>
+    <BuildTime op="mul">2.0</BuildTime>
   </Cost>
   <Health>
     <Max op="mul">0.4</Max>
@@ -39,7 +39,7 @@
       <food.fish>0.5</food.fish>
       <food.fruit>1</food.fruit>
       <food.grain>0.5</food.grain>
-      <food.meat>1</food.meat>
+      <food.meat>0.75</food.meat>
       <metal.ore>0.35</metal.ore>
       <stone.rock>0.35</stone.rock>
       <stone.ruins>2</stone.ruins>

@@ -13,6 +13,7 @@
     {"value": "Attack/Ranged/Hack",           "multiply": 1.15, "affects": "Ranged"           },
     {"value": "Attack/Ranged/Pierce",         "multiply": 1.15, "affects": "Ranged"           },
     {"value": "Cost/BuildTime",               "multiply": 0.75                                },
+    {"value": "Cost/Resources/food",          "multiply": 0.4                                 },
     {"value": "Cost/Resources/metal",         "add":      20,   "affects": "Infantry"         },
     {"value": "Cost/Resources/metal",         "add":      25,   "affects": "Camel"            },
     {"value": "Cost/Resources/metal",         "add":      30,   "affects": "Cavalry"          },

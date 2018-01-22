@@ -6,7 +6,7 @@
     <Pierce>10</Pierce>
   </Armour>
   <Cost>
-    <BuildTime>10</BuildTime>
+    <BuildTime>5</BuildTime>
     <Population>1</Population>
   </Cost>
   <Health>

@@ -48,7 +48,7 @@
       <food.fish>0.5</food.fish>
       <food.fruit>0.5</food.fruit>
       <food.grain>0.35</food.grain>
-      <food.meat>1</food.meat>
+      <food.meat>0.8</food.meat>
       <wood.tree>1.0</wood.tree>
       <wood.ruins>5</wood.ruins>
       <stone.rock>1.0</stone.rock>

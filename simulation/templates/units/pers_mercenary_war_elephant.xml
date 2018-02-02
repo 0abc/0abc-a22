@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Indian War Elephant</GenericName>
-    <Icon>units/pers_war_elephant.png</Icon>
+    <Icon>units/pers_champion_elephant.png</Icon>
     <SelectionGroupName>units/pers_mercenary_war_elephant</SelectionGroupName>
     <SpecificName>Hinduya Pila</SpecificName>
   </Identity>

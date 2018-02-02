@@ -4,7 +4,7 @@
     <Civ>pers</Civ>
     <Classes datatype="tokens">Greek</Classes>
     <GenericName>Greek Mercenary Hoplite</GenericName>
-    <Icon>units/samnite_spearman.png</Icon>
+    <Icon>units/hele_merc_hoplite.png</Icon>
     <SelectionGroupName>units/pers_mercenary_hoplite_infantry</SelectionGroupName>
     <SpecificName>Hoplítēs Hellenikós</SpecificName>
   </Identity>

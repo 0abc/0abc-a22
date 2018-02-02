@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cart</Civ>
     <GenericName>North African War Elephant</GenericName>
-    <Icon>units/cart_champion_cavalry.png</Icon>
+    <Icon>units/cart_champion_elephant.png</Icon>
     <SelectionGroupName>units/cart_champion_war_elephant</SelectionGroupName>
     <SpecificName>Pil Malḥamit</SpecificName>
   </Identity>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Indian War Elephant</GenericName>
-    <Icon>units/pers_war_elephant.png</Icon>
+    <Icon>units/maur_war_elephant.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/maur_citizen_war_elephant</SelectionGroupName>
     <SpecificName>Gaja</SpecificName>

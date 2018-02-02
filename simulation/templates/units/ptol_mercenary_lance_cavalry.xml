@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Macedonian Settler Cavalry</GenericName>
-    <Icon>units/ptol_cavalry_spearman.png</Icon>
+    <Icon>units/sele_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/ptol_mercenary_lance_cavalry</SelectionGroupName>
     <SpecificName>Hippeús Makedonikós</SpecificName>
   </Identity>

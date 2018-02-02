@@ -3,7 +3,7 @@
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Tarantine Settler Cavalry</GenericName>
-    <Icon>units/mace_cavalry_javelinist.png</Icon>
+    <Icon>units/cart_cavalry_javelinist_2.png</Icon>
     <SelectionGroupName>units/ptol_mercenary_javelin_cavalry</SelectionGroupName>
     <SpecificName>Hippeús Tarantînos</SpecificName>
   </Identity>

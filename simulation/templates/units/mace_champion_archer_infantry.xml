@@ -3,15 +3,15 @@
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Crossbowman</GenericName>
-    <Icon>units/athen_champion_ranged.png</Icon>
+    <Icon>units/mace_gastraphetes.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>units/mace_champion_archer_infantry</SelectionGroupName>
-    <SpecificName>Gastraphetes</SpecificName>
+    <SpecificName>Gastraphétēs</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/mace/champion_archer_infantry_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/champion_unit_gastraphetes.xml</Actor>
+    <Actor>units/macedonians/gastraphetes.xml</Actor>
   </VisualActor>
 </Entity>

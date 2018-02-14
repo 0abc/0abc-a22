@@ -63,7 +63,7 @@
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>
-      <food>0.04</food>
+      <food>-0.04</food>
     </Rates>
   </ResourceTrickle>
   <Selectable>

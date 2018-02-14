@@ -30,7 +30,7 @@
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>
-      <food>0.03</food>
+      <food>-0.03</food>
     </Rates>
   </ResourceTrickle>
   <Sound>

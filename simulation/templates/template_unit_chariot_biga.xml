@@ -53,7 +53,7 @@
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>
-      <food>0.10</food>
+      <food>-0.10</food>
     </Rates>
   </ResourceTrickle>
   <UnitMotion>

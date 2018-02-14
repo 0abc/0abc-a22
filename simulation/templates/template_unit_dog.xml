@@ -73,7 +73,7 @@ Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>
-      <food>0.01</food>
+      <food>-0.01</food>
     </Rates>
   </ResourceTrickle>
   <Selectable>

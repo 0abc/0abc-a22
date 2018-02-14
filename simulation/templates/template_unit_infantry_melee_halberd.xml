@@ -35,8 +35,8 @@
     <VisibleClasses datatype="tokens">Halberd</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">2</metal>
-    <wood op="add">3</wood>
+    <metal op="add">3</metal>
+    <wood op="add">7</wood>
     <xp op="add">50</xp>
   </Loot>
   <UnitMotion>

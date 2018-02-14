@@ -6,9 +6,9 @@
   <Cost>
     <BuildTime op="mul">2.0</BuildTime>
     <Resources>
-      <food op="add">50</food>
-      <metal op="add">50</metal>
-      <wood op="add">50</wood>
+      <food>50</food>
+      <metal>50</metal>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <Health>
@@ -22,11 +22,17 @@
     <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
   <Loot>
-    <food op="add">5</food>
-    <metal op="add">5</metal>
-    <wood op="add">5</wood>
-    <xp op="add">15</xp>
+    <food>10</food>
+    <metal>10</metal>
+    <wood>10</wood>
+    <xp>30</xp>
   </Loot>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>0.03</food>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/sword.xml</attack>

@@ -2,22 +2,21 @@
 <Entity parent="template_unit">
   <Cost>
     <BuildTime>8</BuildTime>
-    <Resources>
-      <food>50</food>
-    </Resources>
   </Cost>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical Human Organic</Classes>
     <GenericName>Support</GenericName>
     <VisibleClasses datatype="tokens">Support</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>5</food>
-    <xp>5</xp>
-  </Loot>
   <Minimap>
     <Type>support</Type>
   </Minimap>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>0.02</food>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <trained>interface/alarm/alarm_create_worker.xml</trained>

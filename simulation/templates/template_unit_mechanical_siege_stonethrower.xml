@@ -18,7 +18,7 @@
       <MinRange>15</MinRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Structure</PreferredClasses>
-      <PrepareTime>2000</PrepareTime>
+      <PrepareTime>4000</PrepareTime>
       <ProjectileSpeed>37.5</ProjectileSpeed>
       <RepeatTime>3000</RepeatTime>
       <Spread>4.0</Spread>
@@ -58,11 +58,11 @@
     <VisibleClasses datatype="tokens">StoneThrower Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <food>15</food>
-    <metal>15</metal>
+    <food>30</food>
+    <metal>30</metal>
     <silver>0</silver>
-    <stone>15</stone>
-    <wood>30</wood>
+    <stone>30</stone>
+    <wood>60</wood>
     <xp>375</xp>
   </Loot>
   <Sound>

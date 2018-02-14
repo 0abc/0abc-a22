@@ -41,10 +41,10 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>10</BuildTime>
+    <BuildTime>9</BuildTime>
     <Population>0</Population>
     <Resources>
-      <food>75</food>
+      <food>30</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -63,13 +63,19 @@ Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
   </Identity>
   <Loot>
-    <food>8</food>
-    <xp>75</xp>
+    <food>6</food>
+    <xp>30</xp>
   </Loot>
   <Promotion>
     <RequiredXp>75</RequiredXp>
   </Promotion>
   <ResourceGatherer disable=""/>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>0.01</food>
+    </Rates>
+  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Texture>

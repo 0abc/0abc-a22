@@ -9,7 +9,7 @@
   <Cost>
     <Resources>
       <metal op="add">40</metal>
-      <wood op="add">80</wood>
+      <wood op="add">30</wood>
     </Resources>
   </Cost>
   <Health>
@@ -23,8 +23,8 @@ Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">4</metal>
-    <wood op="add">8</wood>
-    <xp op="add">120</xp>
+    <metal op="add">8</metal>
+    <wood op="add">6</wood>
+    <xp op="add">70</xp>
   </Loot>
 </Entity>

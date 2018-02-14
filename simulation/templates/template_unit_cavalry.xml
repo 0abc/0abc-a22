@@ -21,7 +21,7 @@
     <BuildTime>14</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>100</food>
+      <food>50</food>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -43,7 +43,7 @@
   </Identity>
   <Loot>
     <food>10</food>
-    <xp>100</xp>
+    <xp>50</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>
@@ -61,6 +61,12 @@
       <food.meat>2.0</food.meat>
     </Rates>
   </ResourceGatherer>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>0.05</food>
+    </Rates>
+  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Texture>

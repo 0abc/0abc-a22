@@ -67,11 +67,11 @@ Counters: 2.0× vs Fortifications (fortresses, towers, wall turrets).</Tooltip>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <food>30</food>
-    <metal>30</metal>
+    <food>60</food>
+    <metal>60</metal>
     <silver>0</silver>
-    <stone>15</stone>
-    <wood>75</wood>
+    <stone>30</stone>
+    <wood>150</wood>
     <xp>750</xp>
   </Loot>
   <StatusBars>

@@ -37,11 +37,11 @@
     <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <food>5</food>
-    <metal>10</metal>
+    <food>10</food>
+    <metal>20</metal>
     <silver>0</silver>
     <stone>0</stone>
-    <wood>10</wood>
+    <wood>20</wood>
     <xp>125</xp>
   </Loot>
   <Sound>

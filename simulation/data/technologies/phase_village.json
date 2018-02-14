@@ -1,6 +1,7 @@
 {
   "affects": ["Centre"],
   "autoResearch": true,
+  "cost": { "food": 200, "wood": 200, "stone": 100, "metal": 100 },
   "genericName": "Village Phase",
   "icon": "village_phase.png",
   "modifications": [

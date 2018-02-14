@@ -21,7 +21,7 @@
     <BuildTime>12</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>90</food>
+      <food>40</food>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -41,8 +41,8 @@
     <VisibleClasses datatype="tokens">Soldier Citizen Camel</VisibleClasses>
   </Identity>
   <Loot>
-    <food>9</food>
-    <xp>90</xp>
+    <food>8</food>
+    <xp>40</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>
@@ -60,6 +60,12 @@
     </Rates>
     <MaxDistance>2.0</MaxDistance>
   </ResourceGatherer>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>0.04</food>
+    </Rates>
+  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Texture>

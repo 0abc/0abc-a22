@@ -21,7 +21,7 @@
       <MaxRange>4</MaxRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <PrepareTime>1000</PrepareTime>
+      <PrepareTime>375</PrepareTime>
       <RepeatTime>1000</RepeatTime>
     </Melee>
   </Attack>

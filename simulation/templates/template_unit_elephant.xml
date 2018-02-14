@@ -23,7 +23,7 @@
     <BuildTime>24</BuildTime>
     <Population>6</Population>
     <Resources>
-      <food>300</food>
+      <food>200</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -42,8 +42,8 @@
     <VisibleClasses datatype="tokens">Soldier Citizen Elephant</VisibleClasses>
   </Identity>
   <Loot>
-    <food>30</food>
-    <xp>300</xp>
+    <food>40</food>
+    <xp>200</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>
@@ -62,8 +62,9 @@
     </Rates>
   </ResourceGatherer>
   <ResourceTrickle>
+    <Interval>1000</Interval>
     <Rates>
-      <food>-5.0</food>
+      <food>0.20</food>
     </Rates>
   </ResourceTrickle>
   <Selectable>

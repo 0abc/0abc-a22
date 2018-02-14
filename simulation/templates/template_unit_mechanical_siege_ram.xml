@@ -55,11 +55,11 @@
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <metal>20</metal>
+    <food>40</food>
+    <metal>40</metal>
     <silver>0</silver>
     <stone>0</stone>
-    <wood>40</wood>
+    <wood>80</wood>
     <xp>400</xp>
   </Loot>
   <UnitMotion>

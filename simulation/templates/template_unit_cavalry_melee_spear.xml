@@ -14,7 +14,6 @@
       </Bonuses>
       <Pierce>8</Pierce>
       <PreferredClasses datatype="tokens">Ranged</PreferredClasses>
-      <PrepareTime>600</PrepareTime>
     </Melee>
   </Attack>
   <Cost>
@@ -33,8 +32,8 @@ Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">2</metal>
-    <wood op="add">3</wood>
+    <metal op="add">4</metal>
+    <wood op="add">6</wood>
     <xp op="add">50</xp>
   </Loot>
   <UnitMotion>

@@ -24,11 +24,11 @@
     <BuildTime>18</BuildTime>
     <Population>6</Population>
     <Resources>
-      <food>300</food>
+      <food>150</food>
       <metal>0</metal>
       <silver>0</silver>
       <stone>0</stone>
-      <wood>0</wood>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <Identity>
@@ -41,8 +41,8 @@
     <metal>0</metal>
     <silver>0</silver>
     <stone>0</stone>
-    <wood>0</wood>
-    <xp>300</xp>
+    <wood>10</wood>
+    <xp>200</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>
@@ -50,6 +50,12 @@
   <Promotion>
     <RequiredXp>240</RequiredXp>
   </Promotion>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>0.15</food>
+    </Rates>
+  </ResourceTrickle>
   <UnitMotion>
     <Run>
       <Range>1800.0</Range>

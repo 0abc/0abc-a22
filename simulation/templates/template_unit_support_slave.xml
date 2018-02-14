@@ -25,7 +25,8 @@
   </Builder>
   <Cost>
     <Resources>
-      <metal op="add">50</metal>
+      <food>25</food>
+      <silver>25</silver>
     </Resources>
   </Cost>
   <Health>
@@ -38,8 +39,9 @@
     <VisibleClasses datatype="tokens">Builder Worker Slave</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">5</metal>
-    <xp op="add">5</xp>
+    <food>5</food>
+    <silver>5</silver>
+    <xp>10</xp>
   </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>

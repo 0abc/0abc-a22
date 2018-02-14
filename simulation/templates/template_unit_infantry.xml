@@ -53,7 +53,7 @@
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
-      <food>50</food>
+      <food>25</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -71,11 +71,17 @@
   </Identity>
   <Loot>
     <food>5</food>
-    <xp>50</xp>
+    <xp>25</xp>
   </Loot>
   <Promotion>
     <RequiredXp>100</RequiredXp>
   </Promotion>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>0.02</food>
+    </Rates>
+  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Texture>

@@ -13,7 +13,7 @@
     <BuildTime>12</BuildTime>
     <Population>3</Population>
     <Resources>
-      <food>300</food>
+      <food>150</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -33,8 +33,8 @@
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
   <Loot>
-    <food>30</food>
-    <xp>75</xp>
+    <food>15</food>
+    <xp>30</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>
@@ -43,6 +43,12 @@
     <Types>food wood stone metal</Types>
     <Sharable>false</Sharable>
   </ResourceDropsite>
+  <ResourceTrickle>
+    <Interval>1000</Interval>
+    <Rates>
+      <food>0.15</food>
+    </Rates>
+  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Texture>

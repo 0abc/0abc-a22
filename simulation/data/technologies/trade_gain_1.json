@@ -3,13 +3,13 @@
   "cost": {"food": 100, "wood": 100, "stone": 0, "metal": 100},
   "description": "The progress in handicraft improves the trading profit.",
   "genericName": "Handicraft",
-  "icon": "amphore.png",
+  "icon": "olives.png",
   "modifications": [
-    {"value": "Trader/GainMultiplier", "multiply": 1.05}
+    {"value": "Trader/GainMultiplier", "multiply": 1.10}
   ],
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 40,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Traders +5% gain."
+  "tooltip": "Traders +10% gain."
 }

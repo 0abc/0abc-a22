@@ -27,8 +27,8 @@
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">3</metal>
-    <wood op="add">2</wood>
+    <metal op="add">6</metal>
+    <wood op="add">4</wood>
     <xp op="add">50</xp>
   </Loot>
   <UnitMotion>

@@ -44,8 +44,8 @@ Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">10</metal>
-    <wood op="add">10</wood>
+    <metal op="add">20</metal>
+    <wood op="add">20</wood>
     <xp op="add">200</xp>
   </Loot>
 </Entity>

@@ -66,12 +66,28 @@ Silver is the new resource number one; it can not be gathered directly, but can 
   * cavalry heroes grant 100 silver
   * chariot heroes grant 150 silver
   * elephant heroes grant 200 silver
+<!--
 * killing promoted units (with x the rank (which can be 0 to 12)):
   * healers and infantry grant 1x silver (champions 2x)
   * camels and cavalry grant 2x silver (champions 4x)
   * bigae (two-horsed chariots) grant 4x silver (champions 8x)
   * quadrigae (four-horse chariots) grant 5x silver (champions 10x)
   * war elephants grant 6x silver (champions 12x)
+    {"value": "Loot/silver",                "add":      1,    "affects": "Healer"           },
+    {"value": "Loot/silver",                "add":      1,    "affects": "Healer Champion"  },
+    {"value": "Loot/silver",                "add":      1,    "affects": "Infantry"         },
+    {"value": "Loot/silver",                "add":      1,    "affects": "Infantry Champion"},
+    {"value": "Loot/silver",                "add":      2,    "affects": "Camel"            },
+    {"value": "Loot/silver",                "add":      2,    "affects": "Camel Champion"   },
+    {"value": "Loot/silver",                "add":      2,    "affects": "Cavalry"          },
+    {"value": "Loot/silver",                "add":      2,    "affects": "Cavalry Champion" },
+    {"value": "Loot/silver",                "add":      4,    "affects": "Biga"             },
+    {"value": "Loot/silver",                "add":      4,    "affects": "Biga Champion"    },
+    {"value": "Loot/silver",                "add":      5,    "affects": "Quadriga"         },
+    {"value": "Loot/silver",                "add":      5,    "affects": "Quadriga Champion"},
+    {"value": "Loot/silver",                "add":      6,    "affects": "Elephant"         },
+    {"value": "Loot/silver",                "add":      6,    "affects": "Elephant Champion"},
+-->
 * looting structures:
   * centres grant 200 silver
   * libraries grant 100 silver
@@ -91,7 +107,14 @@ And it can currently be used for:
   * counterespionage: 2000 silver (instead of 400 food, 400 metal)
 * espionage: bribing cost is changed to 250 silver (instead of 500 metal); 500 silver with counterespionage (instead of 750 metal)
 * training:
-  * healer cost is 50 food and 50 silver each (instead of 250 food only)
+  * slaves cost 25 food and 25 silver each (instead of 50 food and 50 metal)
+  * healers cost 25 food and 50 silver each (instead of 250 food only)
+  * infantry mercenaries cost 60 silver each (instead of other resources)
+  * camelry mercenaries cost 75 silver each (instead of other resources)
+  * cavalry mercenaries cost 90 silver each (instead of other resources)
+  * biga mercenaries cost 180 silver each (instead of other resources)
+  * quadriga mercenaries cost 240 silver each (instead of other resources)
+  * elephantry mercenaries cost 300 silver each (instead of other resources)
 * upkeep (see below)
 
 ### Upkeep and taxation (resource trickle rates)
@@ -109,6 +132,15 @@ And it can currently be used for:
   * libraries −2.0 silver per 7 seconds
   * lighthouse −1.0 wood per 7 seconds
   * military structures −1.0 food per 7 seconds
+* Unit upkeep:
+  * dogs: −0.01 food per 1 second
+  * infantry, females, healers, slaves: −0.02 food per 1 second
+  * traders: −0.03 food per 1 second
+  * camelry: −0.04 food per 1 second
+  * cavalry: −0.05 food per 1 second
+  * bigae: −0.10 food per 1 second
+  * quadrigae: −0.15 food per 1 second
+  * elephantry: −0.20 food per 1 second
 * Warship upkeep:
   * small bargue: −2.0 silver per 30 seconds
   * small galley: −3.0 silver per 30 seconds
@@ -125,22 +157,6 @@ And it can currently be used for:
   * octoreme: −48.0 silver per 30 seconds
   * novireme: −54.0 silver per 30 seconds
   * decereme: −60.0 silver per 30 seconds
-* Mercenary upkeep:
-  * infantry mercenaries −1.0 silver per 60 seconds
-  * camel mercenaries −1.5 silver per 60 seconds
-  * cavalry mercenaries −2.0 silver per 60 seconds
-  * biga mercenaries −4.0 silver per 60 seconds
-  * quadriga mercenaries −6.0 silver per 60 seconds
-  * elephant mercenaries −3.0 silver (and −5.0 food) per 60 seconds
-* Champion upkeep:
-  * infantry champions −1.0 food per 60 seconds
-  * camel champions −1.5 food per 60 seconds
-  * cavalry champions −2.0 food per 60 seconds
-  * biga champions −4.0 food per 60 seconds
-  * quadriga champions −6.0 food per 60 seconds
-  * elephant champions −8.0 food per 60 seconds
-  * elephant mercenaries −5.0 food (and −3.0 silver) per 60 seconds
-  * other war elephants −5.0 food per 60 seconds
 
 ### Population size
 * 0: heroes, war dogs, ships

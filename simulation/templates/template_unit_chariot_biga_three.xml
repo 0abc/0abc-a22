@@ -8,9 +8,9 @@
   </Attack>
   <Cost>
     <Resources>
-      <food op="add">50</food>
+      <food op="add">25</food>
       <metal op="add">50</metal>
-      <wood op="add">120</wood>
+      <wood op="add">75</wood>
     </Resources>
   </Cost>
   <Health>
@@ -25,9 +25,9 @@ Penalties: 0.5× vs Elephants.</Tooltip>
   </Identity>
   <Loot>
     <food op="add">5</food>
-    <metal op="add">5</metal>
-    <wood op="add">12</wood>
-    <xp op="add">220</xp>
+    <metal op="add">10</metal>
+    <wood op="add">15</wood>
+    <xp op="add">150</xp>
   </Loot>
   <Promotion>
     <RequiredXp>220</RequiredXp>

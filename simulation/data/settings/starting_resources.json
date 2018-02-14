@@ -13,12 +13,12 @@
 		},
 		{
 			"Resources": 200,
-			"Title": "Low"
+			"Title": "Low",
+			"Default": true
 		},
 		{
 			"Resources": 300,
-			"Title": "Quite Low",
-			"Default": true
+			"Title": "Quite Low"
 		},
 		{
 			"Resources": 500,

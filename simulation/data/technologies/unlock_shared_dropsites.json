@@ -6,6 +6,7 @@
   "modifications": [
     {"value": "Player/sharedDropsites", "replace": true}
   ],
+  "requirements": {"tech": "phase_town"},
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "unlock_shared_los",

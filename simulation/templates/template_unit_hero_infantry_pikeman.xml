@@ -12,12 +12,11 @@
     </Melee>
   </Attack>
   <Identity>
-    <Classes datatype="tokens">Polearm</Classes>
     <Formations datatype="tokens">
       special/formations/phalanx
       special/formations/testudo
     </Formations>
     <GenericName>Hero Infantry Pikeman</GenericName>
-    <VisibleClasses datatype="tokens">Melee Pike</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Pikeman</VisibleClasses>
   </Identity>
 </Entity>

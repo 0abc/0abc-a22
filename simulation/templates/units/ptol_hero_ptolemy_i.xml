@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/ptol_hero_ptolemy_i_1
+    units/heroes/ptol_hero_ptolemy_i_2
+  </Auras>
+  <Identity>
+    <Civ>ptol</Civ>
+    <GenericName>Ptolemy I "Savior"</GenericName>
+    <Icon>units/mace_hero_philip.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Ptolemaios A' Soter</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/hero_ptolemy_IV.xml</Actor>
+  </VisualActor>
+</Entity>

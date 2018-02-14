@@ -1,0 +1,11 @@
+{
+  "affects": ["Worker"],
+  "auraName": "Patron of Construction",
+  "auraDescription": "+10% build and repair rate for workers.",
+  "modifications": [
+    { "value": "Builder/Rate", "multiply": 1.10 }
+  ],
+  "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
+  "radius": 60,
+  "type": "range"
+}

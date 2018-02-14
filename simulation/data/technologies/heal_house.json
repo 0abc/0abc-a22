@@ -1,6 +1,6 @@
 {
   "affects": ["House"],
-  "cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
+  "cost": {"food": 450, "wood": 150, "stone": 0, "metal": 150},
   "description": "Units garrisoned in houses heal over time.",
   "genericName": "Living Conditions",
   "icon": "bandage.png",
@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 50,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Units gain health over time while garrisoned in houses."
 }

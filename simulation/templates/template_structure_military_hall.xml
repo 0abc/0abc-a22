@@ -42,7 +42,6 @@
     <Technologies datatype="tokens">
       heal_hall
       training_hall
-      attack_soldiers_will
     </Technologies>
   </ProductionQueue>
   <Sound>

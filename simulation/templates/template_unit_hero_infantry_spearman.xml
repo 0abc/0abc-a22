@@ -5,19 +5,18 @@
       <Crush>0</Crush>
       <Hack>0</Hack>
       <MaxRange>4</MaxRange>
-      <Pierce>24</Pierce>
+      <Pierce>30</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
   </Attack>
   <Identity>
-    <Classes datatype="tokens">Polearm</Classes>
     <Formations datatype="tokens">
       special/formations/phalanx
       special/formations/testudo
     </Formations>
     <GenericName>Hero Infantry Spearman</GenericName>
-    <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
   </Identity>
 </Entity>

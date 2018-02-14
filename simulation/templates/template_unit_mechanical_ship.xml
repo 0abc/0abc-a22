@@ -37,6 +37,9 @@
   </ResourceGatherer>
   <ResourceTrickle>
     <Interval>30000</Interval>
+    <Rates>
+      <silver>-0.0</silver>
+    </Rates>
   </ResourceTrickle>
   <Selectable>
     <Overlay>

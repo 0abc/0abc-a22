@@ -11,7 +11,7 @@
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "centre_watch_2",
   "tooltip": "Centres one additional default arrow and +10 vision range."

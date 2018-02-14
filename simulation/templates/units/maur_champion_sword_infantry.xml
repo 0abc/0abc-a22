@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_sword_champion">
+<Entity parent="template_unit_infantry_melee_swordsman_champion">
   <Identity>
     <Civ>maur</Civ>
     <Gender>female</Gender>
     <GenericName>Maiden Guard</GenericName>
     <Icon>units/maur_champion_maiden.png</Icon>
-    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
+    <RequiredTechnology>special/unlock_champion_units</RequiredTechnology>
     <SpecificName>Visha Kanya</SpecificName>
     <SelectionGroupName>units/maur_champion_sword_infantry</SelectionGroupName>
   </Identity>

@@ -10,9 +10,9 @@
     {"value": "Armour/Pierce",        "add":      2.0 },
     {"value": "UnitMotion/WalkSpeed", "multiply": 0.98}
   ],
-  "requirements": {"tech": "phase_town"},
-  "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 50,
+  "requirements": {"tech": "phase_city"},
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_ship_1",
   "tooltip": "Ships +2 crush, hack, and pierce armour levels, but also −2% movement speed."

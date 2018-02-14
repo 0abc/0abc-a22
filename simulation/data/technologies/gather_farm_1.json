@@ -5,11 +5,11 @@
   "genericName": "Iron Plow",
   "icon": "plow.png",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}
+    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.20}
   ],
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 40,
+  "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Workers +25% farming rate."
+  "tooltip": "Workers +20% farming rate."
 }

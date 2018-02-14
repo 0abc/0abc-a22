@@ -9,7 +9,7 @@
   ],
   "requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "ptol" }] }] },
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "drill_camelry_2",
   "tooltip": "Camelry starts at rank 3/12: additional −10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged −1% spread."

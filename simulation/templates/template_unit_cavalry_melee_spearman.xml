@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  <Armour>
+    <Hack op="add">5</Hack>
+    <Pierce op="add">5</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Infantry>
+          <Classes>Infantry Archer</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Infantry>
+      </Bonuses>
+      <Pierce>7.5</Pierce>
+      <PreferredClasses datatype="tokens">Ranged</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal op="add">20</metal>
+      <wood op="add">30</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max op="mul">1.6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Cavalry Spearman</GenericName>
+    <Tooltip>Counters: 1.5× vs Infantry Archers.
+Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal op="add">4</metal>
+    <wood op="add">6</wood>
+    <xp op="add">50</xp>
+  </Loot>
+  <UnitMotion>
+    <Run>
+      <Range>800.0</Range>
+      <RangeMin>9.0</RangeMin>
+      <Speed>30.0</Speed>
+    </Run>
+    <WalkSpeed>18.0</WalkSpeed>
+  </UnitMotion>
+</Entity>

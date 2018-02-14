@@ -3,9 +3,9 @@
   <Attack>
     <Melee>
       <Crush>0</Crush>
-      <Hack>16</Hack>
+      <Hack>20</Hack>
       <MaxRange>2</MaxRange>
-      <Pierce>16</Pierce>
+      <Pierce>10</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
@@ -13,6 +13,6 @@
   </Attack>
   <Identity>
     <GenericName>Hero Infantry Swordsman</GenericName>
-    <VisibleClasses datatype="tokens">Melee Sword</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
   </Identity>
 </Entity>

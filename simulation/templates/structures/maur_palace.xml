@@ -14,10 +14,10 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_sword_infantry
-      units/{civ}_champion_archer_infantry
+      units/{civ}_champion_longbow_infantry
     </Entities>
     <Technologies datatype="tokens">
-      unlock_champion_units
+      special/unlock_champion_units
     </Technologies>
   </ProductionQueue>
   <VisualActor>

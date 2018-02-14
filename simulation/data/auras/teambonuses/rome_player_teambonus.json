@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry Sword"],
+  "affects": ["Infantry Swordsman"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "auraDescription": "Ally's infantry swordsmen have −20% training time.",
   "auraName": "Roman Style Swordsmen",

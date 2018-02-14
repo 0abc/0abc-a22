@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Mercenary Cavalry Archer</GenericName>
+    <GenericName>Mercenary Horse Archer</GenericName>
     <VisibleClasses datatype="tokens">-Citizen Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

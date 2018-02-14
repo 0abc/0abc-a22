@@ -2,16 +2,6 @@
 <Entity parent="template_unit_camel">
   <Attack>
     <Ranged>
-      <Bonuses>
-        <Elephantry>
-          <Classes>Elephant</Classes>
-          <Multiplier>0.5</Multiplier>
-        </Elephantry>
-        <Support>
-          <Classes>Trader</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Support>
-      </Bonuses>
       <Crush>0</Crush>
       <Hack>0</Hack>
       <MaxRange>17.0</MaxRange>
@@ -29,8 +19,6 @@
       formations/skirmish
     </Formations>
     <GenericName>Ranged Camel</GenericName>
-    <Tooltip>Counters: 1.5× vs Traders.
-Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
   <Sound>

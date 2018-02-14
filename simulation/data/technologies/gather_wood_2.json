@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 50,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_wood_1",
   "tooltip": "Workers +25% lumbering rate for trees."

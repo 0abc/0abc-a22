@@ -1,5 +1,5 @@
 {
-  "affects": ["Trader !Ship"],
+  "affects": ["LandTrader"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "auraDescription": "Higher income (+10%) from land trade routes for ally's traders.",
   "auraName": "Royal Road",

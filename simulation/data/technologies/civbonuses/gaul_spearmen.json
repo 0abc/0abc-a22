@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry Spear"],
+  "affects": ["Infantry Spearman"],
   "autoResearch": true,
   "description": "The Gauls were warlike peoples and often migrated looking for new lands to conquer. Their spearmen were versatile and could act both as skirmishers and as heavy infantry. Their invasions of Greece and Asia led to the introduction of thureos-shield spearmen in the Greek world.",
   "genericName": "Celtic Spearmen",

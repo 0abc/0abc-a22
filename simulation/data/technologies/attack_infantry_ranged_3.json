@@ -11,7 +11,7 @@
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "attack_infantry_ranged_2",
   "tooltip": "+15% ranged infantry attack."

@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry Spear"],
+  "affects": ["Infantry Spearman"],
   "autoResearch": true,
   "description": "The Triarii were the last line of defence of a Roman legion; experienced and heavily armoured, these units were much tougher to defeat than their non-Roman counterparts.",
   "genericName": "Triarii",

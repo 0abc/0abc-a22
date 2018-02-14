@@ -12,7 +12,7 @@
   ],
   "requirements": {"all": [{"tech": "phase_city"}, {"any":[{"civ": "mace"}, {"civ": "ptol"}, {"civ": "sele"}]}]},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Centres +50% capture points, health, and loot experience, and one more default arrow."
 }

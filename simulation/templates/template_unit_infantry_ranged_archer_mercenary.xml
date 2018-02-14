@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Mercenary Composite Bowman</GenericName>
+    <GenericName>Mercenary Archer</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">-Citizen -Worker Mercenary</VisibleClasses>
   </Identity>

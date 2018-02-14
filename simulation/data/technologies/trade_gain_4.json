@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_metropolis"},
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
-  "researchTime": 60,
+  "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "trade_gain_3",
   "tooltip": "Traders +10% gain."

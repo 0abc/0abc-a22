@@ -12,7 +12,7 @@
   ],
   "requirements": {"all": [{"tech": "phase_city"}, {"any":[{"civ": "brit"}, {"civ": "gaul"}, {"civ": "rome"}]}]},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_infantry_3",
   "tooltip": "Champions +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."

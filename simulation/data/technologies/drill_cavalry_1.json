@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 40,
+  "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Cavalry starts at rank 1/12: additional −10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged −1% spread."
 }

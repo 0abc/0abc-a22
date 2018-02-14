@@ -11,7 +11,7 @@
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Stone towers +2 crush, hack, and pierce armour levels."
 }

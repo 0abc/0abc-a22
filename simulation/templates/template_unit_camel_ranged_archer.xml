@@ -2,14 +2,24 @@
 <Entity parent="template_unit_camel_ranged">
   <Attack>
     <Ranged>
+      <Bonuses>
+        <Elephantry>
+          <Classes>Elephant</Classes>
+          <Multiplier>0.5</Multiplier>
+        </Elephantry>
+        <Support>
+          <Classes>Trader</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Support>
+      </Bonuses>
       <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>6</Pierce>
+      <Pierce>6.5</Pierce>
     </Ranged>
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">10</metal>
-      <wood op="add">40</wood>
+      <metal op="add">15</metal>
+      <wood op="add">35</wood>
     </Resources>
   </Cost>
   <Health>
@@ -18,11 +28,13 @@
   <Identity>
     <Classes datatype="tokens">CompositeBow</Classes>
     <GenericName>Camel Archer</GenericName>
+    <Tooltip>Counters: 1.5× vs Traders.
+Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">2</metal>
-    <wood op="add">8</wood>
+    <metal op="add">3</metal>
+    <wood op="add">7</wood>
     <xp op="add">50</xp>
   </Loot>
   <UnitMotion>
@@ -31,6 +43,6 @@
       <RangeMin>7.0</RangeMin>
       <Speed>35</Speed>
     </Run>
-    <WalkSpeed>27</WalkSpeed>
+    <WalkSpeed>25</WalkSpeed>
   </UnitMotion>
 </Entity>

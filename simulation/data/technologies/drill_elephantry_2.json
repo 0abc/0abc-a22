@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 50,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "drill_elephantry_1",
   "tooltip": "War elephants start at rank 2/12: additional −10% resource gather rate, +5% training time, health, capture attack, and attack damage; melee also +1% walk speed and ranged −1% spread."

@@ -5,12 +5,12 @@
   "genericName": "Grain imports",
   "icon": "grain.png",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.1}
+    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.05}
   ],
   "requirements": {"tech": "phase_metropolis"},
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
-  "researchTime": 70,
+  "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_farm_3",
-  "tooltip": "Workers +10% farming rate."
+  "tooltip": "Workers +5% farming rate."
 }

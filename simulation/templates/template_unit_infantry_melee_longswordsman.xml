@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Armour>
+    <Crush op="add">5</Crush>
+    <Hack op="add">5</Hack>
+    <Pierce op="add">5</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>4.5</Hack>
+      <MaxRange op="mul">1.5</MaxRange>
+      <Pierce>1.5</Pierce>
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal op="add">30</metal>
+      <wood op="add">20</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max op="mul">1.9</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Longsword</Classes>
+    <GenericName>Longswordsman</GenericName>
+    <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal op="add">6</metal>
+    <wood op="add">4</wood>
+    <xp op="add">50</xp>
+  </Loot>
+  <UnitMotion>
+    <Run>
+      <Speed>15</Speed>
+    </Run>
+    <WalkSpeed>10</WalkSpeed>
+  </UnitMotion>
+</Entity>

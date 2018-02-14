@@ -4,7 +4,7 @@
   "genericName": "Espionage",
   "icon": "spy_trader.png",
   "requirements": { "tech": "phase_town" },
-  "researchTime": 75,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Allows bribing the units of other players in order to share their vision."
 }

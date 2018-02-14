@@ -80,7 +80,7 @@
       armour_ship_1
       armour_ship_2
       armour_ship_3
-      special/training_harbour
+      training_naval
     </Technologies>
   </ProductionQueue>
   <RallyPointRenderer>

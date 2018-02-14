@@ -18,8 +18,8 @@
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
-    <GenericName>Hero Infantry Skirmisher</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
+    <GenericName>Hero Infantry Javelinist</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Javelinist</VisibleClasses>
   </Identity>
   <Sound>
     <SoundGroups>

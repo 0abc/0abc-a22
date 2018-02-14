@@ -5,7 +5,7 @@
   "icon": "helmet_corinthian_crest.png",
   "requirements": {"all": [{"tech": "pop_wonder"}, {"any": [{"civ": "cart"}, {"civ": "mace"}, {"civ": "spart"}]}]},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 90,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "unlock_champion_units",
   "tooltip": "Unlock Spartan champion pike infantry."

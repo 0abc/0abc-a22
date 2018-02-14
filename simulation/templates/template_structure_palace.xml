@@ -42,11 +42,6 @@
     <stone>60</stone>
     <wood>30</wood>
   </Loot>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-    </Technologies>
-  </ProductionQueue>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

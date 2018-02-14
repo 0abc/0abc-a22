@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry Spear"],
+  "affects": ["Infantry Spearman"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "auraDescription": "Ally's infantry spearmen have −20% training time.",
   "auraName": "Celtic Mercenaries",

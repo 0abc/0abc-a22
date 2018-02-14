@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry Sword"],
+  "affects": ["Infantry Swordsman"],
   "autoResearch": true,
   "description": "The Britons were warlike peoples, eager to start fights.",
   "genericName": "Briton Eagerness",

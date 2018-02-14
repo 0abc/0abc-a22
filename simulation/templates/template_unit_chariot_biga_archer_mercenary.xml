@@ -2,7 +2,7 @@
 <Entity parent="template_unit_chariot_biga_archer">
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Mercenary Archer Chariot</GenericName>
+    <GenericName>Mercenary Chariot Archer</GenericName>
     <VisibleClasses datatype="tokens">-Citizen Mercenary</VisibleClasses>
   </Identity>
   <ResourceGatherer disable=""/>

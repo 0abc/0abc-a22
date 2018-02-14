@@ -28,6 +28,6 @@
   <Identity>
     <GenericName>Hero Cavalry Spearman</GenericName>
     <Tooltip>Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
-    <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
   </Identity>
 </Entity>

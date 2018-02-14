@@ -39,27 +39,35 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_citizen_axe_infantry
       units/{civ}_citizen_mace_infantry
+      units/{civ}_citizen_axe_infantry
+      units/{civ}_citizen_sabre_infantry
       units/{civ}_citizen_sword_infantry
+      units/{civ}_citizen_longsword_infantry
       units/{civ}_citizen_halberd_infantry
-      units/{civ}_citizen_spear_infantry
       units/{civ}_citizen_hoplite_infantry
+      units/{civ}_citizen_spear_infantry
       units/{civ}_citizen_pike_infantry
       units/{civ}_citizen_throwingaxe_infantry
       units/{civ}_citizen_javelin_infantry
       units/{civ}_citizen_archer_infantry
+      units/{civ}_citizen_longbow_infantry
+      units/{civ}_citizen_crossbow_infantry
       units/{civ}_citizen_sling_infantry
-      units/{civ}_mercenary_axe_infantry
       units/{civ}_mercenary_mace_infantry
+      units/{civ}_mercenary_axe_infantry
+      units/{civ}_mercenary_sabre_infantry
       units/{civ}_mercenary_sword_infantry
+      units/{civ}_mercenary_longsword_infantry
       units/{civ}_mercenary_halberd_infantry
-      units/{civ}_mercenary_spear_infantry
       units/{civ}_mercenary_hoplite_infantry
+      units/{civ}_mercenary_spear_infantry
       units/{civ}_mercenary_pike_infantry
       units/{civ}_mercenary_throwingaxe_infantry
       units/{civ}_mercenary_javelin_infantry
       units/{civ}_mercenary_archer_infantry
+      units/{civ}_mercenary_longbow_infantry
+      units/{civ}_mercenary_crossbow_infantry
       units/{civ}_mercenary_sling_infantry
     </Entities>
     <Technologies datatype="tokens">
@@ -68,7 +76,6 @@
       drill_infantry_3
       heal_barracks
       training_barracks
-      unlock_champion_units
       special/archery_tradition
       special/marching
     </Technologies>

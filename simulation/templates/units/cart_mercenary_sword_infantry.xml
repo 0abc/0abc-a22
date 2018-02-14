@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_sword_mercenary">
+<Entity parent="template_unit_infantry_melee_swordsman_mercenary">
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">Celt</Classes>

@@ -12,7 +12,7 @@
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_capacity_2",
   "tooltip": "Workers +5 shuttle capacity for all resources."

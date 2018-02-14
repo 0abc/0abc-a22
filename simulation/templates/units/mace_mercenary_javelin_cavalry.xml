@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_javelin_mercenary">
+<Entity parent="template_unit_cavalry_ranged_javelinist_mercenary">
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Odrysian Skirmish Cavalry</GenericName>

@@ -11,7 +11,7 @@
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 50,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "attack_infantry_melee_1",
   "tooltip": "+15% melee infantry attack."

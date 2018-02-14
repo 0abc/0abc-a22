@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/spart/champion_sword_infantry_11">
-  <Identity>
-    <Rank>12</Rank>
-  </Identity>
-  <Promotion disable=""/>
-</Entity>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Champion Cavalry Archer</GenericName>
+    <GenericName>Champion Horse Archer</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">-Citizen Champion</VisibleClasses>
   </Identity>

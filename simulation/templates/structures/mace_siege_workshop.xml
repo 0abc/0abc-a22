@@ -6,7 +6,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_archer_infantry
+      units/{civ}_champion_crossbow_infantry
     </Entities>
   </ProductionQueue>
   <VisualActor>

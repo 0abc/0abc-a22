@@ -11,7 +11,7 @@
   ],
   "requirements": {"tech": "phase_metropolis"},
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
-  "researchTime": 70,
+  "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "centre_watch_3",
   "tooltip": "Centres one additional default arrow and +10 vision range."

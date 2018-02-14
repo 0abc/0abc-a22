@@ -4,7 +4,7 @@
     <Ranged>
       <Bonuses>
         <Cavalry>
-          <Classes>Cavalry Sword</Classes>
+          <Classes>Cavalry Swordsman</Classes>
           <Multiplier>1.5</Multiplier>
         </Cavalry>
         <Elephantry>
@@ -28,7 +28,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">CompositeBow</Classes>
-    <GenericName>Cavalry Archer</GenericName>
+    <GenericName>Horse Archer</GenericName>
     <Tooltip>Counters: 1.5× vs Cavalry Swordsmen.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>

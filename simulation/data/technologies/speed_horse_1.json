@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 40,
+  "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "+5% cavalry and chariot walk speed."
 }

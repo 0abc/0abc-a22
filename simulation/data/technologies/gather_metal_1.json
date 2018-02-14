@@ -10,6 +10,6 @@
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Village Phase.",
-  "researchTime": 40,
+  "researchTime": 45,
   "tooltip": "Workers +20% metal gathering rate."
 }

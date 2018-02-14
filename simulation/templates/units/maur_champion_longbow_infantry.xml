@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_longbowman_champion">
+  <Identity>
+    <Civ>maur</Civ>
+    <Gender>female</Gender>
+    <GenericName>Maiden Guard Archer</GenericName>
+    <Icon>units/maur_champion_maiden_archer.png</Icon>
+    <RequiredTechnology>special/unlock_champion_units</RequiredTechnology>
+    <SelectionGroupName>units/maur_champion_longbow_infantry</SelectionGroupName>
+    <SpecificName>Visha Kanya</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/maur/champion_longbow_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mauryans/champion_maiden_guard_archer.xml</Actor>
+  </VisualActor>
+</Entity>

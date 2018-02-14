@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_sword_champion">
+<Entity parent="template_unit_infantry_melee_swordsman_champion">
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Romanized Heavy Swordsman</GenericName>
     <Icon>units/sele_champion_swordsman.png</Icon>
     <Lang>greek</Lang>
-    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SelectionGroupName>units/sele_champion_sword_infantry</SelectionGroupName>
     <SpecificName>Thorakitès Rhomaïkós</SpecificName>
   </Identity>

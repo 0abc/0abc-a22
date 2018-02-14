@@ -28,6 +28,6 @@
   <Identity>
     <GenericName>Hero Cavalry Swordsman</GenericName>
     <Tooltip>Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
-    <VisibleClasses datatype="tokens">Melee Sword</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
   </Identity>
 </Entity>

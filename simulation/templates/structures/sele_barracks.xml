@@ -13,6 +13,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/{civ}_champion_spear_infantry
       units/{civ}_champion_javelin_infantry
     </Entities>
   </ProductionQueue>

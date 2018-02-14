@@ -1,0 +1,10 @@
+{
+  "affects": ["Pikeman"],
+  "auraName": "Raphia",
+  "auraDescription": "Pikemen have 40% greater health during his lifetime.",
+  "modifications": [
+    { "value": "Health/Max", "multiply": 1.40 }
+  ],
+  "radius": 60,
+  "type": "range"
+}

@@ -9,7 +9,7 @@
   ],
   "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 120,
+  "researchTime": 150,
   "specificName": {
     "athen": "Peristyle",
     "mace": "Peristyle",

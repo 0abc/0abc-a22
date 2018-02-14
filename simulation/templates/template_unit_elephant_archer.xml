@@ -38,7 +38,7 @@
     <Max op="mul">0.9</Max>
   </Health>
   <Identity>
-    <GenericName>War Elephant Archer</GenericName>
+    <GenericName>Elephant Archer</GenericName>
     <Tooltip>Counters: 1.5× vs Camels.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>

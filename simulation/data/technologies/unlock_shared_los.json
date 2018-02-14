@@ -7,7 +7,7 @@
     {"value": "Player/sharedLos", "replace": true}
   ],
   "requirements": {"tech": "phase_village"},
-  "researchTime": 60,
+  "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "See what your allies see, browse their summary and check their resources and population count in the top panel."
 }

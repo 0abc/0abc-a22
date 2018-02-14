@@ -15,8 +15,8 @@
     <Entities datatype="tokens">
       units/{civ}_citizen_pike_infantry
       units/{civ}_citizen_sling_infantry
-      units/{civ}_hero_ptolemy_I
-      units/{civ}_hero_ptolemy_IV
+      units/{civ}_hero_ptolemy_i
+      units/{civ}_hero_ptolemy_iv
       units/{civ}_hero_cleopatra
     </Entities>
   </ProductionQueue>

@@ -9,7 +9,7 @@
   ],
   "requirements": { "all": [{ "tech": "phase_town" }, { "any": [{ "civ": "athen"}, { "civ": "cart"}, { "civ": "mace"}, { "civ": "ptol" }, { "civ": "sele" }, { "civ": "spart" }] }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 40,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Mercenaries have +10% health."
 }

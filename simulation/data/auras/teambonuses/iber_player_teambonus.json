@@ -1,5 +1,5 @@
 {
-  "affects": ["Infantry Javelin"],
+  "affects": ["Infantry Javelinist"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
   "auraDescription": "Ally's infantry javilinists have −20% training time.",
   "auraName": "Saripeko",

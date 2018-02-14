@@ -9,7 +9,7 @@
   ],
   "requirements": {"all": [{"tech": "phase_metropolis"}, {"civ": "sele"}]},
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
-  "researchTime": 70,
+  "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Champions −20% training time."
 }

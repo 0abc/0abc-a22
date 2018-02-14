@@ -25,8 +25,8 @@
     <Square width="4.5" depth="9.0"/>
   </Footprint>
   <Identity>
-    <GenericName>Hero Chariot Skirmisher</GenericName>
+    <GenericName>Hero Chariot Javelinist</GenericName>
     <Tooltip>Penalties: 0.5× vs Elephants.</Tooltip>
-    <VisibleClasses datatype="tokens">Javelin Ranged</VisibleClasses>
+    <VisibleClasses datatype="tokens">Javelinist Ranged</VisibleClasses>
   </Identity>
 </Entity>

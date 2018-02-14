@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_village"},
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "researchTime": 40,
+  "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Outposts −50% territory decay rate."
 }

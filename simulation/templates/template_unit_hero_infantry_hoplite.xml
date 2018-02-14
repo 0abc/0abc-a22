@@ -3,9 +3,9 @@
   <Attack>
     <Melee>
       <Crush>0</Crush>
-      <Hack>8</Hack>
+      <Hack>5</Hack>
       <MaxRange>4</MaxRange>
-      <Pierce>20</Pierce>
+      <Pierce>25</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>

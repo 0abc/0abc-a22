@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_crossbowman_champion">
+  <Identity>
+    <Civ>mace</Civ>
+    <GenericName>Crossbowman</GenericName>
+    <Icon>units/mace_gastraphetes.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/mace_champion_crossbow_infantry</SelectionGroupName>
+    <SpecificName>Gastraphétēs</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/mace/champion_crossbow_infantry_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/gastraphetes.xml</Actor>
+  </VisualActor>
+</Entity>

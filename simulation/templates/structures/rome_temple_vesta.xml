@@ -25,7 +25,6 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      attack_soldiers_will
       special/vision
     </Technologies>
   </ProductionQueue>

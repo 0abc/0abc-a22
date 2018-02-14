@@ -3,7 +3,7 @@
   <Builder disable=""/>
   <Identity>
     <Classes datatype="tokens">-CitizenSoldier</Classes>
-    <GenericName>Champion Infantry Hoplite</GenericName>
+    <GenericName>Champion Hoplite</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">-Builder -Worker -Citizen Champion</VisibleClasses>
   </Identity>

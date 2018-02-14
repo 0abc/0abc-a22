@@ -55,8 +55,7 @@
     </Entities>
     <Technologies datatype="tokens">
       gather_fish
-      gather_capacity_boat
-      special/training_docks
+      training_naval
     </Technologies>
   </ProductionQueue>
   <RallyPointRenderer>

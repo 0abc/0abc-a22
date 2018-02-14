@@ -12,7 +12,7 @@
   ],
   "requirements": {"all": [{"tech": "phase_city"}, {"civ": "mace"}]},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Silver Shields have +10% health and +15% attack damage."
 }

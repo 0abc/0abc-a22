@@ -12,7 +12,7 @@
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "armour_cavalry_2",
   "tooltip": "All Cavalry +1 Crush, Hack, and Pierce Armour levels, but also −1% movement speed."

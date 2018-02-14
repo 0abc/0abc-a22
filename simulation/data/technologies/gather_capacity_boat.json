@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_town"},
   "requirementsTooltip": "Unlocked in Town Phase. Requires Fishing Net.",
-  "researchTime": 50,
+  "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_fish",
   "tooltip": "Fishing Boats +25 food capacity."

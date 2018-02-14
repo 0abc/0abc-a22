@@ -1,5 +1,5 @@
 {
-  "affects": ["Cavalry Lance"],
+  "affects": ["Cavalry Lancer"],
   "autoResearch": true,
   "description": "The Macedonians were the first to deploy cavalry as shock troops, directly charging at the enemy, giving them a far greater impact.",
   "genericName": "Macedonian Cavalry",

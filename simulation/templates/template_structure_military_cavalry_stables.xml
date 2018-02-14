@@ -43,12 +43,14 @@
       units/{civ}_citizen_archer_cavalry
       units/{civ}_citizen_javelin_cavalry
       units/{civ}_citizen_axe_cavalry
+      units/{civ}_citizen_sabre_cavalry
       units/{civ}_citizen_sword_cavalry
       units/{civ}_citizen_spear_cavalry
       units/{civ}_citizen_lance_cavalry
       units/{civ}_mercenary_archer_cavalry
       units/{civ}_mercenary_javelin_cavalry
       units/{civ}_mercenary_axe_cavalry
+      units/{civ}_mercenary_sabre_cavalry
       units/{civ}_mercenary_sword_cavalry
       units/{civ}_mercenary_spear_cavalry
       units/{civ}_mercenary_lance_cavalry

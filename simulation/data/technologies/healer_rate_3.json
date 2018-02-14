@@ -9,7 +9,7 @@
   ],
   "requirements": {"tech": "phase_metropolis"},
   "requirementsTooltip": "Unlocked in Metropolis Phase.",
-  "researchTime": 70,
+  "researchTime": 90,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "healer_rate_2",
   "tooltip": "Healers −20% healing time."

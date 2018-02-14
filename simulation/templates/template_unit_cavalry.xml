@@ -18,7 +18,7 @@
     </Slaughter>
   </Attack>
   <Cost>
-    <BuildTime>14</BuildTime>
+    <BuildTime>30</BuildTime>
     <Population>2</Population>
     <Resources>
       <food>50</food>

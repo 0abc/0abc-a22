@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero">
   <Attack disable=""/>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>45</BuildTime>
     <Resources>
       <food>100</food>
       <metal>100</metal>

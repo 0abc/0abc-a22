@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  <Armour>
+    <Hack op="add">3</Hack>
+    <Pierce op="add">3</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <Infantry>
+          <Classes>Infantry Javelin</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Infantry>
+      </Bonuses>      
+      <Crush>1.0</Crush>
+      <Pierce>7.0</Pierce>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal op="add">30</metal>
+      <wood op="add">20</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max op="mul">1.7</Max>
+  </Health>
+  <Identity>
+    <GenericName>Cavalry Lancer</GenericName>
+    <Tooltip>Counters: 1.5× vs Infantry Javelinists.
+Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
+    <VisibleClasses datatype="tokens">Lancer</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal op="add">6</metal>
+    <wood op="add">4</wood>
+    <xp op="add">50</xp>
+  </Loot>
+  <UnitMotion>
+    <Run>
+      <Range>700.0</Range>
+      <RangeMin>10.0</RangeMin>
+      <Speed>30.0</Speed>
+    </Run>
+    <WalkSpeed>17.0</WalkSpeed>
+  </UnitMotion>
+</Entity>

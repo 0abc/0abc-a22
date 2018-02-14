@@ -9,7 +9,7 @@
   ],
   "requirements": {"all": [{"tech": "phase_city"}, {"any": [{"civ": "athen"}, {"civ": "cart"}, {"civ": "mace"}, {"civ": "ptol"}, {"civ": "rome"}, {"civ": "spart"}]}]},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "tooltip": "Bolt shooter accuracy increased 25%."
 }

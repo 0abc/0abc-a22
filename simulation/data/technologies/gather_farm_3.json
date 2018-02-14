@@ -5,12 +5,12 @@
   "genericName": "Gather Training",
   "icon": "farming_training.png",
   "modifications": [
-    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15}
+    {"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.10}
   ],
   "requirements": {"tech": "phase_city"},
   "requirementsTooltip": "Unlocked in City Phase.",
-  "researchTime": 60,
+  "researchTime": 75,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
   "supersedes": "gather_farm_2",
-  "tooltip": "Workers +15% farming rate."
+  "tooltip": "Workers +10% farming rate."
 }

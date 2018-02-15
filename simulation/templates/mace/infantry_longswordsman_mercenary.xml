@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_longswordsman_mercenary">
+  <Identity>
+    <Civ>mace</Civ>
+    <GenericName>Thracian Mercenary Swordsman</GenericName>
+    <Icon>units/sele_infantry_swordsman.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>mace/infantry_longswordsman_mercenary</SelectionGroupName>
+    <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>mace/promoted/infantry_longswordsman_mercenary_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

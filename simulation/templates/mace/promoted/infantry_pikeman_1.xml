@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="mace/infantry_pikeman">
+  <Identity>
+    <Rank>1</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>mace/promoted/infantry_pikeman_2</Entity>
+  </Promotion>
+</Entity>

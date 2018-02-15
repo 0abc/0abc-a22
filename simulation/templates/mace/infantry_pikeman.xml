@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Builder>
+    <Entities datatype="tokens">
+      mace/structure_library
+      mace/structure_theatre
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>mace</Civ>
+    <Icon>units/mace_infantry_pikeman.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>mace/infantry_pikeman</SelectionGroupName>
+    <GenericName>Foot Companion</GenericName>
+    <SpecificName>Pezétairos</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>mace/promoted/infantry_pikeman_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="mace/promoted/infantry_longswordsman_mercenary_9">
+  <Identity>
+    <Rank>10</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>mace/promoted/infantry_longswordsman_mercenary_11</Entity>
+  </Promotion>
+</Entity>

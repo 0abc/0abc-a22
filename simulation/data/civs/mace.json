@@ -104,22 +104,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/mace_civil_centre"
+      "Template": "mace/structure_civil_centre"
     },
     {
-      "Template": "units/mace_support_female",
+      "Template": "mace/support_female",
       "Count": 5
     },
     {
-      "Template": "units/mace_citizen_pike_infantry",
+      "Template": "mace/infantry_pikeman",
       "Count": 3
     },
     {
-      "Template": "units/mace_citizen_javelin_infantry",
+      "Template": "mace/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/mace_citizen_lance_cavalry",
+      "Template": "mace/cavalry_lancer",
       "Count": 1
     }
   ],
@@ -156,10 +156,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_10": "structures/mace_house",
-    "skirmish/units/default_cavalry": "units/mace_citizen_lance_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/mace_citizen_pike_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/mace_citizen_javelin_infantry"
+    "skirmish/structures/default_house_10": "mace/structure_house",
+    "skirmish/units/default_cavalry": "mace/cavalry_lancer",
+    "skirmish/units/default_infantry_melee_b": "mace/infantry_pikeman",
+    "skirmish/units/default_infantry_ranged_b": "mace/infantry_javelinist"
   },
   "SelectableInGameSetup": true
 }

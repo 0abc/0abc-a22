@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="mace/promoted/infantry_javelinist_mercenary_11">
+  <Identity>
+    <Rank>12</Rank>
+  </Identity>
+  <Promotion disable=""/>
+</Entity>

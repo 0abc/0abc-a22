@@ -17,11 +17,11 @@
     <MaxTowerOverlap>1.00</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
-      <Gate>structures/rome_siege_wall_gate</Gate>
-      <Tower>structures/rome_siege_wall_turret</Tower>
-      <WallLong>structures/rome_siege_wall_long</WallLong>
-      <WallMedium>structures/rome_siege_wall_medium</WallMedium>
-      <WallShort>structures/rome_siege_wall_short</WallShort>
+      <Gate>rome/structure_siege_wall_gate</Gate>
+      <Tower>rome/structure_siege_wall_turret</Tower>
+      <WallLong>rome/structure_siege_wall_long</WallLong>
+      <WallMedium>rome/structure_siege_wall_medium</WallMedium>
+      <WallShort>rome/structure_siege_wall_short</WallShort>
     </Templates>
   </WallSet>
 </Entity>

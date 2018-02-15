@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_hall">
+  <Footprint>
+    <Square width="20.0" depth="30.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>spart</Civ>
+    <Classes datatype="tokens">Syssiton</Classes>
+    <GenericName>Military Mess Hall</GenericName>
+    <Icon>structures/syssition.png</Icon>
+    <SpecificName>Syssítion</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="16.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/infantry_hoplite_champion
+    </Entities>
+    <Technologies datatype="tokens">
+      special/agoge
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/spartans/syssiton.xml</Actor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="wallset_stone">
+  <Identity>
+    <Civ>rome</Civ>
+    <SpecificName>Moenia</SpecificName>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.10</MinTowerOverlap>
+    <Templates>
+      <Gate>rome/structure_wall_gate</Gate>
+      <Tower>rome/structure_wall_turret</Tower>
+      <WallLong>rome/structure_wall_long</WallLong>
+      <WallMedium>rome/structure_wall_medium</WallMedium>
+      <WallShort>rome/structure_wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

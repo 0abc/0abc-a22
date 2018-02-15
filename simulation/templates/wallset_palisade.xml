@@ -17,11 +17,11 @@
     <MaxTowerOverlap>0.85</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
-      <Gate>structures/wall_gate_palisade</Gate>
-      <Tower>structures/wall_turret_palisade</Tower>
-      <WallLong>structures/wall_long_palisade</WallLong>
-      <WallMedium>structures/wall_medium_palisade</WallMedium>
-      <WallShort>structures/wall_short_palisade</WallShort>
+      <Gate>wall_gate_palisade</Gate>
+      <Tower>wall_turret_palisade</Tower>
+      <WallLong>wall_long_palisade</WallLong>
+      <WallMedium>wall_medium_palisade</WallMedium>
+      <WallShort>wall_short_palisade</WallShort>
     </Templates>
   </WallSet>
 </Entity>

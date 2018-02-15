@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_cavalry_stables">
+  <Identity>
+    <Civ>ptol</Civ>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/camel_archer
+    </Entities>
+    <Technologies datatype="tokens">
+      drill_camelry_1
+      drill_camelry_2
+      drill_camelry_3
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/persians/stables.xml</Actor>
+  </VisualActor>
+</Entity>

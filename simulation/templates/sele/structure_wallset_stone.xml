@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="wallset_stone">
+  <Identity>
+    <Civ>sele</Civ>
+    <SpecificName>Teîkhos</SpecificName>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <Templates>
+      <Gate>sele/structure_wall_gate</Gate>
+      <Tower>sele/structure_wall_turret</Tower>
+      <WallLong>sele/structure_wall_long</WallLong>
+      <WallMedium>sele/structure_wall_medium</WallMedium>
+      <WallShort>sele/structure_wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

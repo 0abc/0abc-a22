@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_hall">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square width="25.0" depth="25.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>pers</Civ>
+    <Icon>structures/pers_hall.png</Icon>
+    <SpecificName>Duvarthi Visadahyu</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/infantry_hoplite_champion
+      {civ}/infantry_javelinist_champion
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/persians/hall.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="wallset_stone">
+  <Identity>
+    <Civ>maur</Civ>
+    <SpecificName>Shilabanda</SpecificName>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>0.85</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <Templates>
+      <Gate>maur/structure_wall_gate</Gate>
+      <Tower>maur/structure_wall_turret</Tower>
+      <WallLong>maur/structure_wall_long</WallLong>
+      <WallMedium>maur/structure_wall_medium</WallMedium>
+      <WallShort>maur/structure_wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

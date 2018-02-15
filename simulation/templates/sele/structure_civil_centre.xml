@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_centre">
+  <Identity>
+    <Civ>sele</Civ>
+    <SpecificName>Agorā́</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/infantry_spearman
+      {civ}/infantry_javelinist
+      {civ}/hero_seleucus_i
+      {civ}/hero_antiochus_iii
+      {civ}/hero_antiochus_iv
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/seleucids/civic_center.xml</Actor>
+  </VisualActor>
+</Entity>

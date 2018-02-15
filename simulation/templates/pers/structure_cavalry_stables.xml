@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_cavalry_stables">
+  <Identity>
+    <Civ>pers</Civ>
+    <SpecificName>Paraspa</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/cavalry_archer_champion
+      {civ}/cavalry_lancer_champion
+    </Entities>
+    <Technologies datatype="tokens">
+      special/unlock_champion_units
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/persians/stables.xml</Actor>
+  </VisualActor>
+</Entity>

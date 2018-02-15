@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Square width="25.0" depth="25.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>spart</Civ>
+    <SpecificName>Stratēgeîon</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/infantry_spearman_champion
+      {civ}/infantry_javelinist_champion
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/spartans/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

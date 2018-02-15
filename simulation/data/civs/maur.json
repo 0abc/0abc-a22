@@ -114,26 +114,26 @@
   "StartEntities":
   [
     {
-      "Template": "structures/maur_civil_centre"
+      "Template": "maur/structure_civil_centre"
     },
     {
-      "Template": "units/maur_support_female",
+      "Template": "maur/support_female",
       "Count": 5
     },
     {
-      "Template": "units/maur_citizen_spear_infantry",
+      "Template": "maur/infantry_spearman",
       "Count": 3
     },
     {
-      "Template": "units/maur_citizen_longbow_infantry",
+      "Template": "maur/infantry_longbowman",
       "Count": 2
     },
     {
-      "Template": "units/maur_citizen_javelin_cavalry",
+      "Template": "maur/cavalry_javelinist",
       "Count": 1
     },
     {
-      "Template": "units/maur_support_elephant",
+      "Template": "maur/support_elephant",
       "Count": 1
     }
   ],
@@ -166,11 +166,11 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_5": "structures/maur_house",
-    "skirmish/units/default_cavalry": "units/maur_citizen_javelin_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/maur_citizen_spear_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/maur_citizen_archer_infantry",
-    "skirmish/units/special_starting_unit": "units/maur_support_elephant"
+    "skirmish/structures/default_house_5": "maur/structure_house",
+    "skirmish/units/default_cavalry": "maur/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "maur/infantry_spearman",
+    "skirmish/units/default_infantry_ranged_b": "maur/infantry_longbowman",
+    "skirmish/units/special_starting_unit": "maur/support_elephant"
   },
   "SelectableInGameSetup": true
 }

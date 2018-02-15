@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      -{civ}/structure_hall
+      -{civ}/structure_shipyard
+      maur/structure_elephant_stables
+      maur/structure_palace
+      maur/structure_pillar
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>maur</Civ>
+    <GenericName>Bamboo Spearman</GenericName>
+    <Icon>units/maur_infantry_spearman.png</Icon>
+    <SelectionGroupName>maur/infantry_spearman</SelectionGroupName>
+    <SpecificName>Kauntika</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>maur/promoted/infantry_spearman_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mauryans/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="maur/promoted/infantry_spearman_3">
+  <Identity>
+    <Rank>4</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>maur/promoted/infantry_spearman_5</Entity>
+  </Promotion>
+</Entity>

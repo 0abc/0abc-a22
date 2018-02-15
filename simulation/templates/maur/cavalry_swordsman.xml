@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_swordsman">
+  <Identity>
+    <Civ>maur</Civ>
+    <GenericName>Indian Raiding Cavalry</GenericName>
+    <Icon>units/maur_cavalry_swordsman.png</Icon>
+    <SelectionGroupName>maur/cavalry_swordsman</SelectionGroupName>
+    <SpecificName>Aśvārohagaṇaḥ</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>maur/promoted/cavalry_swordsman</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mauryans/cavalry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

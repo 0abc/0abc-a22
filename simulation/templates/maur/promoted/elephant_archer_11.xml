@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="maur/promoted/elephant_archer_10">
+  <Identity>
+    <Rank>11</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>maur/promoted/elephant_archer_12</Entity>
+  </Promotion>
+</Entity>

@@ -25,29 +25,29 @@
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
-      structures/{civ}_civil_centre
-      structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
-      structures/{civ}_field
-      structures/{civ}_corral
-      structures/{civ}_dock
-      structures/{civ}_market
-      structures/{civ}_blacksmith
-      structures/{civ}_temple
-      structures/{civ}_wonder
-      structures/{civ}_wallset_palisade
-      structures/{civ}_wallset_turf
-      structures/{civ}_wallset_stone
-      structures/{civ}_outpost
-      structures/{civ}_sentry_tower
-      structures/{civ}_defense_tower
-      structures/{civ}_fortress
-      structures/{civ}_shipyard
-      structures/{civ}_siege_workshop
-      structures/{civ}_hall
-      structures/{civ}_barracks
-      structures/{civ}_cavalry_stables
+      {civ}/structure_civil_centre
+      {civ}/structure_house
+      {civ}/structure_storehouse
+      {civ}/structure_farmstead
+      {civ}/structure_field
+      {civ}/structure_corral
+      {civ}/structure_dock
+      {civ}/structure_market
+      {civ}/structure_blacksmith
+      {civ}/structure_temple
+      {civ}/structure_wonder
+      {civ}/structure_wallset_palisade
+      {civ}/structure_wallset_turf
+      {civ}/structure_wallset_stone
+      {civ}/structure_outpost
+      {civ}/structure_sentry_tower
+      {civ}/structure_defense_tower
+      {civ}/structure_fortress
+      {civ}/structure_shipyard
+      {civ}/structure_siege_workshop
+      {civ}/structure_hall
+      {civ}/structure_barracks
+      {civ}/structure_cavalry_stables
     </Entities>
   </Builder>
   <Cost>

@@ -51,7 +51,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_support_healer
+      {civ}/support_healer
     </Entities>
     <Technologies datatype="tokens">
       healer_range_1

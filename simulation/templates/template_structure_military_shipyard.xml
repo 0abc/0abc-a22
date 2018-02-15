@@ -49,16 +49,16 @@
   </Position>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_ship_galley_01
-      units/{civ}_ship_galley_02
-      units/{civ}_ship_galley_03
-      units/{civ}_ship_galley_04
-      units/{civ}_ship_galley_05
-      units/{civ}_ship_galley_06
-      units/{civ}_ship_galley_07
-      units/{civ}_ship_galley_08
-      units/{civ}_ship_galley_09
-      units/{civ}_ship_galley_10
+      {civ}/ship_galley_01
+      {civ}/ship_galley_02
+      {civ}/ship_galley_03
+      {civ}/ship_galley_04
+      {civ}/ship_galley_05
+      {civ}/ship_galley_06
+      {civ}/ship_galley_07
+      {civ}/ship_galley_08
+      {civ}/ship_galley_09
+      {civ}/ship_galley_10
     </Entities>
     <Technologies datatype="tokens">
       armour_ship_1

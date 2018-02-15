@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="athen/promoted/infantry_slinger_1">
+  <Identity>
+    <Rank>2</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>athen/promoted/infantry_slinger_3</Entity>
+  </Promotion>
+</Entity>

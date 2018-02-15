@@ -40,20 +40,20 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_citizen_archer_cavalry
-      units/{civ}_citizen_javelin_cavalry
-      units/{civ}_citizen_axe_cavalry
-      units/{civ}_citizen_sabre_cavalry
-      units/{civ}_citizen_sword_cavalry
-      units/{civ}_citizen_spear_cavalry
-      units/{civ}_citizen_lance_cavalry
-      units/{civ}_mercenary_archer_cavalry
-      units/{civ}_mercenary_javelin_cavalry
-      units/{civ}_mercenary_axe_cavalry
-      units/{civ}_mercenary_sabre_cavalry
-      units/{civ}_mercenary_sword_cavalry
-      units/{civ}_mercenary_spear_cavalry
-      units/{civ}_mercenary_lance_cavalry
+      {civ}/cavalry_archer
+      {civ}/cavalry_javelinist
+      {civ}/cavalry_axeman
+      {civ}/cavalry_sabreman
+      {civ}/cavalry_swordsman
+      {civ}/cavalry_spearman
+      {civ}/cavalry_lancer
+      {civ}/cavalry_archer_mercenary
+      {civ}/cavalry_javelinist_mercenary
+      {civ}/cavalry_axeman_mercenary
+      {civ}/cavalry_sabreman_mercenary
+      {civ}/cavalry_swordsman_mercenary
+      {civ}/cavalry_spearman_mercenary
+      {civ}/cavalry_lancer_mercenary
     </Entities>
     <Technologies datatype="tokens">
       drill_cavalry_1

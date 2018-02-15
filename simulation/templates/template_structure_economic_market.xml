@@ -50,7 +50,7 @@
       unlock_shared_dropsites
     </Technologies>
     <Entities datatype="tokens">
-      units/{civ}_support_trader
+      {civ}/support_trader
     </Entities>
   </ProductionQueue>
   <Sound>

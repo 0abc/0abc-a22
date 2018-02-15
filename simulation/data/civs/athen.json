@@ -100,22 +100,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/athen_civil_centre"
+      "Template": "athen/structure_civil_centre"
     },
     {
-      "Template": "units/athen_support_female",
+      "Template": "athen/support_female",
       "Count": 5
     },
     {
-      "Template": "units/athen_citizen_hoplite_infantry",
+      "Template": "athen/infantry_hoplite",
       "Count": 3
     },
     {
-      "Template": "units/athen_citizen_sling_infantry",
+      "Template": "athen/infantry_slinger",
       "Count": 2
     },
     {
-      "Template": "units/athen_citizen_javelin_cavalry",
+      "Template": "athen/cavalry_javelinist",
       "Count": 1
     }
   ],
@@ -153,10 +153,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_10": "structures/athen_house",
-    "skirmish/units/default_cavalry": "units/athen_citizen_javelin_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/athen_citizen_hoplite_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/athen_citizen_sling_infantry"
+    "skirmish/structures/default_house_10": "athen/structure_house",
+    "skirmish/units/default_cavalry": "athen/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "athen/infantry_hoplite",
+    "skirmish/units/default_infantry_ranged_b": "athen/infantry_slinger"
   },
   "SelectableInGameSetup": true
 }

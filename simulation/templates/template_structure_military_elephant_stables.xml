@@ -41,13 +41,13 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_support_elephant
-      units/{civ}_citizen_archer_elephant
-      units/{civ}_citizen_war_elephant
-      units/{civ}_mercenary_archer_elephant
-      units/{civ}_mercenary_war_elephant
-      units/{civ}_champion_archer_elephant
-      units/{civ}_champion_war_elephant
+      {civ}/support_elephant
+      {civ}/elephant
+      {civ}/elephant_archer
+      {civ}/elephant_mercenary
+      {civ}/elephant_archer_mercenary
+      {civ}/elephant_champion
+      {civ}/elephant_archer_champion
     </Entities>
     <Technologies datatype="tokens">
       drill_elephantry_1

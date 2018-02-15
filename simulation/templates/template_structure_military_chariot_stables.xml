@@ -41,15 +41,18 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_citizen_archer_chariot
-      units/{civ}_citizen_javelin_chariot
-      units/{civ}_citizen_scythed_chariot
-      units/{civ}_mercenary_archer_chariot
-      units/{civ}_mercenary_javelin_chariot
-      units/{civ}_mercenary_scythed_chariot
-      units/{civ}_champion_archer_chariot
-      units/{civ}_champion_javelin_chariot
-      units/{civ}_champion_scythed_chariot
+      {civ}/chariot_archer
+      {civ}/chariot_javelin
+      {civ}/chariot_threeman
+      {civ}/chariot_scythed
+      {civ}/chariot_archer_mercenary
+      {civ}/chariot_javelin_mercenary
+      {civ}/chariot_threeman_mercenary
+      {civ}/chariot_scythed_mercenary
+      {civ}/chariot_archer_champion
+      {civ}/chariot_javelin_champion
+      {civ}/chariot_threeman_champion
+      {civ}/chariot_scythed_champion
     </Entities>
     <Technologies datatype="tokens">
       drill_chariotry_1

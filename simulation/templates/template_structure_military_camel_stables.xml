@@ -37,15 +37,15 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_citizen_archer_camel
-      units/{civ}_citizen_javelin_camel
-      units/{civ}_citizen_spear_camel
-      units/{civ}_mercenary_archer_camel
-      units/{civ}_mercenary_javelin_camel
-      units/{civ}_mercenary_spear_camel
-      units/{civ}_champion_archer_camel
-      units/{civ}_champion_javelin_camel
-      units/{civ}_champion_spear_camel
+      {civ}/camel_archer
+      {civ}/camel_javelinist
+      {civ}/camel_spearman
+      {civ}/camel_archer_mercenary
+      {civ}/camel_javelinist_mercenary
+      {civ}/camel_spearman_mercenary
+      {civ}/camel_archer_champion
+      {civ}/camel_javelinist_champion
+      {civ}/camel_spearman_champion
     </Entities>
     <Technologies datatype="tokens">
       drill_camelry_1

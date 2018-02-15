@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger_mercenary">
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Rhodian Slinger</GenericName>
+    <Icon>units/hele_infantry_slinger.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>special/iphicratean_reforms</RequiredTechnology>
+    <SelectionGroupName>athen/infantry_slinger_mercenary</SelectionGroupName>
+    <SpecificName>Sphendonḗtēs Rhódios</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>athen/promoted/infantry_slinger_mercenary_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_slinger_e.xml</Actor>
+  </VisualActor>
+</Entity>

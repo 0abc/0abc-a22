@@ -2,10 +2,10 @@
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Builder>
     <Entities datatype="tokens">
-      structures/ptol_elephant_stables
-      structures/ptol_library
-      structures/ptol_lighthouse
-      structures/ptol_theatre
+      ptol/structure_elephant_stables
+      ptol/structure_library
+      ptol/structure_lighthouse
+      ptol/structure_theatre
     </Entities>
   </Builder>
   <Identity>

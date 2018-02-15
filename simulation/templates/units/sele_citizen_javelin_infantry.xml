@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Builder>
     <Entities datatype="tokens">
-      structures/sele_elephant_stables
-      structures/sele_library
-      structures/sele_theatre
+      sele/structure_elephant_stables
+      sele/structure_library
+      sele/structure_theatre
     </Entities>
   </Builder>
   <Identity>

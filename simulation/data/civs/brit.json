@@ -124,26 +124,26 @@
   "StartEntities":
   [
     {
-      "Template": "structures/brit_civil_centre"
+      "Template": "brit/structure_civil_centre"
     },
     {
-      "Template": "units/brit_support_female",
+      "Template": "brit/support_female",
       "Count": 5
     },
     {
-      "Template": "units/brit_citizen_spear_infantry",
+      "Template": "brit/infantry_spearman",
       "Count": 3
     },
     {
-      "Template": "units/brit_citizen_sling_infantry",
+      "Template": "brit/infantry_slinger",
       "Count": 2
     },
     {
-      "Template": "units/brit_citizen_javelin_cavalry",
+      "Template": "brit/cavalry_javelinist",
       "Count": 1
     },
     {
-      "Template": "units/brit_war_dog",
+      "Template": "brit/war_dog",
       "Count": 1
     }
   ],
@@ -176,11 +176,11 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_5": "structures/brit_house",
-    "skirmish/units/default_cavalry": "units/brit_citizen_javelin_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/brit_citizen_spear_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/brit_citizen_sling_infantry",
-    "skirmish/units/special_starting_unit": "units/brit_war_dog"
+    "skirmish/structures/default_house_5": "brit/structure_house",
+    "skirmish/units/default_cavalry": "brit/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "brit/infantry_spearman",
+    "skirmish/units/default_infantry_ranged_b": "brit/infantry_slinger",
+    "skirmish/units/special_starting_unit": "brit/war_dog"
   },
   "SelectableInGameSetup": true
 }

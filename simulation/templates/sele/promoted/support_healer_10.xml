@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="sele/promoted/support_healer_9">
+  <Identity>
+    <Rank>10</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/support_healer_11</Entity>
+  </Promotion>
+</Entity>

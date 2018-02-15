@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_dog">
+  <Identity>
+    <Civ>brit</Civ>
+    <Icon>units/brit_war_dog.png</Icon>
+    <SelectionGroupName>brit/war_dog</SelectionGroupName>
+    <SpecificName>Coun</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>brit/promoted/war_dog_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/celts/cavalry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

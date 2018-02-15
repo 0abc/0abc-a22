@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="brit/promoted/war_dog_10">
+  <Identity>
+    <Rank>11</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>brit/promoted/war_dog_12</Entity>
+  </Promotion>
+</Entity>

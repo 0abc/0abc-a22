@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee_sabreman">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_hall
-      -structures/{civ}_shipyard
-      structures/iber_monument
+      -{civ}/structure_hall
+      -civ}/structure_shipyard
+      iber/structure_monument
     </Entities>
   </Builder>
   <Identity>

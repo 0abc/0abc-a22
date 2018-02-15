@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Identity>
+    <Civ>brit</Civ>
+    <GenericName>Raiding Cavalry</GenericName>
+    <Icon>units/celt_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>brit/cavalry_javelinist</SelectionGroupName>
+    <SpecificName>Gaisaredos</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>brit/promoted/cavalry_javelinist_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/celts/cavalry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

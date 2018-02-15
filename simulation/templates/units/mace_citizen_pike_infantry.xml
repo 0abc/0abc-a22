@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Builder>
     <Entities datatype="tokens">
-      structures/mace_library
-      structures/mace_theatre
+      mace/structure_library
+      mace/structure_theatre
     </Entities>
   </Builder>
   <Identity>

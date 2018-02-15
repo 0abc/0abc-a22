@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female">
+  <Identity>
+    <Civ>mace</Civ>
+    <GenericName>Macedonian Woman</GenericName>
+    <Icon>units/hele_support_female_citizen.png</Icon>
+    <SelectionGroupName>mace/support_female</SelectionGroupName>
+    <SpecificName>Gýnē Makedonikḗ</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

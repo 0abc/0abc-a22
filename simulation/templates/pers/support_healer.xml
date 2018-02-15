@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Median Magus</GenericName>
+    <Icon>units/pers_support_healer.png</Icon>
+    <SelectionGroupName>pers/support_healer</SelectionGroupName>
+    <SpecificName>Maguš Mada</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>pers/promoted/support_healer_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/healer.xml</Actor>
+  </VisualActor>
+</Entity>

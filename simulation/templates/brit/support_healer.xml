@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Auras datatype="tokens">
+    units/curse
+    units/motivation
+  </Auras>
+  <Identity>
+    <Civ>brit</Civ>
+    <Icon>units/celt_support_healer.png</Icon>
+    <SelectionGroupName>brit/support_healer</SelectionGroupName>
+    <SpecificName>Druides</SpecificName>
+    <VisibleClasses datatype="tokens">Druid</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>brit/promoted/support_healer_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/celts/healer.xml</Actor>
+  </VisualActor>
+</Entity>

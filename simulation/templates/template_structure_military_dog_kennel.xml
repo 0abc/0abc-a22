@@ -60,7 +60,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_war_dog
+      {civ}/war_dog
     </Entities>
     <Technologies datatype="tokens">
       drill_dogs_1

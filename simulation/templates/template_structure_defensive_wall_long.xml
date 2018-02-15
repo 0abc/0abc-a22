@@ -54,7 +54,7 @@
         <metal>40</metal>
         <wood>40</wood>
       </Cost>
-      <Entity>structures/{civ}_wall_gate</Entity>
+      <Entity>{civ}/structure_wall_gate</Entity>
       <Time>30</Time>
       <Tooltip>This will allow you to let units circulate through your fortifications.</Tooltip>
     </Gate>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_trader">
+  <Footprint replace="">
+    <Height>3.0</Height>
+    <Square width="4.0" depth="8.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Merchant</GenericName>
+    <Icon>units/rome_support_trader.png</Icon>
+    <Lang>latin</Lang>
+    <SpecificName>Mercator</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/romans/trader.xml</Actor>
+  </VisualActor>
+</Entity>
+

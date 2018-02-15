@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_hall
-      structures/rome_army_camp
-      structures/rome_temple_vesta
+      -{civ}/structure_hall
+      rome/structure_army_camp
+      rome/structure_temple_vesta
     </Entities>
   </Builder>
   <Identity>

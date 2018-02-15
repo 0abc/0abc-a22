@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structures/pers_elephant_stables
-      structures/pers_palace
+      pers/structure_elephant_stables
+      pers/structure_palace
     </Entities>
   </Builder>
   <Identity>

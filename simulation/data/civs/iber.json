@@ -94,22 +94,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/iber_civil_centre"
+      "Template": "iber/structure_civil_centre"
     },
     {
-      "Template": "units/iber_support_female",
+      "Template": "iber/support_female",
       "Count": 5
     },
     {
-      "Template": "units/iber_citizen_sabre_infantry",
+      "Template": "iber/infantry_sabreman",
       "Count": 3
     },
     {
-      "Template": "units/iber_citizen_javelin_infantry",
+      "Template": "iber/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/iber_citizen_javelin_cavalry",
+      "Template": "iber/cavalry_javelinist",
       "Count": 1
     }
   ],
@@ -139,10 +139,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_5": "structures/iber_house",
-    "skirmish/units/default_cavalry": "units/iber_citizen_javelin_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/iber_citizen_sword_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/iber_citizen_javelin_infantry"
+    "skirmish/structures/default_house_5": "iber/structure_house",
+    "skirmish/units/default_cavalry": "iber/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "iber/infantry_sabreman",
+    "skirmish/units/default_infantry_ranged_b": "iber/infantry_javelinist"
   },
   "SelectableInGameSetup": true
 }

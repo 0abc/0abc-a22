@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_cavalry_stables">
+  <Identity>
+    <Civ>gaul</Civ>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/cavalry_spearman_champion
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/persians/stables.xml</Actor>
+  </VisualActor>
+</Entity>

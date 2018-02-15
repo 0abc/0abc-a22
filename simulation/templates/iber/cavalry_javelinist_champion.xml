@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist_champion">
+  <Identity>
+    <Civ>iber</Civ>
+    <Icon>units/iber_champion_cavalry.png</Icon>
+    <SelectionGroupName>iber/cavalry_javelinist</SelectionGroupName>
+    <SpecificName>Leial Zalduneria</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>iber/promoted/cavalry_javelinist_champion_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/iberians/champion_unit_2.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -106,22 +106,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/gaul_civil_centre"
+      "Template": "gaul/structure_civil_centre"
     },
     {
-      "Template": "units/gaul_support_female",
+      "Template": "gaul/support_female",
       "Count": 5
     },
     {
-      "Template": "units/gaul_citizen_spear_infantry",
+      "Template": "gaul/infantry_spearman",
       "Count": 3
     },
     {
-      "Template": "units/gaul_citizen_javelin_infantry",
+      "Template": "gaul/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/gaul_citizen_javelin_cavalry",
+      "Template": "gaul/cavalry_javelinist",
       "Count": 1
     }
   ],
@@ -153,10 +153,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_5": "structures/gaul_house",
-    "skirmish/units/default_cavalry": "units/gaul_citizen_javelin_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/gaul_citizen_spear_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/gaul_citizen_javelin_infantry"
+    "skirmish/structures/default_house_5": "gaul/structure_house",
+    "skirmish/units/default_cavalry": "gaul/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "gaul/infantry_spearman",
+    "skirmish/units/default_infantry_ranged_b": "gaul/infantry_javelinist"
   },
   "SelectableInGameSetup": true
 }

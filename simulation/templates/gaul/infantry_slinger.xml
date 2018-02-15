@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_stoneslinger">
+  <Builder>
+    <Entities datatype="tokens">
+      -{civ}/structure_shipyard
+      gaul/structure_rotarymill
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>gaul</Civ>
+    <GenericName>Celtic Slinger</GenericName>
+    <Icon>units/celt_infantry_slinger.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>gaul/infantry_slinger</SelectionGroupName>
+    <SpecificName>Iaosae</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>gaul/promoted/infantry_slinger_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/celts/infantry_slinger_e.xml</Actor>
+  </VisualActor>
+</Entity>

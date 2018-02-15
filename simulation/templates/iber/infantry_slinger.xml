@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_stoneslinger">
+  <Builder>
+    <Entities datatype="tokens">
+      -{civ}/structure_hall
+      -{civ}/structure_shipyard
+      iber/structure_monument
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>iber</Civ>
+    <Icon>units/iber_infantry_slinger.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>iber/infantry_slinger</SelectionGroupName>
+    <SpecificName>Habailari</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>iber/promoted/infantry_slinger_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/iberians/infantry_slinger_a.xml</Actor>
+  </VisualActor>
+</Entity>

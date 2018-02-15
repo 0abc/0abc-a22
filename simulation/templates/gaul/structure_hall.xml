@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_hall">
+  <BuildRestrictions>
+    <Category>Tavern</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>0</metal>
+      <stone>0</stone>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square width="20.0" depth="20.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Human</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaul</Civ>
+    <GenericName>Tavern</GenericName>
+    <Icon>structures/celtic_embassy.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName>Taberna</SpecificName>
+    <VisibleClasses datatype="tokens">Town Tavern</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>10</food>
+    <metal>0</metal>
+    <stone>0</stone>
+    <wood>10</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/infantry_spearman_champion
+    </Entities>
+  </ProductionQueue>
+  <RallyPoint/>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_broch.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>40</Radius>
+    <Root>false</Root>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/celts/tavern.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

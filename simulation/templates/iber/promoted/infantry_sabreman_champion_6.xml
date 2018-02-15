@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="iber/promoted/infantry_sabreman_champion_5">
+  <Identity>
+    <Rank>6</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>iber/promoted/infantry_sabreman_champion_7</Entity>
+  </Promotion>
+</Entity>

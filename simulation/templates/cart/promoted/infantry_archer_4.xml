@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="cart/promoted/infantry_archer_3">
+  <Identity>
+    <Rank>4</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>cart/promoted/infantry_archer_5</Entity>
+  </Promotion>
+</Entity>

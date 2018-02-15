@@ -94,22 +94,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/cart_civil_centre"
+      "Template": "cart/structure_civil_centre"
     },
     {
-      "Template": "units/cart_support_female",
+      "Template": "cart/support_female",
       "Count": 5
     },
     {
-      "Template": "units/cart_citizen_hoplite_infantry",
+      "Template": "cart/infantry_hoplite",
       "Count": 3
     },
     {
-      "Template": "units/cart_citizen_archer_infantry",
+      "Template": "cart/infantry_archer",
       "Count": 2
     },
     {
-      "Template": "units/cart_citizen_javelin_cavalry",
+      "Template": "cart/cavalry_javelinist",
       "Count": 1
     }
   ],
@@ -147,10 +147,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_10": "structures/cart_house",
-    "skirmish/units/default_cavalry": "units/cart_citizen_javelin_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/cart_citizen_hoplite_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/cart_citizen_archer_infantry"
+    "skirmish/structures/default_house_10": "cart/structure_house",
+    "skirmish/units/default_cavalry": "cart/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "cart/infantry_hoplite",
+    "skirmish/units/default_infantry_ranged_b": "cart/infantry_archer"
   },
   "SelectableInGameSetup": true
 }

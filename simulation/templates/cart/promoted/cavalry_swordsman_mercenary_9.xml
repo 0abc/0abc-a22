@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="cart/promoted/cavalry_swordsman_mercenary_8">
+  <Identity>
+    <Rank>9</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>cart/promoted/cavalry_swordsman_mercenary_10</Entity>
+  </Promotion>
+</Entity>

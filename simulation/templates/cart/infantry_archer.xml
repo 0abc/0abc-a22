@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      cart/structure_elephant_stables
+      cart/structure_harbour
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>cart</Civ>
+    <GenericName>Mauritanian Archer</GenericName>
+    <Icon>units/cart_infantry_archer.png</Icon>
+    <SelectionGroupName>cart/infantry_archer</SelectionGroupName>
+    <SpecificName>Qešet</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>cart/promoted/infantry_archer_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

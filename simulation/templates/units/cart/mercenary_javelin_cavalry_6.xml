@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/cart/mercenary_javelin_cavalry_5">
-  <Identity>
-    <Rank>6</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/cart/mercenary_javelin_cavalry_7</Entity>
-  </Promotion>
-</Entity>

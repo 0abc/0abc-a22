@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman_mercenary">
+  <Identity>
+    <Civ>cart</Civ>
+    <Classes datatype="tokens">Italian</Classes>
+    <GenericName>Campanian Mercenary Cavalry</GenericName>
+    <Icon>units/cart_cavalry_spearman_2.png</Icon>
+    <SelectionGroupName>cart/cavalry_spearman_mercenary</SelectionGroupName>
+    <SpecificName>Ḥayyāl Romaḥ Raḫūv</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>cart/promoted/cavalry_spearman_mercenary_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/carthaginians/cavalry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

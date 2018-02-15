@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_centre">
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_kart_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cart</Civ>
+    <SpecificName>Merkāz</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/infantry_hoplite
+      {civ}/infantry_archer
+      {civ}/hero_hamilcar
+      {civ}/hero_hannibal
+      {civ}/hero_maharbal
+    </Entities>
+    <Technologies datatype="tokens">
+      special/colonization
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/carthaginians/civil_centre.xml</Actor>
+  </VisualActor>
+</Entity>

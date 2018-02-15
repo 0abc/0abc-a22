@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/pers/mercenary_war_elephant_7">
-  <Identity>
-    <Rank>8</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/pers/mercenary_war_elephant_9</Entity>
-  </Promotion>
-</Entity>

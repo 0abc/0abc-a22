@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/pers/citizen_axe_cavalry_10">
-  <Identity>
-    <Rank>11</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/pers/citizen_axe_cavalry_12</Entity>
-  </Promotion>
-</Entity>

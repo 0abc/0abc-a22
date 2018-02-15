@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/pers/champion_scythed_chariot_9">
-  <Identity>
-    <Rank>10</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/pers/champion_scythed_chariot_11</Entity>
-  </Promotion>
-</Entity>

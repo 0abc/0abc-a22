@@ -105,22 +105,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/pers_civil_centre"
+      "Template": "pers/structure_civil_centre"
     },
     {
-      "Template": "units/pers_support_female",
+      "Template": "pers/support_female",
       "Count": 5
     },
     {
-      "Template": "units/pers_citizen_spear_infantry",
+      "Template": "pers/infantry_spearman",
       "Count": 3
     },
     {
-      "Template": "units/pers_citizen_archer_infantry",
+      "Template": "pers/infantry_archer",
       "Count": 2
     },
     {
-      "Template": "units/pers_citizen_javelin_cavalry",
+      "Template": "pers/cavalry_javelinist",
       "Count": 1
     }
   ],
@@ -154,10 +154,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_10" : "structures/pers_house",
-    "skirmish/units/default_cavalry": "units/pers_citizen_javelin_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/pers_citizen_spear_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/pers_citizen_archer_infantry"
+    "skirmish/structures/default_house_10" : "pers/structures/pers_house",
+    "skirmish/units/default_cavalry": "pers/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "pers/infantry_spearman",
+    "skirmish/units/default_infantry_ranged_b": "pers/infantry_archer"
   },
   "SelectableInGameSetup": true
 }

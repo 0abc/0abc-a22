@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/pers/mercenary_hoplite_infantry_4">
-  <Identity>
-    <Rank>5</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/pers/mercenary_hoplite_infantry_6</Entity>
-  </Promotion>
-</Entity>

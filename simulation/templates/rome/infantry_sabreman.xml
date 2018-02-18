@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_sabreman">
+  <Builder>
+    <Entities datatype="tokens">
+      -{civ}/structure_hall
+      rome/structure_army_camp
+      rome/structure_temple_vesta
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Young Swordsman</GenericName>
+    <Icon>units/rome_infantry_spearman_militia.png</Icon>
+    <Lang>latin</Lang>
+    <SelectionGroupName>rome/infantry_sabreman</SelectionGroupName>
+    <SpecificName>Hastatus</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>promoted/rome/infantry_sabreman_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_swordsman_2_b.xml</Actor>
+  </VisualActor>
+</Entity>

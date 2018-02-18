@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Italian Allied Cavalry</GenericName>
+    <Icon>units/hele_cavalry_javelinist.png</Icon>
+    <Lang>latin</Lang>
+    <SelectionGroupName>rome/cavalry_javelinist</SelectionGroupName>
+    <SpecificName>Eques Socius</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>rome/promoted/cavalry_javelinist_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/romans/cavalry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

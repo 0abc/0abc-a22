@@ -93,22 +93,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/rome_civil_centre"
+      "Template": "rome/structure_civil_centre"
     },
     {
-      "Template": "units/rome_support_female",
+      "Template": "rome/support_female",
       "Count": 5
     },
     {
-      "Template": "units/rome_citizen_sabre_infantry",
+      "Template": "rome/infantry_sabreman",
       "Count": 3
     },
     {
-      "Template": "units/rome_citizen_javelin_infantry",
+      "Template": "rome/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/rome_citizen_spear_cavalry",
+      "Template": "rome/cavalry_spearman",
       "Count": 1
     }
   ],
@@ -145,10 +145,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_10" : "structures/rome_house",
-    "skirmish/units/default_cavalry": "units/rome_citizen_spear_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/rome_citizen_axe_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/rome_citizen_javelin_infantry"
+    "skirmish/structures/default_house_10" : "rome/structure_house",
+    "skirmish/units/default_cavalry": "rome/cavalry_spearman",
+    "skirmish/units/default_infantry_melee_b": "rome/infantry_sabreman",
+    "skirmish/units/default_infantry_ranged_b": "rome/infantry_javelinist"
   },
   "SelectableInGameSetup": true
 }

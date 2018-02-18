@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman_champion">
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>Armoured Spearman</GenericName>
+    <Icon>units/mace_thorakites.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
+    <SelectionGroupName>spart/infantry_spearman_champion</SelectionGroupName>
+    <SpecificName>Thōrakitēs</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>spart/promoted/infantry_spearman_champion_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/thorakites.xml</Actor>
+  </VisualActor>
+</Entity>

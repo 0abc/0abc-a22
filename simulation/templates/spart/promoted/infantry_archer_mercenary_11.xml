@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="spart/promoted/infantry_archer_mercenary_10">
+  <Identity>
+    <Rank>11</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>spart/promoted/infantry_archer_mercenary_12</Entity>
+  </Promotion>
+</Entity>

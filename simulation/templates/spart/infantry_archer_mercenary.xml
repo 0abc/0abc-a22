@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer_mercenary">
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>Cretan Mercenary Archer</GenericName>
+    <Icon>units/hele_infantry_archer.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>spart/infantry_archer_mercenary</SelectionGroupName>
+    <SpecificName>Toxótēs Krētikós</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>spart/promoted/infantry_archer_mercenary_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_archer_e.xml</Actor>
+  </VisualActor>
+</Entity>

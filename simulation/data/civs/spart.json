@@ -105,22 +105,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/spart_civil_centre"
+      "Template": "spart/structure_civil_centre"
     },
     {
-      "Template": "units/spart_support_female",
+      "Template": "spart/support_female",
       "Count": 5
     },
     {
-      "Template": "units/spart_citizen_hoplite_infantry",
+      "Template": "spart/infantry_hoplite",
       "Count": 3
     },
     {
-      "Template": "units/spart_citizen_javelin_infantry",
+      "Template": "spart/infantry_javelinist",
       "Count": 2
     },
     {
-      "Template": "units/spart_citizen_javelin_cavalry",
+      "Template": "spart/cavalry_javelinist",
       "Count": 1
     }
   ],
@@ -155,10 +155,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_10" : "structures/spart_house",
-    "skirmish/units/default_cavalry": "units/spart_citizen_javelin_cavalry",
-    "skirmish/units/default_infantry_melee_b": "units/spart_citizen_hoplite_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/spart_citizen_javelin_infantry"
+    "skirmish/structures/default_house_10" : "spart/structure_house",
+    "skirmish/units/default_cavalry": "spart/cavalry_javelinist",
+    "skirmish/units/default_infantry_melee_b": "spart/infantry_hoplite",
+    "skirmish/units/default_infantry_ranged_b": "spart/infantry_javelinist"
   },
   "SelectableInGameSetup": true
 }

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/spart/citizen_sword_infantry_9">
-  <Identity>
-    <Rank>10</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/spart/citizen_sword_infantry_11</Entity>
-  </Promotion>
-</Entity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/spart/mercenary_sword_infantry_5">
-  <Identity>
-    <Rank>6</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/spart/mercenary_sword_infantry_7</Entity>
-  </Promotion>
-</Entity>

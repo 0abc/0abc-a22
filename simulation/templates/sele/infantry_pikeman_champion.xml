@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman_champion">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Silver Shield Pikeman</GenericName>
+    <Icon>units/sele_champion_infantry_pikeman.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>sele/infantry_pikeman_champion</SelectionGroupName>
+    <SpecificName>Phalangitès Argyraspis</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/infantry_pikeman_champion_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/champion_infantry_pikeman.xml</Actor>
+  </VisualActor>
+</Entity>

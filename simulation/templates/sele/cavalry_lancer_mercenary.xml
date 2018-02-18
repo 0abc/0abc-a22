@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_lancer_mercenary">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Companion Cavalry</GenericName>
+    <Icon>units/sele_cavalry_spearman.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>sele/cavalry_lancer_mercenary</SelectionGroupName>
+    <SpecificName>Hippos Hetairike</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/cavalry_lancer_mercenary_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

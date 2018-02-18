@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_chariot_quadriga_scythed_champion">
+  <Footprint replace="">
+    <Square width="7.5" depth="15.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Scythed Chariot</GenericName>
+    <Icon>units/sele_champion_chariot.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>sele/chariot_scythed_champion</SelectionGroupName>
+    <SpecificName>Drepanèphoros</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/chariot_scythed_champion_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/champion_chariot.xml</Actor>
+  </VisualActor>
+</Entity>

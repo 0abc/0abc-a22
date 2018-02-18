@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_melee_champion">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Armoured War Elephant</GenericName>
+    <Icon>units/sele_champion_elephant.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>sele/elephant_champion</SelectionGroupName>
+    <SpecificName>Thorakisménos Eléphantos</SpecificName>
+    <VisibleClasses datatype="tokens">Champion Cataphract</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/elephant_champion_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/champion_elephant.xml</Actor>
+  </VisualActor>
+</Entity>

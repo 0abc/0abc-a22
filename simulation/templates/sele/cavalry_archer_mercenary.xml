@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer_mercenary">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Dahae Horse Archer</GenericName>
+    <Icon>units/sele_cavalry_archer.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>sele/cavalry_archer_mercenary</SelectionGroupName>
+    <SpecificName>Hippotoxotès Dahae</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/cavalry_archer_mercenary_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/cavalry_archer_a.xml</Actor>
+  </VisualActor>
+</Entity>

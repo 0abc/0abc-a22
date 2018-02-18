@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_lancer_champion">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Seleucid Cataphract</GenericName>
+    <Icon>units/sele_champion_cataphract.png</Icon>
+    <Lang>greek</Lang>
+    <RequiredTechnology>phase_metropolis</RequiredTechnology>
+    <SelectionGroupName>sele/cavalry_lancer_champion</SelectionGroupName>
+    <SpecificName>Seleukidón Kataphraktos</SpecificName>
+    <VisibleClasses datatype="tokens">Champion Cataphract</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/cavalry_lancer_champion_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/champion_cataphract.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/sele/mercenary_archer_cavalry_4">
-  <Identity>
-    <Rank>5</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/sele/mercenary_archer_cavalry_6</Entity>
-  </Promotion>
-</Entity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="sele/infantry_javelinist_champion">
+  <Identity>
+    <Rank>1</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/infantry_javelinist_champion_2</Entity>
+  </Promotion>
+</Entity>

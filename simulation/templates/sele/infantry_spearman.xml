@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      sele/structure_elephant_stables
+      sele/structure_library
+      sele/structure_theatre
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>Militia Thureos Spearman</GenericName>
+    <Icon>units/sele_infantry_spearman_2.png</Icon>
+    <Lang>greek</Lang>
+    <SelectionGroupName>sele/infantry_spearman</SelectionGroupName>
+    <SpecificName>Thureophóros Politès</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>sele/promoted/infantry_spearman_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/thureophoros_b.xml</Actor>
+  </VisualActor>
+</Entity>

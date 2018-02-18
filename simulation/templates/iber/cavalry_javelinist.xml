@@ -2,14 +2,24 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>iber</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/iber_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>iber/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Kantabriako Zaldun</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>iber/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/iberians/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

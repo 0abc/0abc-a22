@@ -2,13 +2,24 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>gaul</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/celt_cavalry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>gaul/cavalry_swordsman</SelectionGroupName>
     <SpecificName>Epos</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>gaul/promoted/cavalry_swordsman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/celts/cavalry_swordsman_b.xml</Actor>
   </VisualActor>

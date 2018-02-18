@@ -23,7 +23,7 @@
     <Max op="mul">10.0</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Organic Human</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <GenericName>Hero</GenericName>
     <VisibleClasses datatype="tokens">Soldier Hero</VisibleClasses>
   </Identity>

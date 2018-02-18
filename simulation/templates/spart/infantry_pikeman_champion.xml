@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_pikeman_champion">
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Builder disable=""/>
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Spartan Pikeman</GenericName>
@@ -8,10 +9,20 @@
     <RequiredTechnology>special/unlock_unavailable</RequiredTechnology>
     <SelectionGroupName>spart/infantry_pikeman_champion</SelectionGroupName>
     <SpecificName>Phalangites Spartiatis</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>spart/promoted/infantry_pikeman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/spartans/champion_pikeman.xml</Actor>
   </VisualActor>

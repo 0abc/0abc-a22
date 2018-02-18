@@ -2,12 +2,14 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>spart</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Skiritai Commando</GenericName>
     <Icon>units/iber_infantry_swordsman.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>spart/infantry_swordsman</SelectionGroupName>
     <SpecificName>Ékdromos Skirítēs</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>spart/promoted/infantry_swordsman_1</Entity>

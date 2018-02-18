@@ -2,15 +2,25 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>cart</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Numidian Cavalry</GenericName>
     <Icon>units/cart_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>cart/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

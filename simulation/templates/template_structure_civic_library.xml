@@ -38,11 +38,11 @@
     <VisibleClasses datatype="tokens">City Library</VisibleClasses>
   </Identity>
   <Loot>
-    <food>25</food>
-    <metal>25</metal>
+    <food>50</food>
+    <metal>50</metal>
     <silver>100</silver>
-    <stone>25</stone>
-    <wood>25</wood>
+    <stone>50</stone>
+    <wood>50</wood>
   </Loot>
   <Obstruction>
     <Static width="25.0" depth="30.0"/>

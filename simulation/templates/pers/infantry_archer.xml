@@ -8,14 +8,25 @@
   </Builder>
   <Identity>
     <Civ>pers</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Sogdian Archer</GenericName>
     <Icon>units/pers_infantry_archer.png</Icon>
-    <SelectionGroupName>units/pers_citizen_archer_infantry</SelectionGroupName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>pers/infantry_archer</SelectionGroupName>
     <SpecificName>Sugda Vaçabara</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/pers/citizen_archer_infantry_1</Entity>
+    <Entity>pers/promoted/infantry_archer_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/persians/infantry_archer_b.xml</Actor>
   </VisualActor>

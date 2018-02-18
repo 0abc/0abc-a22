@@ -1,10 +1,10 @@
 {
-  "affects": ["LandTrader"],
+  "affects": ["Trader"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
-  "auraDescription": "Higher income (+10%) from land trade routes for ally's traders.",
+  "auraDescription": "Ally's land and naval traders −20% training time.",
   "auraName": "Royal Road",
   "modifications": [
-    {"value": "Trader/GainMultiplier", "multiply": 1.1}
+    {"value": "Cost/BuildTime", "multiply": 0.8}
   ],
   "stackable": true,
   "type": "global"

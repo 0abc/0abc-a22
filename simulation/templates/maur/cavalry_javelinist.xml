@@ -2,15 +2,24 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Indian Light Cavalry</GenericName>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/maur_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>maur/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Ashwarohi</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>maur/promoted/cavalry_javelinist</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/mauryans/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

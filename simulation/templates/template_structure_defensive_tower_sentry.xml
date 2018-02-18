@@ -36,8 +36,8 @@
     <VisibleClasses datatype="tokens">SentryTower</VisibleClasses>
   </Identity>
   <Loot>
-    <food op="add">5</food>
-    <stone op="add">5</stone>
+    <food op="add">10</food>
+    <stone op="add">10</stone>
     <xp op="mul">2.0</xp>
   </Loot>
   <ProductionQueue>

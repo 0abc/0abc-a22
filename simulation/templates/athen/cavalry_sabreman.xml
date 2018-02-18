@@ -2,15 +2,26 @@
 <Entity parent="template_unit_cavalry_melee_sabreman">
   <Identity>
     <Civ>athen</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Greek Cavalry</GenericName>
     <Icon>units/hele_cavalry_swordsman.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>athen/cavalry_sabreman</SelectionGroupName>
     <SpecificName>Hippeús</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>athen/promoted/cavalry_sabreman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/athenians/cavalry_swordsman_b.xml</Actor>
   </VisualActor>

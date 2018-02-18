@@ -8,14 +8,25 @@
   </Builder>
   <Identity>
     <Civ>pers</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Shield Bearer</GenericName>
     <Icon>units/pers_infantry_spearman.png</Icon>
-    <SelectionGroupName>units/pers_citizen_spear_infantry</SelectionGroupName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>pers/infantry_spearman</SelectionGroupName>
     <SpecificName>Sparabara</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/pers/citizen_spear_infantry_1</Entity>
+    <Entity>pers/promoted/infantry_spearman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/persians/infantry_spearman_b.xml</Actor>
   </VisualActor>

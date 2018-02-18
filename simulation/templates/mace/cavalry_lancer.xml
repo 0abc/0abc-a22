@@ -2,16 +2,26 @@
 <Entity parent="template_unit_cavalry_melee_lancer">
   <Identity>
     <Civ>mace</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Thessalian Lancer</GenericName>
     <Icon>units/mace_cavalry_spearman.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>mace/cavalry_lancer</SelectionGroupName>
     <SpecificName>Xystophóros Thessalikós</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>mace/promoted/cavalry_lancer_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/macedonians/cavalry_spearman_b.xml</Actor>
   </VisualActor>

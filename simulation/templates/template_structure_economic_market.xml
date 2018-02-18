@@ -28,7 +28,7 @@
   </Identity>
   <Loot>
     <silver>30</silver>
-    <wood>30</wood>
+    <wood>60</wood>
   </Loot>
   <Market>
     <TradeType>land</TradeType>

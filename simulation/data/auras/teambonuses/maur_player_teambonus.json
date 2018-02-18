@@ -1,10 +1,11 @@
 {
-  "affects": ["Healer"],
+  "affects": ["Structure", "Unit"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
-  "auraDescription": "Ally's healers have −25% training time.",
+  "auraDescription": "Ally's healers −20% training time, temple technologies −20% research time.",
   "auraName": "Ashoka's Religious Support",
   "modifications": [
-    {"value": "Cost/BuildTime", "multiply": 0.75}
+    {"value": "Cost/BuildTime",                          "multiply": 0.8, "affects": "Healer"},
+    {"value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.8, "affects": "Temple"}
   ],
   "stackable": true,
   "type": "global"

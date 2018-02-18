@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_longswordsman_champion">
+<Entity parent="template_unit_infantry_melee_longswordsman">
+  <Builder disable=""/>
   <Identity>
     <Civ>brit</Civ>
     <GenericName>Brythonic Longswordsman</GenericName>
     <Icon>units/celt_champion_infantry_brit.png</Icon>
-    <RequiredTechnology>special/unlock_champion_units</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>brit/infantry_longswordsman_champion</SelectionGroupName>
     <SpecificName>Delamokludda</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>brit/promoted/infantry_longswordsman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/celts/champion_unit_3.xml</Actor>
   </VisualActor>

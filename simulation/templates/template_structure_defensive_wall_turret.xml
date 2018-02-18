@@ -45,8 +45,8 @@
     <Tooltip>Shoots arrows. Garrison to defend a city wall against attackers.</Tooltip>
   </Identity>
   <Loot>
-    <stone>15</stone>
-    <wood>5</wood>
+    <stone>30</stone>
+    <wood>10</wood>
   </Loot>
   <Obstruction>
     <ControlPersist/>

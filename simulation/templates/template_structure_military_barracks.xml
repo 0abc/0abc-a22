@@ -30,9 +30,9 @@
     <VisibleClasses datatype="tokens">Village Barracks</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <stone>10</stone>
-    <wood>30</wood>
+    <food>20</food>
+    <stone>20</stone>
+    <wood>60</wood>
   </Loot>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>
@@ -77,6 +77,7 @@
       heal_barracks
       training_barracks
       special/archery_tradition
+      special/lead_bullets
       special/marching
     </Technologies>
   </ProductionQueue>

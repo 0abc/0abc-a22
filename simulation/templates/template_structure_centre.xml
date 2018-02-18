@@ -86,12 +86,9 @@
     <VisibleClasses datatype="tokens">Centre</VisibleClasses>
   </Identity>
   <Loot>
-    <food>50</food>
-    <metal>50</metal>
-    <silver>200</silver>
-    <stone>50</stone>
-    <wood>50</wood>
-    <xp>300</xp>
+    <silver>50</silver>
+    <wood>100</wood>
+    <xp>250</xp>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>

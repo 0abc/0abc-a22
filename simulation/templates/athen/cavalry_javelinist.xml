@@ -2,15 +2,25 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>athen</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/hele_cavalry_javelinist.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>athen/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Pródromos</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>athen/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/athenians/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

@@ -1,7 +1,7 @@
 {
-  "affects": ["Centre"],
+  "affects": ["Civic Structure"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
-  "auraDescription": "Ally's centres have −20% construction time.",
+  "auraDescription": "Ally's civic structures have −20% construction time.",
   "auraName": "Syrian Tetrapolis",
   "modifications": [
     {"value": "Cost/BuildTime", "multiply": 0.8}

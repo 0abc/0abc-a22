@@ -55,12 +55,12 @@
     <Max op="mul">0.75</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Organic Human</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <GenericName>War Dog</GenericName>
     <Rank>0</Rank>
     <Tooltip>Cannot attack ships, siege weapons, nor structures.
 Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
-    <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Dog Melee</VisibleClasses>
   </Identity>
   <Loot>
     <food>6</food>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_stoneslinger">
+<Entity parent="template_unit_infantry_ranged_slinger">
   <Builder>
     <Entities datatype="tokens">
       pers/structure_elephant_stables
@@ -8,14 +8,24 @@
   </Builder>
   <Identity>
     <Civ>pers</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Armenian Slinger</GenericName>
     <Icon>units/iber_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <SelectionGroupName>units/pers_citizen_sling_infantry</SelectionGroupName>
+    <SelectionGroupName>pers/infantry_slinger</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/pers/citizen_sling_infantry_1</Entity>
+    <Entity>pers/promoted/infantry_slinger_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/macedonians/infantry_slinger_a.xml</Actor>
   </VisualActor>

@@ -9,15 +9,25 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Militia Thureos Spearman</GenericName>
     <Icon>units/sele_infantry_spearman_2.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>sele/infantry_spearman</SelectionGroupName>
     <SpecificName>Thureophóros Politès</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>sele/promoted/infantry_spearman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/seleucids/thureophoros_b.xml</Actor>
   </VisualActor>

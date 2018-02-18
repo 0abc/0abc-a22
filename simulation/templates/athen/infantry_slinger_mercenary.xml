@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_slinger_mercenary">
+<Entity parent="template_unit_infantry_ranged_slinger">
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Rhodian Slinger</GenericName>
@@ -8,10 +8,12 @@
     <RequiredTechnology>special/iphicratean_reforms</RequiredTechnology>
     <SelectionGroupName>athen/infantry_slinger_mercenary</SelectionGroupName>
     <SpecificName>Sphendonḗtēs Rhódios</SpecificName>
+    <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>athen/promoted/infantry_slinger_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/macedonians/infantry_slinger_e.xml</Actor>
   </VisualActor>

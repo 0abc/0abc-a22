@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman_champion">
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder disable=""/>
   <Identity>
     <Civ>gaul</Civ>
     <GenericName>Naked Fanatic</GenericName>
@@ -8,11 +9,20 @@
     <SelectionGroupName>gaul/infantry_spearman_champion</SelectionGroupName>
     <SpecificName>Gaesata</SpecificName>
     <Tooltip>Does not benefit from armour technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Fanatic</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion Fanatic</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>gaul/promoted/infantry_spearman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/celts/fanatic.xml</Actor>
   </VisualActor>

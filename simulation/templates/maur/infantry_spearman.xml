@@ -11,14 +11,25 @@
   </Builder>
   <Identity>
     <Civ>maur</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Bamboo Spearman</GenericName>
     <Icon>units/maur_infantry_spearman.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>maur/infantry_spearman</SelectionGroupName>
     <SpecificName>Kauntika</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>maur/promoted/infantry_spearman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/mauryans/infantry_spearman_b.xml</Actor>
   </VisualActor>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman_champion">
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder disable=""/>
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Armoured Spearman</GenericName>
@@ -8,10 +9,20 @@
     <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SelectionGroupName>spart/infantry_spearman_champion</SelectionGroupName>
     <SpecificName>Thōrakitēs</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>spart/promoted/infantry_spearman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/macedonians/thorakites.xml</Actor>
   </VisualActor>

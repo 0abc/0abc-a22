@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_lancer_champion">
+<Entity parent="template_unit_cavalry_melee_lancer">
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Companion Cavalry</GenericName>
     <Icon>units/hele_champion_cavalry_mace.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>mace/cavalry_lancer_champion</SelectionGroupName>
     <SpecificName>Hetaîros</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>mace/promoted/cavalry_lancer_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/256x256.png</MainTexture>
+        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/macedonians/champion_cavalry.xml</Actor>
   </VisualActor>

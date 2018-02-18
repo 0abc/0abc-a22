@@ -17,7 +17,7 @@
     <SpecificName>Stockade</SpecificName>
   </Identity>
   <Loot>
-    <wood>3</wood>
+    <wood>5</wood>
   </Loot>
   <Obstruction>
     <ControlPersist/>

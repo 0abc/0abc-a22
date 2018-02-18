@@ -9,15 +9,25 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Bronze Shield Pikeman</GenericName>
     <Icon>units/sele_infantry_spearman.png</Icon>
     <Lang>greek</Lang>
     <SelectionGroupName>sele/infantry_pikeman</SelectionGroupName>
     <SpecificName>Chalkaspides</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>sele/promoted/infantry_pikeman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/seleucids/infantry_spearman_b.xml</Actor>
   </VisualActor>

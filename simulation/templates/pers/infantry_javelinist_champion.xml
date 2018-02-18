@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_javelinist_champion">
+<Entity parent="template_unit_infantry_ranged_javelinist">
+  <Builder disable=""/>
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Cardaces Skirmisher</GenericName>
     <Icon>units/pers_kardakes_skirmisher.png</Icon>
-    <SelectionGroupName>units/pers_champion_javelin_infantry</SelectionGroupName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SelectionGroupName>pers/infantry_javelinist_champion</SelectionGroupName>
     <SpecificName>Peltastes Kardakes</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/pers/champion_javelin_infantry_1</Entity>
+    <Entity>pers/promoted/infantry_javelinist_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/persians/kardakes_skirmisher.xml</Actor>
   </VisualActor>

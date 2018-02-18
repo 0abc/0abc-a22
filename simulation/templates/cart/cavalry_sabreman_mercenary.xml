@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_sabreman_mercenary">
+<Entity parent="template_unit_cavalry_melee_sabreman">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">Iberian</Classes>
     <GenericName>Iberian Mercenary Cavalry</GenericName>
     <Icon>units/cart_cavalry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>cart/cavalry_sabreman_mercenary</SelectionGroupName>
     <SpecificName>Ḥayyāl Ḥerev Raḫūv</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/cavalry_sabreman_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/carthaginians/cavalry_swordsman_a.xml</Actor>
   </VisualActor>

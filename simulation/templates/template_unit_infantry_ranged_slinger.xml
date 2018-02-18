@@ -11,8 +11,17 @@
           <Classes>Infantry Archer</Classes>
           <Multiplier>1.5</Multiplier>
         </Archer>
+        <Structure>
+          <Classes>Siege</Classes>
+          <Multiplier>0.125</Multiplier>
+        </Structure>
+        <Structure>
+          <Classes>Structure</Classes>
+          <Multiplier>0.125</Multiplier>
+        </Structure>
       </Bonuses>
-      <MaxRange op="mul">5.0</MaxRange>
+      <Crush>4</Crush>
+      <MaxRange op="mul">3.0</MaxRange>
       <Pierce>4</Pierce>
       <PrepareTime>500</PrepareTime>
       <ProjectileSpeed>80</ProjectileSpeed>
@@ -20,7 +29,7 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">20</metal>
+      <stone op="add">20</stone>
       <wood op="add">30</wood>
     </Resources>
   </Cost>
@@ -28,19 +37,19 @@
     <Max op="mul">1.1</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">LeadBullet</Classes>
     <GenericName>Slinger</GenericName>
-    <Tooltip>Counters: 1.5× vs Infantry Archers.</Tooltip>
+    <Tooltip>Counters: 1.5× vs Infantry Archers.
+Penalties: 0.125× vs Siege Weapons, Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">4</metal>
+    <stone op="add">4</stone>
     <wood op="add">6</wood>
     <xp op="add">50</xp>
   </Loot>
   <UnitMotion>
     <Run>
-      <Speed>20</Speed>
+      <Speed>19</Speed>
     </Run>
     <WalkSpeed>12</WalkSpeed>
   </UnitMotion>

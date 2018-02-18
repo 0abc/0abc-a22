@@ -41,7 +41,7 @@
   </Loot>
   <UnitMotion>
     <Run>
-      <Speed>18</Speed>
+      <Speed>16</Speed>
     </Run>
     <WalkSpeed>13</WalkSpeed>
   </UnitMotion>

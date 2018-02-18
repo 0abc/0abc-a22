@@ -28,9 +28,9 @@
     <Tooltip>Allow units access through a city wall. Can be locked to prevent access.</Tooltip>
   </Identity>
   <Loot>
-    <metal>4</metal>
-    <stone>8</stone>
-    <wood>8</wood>
+    <metal>8</metal>
+    <stone>16</stone>
+    <wood>16</wood>
   </Loot>
   <Obstruction>
     <Obstructions>

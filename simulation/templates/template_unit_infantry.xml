@@ -64,10 +64,10 @@
     <Max>50</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <GenericName>Infantry</GenericName>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Builder Worker Citizen Infantry</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Builder Worker Infantry</VisibleClasses>
   </Identity>
   <Loot>
     <food>5</food>

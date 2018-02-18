@@ -9,15 +9,25 @@
   </Builder>
   <Identity>
     <Civ>rome</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Roman Javelinist</GenericName>
     <Icon>units/rome_infantry_javelinist.png</Icon>
     <Lang>latin</Lang>
     <SelectionGroupName>rome/infantry_javelinist</SelectionGroupName>
     <SpecificName>Veles</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>promoted/rome/infantry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/romans/infantry_javelinist_b.xml</Actor>
   </VisualActor>

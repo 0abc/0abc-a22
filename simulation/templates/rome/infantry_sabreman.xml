@@ -9,15 +9,25 @@
   </Builder>
   <Identity>
     <Civ>rome</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Young Swordsman</GenericName>
     <Icon>units/rome_infantry_spearman_militia.png</Icon>
     <Lang>latin</Lang>
     <SelectionGroupName>rome/infantry_sabreman</SelectionGroupName>
     <SpecificName>Hastatus</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>promoted/rome/infantry_sabreman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/carthaginians/infantry_swordsman_2_b.xml</Actor>
   </VisualActor>

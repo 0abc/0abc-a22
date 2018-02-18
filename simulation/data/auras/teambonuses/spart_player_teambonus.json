@@ -1,10 +1,12 @@
 {
-  "affects": ["Infantry Hoplite"],
+  "affects": ["Infantry"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
-  "auraDescription": "Ally's infantry hoplites have −20% training time.",
+  "auraDescription": "Ally's infantry hoplites, pikemen, and spearmen have −20% training time.",
   "auraName": "Peloponnesian League",
   "modifications": [
-    {"value": "Cost/BuildTime", "multiply": 0.8}
+    {"value": "Cost/BuildTime", "multiply": 0.8, "affects": "Hoplite" },
+    {"value": "Cost/BuildTime", "multiply": 0.8, "affects": "Pikeman" },
+    {"value": "Cost/BuildTime", "multiply": 0.8, "affects": "Spearman"}
   ],
   "stackable": true,
   "type": "global"

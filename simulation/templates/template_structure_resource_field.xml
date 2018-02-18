@@ -30,7 +30,7 @@
     <VisibleClasses datatype="tokens">Field</VisibleClasses>
   </Identity>
   <Loot>
-    <wood>10</wood>
+    <wood>20</wood>
   </Loot>
   <Minimap>
     <Color r="119" g="82" b="46"/>

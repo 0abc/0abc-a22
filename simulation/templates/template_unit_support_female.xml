@@ -54,6 +54,14 @@
       <wood.tree>0.7</wood.tree>
     </Rates>
   </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/sword.xml</attack>

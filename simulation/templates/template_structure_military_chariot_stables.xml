@@ -31,10 +31,10 @@
     <VisibleClasses datatype="tokens">Town ChariotStables</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <metal>0</metal>
-    <stone>10</stone>
-    <wood>20</wood>
+    <food>20</food>
+    <metal>10</metal>
+    <stone>20</stone>
+    <wood>30</wood>
   </Loot>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>

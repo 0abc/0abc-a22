@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_melee_mercenary">
+<Entity parent="template_unit_elephant_melee">
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Indian War Elephant</GenericName>
     <Icon>units/pers_war_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>mace/elephant_mercenary</SelectionGroupName>
     <SpecificName>Hinduya Pila</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>mace/promoted/elephant_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/persians/war_elephant.xml</Actor>
   </VisualActor>

@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_maceman_champion">
+<Entity parent="template_unit_infantry_melee_maceman">
+  <Builder disable=""/>
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Warrior</GenericName>
     <Icon>units/maur_champion_maceman.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>maur/infantry_maceman_champion</SelectionGroupName>
     <SpecificName>Yōddha</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>maur/promoted/infantry_maceman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/mauryans/champion_maceman.xml</Actor>
   </VisualActor>

@@ -2,16 +2,26 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>spart</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Perioikoi Cavalryman</GenericName>
     <Icon>units/spart_cavalry_javelinist.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>spart/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Pródromos Perioïkós</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>spart/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/spartans/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

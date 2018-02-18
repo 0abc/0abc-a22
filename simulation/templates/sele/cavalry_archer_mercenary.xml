@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_archer_mercenary">
+<Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Dahae Horse Archer</GenericName>
@@ -7,10 +7,12 @@
     <Lang>greek</Lang>
     <SelectionGroupName>sele/cavalry_archer_mercenary</SelectionGroupName>
     <SpecificName>Hippotoxotès Dahae</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>sele/promoted/cavalry_archer_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/seleucids/cavalry_archer_a.xml</Actor>
   </VisualActor>

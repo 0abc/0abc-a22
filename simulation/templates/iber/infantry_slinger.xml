@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_stoneslinger">
+<Entity parent="template_unit_infantry_ranged_slinger">
   <Builder>
     <Entities datatype="tokens">
       -{civ}/structure_hall
@@ -9,14 +9,24 @@
   </Builder>
   <Identity>
     <Civ>iber</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/iber_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>iber/infantry_slinger</SelectionGroupName>
     <SpecificName>Habailari</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>iber/promoted/infantry_slinger_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/iberians/infantry_slinger_a.xml</Actor>
   </VisualActor>

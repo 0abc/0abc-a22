@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman_champion">
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder disable=""/>
   <Identity>
     <Civ>pers</Civ>
-    <Classes datatype="tokens">Immortal</Classes>
     <GenericName>Persian Immortal</GenericName>
     <Icon>units/pers_champion_infantry.png</Icon>
-    <SelectionGroupName>units/pers_champion_spear_infantry</SelectionGroupName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>pers/infantry_spearman_champion</SelectionGroupName>
     <SpecificName>Anusiya</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion Immortal</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/pers/champion_spear_infantry_1</Entity>
+    <Entity>pers/promoted/infantry_spearman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/persians/champion_unit_1.xml</Actor>
   </VisualActor>

@@ -29,8 +29,8 @@
     <VisibleClasses datatype="tokens">Village CamelStables</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <wood>20</wood>
+    <food>20</food>
+    <wood>40</wood>
   </Loot>
   <Obstruction>
     <Static width="23.5" depth="23.5"/>

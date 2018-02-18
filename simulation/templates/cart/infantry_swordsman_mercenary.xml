@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman_mercenary">
+<Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">Celt</Classes>
     <GenericName>Gaulish Mercenary Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>cart/infantry_swordsman_mercenary</SelectionGroupName>
     <SpecificName>Seḫīr Ḥerev</SpecificName>
+    <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/infantry_swordsman_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/carthaginians/infantry_swordsman_e.xml</Actor>
   </VisualActor>

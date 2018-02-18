@@ -36,7 +36,7 @@
     <VisibleClasses datatype="tokens">Outpost</VisibleClasses>
   </Identity>
   <Loot>
-    <wood op="add">-2</wood>
+    <wood op="add">-5</wood>
     <xp op="mul">1.5</xp>
   </Loot>
   <ProductionQueue>

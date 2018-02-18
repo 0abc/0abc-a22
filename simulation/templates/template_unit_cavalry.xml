@@ -32,14 +32,13 @@
     <Max op="mul">1.0</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Human Organic Horse Mounted</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <Formations datatype="tokens">
       formations/wedge
     </Formations>
     <GenericName>Cavalry</GenericName>
     <Rank>0</Rank>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Soldier Citizen Cavalry</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Cavalry</VisibleClasses>
   </Identity>
   <Loot>
     <food>10</food>

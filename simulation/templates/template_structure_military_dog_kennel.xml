@@ -52,8 +52,8 @@
     <VisibleClasses datatype="tokens">Village</VisibleClasses>
   </Identity>
   <Loot>
-    <food>5</food>
-    <wood>5</wood>
+    <food>10</food>
+    <wood>10</wood>
   </Loot>
   <Obstruction>
     <Static width="7.5" depth="6.75"/>

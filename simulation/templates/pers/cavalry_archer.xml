@@ -2,14 +2,25 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>pers</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Dahae Cavalry Archer</GenericName>
     <Icon>units/sele_cavalry_archer.png</Icon>
-    <SelectionGroupName>units/pers_citizen_archer_cavalry</SelectionGroupName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>pers/cavalry_archer</SelectionGroupName>
     <SpecificName>Dasa Asabara</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/pers/citizen_archer_cavalry_1</Entity>
+    <Entity>pers/promoted/cavalry_archer_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/seleucids/cavalry_archer_b.xml</Actor>
   </VisualActor>

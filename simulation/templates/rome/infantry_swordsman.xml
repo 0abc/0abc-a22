@@ -9,15 +9,25 @@
   </Builder>
   <Identity>
     <Civ>rome</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Experienced Swordsman</GenericName>
     <Icon>units/rome_infantry_swordsman.png</Icon>
     <Lang>latin</Lang>
     <SelectionGroupName>rome/infantry_swordsman</SelectionGroupName>
     <SpecificName>Princeps</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>promoted/rome/infantry_swordsman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/romans/infantry_swordsman_a.xml</Actor>
   </VisualActor>

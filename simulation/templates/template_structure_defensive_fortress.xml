@@ -72,10 +72,10 @@
     <VisibleClasses datatype="tokens">Fortress</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <metal>10</metal>
-    <stone>80</stone>
-    <wood>40</wood>
+    <food>40</food>
+    <metal>20</metal>
+    <stone>160</stone>
+    <wood>80</wood>
     <xp>600</xp>
   </Loot>
   <Obstruction>

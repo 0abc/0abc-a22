@@ -2,13 +2,24 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>iber</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/iber_cavalry_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>iber/cavalry_spearman</SelectionGroupName>
     <SpecificName>Lantzari</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>iber/promoted/cavalry_spearman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/iberians/cavalry_spearman_b.xml</Actor>
   </VisualActor>

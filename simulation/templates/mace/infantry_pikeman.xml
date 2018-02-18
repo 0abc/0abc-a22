@@ -8,15 +8,26 @@
   </Builder>
   <Identity>
     <Civ>mace</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
+    <GenericName>Foot Companion</GenericName>
     <Icon>units/mace_infantry_pikeman.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>mace/infantry_pikeman</SelectionGroupName>
-    <GenericName>Foot Companion</GenericName>
     <SpecificName>Pezétairos</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>mace/promoted/infantry_pikeman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/macedonians/infantry_spearman_b.xml</Actor>
   </VisualActor>

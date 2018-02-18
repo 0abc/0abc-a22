@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman_mercenary">
+<Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">Italian</Classes>
     <GenericName>Samnite Mercenary Spearman</GenericName>
     <Icon>units/ptol_infantry_spearman_2.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>cart/infantry_spearman_mercenary</SelectionGroupName>
     <SpecificName>Seḫīr Romaḥ</SpecificName>
+    <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/infantry_spearman_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/romans/infantry_spearman_b.xml</Actor>
   </VisualActor>

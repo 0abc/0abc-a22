@@ -3,10 +3,10 @@
   <Attack>
     <Ranged>
       <Bonuses>
-        <Chariotry>
-          <Classes>Chariot</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Chariotry>
+        <Cavalry>
+          <Classes>Cavalry</Classes>
+          <Multiplier>1.25</Multiplier>
+        </Cavalry>
       </Bonuses>
       <MaxRange op="mul">2.0</MaxRange>
       <Pierce>11.0</Pierce>
@@ -23,7 +23,7 @@
   </Health>
   <Identity>
     <GenericName>Camel Javelinist</GenericName>
-    <Tooltip>Counters: 1.5× vs Chariots.</Tooltip>
+    <Tooltip>Counters: 1.25× vs Cavalry.</Tooltip>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
   </Identity>
   <Loot>

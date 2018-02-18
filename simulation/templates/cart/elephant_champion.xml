@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_melee_champion">
+<Entity parent="template_unit_elephant_melee">
   <Identity>
     <Civ>cart</Civ>
     <Classes datatype="tokens">NorthAfricanElephant</Classes>
     <GenericName>North African War Elephant</GenericName>
     <Icon>units/cart_champion_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>cart/elephant_champion</SelectionGroupName>
     <SpecificName>Pil Malḥamit</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/elephant_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/256x256.png</MainTexture>
+        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/carthaginians/champion_unit_2.xml</Actor>
   </VisualActor>

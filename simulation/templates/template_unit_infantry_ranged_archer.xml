@@ -50,7 +50,7 @@ Penalties: 0.5× vs Elephants.</Tooltip>
   </Sound>
   <UnitMotion>
     <Run>
-      <Speed>18</Speed>
+      <Speed>17</Speed>
     </Run>
     <WalkSpeed>10</WalkSpeed>
   </UnitMotion>

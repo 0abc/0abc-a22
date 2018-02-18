@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_lancer_mercenary">
+<Entity parent="template_unit_cavalry_melee_lancer">
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Companion Cavalry</GenericName>
@@ -7,10 +7,12 @@
     <Lang>greek</Lang>
     <SelectionGroupName>sele/cavalry_lancer_mercenary</SelectionGroupName>
     <SpecificName>Hippos Hetairike</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>sele/promoted/cavalry_lancer_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/macedonians/cavalry_spearman_a.xml</Actor>
   </VisualActor>

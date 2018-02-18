@@ -33,6 +33,15 @@
       <silver>1.0</silver>
     </Rates>
   </ResourceTrickle>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>star/256x256.png</MainTexture>
+        <MainTextureMask>star/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <order_walk>actor/singlesteps/steps_grass.xml</order_walk>

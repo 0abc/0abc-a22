@@ -36,8 +36,8 @@
     <VisibleClasses datatype="tokens">Village Blacksmith</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>10</metal>
-    <wood>20</wood>
+    <metal>20</metal>
+    <wood>40</wood>
   </Loot>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>

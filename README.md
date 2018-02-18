@@ -15,7 +15,7 @@
 
 ## Brief overview
 * Dozens of hours of work, thousands of new files, numerous tweaks and minor changes, most of which will probably go unnoticed
-* To make the game slower paced and encourage keeping your units alive, all unit training times are increased by 100% and all technology research times are increased by 50%
+* To make the game slower paced and encourage keeping your units alive, all unit training times and all technology research times are aproximately doubled
 * A new resource: silver (see below)
 * Warships, mercenaries, champions, and several structures consume resources (see below)
 * Heroes and ships require 0 population
@@ -31,7 +31,7 @@
 * Camelry, chariotry, and elephantry are now distinct classes, separate from cavalry; as a consequence, they no longer benefit from cavalry technologies
 * Cavalry, camels, and worker elephants can no longer be trained at the civic centre or crannog
   * females can be trained at houses by default (no longer require a technology to be unlocked)
-* Loot resources are standardized to 10% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
+* Loot resources are standardized to 20% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
 * Loot experience is standardized to be equal to:
   * 100% of resource costs total (soldiers)
   * 50% of resource costs total (siege weapons, war ships)
@@ -54,7 +54,23 @@
 * Conquest critical are:
   * all units except fauna, females, fishing boats, healers, merchant ships, slaves, and traders
   * all military structures, centres, crannogs, fortresses, palaces, and wonders
-* Trade gain now depends on x+x^1.5 (instead of x^2), with x the distance between markets
+* Trade gain now depends on `x+x^1.5` (instead of `x^2`), with `x` the distance between markets
+
+### Selection markers
+* Catafalques and heroes are indicated by a {5/2} star
+* Healers are indicated by a cross
+* Champions are indicated by an arrow
+* Resource gatherers (citizen soldiers, females, and fishing boats) are indicated by a rhombus
+* Traders are indicated by a {8/2} star
+* Other units are indicated by a circle
+
+### Phases
+* Each phase increases centre building time, health, experience, territory influence radius by +20%, and resource trickle rate by +1 silver per 7 seconds
+  * Centres cost by default 500 wood; 25 m and 50 m auras enabled
+  * Village phase increases centre cost by 500 food; 75 m aura enabled
+  * Town phase increases centre cost by 500 stone; 100 m aura enabled
+  * City phase increases centre cost by 500 metal; 125 m aura enabled
+  * Metropolis phase increases centre cost by 500 silver; 150 m aura enabled
 
 ### Silver
 Silver is the new resource number one; it can not be gathered directly, but can be acquired by:
@@ -89,7 +105,6 @@ Silver is the new resource number one; it can not be gathered directly, but can 
     {"value": "Loot/silver",                "add":      6,    "affects": "Elephant Champion"},
 -->
 * looting structures:
-  * centres grant 200 silver
   * libraries grant 100 silver
   * lighthouses grant 60 silver
   * markets grant 30 silver
@@ -168,35 +183,40 @@ And it can currently be used for:
 * 6: quadrigae (four-horsed chariots), war elephants, siege towers
 
 ### Bonus attacks (counters and penalties)
-* Archer infantry: 1.5× vs Archer Cavalry, 0.5× vs Elephantry
-* Sling infantry: 1.5× vs Archer Infantry
-  * Stone slinger: 1.5× vs Archer Infantry, 0.125× vs Siege Weapons, Structures
-* Javelin infantry: 1.25× vs Archer units
-* Throwing axe infantry: 1.5× vs Spear Infantry
-* Axe infantry: 1.5× vs Siege weapons, 2.0× vs Elephantry
-* Mace infantry: 1.5× vs Cataphract Cavalry, 0.125× vs Structures
-* Sword infantry: --
-* Halberd infantry: 2.0× vs Cavalry
-* Spear infantry: 1.5× vs Javelin Cavalry
-* Hoplite infantry: 1.25× vs Cavalry
-* Pike infantry: 1.25× vs Chariotry, 1.5× vs Cavalry, 1.75× vs Camelry, 2.0× vs Elephantry
 * War dogs: 0.75× vs Camelry, Cavalry, Chariotry, 0.5× vs Elephantry
-* Archer camel: 1.5× vs Support units, 0.5× vs Elephantry
-* Spear camel: 1.5× vs Cavalry, 0.5× vs Elephantry
-* Crossbow cavalry: 1.25× vs Cavalry, 0.5× vs Elephantry, 0.125× vs Structures
-* Archer cavalry: 1.5× vs Sword Cavalry, 0.5× vs Elephantry
-* Javelin cavalry: 1.5× vs Chariotry
-* Axe cavalry: 1.5× vs Siege weapons, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Sword cavalry: 1.5× vs Slinger Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Spear cavalry: 1.5× vs Archer Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Lance cavalry: 1.5× vs Javelin Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Infantry crossbowmen: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
+* Infantry archers: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
+* Infantry longbowmen: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
+* Infantry slingers: 1.5× vs Infantry Archers, 0.125× vs Siege Weapons, Structures
+* Infantry javelinists: 1.25× vs all Archer units
+* Infantry axe throwers: 1.5× vs Infantry Spearmen
+* Infantry axemen: 1.5× vs Siege Weapons, 2.0× vs Elephantry
+* Infantry macemen: 1.5× vs Cavalry Cataphracts, 0.125× vs Structures
+* Infantry sabremen: –
+* Infantry swordsmen: –
+* Infantry longswordsmen: –
+* Infantry halberdiers: 2.0× vs Cavalry
+* Infantry spearmen: 1.5× vs Javelin Cavalry
+* Infantry hoplites: 1.25× vs Cavalry
+* Infantry pikemen: 1.25× vs Chariotry, 1.5× vs Cavalry, 1.75× vs Camelry, 2.0× vs Elephantry
+* Camel archers: 1.5× vs Support units, 0.5× vs Elephantry
+* Camel javelinists: 1.25× vs Cavalry
+* Camel spearmen: 1.5× vs Cavalry, 0.5× vs Elephantry
+* Cavalry crossbowmen: 1.25× vs Cavalry, 0.5× vs Elephantry, 0.125× vs Structures
+* Cavalry archers: 1.5× vs Cavalry Swordsmen, 0.5× vs Elephantry
+* Cavalry javelinists: 1.5× vs Chariotry
+* Cavalry axemen: 1.5× vs Siege Weapons, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry sabremen: 1.5× vs Infantry Javelinists, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry swordsmen: 1.5× vs Infantry Slingers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry spearmen: 1.5× vs Infantry Archers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry lancers: 1.25× vs Ranged Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Archer biga chariots: 0.5× vs Elephantry
 * Javelin biga chariots: 0.5× vs Elephantry
 * Three-man biga chariots: 0.5× vs Elephantry
 * Scythed quadriga chariots: 0.5× vs Elephantry
 * Archer war elephants: 1.5× vs Camelry, 0.5× vs Elephantry
 * Melee war elephants: 0.125× vs Structures
-* Scorpion: --
+* Scorpion: –
 * Bolt shooter: 1.5× vs Elephantry
 * Stone thrower: 1.5× vs Ships
 * Battering ram: 8.0× vs Gates, 4.0× vs other Structures
@@ -279,18 +299,18 @@ And it can currently be used for:
   * hoplites have +10% walk speed.
 
 ## Team bonuses
-* Athenian allies: warships construction time
+* Athenian allies: warships −20% construction time
 * Briton allies: units cost −4% metal
-* Carthaginian allies: traders −20% training time and +5% walk speed
-* Gaulish allies: infantry spearmen −20% training time
+* Carthaginian allies: economic structures −20% building time
+* Gaulish allies: military structures −20% building time
 * Iberian allies: infantry javelinists −20% training time
 * Macedonian allies: units cost −4% wood
-* Mauryan allies: healers −25% training time
-* Persian allies: land traders +10% gain
+* Mauryan allies: healers −20% training time, temple technologies −20% research time
+* Persian allies: land and naval traders −20% training time
 * Ptolemaic allies: units cost −4% food
-* Roman allies: infantry swordsmen −20% training time
-* Seleucid allies: civic centres −20% construction time
-* Spartan allies: infantry hoplites −20% training time
+* Roman allies: infantry longswordsmen, sabremen, swordsmen −20% training time
+* Seleucid allies: civic structures −20% building time
+* Spartan allies: infantry hoplites, pikemen, and spearmen −20% training time
 
 
 

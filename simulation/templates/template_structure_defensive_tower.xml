@@ -53,7 +53,7 @@
     <Tooltip>Shoots arrows. Garrison to provide extra defence. Needs the murder holes tech to protect its foot.</Tooltip>
   </Identity>
   <Loot>
-    <wood>10</wood>
+    <wood>20</wood>
     <xp>50</xp>
   </Loot>
   <Obstruction>

@@ -87,7 +87,7 @@
     {
       "Name": "Ashoka's Religious Support",
       "History": "Ashoka the Great sent embassies West to spread knowledge of the Buddha.",
-      "Description": "Healers −25% training time."
+      "Description": "Healers −20% training time, temple technologies −20% research time."
     }
   ],
   "Structures":

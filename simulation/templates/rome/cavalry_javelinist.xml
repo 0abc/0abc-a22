@@ -2,15 +2,25 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>rome</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Italian Allied Cavalry</GenericName>
     <Icon>units/hele_cavalry_javelinist.png</Icon>
     <Lang>latin</Lang>
     <SelectionGroupName>rome/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Eques Socius</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>rome/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/romans/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

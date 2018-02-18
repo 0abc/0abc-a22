@@ -7,15 +7,26 @@
   </Builder>
   <Identity>
     <Civ>athen</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Athenian Hoplite</GenericName>
     <Icon>units/athen_infantry_spearman.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>athen/infantry_hoplite</SelectionGroupName>
     <SpecificName>Hoplítēs Athēnaîos</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>athen/promoted/infantry_hoplite_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/athenians/infantry_spearman_a.xml</Actor>
   </VisualActor>

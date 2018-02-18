@@ -38,9 +38,9 @@
     <VisibleClasses datatype="tokens">DefenseTower</VisibleClasses>
   </Identity>
   <Loot>
-    <food op="add">5</food>
-    <stone op="add">10</stone>
-    <wood op="add">5</wood>
+    <food op="add">10</food>
+    <stone op="add">20</stone>
+    <wood op="add">10</wood>
     <xp op="mul">3.0</xp>
   </Loot>
   <ProductionQueue>

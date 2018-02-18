@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_longswordsman_mercenary">
+<Entity parent="template_unit_infantry_melee_longswordsman">
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Thracian Black Cloak</GenericName>
     <Icon>units/sele_infantry_swordsman.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>athen/infantry_longswordsman_mercenary</SelectionGroupName>
     <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
+    <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>athen/promoted/infantry_longswordsman_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/hellenes/thracian_blackcloak.xml</Actor>
   </VisualActor>

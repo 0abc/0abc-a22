@@ -29,4 +29,13 @@
     <wood>10</wood>
     <xp>300</xp>
   </Loot>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>star/128x128.png</MainTexture>
+        <MainTextureMask>star/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
 </Entity>

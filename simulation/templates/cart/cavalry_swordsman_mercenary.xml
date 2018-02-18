@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_swordsman_mercenary">
+<Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">Celt</Classes>
     <GenericName>Celtic Mercenary Cavalry</GenericName>
     <Icon>units/cart_cavalry_swordsman_2.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>cart/cavalry_swordsman_mercenary</SelectionGroupName>
     <SpecificName>Ḥayyāl Ḥerev Raḫūv</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/cavalry_swordsman_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/celts/cavalry_swordsman_e.xml</Actor>
   </VisualActor>

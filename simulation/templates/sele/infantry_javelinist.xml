@@ -9,16 +9,26 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Arab Javelineer</GenericName>
     <Icon>units/pers_infantry_javelinist.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>sele/infantry_javelinist</SelectionGroupName>
     <SpecificName>Pezakontistès Aravikós</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>sele/promoted/infantry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/persians/infantry_javelinist_b.xml</Actor>
   </VisualActor>

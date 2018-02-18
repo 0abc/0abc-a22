@@ -36,11 +36,11 @@
     <VisibleClasses datatype="tokens">City Palace</VisibleClasses>
   </Identity>
   <Loot>
-    <food>30</food>
-    <metal>30</metal>
+    <food>60</food>
+    <metal>60</metal>
     <silver>150</silver>
-    <stone>60</stone>
-    <wood>30</wood>
+    <stone>120</stone>
+    <wood>60</wood>
   </Loot>
   <ResourceTrickle>
     <Interval>1000</Interval>

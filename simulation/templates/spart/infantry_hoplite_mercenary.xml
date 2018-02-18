@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_hoplite_mercenary">
+<Entity parent="template_unit_infantry_melee_hoplite">
   <Identity>
     <Civ>spart</Civ>
     <Classes datatype="tokens">Greek</Classes>
@@ -7,10 +7,12 @@
     <Icon>units/samnite_spearman.png</Icon>
     <SelectionGroupName>spart/infantry_hoplite_mercenary</SelectionGroupName>
     <SpecificName>Hoplítēs Hellenikós</SpecificName>
+    <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>spart/promoted/infantry_hoplite_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/spartans/infantry_spearman_a.xml</Actor>
   </VisualActor>

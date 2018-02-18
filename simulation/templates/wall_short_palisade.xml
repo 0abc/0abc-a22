@@ -13,7 +13,7 @@
     <Max op="mul">0.25</Max>
   </Health>
   <Loot>
-    <wood>1</wood>
+    <wood>2</wood>
   </Loot>
   <Obstruction>
     <Static width="4.5" depth="2.0"/>

@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_hoplite_mercenary">
+<Entity parent="template_unit_infantry_melee_hoplite">
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Greek</Classes>
     <GenericName>Greek Mercenary Hoplite</GenericName>
     <Icon>units/hele_merc_hoplite.png</Icon>
-    <SelectionGroupName>units/pers_mercenary_hoplite_infantry</SelectionGroupName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>pers/infantry_hoplite_mercenary</SelectionGroupName>
     <SpecificName>Hoplítēs Hellenikós</SpecificName>
+    <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/pers/mercenary_hoplite_infantry_1</Entity>
+    <Entity>pers/promoted/infantry_hoplite_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/spartans/infantry_spearman_a.xml</Actor>
   </VisualActor>

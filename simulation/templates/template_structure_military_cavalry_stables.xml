@@ -7,7 +7,6 @@
     <BuildTime op="mul">2.0</BuildTime>
     <Resources>
       <food>100</food>
-      <metal>0</metal>
       <stone>100</stone>
       <wood>200</wood>
     </Resources>
@@ -31,9 +30,9 @@
     <VisibleClasses datatype="tokens">Village CavalryStables</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <stone>10</stone>
-    <wood>20</wood>
+    <food>20</food>
+    <stone>20</stone>
+    <wood>40</wood>
   </Loot>
   <Obstruction>
     <Static width="18.0" depth="16.0"/>

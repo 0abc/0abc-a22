@@ -56,6 +56,6 @@
     <Run>
       <Speed>16</Speed>
     </Run>
-    <WalkSpeed>8</WalkSpeed>
+    <WalkSpeed>9</WalkSpeed>
   </UnitMotion>
 </Entity>

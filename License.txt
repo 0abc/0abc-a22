@@ -6,7 +6,11 @@ any part(s) of it (or everything) in any way you like.
   0 A.D.'s original license can be found at:
 https://trac.wildfiregames.com/browser/ps/trunk/LICENSE.txt
 
-  This mod also includes several new visual actors, created by:
+  Icons:
+wowgetoffyourcellphone:
+  art/textures/ui/session/portraits/sling_bullets.png
+
+  Visual actors:
 Alexandermb: 
   Athenian/Macedonian/Seleucid lithobolos (packed and unpacked)
   Athenian/Macedonian/Spartan oxybeles (packed and unpacked)

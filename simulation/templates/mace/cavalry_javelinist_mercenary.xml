@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_javelinist_mercenary">
+<Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Odrysian Skirmish Cavalry</GenericName>
     <Icon>units/mace_cavalry_javelinist.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>mace/cavalry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>Hippakontistḕs Odrysós</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>mace/promoted/cavalry_javelinist_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/macedonians/cavalry_javelinist_a.xml</Actor>
   </VisualActor>

@@ -57,11 +57,11 @@
     <VisibleClasses datatype="tokens">City Wonder</VisibleClasses>
   </Identity>
   <Loot>
-    <food>100</food>
-    <metal>100</metal>
+    <food>200</food>
+    <metal>200</metal>
     <silver>400</silver>
-    <stone>100</stone>
-    <wood>100</wood>
+    <stone>200</stone>
+    <wood>200</wood>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>

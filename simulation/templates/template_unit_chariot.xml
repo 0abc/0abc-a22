@@ -23,14 +23,14 @@
     <Max op="mul">2.0</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Human Organic Horse Mounted</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <Formations datatype="tokens">
       formations/wedge
     </Formations>
     <GenericName>Chariot Unit</GenericName>
     <Rank>0</Rank>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Soldier Citizen Chariot</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Chariot</VisibleClasses>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>

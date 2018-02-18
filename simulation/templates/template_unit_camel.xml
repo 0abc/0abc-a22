@@ -32,13 +32,13 @@
     <Max op="mul">0.9</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Human Organic Mounted</Classes>
+    <Classes datatype="tokens">Human Organic</Classes>
     <Formations datatype="tokens">
       formations/wedge
     </Formations>
     <GenericName>Camel Soldier</GenericName>
     <Rank>0</Rank>
-    <VisibleClasses datatype="tokens">Soldier Citizen Camel</VisibleClasses>
+    <VisibleClasses datatype="tokens">Soldier Camel</VisibleClasses>
   </Identity>
   <Loot>
     <food>8</food>

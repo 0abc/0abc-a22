@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_slinger_mercenary">
+<Entity parent="template_unit_infantry_ranged_slinger">
   <Identity>
     <Civ>cart</Civ>
     <GenericName>Balearic Slinger</GenericName>
     <Icon>units/cart_infantry_slinger.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>cart/infantry_slinger_mercenary</SelectionGroupName>
     <SpecificName>Qallāʿ Ibušimi</SpecificName>
+    <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/infantry_slinger_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/carthaginians/infantry_slinger_e.xml</Actor>
   </VisualActor>

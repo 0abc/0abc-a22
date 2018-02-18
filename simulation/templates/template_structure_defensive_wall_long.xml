@@ -44,8 +44,8 @@
     <Tooltip>Long wall segments can be converted to gates.</Tooltip>
   </Identity>
   <Loot>
-    <stone>14</stone>
-    <wood>5</wood>
+    <stone>27</stone>
+    <wood>9</wood>
   </Loot>
   <ProductionQueue disable=""/>
   <Upgrade>

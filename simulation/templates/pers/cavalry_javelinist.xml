@@ -2,15 +2,25 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>pers</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/pers_cavalry_javelinist.png</Icon>
     <GenericName>Median Light Cavalry</GenericName>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <SelectionGroupName>units/pers_citizen_javelin_cavalry</SelectionGroupName>
+    <SelectionGroupName>pers/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Mada Asabara</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/pers/citizen_javelin_cavalry_1</Entity>
+    <Entity>pers/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/persians/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

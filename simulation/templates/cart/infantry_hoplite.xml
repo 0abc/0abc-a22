@@ -8,14 +8,25 @@
   </Builder>
   <Identity>
     <Civ>cart</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Libyan Spearman</GenericName>
     <Icon>units/cart_infantry_spearman.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>cart/infantry_hoplite</SelectionGroupName>
     <SpecificName>Sǝḫīr Ḥanīt</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/infantry_hoplite_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/carthaginians/infantry_spearman_a.xml</Actor>
   </VisualActor>

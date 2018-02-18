@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_javelinist_mercenary">
+<Entity parent="template_unit_infantry_ranged_javelinist">
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Mercenary Thureos Skirmisher</GenericName>
     <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
     <SelectionGroupName>ptol/infantry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>Thureophóros Akrobolistḗs</SpecificName>
+    <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>ptol/promoted/infantry_javelinist_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/ptolemies/infantry_javelinist_e.xml</Actor>
   </VisualActor>

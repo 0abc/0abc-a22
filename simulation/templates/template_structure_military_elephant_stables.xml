@@ -7,9 +7,9 @@
     <BuildTime op="mul">3.0</BuildTime>
     <Resources>
       <food>150</food>
-      <wood>150</wood>
-      <stone>100</stone>
       <metal>100</metal>
+      <stone>100</stone>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -31,10 +31,10 @@
     <VisibleClasses datatype="tokens">City ElephantStables</VisibleClasses>
   </Identity>
   <Loot>
-    <food>15</food>
-    <wood>15</wood>
-    <stone>10</stone>
-    <metal>10</metal>
+    <food>30</food>
+    <metal>20</metal>
+    <stone>20</stone>
+    <wood>30</wood>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="29.0"/>

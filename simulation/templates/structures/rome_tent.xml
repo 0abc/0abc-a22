@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <BuildRestrictions>
+    <Territory>own neutral enemy</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="11.0" depth="11.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>200</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Tent</GenericName>
+    <Icon>structures/house.png</Icon>
+    <SpecificName>Tabernāculum</SpecificName>
+    <Tooltip>A temporary shelter for soldiers.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>5</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="8.0" depth="8.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_universal.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_universal.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+  <TerritoryDecay>
+    <DecayRate>1</DecayRate>
+  </TerritoryDecay>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>props/structures/romans/rome_tent.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>
+

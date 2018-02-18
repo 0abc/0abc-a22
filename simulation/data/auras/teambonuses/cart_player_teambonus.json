@@ -1,11 +1,10 @@
 {
-  "affects": ["LandTrader"],
+  "affects": ["Economic Structure"],
   "affectedPlayers": ["ExclusiveMutualAlly"],
-  "auraDescription": "−20% training time and +5% walk speed bonus for ally's land traders.",
+  "auraDescription": "Ally's economic structures −20% construction time.",
   "auraName": "Trademasters",
   "modifications": [
-    {"value": "Cost/BuildTime", "add": 0.8},
-    {"value": "UnitMotion/WalkSpeed", "multiply": 1.05}
+    {"value": "Cost/BuildTime", "multiply": 0.8}
   ],
   "stackable": true,
   "type": "global"

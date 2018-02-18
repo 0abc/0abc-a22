@@ -23,7 +23,7 @@
     <Tooltip>Allow units access through a palisade. Can be locked to prevent access.</Tooltip>
   </Identity>
   <Loot>
-    <wood>4</wood>
+    <wood>8</wood>
   </Loot>
   <Obstruction>
     <Obstructions>

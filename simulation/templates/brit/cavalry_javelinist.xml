@@ -2,15 +2,24 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>brit</Civ>
-    <GenericName>Raiding Cavalry</GenericName>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/celt_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>brit/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Gaisaredos</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>brit/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/celts/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

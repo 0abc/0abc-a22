@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_camel_ranged_archer_mercenary">
+<Entity parent="template_unit_camel_ranged_archer">
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Nabatean Camel Archer</GenericName>
@@ -7,10 +7,12 @@
     <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>ptol/camel_archer_mercenary</SelectionGroupName>
     <SpecificName>Mutsābiq Gamal Nabatu</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>ptol/promoted/camel_archer_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/ptolemies/cavalry_archer_b.xml</Actor>
   </VisualActor>

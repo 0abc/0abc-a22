@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_javelinist_champion">
+<Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>iber</Civ>
     <Icon>units/iber_champion_cavalry.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>iber/cavalry_javelinist</SelectionGroupName>
     <SpecificName>Leial Zalduneria</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>iber/promoted/cavalry_javelinist_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/256x256.png</MainTexture>
+        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/iberians/champion_unit_2.xml</Actor>
   </VisualActor>

@@ -39,10 +39,11 @@
     <VisibleClasses datatype="tokens">City Theatre</VisibleClasses>
   </Identity>
   <Loot>
-    <food>40</food>
-    <metal>40</metal>
-    <stone>80</stone>
-    <wood>40</wood>
+    <food>80</food>
+    <metal>80</metal>
+    <silver>200</silver>
+    <stone>160</stone>
+    <wood>80</wood>
   </Loot>
   <Obstruction>
     <Static width="46.0" depth="46.0"/>

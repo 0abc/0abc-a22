@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_stoneslinger">
+<Entity parent="template_unit_infantry_ranged_slinger">
   <Builder>
     <Entities datatype="tokens">
       -{civ}/structure_shipyard
@@ -8,15 +8,24 @@
   </Builder>
   <Identity>
     <Civ>gaul</Civ>
-    <GenericName>Celtic Slinger</GenericName>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/celt_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>gaul/infantry_slinger</SelectionGroupName>
     <SpecificName>Iaosae</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>gaul/promoted/infantry_slinger_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/celts/infantry_slinger_e.xml</Actor>
   </VisualActor>

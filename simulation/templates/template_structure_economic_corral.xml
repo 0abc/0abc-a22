@@ -31,7 +31,7 @@
     <VisibleClasses datatype="tokens">Village Corral</VisibleClasses>
   </Identity>
   <Loot>
-    <wood>10</wood>
+    <wood>20</wood>
   </Loot>
   <Obstruction>
     <Static width="9.5" depth="19.75"/>

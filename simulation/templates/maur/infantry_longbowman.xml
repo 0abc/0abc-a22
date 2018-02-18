@@ -11,14 +11,24 @@
   </Builder>
   <Identity>
     <Civ>maur</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Longbowman</GenericName>
     <Icon>units/maur_infantry_archer.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>maur/infantry_longbowman</SelectionGroupName>
     <SpecificName>Dhanurdhar</SpecificName>
   </Identity>
   <Promotion>
     <Entity>maur/promoted/infantry_longbowman_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/mauryans/infantry_archer_b.xml</Actor>
   </VisualActor>

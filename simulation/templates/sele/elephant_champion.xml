@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_elephant_melee_champion">
+<Entity parent="template_unit_elephant_melee">
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Armoured War Elephant</GenericName>
@@ -12,6 +12,15 @@
   <Promotion>
     <Entity>sele/promoted/elephant_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/256x256.png</MainTexture>
+        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/seleucids/champion_elephant.xml</Actor>
   </VisualActor>

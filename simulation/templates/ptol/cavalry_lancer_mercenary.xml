@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_lancer_mercenary">
+<Entity parent="template_unit_cavalry_melee_lancer">
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Macedonian Settler Cavalry</GenericName>
     <Icon>units/sele_cavalry_spearman.png</Icon>
     <SelectionGroupName>ptol/cavalry_lancer_mercenary</SelectionGroupName>
     <SpecificName>Hippeús Makedonikós</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>ptol/promoted/cavalry_lancer_mercenary_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/ptolemies/cavalry_spearman_e.xml</Actor>
   </VisualActor>

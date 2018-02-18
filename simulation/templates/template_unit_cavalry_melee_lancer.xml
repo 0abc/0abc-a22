@@ -8,8 +8,8 @@
     <Melee>
       <Bonuses>
         <Infantry>
-          <Classes>Infantry Javelinist</Classes>
-          <Multiplier>1.5</Multiplier>
+          <Classes>Infantry Ranged</Classes>
+          <Multiplier>1.25</Multiplier>
         </Infantry>
       </Bonuses>      
       <Crush>1.0</Crush>
@@ -27,7 +27,7 @@
   </Health>
   <Identity>
     <GenericName>Cavalry Lancer</GenericName>
-    <Tooltip>Counters: 1.5× vs Infantry Javelinists.
+    <Tooltip>Counters: 1.25× vs Ranged Infantry.
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Lancer</VisibleClasses>
   </Identity>

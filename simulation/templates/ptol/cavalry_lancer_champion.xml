@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_lancer_champion">
+<Entity parent="template_unit_cavalry_melee_lancer">
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Royal Guard Cavalry</GenericName>
     <Icon>units/ptol_champion_cavalry.png</Icon>
     <SelectionGroupName>ptol/cavalry_lancer_champion</SelectionGroupName>
     <SpecificName>Ágēma Basiléōs</SpecificName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>ptol/promoted/cavalry_lancer_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/256x256.png</MainTexture>
+        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/ptolemies/champion_cavalry.xml</Actor>
   </VisualActor>

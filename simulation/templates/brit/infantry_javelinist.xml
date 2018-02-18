@@ -11,14 +11,24 @@
   </Builder>
   <Identity>
     <Civ>brit</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <Icon>units/celt_infantry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>brit/infantry_javelinist</SelectionGroupName>
     <SpecificName>Baguada</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>brit/promoted/infantry_javelinist_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/celts/infantry_javelinist_b.xml</Actor>
   </VisualActor>

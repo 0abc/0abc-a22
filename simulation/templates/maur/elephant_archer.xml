@@ -2,15 +2,24 @@
 <Entity parent="template_unit_elephant_archer">
   <Identity>
     <Civ>maur</Civ>
-    <Classes datatype="tokens">Longbow</Classes>
+    <Classes datatype="tokens">CitizenSoldier Longbow</Classes>
     <Icon>units/maur_archer_elephant.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>maur/elephant_archer</SelectionGroupName>
     <SpecificName>Vachii Gaja</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>maur/promoted/elephant_archer_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/256x256.png</MainTexture>
+        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/mauryans/elephant_archer_b.xml</Actor>
   </VisualActor>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman_champion">
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder disable=""/>
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Athenian Marine</GenericName>
@@ -8,10 +9,20 @@
     <RequiredTechnology>special/iphicratean_reforms</RequiredTechnology>
     <SelectionGroupName>athen/infantry_swordsman_champion</SelectionGroupName>
     <SpecificName>Epibátēs Athēnaîos</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>athen/promoted/infantry_swordsman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/athenians/champion_unit_marine.xml</Actor>
   </VisualActor>

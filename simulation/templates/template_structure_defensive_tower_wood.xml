@@ -30,8 +30,8 @@
     <VisibleClasses datatype="tokens">WoodenTower</VisibleClasses>
   </Identity>
   <Loot>
-    <food op="add">5</food>
-    <wood op="add">5</wood>
+    <food op="add">10</food>
+    <wood op="add">10</wood>
     <xp op="mul">2.5</xp>
   </Loot>
   <ProductionQueue>

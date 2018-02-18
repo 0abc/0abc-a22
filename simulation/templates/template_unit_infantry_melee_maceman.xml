@@ -8,10 +8,6 @@
   <Attack>
     <Melee>
       <Bonuses>
-        <Building>
-          <Classes>Structure</Classes>
-          <Multiplier>0.125</Multiplier>
-        </Building>
         <Cataphract>
           <Classes>Cataphract</Classes>
           <Multiplier>1.5</Multiplier>
@@ -20,6 +16,10 @@
           <Classes>Hoplite</Classes>
           <Multiplier>1.5</Multiplier>
         </Hoplite>
+        <Structure>
+          <Classes>Structure</Classes>
+          <Multiplier>0.125</Multiplier>
+        </Structure>
       </Bonuses>
       <Crush>6.0</Crush>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>

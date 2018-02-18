@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_pikeman_champion">
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Builder disable=""/>
   <Identity>
     <Civ>ptol</Civ>
     <GenericName>Royal Guard Infantry</GenericName>
@@ -7,10 +8,20 @@
     <Lang>greek</Lang>
     <SelectionGroupName>ptol/infantry_pikeman_champion</SelectionGroupName>
     <SpecificName>Phalangitès Agema</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>ptol/promoted/infantry_pikeman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/ptolemies/champion_infantry.xml</Actor>
   </VisualActor>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_chariot_biga_archer_champion">
+<Entity parent="template_unit_chariot_biga_archer">
   <Footprint replace="">
     <Square width="5.5" depth="10.0"/>
     <Height>5.0</Height>
@@ -8,12 +8,23 @@
     <Civ>maur</Civ>
     <GenericName>War Chariot</GenericName>
     <Icon>units/maur_champion_chariot.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Rath</SpecificName>
-    <SelectionGroupName>maure/chariot_archer_champion</SelectionGroupName>
+    <SelectionGroupName>maur/chariot_archer_champion</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>maur/promoted/chariot_archer_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/256x256.png</MainTexture>
+        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/mauryans/chariot_a.xml</Actor>
   </VisualActor>

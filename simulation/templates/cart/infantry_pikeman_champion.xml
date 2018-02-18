@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_pikeman_champion">
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Builder disable=""/>
   <Identity>
     <Civ>cart</Civ>
     <GenericName>Sacred Band Pikeman</GenericName>
@@ -7,10 +8,20 @@
     <RequiredTechnology>special/unlock_unavailable</RequiredTechnology>
     <SelectionGroupName>cart/infantry_pikeman_champion</SelectionGroupName>
     <SpecificName>Mašal</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/infantry_pikeman_champion_1</Entity>
   </Promotion>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/carthaginians/champion_unit_1.xml</Actor>
   </VisualActor>

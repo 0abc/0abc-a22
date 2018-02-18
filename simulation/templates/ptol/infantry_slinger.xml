@@ -10,14 +10,24 @@
   </Builder>
   <Identity>
     <Civ>ptol</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
     <GenericName>Judean Slinger</GenericName>
     <Icon>units/athen_infantry_slinger.png</Icon>
     <SelectionGroupName>ptol/infantry_slinger</SelectionGroupName>
     <SpecificName>Hebraikós Sphendonḗtēs</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>ptol/promoted/infantry_slinger_1</Entity>
   </Promotion>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/iberians/infantry_slinger_b.xml</Actor>
   </VisualActor>

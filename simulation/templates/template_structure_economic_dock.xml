@@ -32,8 +32,8 @@
     <VisibleClasses datatype="tokens">Village Market Dock</VisibleClasses>
   </Identity>
   <Loot>
-    <food>5</food>
-    <wood>20</wood>
+    <food>10</food>
+    <wood>40</wood>
   </Loot>
   <Market>
     <InternationalBonus>0.2</InternationalBonus>

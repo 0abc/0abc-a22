@@ -59,6 +59,14 @@
       <treasure disable=""/>
     </Rates>
   </ResourceGatherer>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>rhombus/128x128.png</MainTexture>
+        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <build>resource/construction/con_wood.xml</build>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Builder>
+    <Entities datatype="tokens">
+      ptol/structure_elephant_stables
+      ptol/structure_library
+      ptol/structure_lighthouse
+      ptol/structure_theatre
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>ptol</Civ>
+    <GenericName>Egyptian Pikeman</GenericName>
+    <Icon>units/ptol_infantry_spearman.png</Icon>
+    <SelectionGroupName>ptol/infantry_pikeman</SelectionGroupName>
+    <SpecificName>Phalaggomákhimos</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>ptol/promoted/infantry_pikeman_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/ptolemies/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

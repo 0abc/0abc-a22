@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="ptol/infantry_pikeman_champion">
+  <Identity>
+    <Rank>1</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>ptol/promoted/infantry_pikeman_champion_2</Entity>
+  </Promotion>
+</Entity>

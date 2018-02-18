@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/ptol/citizen_sling_infantry_6">
-  <Identity>
-    <Rank>7</Rank>
-  </Identity>
-  <Promotion>
-    <Entity>units/ptol/citizen_sling_infantry_8</Entity>
-  </Promotion>
-</Entity>

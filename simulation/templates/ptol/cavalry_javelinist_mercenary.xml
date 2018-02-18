@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist_mercenary">
+  <Identity>
+    <Civ>ptol</Civ>
+    <GenericName>Tarantine Settler Cavalry</GenericName>
+    <Icon>units/cart_cavalry_javelinist_2.png</Icon>
+    <SelectionGroupName>ptol/cavalry_javelinist_mercenary</SelectionGroupName>
+    <SpecificName>Hippeús Tarantînos</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>ptol/promoted/cavalry_javelinist_mercenary_1</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_javelinist_e.xml</Actor>
+  </VisualActor>
+</Entity>

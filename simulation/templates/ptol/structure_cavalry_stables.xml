@@ -5,7 +5,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      {civ}/camel_archer
+      {civ}/camel_archer_mercenary
     </Entities>
     <Technologies datatype="tokens">
       drill_camelry_1

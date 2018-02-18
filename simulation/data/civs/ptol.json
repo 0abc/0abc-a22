@@ -118,22 +118,22 @@
   "StartEntities":
   [
     {
-      "Template": "structures/ptol_civil_centre"
+      "Template": "ptol/structure_civil_centre"
     },
     {
-      "Template": "units/ptol_support_female",
+      "Template": "ptol/support_female",
       "Count": 5
     },
     {
-      "Template": "units/ptol_citizen_pike_infantry",
+      "Template": "ptol/infantry_pikeman",
       "Count": 3
     },
     {
-      "Template": "units/ptol_citizen_sling_infantry",
+      "Template": "ptol/infantry_slinger",
       "Count": 2
     },
     {
-      "Template": "units/ptol_citizen_archer_camel",
+      "Template": "ptol/camel_archer_mercenary",
       "Count": 1
     }
   ],
@@ -176,10 +176,10 @@
   ],
   "SkirmishReplacements":
   {
-    "skirmish/structures/default_house_5": "structures/pers_house",
-    "skirmish/units/default_cavalry": "units/ptol_citizen_archer_camel",
-    "skirmish/units/default_infantry_melee_b": "units/ptol_citizen_pike_infantry",
-    "skirmish/units/default_infantry_ranged_b": "units/ptol_citizen_sling_infantry"
+    "skirmish/structures/default_house_5": "ptol/structure_house",
+    "skirmish/units/default_cavalry": "ptol/camel_archer_mercenary",
+    "skirmish/units/default_infantry_melee_b": "ptol/infantry_pikeman",
+    "skirmish/units/default_infantry_ranged_b": "ptol/infantry_slinger"
   },
   "SelectableInGameSetup": true
 }

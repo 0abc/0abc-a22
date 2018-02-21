@@ -77,7 +77,7 @@ m.Template = m.Class({
     if (techRequired === "phase_city")
       return 3;
     if (techRequired === "phase_metropolis")
-      return 3;
+      return 4;
     return 0;
   },
 

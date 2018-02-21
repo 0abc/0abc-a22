@@ -486,7 +486,7 @@ m.HQ.prototype.trainMoreWorkers = function(gameState, queues)
     return;
 
   // Choose whether we want soldiers or support units.
-  let supportRatio = gameState.isTemplateDisabled(gameState.applyCiv("structures/{civ}_field")) ? Math.min(this.supportRatio, 0.1) : this.supportRatio;
+  let supportRatio = gameState.isTemplateDisabled(gameState.applyCiv("{civ}/structure_field")) ? Math.min(this.supportRatio, 0.1) : this.supportRatio;
   let supportMax = supportRatio * this.targetNumWorkers;
   let supportNum = supportMax * Math.atan(numberTotal/supportMax) / 1.570796;
 
@@ -1281,15 +1281,15 @@ m.HQ.prototype.buildTemple = function(gameState, queues)
       if (gameState.getOwnStructures().filter(API3.Filters.byClass(entityReq.class)).length >= entityReq.count)
         return;
   }
-  if (!this.canBuild(gameState, "structures/{civ}_temple"))
+  if (!this.canBuild(gameState, "{civ}/structure_temple"))
     return;
-  queues.economicBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_temple"));
+  queues.economicBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_temple"));
 };
 
 m.HQ.prototype.buildMarket = function(gameState, queues)
 {
   if (gameState.getOwnEntitiesByClass("BarterMarket", true).hasEntities() ||
-    !this.canBuild(gameState, "structures/{civ}_market"))
+    !this.canBuild(gameState, "{civ}/structure_market"))
     return;
 
   if (queues.economicBuilding.hasQueuedUnitsWithClass("BarterMarket"))
@@ -1318,7 +1318,7 @@ m.HQ.prototype.buildMarket = function(gameState, queues)
     return;
 
   gameState.ai.queueManager.changePriority("economicBuilding", 3*this.Config.priorities.economicBuilding);
-  let plan = new m.ConstructionPlan(gameState, "structures/{civ}_market");
+  let plan = new m.ConstructionPlan(gameState, "{civ}/structure_market");
   plan.queueToReset = "economicBuilding";
   queues.economicBuilding.addPlan(plan);
 };
@@ -1336,10 +1336,10 @@ m.HQ.prototype.buildFarmstead = function(gameState, queues)
     return;
   if (queues.economicBuilding.hasQueuedUnitsWithClass("DropsiteFood"))
     return;
-  if (!this.canBuild(gameState, "structures/{civ}_farmstead"))
+  if (!this.canBuild(gameState, "{civ}/structure_farmstead"))
     return;
 
-  queues.economicBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_farmstead"));
+  queues.economicBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_farmstead"));
 };
 
 /** Build a corral, and train animals there */
@@ -1350,12 +1350,12 @@ m.HQ.prototype.manageCorral = function(gameState, queues)
 
   let nCorral = gameState.getOwnEntitiesByClass("Corral", true).length;
   if (nCorral === 0 ||
-    (gameState.isTemplateDisabled(gameState.applyCiv("structures/{civ}_field")) &&
+    (gameState.isTemplateDisabled(gameState.applyCiv("{civ}/structure_field")) &&
      nCorral < gameState.currentPhase() && gameState.getPopulation() > 30*nCorral))
   {
-    if (this.canBuild(gameState, "structures/{civ}_corral"))
+    if (this.canBuild(gameState, "{civ}/structure_corral"))
     {
-      queues.corral.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_corral"));
+      queues.corral.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_corral"));
       return;
     }
     if (nCorral === 0) return;
@@ -1397,7 +1397,7 @@ m.HQ.prototype.buildMoreHouses = function(gameState, queues)
   let numPlanned = queues.house.length();
   if (numPlanned < 3 || (numPlanned < 5 && gameState.getPopulation() > 80))
   {
-    let plan = new m.ConstructionPlan(gameState, "structures/{civ}_house");
+    let plan = new m.ConstructionPlan(gameState, "{civ}/structure_house");
     // change the starting condition according to the situation.
     plan.goRequirement = "houseNeeded";
     queues.house.addPlan(plan);
@@ -1405,7 +1405,7 @@ m.HQ.prototype.buildMoreHouses = function(gameState, queues)
 
   if (numPlanned > 0 && this.econState == "townPhasing" && gameState.getPhaseEntityRequirements(2).length)
   {
-    let houseTemplateName = gameState.applyCiv("structures/{civ}_house");
+    let houseTemplateName = gameState.applyCiv("{civ}/structure_house");
     let houseTemplate = gameState.getTemplate(houseTemplateName);
 
     let needed = 0;
@@ -1438,7 +1438,7 @@ m.HQ.prototype.buildMoreHouses = function(gameState, queues)
 
   if (this.requireHouses)
   {
-    let houseTemplate = gameState.getTemplate(gameState.applyCiv("structures/{civ}_house"));
+    let houseTemplate = gameState.getTemplate(gameState.applyCiv("{civ}/structure_house"));
       if (gameState.getPhaseEntityRequirements(2).every(req =>
         !houseTemplate.hasClass(req.class) || gameState.getOwnStructures().filter(API3.Filters.byClass(req.class)).length >= req.count))
         this.requireHouses = undefined;
@@ -1447,7 +1447,7 @@ m.HQ.prototype.buildMoreHouses = function(gameState, queues)
   // When population limit too tight
   //    - if no room to build, try to improve with technology
   //    - otherwise increase temporarily the priority of houses
-  let house = gameState.applyCiv("structures/{civ}_house");
+  let house = gameState.applyCiv("{civ}/structure_house");
   let HouseNb = gameState.getOwnFoundations().filter(API3.Filters.byClass("House")).length;
   let popBonus = gameState.getTemplate(house).getPopulationBonus();
   let freeSlots = gameState.getPopulationLimit() + HouseNb*popBonus - gameState.getPopulation();
@@ -1523,17 +1523,17 @@ m.HQ.prototype.buildNewBase = function(gameState, queues, resource)
   let hasOwnCC = false;
   for (let ent of gameState.updatingGlobalCollection("allCCs", API3.Filters.byClass("CivCentre")).values())
   {
-    if (ent.owner() !== PlayerID || ent.templateName() !== gameState.applyCiv("structures/{civ}_civil_centre"))
+    if (ent.owner() !== PlayerID || ent.templateName() !== gameState.applyCiv("{civ}/structure_civil_centre"))
       continue;
     hasOwnCC = true;
     break;
   }
-  if (hasOwnCC && this.canBuild(gameState, "structures/{civ}_military_colony"))
-    template = "structures/{civ}_military_colony";
-  else if (this.canBuild(gameState, "structures/{civ}_civil_centre"))
-    template = "structures/{civ}_civil_centre";
-  else if (!hasOwnCC && this.canBuild(gameState, "structures/{civ}_military_colony"))
-    template = "structures/{civ}_military_colony";
+  if (hasOwnCC && this.canBuild(gameState, "{civ}/structure_military_colony"))
+    template = "{civ}/structure_military_colony";
+  else if (this.canBuild(gameState, "{civ}/structure_civil_centre"))
+    template = "{civ}/structure_civil_centre";
+  else if (!hasOwnCC && this.canBuild(gameState, "{civ}/structure_military_colony"))
+    template = "{civ}/structure_military_colony";
   else
     return false;
 
@@ -1553,7 +1553,7 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
   if (!this.saveResources && (gameState.currentPhase() > 2 || gameState.isResearching(gameState.cityPhase())))
   {
     // try to build fortresses
-    if (this.canBuild(gameState, "structures/{civ}_fortress"))
+    if (this.canBuild(gameState, "{civ}/structure_fortress"))
     {
       let numFortresses = gameState.getOwnEntitiesByClass("Fortress", true).length;
       if ((!numFortresses || gameState.ai.elapsedTime > (1 + 0.10*numFortresses)*this.fortressLapseTime + this.fortressStartTime) &&
@@ -1563,7 +1563,7 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
         this.fortressStartTime = gameState.ai.elapsedTime;
         if (!numFortresses)
           gameState.ai.queueManager.changePriority("defenseBuilding", 2*this.Config.priorities.defenseBuilding);
-        let plan = new m.ConstructionPlan(gameState, "structures/{civ}_fortress");
+        let plan = new m.ConstructionPlan(gameState, "{civ}/structure_fortress");
         plan.queueToReset = "defenseBuilding";
         queues.defenseBuilding.addPlan(plan);
         return;
@@ -1571,19 +1571,19 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
     }
   }
 
-  if (this.Config.Military.numSentryTowers && gameState.currentPhase() < 2 && this.canBuild(gameState, "structures/{civ}_sentry_tower"))
+  if (this.Config.Military.numSentryTowers && gameState.currentPhase() < 2 && this.canBuild(gameState, "{civ}/structure_sentry_tower"))
   {
     let numTowers = gameState.getOwnEntitiesByClass("Tower", true).length;  // we count all towers, including wall towers
     let towerLapseTime = this.saveResource ? (1 + 0.5*numTowers) * this.towerLapseTime : this.towerLapseTime;
     if (numTowers < this.Config.Military.numSentryTowers && gameState.ai.elapsedTime > towerLapseTime + this.fortStartTime)
     {
       this.fortStartTime = gameState.ai.elapsedTime;
-      queues.defenseBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_sentry_tower"));
+      queues.defenseBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_sentry_tower"));
     }
     return;
   }
 
-  if (gameState.currentPhase() < 2 || !this.canBuild(gameState, "structures/{civ}_defense_tower"))
+  if (gameState.currentPhase() < 2 || !this.canBuild(gameState, "{civ}/structure_defense_tower"))
     return;
 
   let numTowers = gameState.getOwnEntitiesByClass("DefenseTower", true).filter(API3.Filters.byClass("Town")).length;
@@ -1595,7 +1595,7 @@ m.HQ.prototype.buildDefenses = function(gameState, queues)
     this.towerStartTime = gameState.ai.elapsedTime;
     if (numTowers > 2 * this.numActiveBase() + 3)
       gameState.ai.queueManager.changePriority("defenseBuilding", Math.round(0.7*this.Config.priorities.defenseBuilding));
-    let plan = new m.ConstructionPlan(gameState, "structures/{civ}_defense_tower");
+    let plan = new m.ConstructionPlan(gameState, "{civ}/structure_defense_tower");
     plan.queueToReset = "defenseBuilding";
     queues.defenseBuilding.addPlan(plan);
   }
@@ -1610,8 +1610,8 @@ m.HQ.prototype.buildBlacksmith = function(gameState, queues)
   if (!gameState.getOwnEntitiesByClass("BarterMarket", true).hasEntities())
     return;
 
-  if (this.canBuild(gameState, "structures/{civ}_blacksmith"))
-    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_blacksmith"));
+  if (this.canBuild(gameState, "{civ}/structure_blacksmith"))
+    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_blacksmith"));
 };
 
 /**
@@ -1623,8 +1623,8 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
   if ((this.saveResources && !this.canBarter) || queues.militaryBuilding.hasQueuedUnits())
     return;
 
-  let numBarracks = this.canBuild(gameState, "structures/{civ}_barracks") ? gameState.getOwnEntitiesByClass("Barracks", true).length : -1;
-  let numStables = this.canBuild(gameState, "structures/{civ}_cavalry_stables") ? gameState.getOwnEntitiesByClass("CavalryStables", true).length : -1;
+  let numBarracks = this.canBuild(gameState, "{civ}/structure_barracks") ? gameState.getOwnEntitiesByClass("Barracks", true).length : -1;
+  let numStables = this.canBuild(gameState, "{civ}/structure_cavalry_stables") ? gameState.getOwnEntitiesByClass("CavalryStables", true).length : -1;
     if (this.saveResources && numBarracks != 0)
       return;
     if (gameState.getPopulation() > this.Config.Military.popForBarracks1 ||
@@ -1634,37 +1634,37 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
       if (numBarracks == 0)
       {
         gameState.ai.queueManager.changePriority("militaryBuilding", 2*this.Config.priorities.militaryBuilding);
-        let plan = new m.ConstructionPlan(gameState, "structures/{civ}_barracks", { "militaryBase": true });
+        let plan = new m.ConstructionPlan(gameState, "{civ}/structure_barracks", { "militaryBase": true });
         plan.queueToReset = "militaryBuilding";
         queues.militaryBuilding.addPlan(plan);
         return;
       }
       if (numStables == 0)
       {
-        queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_cavalry_stables", { "militaryBase": true }));
+        queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_cavalry_stables", { "militaryBase": true }));
         return; 
       }
 
     // Second barracks and stables, then 3rd barrack, and optional 4th for some civs as they rely on barracks more.
     if (numBarracks == 1 && gameState.getPopulation() > this.Config.Military.popForBarracks2)
     {
-      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_barracks", { "militaryBase": true }));
+      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_barracks", { "militaryBase": true }));
       return;
     }
     if (numStables == 1 && gameState.getPopulation() > this.Config.Military.popForBarracks2)
     {
-      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_cavalry_stables", { "militaryBase": true })); 
+      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_cavalry_stables", { "militaryBase": true })); 
       return;
     }
     // Then 3rd barracks/stables if needed
     if (numBarracks == 2 && numStables == -1 && gameState.getPopulation() > this.Config.Military.popForBarracks2 + 30)
     {
-      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_barracks", { "militaryBase": true }));
+      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_barracks", { "militaryBase": true }));
       return;
     }
     if (numBarracks == -1 && numStables == 2 && gameState.getPopulation() > this.Config.Military.popForBarracks2 + 30)
     {
-      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_cavalry_stables", { "militaryBase": true }));
+      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_cavalry_stables", { "militaryBase": true }));
       return;
     }
   }
@@ -1675,21 +1675,21 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
   if (this.currentPhase < 3)
     return;
 
-  if (this.canBuild(gameState, "structures/{civ}_hall") && !gameState.getOwnEntitiesByClass("Hall", true).hasEntities())
+  if (this.canBuild(gameState, "{civ}/structure_hall") && !gameState.getOwnEntitiesByClass("Hall", true).hasEntities())
   {
-      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_hall", { "militaryBase": true }));
+      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_hall", { "militaryBase": true }));
     return;
   }
 
-  if (this.canBuild(gameState, "structures/{civ}_elephant_stables") && !gameState.getOwnEntitiesByClass("ElephantStables", true).hasEntities())
+  if (this.canBuild(gameState, "{civ}/structure_elephant_stables") && !gameState.getOwnEntitiesByClass("ElephantStables", true).hasEntities())
   {
-      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_elephant_stables", { "militaryBase": true }));
+      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_elephant_stables", { "militaryBase": true }));
     return;
   }
 
-  if (this.canBuild(gameState, "structures/{civ}_siege_workshop") && !gameState.getOwnEntitiesByClass("SiegeWorkshop", true).hasEntities())
+  if (this.canBuild(gameState, "{civ}/structure_siege_workshop") && !gameState.getOwnEntitiesByClass("SiegeWorkshop", true).hasEntities())
   {
-    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "structures/{civ}_siege_workshop", { "militaryBase": true }));
+    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_siege_workshop", { "militaryBase": true }));
     return;
   }
 

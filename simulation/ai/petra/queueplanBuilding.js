@@ -301,9 +301,9 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
 
   let radius = 0;
   if (template.hasClass("Fortress") || 
-    this.type === gameState.applyCiv("structures/{civ}_siege_workshop") ||
-    this.type === gameState.applyCiv("structures/{civ}_hall") ||
-    this.type === gameState.applyCiv("structures/{civ}_elephant_stables"))
+    this.type === gameState.applyCiv("{civ}/structure_siege_workshop") ||
+    this.type === gameState.applyCiv("{civ}/structure_hall") ||
+    this.type === gameState.applyCiv("{civ}/structure_elephant_stables"))
     radius = Math.floor((template.obstructionRadius() + 12) / obstructions.cellSize);
   else if (template.resourceDropsiteTypes() === undefined && !template.hasClass("House") && !template.hasClass("Field"))
     radius = Math.ceil((template.obstructionRadius() + 4) / obstructions.cellSize);
@@ -766,7 +766,7 @@ m.ConstructionPlan.prototype.isGo = function(gameState)
 {
   if (this.goRequirement && this.goRequirement === "houseNeeded")
   {
-    if (!gameState.ai.HQ.canBuild(gameState, "structures/{civ}_house"))
+    if (!gameState.ai.HQ.canBuild(gameState, "{civ}/structure_house"))
       return false;
     if (gameState.getPopulationMax() <= gameState.getPopulationLimit())
       return false;

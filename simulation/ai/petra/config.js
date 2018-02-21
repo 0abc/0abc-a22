@@ -48,17 +48,17 @@ m.Config = function(difficulty)
   {
     "advanced": {
       "default": [],
-      "athen": [ "structures/{civ}_theatre" ],
-      "brit": [ "structures/{civ}_rotarymill" ],
-      "cart": [ "structures/{civ}_harbour" ],
-      "gaul": [ "structures/{civ}_rotarymill" ],
-      "iber": [ "structures/{civ}_monument" ],
-      "mace": [ "structures/{civ}_library", "structures/{civ}_theatre" ],
-      "maur": [ "structures/{civ}_palace", "structures/{civ}_pillar" ],
-      "pers": [ "structures/{civ}_palace" ],
-      "ptol": [ "structures/{civ}_library", "structures/{civ}_lighthouse", "structures/{civ}_theatre" ],
-      "rome": [ "structures/{civ}_army_camp" ],
-      "sele": [ "structures/{civ}_library", "structures/{civ}_theatre" ],
+      "athen": [ "{civ}/structure_theatre" ],
+      "brit": [ "{civ}/structure_rotarymill" ],
+      "cart": [ "{civ}/structure_harbour" ],
+      "gaul": [ "{civ}/structure_rotarymill" ],
+      "iber": [ "{civ}/structure_monument" ],
+      "mace": [ "{civ}/structure_library", "{civ}/structure_theatre" ],
+      "maur": [ "{civ}/structure_palace", "{civ}/structure_pillar" ],
+      "pers": [ "{civ}/structure_palace" ],
+      "ptol": [ "{civ}/structure_library", "{civ}/structure_lighthouse", "{civ}/structure_theatre" ],
+      "rome": [ "{civ}/structure_army_camp" ],
+      "sele": [ "{civ}/structure_library", "{civ}/structure_theatre" ],
       "spart": [  ]
     }
   };

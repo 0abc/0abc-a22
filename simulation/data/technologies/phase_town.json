@@ -14,8 +14,6 @@
     {"value": "ResourceTrickle/Rates/silver", "add":      1.0},
     {"value": "TerritoryInfluence/Radius",    "multiply": 1.2}
   ],
-  "requirements": { "entity": { "class": "Economic", "number": 4 } },
-  "requirementsTooltip": "Requires four economic structures.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_phase.xml",
   "supersedes": "phase_village",

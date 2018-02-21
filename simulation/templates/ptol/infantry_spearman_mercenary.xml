@@ -4,6 +4,7 @@
     <Civ>ptol</Civ>
     <GenericName>Mercenary Thureos Spearman</GenericName>
     <Icon>units/ptol_infantry_spearman_2.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>ptol/infantry_spearman_mercenary</SelectionGroupName>
     <SpecificName>Thureophóros Misthophóros</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

@@ -16,9 +16,6 @@
       {civ}/infantry_swordsman_champion
       {civ}/infantry_longbowman_champion
     </Entities>
-    <Technologies datatype="tokens">
-      special/unlock_champion_units
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mauryans/misc_structure_01.xml</Actor>

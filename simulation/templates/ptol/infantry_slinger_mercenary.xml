@@ -5,6 +5,7 @@
     <GenericName>Rhodian Slinger</GenericName>
     <Icon>units/hele_infantry_slinger.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>ptol/infantry_slinger_mercenary</SelectionGroupName>
     <SpecificName>Sphendonḗtēs Rhódios</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

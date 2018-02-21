@@ -5,6 +5,7 @@
     <GenericName>Syrian Archer</GenericName>
     <Icon>units/imp_merc_archer.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>sele/infantry_archer_mercenary</SelectionGroupName>
     <SpecificName>Toxótēs Syrías</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

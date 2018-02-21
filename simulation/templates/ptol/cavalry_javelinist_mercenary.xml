@@ -4,6 +4,7 @@
     <Civ>ptol</Civ>
     <GenericName>Tarantine Settler Cavalry</GenericName>
     <Icon>units/cart_cavalry_javelinist_2.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>ptol/cavalry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>Hippeús Tarantînos</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>

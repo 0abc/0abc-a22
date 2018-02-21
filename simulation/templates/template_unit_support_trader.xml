@@ -33,14 +33,6 @@
       <food>-0.03</food>
     </Rates>
   </ResourceTrickle>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>octagram/128x128.png</MainTexture>
-        <MainTextureMask>octagram/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/sword.xml</attack>

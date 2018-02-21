@@ -5,6 +5,7 @@
     <Classes datatype="tokens">Greek</Classes>
     <GenericName>Greek Mercenary Hoplite</GenericName>
     <Icon>units/samnite_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>spart/infantry_hoplite_mercenary</SelectionGroupName>
     <SpecificName>Hoplítēs Hellenikós</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

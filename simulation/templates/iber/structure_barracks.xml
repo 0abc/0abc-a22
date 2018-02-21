@@ -11,9 +11,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_sabreman_champion
     </Entities>
-    <Technologies datatype="tokens">
-      special/unlock_champion_units
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/iberians/barracks.xml</Actor>

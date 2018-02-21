@@ -5,6 +5,7 @@
     <Classes datatype="tokens">Celt</Classes>
     <GenericName>Gallic Mercenary Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>ptol/infantry_swordsman_mercenary</SelectionGroupName>
     <SpecificName>Gallikós Mistophorós</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

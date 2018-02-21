@@ -5,6 +5,7 @@
     <GenericName>Arcadian Peltast</GenericName>
     <Icon>units/hele_infantry_javelinist.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>spart/infantry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>Peltastḗs Arkadikós</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

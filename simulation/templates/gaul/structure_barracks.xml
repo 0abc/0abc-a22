@@ -15,9 +15,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_swordsman_champion
     </Entities>
-    <Technologies datatype="tokens">
-      special/unlock_champion_units
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/celts/barracks.xml</Actor>

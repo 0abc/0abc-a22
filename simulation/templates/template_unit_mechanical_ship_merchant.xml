@@ -52,14 +52,6 @@
       <wood>75</wood>
     </Capacities>
   </ResourceGatherer>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>octagram/256x256.png</MainTexture>
-        <MainTextureMask>octagram/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <StatusBars>
     <BarWidth>6.0</BarWidth>
     <BarHeight>0.5</BarHeight>

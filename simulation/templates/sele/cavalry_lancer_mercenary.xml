@@ -5,6 +5,7 @@
     <GenericName>Companion Cavalry</GenericName>
     <Icon>units/sele_cavalry_spearman.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>sele/cavalry_lancer_mercenary</SelectionGroupName>
     <SpecificName>Hippos Hetairike</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>

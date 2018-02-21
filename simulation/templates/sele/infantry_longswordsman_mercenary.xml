@@ -5,6 +5,7 @@
     <GenericName>Thracian Mercenary Swordsman</GenericName>
     <Icon>units/sele_infantry_swordsman.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>sele/infantry_longswordsman_mercenary</SelectionGroupName>
     <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

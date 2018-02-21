@@ -5,6 +5,7 @@
     <GenericName>Cretan Mercenary Archer</GenericName>
     <Icon>units/hele_infantry_archer.png</Icon>
     <Lang>greek</Lang>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>spart/infantry_archer_mercenary</SelectionGroupName>
     <SpecificName>Toxótēs Krētikós</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

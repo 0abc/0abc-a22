@@ -4,6 +4,7 @@
     <Civ>ptol</Civ>
     <GenericName>Macedonian Settler Cavalry</GenericName>
     <Icon>units/sele_cavalry_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>ptol/cavalry_lancer_mercenary</SelectionGroupName>
     <SpecificName>Hippeús Makedonikós</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>

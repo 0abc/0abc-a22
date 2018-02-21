@@ -17,7 +17,6 @@
       {civ}/cavalry_lancer_champion
     </Entities>
     <Technologies datatype="tokens">
-      unlock_champion_units
       special/parade
     </Technologies>
   </ProductionQueue>

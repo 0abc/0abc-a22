@@ -4,6 +4,7 @@
     <Civ>ptol</Civ>
     <GenericName>Mercenary Thureos Skirmisher</GenericName>
     <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>ptol/infantry_javelinist_mercenary</SelectionGroupName>
     <SpecificName>Thureophóros Akrobolistḗs</SpecificName>
     <VisibleClasses datatype="tokens">-Worker Mercenary</VisibleClasses>

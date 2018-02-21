@@ -60,7 +60,6 @@
       drill_chariotry_3
       heal_chariot_stables
       training_chariot_stables
-      unlock_champion_units
     </Technologies>
   </ProductionQueue>
   <Sound>

@@ -26,15 +26,6 @@
     <GenericName>Hero</GenericName>
     <VisibleClasses datatype="tokens">Infantry</VisibleClasses>
   </Identity>
-  <Selectable>
-    <Overlay>
-      <AlwaysVisible/>
-      <Texture>
-        <MainTexture>star/128x128.png</MainTexture>
-        <MainTextureMask>star/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/sword.xml</attack>

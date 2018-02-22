@@ -12,7 +12,7 @@
     <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>promoted/rome/infantry_swordsman_champion_1</Entity>
+    <Entity>rome/promoted/infantry_swordsman_champion_1</Entity>
   </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>

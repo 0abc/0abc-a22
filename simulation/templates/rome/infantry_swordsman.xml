@@ -18,7 +18,7 @@
     <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>promoted/rome/infantry_swordsman_1</Entity>
+    <Entity>rome/promoted/infantry_swordsman_1</Entity>
   </Promotion>
   <Selectable>
     <Overlay>

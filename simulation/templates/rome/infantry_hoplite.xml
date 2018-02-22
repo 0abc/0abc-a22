@@ -18,7 +18,7 @@
     <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>promoted/rome/infantry_hoplite_1</Entity>
+    <Entity>rome/promoted/infantry_hoplite_1</Entity>
   </Promotion>
   <Selectable>
     <Overlay>

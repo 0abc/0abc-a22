@@ -10,7 +10,7 @@
     <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>maur/promoted/cavalry_javelinist</Entity>
+    <Entity>maur/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
   <Selectable>
     <Overlay>

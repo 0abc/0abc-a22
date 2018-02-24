@@ -17,21 +17,21 @@
           <Multiplier>4.0</Multiplier>
         </Structures>
       </Bonuses>
-      <Crush>40</Crush>
+      <Crush>20</Crush>
       <Hack>0</Hack>
       <MaxRange>8</MaxRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
       <PrepareTime>750</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
     </Melee>
   </Attack>
   <Cost>
     <BuildTime op="mul">4.0</BuildTime>
     <Population op="mul">4.0</Population>
     <Resources>
-      <food>200</food>
-      <metal>200</metal>
+      <food>100</food>
+      <metal>100</metal>
       <silver>0</silver>
       <stone>0</stone>
       <wood>400</wood>
@@ -55,12 +55,12 @@
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Loot>
-    <food>40</food>
-    <metal>40</metal>
+    <food>20</food>
+    <metal>20</metal>
     <silver>0</silver>
     <stone>0</stone>
     <wood>80</wood>
-    <xp>400</xp>
+    <xp>600</xp>
   </Loot>
   <UnitMotion>
     <Run>

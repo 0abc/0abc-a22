@@ -6,11 +6,11 @@
       <Hack>0</Hack>
       <MaxRange>90</MaxRange>
       <MinRange>5</MinRange>
-      <Pierce>60</Pierce>
+      <Pierce>20</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>3000</PrepareTime>
       <ProjectileSpeed>150</ProjectileSpeed>
-      <RepeatTime>3000</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
       <Spread>2.0</Spread>
     </Ranged>
   </Attack>

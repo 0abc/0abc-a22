@@ -20,10 +20,10 @@
       <PreferredClasses datatype="tokens">Structure</PreferredClasses>
       <PrepareTime>4000</PrepareTime>
       <ProjectileSpeed>37.5</ProjectileSpeed>
-      <RepeatTime>3000</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
       <Spread>4.0</Spread>
       <Splash>
-        <Crush>90.0</Crush>
+        <Crush>30.0</Crush>
         <FriendlyFire>true</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
@@ -36,10 +36,10 @@
     <BuildTime op="mul">3.0</BuildTime>
     <Population op="mul">3.0</Population>
     <Resources>
-      <food>150</food>
-      <metal>150</metal>
+      <food>100</food>
+      <metal>100</metal>
       <silver>0</silver>
-      <stone>150</stone>
+      <stone>100</stone>
       <wood>300</wood>
     </Resources>
   </Cost>
@@ -58,12 +58,12 @@
     <VisibleClasses datatype="tokens">StoneThrower Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <food>30</food>
-    <metal>30</metal>
+    <food>20</food>
+    <metal>20</metal>
     <silver>0</silver>
-    <stone>30</stone>
+    <stone>20</stone>
     <wood>60</wood>
-    <xp>375</xp>
+    <xp>300</xp>
   </Loot>
   <Sound>
     <SoundGroups>

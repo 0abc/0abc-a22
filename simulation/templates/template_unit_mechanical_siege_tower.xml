@@ -22,7 +22,7 @@
       <PreferredClasses datatype="tokens">Human Tower</PreferredClasses>
       <PrepareTime>1200</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
-      <RepeatTime>3000</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
       <Spread>2.0</Spread>
     </Ranged>
   </Attack>
@@ -36,11 +36,11 @@
     <BuildTime op="mul">6.0</BuildTime>
     <Population op="mul">6.0</Population>
     <Resources>
-      <food>300</food>
-      <metal>300</metal>
+      <food>100</food>
+      <metal>200</metal>
       <silver>0</silver>
-      <stone>150</stone>
-      <wood>750</wood>
+      <stone>100</stone>
+      <wood>600</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -67,12 +67,12 @@ Counters: 2.0× vs Fortifications (fortresses, towers, wall turrets).</Tooltip>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <food>60</food>
-    <metal>60</metal>
+    <food>20</food>
+    <metal>40</metal>
     <silver>0</silver>
-    <stone>30</stone>
-    <wood>150</wood>
-    <xp>750</xp>
+    <stone>20</stone>
+    <wood>120</wood>
+    <xp>500</xp>
   </Loot>
   <StatusBars>
     <HeightOffset>12.0</HeightOffset>

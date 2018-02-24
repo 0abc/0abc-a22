@@ -40,7 +40,6 @@
   </Loot>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      heal_hall
       training_hall
     </Technologies>
   </ProductionQueue>

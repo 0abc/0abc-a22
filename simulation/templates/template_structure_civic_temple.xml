@@ -60,7 +60,7 @@
       healer_rate_1
       healer_rate_2
       healer_rate_3
-      heal_temple
+      heal_garrison
       health_regen_units
     </Technologies>
   </ProductionQueue>

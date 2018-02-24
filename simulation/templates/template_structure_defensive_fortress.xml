@@ -86,7 +86,6 @@
       tower_crenellations
       tower_murderholes
       tower_range
-      heal_fortress
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

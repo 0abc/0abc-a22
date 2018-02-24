@@ -36,8 +36,8 @@
     <BuildTime op="mul">6.0</BuildTime>
     <Population op="mul">6.0</Population>
     <Resources>
-      <food>100</food>
-      <metal>200</metal>
+      <food>200</food>
+      <metal>300</metal>
       <silver>0</silver>
       <stone>100</stone>
       <wood>600</wood>
@@ -67,12 +67,12 @@ Counters: 2.0× vs Fortifications (fortresses, towers, wall turrets).</Tooltip>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <metal>40</metal>
+    <food>40</food>
+    <metal>60</metal>
     <silver>0</silver>
     <stone>20</stone>
     <wood>120</wood>
-    <xp>500</xp>
+    <xp>600</xp>
   </Loot>
   <StatusBars>
     <HeightOffset>12.0</HeightOffset>

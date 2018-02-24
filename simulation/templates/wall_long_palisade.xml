@@ -23,7 +23,7 @@
       <Cost>
         <wood>20</wood>
       </Cost>
-      <Entity>structures/wall_gate_palisade</Entity>
+      <Entity>wall_gate_palisade</Entity>
       <Time>10</Time>
     </Gate>
   </Upgrade>

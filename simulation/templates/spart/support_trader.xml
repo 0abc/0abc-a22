@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_merchant">
+<Entity parent="template_unit_support_trader">
   <Footprint replace="">
-    <Height>8.0</Height>
-    <Square width="8.0" depth="24.0"/>
+    <Height>3.0</Height>
+    <Square width="4.0" depth="8.0"/>
   </Footprint>
   <Identity>
     <Civ>spart</Civ>
-    <Icon>units/hele_ship_merchant.png</Icon>
-    <SpecificName>Ploîon Phortēgikón</SpecificName>
+    <Icon>units/hele_support_trader.png</Icon>
+    <Lang>greek</Lang>
+    <SpecificName>Émporos</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/merchant.xml</Actor>
+    <Actor>units/athenians/trader.xml</Actor>
   </VisualActor>
 </Entity>

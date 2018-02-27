@@ -1,7 +1,7 @@
 {
   "Code":"sele",
   "Culture":"sele",
-  "Name":"Seleucids",
+  "Name":"Seleucid Empire",
   "Emblem":"session/portraits/emblems/emblem_seleucids.png",
   "History":"The Macedonian-Greek dynasty that ruled most of Alexander's former empire.",
   "Music":[
@@ -16,21 +16,6 @@
       "Description":"The Macedonian-Greek dynasty that ruled the Eastern part of Alexander's former empire.",
       "Technologies":
       [
-        {
-          "Name":"Hellenistic Metropolises",
-          "History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
-          "Description":"Civic Centers have double Health and double default arrows."
-        },
-        {
-          "Name":"Traditional Army vs. Reform Army",
-          "History":"Seleucid and indeed Successor warfare evolved over the course of the 3rd and 2nd centuries. Contact with Eastern upstarts such as the Parthians and constant revolts of peripheral satrapies such as Bactria caused the Seleucids to reform their military and change their tactics, specifically in the cavalry arm. War with the Romans from the West and invasions from the Galatians also forced the Seleucids to reform their infantry regiments to be more flexible.",
-          "Description":"Traditional Army unlocks Silver Shields and Scythed Chariots, Reform Army unlocks Romanized Heavy Swordsmen and Cataphracts."
-        },
-        {
-          "Name":"Marriage Alliance",
-          "History":"Seleucus I Nicator invaded the Punjab region of India in 305 BC, confronting Chandragupta Maurya (Sandrokottos), founder of the Mauryan empire. It is said that Chandragupta fielded an army of 600,000 men and 9,000 war elephants (Pliny, Natural History VI, 22.4). Seleucus met with no success and to establish peace between the two great powers and to formalize their alliance, he married his daughter to Chandragupta. In return, Chandragupta gifted Seleucus a corps of 500 war elephants, which would prove a decisive military asset for Seleucus as he fought the rest of Alexander's successors.",
-          "Description":"A one-time purchase of 20 Indian War Elephants from the Mauryan Empire."
-        },
         {
           "Name": "Nisean War Horses",
           "History": "The beautiful and powerful breed of Nisean horses increases health for Seleucid cavalry.",
@@ -51,7 +36,7 @@
           "Class":"",
           "Armament":"",
           "Emblem":"",
-          "History":"Antiochus inherited a troubled kingdom upon the beginning of his reign. From the verge of collapse he managed to weld back together the empire Seleukus I fought so hard to found. The rebellious eastern satraps of Bactria and Parthia were brought to heel , temporarily securing his eastern borders. He then turned his attention to mother Greece, attempting to fulfill the dreams of his fathers by invading Greece under the pretext of liberation. The Achaean League and the Kingdom of Pergamon banded together with the Romans to defeat him at the Battle of Magnesia, forever burying the dream of reuniting Alexander's empire."
+          "History":"Antiochus inherited a troubled kingdom upon the beginning of his reign. From the verge of collapse he managed to weld back together the empire Seleucus I fought so hard to found. The rebellious eastern satraps of Bactria and Parthia were brought to heel , temporarily securing his eastern borders. He then turned his attention to mother Greece, attempting to fulfill the dreams of his fathers by invading Greece under the pretext of liberation. The Achaean League and the Kingdom of Pergamon banded together with the Romans to defeat him at the Battle of Magnesia, forever burying the dream of reuniting Alexander's empire."
         },
         {
           "Name":"Antiokhos D' Epiphanes",

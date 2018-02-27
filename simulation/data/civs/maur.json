@@ -1,9 +1,9 @@
 {
   "Code": "maur",
   "Culture": "maur",
-  "Name": "Mauryans",
+  "Name": "Mauryan Empire",
   "Emblem": "session/portraits/emblems/emblem_mauryans.png",
-  "History": "Founded in 322 B.C. by Chandragupta Maurya, the Mauryan Empire was the first to rule most of the Indian subcontinent, and was one of the largest and most populous empires of antiquity. Its military featured bowmen who used the long-range bamboo longbow, fierce female warriors, chariots, and thousands of armored war elephants. Its philosophers, especially the famous Acharya Chanakya, contributed to such varied fields such as economics, religion, diplomacy, warfare, and good governance. Under the rule of Ashoka the Great, the empire saw 40 years of peace, harmony, and prosperity.",
+  "History": "Founded in 322 B.C. by Chandragupta Maurya, the Mauryan Empire was the first to rule most of the Indian subcontinent, and was one of the largest and most populous empires of antiquity. Its military featured bowmen who used the long-range bamboo longbow, fierce female warriors, chariots, and thousands of armoured war elephants. Its philosophers, especially the famous Acharya Chanakya, contributed to such varied fields such as economics, religion, diplomacy, warfare, and good governance. Under the rule of Ashoka the Great, the empire saw 40 years of peace, harmony, and prosperity.",
   "Music":[
       {"File":"An_old_Warhorse_goes_to_Pasture.ogg", "Type":"peace"},
       {"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
@@ -17,11 +17,6 @@
       "Description": "",
       "Technologies":
       [
-        {
-          "Name":"Elephant Roundup",
-          "History":".",
-          "Description":"Capture up to 5 Gaia elephants and garrison them in the Elephant Stables to gain up to a 25% bonus in cost and train time of elephant units."
-        },
         {
           "Name":"Archery Tradition",
           "History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
@@ -59,7 +54,7 @@
     {
       "Name": "Emperor of Emperors.",
       "History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
-      "Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300)."
+      "Description": "Mauryas have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300)."
     },
     {
       "Name": "Indian Religiousness.",
@@ -69,7 +64,7 @@
     {
       "Name": "Kṣhatriya Warrior Caste.",
       "History": "Kshatriya or Kashtriya, meaning warrior, is one of the four varnas (social orders) in Hinduism. Traditionally Kshatriya constitute the military and ruling elite of the Vedic-Hindu social system outlined by the Vedas and the Laws of Manu.",
-      "Description": "The Mauryans enjoy access to five champion types."
+      "Description": "The Mauryas enjoy access to five champion types."
     },
     {
       "Name": "Limited Stone Working.",
@@ -78,7 +73,7 @@
     },
     {
       "Name": "Wooden Walls.",
-      "History": "he Mauryans built their city walls out of wood, an abundant natural resource in India.",
+      "History": "The Mauryas built their city walls out of wood, an abundant natural resource in India.",
       "Description": "Mauryan city walls require no stone and have −25% less health and build time, and +150% wood cost."
     }
   ],

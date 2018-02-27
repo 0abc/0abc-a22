@@ -1,7 +1,7 @@
 {
   "affects": ["StoneWall"],
   "autoResearch": true,
-  "description": "The Mauryans built their city walls out of wood, an abundant natural resource in India.",
+  "description": "The Mauryas built their city walls out of wood, an abundant natural resource in India.",
   "genericName": "Wooden Walls",
   "icon": "wooden_walls.png",
   "modifications": [

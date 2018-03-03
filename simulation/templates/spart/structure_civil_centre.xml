@@ -11,9 +11,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_hoplite
       {civ}/infantry_javelinist
-      {civ}/hero_leonidas
-      {civ}/hero_brasidas
-      {civ}/hero_agis
     </Entities>
     <Technologies datatype="tokens">
       special/colonization

@@ -8,9 +8,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_spearman
       {civ}/infantry_javelinist
-      {civ}/hero_seleucus_i
-      {civ}/hero_antiochus_iii
-      {civ}/hero_antiochus_iv
     </Entities>
   </ProductionQueue>
   <VisualActor>

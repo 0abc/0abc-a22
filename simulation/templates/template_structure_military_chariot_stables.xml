@@ -8,7 +8,6 @@
     <Resources>
       <food>100</food>
       <metal>50</metal>
-      <stone>100</stone>
       <wood>150</wood>
     </Resources>
   </Cost>
@@ -33,7 +32,6 @@
   <Loot>
     <food>20</food>
     <metal>10</metal>
-    <stone>20</stone>
     <wood>30</wood>
   </Loot>
   <Obstruction>

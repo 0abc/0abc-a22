@@ -11,9 +11,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_sabreman
       {civ}/infantry_javelinist
-      {civ}/hero_caros
-      {civ}/hero_indibil
-      {civ}/hero_viriato
     </Entities>
   </ProductionQueue>
   <VisualActor>

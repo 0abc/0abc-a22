@@ -12,9 +12,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_spearman
       {civ}/infantry_archer
-      {civ}/hero_cyrus
-      {civ}/hero_darius
-      {civ}/hero_xerxes
     </Entities>
     <Technologies datatype="tokens">
       special/architecture

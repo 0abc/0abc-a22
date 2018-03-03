@@ -18,9 +18,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_spearman
       {civ}/infantry_longbowman
-      {civ}/hero_chanakya
-      {civ}/hero_maurya
-      {civ}/hero_ashoka
     </Entities>
   </ProductionQueue>
   <VisualActor>

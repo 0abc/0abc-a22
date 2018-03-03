@@ -11,9 +11,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_hoplite
       {civ}/infantry_archer
-      {civ}/hero_hamilcar
-      {civ}/hero_hannibal
-      {civ}/hero_maharbal
     </Entities>
     <Technologies datatype="tokens">
       special/colonization

@@ -7,7 +7,6 @@
     <BuildTime op="mul">2.0</BuildTime>
     <Resources>
       <food>100</food>
-      <stone>100</stone>
       <wood>200</wood>
     </Resources>
   </Cost>
@@ -31,7 +30,6 @@
   </Identity>
   <Loot>
     <food>20</food>
-    <stone>20</stone>
     <wood>40</wood>
   </Loot>
   <Obstruction>

@@ -15,9 +15,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_spearman
       {civ}/infantry_javelinist
-      {civ}/hero_brennus
-      {civ}/hero_viridomarus
-      {civ}/hero_vercingetorix
     </Entities>
   </ProductionQueue>
   <VisualActor>

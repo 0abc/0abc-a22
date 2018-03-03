@@ -15,9 +15,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_pikeman
       {civ}/infantry_slinger
-      {civ}/hero_ptolemy_i
-      {civ}/hero_ptolemy_iv
-      {civ}/hero_cleopatra_vii
     </Entities>
   </ProductionQueue>
   <VisualActor>

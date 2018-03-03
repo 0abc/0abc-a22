@@ -11,9 +11,6 @@
     <Entities datatype="tokens">
       {civ}/infantry_hoplite
       {civ}/infantry_slinger
-      {civ}/hero_themistocles
-      {civ}/hero_pericles
-      {civ}/hero_iphicrates
     </Entities>
     <Technologies datatype="tokens">
       special/colonization

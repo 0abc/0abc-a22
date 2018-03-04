@@ -43,12 +43,12 @@
     <BaseSpeed>1.0</BaseSpeed>
     <MaxDistance>2.0</MaxDistance>
     <Rates>
-      <food.fish>0.5</food.fish>
+      <food.fish>0.6</food.fish>
       <food.fruit>1</food.fruit>
-      <food.grain>0.5</food.grain>
-      <food.meat>0.75</food.meat>
-      <metal.ore>0.35</metal.ore>
-      <stone.rock>0.35</stone.rock>
+      <food.grain>0.4</food.grain>
+      <food.meat>0.8</food.meat>
+      <metal.ore>0.2</metal.ore>
+      <stone.rock>0.2</stone.rock>
       <stone.ruins>2</stone.ruins>
       <wood.ruins>5</wood.ruins>
       <wood.tree>0.7</wood.tree>

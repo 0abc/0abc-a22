@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_elephant">
   <Armour>
-    <Crush op="add">1</Crush>
-    <Hack op="add">1</Hack>
-    <Pierce op="add">1</Pierce>
+    <Crush>3</Crush>
+    <Hack>3</Hack>
+    <Pierce>3</Pierce>
   </Armour>
   <Attack>
     <Ranged>

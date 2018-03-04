@@ -53,9 +53,9 @@
       <food.meat>0.8</food.meat>
       <wood.tree>1.0</wood.tree>
       <wood.ruins>5</wood.ruins>
-      <stone.rock>1.0</stone.rock>
+      <stone.rock>0.5</stone.rock>
       <stone.ruins>5</stone.ruins>
-      <metal.ore>1.0</metal.ore>
+      <metal.ore>0.5</metal.ore>
       <treasure disable=""/>
     </Rates>
   </ResourceGatherer>

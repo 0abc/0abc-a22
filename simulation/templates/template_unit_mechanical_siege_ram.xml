@@ -24,6 +24,7 @@
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Soldier Support</RestrictedClasses>
     </Melee>
   </Attack>
   <Cost>

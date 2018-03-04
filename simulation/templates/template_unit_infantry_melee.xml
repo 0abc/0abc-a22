@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>5</Pierce>
+  </Armour>
   <Attack>
     <Melee>
       <Crush>0</Crush>
@@ -27,8 +32,8 @@
       <food.fruit>0.5</food.fruit>
       <food.grain>0.3</food.grain>
       <food.meat>0.9</food.meat>
-      <metal.ore>0.5</metal.ore>
-      <stone.rock>0.5</stone.rock>
+      <metal.ore>0.3</metal.ore>
+      <stone.rock>0.3</stone.rock>
       <stone.ruins>2</stone.ruins>
       <wood.tree>0.75</wood.tree>
       <wood.ruins>5</wood.ruins>

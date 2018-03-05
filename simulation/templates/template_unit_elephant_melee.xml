@@ -2,8 +2,8 @@
 <Entity parent="template_unit_elephant">
   <Armour>
     <Crush>6</Crush>
-    <Hack>6</Hack>
-    <Pierce>6</Pierce>
+    <Hack>4</Hack>
+    <Pierce>8</Pierce>
   </Armour>
   <Attack>
     <Melee>

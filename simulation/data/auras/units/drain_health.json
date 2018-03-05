@@ -1,0 +1,11 @@
+{
+  "affectedPlayers": ["Enemy"],
+  "affects": ["Soldier"],
+  "auraDescription": "Nearby enemy soldiers gradually lose health.",
+  "auraName": "Drain Health",
+  "modifications": [
+    {"value": "Health/RegenRate", "add": -1}
+  ],
+  "radius": 10,
+  "type": "range"
+}

@@ -3,10 +3,18 @@
   <Attack>
     <Ranged>
       <Bonuses>
-        <Cavalry>
+        <CavalryAxe>
+          <Classes>Cavalry Axeman</Classes>
+          <Multiplier>1.5</Multiplier>
+        </CavalryAxe>
+        <CavalrySabre>
+          <Classes>Cavalry Sabreman</Classes>
+          <Multiplier>1.5</Multiplier>
+        </CavalrySabre>
+        <CavalrySword>
           <Classes>Cavalry Swordsman</Classes>
           <Multiplier>1.5</Multiplier>
-        </Cavalry>
+        </CavalrySword>
         <Elephantry>
           <Classes>Elephant</Classes>
           <Multiplier>0.5</Multiplier>
@@ -29,7 +37,7 @@
   <Identity>
     <Classes datatype="tokens">CompositeBow</Classes>
     <GenericName>Horse Archer</GenericName>
-    <Tooltip>Counters: 1.5× vs Cavalry Swordsmen.
+    <Tooltip>Counters: 1.5× vs Cavalry Axe-, Sabre-, and Swordsmen.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>

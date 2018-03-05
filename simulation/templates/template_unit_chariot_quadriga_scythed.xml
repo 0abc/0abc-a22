@@ -16,7 +16,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max op="mul">1.4</Max>
+    <Max op="mul">1.8</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CompositeBow</Classes>

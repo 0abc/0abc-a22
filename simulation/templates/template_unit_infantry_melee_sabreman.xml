@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
+  <Armour>
+    <Crush op="add">1</Crush>
+    <Pierce op="add">-1</Pierce>
+  </Armour>
   <Attack>
     <Melee>
       <Hack>4.8</Hack>
@@ -17,9 +21,8 @@
     <Max op="mul">1.9</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Sabre</Classes>
     <GenericName>Sabreman</GenericName>
-    <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Sabreman</VisibleClasses>
   </Identity>
   <Loot>
     <metal op="add">6</metal>

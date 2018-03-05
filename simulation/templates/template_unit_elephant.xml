@@ -90,11 +90,11 @@
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
     <Run>
-      <Range>900.0</Range>
-      <RangeMin>18.0</RangeMin>
-      <Speed>18.0</Speed>
+      <Range>800.0</Range>
+      <RangeMin>20.0</RangeMin>
+      <Speed>20.0</Speed>
     </Run>
-    <WalkSpeed>9.0</WalkSpeed>
+    <WalkSpeed>10.0</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range op="add">40</Range>

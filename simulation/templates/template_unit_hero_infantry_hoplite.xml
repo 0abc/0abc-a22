@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry">
+  <Armour>
+    <Crush op="add">-1</Crush>
+    <Pierce op="add">1</Pierce>
+  </Armour>
   <Attack>
     <Melee>
       <Crush>0</Crush>

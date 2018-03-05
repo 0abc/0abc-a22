@@ -4,7 +4,7 @@
     <Melee>
       <Bonuses>
         <Infantry>
-          <Classes>Infantry Slinger</Classes>
+          <Classes>Infantry Javelinist</Classes>
           <Multiplier>1.5</Multiplier>
         </Infantry>
       </Bonuses>
@@ -23,9 +23,8 @@
     <Max op="mul">1.5</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">CavalrySword</Classes>
     <GenericName>Cavalry Swordsman</GenericName>
-    <Tooltip>Counters: 1.5× vs Infantry Slingers.
+    <Tooltip>Counters: 1.5× vs Infantry Javelinists.
 Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Swordsman</VisibleClasses>
   </Identity>

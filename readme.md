@@ -203,11 +203,11 @@ And it can currently be used for:
 * Camel javelinists: 1.25× vs Cavalry
 * Camel spearmen: 1.5× vs Cavalry, 0.5× vs Elephantry
 * Cavalry crossbowmen: 1.25× vs Cavalry, 0.5× vs Elephantry, 0.125× vs Structures
-* Cavalry archers: 1.5× vs Cavalry Swordsmen, 0.5× vs Elephantry
+* Cavalry archers: 1.5× vs Cavalry Axe-, Sabre-, and Swordsmen, 0.5× vs Elephantry
 * Cavalry javelinists: 1.5× vs Chariotry
 * Cavalry axemen: 1.5× vs Siege Weapons, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Cavalry sabremen: 1.5× vs Infantry Javelinists, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Cavalry swordsmen: 1.5× vs Infantry Slingers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry sabremen: 1.5× vs Infantry Slingers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry swordsmen: 1.5× vs Infantry Javelinists, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Cavalry spearmen: 1.5× vs Infantry Archers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Cavalry lancers: 1.25× vs Ranged Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Archer biga chariots: 0.5× vs Elephantry

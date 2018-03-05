@@ -14,7 +14,7 @@
       </Bonuses>
       <Crush>1.2</Crush>
       <Hack>4.8</Hack>
-      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+      <PreferredClasses datatype="tokens">Elephant Siege</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>

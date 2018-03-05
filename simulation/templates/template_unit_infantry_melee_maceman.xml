@@ -7,10 +7,6 @@
           <Classes>Cataphract</Classes>
           <Multiplier>1.5</Multiplier>
         </Cataphract>
-        <Hoplite>
-          <Classes>Hoplite</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Hoplite>
         <Structure>
           <Classes>Structure</Classes>
           <Multiplier>0.125</Multiplier>
@@ -31,7 +27,7 @@
   </Health>
   <Identity>
     <GenericName>Maceman</GenericName>
-    <Tooltip>Counters: 1.5× vs Hoplite and Cataphract units.
+    <Tooltip>Counters: 1.5× vs Cataphract units.
 Penalties: 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Maceman</VisibleClasses>
   </Identity>

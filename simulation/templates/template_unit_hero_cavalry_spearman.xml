@@ -17,9 +17,9 @@
         </Elephantry>
       </Bonuses>
       <Crush>0</Crush>
-      <Hack>0</Hack>
+      <Hack>6</Hack>
       <MaxRange>4</MaxRange>
-      <Pierce>32</Pierce>
+      <Pierce>24</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>

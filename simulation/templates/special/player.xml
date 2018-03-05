@@ -39,6 +39,9 @@
       <Boat>
         <Dock>2</Dock>
       </Boat>
+      <Fortress>
+        <Centre>1</Centre>
+      </Fortress>
       <Hall>
         <Centre>1</Centre>
       </Hall>

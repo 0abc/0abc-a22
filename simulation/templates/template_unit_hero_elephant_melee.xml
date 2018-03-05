@@ -12,7 +12,7 @@
       <Hack>0</Hack>
       <MaxRange>6</MaxRange>
       <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Human Siege</PreferredClasses>
+      <PreferredClasses datatype="tokens">Human Cavalry Siege</PreferredClasses>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
     </Melee>

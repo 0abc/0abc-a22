@@ -21,7 +21,8 @@
         </Elephantry>
       </Bonuses>
       <MaxRange op="mul">3.0</MaxRange>
-      <Pierce>4.5</Pierce>
+      <Pierce>6</Pierce>
+      <PreferredClasses datatype="tokens">Camel Cavalry</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>

@@ -8,7 +8,8 @@
           <Multiplier>1.5</Multiplier>
         </Infantry>
       </Bonuses>
-      <Pierce>7.5</Pierce>
+      <Hack>1.5</Hack>
+      <Pierce>6</Pierce>
       <PreferredClasses datatype="tokens">Ranged</PreferredClasses>
     </Melee>
   </Attack>

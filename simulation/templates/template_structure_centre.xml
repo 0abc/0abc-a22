@@ -59,7 +59,8 @@
     <BuildTime op="mul">5.0</BuildTime>
     <PopulationBonus>25</PopulationBonus>
     <Resources>
-      <wood>500</wood>
+      <food>300</food>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -86,8 +87,9 @@
     <VisibleClasses datatype="tokens">Centre</VisibleClasses>
   </Identity>
   <Loot>
-    <silver>50</silver>
-    <wood>100</wood>
+    <food>60</food>
+    <silver>60</silver>
+    <wood>60</wood>
     <xp>250</xp>
   </Loot>
   <Obstruction>

@@ -66,7 +66,6 @@
       {civ}/infantry_axeman_mercenary
       {civ}/infantry_sabreman_mercenary
       {civ}/infantry_swordsman_mercenary
-      {civ}/infantry_longswordsman_mercenary
     </Entities>
     <Technologies datatype="tokens">
       drill_infantry_1

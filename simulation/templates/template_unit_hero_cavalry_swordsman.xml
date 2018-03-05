@@ -17,9 +17,9 @@
         </Elephantry>
       </Bonuses>
       <Crush>0</Crush>
-      <Hack>32</Hack>
+      <Hack>20</Hack>
       <MaxRange>4</MaxRange>
-      <Pierce>0</Pierce>
+      <Pierce>10</Pierce>
       <PreferredClasses datatype="tokens">Human Siege</PreferredClasses>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>

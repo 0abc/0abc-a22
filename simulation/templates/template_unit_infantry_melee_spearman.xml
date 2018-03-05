@@ -8,8 +8,9 @@
           <Multiplier>1.5</Multiplier>
         </Cavalry>
       </Bonuses>
+      <Hack>1</Hack>
       <MaxRange op="mul">2.0</MaxRange>
-      <Pierce>6.0</Pierce>
+      <Pierce>5</Pierce>
     </Melee>
   </Attack>
   <Cost>

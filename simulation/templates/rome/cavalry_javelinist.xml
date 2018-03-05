@@ -13,14 +13,6 @@
   <Promotion>
     <Entity>rome/promoted/cavalry_javelinist_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/romans/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

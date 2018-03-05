@@ -520,8 +520,8 @@ m.HQ.prototype.findBestTrainableUnit = function(gameState, classes, requirements
   let units;
   if (classes.indexOf("Hero") !== -1)
     units = gameState.findTrainableUnits(classes, []);
-  else if (classes.indexOf("Siege") !== -1)  // We do not want siege tower as AI does not know how to use it
-    units = gameState.findTrainableUnits(classes, ["SiegeTower"]);
+  else if (classes.indexOf("Siege") !== -1)
+    units = gameState.findTrainableUnits(classes, []);
   else            // We do not want hero when not explicitely specified
     units = gameState.findTrainableUnits(classes, ["Hero"]);
 
@@ -1667,6 +1667,12 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
       queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_cavalry_stables", { "militaryBase": true }));
       return;
     }
+
+    if (this.canBuild(gameState, "{civ}/structure_workshop") && !gameState.getOwnEntitiesByClass("SiegeWorkshop", true).hasEntities())
+    {
+      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_workshop", { "militaryBase": true }));
+      return;
+    }
   }
 
   if (this.saveResources)
@@ -1675,21 +1681,15 @@ m.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
   if (this.currentPhase < 3)
     return;
 
-  if (this.canBuild(gameState, "{civ}/structure_hall") && !gameState.getOwnEntitiesByClass("Hall", true).hasEntities())
-  {
-      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_hall", { "militaryBase": true }));
-    return;
-  }
-
   if (this.canBuild(gameState, "{civ}/structure_elephant_stables") && !gameState.getOwnEntitiesByClass("ElephantStables", true).hasEntities())
   {
       queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_elephant_stables", { "militaryBase": true }));
     return;
   }
 
-  if (this.canBuild(gameState, "{civ}/structure_siege_workshop") && !gameState.getOwnEntitiesByClass("SiegeWorkshop", true).hasEntities())
+  if (this.canBuild(gameState, "{civ}/structure_hall") && !gameState.getOwnEntitiesByClass("Hall", true).hasEntities())
   {
-    queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_siege_workshop", { "militaryBase": true }));
+      queues.militaryBuilding.addPlan(new m.ConstructionPlan(gameState, "{civ}/structure_hall", { "militaryBase": true }));
     return;
   }
 

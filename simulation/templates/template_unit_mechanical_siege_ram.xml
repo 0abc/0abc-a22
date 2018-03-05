@@ -8,13 +8,9 @@
   <Attack>
     <Melee>
       <Bonuses>
-        <Gates>
-          <Classes>Gates</Classes>
-          <Multiplier>2.0</Multiplier>
-        </Gates>
         <Structures>
           <Classes>Structure</Classes>
-          <Multiplier>4.0</Multiplier>
+          <Multiplier>3.0</Multiplier>
         </Structures>
       </Bonuses>
       <Crush>20</Crush>
@@ -52,7 +48,7 @@
   <Identity>
     <GenericName>Battering Ram</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Counters: 8.0× vs Gates, 4.0× vs other Structures.</Tooltip>
+    <Tooltip>Counters: 3.0× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Loot>

@@ -18,14 +18,6 @@
   <Promotion>
     <Entity>pers/promoted/infantry_slinger_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/128x128.png</MainTexture>
-        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/macedonians/infantry_slinger_a.xml</Actor>
   </VisualActor>

@@ -49,9 +49,6 @@
       {civ}/siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      drill_chariotry_1
-      drill_chariotry_2
-      drill_chariotry_3
       siege_armour
       siege_attack      
       siege_cost_metal

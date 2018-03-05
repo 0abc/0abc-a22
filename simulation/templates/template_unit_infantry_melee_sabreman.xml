@@ -13,8 +13,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">30</metal>
-      <wood op="add">20</wood>
+      <metal op="add">20</metal>
+      <wood op="add">30</wood>
     </Resources>
   </Cost>
   <Health>
@@ -25,8 +25,8 @@
     <VisibleClasses datatype="tokens">Sabreman</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">6</metal>
-    <wood op="add">4</wood>
+    <metal op="add">4</metal>
+    <wood op="add">6</wood>
     <xp op="add">50</xp>
   </Loot>
   <UnitMotion>

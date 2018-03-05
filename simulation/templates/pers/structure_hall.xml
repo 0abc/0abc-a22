@@ -16,6 +16,7 @@
     <Entities datatype="tokens">
       {civ}/infantry_hoplite_champion
       {civ}/infantry_javelinist_champion
+      {civ}/chariot_scythed_champion
     </Entities>
   </ProductionQueue>
   <VisualActor>

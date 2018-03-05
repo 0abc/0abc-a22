@@ -17,7 +17,7 @@
       <MaxRange>90</MaxRange>
       <MinRange>15</MinRange>
       <Pierce>0</Pierce>
-      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <PreferredClasses datatype="tokens">Defensive</PreferredClasses>
       <PrepareTime>4000</PrepareTime>
       <ProjectileSpeed>37.5</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>

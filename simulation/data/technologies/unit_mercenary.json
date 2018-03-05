@@ -41,5 +41,5 @@
     {"value": "Loot/xp",                      "replace":  240,  "affects": "Quadriga"         },
     {"value": "Loot/xp",                      "replace":  300,  "affects": "Elephant"         }
   ],
-  "tooltip": "Mercenaries have +1 crush, hack, and pierce armour, +15% melee and ranged attack crush, hack, and pierce damage, −50% training time, +10% health, and cost silver instead of other resources."
+  "tooltip": "Mercenary units have +1 crush, hack, and pierce armour, +15% melee and ranged attack crush, hack, and pierce damage, −50% training time, +10% health, and cost silver instead of other resources."
 }

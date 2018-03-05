@@ -19,14 +19,6 @@
   <Promotion>
     <Entity>athen/promoted/infantry_slinger_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/128x128.png</MainTexture>
-        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/athenians/infantry_slinger_b.xml</Actor>
   </VisualActor>

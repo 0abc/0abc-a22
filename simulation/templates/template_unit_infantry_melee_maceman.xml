@@ -18,8 +18,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">20</metal>
-      <wood op="add">30</wood>
+      <metal op="add">15</metal>
+      <wood op="add">35</wood>
     </Resources>
   </Cost>
   <Health>
@@ -32,8 +32,8 @@ Penalties: 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Maceman</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">4</metal>
-    <wood op="add">6</wood>
+    <metal op="add">3</metal>
+    <wood op="add">7</wood>
     <xp op="add">50</xp>
   </Loot>
   <UnitMotion>

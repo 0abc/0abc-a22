@@ -10,8 +10,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">30</metal>
-      <wood op="add">40</wood>
+      <metal op="add">25</metal>
+      <wood op="add">50</wood>
     </Resources>
   </Cost>
   <Health>
@@ -24,8 +24,8 @@ Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
   </Identity>
   <Loot>
-    <metal op="add">6</metal>
-    <wood op="add">8</wood>
-    <xp op="add">70</xp>
+    <metal op="add">5</metal>
+    <wood op="add">10</wood>
+    <xp op="add">75</xp>
   </Loot>
 </Entity>

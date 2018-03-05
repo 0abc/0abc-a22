@@ -301,7 +301,7 @@ m.ConstructionPlan.prototype.findGoodPosition = function(gameState)
 
   let radius = 0;
   if (template.hasClass("Fortress") || 
-    this.type === gameState.applyCiv("{civ}/structure_siege_workshop") ||
+    this.type === gameState.applyCiv("{civ}/structure_workshop") ||
     this.type === gameState.applyCiv("{civ}/structure_hall") ||
     this.type === gameState.applyCiv("{civ}/structure_elephant_stables"))
     radius = Math.floor((template.obstructionRadius() + 12) / obstructions.cellSize);

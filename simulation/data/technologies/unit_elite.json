@@ -1,0 +1,21 @@
+{
+  "affects": ["Elite"],
+  "autoResearch": true,
+  "icon": "upgrade_elite.png",
+  "modifications": [
+    {"value": "Armour/Crush",                 "add":      2                                   },
+    {"value": "Armour/Hack",                  "add":      2                                   },
+    {"value": "Armour/Pierce",                "add":      2                                   },
+    {"value": "Attack/Capture/Value",         "multiply": 1.6                                 },
+    {"value": "Attack/Melee/Crush",           "multiply": 1.6, "affects": "Melee"             },
+    {"value": "Attack/Melee/Hack",            "multiply": 1.6, "affects": "Melee"             },
+    {"value": "Attack/Melee/Pierce",          "multiply": 1.6, "affects": "Melee"             },
+    {"value": "Attack/Ranged/Crush",          "multiply": 1.6, "affects": "Ranged"            },
+    {"value": "Attack/Ranged/Hack",           "multiply": 1.6, "affects": "Ranged"            },
+    {"value": "Attack/Ranged/Pierce",         "multiply": 1.6, "affects": "Ranged"            },
+    {"value": "Cost/BuildTime",               "multiply": 1.6                                 },
+    {"value": "Health/Max",                   "multiply": 1.1                                 },
+    {"value": "Promotion/RequiredXp",         "multiply": 1.6                                 }
+  ],
+  "tooltip": "Elite units have +2 crush, hack, and pierce armour, +60% capture attack strength, +60% melee and ranged attack crush, hack, and pierce damage, but also +60% training time, increased metal and wood costs, and +60% experience required to promote to the next rank."
+}

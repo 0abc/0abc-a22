@@ -20,14 +20,6 @@
   <Promotion>
     <Entity>rome/promoted/infantry_sabreman_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/128x128.png</MainTexture>
-        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/carthaginians/infantry_swordsman_2_b.xml</Actor>
   </VisualActor>

@@ -15,6 +15,7 @@
       {civ}/infantry_pikeman_champion
       {civ}/infantry_swordsman_champion
       {civ}/cavalry_lancer_champion
+      {civ}/chariot_scythed_champion
     </Entities>
     <Technologies datatype="tokens">
       special/parade

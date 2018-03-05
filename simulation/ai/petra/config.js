@@ -15,20 +15,20 @@ m.Config = function(difficulty)
 
   this.Military = {
     "towerLapseTime" : 90, // Time to wait between building 2 towers
-    "fortressLapseTime" : 390, // Time to wait between building 2 fortresses
+    "fortressLapseTime" : 360, // Time to wait between building 2 fortresses
     "popForBarracks1" : 25,
     "popForBarracks2" : 95,
-    "popForBlacksmith" : 65,
+    "popForBlacksmith" : 60,
     "numSentryTowers" : 1
   };
   this.Economy = {
     "popForTown" : 40,  // How many units we want before aging to town.
     "workForCity" : 80,   // How many workers we want before aging to city.
-    "cityPhase" : 840,  // time to start trying to reach city phase
-    "popForMarket" : 50,
+    "cityPhase" : 600,  // time to start trying to reach city phase
+    "popForMarket" : 35,
     "popForDock" : 25,
     "targetNumWorkers" : 40, // dummy, will be changed later
-    "targetNumTraders" : 10, // Target number of traders
+    "targetNumTraders" : 20, // Target number of traders
     "targetNumFishers" : 1, // Target number of fishers per sea
     "supportRatio" : 0.3, // fraction of support workers among the workforce
     "provisionFields" : 2
@@ -164,7 +164,7 @@ m.Config.prototype.setConfig = function(gameState)
     {
       this.Military.popForBarracks1 = 12;
       this.Economy.popForTown = 55;
-      this.Economy.popForMarket = 60;
+      this.Economy.popForMarket = 50;
       this.priorities.defenseBuilding = 60;
       this.priorities.healer = 10;
     }

@@ -12,14 +12,6 @@
   <Promotion>
     <Entity>iber/promoted/cavalry_spearman_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/iberians/cavalry_spearman_b.xml</Actor>
   </VisualActor>

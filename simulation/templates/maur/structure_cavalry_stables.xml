@@ -3,6 +3,16 @@
   <Identity>
     <Civ>maur</Civ>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/chariot_archer_champion
+    </Entities>
+    <Technologies datatype="tokens">
+      drill_chariotry_1
+      drill_chariotry_2
+      drill_chariotry_3
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/persians/stables.xml</Actor>
   </VisualActor>

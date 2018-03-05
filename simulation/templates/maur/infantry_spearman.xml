@@ -22,14 +22,6 @@
   <Promotion>
     <Entity>maur/promoted/infantry_spearman_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/128x128.png</MainTexture>
-        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/mauryans/infantry_spearman_b.xml</Actor>
   </VisualActor>

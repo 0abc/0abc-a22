@@ -14,14 +14,6 @@
   <Promotion>
     <Entity>athen/promoted/cavalry_sabreman_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/athenians/cavalry_swordsman_b.xml</Actor>
   </VisualActor>

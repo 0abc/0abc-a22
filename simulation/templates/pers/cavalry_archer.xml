@@ -13,14 +13,6 @@
   <Promotion>
     <Entity>pers/promoted/cavalry_archer_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/seleucids/cavalry_archer_b.xml</Actor>
   </VisualActor>

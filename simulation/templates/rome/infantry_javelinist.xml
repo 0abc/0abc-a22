@@ -20,14 +20,6 @@
   <Promotion>
     <Entity>rome/promoted/infantry_javelinist_1</Entity>
   </Promotion>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/128x128.png</MainTexture>
-        <MainTextureMask>rhombus/128x128_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>units/romans/infantry_javelinist_b.xml</Actor>
   </VisualActor>

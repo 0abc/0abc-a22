@@ -1,54 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic">
-  <Auras datatype="tokens">
-    structures/monument
-  </Auras>
+<Entity parent="template_structure">
+  <Armour>
+    <Crush>5</Crush>
+    <Hack>20</Hack>
+    <Pierce>30</Pierce>
+  </Armour>
   <BuildRestrictions>
-    <Category>Monument</Category>
+    <Category>Pillar</Category>
     <Distance>
-      <FromClass>Monument</FromClass>
-      <MinDistance>150</MinDistance>
+      <FromClass>Pillar</FromClass>
+      <MinDistance>100</MinDistance>
     </Distance>
   </BuildRestrictions>
   <Capturable disable=""/>
   <Cost>
     <BuildTime>120</BuildTime>
     <Resources>
-      <food>0</food>
       <metal>100</metal>
       <stone>100</stone>
-      <wood>0</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="10.0" depth="10.0"/>
-    <Height>8.0</Height>
-  </Footprint>
   <GarrisonHolder disable=""/>
   <Health>
     <Max op="mul">1.2</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>iber</Civ>
-    <Classes datatype="tokens">Monument</Classes>
-    <GenericName>Revered Monument</GenericName>
-    <Icon>structures/iberian_bull.png</Icon>
+    <Classes datatype="tokens">Pillar</Classes>
+    <GenericName>Monumental Pillar</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <SpecificName>Gur Oroigarri</SpecificName>
-    <Tooltip>All units within vision of this monument will fight harder. Buildings in the territory of the monument do not decay.</Tooltip>
+    <Tooltip>Territory root.</Tooltip>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Loot>
-    <food>0</food>
     <metal>10</metal>
     <silver>20</silver>
     <stone>10</stone>
-    <wood>0</wood>
   </Loot>
-  <Obstruction>
-    <Static width="10.0" depth="10.0"/>
-  </Obstruction>
+  <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
   <Sound>
     <SoundGroups>
@@ -62,11 +51,7 @@
     <Root>true</Root>
     <Weight>40000</Weight>
   </TerritoryInfluence>
-  <Vision>
-    <Range>60</Range>
-  </Vision>
   <VisualActor>
-    <Actor>structures/iberians/sb_1.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

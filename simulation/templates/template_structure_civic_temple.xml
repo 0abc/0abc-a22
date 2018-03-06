@@ -13,10 +13,8 @@
   <Cost>
     <BuildTime op="mul">2.0</BuildTime>
     <Resources>
-      <food>50</food>
-      <metal>0</metal>
       <stone>300</stone>
-      <wood>50</wood>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -40,11 +38,9 @@
     <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <metal>0</metal>
     <silver>40</silver>
     <stone>60</stone>
-    <wood>10</wood>
+    <wood>20</wood>
   </Loot>
   <Obstruction>
     <Static width="17.5" depth="30.0"/>
@@ -64,6 +60,12 @@
       health_regen_units
     </Technologies>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Interval>30000</Interval>
+    <Rates>
+      <food>-1.0</food>
+    </Rates>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/complete_temple.xml</constructed>

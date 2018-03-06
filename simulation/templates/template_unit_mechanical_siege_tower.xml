@@ -8,18 +8,18 @@
   <Attack>
     <Ranged>
       <Bonuses>
-        <Fortifications>
+        <Structures>
           <Classes>Fortification</Classes>
           <Multiplier>2.0</Multiplier>
-        </Fortifications>
+        </Structures>
       </Bonuses>
-      <Crush>10</Crush>
+      <Crush>5</Crush>
       <ElevationBonus>10</ElevationBonus>
       <Hack>0</Hack>
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
-      <Pierce>10</Pierce>
-      <PreferredClasses datatype="tokens">Fortification Human</PreferredClasses>
+      <Pierce>5</Pierce>
+      <PreferredClasses datatype="tokens">Structure Human</PreferredClasses>
       <PrepareTime>1200</PrepareTime>
       <ProjectileSpeed>75</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
@@ -56,14 +56,14 @@
     <Max>20</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">6.0</Max>
+    <Max op="mul">7.5</Max>
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
     <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SpecificName>Helépolis</SpecificName>
     <Tooltip>Garrison units for transport and to increase firepower.
-Counters: 2.0× vs Fortifications (fortresses, towers, wall turrets).</Tooltip>
+Counters: 2.0× vs Fortifications.</Tooltip>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
   </Identity>
   <Loot>
@@ -78,10 +78,7 @@ Counters: 2.0× vs Fortifications (fortresses, towers, wall turrets).</Tooltip>
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <Run>
-      <Speed>8.0</Speed>
-    </Run>
-    <WalkSpeed>6.0</WalkSpeed>
+    <WalkSpeed>5.0</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range op="add">50</Range>

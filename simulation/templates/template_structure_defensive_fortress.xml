@@ -68,7 +68,7 @@
     <GenericName>Fortress</GenericName>
     <Icon>structures/fortress.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Build siege engines. Research siege weapon improvements. Garrison soldiers inside for stout defence.</Tooltip>
+    <Tooltip>Territory root. Garrison soldiers inside for stout defence.</Tooltip>
     <VisibleClasses datatype="tokens">Fortress</VisibleClasses>
   </Identity>
   <Loot>
@@ -89,9 +89,11 @@
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
-    <Interval>7000</Interval>
+    <Interval>30000</Interval>
     <Rates>
+      <food>-4.0</food>
       <silver>-1.0</silver>
+      <wood>-1.0</wood>
     </Rates>
   </ResourceTrickle>
   <Sound>

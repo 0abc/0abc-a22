@@ -29,8 +29,8 @@
     <GenericName>Worker Elephant</GenericName>
     <Icon>units/maur_support_elephant.png</Icon>
     <SpecificName>Karmākara Gaja</SpecificName>
-    <Tooltip>Mobile dropsite. Can also assist in constructing buildings.</Tooltip>
-    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
+    <Tooltip>Mobile dropsite.</Tooltip>
+    <VisibleClasses datatype="tokens">Elephant Builder</VisibleClasses>
   </Identity>
   <Loot>
     <food>15</food>

@@ -17,7 +17,6 @@
     <Limits>
       <Boat>0</Boat>
       <Centre>1</Centre>
-      <Council>1</Council>
       <DogKennel>5</DogKennel>
       <Embassy>2</Embassy>
       <Fortress>10</Fortress>
@@ -25,9 +24,8 @@
       <Hero>1</Hero>
       <Library>1</Library>
       <Lighthouse>1</Lighthouse>
-      <Monument>5</Monument>
       <Palace>1</Palace>
-      <Pillar>0</Pillar>
+      <Pillar>5</Pillar>
       <Theatre>1</Theatre>
       <Tower>10</Tower>
       <Trader>0</Trader>
@@ -45,9 +43,6 @@
       <Hall>
         <Centre>1</Centre>
       </Hall>
-      <Pillar>
-        <Ashoka>5</Ashoka>
-      </Pillar>
       <Tower>
         <Centre>5</Centre>
       </Tower>

@@ -4,7 +4,7 @@
     <Entities datatype="tokens">
       -{civ}/structure_hall
       -{civ}/structure_shipyard
-      iber/structure_monument
+      iber/structure_pillar
     </Entities>
   </Builder>
   <Identity>

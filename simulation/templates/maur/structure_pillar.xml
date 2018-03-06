@@ -1,70 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic">
+<Entity parent="template_structure_civic_pillar">
   <Auras datatype="tokens">
     structures/pillar
   </Auras>
-  <BuildRestrictions>
-    <Category>Pillar</Category>
-    <Distance>
-      <FromClass>Pillar</FromClass>
-      <MinDistance>75</MinDistance>
-    </Distance>
-  </BuildRestrictions>
-  <Capturable disable=""/>
-  <Cost>
-    <BuildTime>80</BuildTime>
-    <Resources>
-      <food>0</food>
-      <metal>100</metal>
-      <stone>100</stone>
-      <wood>0</wood>
-    </Resources>
-  </Cost>
-  <Footprint replace="">
+  <Footprint>
     <Square width="7.0" depth="7.0"/>
     <Height>5.0</Height>
   </Footprint>
-  <GarrisonHolder disable=""/>
-  <Health>
-    <Max op="mul">1.2</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>maur</Civ>
-    <Classes datatype="tokens">Pillar</Classes>
     <GenericName>Edict Pillar of Ashoka</GenericName>
     <Icon>structures/ashoka_pillar.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <SpecificName>Śāsana Stambha Aśokā</SpecificName>
-    <Tooltip>The famous pillar of Ashoka. Increases the walk speed of traders. Buildings in the territory of the monument do not decay.</Tooltip>
-    <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>0</food>
-    <metal>10</metal>
-    <silver>20</silver>
-    <stone>10</stone>
-    <wood>0</wood>
-  </Loot>
   <Obstruction>
     <Static width="4" depth="4"/>
   </Obstruction>
-  <ProductionQueue disable=""/>
-  <RallyPoint disable=""/>
-  <Sound>
-    <SoundGroups>
-      <constructed>interface/complete/building/complete_iber_monument.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-      <select>interface/select/building/sel_iber_monument.xml</select>
-    </SoundGroups>
-  </Sound>
-  <TerritoryInfluence>
-    <Radius>40</Radius>
-    <Root>true</Root>
-    <Weight>40000</Weight>
-  </TerritoryInfluence>
   <VisualActor>
     <Actor>props/structures/mauryans/ashoka_pillar.xml</Actor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

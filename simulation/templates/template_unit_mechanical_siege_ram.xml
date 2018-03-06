@@ -10,12 +10,12 @@
       <Bonuses>
         <Structures>
           <Classes>Structure</Classes>
-          <Multiplier>3.0</Multiplier>
+          <Multiplier>2.0</Multiplier>
         </Structures>
       </Bonuses>
       <Crush>20</Crush>
       <Hack>0</Hack>
-      <MaxRange>8</MaxRange>
+      <MaxRange>6</MaxRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
       <PrepareTime>750</PrepareTime>
@@ -29,8 +29,6 @@
     <Resources>
       <food>100</food>
       <metal>100</metal>
-      <silver>0</silver>
-      <stone>0</stone>
       <wood>400</wood>
     </Resources>
   </Cost>
@@ -48,20 +46,18 @@
   <Identity>
     <GenericName>Battering Ram</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Counters: 3.0× vs Structures.</Tooltip>
+    <Tooltip>Counters: 2.0× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>
     <metal>20</metal>
-    <silver>0</silver>
-    <stone>0</stone>
     <wood>80</wood>
     <xp>600</xp>
   </Loot>
   <UnitMotion>
     <Run>
-      <Speed>10.0</Speed>
+      <Speed>8.0</Speed>
     </Run>
     <WalkSpeed>6.0</WalkSpeed>
   </UnitMotion>

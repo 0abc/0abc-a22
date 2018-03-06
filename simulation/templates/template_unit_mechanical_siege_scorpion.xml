@@ -19,10 +19,10 @@
     <Population op="mul">1.0</Population>
     <Resources>
       <food>50</food>
-      <metal>100</metal>
+      <metal>75</metal>
       <silver>0</silver>
       <stone>0</stone>
-      <wood>100</wood>
+      <wood>75</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -38,11 +38,11 @@
   </Identity>
   <Loot>
     <food>10</food>
-    <metal>20</metal>
+    <metal>15</metal>
     <silver>0</silver>
     <stone>0</stone>
-    <wood>20</wood>
-    <xp>125</xp>
+    <wood>15</wood>
+    <xp>100</xp>
   </Loot>
   <Sound>
     <SoundGroups>
@@ -51,7 +51,7 @@
   </Sound>
   <UnitMotion>
     <Run>
-      <Speed>12.0</Speed>
+      <Speed>11.0</Speed>
     </Run>
     <WalkSpeed>9.0</WalkSpeed>
   </UnitMotion>

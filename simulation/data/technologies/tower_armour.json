@@ -1,6 +1,6 @@
 {
   "affects": ["DefenseTower"],
-  "cost": {"food": 0, "wood": 500, "stone": 500, "metal": 500},
+  "cost": {"food": 0, "wood": 500, "stone": 500, "metal": 0},
   "description": "Reinforce the foundations in preparation of an attack.",
   "genericName": "Sturdy Foundations",
   "icon": "architecture.png",

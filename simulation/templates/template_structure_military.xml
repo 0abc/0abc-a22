@@ -28,9 +28,10 @@
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
   <ResourceTrickle>
-    <Interval>7000</Interval>
+    <Interval>30000</Interval>
     <Rates>
-      <food>-1.0</food>
+      <food>-4.0</food>
+      <wood>-1.0</wood>
     </Rates>
   </ResourceTrickle>
   <TerritoryInfluence>

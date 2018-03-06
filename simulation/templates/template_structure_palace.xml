@@ -32,7 +32,7 @@
     <GenericName>Palace</GenericName>
     <Icon>structures/palace.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Gain a trickle of silver. Train champion guards.</Tooltip>
+    <Tooltip>Territory root. Gain a trickle of silver. Train champion guards.</Tooltip>
     <VisibleClasses datatype="tokens">City Palace</VisibleClasses>
   </Identity>
   <Loot>

@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_temple">
+<Entity parent="template_structure_civic">
   <Auras datatype="tokens">
     structures/loyalty_regen
   </Auras>
   <BuildRestrictions>
     <Category>UniqueBuilding</Category>
   </BuildRestrictions>
+  <Cost>
+    <BuildTime op="mul">2.0</BuildTime>
+    <Resources>
+      <stone>200</stone>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
   <Footprint replace="">
     <Circle radius="11.0"/>
     <Height>12.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Human</List>
+    <Max>5</Max>
+  </GarrisonHolder>
   <Health>
+    <Max op="mul">2.0</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -19,8 +31,14 @@
     <Icon>structures/temple_vesta.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Aedes Vestae</SpecificName>
-    <VisibleClasses datatype="tokens">-Town City</VisibleClasses>
+    <Tooltip>Territory root.</Tooltip>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
   </Identity>
+  <Loot>
+    <silver>30</silver>
+    <stone>40</stone>
+    <wood>20</wood>
+  </Loot>
   <Obstruction>
     <Static width="19.0" depth="19.0"/>
   </Obstruction>
@@ -29,6 +47,28 @@
       special/vision
     </Technologies>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Interval>7000</Interval>
+    <Rates>
+      <food>-1.0</food>
+      <wood>-1.0</wood>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_temple.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_temple.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>40</Radius>
+    <Root>true</Root>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
   <VisualActor>
     <Actor>structures/romans/temple_vesta.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>

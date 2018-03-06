@@ -72,6 +72,12 @@
     <BarWidth>6.0</BarWidth>
     <HeightOffset>18.0</HeightOffset>
   </StatusBars>
+  <ResourceTrickle>
+    <Interval>30000</Interval>
+    <Rates>
+      <food>-1.0</food>
+    </Rates>
+  </ResourceTrickle>
   <Vision>
     <Range>100</Range>
   </Vision>

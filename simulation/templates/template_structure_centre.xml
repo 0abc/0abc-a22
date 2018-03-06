@@ -83,7 +83,7 @@
     <Classes datatype="tokens">CivCentre</Classes>
     <GenericName>Centre</GenericName>
     <Icon>structures/civic_centre.png</Icon>
-    <Tooltip>Build to acquire large tracts of territory. Train citizens.</Tooltip>
+    <Tooltip>Territory root. Build to acquire large tracts of territory. Train citizens.</Tooltip>
     <VisibleClasses datatype="tokens">Centre</VisibleClasses>
   </Identity>
   <Loot>

@@ -52,7 +52,7 @@ m.Config = function(difficulty)
       "brit": [ "{civ}/structure_rotarymill" ],
       "cart": [ "{civ}/structure_harbour" ],
       "gaul": [ "{civ}/structure_rotarymill" ],
-      "iber": [ "{civ}/structure_monument" ],
+      "iber": [ "{civ}/structure_pillar" ],
       "mace": [ "{civ}/structure_library", "{civ}/structure_theatre" ],
       "maur": [ "{civ}/structure_palace", "{civ}/structure_pillar" ],
       "pers": [ "{civ}/structure_palace" ],

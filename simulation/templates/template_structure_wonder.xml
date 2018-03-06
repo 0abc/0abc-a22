@@ -53,7 +53,7 @@
     <GenericName>Wonder</GenericName>
     <Icon>structures/wonder.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Tooltip>Bring glory to your civilization and add large tracts of land to your empire. Garrison units to heal them at a quick rate.</Tooltip>
+    <Tooltip>Territory root. Bring glory to your civilization. Garrison units to heal them at a quick rate.</Tooltip>
     <VisibleClasses datatype="tokens">City Wonder</VisibleClasses>
   </Identity>
   <Loot>

@@ -15,7 +15,7 @@
   <Identity>
     <GenericName>Slave</GenericName>
     <Icon>units/global_slave.png</Icon>
-    <Tooltip>Gatherer with a finite life span. Bonused at mining and lumbering.</Tooltip>
+    <Tooltip>Gatherer bonused at mining, quarrying, and lumbering.</Tooltip>
     <VisibleClasses datatype="tokens">Builder Worker Slave</VisibleClasses>
   </Identity>
   <Loot>
@@ -31,11 +31,11 @@
       <food.fruit>0.5</food.fruit>
       <food.grain>0.35</food.grain>
       <food.meat>0.8</food.meat>
-      <wood.tree>1.0</wood.tree>
-      <wood.ruins>5</wood.ruins>
-      <stone.rock>0.5</stone.rock>
-      <stone.ruins>5</stone.ruins>
       <metal.ore>0.5</metal.ore>
+      <stone.rock>0.5</stone.rock>
+      <stone.ruins>2.5</stone.ruins>
+      <wood.ruins>5</wood.ruins>
+      <wood.tree>1.0</wood.tree>
       <treasure disable=""/>
     </Rates>
   </ResourceGatherer>

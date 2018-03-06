@@ -49,9 +49,9 @@
       <food.meat>0.8</food.meat>
       <metal.ore>0.2</metal.ore>
       <stone.rock>0.2</stone.rock>
-      <stone.ruins>2</stone.ruins>
-      <wood.ruins>5</wood.ruins>
-      <wood.tree>0.7</wood.tree>
+      <stone.ruins>1.0</stone.ruins>
+      <wood.ruins>2.5</wood.ruins>
+      <wood.tree>0.5</wood.tree>
     </Rates>
   </ResourceGatherer>
   <Selectable>

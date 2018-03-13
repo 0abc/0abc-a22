@@ -14,7 +14,7 @@
   [
     {
       "Name":"Ptolemaic Egyptians",
-      "Description":"The great Greek-Macedonian dynastic rule over Ancient Egypt.",
+      "Description":"The great Macedonian-Greek dynastic rule over Hellenistic Egypt.",
       "Technologies":
       [
         {
@@ -79,11 +79,6 @@
   ],
   "TeamBonuses":
   [
-    {
-      "Name": "Breadbasket of the Mediterranean",
-      "History": "Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
-      "Description": "Units −4% food cost."
-    }
   ],
   "Structures":
   [

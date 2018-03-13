@@ -1,0 +1,18 @@
+{
+  "affects": ["Ram"],
+  "autoResearch": true,
+  "description": "Assyrian battering rams were large, towering machines.",
+  "genericName": "Mesopotamian Siege Rams",
+  "icon": "siege_ram.png",
+  "modifications": [
+    {"value": "Cost/Resources/wood",  "multiply": 1.50},
+    {"value": "GarrisonHolder/Max",   "add":         4},
+    {"value": "Health/Max",           "multiply": 1.50},
+    {"value": "Loot/wood",            "add":        30},
+    {"value": "Loot/xp",              "multiply": 1.50},
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.80},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.80}
+  ],
+  "requirements": {"civ": "pers"},
+  "tooltip": "Siege rams +50% wood cost, +50% health, and +4 garrison capacity, but also −20% movement speed."
+}

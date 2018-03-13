@@ -19,7 +19,7 @@
         {
           "Name": "Colonization",
           "History": "Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
-          "Description": "Centers and docks -30% build time."
+          "Description": "Centers and docks −30% build time."
         }
       ],
       "Heroes":
@@ -29,14 +29,14 @@
           "Class": "",
           "Armament": "",
           "Emblem": "",
-          "History": "Carthage's most famous son. Hannibal Barca was the eldest son of Hamilcar Barca and proved an even greater commander than his father. Lived 247-182 B.C. While he ultimately lost the Second Punic War his victories at Trebia, Lake Trasimene, and Cannae, and the feat of crossing the Alps have secured his position as among the best tacticians and strategists in history."
+          "History": "Carthage's most famous son. Hannibal Barca was the eldest son of Hamilcar Barca and proved an even greater commander than his father. Lived 247–182 B.C. While he ultimately lost the Second Punic War his victories at Trebia, Lake Trasimene, and Cannae, and the feat of crossing the Alps have secured his position as among the best tacticians and strategists in history."
         },
         {
           "Name": "Hamilcar Barca",
           "Class": "",
           "Armament": "",
           "Emblem": "",
-          "History": "Father of Hannibal and virtual military dictator. Hamilcar Barca was a soldier and politician who excelled along his entire career. Lived 275-228 B.C. While overshadowed by his sons, Hamilcar was great general in his own right, earning the nickname Baraq or Barca for the lightning speed of his advance."
+          "History": "Father of Hannibal and virtual military dictator. Hamilcar Barca was a soldier and politician who excelled along his entire career. Lived 275–228 B.C. While overshadowed by his sons, Hamilcar was great general in his own right, earning the nickname Baraq or Barca for the lightning speed of his advance."
         },
         {
           "Name": "Maharbal",
@@ -73,11 +73,6 @@
   ],
   "TeamBonuses":
   [
-    {
-      "Name": "Trade Network",
-      "History": "The Phoenicians and Carthaginians were broadly known as the greatest trading civilization of the ancient and classical world.",
-      "Description": "Economic structures −20% building time."
-    }
   ],
   "Structures":
   [

@@ -26,7 +26,7 @@
   </Identity>
   <Loot>
     <wood op="add">15</wood>
-    <xp op="add">75</xp>
+    <xp op="mul">2.0</xp>
   </Loot>
   <ResourceTrickle>
     <Rates>

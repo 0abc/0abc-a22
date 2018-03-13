@@ -2,12 +2,6 @@
 <Entity parent="template_unit_infantry_ranged">
   <Attack>
     <Ranged>
-      <Bonuses>
-        <Infantry>
-          <Classes>Infantry Spearman</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Infantry>
-      </Bonuses>
       <Crush>2.0</Crush>
       <Hack>8.0</Hack>
       <MaxRange op="mul">1.0</MaxRange>
@@ -26,7 +20,6 @@
   </Health>
   <Identity>
     <GenericName>Throwing Axeman</GenericName>
-    <Tooltip>Counters: 1.5× vs Infantry Spearmen.</Tooltip>
     <VisibleClasses datatype="tokens">Axe</VisibleClasses>
   </Identity>
   <Loot>

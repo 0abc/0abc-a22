@@ -2,12 +2,6 @@
 <Entity parent="template_unit_cavalry_melee">
   <Attack>
     <Melee>
-      <Bonuses>
-        <Infantry>
-          <Classes>Infantry Ranged</Classes>
-          <Multiplier>1.25</Multiplier>
-        </Infantry>
-      </Bonuses>      
       <Crush>1.0</Crush>
       <Pierce>7.0</Pierce>
     </Melee>
@@ -23,8 +17,6 @@
   </Health>
   <Identity>
     <GenericName>Cavalry Lancer</GenericName>
-    <Tooltip>Counters: 1.25× vs Ranged Infantry.
-Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Lancer</VisibleClasses>
   </Identity>
   <Loot>

@@ -13,6 +13,6 @@
     {"value": "Loot/stone",               "multiply": 0.8},
     {"value": "Loot/wood",                "multiply": 0.8}
   ],
-  "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
+  "requirements": {"any": [{"civ": "brit"}, {"civ": "gaul"}]},
   "tooltip": "Celtic walls, gates, and wall turrets −20% resource costs, build time, capture points, and health."
 }

@@ -32,6 +32,7 @@
   </Attack>
   <Identity>
     <GenericName>Melee Cavalry</GenericName>
+    <Tooltip>Penalties: 0.75× vs Camels, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
   </Identity>
 </Entity>

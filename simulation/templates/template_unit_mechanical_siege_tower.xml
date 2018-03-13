@@ -56,7 +56,7 @@
     <Max>20</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">7.5</Max>
+    <Max op="mul">9.0</Max>
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
@@ -72,7 +72,7 @@ Counters: 2.0× vs Fortifications.</Tooltip>
     <silver>0</silver>
     <stone>20</stone>
     <wood>120</wood>
-    <xp>600</xp>
+    <xp op="mul">9.0</xp>
   </Loot>
   <StatusBars>
     <HeightOffset>12.0</HeightOffset>

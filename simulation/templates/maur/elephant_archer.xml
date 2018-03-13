@@ -13,6 +13,6 @@
     <Entity>maur/promoted/elephant_archer_1</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mauryans/elephant_archer_b.xml</Actor>
+    <Actor>units/mauryans/elephant_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

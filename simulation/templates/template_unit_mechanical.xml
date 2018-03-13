@@ -12,6 +12,9 @@
     <GenericName>Mechanical</GenericName>
     <VisibleClasses datatype="tokens">Mechanical</VisibleClasses>
   </Identity>
+  <Loot>
+    <xp>100</xp>
+  </Loot>
   <Repairable>
     <RepairTimeRatio>4.0</RepairTimeRatio>
   </Repairable>

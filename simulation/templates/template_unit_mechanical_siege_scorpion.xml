@@ -42,7 +42,7 @@
     <silver>0</silver>
     <stone>0</stone>
     <wood>15</wood>
-    <xp>100</xp>
+    <xp op="mul">1.0</xp>
   </Loot>
   <Sound>
     <SoundGroups>

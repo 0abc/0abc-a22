@@ -10,7 +10,7 @@
       </Bonuses>
       <Crush>0</Crush>
       <Hack>0</Hack>
-      <MaxRange>12.0</MaxRange>
+      <MaxRange>16.0</MaxRange>
       <MinRange>0.0</MinRange>
       <Pierce>0</Pierce>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
@@ -20,6 +20,9 @@
       <Spread>1.0</Spread>
     </Ranged>
   </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+  </BuildingAI>
   <Cost>
     <BuildTime>40</BuildTime>
     <Population>6</Population>

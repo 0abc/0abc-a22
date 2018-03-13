@@ -2,6 +2,5 @@
 <Entity parent="special/player">
   <Auras datatype="tokens">
     civbonuses/athen_navy
-    teambonuses/athen_player_teambonus
   </Auras>
 </Entity>

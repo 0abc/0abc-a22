@@ -49,7 +49,7 @@
   <Loot>
     <food>1</food>
     <wood>4</wood>
-    <xp>5</xp>
+    <xp op="mul">0.3</xp>
   </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>

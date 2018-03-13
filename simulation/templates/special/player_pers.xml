@@ -2,6 +2,6 @@
 <Entity parent="special/player">
   <Auras datatype="tokens">
     civbonuses/pers_territory
-    teambonuses/pers_player_teambonus
+    civbonuses/pers_trade
   </Auras>
 </Entity>

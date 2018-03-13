@@ -9,12 +9,8 @@
       <Bonuses>
         <Elephantry>
           <Classes>Elephant</Classes>
-          <Multiplier>2.0</Multiplier>
-        </Elephantry>
-        <Siege>
-          <Classes>Siege</Classes>
           <Multiplier>1.5</Multiplier>
-        </Siege>
+        </Elephantry>
       </Bonuses>
       <Crush>1.2</Crush>
       <Hack>4.8</Hack>
@@ -32,7 +28,7 @@
   </Health>
   <Identity>
     <GenericName>Axeman</GenericName>
-    <Tooltip>Counters: 1.5× vs Siege weapons, 2.0× vs Elephants.</Tooltip>
+    <Tooltip>Counters: 1.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Axeman</VisibleClasses>
   </Identity>
   <Loot>

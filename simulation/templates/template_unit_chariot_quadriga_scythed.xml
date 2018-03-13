@@ -3,7 +3,7 @@
   <Attack>
     <Ranged>
       <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>9</Pierce>
+      <Pierce>12</Pierce>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">

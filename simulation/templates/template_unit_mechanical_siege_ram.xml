@@ -29,7 +29,7 @@
     <Resources>
       <food>100</food>
       <metal>100</metal>
-      <wood>400</wood>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -38,7 +38,7 @@
     <EjectHealth>0.1</EjectHealth>
     <List datatype="tokens">Infantry</List>
     <LoadingRange>2</LoadingRange>
-    <Max>10</Max>
+    <Max>8</Max>
   </GarrisonHolder>
   <Health>
     <Max op="mul">4.0</Max>
@@ -52,8 +52,8 @@
   <Loot>
     <food>20</food>
     <metal>20</metal>
-    <wood>80</wood>
-    <xp>600</xp>
+    <wood>60</wood>
+    <xp op="mul">4.0</xp>
   </Loot>
   <UnitMotion>
     <Run>

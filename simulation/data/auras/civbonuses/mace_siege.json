@@ -1,0 +1,9 @@
+{
+  "affects": ["Siege"],
+  "auraDescription": "Siege engineers were available in all major hellenistic centres, allowing Macedonian kings to quickly construct siege weapons locally. Siege weapons −20% construction time.",
+  "auraName": "Macedonian Siege Engineers",
+  "modifications": [
+    {"value": "Cost/BuildTime", "multiply": 0.8}
+  ],
+  "type": "global"
+}

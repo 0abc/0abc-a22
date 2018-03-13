@@ -2,6 +2,5 @@
 <Entity parent="special/player">
   <Auras datatype="tokens">
     civbonuses/sele_centres
-    teambonuses/sele_player_teambonus
   </Auras>
 </Entity>

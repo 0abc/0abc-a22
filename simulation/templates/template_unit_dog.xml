@@ -6,12 +6,6 @@
     <Pierce>1</Pierce>
   </Armour>
   <Attack>
-    <Slaughter>
-      <Crush>0</Crush>
-      <Hack>100</Hack>
-      <MaxRange>4</MaxRange>
-      <Pierce>0</Pierce>
-    </Slaughter>
     <Melee>
       <Bonuses>
         <Camelry>

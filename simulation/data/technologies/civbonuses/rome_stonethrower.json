@@ -8,8 +8,7 @@
     {"value": "Attack/Ranged/Crush",        "multiply": 1.2},
     {"value": "Attack/Ranged/Splash/Crush", "multiply": 1.2},
     {"value": "Cost/Resources/stone",       "add":       50},
-    {"value": "Loot/stone",                 "add":        5},
-    {"value": "Loot/xp",                    "add":       25}
+    {"value": "Loot/stone",                 "add":       10}
   ],
   "requirements": {"civ": "rome"},
   "tooltip": "Stone throwers inflict +20% crush damage, but also cost +50 stone each."

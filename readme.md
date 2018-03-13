@@ -34,8 +34,9 @@
 * Loot resources are standardized to 20% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
 * Loot experience is standardized to be equal to:
   * 100% of resource costs total (soldiers)
-  * 50% of resource costs total (siege weapons, war ships)
-  * 10% of resource costs total (fishing boats, merchant ships, support units)
+  * 10% of resource costs total (support units)
+  * 100% of maximum health (siege weapons)
+  * 20% of maximum health (ships)
   * 10% of maximum health (army camps, centres, fortresses, outposts, towers) 
   * nothing (other structures)
 * Economic buildings and walls can be constructed in neutral territory
@@ -189,15 +190,15 @@ And it can currently be used for:
 * Infantry longbowmen: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
 * Infantry slingers: 1.5× vs Infantry Archers, 0.125× vs Siege Weapons, Structures
 * Infantry javelinists: 1.25× vs all Archer units
-* Infantry axe throwers: 1.5× vs Infantry Spearmen
-* Infantry axemen: 1.5× vs Siege Weapons, 2.0× vs Elephantry
+* Infantry axe throwers: – 
+* Infantry axemen: 1.5× vs Elephantry
 * Infantry macemen: 1.5× vs Cavalry Cataphracts, 0.125× vs Structures
 * Infantry sabremen: –
 * Infantry swordsmen: –
 * Infantry longswordsmen: –
 * Infantry halberdiers: 2.0× vs Cavalry
-* Infantry spearmen: 1.5× vs Javelin Cavalry
-* Infantry hoplites: 1.25× vs Cavalry
+* Infantry spearmen: –
+* Infantry hoplites: –
 * Infantry pikemen: 1.25× vs Chariotry, 1.5× vs Cavalry, 1.75× vs Camelry, 2.0× vs Elephantry
 * Camel archers: 1.5× vs Support units, 0.5× vs Elephantry
 * Camel javelinists: 1.25× vs Cavalry
@@ -205,11 +206,11 @@ And it can currently be used for:
 * Cavalry crossbowmen: 1.25× vs Cavalry, 0.5× vs Elephantry, 0.125× vs Structures
 * Cavalry archers: 1.5× vs Cavalry Axe-, Sabre-, and Swordsmen, 0.5× vs Elephantry
 * Cavalry javelinists: 1.5× vs Chariotry
-* Cavalry axemen: 1.5× vs Siege Weapons, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Cavalry sabremen: 1.5× vs Infantry Slingers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Cavalry swordsmen: 1.5× vs Infantry Javelinists, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Cavalry spearmen: 1.5× vs Infantry Archers, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
-* Cavalry lancers: 1.25× vs Ranged Infantry, 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry axemen: 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry sabremen: 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry swordsmen: 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry spearmen: 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
+* Cavalry lancers: 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Archer biga chariots: 0.5× vs Elephantry
 * Javelin biga chariots: 0.5× vs Elephantry
 * Three-man biga chariots: 0.5× vs Elephantry
@@ -268,36 +269,40 @@ And it can currently be used for:
 * Iberians:
   * infantry javelinists have +10% ranged attack damage.
 * Macedonians:
-  * cavalry lancers have +10% melee attack damage.
+  * cavalry lancers have +10% melee attack damage;
+  * siege weapons have −20% construction time;
+  * battering rams have +20% wood cost, +20% maximum health, +2.0 garrison capacity, but also −10% movement speed.
 * Mauryans:
-  * +10% maximum population;
-  * workers −10% stone gather rate;
+  * no longer have +10% maximum population limit;
+  * soldiers −10% training time;
   * city walls have −20% health, capture points, and build time, cost no stone, but +200% wood;
-  * temples have −50% resource costs and construction time (former team bonus).
+  * battering rams have +10% wood cost and +10% maximum health, but also −5% movement speed.
 * Persians:
-  * +10% maximum population;
-  * +10% territory influence radius;
-  * workers −5% wood gather rate;
-  * battering rams have +20% maximum health but also cost +100 wood.
+  * no longer have +10% maximum population limit; 
+  * structures +10% territory influence radius;
+  * military structures −0.05 batch time multiplier;
+  * battering rams have +50% wood cost, +50% maximum health, +4.0 garrison capacity, but also −20% movement speed.
 * Ptolemies:
   * barracks, blacksmiths, houses, and economic structures cost −100 wood but have +50% building time;
   * healers have +3 healing range;
+  * battering rams have +20% wood cost, +20% maximum health, +2.0 garrison capacity, but also −10% movement speed;
   * temple technologies cost −30% resources and time.
 * Romans:
   * barracks technologies cost −25% resources and time;
   * infantry spearmen have +15% maximum health;
   * infantry swordsmen have +10% melee attack damage;
+  * battering rams have +30% wood cost, +30% maximum health, +2.0 garrison capacity, but also −15% movement speed;
   * stone throwers have +20% crush damage, but also cost +50.0 stone.
 * Seleucids:
-  * champion cataphract cavalry has +3 armour levels, −5 walk speed, +40 metal and +20 wood costs;
-  * champion cataphract elephants have +3 armour levels, −5 walk speed, +100 metal and +50 wood costs;
-  * centres have −30% resource costs (former team bonus).
+  * centres have −25% building time (former team bonus);
+  * battering rams have +20% wood cost, +20% maximum health, +2.0 garrison capacity, but also −10% movement speed.
 * Spartans:
-  * no longer have a −10% maximum population penalty;
+  * no longer have −10% maximum population limit;
   * females have +30% melee attack damage;
   * melee and ranged cavalry have a −10% attack damage penalty;
   * hoplites have +10% walk speed.
 
+<!--
 ## Team bonuses
 * Athenian allies: warships −20% construction time
 * Briton allies: units cost −4% metal
@@ -311,7 +316,7 @@ And it can currently be used for:
 * Roman allies: infantry longswordsmen, sabremen, swordsmen −20% training time
 * Seleucid allies: civic structures −20% building time
 * Spartan allies: infantry hoplites, pikemen, and spearmen −20% training time
-
+-->
 
 
 For more detailed information, please have a look at **0abc-readme.pdf**

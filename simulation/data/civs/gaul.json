@@ -85,11 +85,6 @@
   ],
   "TeamBonuses":
   [
-    {
-      "Name": "Celtic Migrations",
-      "History": "The Gauls frequently migrated and raided large parts of Europe, forcing others to develop their military accordingly.",
-      "Description": "Military structures −20% building time."
-    }
   ],
   "Structures":
   [

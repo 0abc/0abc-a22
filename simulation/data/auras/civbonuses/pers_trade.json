@@ -1,0 +1,9 @@
+{
+  "affects": ["LandTrader"],
+  "auraDescription": "Persian coins were valued and accepted everywhere, greatly encouraging trade.",
+  "auraName": "Single Currency",
+  "modifications": [
+    {"value": "Trader/GainMultiplier", "multiply": 1.10}
+  ],
+  "type": "global"
+}

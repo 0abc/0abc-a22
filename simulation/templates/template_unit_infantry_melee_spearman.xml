@@ -6,12 +6,6 @@
   </Armour>
   <Attack>
     <Melee>
-      <Bonuses>
-        <Cavalry>
-          <Classes>Ranged Cavalry</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Cavalry>
-      </Bonuses>
       <Hack>1</Hack>
       <MaxRange op="mul">2.0</MaxRange>
       <Pierce>5</Pierce>
@@ -28,7 +22,6 @@
   </Health>
   <Identity>
     <GenericName>Spearman</GenericName>
-    <Tooltip>Counters: 1.25× vs Ranged Cavalry.</Tooltip>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>
   <Loot>

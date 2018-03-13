@@ -1,0 +1,18 @@
+{
+  "affects": ["Ram"],
+  "autoResearch": true,
+  "description": "Hellenistic battering rams were somewhat larger.",
+  "genericName": "Hellenistic Siege Rams",
+  "icon": "siege_ram.png",
+  "modifications": [
+    {"value": "Cost/Resources/wood",  "multiply": 1.20},
+    {"value": "GarrisonHolder/Max",   "add":         2},
+    {"value": "Health/Max",           "multiply": 1.20},
+    {"value": "Loot/wood",            "add":        12},
+    {"value": "Loot/xp",              "multiply": 1.20},
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.90},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.90}
+  ],
+  "requirements": {"any": [{"civ": "mace"}, {"civ": "ptol"}, {"civ": "sele"}]},
+  "tooltip": "Siege rams +20% wood cost, +20% health, and +2 garrison capacity, but also −10% movement speed."
+}

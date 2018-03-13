@@ -28,6 +28,9 @@
       <Spread>3.0</Spread>
     </Ranged>
   </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>2</DefaultArrowCount>
+  </BuildingAI>
   <Cost>
     <Resources>
       <metal op="add">100</metal>

@@ -9,9 +9,6 @@
     <BuildTime>10</BuildTime>
     <Population>1</Population>
   </Cost>
-  <Health>
-    <Max op="mul">1.25</Max>
-  </Health>
   <Identity>
     <GenericName>Siege</GenericName>
     <VisibleClasses datatype="tokens">Siege</VisibleClasses>

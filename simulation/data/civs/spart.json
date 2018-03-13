@@ -3,7 +3,7 @@
   "Culture":"hele",
   "Name":"Sparta",
   "Emblem":"session/portraits/emblems/emblem_spartans.png",
-  "History":"Sparta, or actually Lacedaemon, was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 B.C. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco-Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
+  "History":"Sparta, or actually Lacedaemon, was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 B.C. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco–Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
   "Music":[
       {"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
       {"File":"Peaks_of_Atlas.ogg", "Type":"peace"},
@@ -84,11 +84,6 @@
   ],
   "TeamBonuses":
   [
-    {
-      "Name": "Peloponnesian League",
-      "History": "Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies.'",
-      "Description": "Infantry hoplites, pikemen, and spearmen −20% training time."
-    }
   ],
   "Structures":
   [

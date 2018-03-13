@@ -58,16 +58,11 @@
     {
       "Name": "Syrian Tetrapolis",
       "History": "The Seleucid Empire was characterized by a high level of Hellinization: many new cities were founded, there was a constant influx of settlers, and millenia old cities often reshaped themselves into Greek style.",
-      "Description": "Centres −30% resource costs and loot."
+      "Description": "Centres −25% building time."
     }
   ],
   "TeamBonuses":
   [
-    {
-      "Name": "Syrian Tetrapolis",
-      "History": "The political core of the Seleucid Empire consisted of four 'sister' cities: Antioch (the capital), Seleucia Pieria, Apamea, and Laodicea.",
-      "Description": "Civic structures −20% building time."
-    }
   ],
   "Structures":
   [

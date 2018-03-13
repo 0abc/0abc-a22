@@ -3,9 +3,12 @@
   <Attack>
     <Ranged>
       <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>12</Pierce>
+      <Pierce>10</Pierce>
     </Ranged>
   </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>2</DefaultArrowCount>
+  </BuildingAI>
   <Cost>
     <Resources>
       <food op="add">25</food>

@@ -58,7 +58,7 @@
     <food>5</food>
     <metal>5</metal>
     <wood>5</wood>
-    <xp>75</xp>
+    <xp op="mul">0.9</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Sound>

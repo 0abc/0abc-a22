@@ -16,7 +16,7 @@
     <Square width="22.0" depth="22.0"/>
   </Footprint>
   <GarrisonHolder>
-    <List datatype="tokens">Chariot Siege</List>
+    <List datatype="tokens">Siege</List>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>
@@ -27,8 +27,8 @@
     <GenericName>Siege Workshop</GenericName>
     <Icon>structures/siege_workshop.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Build siege engines. Research siege technologies..</Tooltip>
-    <VisibleClasses datatype="tokens">Town SiegeWorkshop</VisibleClasses>
+    <Tooltip>Build siege engines. Research siege technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Town Workshop</VisibleClasses>
   </Identity>
   <Loot>
     <food>10</food>
@@ -50,9 +50,7 @@
     </Entities>
     <Technologies datatype="tokens">
       siege_armour
-      siege_attack      
-      siege_cost_metal
-      siege_cost_wood
+      siege_attack
       special/siege_bolt_accuracy
       training_siege_workshop
     </Technologies>

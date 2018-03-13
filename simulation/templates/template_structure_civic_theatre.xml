@@ -14,10 +14,9 @@
   <Cost>
     <BuildTime op="mul">5.0</BuildTime>
     <Resources>
-      <food>400</food>
-      <metal>400</metal>
-      <stone>800</stone>
-      <wood>400</wood>
+      <metal>300</metal>
+      <stone>900</stone>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -39,11 +38,10 @@
     <VisibleClasses datatype="tokens">City Theatre</VisibleClasses>
   </Identity>
   <Loot>
-    <food>80</food>
-    <metal>80</metal>
-    <silver>200</silver>
-    <stone>160</stone>
-    <wood>80</wood>
+    <metal>60</metal>
+    <silver>150</silver>
+    <stone>180</stone>
+    <wood>60</wood>
   </Loot>
   <Obstruction>
     <Static width="46.0" depth="46.0"/>

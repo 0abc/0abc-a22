@@ -1,0 +1,17 @@
+{
+  "affects": ["Ram"],
+  "autoResearch": true,
+  "description": "Mauryan battering rams were sturdy.",
+  "genericName": "Indian Siege Rams",
+  "icon": "siege_ram.png",
+  "modifications": [
+    {"value": "Cost/Resources/wood",  "multiply": 1.10},
+    {"value": "Health/Max",           "multiply": 1.10},
+    {"value": "Loot/wood",            "add":         6},
+    {"value": "Loot/xp",              "multiply": 1.10},
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.95},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 0.95}
+  ],
+  "requirements": {"civ": "maur"},
+  "tooltip": "Siege rams +10% wood cost and +10% health, but also −5% movement speed."
+}

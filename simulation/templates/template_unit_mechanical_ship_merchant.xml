@@ -12,7 +12,7 @@
     <BuildTime>20</BuildTime>
     <Resources>
       <food>25</food>
-      <metal>75</metal>
+      <metal>50</metal>
       <wood>150</wood>
     </Resources>
   </Cost>
@@ -40,7 +40,7 @@
     <food>3</food>
     <metal>7</metal>
     <wood>15</wood>
-    <xp>25</xp>
+    <xp op="mul">1.2</xp>
   </Loot>
   <ResourceGatherer>
     <MaxDistance>12.0</MaxDistance>

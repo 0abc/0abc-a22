@@ -20,6 +20,9 @@
       <Spread>1.0</Spread>
     </Ranged>
   </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+  </BuildingAI>
   <Cost>
     <BuildTime>35</BuildTime>
     <Population>4</Population>

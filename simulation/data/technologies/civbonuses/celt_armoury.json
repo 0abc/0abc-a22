@@ -12,6 +12,6 @@
     {"value": "ProductionQueue/TechCostMultiplier/time",   "multiply": 0.8},
     {"value": "ProductionQueue/TechCostMultiplier/wood",   "multiply": 0.8}
   ],
-  "requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
+  "requirements": {"any": [{"civ": "brit"}, {"civ": "gaul"}]},
   "tooltip": "Celtic Armoury technologies cost −20% resources and time."
 }

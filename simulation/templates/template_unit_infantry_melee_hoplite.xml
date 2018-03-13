@@ -2,12 +2,6 @@
 <Entity parent="template_unit_infantry_melee">
   <Attack>
     <Melee>
-      <Bonuses>
-        <Cavalry>
-          <Classes>Cavalry</Classes>
-          <Multiplier>1.25</Multiplier>
-        </Cavalry>
-      </Bonuses>
       <Hack>1.2</Hack>
       <MaxRange op="mul">2.0</MaxRange>
       <Pierce>4.8</Pierce>
@@ -23,9 +17,7 @@
     <Max op="mul">2.0</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Polearm</Classes>
     <GenericName>Hoplite</GenericName>
-    <Tooltip>Counters: 1.25× vs Cavalry.</Tooltip>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
   </Identity>
   <Loot>

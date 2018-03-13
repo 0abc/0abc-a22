@@ -1,14 +1,15 @@
 {
+  "affects": ["Soldier"],
   "autoResearch": true,
   "description": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan rulers held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
   "genericName": "Emperor of Emperors",
   "icon": "population.png",
   "modifications": [
-    {"value": "Player/MaxPopulation", "multiply": 1.1}
+    {"value": "Cost/BuildTime", "multiply": 0.9}
   ],
   "requirements": {"civ": "maur"},
   "specificName": {
     "maur": "Chakravarti Samrāt"
   },
-  "tooltip": "Mauryas have +10% maximum population limit."
+  "tooltip": "Mauryan soldiers have −10% training time."
 }

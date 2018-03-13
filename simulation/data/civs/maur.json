@@ -54,22 +54,12 @@
     {
       "Name": "Emperor of Emperors.",
       "History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
-      "Description": "Mauryas have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300)."
-    },
-    {
-      "Name": "Indian Religiousness.",
-      "History": "India was known for the religions which spread from there.",
-      "Description": "Temples −50% build time and resource costs."
+      "Description": "Mauryan soldiers have −10% training time."
     },
     {
       "Name": "Kṣhatriya Warrior Caste.",
       "History": "Kshatriya or Kashtriya, meaning warrior, is one of the four varnas (social orders) in Hinduism. Traditionally Kshatriya constitute the military and ruling elite of the Vedic-Hindu social system outlined by the Vedas and the Laws of Manu.",
       "Description": "The Mauryas enjoy access to five champion types."
-    },
-    {
-      "Name": "Limited Stone Working.",
-      "History": "Stone was seldom used as a normal building material.",
-      "Description": "Workers −10% stone gather rates."
     },
     {
       "Name": "Wooden Walls.",
@@ -79,11 +69,6 @@
   ],
   "TeamBonuses":
   [
-    {
-      "Name": "Ashoka's Religious Support",
-      "History": "Ashoka the Great sent embassies West to spread knowledge of the Buddha.",
-      "Description": "Healers −20% training time, temple technologies −20% research time."
-    }
   ],
   "Structures":
   [
@@ -91,10 +76,10 @@
       "Name":"Edict Pillar of Ashoka",
       "Class":"",
       "Emblem":"",
-      "History":".",
-      "Requirements":"Ashoka hero unit.",
+      "History":"",
+      "Requirements":"",
       "Phase":"Town",
-      "Special":"Nearby traders +20% movement speed. Max Built: 5."
+      "Special":"Nearby support units +10% movement speed. Max Built: 5."
     },
     {
       "Name": "Palace",

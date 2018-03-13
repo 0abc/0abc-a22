@@ -8,6 +8,6 @@
     {"value": "Capturable/CapturePoints", "multiply": 1.2},
     {"value": "Health/Max",               "multiply": 1.2}
   ],
-  "requirements": {"any": [{"civ": "athen"},{"civ": "mace"},{"civ": "spart"}]},
+  "requirements": {"any": [{"civ": "athen"}, {"civ": "mace"}, {"civ": "spart"}]},
   "tooltip": "Civic structures have +20% health and capture points."
 }

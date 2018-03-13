@@ -1,0 +1,10 @@
+{
+  "affects": ["Hoplite"],
+  "auraDescription": "Sparta was deeply conservative and notoriously slow on deciding on matters of peace and war; but when war was declared, Sparta was able to quickly send around an army, thanks to its professional soldiers. Hoplites +10% movement speed.",
+  "auraName": "Spartan Army",
+  "modifications": [
+    {"value": "UnitMotion/Run/Speed", "multiply": 1.1},
+    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1}
+  ],
+  "type": "global"
+}

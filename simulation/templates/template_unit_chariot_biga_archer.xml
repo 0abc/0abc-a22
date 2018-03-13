@@ -3,7 +3,7 @@
   <Attack>
     <Ranged>
       <MaxRange op="mul">4.0</MaxRange>
-      <Pierce>8</Pierce>
+      <Pierce>10</Pierce>
     </Ranged>
   </Attack>
   <Cost>

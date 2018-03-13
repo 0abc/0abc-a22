@@ -11,5 +11,5 @@
   "requirementsTooltip": "Unlocked in Town Phase.",
   "researchTime": 60,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Melee Infantry +10% walk speed."
+  "tooltip": "Melee Infantry +10% movement speed."
 }

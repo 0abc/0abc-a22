@@ -18,6 +18,7 @@
     {"value": "Loot/metal",           "add":        10, "affects": "Elephant"},
     {"value": "Loot/wood",            "add":         5, "affects": "Elephant"},
     {"value": "Loot/xp",              "add":       150, "affects": "Elephant"},
+    {"value": "UnitMotion/Run/Speed", "multiply": 0.95                       },
     {"value": "UnitMotion/WalkSpeed", "multiply": 0.95                       }
   ],
   "requirements": {"civ": "sele"},

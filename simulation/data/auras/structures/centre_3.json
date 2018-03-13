@@ -1,11 +1,12 @@
 {
   "affects": ["Civic", "Worker"],
-  "auraDescription": "Additional +10% civic structure capture points, +5% worker build time, −5% worker gather rate, and +1% citizen walk speed (requires Village Phase).",
+  "auraDescription": "Civic structures additional +10% capture points; workers additional +5% build rate, −5% gather rate, and +1% movement speed; (requires Village Phase).",
   "auraName": "Centre III",
   "modifications": [
     {"value": "Capturable/CapturePoints",   "multiply": 1.10, "affects": "Civic" },
     {"value": "Builder/Rate",               "multiply": 1.05, "affects": "Worker"},
     {"value": "ResourceGatherer/BaseSpeed", "multiply": 0.95, "affects": "Worker"},
+    {"value": "UnitMotion/Run/Speed",       "multiply": 1.01, "affects": "Worker"},
     {"value": "UnitMotion/WalkSpeed",       "multiply": 1.01, "affects": "Worker"}
   ],
   "overlayIcon": "art/textures/ui/session/auras/build_bonus.png",

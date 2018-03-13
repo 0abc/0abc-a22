@@ -7,12 +7,6 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Bonuses>
-        <Structures>
-          <Classes>Fortification</Classes>
-          <Multiplier>2.0</Multiplier>
-        </Structures>
-      </Bonuses>
       <Crush>5</Crush>
       <ElevationBonus>10</ElevationBonus>
       <Hack>0</Hack>
@@ -62,9 +56,8 @@
     <GenericName>Siege Tower</GenericName>
     <RequiredTechnology>phase_metropolis</RequiredTechnology>
     <SpecificName>Helépolis</SpecificName>
-    <Tooltip>Garrison units for transport and to increase firepower.
-Counters: 2.0× vs Fortifications.</Tooltip>
-    <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
+    <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged SiegeTower</VisibleClasses>
   </Identity>
   <Loot>
     <food>40</food>

@@ -34,7 +34,7 @@
     <GenericName>Scorpion</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Scorpio</SpecificName>
-    <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
   </Identity>
   <Loot>
     <food>10</food>

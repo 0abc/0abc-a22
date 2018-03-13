@@ -47,7 +47,7 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Oxybelḗs</SpecificName>
     <Tooltip>Counters: 1.5× vs Elephants.</Tooltip>
-    <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

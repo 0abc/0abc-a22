@@ -218,9 +218,9 @@ And it can currently be used for:
 * Melee war elephants: 0.125× vs Structures
 * Scorpion: –
 * Bolt shooter: 1.5× vs Elephantry
-* Stone thrower: 1.5× vs Ships
-* Battering ram: 8.0× vs Gates, 4.0× vs other Structures
-* Siege tower: 2.0× vs Fortresses, Towers
+* Stone thrower: 2.0× vs Ships
+* Battering ram: 2.0× vs Structures
+* Siege tower: –
 
 ### Structure distances
 * 20 m from economic buildings: corrals, docks, farmsteads, fields, markets, storehouses

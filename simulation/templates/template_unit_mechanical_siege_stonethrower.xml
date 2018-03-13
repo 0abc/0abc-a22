@@ -9,7 +9,7 @@
       <Bonuses>
         <Ships>
           <Classes>Ship</Classes>
-          <Multiplier>1.5</Multiplier>
+          <Multiplier>2.0</Multiplier>
         </Ships>
       </Bonuses>
       <Crush>30</Crush>
@@ -54,8 +54,8 @@
     <GenericName>Stone Thrower</GenericName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SpecificName>Lithobólos</SpecificName>
-    <Tooltip>Counters: 1.5× vs Ships.</Tooltip>
-    <VisibleClasses datatype="tokens">StoneThrower Ranged</VisibleClasses>
+    <Tooltip>Counters: 2.0× vs Ships.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
   </Identity>
   <Loot>
     <food>20</food>

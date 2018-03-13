@@ -57,32 +57,31 @@
 * Trade gain now depends on `x+x^1.5` (instead of `x^2`), with `x` the distance between markets
 
 ### Selection markers
-* Catafalques and heroes are indicated by a {5/2} star
-* Healers are indicated by a cross
+* Catafalques and heroes are indicated by a star
 * Champions are indicated by an arrow
-* Resource gatherers (citizen soldiers, females, and fishing boats) are indicated by a rhombus
-* Traders are indicated by a {8/2} star
+* Economic units (females, slaves, support elephants, land traders, merchant ships, and fishing boats) are indicated by a rhombus
+* Healers are indicated by a cross
 * Other units are indicated by a circle
 
 ### Phases
 * Each phase increases centre building time, health, experience, territory influence radius by +20%, and resource trickle rate by +1 silver per 7 seconds
-  * Centres cost by default 500 wood; 25 m and 50 m auras enabled
-  * Village phase increases centre cost by 500 food; 75 m aura enabled
-  * Town phase increases centre cost by 500 stone; 100 m aura enabled
-  * City phase increases centre cost by 500 metal; 125 m aura enabled
-  * Metropolis phase increases centre cost by 500 silver; 150 m aura enabled
+  * Centres cost by default 300 food and wood; 25 m and 50 m auras enabled
+  * Village phase increases centre cost by 300 wood; 75 m aura enabled
+  * Town phase increases centre cost by 300 stone; 100 m aura enabled
+  * City phase increases centre cost by 300 metal; 125 m aura enabled
+  * Metropolis phase increases centre cost by 300 silver; 150 m aura enabled
 
 ### Silver
 Silver is the new resource number one; it can not be gathered directly, but can be acquired by:
 * selling resources
 * traders (gain is currently any combination of silver and other resources)
 * resource trickle rates (see below)
+<!--
 * killing heroes:
   * healer and infantry heroes grant 50 silver
   * cavalry heroes grant 100 silver
   * chariot heroes grant 150 silver
   * elephant heroes grant 200 silver
-<!--
 * killing promoted units (with x the rank (which can be 0 to 12)):
   * healers and infantry grant 1x silver (champions 2x)
   * camels and cavalry grant 2x silver (champions 4x)
@@ -111,11 +110,13 @@ Silver is the new resource number one; it can not be gathered directly, but can 
   * monuments and pillars grant 20 silver
   * palaces grant 150 silver
   * temples grant 40 silver
+  * theatres grant 150 silver
   * wonders grant 400 silver
 
 And it can currently be used for:
 * buying other resources (barter, market)
 * a few miscellaneous technologies: 
+  * international treaty: 250 silver (instead of 100 metal)
   * shared vision: 250 silver (instead of 100 food, 100 metal) 
   * shared dropsites: 500 silver (instead of 200 food, 200 wood, 100 metal, 100 stone); also, three traders requirement is removed
   * unlock spies: 1000 silver (instead of 500 food, 500 wood, 300 metal, 300 stone)

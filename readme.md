@@ -34,11 +34,10 @@
 * Loot resources are standardized to 20% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
 * Loot experience is standardized to be equal to:
   * 100% of resource costs total (soldiers)
-  * 10% of resource costs total (support units)
   * 100% of maximum health (siege weapons)
-  * 20% of maximum health (ships)
+  * 20% of maximum health (warships)
   * 10% of maximum health (army camps, centres, fortresses, outposts, towers) 
-  * nothing (other structures)
+  * nothing (fishing boat, merchant ship, support units, and other structures)
 * Economic buildings and walls can be constructed in neutral territory
 * All walls and towers are stronger and more expensive; 
   * palisades and outposts are available in village phase, 
@@ -261,9 +260,9 @@ And it can currently be used for:
 * Carthaginians:
   * market technologies cost −25% resources and time;
   * markets have −50% resource costs and construction time;
-  * ships have +20~m vision range;
+  * ships have +20 m vision range;
   * traders have +5% gain;
-  * city walls have +40% health, capture points, build time, and stone and wood costs.
+  * city walls have +20% health, capture points, build time, and stone and wood costs.
 * Gauls:
   * infantry spearmen have +10% melee attack damage.
 * Iberians:

@@ -27,7 +27,7 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <Classes datatype="tokens">SiegeWall</Classes>
+    <Classes datatype="tokens">-StoneWall SiegeWall</Classes>
     <GenericName>Siege Wall Gate</GenericName>
     <Icon>structures/wooden_gate.png</Icon>
     <SpecificName>Porta Circummunitionis</SpecificName>

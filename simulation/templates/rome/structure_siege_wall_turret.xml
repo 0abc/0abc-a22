@@ -27,7 +27,7 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <Classes datatype="tokens">SiegeWall</Classes>
+    <Classes datatype="tokens">-StoneWall SiegeWall</Classes>
     <GenericName>Siege Wall Tower</GenericName>
     <Icon>structures/siege_wall.png</Icon>
     <SpecificName>Turris Circummunitionis</SpecificName>

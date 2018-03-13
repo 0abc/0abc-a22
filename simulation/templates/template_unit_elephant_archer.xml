@@ -30,6 +30,9 @@
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>2</DefaultArrowCount>
+    <GarrisonArrowClasses>Archer</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>4</MaxArrowCount>
   </BuildingAI>
   <Cost>
     <Resources>

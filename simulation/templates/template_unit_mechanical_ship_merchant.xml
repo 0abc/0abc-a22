@@ -38,9 +38,9 @@
   </Identity>
   <Loot>
     <food>3</food>
-    <metal>7</metal>
+    <metal>5</metal>
     <wood>15</wood>
-    <xp op="mul">1.2</xp>
+    <xp>0</xp>
   </Loot>
   <ResourceGatherer>
     <MaxDistance>12.0</MaxDistance>

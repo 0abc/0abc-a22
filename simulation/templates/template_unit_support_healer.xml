@@ -25,7 +25,6 @@
   <Loot>
     <food>5</food>
     <silver>10</silver>
-    <xp>15</xp>
   </Loot>
   <Promotion>
     <RequiredXp>250</RequiredXp>

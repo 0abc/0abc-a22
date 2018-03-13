@@ -21,7 +21,6 @@
   <Loot>
     <food>5</food>
     <silver>5</silver>
-    <xp>10</xp>
   </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>

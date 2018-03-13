@@ -5,14 +5,14 @@
   "genericName": "Protective Walls",
   "icon": "wall.png",
   "modifications": [
-    {"value": "Capturable/CapturePoints", "multiply": 1.4},
-    {"value": "Cost/BuildTime",           "multiply": 1.4},
-    {"value": "Cost/Resources/stone",     "multiply": 1.4},
-    {"value": "Cost/Resources/wood",      "multiply": 1.4},
-    {"value": "Health/Max",               "multiply": 1.4},
-    {"value": "Loot/stone",               "multiply": 1.4},
-    {"value": "Loot/wood",                "multiply": 1.4}
+    {"value": "Capturable/CapturePoints", "multiply": 1.2},
+    {"value": "Cost/BuildTime",           "multiply": 1.2},
+    {"value": "Cost/Resources/stone",     "multiply": 1.2},
+    {"value": "Cost/Resources/wood",      "multiply": 1.2},
+    {"value": "Health/Max",               "multiply": 1.2},
+    {"value": "Loot/stone",               "multiply": 1.2},
+    {"value": "Loot/wood",                "multiply": 1.2}
   ],
   "requirements": {"civ": "cart"},
-  "tooltip": "Carthaginian city walls, gates, and wall turrets have +40% health, capture points, build time, and resource costs."
+  "tooltip": "Carthaginian city walls, gates, and turrets have +20% health, capture points, build time, and resource costs."
 }

@@ -37,7 +37,6 @@
   </Identity>
   <Loot>
     <food>5</food>
-    <xp>5</xp>
   </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>

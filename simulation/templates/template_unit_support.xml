@@ -8,6 +8,9 @@
     <GenericName>Support</GenericName>
     <VisibleClasses datatype="tokens">Support</VisibleClasses>
   </Identity>
+  <Loot>
+    <xp>0</xp>
+  </Loot>
   <Minimap>
     <Type>support</Type>
   </Minimap>

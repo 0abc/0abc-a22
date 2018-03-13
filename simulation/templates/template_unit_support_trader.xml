@@ -25,7 +25,6 @@
     <food>10</food>
     <metal>10</metal>
     <wood>10</wood>
-    <xp>30</xp>
   </Loot>
   <ResourceTrickle>
     <Interval>1000</Interval>

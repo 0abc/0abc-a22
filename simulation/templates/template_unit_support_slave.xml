@@ -18,10 +18,6 @@
     <Tooltip>Gatherer bonused at mining, quarrying, and lumbering.</Tooltip>
     <VisibleClasses datatype="tokens">Builder Worker Slave</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>5</food>
-    <silver>5</silver>
-  </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
     <MaxDistance>2.0</MaxDistance>

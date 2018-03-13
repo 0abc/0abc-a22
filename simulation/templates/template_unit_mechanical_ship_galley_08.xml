@@ -33,9 +33,6 @@
     <SpecificName>Oktḗrēs</SpecificName>
   </Identity>
   <Loot>
-    <food op="mul">8.0</food>
-    <metal op="mul">8.0</metal>
-    <wood op="mul">8.0</wood>
     <xp op="mul">8.0</xp>
   </Loot>
   <ResourceTrickle>

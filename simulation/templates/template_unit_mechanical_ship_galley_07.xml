@@ -33,9 +33,6 @@
     <SpecificName>Heptḗrēs</SpecificName>
   </Identity>
   <Loot>
-    <food op="mul">7.0</food>
-    <metal op="mul">7.0</metal>
-    <wood op="mul">7.0</wood>
     <xp op="mul">7.0</xp>
   </Loot>
   <ResourceTrickle>

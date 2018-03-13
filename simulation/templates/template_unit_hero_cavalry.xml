@@ -3,9 +3,9 @@
   <Cost>
     <BuildTime>60</BuildTime>
     <Resources>
-      <food>200</food>
-      <metal>200</metal>
-      <wood>200</wood>
+      <food op="mul">2.0</food>
+      <metal op="mul">2.0</metal>
+      <wood op="mul">2.0</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -13,7 +13,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Health>
-    <Max op="mul">1.0</Max>
+    <Max op="mul">2.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Horse Mounted</Classes>
@@ -24,11 +24,8 @@
     <VisibleClasses datatype="tokens">Cavalry</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <metal>20</metal>
-    <silver>100</silver>
-    <wood>20</wood>
-    <xp>600</xp>
+    <silver op="mul">2.0</silver>
+    <xp op="mul">2.0</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

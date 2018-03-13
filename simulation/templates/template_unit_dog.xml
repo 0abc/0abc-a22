@@ -57,7 +57,6 @@ Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Soldier Dog Melee</VisibleClasses>
   </Identity>
   <Loot>
-    <food>6</food>
     <xp>30</xp>
   </Loot>
   <Promotion>

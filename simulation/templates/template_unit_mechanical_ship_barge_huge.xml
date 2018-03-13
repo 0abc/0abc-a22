@@ -25,7 +25,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
-    <wood op="add">75</wood>
     <xp op="mul">8.0</xp>
   </Loot>
   <ResourceTrickle>

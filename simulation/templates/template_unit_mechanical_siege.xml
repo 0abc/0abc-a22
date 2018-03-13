@@ -13,6 +13,9 @@
     <GenericName>Siege</GenericName>
     <VisibleClasses datatype="tokens">Siege</VisibleClasses>
   </Identity>
+  <Loot>
+    <xp op="mul">0.5</xp>
+  </Loot>
   <Position>
     <Anchor>pitch-roll</Anchor>
   </Position>

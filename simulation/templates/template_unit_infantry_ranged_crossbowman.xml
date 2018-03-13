@@ -42,11 +42,6 @@
 0.5× vs Elephants, Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">4</metal>
-    <wood op="add">6</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <Sound>
     <SoundGroups>
       <attack_impact>attack/impact/arrow_metal.xml</attack_impact>

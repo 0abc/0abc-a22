@@ -23,23 +23,7 @@
     {"value": "Cost/Resources/silver",        "replace":  300,  "affects": "Elephant"         },
     {"value": "Cost/Resources/stone",         "replace":  0                                   },
     {"value": "Cost/Resources/wood",          "replace":  0                                   },
-    {"value": "Health/Max",                   "multiply": 1.1                                 },
-    {"value": "Loot/food",                    "replace":  0                                   },
-    {"value": "Loot/metal",                   "replace":  0                                   },
-    {"value": "Loot/silver",                  "replace":  12,   "affects": "Infantry"         },
-    {"value": "Loot/silver",                  "replace":  15,   "affects": "Camel"            },
-    {"value": "Loot/silver",                  "replace":  18,   "affects": "Cavalry"          },
-    {"value": "Loot/silver",                  "replace":  36,   "affects": "Biga"             },
-    {"value": "Loot/silver",                  "replace":  48,   "affects": "Quadriga"         },
-    {"value": "Loot/silver",                  "replace":  60,   "affects": "Elephant"         },
-    {"value": "Loot/stone",                   "replace":  0                                   },
-    {"value": "Loot/wood",                    "replace":  0                                   },
-    {"value": "Loot/xp",                      "replace":  60,   "affects": "Infantry"         },
-    {"value": "Loot/xp",                      "replace":  75,   "affects": "Camel"            },
-    {"value": "Loot/xp",                      "replace":  90,   "affects": "Cavalry"          },
-    {"value": "Loot/xp",                      "replace":  180,  "affects": "Biga"             },
-    {"value": "Loot/xp",                      "replace":  240,  "affects": "Quadriga"         },
-    {"value": "Loot/xp",                      "replace":  300,  "affects": "Elephant"         }
+    {"value": "Health/Max",                   "multiply": 1.1                                 }
   ],
   "tooltip": "Mercenary units have +1 crush, hack, and pierce armour, +15% melee and ranged attack crush, hack, and pierce damage, −50% training time, +10% health, and cost silver instead of other resources."
 }

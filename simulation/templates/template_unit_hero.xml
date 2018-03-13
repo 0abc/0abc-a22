@@ -18,15 +18,24 @@
   </Auras>
   <Cost>
     <Population>0</Population>
+    <Resources>
+      <food>100</food>
+      <metal>100</metal>
+      <wood>100</wood>
+    </Resources>
   </Cost>
   <Health>
-    <Max op="mul">10.0</Max>
+    <Max op="mul">5.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Human Organic</Classes>
     <GenericName>Hero</GenericName>
     <VisibleClasses datatype="tokens">Soldier Hero</VisibleClasses>
   </Identity>
+  <Loot>
+    <silver>100</silver>
+    <xp>500</xp>
+  </Loot>
   <Minimap>
     <Type>hero</Type>
   </Minimap>

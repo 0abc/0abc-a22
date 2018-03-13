@@ -32,6 +32,9 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Soldier Chariot</VisibleClasses>
   </Identity>
+  <Loot>
+    <xp>30</xp>
+  </Loot>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>

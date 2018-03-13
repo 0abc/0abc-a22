@@ -33,9 +33,6 @@
     <SpecificName>Pentḗrēs</SpecificName>
   </Identity>
   <Loot>
-    <food op="mul">5.0</food>
-    <metal op="mul">5.0</metal>
-    <wood op="mul">5.0</wood>
     <xp op="mul">5.0</xp>
   </Loot>
   <ResourceTrickle>

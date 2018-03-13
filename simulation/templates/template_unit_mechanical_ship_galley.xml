@@ -55,9 +55,6 @@
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <metal>5</metal>
-    <wood>10</wood>
     <xp op="mul">1.0</xp>
   </Loot>
   <ResourceGatherer disable=""/>

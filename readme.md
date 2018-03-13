@@ -31,13 +31,23 @@
 * Camelry, chariotry, and elephantry are now distinct classes, separate from cavalry; as a consequence, they no longer benefit from cavalry technologies
 * Cavalry, camels, and worker elephants can no longer be trained at the civic centre or crannog
   * females can be trained at houses by default (no longer require a technology to be unlocked)
-* Loot resources are standardized to 20% of total costs (applies to ships, siege weapons, soldiers, structures, and support units); 
+* Loot resources are standardized to be equal to:
+  * 0: most units
+  * 20% of total costs: structures, siege weapons
 * Loot experience is standardized to be equal to:
-  * 100% of resource costs total (soldiers)
-  * 100% of maximum health (siege weapons)
-  * 20% of maximum health (warships)
-  * 10% of maximum health (army camps, centres, fortresses, outposts, towers) 
-  * nothing (fishing boat, merchant ship, support units, and other structures)
+  * 0: fishing boat, merchant ship, support units, and most structures
+  * 10% of maximum health: army camps, centres, fortresses, outposts, towers
+  * 20% of maximum health: warships
+  * 50% of maximum health: siege weapons
+  * 100% of maximum health: heroes
+  * 30 (base) + 3 per level: dogs
+  * 60 (base) + 5 per level: infantry
+  * 90 (base) + 8 per level: camelry
+  * 120 (base) + 10 per level: cavalry
+  * 240 (base) + 20 per level: bigae
+  * 300 (base) + 25 per level: quadrigae
+  * 360 (base) + 30 per level: elephantry
+  * champions have +200% base loot experience
 * Economic buildings and walls can be constructed in neutral territory
 * All walls and towers are stronger and more expensive; 
   * palisades and outposts are available in village phase, 
@@ -215,7 +225,7 @@ And it can currently be used for:
 * Javelin biga chariots: 0.5× vs Elephantry
 * Three-man biga chariots: 0.5× vs Elephantry
 * Scythed quadriga chariots: 0.5× vs Elephantry
-* Archer war elephants: 1.5× vs Camelry, 0.5× vs Elephantry
+* Archer war elephants: 0.5× vs Elephantry
 * Melee war elephants: 0.125× vs Structures
 * Scorpion: –
 * Bolt shooter: 1.5× vs Elephantry

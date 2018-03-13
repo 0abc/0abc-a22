@@ -22,9 +22,7 @@
     <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <metal>10</metal>
-    <wood>10</wood>
+    <silver>25</silver>
   </Loot>
   <ResourceTrickle>
     <Interval>1000</Interval>

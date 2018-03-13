@@ -20,9 +20,9 @@
   <Cost>
     <BuildTime>90</BuildTime>
     <Resources>
-      <food>400</food>
-      <metal>400</metal>
-      <wood>400</wood>
+      <food op="mul">4.0</food>
+      <metal op="mul">4.0</metal>
+      <wood op="mul">4.0</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -30,7 +30,7 @@
     <Height>9.0</Height>
   </Footprint>
   <Health>
-    <Max op="mul">2.0</Max>
+    <Max op="mul">4.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Mounted</Classes>
@@ -38,11 +38,8 @@
     <VisibleClasses datatype="tokens">Elephant Melee</VisibleClasses>
   </Identity>
   <Loot>
-    <food>40</food>
-    <metal>40</metal>
-    <silver>200</silver>
-    <wood>40</wood>
-    <xp>1200</xp>
+    <silver op="mul">4.0</silver>
+    <xp op="mul">4.0</xp>
   </Loot>
   <Sound>
     <SoundGroups>

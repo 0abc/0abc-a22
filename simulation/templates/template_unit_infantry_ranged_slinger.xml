@@ -42,11 +42,6 @@
 Penalties: 0.125× vs Siege Weapons, Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
   </Identity>
-  <Loot>
-    <stone op="add">4</stone>
-    <wood op="add">6</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Speed>19</Speed>

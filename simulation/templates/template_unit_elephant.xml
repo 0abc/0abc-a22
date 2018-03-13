@@ -37,8 +37,7 @@
     <VisibleClasses datatype="tokens">Soldier Elephant</VisibleClasses>
   </Identity>
   <Loot>
-    <food>40</food>
-    <xp>200</xp>
+    <xp>360</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

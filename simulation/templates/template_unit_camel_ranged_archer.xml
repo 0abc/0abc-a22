@@ -32,11 +32,6 @@
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">3</metal>
-    <wood op="add">7</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Range>1300.0</Range>

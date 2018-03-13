@@ -26,11 +26,6 @@
     <Tooltip>Counters: 1.25× vs Cavalry.</Tooltip>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">2</metal>
-    <wood op="add">8</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Range>1300.0</Range>

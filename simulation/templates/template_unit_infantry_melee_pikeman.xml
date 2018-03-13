@@ -46,11 +46,6 @@
     <Tooltip>Counters: 1.25× vs Chariots, 1.5× vs Cavalry, 1.75× vs Camels, 2.0× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Pikeman</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">1</metal>
-    <wood op="add">9</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Speed>12</Speed>

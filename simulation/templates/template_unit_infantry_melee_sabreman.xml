@@ -24,11 +24,6 @@
     <GenericName>Sabreman</GenericName>
     <VisibleClasses datatype="tokens">Sabreman</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">4</metal>
-    <wood op="add">6</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Speed>15</Speed>

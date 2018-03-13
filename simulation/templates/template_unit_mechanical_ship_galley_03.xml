@@ -33,9 +33,6 @@
     <SpecificName>Triḗrēs</SpecificName>
   </Identity>
   <Loot>
-    <food op="mul">3.0</food>
-    <metal op="mul">3.0</metal>
-    <wood op="mul">3.0</wood>
     <xp op="mul">3.0</xp>
   </Loot>
   <ResourceTrickle>

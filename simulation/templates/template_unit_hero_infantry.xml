@@ -3,9 +3,9 @@
   <Cost>
     <BuildTime>45</BuildTime>
     <Resources>
-      <food>100</food>
-      <metal>100</metal>
-      <wood>100</wood>
+      <food op="mul">1.0</food>
+      <metal op="mul">1.0</metal>
+      <wood op="mul">1.0</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -13,19 +13,16 @@
     <Height>2.5</Height>
   </Footprint>
   <Health>
-    <Max op="mul">0.5</Max>
+    <Max op="mul">1.0</Max>
   </Health>
-  <Loot>
-    <food>10</food>
-    <metal>10</metal>
-    <silver>50</silver>
-    <wood>10</wood>
-    <xp>300</xp>
-  </Loot>
   <Identity>
     <GenericName>Hero</GenericName>
     <VisibleClasses datatype="tokens">Infantry</VisibleClasses>
   </Identity>
+  <Loot>
+    <silver op="mul">1.0</silver>
+    <xp op="mul">1.0</xp>
+  </Loot>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/sword.xml</attack>

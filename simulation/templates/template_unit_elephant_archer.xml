@@ -8,10 +8,6 @@
   <Attack>
     <Ranged>
       <Bonuses>
-        <Camelry>
-          <Classes>Camel</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Camelry>
         <Elephantry>
           <Classes>Elephant</Classes>
           <Multiplier>0.5</Multiplier>
@@ -40,18 +36,9 @@
       <wood op="add">100</wood>
     </Resources>
   </Cost>
-  <Health>
-    <Max op="mul">0.9</Max>
-  </Health>
   <Identity>
     <GenericName>Elephant Archer</GenericName>
-    <Tooltip>Counters: 1.5× vs Camels.
-Penalties: 0.5× vs Elephants.</Tooltip>
+    <Tooltip>Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">20</metal>
-    <wood op="add">20</wood>
-    <xp op="add">200</xp>
-  </Loot>
 </Entity>

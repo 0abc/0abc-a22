@@ -3,13 +3,13 @@
   <Cost>
     <BuildTime>75</BuildTime>
     <Resources>
-      <food>300</food>
-      <metal>300</metal>
-      <wood>300</wood>
+      <food op="mul">3.0</food>
+      <metal op="mul">3.0</metal>
+      <wood op="mul">3.0</wood>
     </Resources>
   </Cost>
   <Health>
-    <Max op="mul">1.5</Max>
+    <Max op="mul">3.0</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">Horse Mounted</Classes>
@@ -21,11 +21,10 @@
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
   </Identity>
   <Loot>
-    <food>30</food>
-    <metal>30</metal>
-    <silver>150</silver>
-    <wood>30</wood>
-    <xp>900</xp>
+  <Loot>
+    <silver op="mul">3.0</silver>
+    <xp op="mul">3.0</xp>
+  </Loot>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

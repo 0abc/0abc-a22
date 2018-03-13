@@ -24,11 +24,6 @@
     <GenericName>Spearman</GenericName>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">2</metal>
-    <wood op="add">8</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Speed>15</Speed>

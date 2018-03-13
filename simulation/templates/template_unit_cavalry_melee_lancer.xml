@@ -19,11 +19,6 @@
     <GenericName>Cavalry Lancer</GenericName>
     <VisibleClasses datatype="tokens">Lancer</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">6</metal>
-    <wood op="add">4</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Range>700.0</Range>

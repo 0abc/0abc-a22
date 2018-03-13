@@ -28,9 +28,6 @@
     <SpecificName>Pentēkóntoros</SpecificName>
   </Identity>
   <Loot>
-    <food op="mul">1.0</food>
-    <metal op="mul">1.0</metal>
-    <wood op="mul">1.0</wood>
     <xp op="mul">1.0</xp>
   </Loot>
   <ResourceTrickle>

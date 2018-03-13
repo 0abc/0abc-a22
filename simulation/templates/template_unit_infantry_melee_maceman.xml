@@ -31,11 +31,6 @@
 Penalties: 0.125× vs Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Maceman</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">3</metal>
-    <wood op="add">7</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Speed>15</Speed>

@@ -38,8 +38,7 @@
     <VisibleClasses datatype="tokens">Soldier Cavalry</VisibleClasses>
   </Identity>
   <Loot>
-    <food>10</food>
-    <xp>50</xp>
+    <xp>120</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

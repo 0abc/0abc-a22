@@ -33,9 +33,6 @@
     <SpecificName>Dekḗrēs</SpecificName>
   </Identity>
   <Loot>
-    <food op="mul">10.0</food>
-    <metal op="mul">10.0</metal>
-    <wood op="mul">10.0</wood>
     <xp op="mul">10.0</xp>
   </Loot>
   <ResourceTrickle>

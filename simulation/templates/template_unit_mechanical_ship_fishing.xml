@@ -47,8 +47,6 @@
     <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
   </Identity>
   <Loot>
-    <food>1</food>
-    <wood>4</wood>
     <xp>0</xp>
   </Loot>
   <ResourceGatherer>

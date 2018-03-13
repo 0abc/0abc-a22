@@ -46,12 +46,7 @@
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <metal>0</metal>
-    <silver>0</silver>
-    <stone>0</stone>
-    <wood>10</wood>
-    <xp>150</xp>
+    <xp>240</xp>
   </Loot>
   <Promotion>
     <RequiredXp>200</RequiredXp>

@@ -35,9 +35,4 @@
     <GenericName>War Elephant</GenericName>
     <Tooltip>Penalties: 0.125× vs Structures.</Tooltip>
   </Identity>
-  <Loot>
-    <metal op="add">20</metal>
-    <wood op="add">10</wood>
-    <xp op="add">150</xp>
-  </Loot>
 </Entity>

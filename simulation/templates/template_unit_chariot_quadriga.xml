@@ -43,12 +43,7 @@
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
   <Loot>
-    <food>30</food>
-    <metal>0</metal>
-    <silver>0</silver>
-    <stone>0</stone>
-    <wood>10</wood>
-    <xp>200</xp>
+    <xp>300</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

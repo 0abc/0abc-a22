@@ -23,9 +23,4 @@
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">5</metal>
-    <wood op="add">10</wood>
-    <xp op="add">75</xp>
-  </Loot>
 </Entity>

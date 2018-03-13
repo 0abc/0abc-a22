@@ -20,11 +20,6 @@
     <GenericName>Hoplite</GenericName>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">5</metal>
-    <wood op="add">5</wood>
-    <xp op="add">50</xp>
-  </Loot>
   <UnitMotion>
     <Run>
       <Speed>14</Speed>

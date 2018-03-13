@@ -37,9 +37,6 @@
     <VisibleClasses datatype="tokens">Trader</VisibleClasses>
   </Identity>
   <Loot>
-    <food>3</food>
-    <metal>5</metal>
-    <wood>15</wood>
     <xp>0</xp>
   </Loot>
   <ResourceGatherer>

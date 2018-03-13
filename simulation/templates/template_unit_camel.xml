@@ -38,8 +38,7 @@
     <VisibleClasses datatype="tokens">Soldier Camel</VisibleClasses>
   </Identity>
   <Loot>
-    <food>8</food>
-    <xp>40</xp>
+    <xp>90</xp>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

@@ -25,9 +25,4 @@
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
   </Identity>
-  <Loot>
-    <metal op="add">10</metal>
-    <wood op="add">10</wood>
-    <xp op="add">100</xp>
-  </Loot>
 </Entity>

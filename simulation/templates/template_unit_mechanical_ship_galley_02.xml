@@ -33,9 +33,6 @@
     <SpecificName>Diḗrēs</SpecificName>
   </Identity>
   <Loot>
-    <food op="mul">2.0</food>
-    <metal op="mul">2.0</metal>
-    <wood op="mul">2.0</wood>
     <xp op="mul">2.0</xp>
   </Loot>
   <ResourceTrickle>

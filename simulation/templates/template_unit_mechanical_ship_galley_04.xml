@@ -33,9 +33,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
-    <food op="mul">4.0</food>
-    <metal op="mul">4.0</metal>
-    <wood op="mul">4.0</wood>
     <xp op="mul">4.0</xp>
   </Loot>
   <ResourceTrickle>

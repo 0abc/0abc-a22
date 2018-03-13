@@ -1,85 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support">
-  <Armour>
-    <Hack>3</Hack>
-    <Pierce>6</Pierce>
-    <Crush>9</Crush>
-  </Armour>
-  <Builder>
-    <Rate>3.0</Rate>
-    <Entities datatype="tokens"/>
-  </Builder>
-  <Cost>
-    <BuildTime>12</BuildTime>
-    <Population>3</Population>
-    <Resources>
-      <food>150</food>
-    </Resources>
-  </Cost>
-  <Footprint>
-    <Circle radius="4.0"/>
-    <Height>6.0</Height>
-  </Footprint>
-  <Health>
-    <Max>300</Max>
-  </Health>
+<Entity parent="template_unit_support_elephant">
   <Identity>
     <Civ>maur</Civ>
-    <Formations disable=""/>
-    <GenericName>Worker Elephant</GenericName>
-    <Icon>units/maur_support_elephant.png</Icon>
     <SpecificName>Karmākara Gaja</SpecificName>
-    <Tooltip>Mobile dropsite.</Tooltip>
-    <VisibleClasses datatype="tokens">Elephant Builder</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>15</food>
-    <xp>30</xp>
-  </Loot>
-  <Position>
-    <Anchor>pitch</Anchor>
-  </Position>
-  <ResourceDropsite>
-    <Types>food wood stone metal</Types>
-    <Sharable>false</Sharable>
-  </ResourceDropsite>
-  <ResourceTrickle>
-    <Interval>1000</Interval>
-    <Rates>
-      <food>0.15</food>
-    </Rates>
-  </ResourceTrickle>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>rhombus/256x256.png</MainTexture>
-        <MainTextureMask>rhombus/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
-  <Sound>
-    <SoundGroups>
-      <attack>actor/fauna/animal/elephant_attack.xml</attack>
-      <death>actor/fauna/animal/elephant_death.xml</death>
-      <order_attack>actor/fauna/animal/elephant_attack.xml</order_attack>
-      <order_walk>actor/fauna/animal/elephant_order.xml</order_walk>
-      <select>actor/fauna/animal/elephant_select.xml</select>
-      <trained>actor/fauna/animal/elephant_trained.xml</trained>
-    </SoundGroups>
-  </Sound>
-  <UnitAI>
-    <CanPatrol>false</CanPatrol>
-  </UnitAI>
-  <UnitMotion>
-    <PassabilityClass>large</PassabilityClass>
-    <Run>
-      <Speed>12</Speed>
-    </Run>
-    <WalkSpeed>6</WalkSpeed>
-  </UnitMotion>
-  <Vision>
-    <Range>60</Range>
-  </Vision>
   <VisualActor>
     <Actor>units/mauryans/support_elephant.xml</Actor>
   </VisualActor>

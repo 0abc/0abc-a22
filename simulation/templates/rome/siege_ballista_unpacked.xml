@@ -23,6 +23,6 @@
     <Range op="add">50</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/romans/siege_rock_pivot.xml</Actor>
+    <Actor>units/romans/siege_rock.xml</Actor>
   </VisualActor>
 </Entity>

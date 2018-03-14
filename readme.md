@@ -199,10 +199,10 @@ And it can currently be used for:
 * Infantry archers: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
 * Infantry longbowmen: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
 * Infantry slingers: 1.5× vs Infantry Archers, 0.125× vs Siege Weapons, Structures
-* Infantry javelinists: 1.25× vs all Archer units
+* Infantry javelinists: –
 * Infantry axe throwers: – 
 * Infantry axemen: 1.5× vs Elephantry
-* Infantry macemen: 1.5× vs Cavalry Cataphracts, 0.125× vs Structures
+* Infantry macemen: 0.125× vs Structures
 * Infantry sabremen: –
 * Infantry swordsmen: –
 * Infantry longswordsmen: –

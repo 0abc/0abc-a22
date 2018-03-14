@@ -43,9 +43,6 @@ Penalties: 0.125× vs Siege Weapons, Structures.</Tooltip>
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <Run>
-      <Speed>19</Speed>
-    </Run>
-    <WalkSpeed>12</WalkSpeed>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
 </Entity>

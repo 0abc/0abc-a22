@@ -22,7 +22,6 @@
   </Cost>
   <GarrisonHolder disable=""/>
   <Health>
-    <Max op="mul">1.2</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -33,9 +32,8 @@
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Loot>
-    <metal>10</metal>
-    <silver>20</silver>
-    <stone>10</stone>
+    <metal>20</metal>
+    <stone>20</stone>
   </Loot>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>

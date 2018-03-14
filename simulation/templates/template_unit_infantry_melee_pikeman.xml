@@ -47,9 +47,6 @@
     <VisibleClasses datatype="tokens">Pikeman</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <Run>
-      <Speed>12</Speed>
-    </Run>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed op="mul">0.8</WalkSpeed>
   </UnitMotion>
 </Entity>

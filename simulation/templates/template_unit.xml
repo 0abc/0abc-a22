@@ -121,8 +121,8 @@
     <PassabilityClass>default</PassabilityClass>
     <Run>
       <DecayTime>0.2</DecayTime>
-      <Range>50.0</Range>
-      <RangeMin>0.0</RangeMin>
+      <Range>500.0</Range>
+      <RangeMin>50.0</RangeMin>
       <RegenTime>0.1</RegenTime>
       <Speed>20.0</Speed>
     </Run>

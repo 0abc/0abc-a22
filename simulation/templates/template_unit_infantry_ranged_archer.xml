@@ -43,9 +43,6 @@ Penalties: 0.5× vs Elephants.</Tooltip>
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <Run>
-      <Speed>17</Speed>
-    </Run>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
   </UnitMotion>
 </Entity>

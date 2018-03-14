@@ -25,9 +25,6 @@
     <VisibleClasses datatype="tokens">Sabreman</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <Run>
-      <Speed>15</Speed>
-    </Run>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed op="mul">1.0</WalkSpeed>
   </UnitMotion>
 </Entity>

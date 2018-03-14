@@ -6,12 +6,6 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Bonuses>
-        <Archer>
-          <Classes>Archer</Classes>
-          <Multiplier>1.25</Multiplier>
-        </Archer>
-      </Bonuses>
       <MaxRange op="mul">2.0</MaxRange>
       <Pierce>10</Pierce>
       <PrepareTime>750</PrepareTime>
@@ -20,8 +14,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <metal op="add">5</metal>
-      <wood op="add">45</wood>
+      <metal op="add">10</metal>
+      <wood op="add">40</wood>
     </Resources>
   </Cost>
   <Health>
@@ -29,13 +23,9 @@
   </Health>
   <Identity>
     <GenericName>Javelinist</GenericName>
-    <Tooltip>Counters: 1.25× vs all Archers.</Tooltip>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <Run>
-      <Speed>20</Speed>
-    </Run>
-    <WalkSpeed>13</WalkSpeed>
+    <WalkSpeed op="mul">1.3</WalkSpeed>
   </UnitMotion>
 </Entity>

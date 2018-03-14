@@ -21,9 +21,6 @@
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <Run>
-      <Speed>14</Speed>
-    </Run>
-    <WalkSpeed>8</WalkSpeed>
+    <WalkSpeed op="mul">0.7</WalkSpeed>
   </UnitMotion>
 </Entity>

@@ -18,6 +18,6 @@
     <Range op="add">50</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/ptolemies/siege_spear_pivot.xml</Actor>
+    <Actor>units/ptolemies/siege_spear.xml</Actor>
   </VisualActor>
 </Entity>

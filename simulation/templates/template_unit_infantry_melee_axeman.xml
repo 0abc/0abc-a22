@@ -32,9 +32,6 @@
     <VisibleClasses datatype="tokens">Axeman</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <Run>
-      <Speed>15</Speed>
-    </Run>
-    <WalkSpeed>12</WalkSpeed>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
   </UnitMotion>
 </Entity>

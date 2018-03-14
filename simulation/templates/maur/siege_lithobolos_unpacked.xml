@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="sele/siege_lithobolos_packed">
+<Entity parent="maur/siege_lithobolos_packed">
   <Identity>
     <Icon>units/hele_mechanical_siege_lithobolos.png</Icon>
   </Identity>
   <Pack>
-    <Entity>sele/siege_lithobolos_packed</Entity>
+    <Entity>maur/siege_lithobolos_packed</Entity>
     <State>unpacked</State>
     <Time>12000</Time>
   </Pack>

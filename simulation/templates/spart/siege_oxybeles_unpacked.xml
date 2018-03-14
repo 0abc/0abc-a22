@@ -18,6 +18,6 @@
     <Range op="add">50</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/athenians/siege_spear_pivot.xml</Actor>
+    <Actor>units/athenians/siege_spear.xml</Actor>
   </VisualActor>
 </Entity>

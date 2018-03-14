@@ -23,9 +23,6 @@
     <VisibleClasses datatype="tokens">Axe</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <Run>
-      <Speed>16</Speed>
-    </Run>
-    <WalkSpeed>13</WalkSpeed>
+    <WalkSpeed op="mul">1.0</WalkSpeed>
   </UnitMotion>
 </Entity>

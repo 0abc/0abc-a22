@@ -29,9 +29,6 @@
     <VisibleClasses datatype="tokens">Halberdier</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <Run>
-      <Speed>15</Speed>
-    </Run>
-    <WalkSpeed>11</WalkSpeed>
+    <WalkSpeed op="mul">1.0</WalkSpeed>
   </UnitMotion>
 </Entity>

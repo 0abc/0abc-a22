@@ -14,8 +14,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      {civ}/infantry_hoplite_champion
-      {civ}/infantry_javelinist_champion
+      {civ}/infantry_spearman_veteran
+      {civ}/infantry_javelinist_veteran
       {civ}/chariot_scythed_champion
     </Entities>
   </ProductionQueue>

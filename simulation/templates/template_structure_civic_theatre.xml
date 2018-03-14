@@ -2,7 +2,6 @@
 <Entity parent="template_structure_civic">
   <Auras datatype="tokens">
     structures/theatre
-    structures/theatre_centre
   </Auras>
   <BuildRestrictions>
     <Category>Theatre</Category>

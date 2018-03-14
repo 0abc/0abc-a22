@@ -22,7 +22,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       {civ}/infantry_hoplite_champion
-      {civ}/infantry_archer_champion
+      {civ}/infantry_archer_veteran
     </Entities>
     <Technologies datatype="tokens">
       special/iphicratean_reforms

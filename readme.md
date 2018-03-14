@@ -245,16 +245,15 @@ And it can currently be used for:
 * Wonders each grant −10% unit training time
   * with “glorious expansion” researched: +10% maximum population limit
   * with “glorious expansion” researched: structures +10% territory influence radius
-* Theatres grant +5% worker gather rates once (non-stackable)
+* Theatres each grant +2% worker gather rates
 * Libraries each grant −10% structure construction time and −20% technology research time
 
 ### Civilization bonuses
 * Celtic (Britons, Gauls):
   * blacksmith technologies cost −20% resources and time;
-  * civic, economic, military, and resource structures have −20% health, capture points, and build time; cost 0 stone; temples cost +250 wood;
+  * civic, economic, military, and resource structures have −20% health, capture points, and build time; temples cost 0 stone but +250 wood;
   * economic structures grant +2 population bonus, military structures +4, temples +6;
   * walls have −20% health, capture points, build time, and stone and wood costs;
-  * druids (healers) have +20% walk speed, +4 crush, hack, and pierce armour levels, and two more auras (“Curse” and “Motivation”), but also cost +50 metal, +50 wood, and +100% training time;
   * naked fanatics (champion spearmen) have +15% attack damage and +30% walk speed, but also −4 armour levels.
 * Greek (Athenians, Macedonians, Spartans):
   * civic structures have +20% health and capture points.
@@ -272,7 +271,7 @@ And it can currently be used for:
   * market technologies cost −25% resources and time;
   * markets have −50% resource costs and construction time;
   * ships have +20 m vision range;
-  * traders have +5% gain;
+  * naval traders have +10% gain;
   * city walls have +20% health, capture points, build time, and stone and wood costs.
 * Gauls:
   * infantry spearmen have +10% melee attack damage.
@@ -291,6 +290,7 @@ And it can currently be used for:
   * no longer have +10% maximum population limit; 
   * structures +10% territory influence radius;
   * military structures −0.05 batch time multiplier;
+  * land traders have +10% gain;
   * battering rams have +50% wood cost, +50% maximum health, +4.0 garrison capacity, but also −20% movement speed.
 * Ptolemies:
   * barracks, blacksmiths, houses, and economic structures cost −100 wood but have +50% building time;
@@ -299,7 +299,6 @@ And it can currently be used for:
   * temple technologies cost −30% resources and time.
 * Romans:
   * barracks technologies cost −25% resources and time;
-  * infantry spearmen have +15% maximum health;
   * infantry swordsmen have +10% melee attack damage;
   * battering rams have +30% wood cost, +30% maximum health, +2.0 garrison capacity, but also −15% movement speed;
   * stone throwers have +20% crush damage, but also cost +50.0 stone.

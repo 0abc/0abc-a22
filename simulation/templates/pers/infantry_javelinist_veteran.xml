@@ -6,9 +6,9 @@
     <GenericName>Cardaces Skirmisher</GenericName>
     <Icon>units/pers_kardakes_skirmisher.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>pers/infantry_javelinist_champion</SelectionGroupName>
+    <SelectionGroupName>pers/infantry_javelinist_veteran</SelectionGroupName>
     <SpecificName>Peltastes Kardakes</SpecificName>
-    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Builder -Worker Veteran</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>pers/promoted/infantry_javelinist_champion_1</Entity>

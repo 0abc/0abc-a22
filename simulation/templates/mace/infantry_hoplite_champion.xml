@@ -3,12 +3,12 @@
   <Builder disable=""/>
   <Identity>
     <Civ>mace</Civ>
-    <GenericName>Macedonian Silver Shield</GenericName>
-    <Icon>units/macedonian_argyraspidai.png</Icon>
+    <GenericName>Macedonian Shield Bearer</GenericName>
+    <Icon>units/macedonian_hypaspist.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <SelectionGroupName>mace/infantry_hoplite_champion</SelectionGroupName>
-    <SpecificName>Hypaspistḗs Argyraspídi</SpecificName>
+    <SpecificName>Hypaspistḗs</SpecificName>
     <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
   </Identity>
   <Promotion>
@@ -24,6 +24,6 @@
     </Overlay>
   </Selectable>
   <VisualActor>
-    <Actor>units/macedonians/champion_infantry_e.xml</Actor>
+    <Actor>units/macedonians/champion_infantry_a.xml</Actor>
   </VisualActor>
 </Entity>

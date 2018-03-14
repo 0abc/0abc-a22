@@ -47,6 +47,10 @@
       {civ}/chariot_javelin_mercenary
       {civ}/chariot_threeman_mercenary
       {civ}/chariot_scythed_mercenary
+      {civ}/chariot_archer_veteran
+      {civ}/chariot_javelin_veteran
+      {civ}/chariot_threeman_veteran
+      {civ}/chariot_scythed_veteran
       {civ}/chariot_archer_champion
       {civ}/chariot_javelin_champion
       {civ}/chariot_threeman_champion

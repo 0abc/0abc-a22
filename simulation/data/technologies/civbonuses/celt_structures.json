@@ -10,16 +10,12 @@
     {"value": "Cost/PopulationBonus",     "add":        2, "affects": "Economic"},
     {"value": "Cost/PopulationBonus",     "add":        4, "affects": "Military"},
     {"value": "Cost/PopulationBonus",     "add":        6, "affects": "Temple"  },
-    {"value": "Cost/Resources/stone",     "replace":    0, "affects": "Economic"},
-    {"value": "Cost/Resources/stone",     "replace":    0, "affects": "Military"},
     {"value": "Cost/Resources/stone",     "replace":    0, "affects": "Temple"  },
     {"value": "Cost/Resources/wood",      "add":      250, "affects": "Temple"  },
     {"value": "Health/Max",               "multiply": 0.8                       },
-    {"value": "Loot/stone",               "replace":    0, "affects": "Economic"},
-    {"value": "Loot/stone",               "replace":    0, "affects": "Military"},
     {"value": "Loot/stone",               "replace":    0, "affects": "Temple"  },
     {"value": "Loot/wood",                "add":       50, "affects": "Temple"  }
   ],
   "requirements": {"any": [{"civ": "brit"}, {"civ": "gaul"}]},
-  "tooltip": "Celtic civic, economic, and military structures have −20% health, −20% build time, and require no stone. Economic structures grant +2 population bonus, military structures +4, temples +6."
+  "tooltip": "Celtic civic, economic, and military structures have −20% build time, capture points, and health. Temples cost no stone but +250 wood. Economic structures grant +2 population bonus, military structures +4, temples +6."
 }

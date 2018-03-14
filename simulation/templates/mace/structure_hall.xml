@@ -12,7 +12,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      {civ}/infantry_spearman_champion
       {civ}/infantry_hoplite_champion
       {civ}/cavalry_lancer_champion
     </Entities>

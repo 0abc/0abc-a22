@@ -7,9 +7,9 @@
     <Icon>units/mace_gastraphetes.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>mace/infantry_crossbowman_champion</SelectionGroupName>
+    <SelectionGroupName>mace/infantry_crossbowman_veteran</SelectionGroupName>
     <SpecificName>Gastraphétēs</SpecificName>
-    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Builder -Worker Veteran</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>mace/promoted/infantry_crossbowman_champion_1</Entity>

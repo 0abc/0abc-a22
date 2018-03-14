@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="sele/infantry_spearman_champion">
+<Entity parent="sele/infantry_spearman_veteran">
   <Identity>
     <Rank>1</Rank>
   </Identity>

@@ -42,7 +42,10 @@
       {civ}/camel_spearman
       {civ}/camel_archer_mercenary
       {civ}/camel_javelinist_mercenary
-      {civ}/camel_spearman_mercenary
+      {civ}/camel_spearman_mercenaryveteran
+      {civ}/camel_archer_veteran
+      {civ}/camel_javelinist_veteran
+      {civ}/camel_spearman_veteran
       {civ}/camel_archer_champion
       {civ}/camel_javelinist_champion
       {civ}/camel_spearman_champion

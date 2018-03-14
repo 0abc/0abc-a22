@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_javelinist">
+<Entity parent="template_unit_infantry_melee_spearman">
   <Builder disable=""/>
   <Identity>
     <Civ>mace</Civ>
-    <GenericName>Heavy Skirmisher</GenericName>
-    <Icon>units/mace_thureophoros.png</Icon>
+    <GenericName>Armoured Spearman</GenericName>
+    <Icon>units/mace_thorakites.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_metropolis</RequiredTechnology>
-    <SelectionGroupName>mace/infantry_javelinist_champion</SelectionGroupName>
-    <SpecificName>Thyreophóros</SpecificName>
-    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
+    <SelectionGroupName>mace/infantry_spearman_veteran</SelectionGroupName>
+    <SpecificName>Thōrakitēs</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Veteran</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>mace/promoted/infantry_javelinist_champion_1</Entity>
+    <Entity>mace/promoted/infantry_spearman_champion_1</Entity>
   </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>
@@ -24,6 +24,6 @@
     </Overlay>
   </Selectable>
   <VisualActor>
-    <Actor>units/macedonians/thureophoros.xml</Actor>
+    <Actor>units/macedonians/thorakites.xml</Actor>
   </VisualActor>
 </Entity>

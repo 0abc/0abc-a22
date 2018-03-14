@@ -1,9 +1,10 @@
 {
   "affects": ["Worker"],
-  "auraDescription": "Workers +5% gather work rate.",
+  "auraDescription": "Workers +2% gather work rate.",
   "auraName": "Happiness",
   "modifications": [
-    {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.05}
+    {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.02}
   ],
+  "stackable": true,
   "type": "global"
 }

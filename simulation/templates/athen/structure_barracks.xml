@@ -11,6 +11,12 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      {civ}/infantry_spearman_veteran
+      {civ}/infantry_javelinist_veteran
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/athenians/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

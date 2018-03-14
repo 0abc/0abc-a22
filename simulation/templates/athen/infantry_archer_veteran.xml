@@ -7,9 +7,9 @@
     <Icon>units/athen_champion_ranged.png</Icon>
     <Lang>greek</Lang>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>athen/infantry_archer_champion</SelectionGroupName>
+    <SelectionGroupName>athen/infantry_archer_veteran</SelectionGroupName>
     <SpecificName>Toxótēs Skythikós</SpecificName>
-    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Builder -Worker Veteran</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>athen/promoted/infantry_archer_champion_1</Entity>

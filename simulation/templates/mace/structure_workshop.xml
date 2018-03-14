@@ -6,7 +6,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      {civ}/infantry_crossbowman_champion
+      {civ}/infantry_crossbowman_veteran
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -6,9 +6,9 @@
     <GenericName>North African War Elephant</GenericName>
     <Icon>units/cart_champion_elephant.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>cart/elephant_champion</SelectionGroupName>
+    <SelectionGroupName>cart/elephant_veteran</SelectionGroupName>
     <SpecificName>Pil Malḥamit</SpecificName>
-    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Veteran</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>cart/promoted/elephant_champion_1</Entity>

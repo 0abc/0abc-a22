@@ -2,17 +2,16 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder disable=""/>
   <Identity>
-    <Civ>mace</Civ>
-    <GenericName>Macedonian Shield Bearer</GenericName>
-    <Icon>units/macedonian_hypaspist.png</Icon>
-    <Lang>greek</Lang>
+    <Civ>pers</Civ>
+    <GenericName>Cardaces Spearman</GenericName>
+    <Icon>units/pers_kardakes.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <SelectionGroupName>mace/infantry_spearman_champion</SelectionGroupName>
-    <SpecificName>Hypaspistḗs</SpecificName>
-    <VisibleClasses datatype="tokens">-Builder -Worker Champion</VisibleClasses>
+    <SelectionGroupName>pers/infantry_spearman_veteran</SelectionGroupName>
+    <SpecificName>Hoplites Kardakes</SpecificName>
+    <VisibleClasses datatype="tokens">-Builder -Worker Veteran</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>mace/promoted/infantry_spearman_champion_1</Entity>
+    <Entity>pers/promoted/infantry_hoplite_champion_1</Entity>
   </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>
@@ -24,6 +23,6 @@
     </Overlay>
   </Selectable>
   <VisualActor>
-    <Actor>units/macedonians/champion_infantry_a.xml</Actor>
+    <Actor>units/persians/kardakes_hoplite.xml</Actor>
   </VisualActor>
 </Entity>

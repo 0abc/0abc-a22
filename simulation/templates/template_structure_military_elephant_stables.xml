@@ -44,6 +44,8 @@
       {civ}/elephant_archer
       {civ}/elephant_mercenary
       {civ}/elephant_archer_mercenary
+      {civ}/elephant_veteran
+      {civ}/elephant_archer_veteran
       {civ}/elephant_champion
       {civ}/elephant_archer_champion
     </Entities>

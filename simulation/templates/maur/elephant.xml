@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_melee">
+  <Identity>
+    <Civ>maur</Civ>
+    <Classes datatype="tokens">CitizenSoldier</Classes>
+    <GenericName>Indian War Elephant</GenericName>
+    <Icon>units/maur_elephant.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>maur/elephant</SelectionGroupName>
+    <SpecificName>Gaja</SpecificName>
+    <VisibleClasses datatype="tokens">Citizen</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>maur/promoted/elephant_1</Entity>
+  </Promotion>
+  <ResourceGatherer disable=""/>
+  <VisualActor>
+    <Actor>units/mauryans/war_elephant.xml</Actor>
+  </VisualActor>
+</Entity>

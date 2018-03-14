@@ -28,11 +28,9 @@
       <wood op="add">50</wood>
     </Resources>
   </Cost>
-  <Health>
-    <Max op="mul">1.0</Max>
-  </Health>
   <Identity>
     <GenericName>War Elephant</GenericName>
     <Tooltip>Penalties: 0.125× vs Structures.</Tooltip>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
   </Identity>
 </Entity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="resourceCounts" size="0 32 116 244" sprite="genericPanel" type="image">
+<object name="resourceCounts" size="0 32 96 220" sprite="genericPanel" type="image">
   <repeat count="5">
-    <object name="resource[n]" size="0 4 108 40" type="image" style="resourceCounter" tooltip_style="sessionToolTipBold">
+    <object name="resource[n]" size="0 4 100% 36" type="image" style="resourceCounter" tooltip_style="sessionToolTipBold">
       <object size="0 0 32 32" type="image" name="resource[n]_icon" ghost="true"/>
       <object size="32 0 100%-4 100%-4" type="text" style="resourceText" name="resource[n]_count"/>
     </object>

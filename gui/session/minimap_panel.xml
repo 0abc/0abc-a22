@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object
   name="minimapPanel"
-  size="108 32 320 244"
+  size="100%-240 100%-240 100%+4 100%+4"
   type="image"
   sprite="mapPanel"
 >
@@ -28,5 +28,5 @@
   </object>
   <!-- Overlays -->
   <object name="minimapOverlay" size="4 4 100%-4 100%-4" type="image" sprite="stretched:session/minimap_circle_modern.png" ghost="true"/>
-  <object name="idleOverlay" z="100" size="100%-125 100%-125 100%-5 100%-5" type="image" sprite="stretched:session/minimap-idle.png" ghost="true"/>
+  <object name="idleOverlay" z="100" size="100%-140 100%-140 100%-5 100%-5" type="image" sprite="stretched:session/minimap-idle.png" ghost="true"/>
 </object>

@@ -9,7 +9,7 @@
     <Melee>
       <Bonuses>
         <Structures>
-          <Classes>Structure</Classes>
+          <Classes>Defensive</Classes>
           <Multiplier>2.0</Multiplier>
         </Structures>
       </Bonuses>
@@ -20,7 +20,7 @@
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Soldier Support</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">Field Organic</RestrictedClasses>
     </Melee>
   </Attack>
   <Cost>
@@ -46,7 +46,8 @@
   <Identity>
     <GenericName>Battering Ram</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Tooltip>Counters: 2.0× vs Structures.</Tooltip>
+    <Tooltip>Can not attack organic units or fields.
+Counters: 2.0× vs Walls, Towers, and Fortresses.</Tooltip>
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Loot>

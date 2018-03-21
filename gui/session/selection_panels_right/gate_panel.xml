@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="unitGatePanel" size="8 8 100% 100%">
+<object name="unitGatePanel" size="4 4 100%-4 100%-4">
   <object size="0 0 100% 100%">
-    <repeat count="8">
-      <object name="unitGateButton[n]" hidden="true" style="iconButton" type="button" size="0 0 34 36" tooltip_style="sessionToolTipBottom">
-        <object name="unitGateIcon[n]" type="image" ghost="true" size="1 2 33 34"/>
-        <object name="unitGateSelection[n]" hidden="true" type="image" ghost="true" size="1 2 33 34" sprite="stretched:session/icons/corners.png"/>
+    <repeat count="5">
+      <object name="unitGateButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottom">
+        <object name="unitGateIcon[n]" type="image" ghost="true" size="2 2 34 34"/>
+        <object name="unitGateSelection[n]" hidden="true" type="image" ghost="true" size="2 2 34 34" sprite="stretched:session/icons/corners.png"/>
       </object>
     </repeat>
   </object>

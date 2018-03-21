@@ -124,43 +124,42 @@
   <!-- Building placement info tooltip -->
   <object name="placementTooltip" type="tooltip" independent="true" style="informationTooltip"/>
 
-  <!-- START of BOTTOM PANEL -->
-  <!-- limit to the minimal supported width of 960px -->
-  <object size="50%-480 0 50%+480 100%">
+  <!-- limit to the minimal supported screen size of 960×720 pixels -->
 
-    <!-- Supplemental Details Panel (Left of Selection Details) -->
-    <object
-      size="50%-480 100%-240 50%-116 100%"
-      name="supplementalSelectionDetails"
-      type="image"
-      sprite="supplementalDetailsPanel"
-      z="20"
-    >
-      <include directory="gui/session/selection_panels_left/"/>
-    </object>
+  <!-- Supplemental Details Panel (Left of Selection Details) -->
+  <object
+    name="supplementalSelectionDetails"
+    size="-4 100%-688 188 100%-236"
+    sprite="supplementalDetailsPanel"
+    type="image"
+    z="20"
+  >
+    <include directory="gui/session/selection_panels_left/"/>
+  </object>
 
-    <!-- Selection Details Panel (Middle) -->
-    <object name="selectionDetails"
-      type="image"
-      sprite="selectionDetailsPanel"
-      size="50%-120 100%-240 50%+120 100%"
-      hidden="false"
-    >
-      <include directory="gui/session/selection_panels_middle/"/>
-    </object>
+  <!-- Selection Details Panel (Middle) -->
+  <object 
+    hidden="false"
+    name="selectionDetails"
+    sprite="selectionDetailsPanel"
+    size="-4 100%-240 240 100%+4"
+    type="image"
+  >
+    <include directory="gui/session/selection_panels_middle/"/>
+  </object>
 
-    <!-- Commands Panel (Right of Selection Details) -->
-    <object name="unitCommands"
-      type="image"
-      sprite="unitCommandsPanel"
-      size="50%+116 100%-240 50%+480 100%"
-      hidden="false"
-      z="20"
-    >
-      <include directory="gui/session/selection_panels_right/"/>
-    </object>
-  </object><!-- END OF BOTTOM PANEL -->
-</object> <!-- END OF SESSION OBJECT -->
+  <!-- Commands Panel (Right of Selection Details) -->
+  <object 
+    hidden="false"
+    name="unitCommands"
+    size="100%-188 100%-688 100%+4 100%-236"
+    sprite="unitCommandsPanel"
+    type="image"
+    z="20"
+  >
+    <include directory="gui/session/selection_panels_right/"/>
+  </object>
+</object>
 
 <!-- Selection bandbox -->
 <object name="bandbox" type="image" sprite="bandbox" ghost="true" hidden="true" z="200"/>

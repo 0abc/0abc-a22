@@ -3,6 +3,7 @@
   <Identity>
     <Civ>brit</Civ>
     <Icon>units/brit_war_dog.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SelectionGroupName>brit/war_dog</SelectionGroupName>
     <SpecificName>Coun</SpecificName>
   </Identity>

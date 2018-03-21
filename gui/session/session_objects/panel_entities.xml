@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object
   name="panelEntityPanel"
-  size="320 36 370 93"
+  size="224 36 274 93"
 >
   <!-- Displays buttons for the most important units like heroes and relics -->
   <repeat count="19" var="n">

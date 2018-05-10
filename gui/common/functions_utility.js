@@ -231,7 +231,7 @@ function horizontallySpaceObjects(parentName, margin=0)
 }
 
 /**
- * C\Vertically spaces objects within a parent
+ * Vertically spaces objects within a parent
  *
  * @param margin The gap, in px, between the objects
  */

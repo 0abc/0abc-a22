@@ -76,20 +76,6 @@
   </Obstruction>
   <OverlayRenderer/>
   <RangeVisualization/>
-  <ResourceGatherer>
-    <BaseSpeed>1.0</BaseSpeed>
-    <MaxDistance>2.0</MaxDistance>
-    <Rates>
-      <treasure>1</treasure>
-    </Rates>
-    <Capacities>
-      <food>10</food>
-      <metal>10</metal>
-      <silver>10</silver>
-      <stone>10</stone>
-      <wood>10</wood>
-    </Capacities>
-  </ResourceGatherer>
   <Selectable>
     <Overlay>
       <Texture>

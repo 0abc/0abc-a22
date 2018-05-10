@@ -31,7 +31,7 @@
     <Classes datatype="tokens">GarrisonTower</Classes>
     <GenericName>Sentry Tower</GenericName>
     <Icon>structures/sentry_tower.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SpecificName>Sentry Tower</SpecificName>
     <VisibleClasses datatype="tokens">SentryTower</VisibleClasses>
   </Identity>
@@ -42,7 +42,6 @@
   </Loot>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      tower_crenellations
       tower_murderholes
       tower_range
       tower_vision
@@ -60,7 +59,7 @@
         <stone>75</stone>
         <wood>75</wood>
       </Cost>
-      <RequiredTechnology>phase_city</RequiredTechnology>
+      <RequiredTechnology>phase_town</RequiredTechnology>
       <Time>100</Time>
       <Tooltip>Reinforce with stone and upgrade to a defence tower.</Tooltip>
     </Tower>

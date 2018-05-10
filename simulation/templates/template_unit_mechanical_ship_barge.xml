@@ -57,7 +57,6 @@
   <Loot>
     <xp op="mul">0.9</xp>
   </Loot>
-  <ResourceGatherer disable=""/>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

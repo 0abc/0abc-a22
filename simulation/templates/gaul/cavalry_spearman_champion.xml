@@ -12,7 +12,6 @@
   <Promotion>
     <Entity>gaul/promoted/cavalry_spearman_champion_1</Entity>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

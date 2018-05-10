@@ -39,7 +39,7 @@
       <food>100</food>
       <metal>100</metal>
       <silver>0</silver>
-      <stone>50</stone>
+      <stone>0</stone>
       <wood>200</wood>
     </Resources>
   </Cost>
@@ -58,11 +58,6 @@
     <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <metal>20</metal>
-    <silver>0</silver>
-    <stone>10</stone>
-    <wood>40</wood>
     <xp op="mul">3.0</xp>
   </Loot>
   <Sound>

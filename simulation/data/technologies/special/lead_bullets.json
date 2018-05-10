@@ -6,13 +6,11 @@
   "icon": "sling_bullets.png",
   "modifications": [
     {"value": "Attack/Ranged/Crush",    "multiply":  0.25},
-    {"value": "Attack/Ranged/MaxRange", "add":      30.0 },
-    {"value": "Cost/Resources/metal",   "add":      20.0 },
-    {"value": "Cost/Resources/stone",   "replace":   0   }
+    {"value": "Attack/Ranged/MaxRange", "add":      30.0 }
   ],
   "requirements": {"all": [{"tech": "phase_village"}, {"any": [{"civ": "athen"}, {"civ": "cart"}, {"civ": "mace"}, {"civ": "ptol"}, {"civ": "rome"}, {"civ": "spart"}]}]},
   "requirementsTooltip": "Unlocked in Village Phase.",
   "researchTime": 45,
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml",
-  "tooltip": "Slingers +30.0 m range, 0 stone cost, +20 metal cost, and −75% crush damage."
+  "tooltip": "Slingers +30.0 m range but −75% crush damage."
 }

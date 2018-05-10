@@ -50,11 +50,6 @@
     <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <metal>30</metal>
-    <silver>0</silver>
-    <stone>0</stone>
-    <wood>30</wood>
     <xp op="mul">2.0</xp>
   </Loot>
   <Sound>

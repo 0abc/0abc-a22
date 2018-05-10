@@ -13,7 +13,6 @@
   <Promotion>
     <Entity>mace/promoted/cavalry_javelinist_mercenary_1</Entity>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/macedonians/cavalry_javelinist_a.xml</Actor>
   </VisualActor>

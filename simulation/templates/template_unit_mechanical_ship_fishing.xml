@@ -51,12 +51,14 @@
   </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
+    <Capacities>
+      <food>50</food>
+    </Capacities>
+    <MaxDistance>6.0</MaxDistance>
     <Rates>
       <food.fish>1.5</food.fish>
       <food.meat>2.0</food.meat>
-      <treasure disable=""/>
     </Rates>
-    <MaxDistance>6.0</MaxDistance>
   </ResourceGatherer>
   <Selectable>
     <Overlay>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="unitGroupPanel" size="0 244 40 644">
+<object name="unitGroupPanel" size="0 220 40 620">
   <repeat count="10">
     <object name="unitGroupButton[n]" size="0 0 40 40" type="button" hidden="false" style="iconButton" tooltip_style="sessionToolTipBottomBold">
       <translatableAttribute id="tooltip">Click to select grouped units, double-click to focus the grouped units and right-click to disband the group.</translatableAttribute>

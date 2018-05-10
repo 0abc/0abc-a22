@@ -29,7 +29,7 @@
   </Attack>
   <Cost>
     <Resources>
-      <stone op="add">20</stone>
+      <metal op="add">20</metal>
       <wood op="add">30</wood>
     </Resources>
   </Cost>

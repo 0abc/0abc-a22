@@ -18,7 +18,7 @@
     <BuildTime>30</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>50</food>
+      <food>75</food>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -46,16 +46,6 @@
   <Promotion>
     <RequiredXp>150</RequiredXp>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>1.0</BaseSpeed>
-    <Capacities>
-      <food>30</food>
-    </Capacities>
-    <MaxDistance>2.0</MaxDistance>
-    <Rates>
-      <food.meat>2.0</food.meat>
-    </Rates>
-  </ResourceGatherer>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

@@ -18,7 +18,7 @@
     <BuildTime>25</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>40</food>
+      <food>60</food>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -33,7 +33,7 @@
     <Formations datatype="tokens">
       formations/wedge
     </Formations>
-    <GenericName>Camel Soldier</GenericName>
+    <GenericName>Camel</GenericName>
     <Rank>0</Rank>
     <VisibleClasses datatype="tokens">Soldier Camel</VisibleClasses>
   </Identity>
@@ -46,16 +46,6 @@
   <Promotion>
     <RequiredXp>125</RequiredXp>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>1.0</BaseSpeed>
-    <Capacities>
-      <food>40</food>
-    </Capacities>
-    <Rates>
-      <food.meat>1.8</food.meat>
-    </Rates>
-    <MaxDistance>2.0</MaxDistance>
-  </ResourceGatherer>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

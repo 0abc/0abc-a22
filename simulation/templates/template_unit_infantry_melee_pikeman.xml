@@ -6,27 +6,8 @@
   </Armour>
   <Attack>
     <Melee>
-      <Bonuses>
-        <Camelry>
-          <Classes>Camel</Classes>
-          <Multiplier>1.75</Multiplier>
-        </Camelry>
-        <Cavalry>
-          <Classes>Cavalry</Classes>
-          <Multiplier>1.5</Multiplier>
-        </Cavalry>
-        <Chariotry>
-          <Classes>Chariot</Classes>
-          <Multiplier>1.25</Multiplier>
-        </Chariotry>
-        <Elephantry>
-          <Classes>Elephant</Classes>
-          <Multiplier>2.0</Multiplier>
-        </Elephantry>
-      </Bonuses>
       <MaxRange op="mul">3.0</MaxRange>
       <Pierce>6</Pierce>
-      <PreferredClasses datatype="tokens">Camel Cavalry</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>
@@ -43,7 +24,6 @@
       formations/syntagma
     </Formations>
     <GenericName>Pikeman</GenericName>
-    <Tooltip>Counters: 1.25× vs Chariots, 1.5× vs Cavalry, 1.75× vs Camels, 2.0× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Pikeman</VisibleClasses>
   </Identity>
   <UnitMotion>

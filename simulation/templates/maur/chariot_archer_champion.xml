@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_chariot_biga_archer">
-  <Footprint replace="">
-    <Square width="5.5" depth="10.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Identity>
     <Civ>maur</Civ>
     <GenericName>War Chariot</GenericName>
@@ -16,7 +12,6 @@
   <Promotion>
     <Entity>maur/promoted/chariot_archer_champion_1</Entity>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

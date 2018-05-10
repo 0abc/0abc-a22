@@ -1,7 +1,7 @@
 {
   "Code": "cart",
   "Culture": "cart",
-  "Name": "Carthage",
+  "Name": "Carthaginians",
   "Emblem": "session/portraits/emblems/emblem_carthaginians.png",
   "History": "Carthage, a city-state in modern-day Tunisia, was a formidable force in the western Mediterranean, eventually taking over much of North Africa and modern-day Spain in the third century B.C. The sailors of Carthage were among the fiercest contenders on the high seas, and masters of naval trade. They deployed towered War Elephants on the battlefield to fearsome effect, and had defensive walls so strong, they were never breached.",
   "Music":[
@@ -92,7 +92,7 @@
       "Template": "cart/structure_civil_centre"
     },
     {
-      "Template": "cart/support_female",
+      "Template": "cart/support_woman",
       "Count": 5
     },
     {

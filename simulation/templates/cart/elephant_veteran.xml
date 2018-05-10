@@ -13,7 +13,6 @@
   <Promotion>
     <Entity>cart/promoted/elephant_champion_1</Entity>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

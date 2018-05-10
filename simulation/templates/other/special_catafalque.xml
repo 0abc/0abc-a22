@@ -26,7 +26,6 @@
   <Minimap>
     <Color r="148" g="0" b="211"/>
   </Minimap>
-  <ResourceGatherer disable=""/>
   <ResourceTrickle>
     <Interval>2000</Interval>
     <Rates>

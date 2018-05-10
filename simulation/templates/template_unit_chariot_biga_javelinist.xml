@@ -18,7 +18,7 @@
     <Max op="mul">1.35</Max>
   </Health>
   <Identity>
-    <GenericName>Citizen Chariot Javelinist</GenericName>
+    <GenericName>Chariot Javelinist</GenericName>
     <Tooltip>Causes trample damage.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Javelinist</VisibleClasses>

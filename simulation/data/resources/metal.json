@@ -5,7 +5,10 @@
   "name": "Metal",
   "order": 4,
   "subtypes": {
-    "ore": "Ore"
+    "ore": "Iron",
+    "copper": "Copper",
+    "lead": "Lead",
+    "tin": "Tin"
   },
   "truePrice": 100
 }

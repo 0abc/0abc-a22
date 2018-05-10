@@ -12,7 +12,6 @@
   <Promotion>
     <Entity>pers/promoted/cavalry_archer_champion_1</Entity>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

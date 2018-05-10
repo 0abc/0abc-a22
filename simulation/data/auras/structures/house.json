@@ -1,6 +1,6 @@
 {
-  "affects": ["Female"],
-  "auraDescription": "Females +1 crush, hack, and pierce armour.",
+  "affects": ["FemaleCitizen"],
+  "auraDescription": "Women +1 crush, hack, and pierce armour.",
   "auraName": "Shelter",
   "modifications": [
     {"value": "Armour/Crush",  "add": 1},

@@ -97,7 +97,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      {civ}/support_female
+      {civ}/support_woman
     </Entities>
     <Technologies datatype="tokens">
       phase_town

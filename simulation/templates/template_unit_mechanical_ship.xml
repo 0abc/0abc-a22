@@ -24,17 +24,6 @@
     <Floating>true</Floating>
     <TurnRate>3.0</TurnRate>
   </Position>
-  <ResourceGatherer>
-    <BaseSpeed>1.0</BaseSpeed>
-    <Capacities>
-      <food>50</food>
-      <metal>25</metal>
-      <silver>25</silver>
-      <stone>25</stone>
-      <wood>25</wood>
-    </Capacities>
-    <MaxDistance>4.0</MaxDistance>
-  </ResourceGatherer>
   <ResourceTrickle>
     <Interval>30000</Interval>
     <Rates>

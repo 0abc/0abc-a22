@@ -9,11 +9,11 @@
     <object name="queueTimeRemaining" ghost="true" style="iconButtonProgress" type="text"/>
   </object>
 
-  <object size="44 4 100%-4 100%-4">
+  <object size="48 8 100% 100%">
   <repeat count="60">
-    <object name="unitQueueButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottom">
-    <object name="unitQueueIcon[n]" ghost="true" type="image" size="2 2 34 34"/>
-    <object name="unitQueueProgressSlider[n]" type="image" sprite="queueProgressSlider" ghost="true" size="2 2 34 34" z="20"/>
+    <object name="unitQueueButton[n]" hidden="true" style="iconButton" type="button" size="0 0 34 36" tooltip_style="sessionToolTipBottom">
+    <object name="unitQueueIcon[n]" ghost="true" type="image" size="1 2 33 34"/>
+    <object name="unitQueueProgressSlider[n]" type="image" sprite="queueProgressSlider" ghost="true" size="1 2 33 34" z="20"/>
     <object name="unitQueueCount[n]" ghost="true" style="groupIconsText" type="text" z="20"/>
     </object>
   </repeat>

@@ -16,10 +16,9 @@
   </Identity>
   <Loot disable=""/>
   <Minimap>
-    <Type>food</Type>
     <Color r="227" g="130" b="141"/> <!--r="227" g="130" b="141"-->
+    <Type>food</Type>
   </Minimap>
-  <ResourceGatherer disable=""/>
   <UnitAI>
     <AlertReactiveLevel>99</AlertReactiveLevel>
     <CanGuard>false</CanGuard>

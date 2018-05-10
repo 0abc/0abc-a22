@@ -36,7 +36,7 @@ let g_SelectionPanels = {};
 g_SelectionPanels.Alert = {
   "getMaxNumberOfItems": function()
   {
-    return 5;
+    return 3;
   },
   "rowLength": 5,
   "getItems": function(unitEntStates)
@@ -235,7 +235,7 @@ g_SelectionPanels.Construction = {
   {
     return 60 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 5,
+  "rowLength": 10,
   "getItems": function()
   {
     return getAllBuildableEntitiesFromSelection();
@@ -357,9 +357,9 @@ g_SelectionPanels.Formation = {
 g_SelectionPanels.Garrison = {
   "getMaxNumberOfItems": function()
   {
-    return 10;
+    return 20;
   },
-  "rowLength": 5,
+  "rowLength": 4,
   "getItems": function(unitEntStates)
   {
     if (unitEntStates.every(state => !state.garrisonHolder))
@@ -427,7 +427,7 @@ g_SelectionPanels.Gate = {
   {
     return 60 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 5,
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     let gates = [];
@@ -487,7 +487,7 @@ g_SelectionPanels.Pack = {
   {
     return 60 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 5,
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     let checks = {};
@@ -573,7 +573,7 @@ g_SelectionPanels.Queue = {
   {
     return 60;
   },
-  "rowLength": 5,
+  "rowLength": 10,
   /**
    * Returns a list of all items in the productionqueue of the selection
    * The first entry of every entity's production queue will come before
@@ -665,9 +665,8 @@ g_SelectionPanels.Queue = {
 g_SelectionPanels.Research = {
   "getMaxNumberOfItems": function()
   {
-    return 10;
+    return 8;
   },
-  "rowLength": 5,
   "getItems": function(unitEntStates)
   {
     let ret = [];
@@ -862,7 +861,7 @@ g_SelectionPanels.Selection = {
   {
     return 20;
   },
-  "rowLength": 5,
+  "rowLength": 6,
   "getItems": function(unitEntStates)
   {
     if (unitEntStates.length < 2)
@@ -940,9 +939,8 @@ g_SelectionPanels.Selection = {
 g_SelectionPanels.Stance = {
   "getMaxNumberOfItems": function()
   {
-    return 5;
+    return 8;
   },
-  "rowLength": 5,
   "getItems": function(unitEntStates)
   {
     if (unitEntStates.some(state => !state.unitAI || !hasClass(state, "Unit") || hasClass(state, "Animal")))
@@ -974,7 +972,7 @@ g_SelectionPanels.Training = {
   {
     return 60 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 5,
+  "rowLength": 10,
   "getItems": function()
   {
     return getAllTrainableEntitiesFromSelection();
@@ -1071,7 +1069,7 @@ g_SelectionPanels.Upgrade = {
   {
     return 60 - getNumberOfRightPanelButtons();
   },
-  "rowLength": 5,
+  "rowLength": 10,
   "getItems": function(unitEntStates)
   {
     // Interface becomes complicated with multiple different units and this is meant per-entity, so prevent it if the selection has multiple different units.

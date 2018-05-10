@@ -9,7 +9,7 @@
     <Capture>
       <MaxRange>4</MaxRange>
       <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">Structure</RestrictedClasses>
       <Value>2</Value>
     </Capture>
     <Slaughter>
@@ -27,7 +27,7 @@
     <Formations datatype="tokens">
       formations/wedge
     </Formations>
-    <GenericName>Chariot Unit</GenericName>
+    <GenericName>Chariot</GenericName>
     <Rank>0</Rank>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">Soldier Chariot</VisibleClasses>
@@ -38,19 +38,6 @@
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
-  <Promotion>
-    <RequiredXp>180</RequiredXp>
-  </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>1.0</BaseSpeed>
-    <Capacities>
-      <food>60</food>
-    </Capacities>
-    <MaxDistance>5.0</MaxDistance>
-    <Rates>
-      <food.meat>3.6</food.meat>
-    </Rates>
-  </ResourceGatherer>
   <Selectable>
     <Overlay>
       <Texture>
@@ -74,6 +61,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range op="add">35</Range>
+    <Range op="add">30</Range>
   </Vision>
 </Entity>

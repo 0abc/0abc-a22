@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support_female">
+<Entity parent="template_unit_support_woman">
   <Identity>
     <Civ>gaul</Civ>
     <GenericName>Celtic Woman</GenericName>

@@ -17,7 +17,7 @@
     </Slaughter>
   </Attack>
   <Auras datatype="tokens">
-    units/female_inspiration
+    units/woman_inspiration
   </Auras>
   <Cost>
     <BuildTime op="mul">2.0</BuildTime>
@@ -32,14 +32,21 @@
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <Formations disable=""/>
     <Gender>female</Gender>
-    <GenericName>Female</GenericName>
-    <VisibleClasses datatype="tokens">Citizen Worker Female</VisibleClasses>
+    <GenericName>Woman</GenericName>
+    <VisibleClasses datatype="tokens">Worker</VisibleClasses>
   </Identity>
   <Loot>
     <silver>5</silver>
   </Loot>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
+    <Capacities>
+      <food>10</food>
+      <metal>10</metal>
+      <silver>10</silver>
+      <stone>10</stone>
+      <wood>10</wood>
+    </Capacities>
     <MaxDistance>2.0</MaxDistance>
     <Rates>
       <food.fish>0.6</food.fish>
@@ -49,6 +56,7 @@
       <metal.ore>0.2</metal.ore>
       <stone.rock>0.2</stone.rock>
       <stone.ruins>1.0</stone.ruins>
+      <treasure>1</treasure>
       <wood.ruins>2.5</wood.ruins>
       <wood.tree>0.5</wood.tree>
     </Rates>

@@ -19,7 +19,7 @@
 * A new resource: silver (see below)
 * Warships, mercenaries, champions, and several structures consume resources (see below)
 * Heroes and ships require 0 population
-* Females can no longer build, but can gather resources
+* Women can no longer build, but can gather resources
   * citizen soldiers and slaves can both build and gather resources
   * mercenary soldiers can build, but can no longer gather resources
   * champion soldiers can neither build nor gather resources
@@ -30,11 +30,8 @@
   * each rank grants +5% health, attack damage, and capture strength
 * Camelry, chariotry, and elephantry are now distinct classes, separate from cavalry; as a consequence, they no longer benefit from cavalry technologies
 * Cavalry, camels, and worker elephants can no longer be trained at the civic centre or crannog
-  * females can be trained at houses by default (no longer require a technology to be unlocked)
-* Loot resources are standardized to be equal to:
-  * 0: most units
-  * 20% of total costs: structures, siege weapons
-* Loot experience is standardized to be equal to:
+  * women can be trained at houses by default (no longer require a technology to be unlocked)
+* Loot resources are standardized to be equal to 20% of total costs for structures; units no longer grant loot
   * 0: fishing boat, merchant ship, support units, and most structures
   * 10% of maximum health: army camps, centres, fortresses, outposts, towers
   * 20% of maximum health: warships
@@ -53,7 +50,7 @@
   * palisades and outposts are available in village phase, 
    * outposts can be upgraded individually to sentry towers in town phase,
   * turf walls and sentry towers are available in town phase,
-   * sentry towers can be upgraded individually to defense towers in city phase,
+   * sentry towers can be upgraded individually to stone defence towers in city phase,
   * stone walls and stone towers are available in city phase; 
 * Phase advances no longer increase citizen soldier health nor metal gather rate
 * A third level of infantry and cavalry armoury researches is available; 
@@ -62,14 +59,22 @@
   as can centres, crannogs, docks, harbours, shipyards, and outposts (unchanged)
 * All units are bribable (espionage: temporarily reveal their vision range) 
 * Conquest critical are:
-  * all units except fauna, females, fishing boats, healers, merchant ships, slaves, and traders
+  * all units except fauna, women, fishing boats, healers, merchant ships, slaves, and traders
   * all military structures, centres, crannogs, fortresses, palaces, and wonders
 * Trade gain now depends on `x+x^1.5` (instead of `x^2`), with `x` the distance between markets
+
+### Soldier types
+* Infantry can attack anything, can capture, can build, can gather
+* War dogs can not attack elephants, ships, siege engines, or structures; can not capture, build, or gather
+* Cavalry can attack and capture; can not build or gather
+* Camelry can attack and capture; can not build or gather
+* Chariotry can not attack structures; can capture; can not build or gather
+* Elephantry can attack and capture; can not build or gather
 
 ### Selection markers
 * Catafalques and heroes are indicated by a star
 * Champions are indicated by an arrow
-* Economic units (females, slaves, support elephants, land traders, merchant ships, and fishing boats) are indicated by a rhombus
+* Economic units (women, slaves, support elephants, land traders, merchant ships, and fishing boats) are indicated by a rhombus
 * Healers are indicated by a cross
 * Other units are indicated by a circle
 
@@ -160,7 +165,7 @@ And it can currently be used for:
   * military structures −1.0 food per 7 seconds
 * Unit upkeep:
   * dogs: −0.01 food per 1 second
-  * infantry, females, healers, slaves: −0.02 food per 1 second
+  * infantry, women, healers, slaves: −0.02 food per 1 second
   * traders: −0.03 food per 1 second
   * camelry: −0.04 food per 1 second
   * cavalry: −0.05 food per 1 second
@@ -190,11 +195,10 @@ And it can currently be used for:
 * 2: cavalry, camels, bolt shooters
 * 3: worker elephants, stone throwers
 * 4: bigae (two-horsed chariots), battering rams
-* 5: three-man chariots
 * 6: quadrigae (four-horsed chariots), war elephants, siege towers
 
 ### Bonus attacks (counters and penalties)
-* War dogs: 0.75× vs Camelry, Cavalry, Chariotry, 0.5× vs Elephantry
+* War dogs: 0.75× vs Camelry, Cavalry, Chariotry
 * Infantry crossbowmen: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
 * Infantry archers: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
 * Infantry longbowmen: 1.5× vs Cavalry Archers, 0.5× vs Elephantry
@@ -206,10 +210,10 @@ And it can currently be used for:
 * Infantry sabremen: –
 * Infantry swordsmen: –
 * Infantry longswordsmen: –
-* Infantry halberdiers: 2.0× vs Cavalry
+* Infantry halberdiers: –
 * Infantry spearmen: –
 * Infantry hoplites: –
-* Infantry pikemen: 1.25× vs Chariotry, 1.5× vs Cavalry, 1.75× vs Camelry, 2.0× vs Elephantry
+* Infantry pikemen: –
 * Camel archers: 1.5× vs Support units, 0.5× vs Elephantry
 * Camel javelinists: 1.25× vs Cavalry
 * Camel spearmen: 1.5× vs Cavalry, 0.5× vs Elephantry
@@ -223,7 +227,6 @@ And it can currently be used for:
 * Cavalry lancers: 0.75× vs Camelry, Chariotry, 0.5× vs Elephantry
 * Archer biga chariots: 0.5× vs Elephantry
 * Javelin biga chariots: 0.5× vs Elephantry
-* Three-man biga chariots: 0.5× vs Elephantry
 * Scythed quadriga chariots: 0.5× vs Elephantry
 * Archer war elephants: 0.5× vs Elephantry
 * Melee war elephants: 0.125× vs Structures
@@ -281,7 +284,7 @@ And it can currently be used for:
   * cavalry lancers have +10% melee attack damage;
   * siege weapons have −20% construction time;
   * battering rams have +20% wood cost, +20% maximum health, +2.0 garrison capacity, but also −10% movement speed.
-* Mauryans:
+* Mauryas:
   * no longer have +10% maximum population limit;
   * soldiers −10% training time;
   * city walls have −20% health, capture points, and build time, cost no stone, but +200% wood;
@@ -293,7 +296,8 @@ And it can currently be used for:
   * land traders have +10% gain;
   * battering rams have +50% wood cost, +50% maximum health, +4.0 garrison capacity, but also −20% movement speed.
 * Ptolemies:
-  * barracks, blacksmiths, houses, and economic structures cost −100 wood but have +50% building time;
+  * houses, corrals, farmsteads, and storehouses cost no resources but have +100% build time; 
+  * blacksmiths, docks, markets, and military structures cost −50% wood but have +60% building time;
   * healers have +3 healing range;
   * battering rams have +20% wood cost, +20% maximum health, +2.0 garrison capacity, but also −10% movement speed;
   * temple technologies cost −30% resources and time.
@@ -307,7 +311,7 @@ And it can currently be used for:
   * battering rams have +20% wood cost, +20% maximum health, +2.0 garrison capacity, but also −10% movement speed.
 * Spartans:
   * no longer have −10% maximum population limit;
-  * females have +30% melee attack damage;
+  * women have +30% melee attack damage;
   * melee and ranged cavalry have a −10% attack damage penalty;
   * hoplites have +10% walk speed.
 

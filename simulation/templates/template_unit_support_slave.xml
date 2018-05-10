@@ -20,6 +20,13 @@
   </Identity>
   <ResourceGatherer>
     <BaseSpeed>1.0</BaseSpeed>
+    <Capacities>
+      <food>10</food>
+      <metal>10</metal>
+      <silver>10</silver>
+      <stone>10</stone>
+      <wood>10</wood>
+    </Capacities>
     <MaxDistance>2.0</MaxDistance>
     <Rates>
       <food.fish>0.5</food.fish>
@@ -31,7 +38,6 @@
       <stone.ruins>2.5</stone.ruins>
       <wood.ruins>5</wood.ruins>
       <wood.tree>1.0</wood.tree>
-      <treasure disable=""/>
     </Rates>
   </ResourceGatherer>
   <Selectable>

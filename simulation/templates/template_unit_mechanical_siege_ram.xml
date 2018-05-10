@@ -51,9 +51,6 @@ Counters: 2.0× vs Walls, Towers, and Fortresses.</Tooltip>
     <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
   </Identity>
   <Loot>
-    <food>20</food>
-    <metal>20</metal>
-    <wood>60</wood>
     <xp op="mul">4.0</xp>
   </Loot>
   <UnitMotion>

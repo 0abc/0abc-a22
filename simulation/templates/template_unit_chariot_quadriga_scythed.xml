@@ -20,7 +20,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">CompositeBow</Classes>
-    <GenericName>Citizen Scythed Chariot</GenericName>
+    <GenericName>Scythed Chariot</GenericName>
     <Tooltip>Causes trample damage.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>

@@ -32,9 +32,7 @@
     <Resources>
       <food>200</food>
       <metal>300</metal>
-      <silver>0</silver>
-      <stone>100</stone>
-      <wood>600</wood>
+      <wood>500</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -60,11 +58,6 @@
     <VisibleClasses datatype="tokens">Ranged SiegeTower</VisibleClasses>
   </Identity>
   <Loot>
-    <food>40</food>
-    <metal>60</metal>
-    <silver>0</silver>
-    <stone>20</stone>
-    <wood>120</wood>
     <xp op="mul">9.0</xp>
   </Loot>
   <StatusBars>

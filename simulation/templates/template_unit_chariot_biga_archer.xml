@@ -17,7 +17,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">CompositeBow</Classes>
-    <GenericName>Citizen Chariot Archer</GenericName>
+    <GenericName>Chariot Archer</GenericName>
     <Tooltip>Causes trample damage.
 Penalties: 0.5× vs Elephants.</Tooltip>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>

@@ -2,16 +2,9 @@
 <Entity parent="template_unit_infantry_melee">
   <Attack>
     <Melee>
-      <Bonuses>
-        <Cavalry>
-          <Classes>Cavalry</Classes>
-          <Multiplier>2.0</Multiplier>
-        </Cavalry>
-      </Bonuses>
       <Hack>3.0</Hack>
       <MaxRange op="mul">1.5</MaxRange>
       <Pierce>3.0</Pierce>
-      <PreferredClasses datatype="tokens">Cavalry Siege</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>
@@ -25,7 +18,6 @@
   </Health>
   <Identity>
     <GenericName>Halberdier</GenericName>
-    <Tooltip>Counters: 2.0× vs Cavalry.</Tooltip>
     <VisibleClasses datatype="tokens">Halberdier</VisibleClasses>
   </Identity>
   <UnitMotion>

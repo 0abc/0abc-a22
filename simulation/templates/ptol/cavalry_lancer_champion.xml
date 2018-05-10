@@ -11,7 +11,6 @@
   <Promotion>
     <Entity>ptol/promoted/cavalry_lancer_champion_1</Entity>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <Selectable>
     <Overlay>
       <Texture>

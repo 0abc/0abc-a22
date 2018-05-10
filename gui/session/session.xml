@@ -89,7 +89,7 @@
   </object>
 
   <!-- Chat messages -->
-  <object name="chatPanel" size="40 244 100% 100%-240" type="image" ghost="true" z="0" absolute="true">
+  <object name="chatPanel" size="40 220 100% 100%-220" type="image" ghost="true" z="0" absolute="true">
     <object name="chatText" size="3 1 100%-1 100%-1" type="text" style="chatPanelOverlay" ghost="true"/>
   </object>
 
@@ -106,30 +106,30 @@
   <include file="gui/session/chat_window.xml"/>
   <include file="gui/session/developer_overlay.xml"/>
   <include file="gui/session/diplomacy_window.xml"/>
+  <include file="gui/session/menu.xml"/>
   <include file="gui/session/minimap_panel.xml"/>
   <include file="gui/session/objectives_window.xml"/>
   <include file="gui/session/top_panel.xml"/>
   <include file="gui/session/trade_window.xml"/>
   <include file="gui/session/tutorial_panel.xml"/>
-  <include file="gui/session/menu.xml"/>
 
-  <!-- Contains miscellanious objects s.a.: the technology research -->
+  <!-- Contains miscellanious objects such as the technology research -->
   <!-- progress, group selection icons, and the hero selection icon -->
   <include directory="gui/session/session_objects/"/>
 
   <!-- Information tooltip -->
   <!-- Follows the mouse around if 'independent' is set to 'true'. -->
-  <object name="informationTooltip" type="tooltip" independent="true" style="informationTooltip"/>
+  <object independent="true" name="informationTooltip" style="informationTooltip" type="tooltip"/>
 
   <!-- Building placement info tooltip -->
-  <object name="placementTooltip" type="tooltip" independent="true" style="informationTooltip"/>
+  <object independent="true" name="placementTooltip" style="informationTooltip" type="tooltip"/>
 
   <!-- limit to the minimal supported screen size of 960×720 pixels -->
 
   <!-- Supplemental Details Panel (Left of Selection Details) -->
   <object
     name="supplementalSelectionDetails"
-    size="-4 100%-688 188 100%-236"
+    size="50%-480 100%-240 50%-116 100%"
     sprite="supplementalDetailsPanel"
     type="image"
     z="20"
@@ -141,8 +141,8 @@
   <object 
     hidden="false"
     name="selectionDetails"
+    size="50%-120 100%-240 50%+120 100%"
     sprite="selectionDetailsPanel"
-    size="-4 100%-240 240 100%+4"
     type="image"
   >
     <include directory="gui/session/selection_panels_middle/"/>
@@ -152,7 +152,7 @@
   <object 
     hidden="false"
     name="unitCommands"
-    size="100%-188 100%-688 100%+4 100%-236"
+    size="50%+116 100%-240 50%+480 100%"
     sprite="unitCommandsPanel"
     type="image"
     z="20"
@@ -162,6 +162,6 @@
 </object>
 
 <!-- Selection bandbox -->
-<object name="bandbox" type="image" sprite="bandbox" ghost="true" hidden="true" z="200"/>
+<object ghost="true" hidden="true" name="bandbox" sprite="bandbox" type="image" z="200"/>
 
 </objects>

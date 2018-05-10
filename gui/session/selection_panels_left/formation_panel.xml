@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<object name="unitFormationPanel" size="4 100%-184 100%-4 100%-40">
+<object name="unitFormationPanel" size="8 8 50% 100%">
   <object size="0 0 100% 100%">
     <repeat count="20">
       <object name="unitFormationButton[n]" hidden="true" style="iconButton" type="button" size="0 0 36 36" tooltip_style="sessionToolTipBottomBold" z="100">

@@ -34,7 +34,7 @@
     <Classes datatype="tokens">GarrisonTower</Classes>
     <GenericName>Defense Tower</GenericName>
     <Icon>structures/defense_tower.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">DefenseTower</VisibleClasses>
   </Identity>
   <Loot>
@@ -46,7 +46,6 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       tower_armour
-      tower_crenellations
       tower_murderholes
       tower_range
       tower_vision

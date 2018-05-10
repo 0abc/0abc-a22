@@ -13,7 +13,6 @@
   <Promotion>
     <Entity>sele/promoted/cavalry_archer_mercenary_1</Entity>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/seleucids/cavalry_archer_a.xml</Actor>
   </VisualActor>

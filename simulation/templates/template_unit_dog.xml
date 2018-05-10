@@ -20,18 +20,14 @@
           <Classes>Chariot</Classes>
           <Multiplier>0.75</Multiplier>
         </Chariotry>
-        <Elephantry>
-          <Classes>Elephant</Classes>
-          <Multiplier>0.5</Multiplier>
-        </Elephantry>
       </Bonuses>
       <Crush>0</Crush>
-      <Hack>4</Hack>
+      <Hack>0</Hack>
       <MaxRange>3</MaxRange>
-      <Pierce>4</Pierce>
+      <Pierce>5</Pierce>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Structure Ship Siege</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">Structure Ship Siege Elephant</RestrictedClasses>
     </Melee>
   </Attack>
   <Cost>
@@ -42,8 +38,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Circle radius="3.0"/>
-    <Height>3.0</Height>
+    <Circle radius="2.5"/>
+    <Height>2.5</Height>
   </Footprint>
   <Health>
     <Max op="mul">0.75</Max>
@@ -52,8 +48,8 @@
     <Classes datatype="tokens">Human Organic</Classes>
     <GenericName>War Dog</GenericName>
     <Rank>0</Rank>
-    <Tooltip>Cannot attack ships, siege weapons, nor structures.
-Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
+    <Tooltip>Cannot attack elephants, ships, siege weapons, nor structures.
+Penalties: 0.75× vs Camels, Cavalry, Chariots.</Tooltip>
     <VisibleClasses datatype="tokens">Soldier Dog Melee</VisibleClasses>
   </Identity>
   <Loot>
@@ -62,7 +58,6 @@ Penalties: 0.75× vs Camels, Cavalry, Chariots, 0.5× vs Elephants.</Tooltip>
   <Promotion>
     <RequiredXp>75</RequiredXp>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <ResourceTrickle>
     <Interval>1000</Interval>
     <Rates>

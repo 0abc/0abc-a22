@@ -1,5 +1,5 @@
 {
-  "affects": ["Female"],
+  "affects": ["FemaleCitizen"],
   "autoResearch": true,
   "description": "Spartan girls regularly trained in athletics and the use of weapons, making them better capable of defending themselves.",
   "genericName": "Spartan Women",
@@ -10,5 +10,5 @@
     {"value": "Attack/Melee/Pierce", "multiply": 1.3}
   ],
   "requirements": {"civ": "spart"},
-  "tooltip": "Females +30% attack damage."
+  "tooltip": "Women +30% attack damage."
 }

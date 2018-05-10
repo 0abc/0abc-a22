@@ -43,7 +43,6 @@
   </Identity>
   <Loot disable=""/>
   <Repairable disable=""/>
-  <ResourceGatherer disable=""/>
   <StatusBars>
     <BarWidth>6.0</BarWidth>
     <BarHeight>0.5</BarHeight>

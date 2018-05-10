@@ -1,10 +1,9 @@
 {
-  "affects": ["Citizen Soldier"],
-  "auraDescription": "Citizen soldiers +10% build and gather rate.",
+  "affects": ["Soldier"],
+  "auraDescription": "Soldiers +10% build rate.",
   "auraName": "Inspiration",
   "modifications": [
-    {"value": "Builder/Rate",               "multiply": 1.1},
-    {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.1}
+    {"value": "Builder/Rate", "multiply": 1.1}
   ],
   "overlayIcon": "art/textures/ui/session/auras/buildgather_bonus.png",
   "rangeOverlay" : {

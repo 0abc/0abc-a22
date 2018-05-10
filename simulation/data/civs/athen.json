@@ -1,7 +1,7 @@
 {
   "Code":"athen",
   "Culture":"hele",
-  "Name":"Athens",
+  "Name":"Athenians",
   "Emblem":"session/portraits/emblems/emblem_athenians.png",
   "History":"As the cradle of Western civilization and the birthplace of democracy, Athens was famed as a centre for the arts, learning and philosophy. The Athenians were also powerful warriors, particularly at sea. At its peak, Athens dominated a large part of the Hellenic world for several decades.",
   "Music":[
@@ -98,7 +98,7 @@
       "Template": "athen/structure_civil_centre"
     },
     {
-      "Template": "athen/support_female",
+      "Template": "athen/support_woman",
       "Count": 5
     },
     {

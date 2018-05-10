@@ -17,6 +17,7 @@
       <PrepareTime>500</PrepareTime>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Structure</RestrictedClasses>
       <Spread>1.0</Spread>
     </Ranged>
   </Attack>
@@ -30,13 +31,17 @@
     <BuildTime>35</BuildTime>
     <Population>4</Population>
     <Resources>
-      <food>100</food>
+      <food>150</food>
       <metal>0</metal>
       <silver>0</silver>
       <stone>0</stone>
       <wood>50</wood>
     </Resources>
   </Cost>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Square width="5.0" depth="10.0"/>
+  </Footprint>
   <Identity>
     <Classes datatype="tokens">Biga</Classes>
     <Formations datatype="tokens">

@@ -7,7 +7,7 @@
     <BuildTime op="mul">2.0</BuildTime>
     <Resources>
       <food>100</food>
-      <wood>200</wood>
+      <wood>300</wood>
     </Resources>
   </Cost>
   <Footprint>

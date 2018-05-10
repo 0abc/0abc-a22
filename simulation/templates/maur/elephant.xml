@@ -13,7 +13,6 @@
   <Promotion>
     <Entity>maur/promoted/elephant_1</Entity>
   </Promotion>
-  <ResourceGatherer disable=""/>
   <VisualActor>
     <Actor>units/mauryans/war_elephant.xml</Actor>
   </VisualActor>

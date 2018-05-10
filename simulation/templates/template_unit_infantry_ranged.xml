@@ -27,8 +27,6 @@
     <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
   </Identity>
   <ResourceGatherer>
-    <BaseSpeed>1.0</BaseSpeed>
-    <MaxDistance>2.0</MaxDistance>
     <Rates>
       <food.fish>0.75</food.fish>
       <food.fruit>0.5</food.fruit>

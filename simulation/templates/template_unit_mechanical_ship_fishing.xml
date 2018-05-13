@@ -29,9 +29,9 @@
   </Footprint>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Dog Female Healer Infantry Slave</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Healer Infantry Worker</EjectClassesOnDestroy>
     <EjectHealth>0</EjectHealth>
-    <List datatype="tokens">Dog Female Healer Infantry Slave</List>
+    <List datatype="tokens">Healer Infantry Worker</List>
     <LoadingRange>10</LoadingRange>
     <Max>1</Max>
     <Pickup>true</Pickup>

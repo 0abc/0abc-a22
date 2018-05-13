@@ -35,7 +35,7 @@
     <Square width="8.0" depth="7.0"/>
   </Footprint>
   <GarrisonHolder>
-    <List datatype="tokens">-Female -Healer -Slave Dog</List>
+    <List datatype="tokens">-Support Dog</List>
     <Max>5</Max>
   </GarrisonHolder>
   <Health>

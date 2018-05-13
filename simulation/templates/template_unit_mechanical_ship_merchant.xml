@@ -18,9 +18,9 @@
   </Cost>
   <GarrisonHolder>
     <BuffHeal>0</BuffHeal>
-    <EjectClassesOnDestroy datatype="tokens">Dog Female Healer Infantry Slave</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Healer Infantry Worker</EjectClassesOnDestroy>
     <EjectHealth>0</EjectHealth>
-    <List datatype="tokens">Human</List>
+    <List datatype="tokens">Infantry Support</List>
     <LoadingRange>10</LoadingRange>
     <Max>15</Max>
     <Pickup>true</Pickup>

@@ -46,14 +46,14 @@
 		{
 			"Name": "Player 6",
 			"Civ": "maur",
-			"Color": { "r": 255, "g": 0, "b": 255 },
+			"Color": { "r": 255, "g": 128, "b": 0 },
 			"AI": "petra",
 			"AIDiff": 5
 		},
 		{
 			"Name": "Player 7",
 			"Civ": "pers",
-			"Color": { "r": 255, "g": 128, "b": 0 },
+			"Color": { "r": 0, "g": 128, "b": 255 },
 			"AI": "petra",
 			"AIDiff": 5
 		},

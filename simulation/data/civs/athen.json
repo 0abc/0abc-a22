@@ -108,11 +108,8 @@
     {
       "Template": "athen/infantry_slinger",
       "Count": 2
-    },
-    {
-      "Template": "athen/promoted/cavalry_javelinist_1",
-      "Count": 1
     }
+
   ],
   "Formations":
   [

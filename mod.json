@@ -1,9 +1,9 @@
 {
     "name": "0abc",
-    "version": "0.0.22.103",
+    "version": "0.0.22.105",
     "label": "0 A.D. is Actually Before Christ.",
-    "url": "https://github.com/0abc/0abc-unified.git",
-    "description": "A modification of “0 A.D. Empires Ascendant”, changes many things, see 0abc-readme.pdf.",
+    "url": "https://github.com/0abc/0abc-a22.git",
+    "description": "A modification of “0 A.D. Empires Ascendant”, version 0.0.22 “Alpha XXII: Venustas”, changes many things, see 0abc-readme.pdf.",
     "dependencies": ["0ad=0.0.22"],
     "type": "mod"
 }

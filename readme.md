@@ -2,7 +2,7 @@
 **0abc** is a modification of “0 A.D. Empires Ascendant”, version 0.0.22 “Alpha XXII: Venustas”
 
 ## Instructions
-* Download the zip or `git clone` this repository (`https://github.com/0abc/0abc-unified.git`).
+* Download the zip or `git clone` this repository (`https://github.com/0abc/0abc-a22.git`).
 * Place it in your `/0ad/mods/` folder:
   * GNU/Linux (e.g. Fedora) typically: `~/.local/share/0ad/mods/`
   * Macintosh/Apple OS X typically: `~/Library/Application\Support/0ad/mods/`
